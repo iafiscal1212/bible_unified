@@ -1,0 +1,363 @@
+{
+  "start_node": "853",
+  "times": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "time_averaged": [
+    {
+      "lemma": "853",
+      "rank": 0,
+      "p_quantum": 0.00083057,
+      "p_classical": 0.03156324,
+      "delta_p": -0.03073267
+    },
+    {
+      "lemma": "3068",
+      "rank": 1,
+      "p_quantum": 0.00083096,
+      "p_classical": 0.02449318,
+      "delta_p": -0.02366222
+    },
+    {
+      "lemma": "5921a",
+      "rank": 2,
+      "p_quantum": 0.00082958,
+      "p_classical": 0.01981125,
+      "delta_p": -0.01898167
+    },
+    {
+      "lemma": "413",
+      "rank": 3,
+      "p_quantum": 0.0008295,
+      "p_classical": 0.01998661,
+      "delta_p": -0.01915711
+    },
+    {
+      "lemma": "3605",
+      "rank": 4,
+      "p_quantum": 0.00083054,
+      "p_classical": 0.0194248,
+      "delta_p": -0.01859426
+    },
+    {
+      "lemma": "559",
+      "rank": 5,
+      "p_quantum": 0.00083014,
+      "p_classical": 0.02077837,
+      "delta_p": -0.01994823
+    },
+    {
+      "lemma": "3808",
+      "rank": 6,
+      "p_quantum": 0.0008302,
+      "p_classical": 0.01753027,
+      "delta_p": -0.01670007
+    },
+    {
+      "lemma": "834a",
+      "rank": 7,
+      "p_quantum": 0.00083026,
+      "p_classical": 0.02069691,
+      "delta_p": -0.01986665
+    },
+    {
+      "lemma": "1121a",
+      "rank": 8,
+      "p_quantum": 0.00082903,
+      "p_classical": 0.01452375,
+      "delta_p": -0.01369473
+    },
+    {
+      "lemma": "l",
+      "rank": 9,
+      "p_quantum": 0.00082906,
+      "p_classical": 0.01664461,
+      "delta_p": -0.01581555
+    },
+    {
+      "lemma": "3588a",
+      "rank": 10,
+      "p_quantum": 0.0008306,
+      "p_classical": 0.0171691,
+      "delta_p": -0.0163385
+    },
+    {
+      "lemma": "1961",
+      "rank": 11,
+      "p_quantum": 0.00083045,
+      "p_classical": 0.01360278,
+      "delta_p": -0.01277233
+    },
+    {
+      "lemma": "6213a",
+      "rank": 12,
+      "p_quantum": 0.00083009,
+      "p_classical": 0.01049593,
+      "delta_p": -0.00966584
+    },
+    {
+      "lemma": "430",
+      "rank": 13,
+      "p_quantum": 0.00082999,
+      "p_classical": 0.01061311,
+      "delta_p": -0.00978312
+    },
+    {
+      "lemma": "935",
+      "rank": 14,
+      "p_quantum": 0.00082998,
+      "p_classical": 0.01100076,
+      "delta_p": -0.01017078
+    },
+    {
+      "lemma": "4428",
+      "rank": 15,
+      "p_quantum": 0.00082905,
+      "p_classical": 0.0093418,
+      "delta_p": -0.00851275
+    },
+    {
+      "lemma": "3478",
+      "rank": 16,
+      "p_quantum": 0.0008287,
+      "p_classical": 0.01101922,
+      "delta_p": -0.01019052
+    },
+    {
+      "lemma": "776",
+      "rank": 17,
+      "p_quantum": 0.00083149,
+      "p_classical": 0.00975193,
+      "delta_p": -0.00892043
+    },
+    {
+      "lemma": "3117",
+      "rank": 18,
+      "p_quantum": 0.0008292,
+      "p_classical": 0.00888833,
+      "delta_p": -0.00805914
+    },
+    {
+      "lemma": "376",
+      "rank": 19,
+      "p_quantum": 0.00082993,
+      "p_classical": 0.00880406,
+      "delta_p": -0.00797414
+    },
+    {
+      "lemma": "6440",
+      "rank": 20,
+      "p_quantum": 0.00082923,
+      "p_classical": 0.00855365,
+      "delta_p": -0.00772443
+    },
+    {
+      "lemma": "1004b",
+      "rank": 21,
+      "p_quantum": 0.00082852,
+      "p_classical": 0.00800829,
+      "delta_p": -0.00717977
+    },
+    {
+      "lemma": "5414",
+      "rank": 22,
+      "p_quantum": 0.00083088,
+      "p_classical": 0.00851111,
+      "delta_p": -0.00768023
+    },
+    {
+      "lemma": "1931",
+      "rank": 23,
+      "p_quantum": 0.00082937,
+      "p_classical": 0.00767722,
+      "delta_p": -0.00684785
+    },
+    {
+      "lemma": "5971a",
+      "rank": 24,
+      "p_quantum": 0.00083023,
+      "p_classical": 0.00768404,
+      "delta_p": -0.00685381
+    },
+    {
+      "lemma": "3027",
+      "rank": 25,
+      "p_quantum": 0.00083075,
+      "p_classical": 0.00666234,
+      "delta_p": -0.00583159
+    },
+    {
+      "lemma": "1697",
+      "rank": 26,
+      "p_quantum": 0.00082904,
+      "p_classical": 0.00601946,
+      "delta_p": -0.00519042
+    },
+    {
+      "lemma": "b",
+      "rank": 27,
+      "p_quantum": 0.00082894,
+      "p_classical": 0.00565428,
+      "delta_p": -0.00482534
+    },
+    {
+      "lemma": "7200",
+      "rank": 28,
+      "p_quantum": 0.00082941,
+      "p_classical": 0.00544239,
+      "delta_p": -0.00461298
+    },
+    {
+      "lemma": "5704",
+      "rank": 29,
+      "p_quantum": 0.00083172,
+      "p_classical": 0.00526743,
+      "delta_p": -0.00443571
+    },
+    {
+      "lemma": "4480a",
+      "rank": 30,
+      "p_quantum": 0.00083112,
+      "p_classical": 0.00492873,
+      "delta_p": -0.00409762
+    },
+    {
+      "lemma": "1",
+      "rank": 31,
+      "p_quantum": 0.00082913,
+      "p_classical": 0.00511494,
+      "delta_p": -0.00428581
+    },
+    {
+      "lemma": "2088",
+      "rank": 32,
+      "p_quantum": 0.00083002,
+      "p_classical": 0.00554994,
+      "delta_p": -0.00471992
+    },
+    {
+      "lemma": "8085",
+      "rank": 33,
+      "p_quantum": 0.00082929,
+      "p_classical": 0.00489181,
+      "delta_p": -0.00406253
+    },
+    {
+      "lemma": "1696",
+      "rank": 34,
+      "p_quantum": 0.00082935,
+      "p_classical": 0.0047634,
+      "delta_p": -0.00393405
+    },
+    {
+      "lemma": "5892b",
+      "rank": 35,
+      "p_quantum": 0.00082944,
+      "p_classical": 0.00436531,
+      "delta_p": -0.00353588
+    },
+    {
+      "lemma": "3427",
+      "rank": 36,
+      "p_quantum": 0.00083048,
+      "p_classical": 0.00446684,
+      "delta_p": -0.00363636
+    },
+    {
+      "lemma": "3318",
+      "rank": 37,
+      "p_quantum": 0.00082905,
+      "p_classical": 0.00449935,
+      "delta_p": -0.00367029
+    },
+    {
+      "lemma": "1732",
+      "rank": 38,
+      "p_quantum": 0.00083145,
+      "p_classical": 0.0042674,
+      "delta_p": -0.00343595
+    },
+    {
+      "lemma": "7725",
+      "rank": 39,
+      "p_quantum": 0.00083165,
+      "p_classical": 0.0043938,
+      "delta_p": -0.00356215
+    },
+    {
+      "lemma": "3212",
+      "rank": 40,
+      "p_quantum": 0.00082844,
+      "p_classical": 0.00444798,
+      "delta_p": -0.00361954
+    },
+    {
+      "lemma": "5973a",
+      "rank": 41,
+      "p_quantum": 0.00082754,
+      "p_classical": 0.00389539,
+      "delta_p": -0.00306785
+    },
+    {
+      "lemma": "259",
+      "rank": 42,
+      "p_quantum": 0.00083156,
+      "p_classical": 0.00314858,
+      "delta_p": -0.00231701
+    },
+    {
+      "lemma": "3947",
+      "rank": 43,
+      "p_quantum": 0.00083065,
+      "p_classical": 0.00416226,
+      "delta_p": -0.0033316
+    },
+    {
+      "lemma": "3045",
+      "rank": 44,
+      "p_quantum": 0.0008306,
+      "p_classical": 0.00395157,
+      "delta_p": -0.00312097
+    },
+    {
+      "lemma": "518a",
+      "rank": 45,
+      "p_quantum": 0.00083046,
+      "p_classical": 0.00355188,
+      "delta_p": -0.00272143
+    },
+    {
+      "lemma": "5927",
+      "rank": 46,
+      "p_quantum": 0.00082917,
+      "p_classical": 0.00384724,
+      "delta_p": -0.00301807
+    },
+    {
+      "lemma": "854",
+      "rank": 47,
+      "p_quantum": 0.000829,
+      "p_classical": 0.00376136,
+      "delta_p": -0.00293236
+    },
+    {
+      "lemma": "8141",
+      "rank": 48,
+      "p_quantum": 0.00083126,
+      "p_classical": 0.00279183,
+      "delta_p": -0.00196056
+    },
+    {
+      "lemma": "5869a",
+      "rank": 49,
+      "p_quantum": 0.00083002,
+      "p_classical": 0.00347323,
+      "delta_p": -0.00264321
+    }
+  ]
+}

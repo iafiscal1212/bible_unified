@@ -1,0 +1,20 @@
+{
+  "OT": {
+    "direct": 125959.88,
+    "classical_shannon": 104184.21,
+    "mps": 446938.28,
+    "best": "classical"
+  },
+  "NT": {
+    "direct": 46436.22,
+    "classical_shannon": 37255.83,
+    "mps": 169999.19,
+    "best": "classical"
+  },
+  "global": {
+    "direct": 182417.53,
+    "classical_shannon": 143471.83,
+    "mps": 610294.68,
+    "best": "classical"
+  }
+}

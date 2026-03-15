@@ -1,0 +1,33 @@
+{
+  "ot_vs_nt": {
+    "ot_mean_delta_s": -0.761583,
+    "ot_std_delta_s": 0.17174,
+    "nt_mean_delta_s": -1.10255,
+    "nt_std_delta_s": 0.13686,
+    "mannwhitney_U": 1009.0,
+    "mannwhitney_p": 0.0,
+    "significant": true
+  },
+  "by_genre": {
+    "narrative": {
+      "n_books": 38,
+      "mean_delta_s": -0.860927,
+      "std_delta_s": 0.19795
+    },
+    "legal": {
+      "n_books": 2,
+      "mean_delta_s": -0.814155,
+      "std_delta_s": 0.023002
+    },
+    "poetic": {
+      "n_books": 5,
+      "mean_delta_s": -0.514137,
+      "std_delta_s": 0.174439
+    },
+    "epistolar": {
+      "n_books": 21,
+      "mean_delta_s": -1.074111,
+      "std_delta_s": 0.140565
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "OT": {
+    "chi_900": {
+      "threshold": 0.9,
+      "bond_dimension": 1,
+      "variance_captured": 0.955095
+    },
+    "chi_950": {
+      "threshold": 0.95,
+      "bond_dimension": 1,
+      "variance_captured": 0.955095
+    },
+    "chi_990": {
+      "threshold": 0.99,
+      "bond_dimension": 122,
+      "variance_captured": 0.990008
+    },
+    "chi_999": {
+      "threshold": 0.999,
+      "bond_dimension": 239,
+      "variance_captured": 0.999031
+    }
+  },
+  "NT": {
+    "chi_900": {
+      "threshold": 0.9,
+      "bond_dimension": 141,
+      "variance_captured": 0.900022
+    },
+    "chi_950": {
+      "threshold": 0.95,
+      "bond_dimension": 190,
+      "variance_captured": 0.950734
+    },
+    "chi_990": {
+      "threshold": 0.99,
+      "bond_dimension": 239,
+      "variance_captured": 0.990329
+    },
+    "chi_999": {
+      "threshold": 0.999,
+      "bond_dimension": 254,
+      "variance_captured": 0.999077
+    }
+  },
+  "global": {
+    "chi_900": {
+      "threshold": 0.9,
+      "bond_dimension": 1,
+      "variance_captured": 0.963526
+    },
+    "chi_950": {
+      "threshold": 0.95,
+      "bond_dimension": 1,
+      "variance_captured": 0.963526
+    },
+    "chi_990": {
+      "threshold": 0.99,
+      "bond_dimension": 126,
+      "variance_captured": 0.990026
+    },
+    "chi_999": {
+      "threshold": 0.999,
+      "bond_dimension": 240,
+      "variance_captured": 0.999025
+    }
+  }
+}

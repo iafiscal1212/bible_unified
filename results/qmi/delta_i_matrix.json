@@ -1,0 +1,356 @@
+{
+  "top50_by_abs_delta": [
+    {
+      "book_a": "Job",
+      "book_b": "Titus",
+      "delta_i": 2.660829,
+      "quantum_mi": 2.660829,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Corinthians",
+      "delta_i": 2.651165,
+      "quantum_mi": 2.651165,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Philippians",
+      "delta_i": 2.607988,
+      "quantum_mi": 2.607988,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Timothy",
+      "delta_i": 2.593062,
+      "quantum_mi": 2.593062,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Philemon",
+      "delta_i": 2.583788,
+      "quantum_mi": 2.583788,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "2 Timothy",
+      "delta_i": 2.583277,
+      "quantum_mi": 2.583277,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "2 Corinthians",
+      "delta_i": 2.576202,
+      "quantum_mi": 2.576202,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Galatians",
+      "delta_i": 2.558792,
+      "quantum_mi": 2.558792,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Thessalonians",
+      "delta_i": 2.54135,
+      "quantum_mi": 2.54135,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Philemon",
+      "delta_i": 2.538924,
+      "quantum_mi": 2.640524,
+      "classical_mi": 0.1016
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Romans",
+      "delta_i": 2.525418,
+      "quantum_mi": 2.525418,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Peter",
+      "delta_i": 2.515986,
+      "quantum_mi": 2.515986,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Titus",
+      "delta_i": 2.51105,
+      "quantum_mi": 2.51105,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "Titus",
+      "delta_i": 2.506792,
+      "quantum_mi": 2.506792,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "Titus",
+      "delta_i": 2.503166,
+      "quantum_mi": 2.503166,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "James",
+      "delta_i": 2.494082,
+      "quantum_mi": 2.494082,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "1 Corinthians",
+      "delta_i": 2.485225,
+      "quantum_mi": 2.485225,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Titus",
+      "delta_i": 2.480401,
+      "quantum_mi": 2.717211,
+      "classical_mi": 0.23681
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "1 Corinthians",
+      "delta_i": 2.478252,
+      "quantum_mi": 2.478252,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "1 Corinthians",
+      "delta_i": 2.47123,
+      "quantum_mi": 2.47123,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Philippians",
+      "delta_i": 2.469499,
+      "quantum_mi": 2.469499,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "Philemon",
+      "delta_i": 2.453477,
+      "quantum_mi": 2.558997,
+      "classical_mi": 0.10552
+    },
+    {
+      "book_a": "Ecclesiastes",
+      "book_b": "Titus",
+      "delta_i": 2.453147,
+      "quantum_mi": 2.453147,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "Philippians",
+      "delta_i": 2.45184,
+      "quantum_mi": 2.45184,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "Philippians",
+      "delta_i": 2.450558,
+      "quantum_mi": 2.450558,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Philemon",
+      "delta_i": 2.445563,
+      "quantum_mi": 2.445563,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "1 Timothy",
+      "delta_i": 2.442239,
+      "quantum_mi": 2.442239,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "Philemon",
+      "delta_i": 2.439303,
+      "quantum_mi": 2.439303,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "Philemon",
+      "delta_i": 2.439196,
+      "quantum_mi": 2.611757,
+      "classical_mi": 0.172561
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "1 Timothy",
+      "delta_i": 2.438059,
+      "quantum_mi": 2.438059,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "2 Timothy",
+      "delta_i": 2.43549,
+      "quantum_mi": 2.43549,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Hebrews",
+      "delta_i": 2.433322,
+      "quantum_mi": 2.433322,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "2 Timothy",
+      "delta_i": 2.432248,
+      "quantum_mi": 2.432248,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "1 Timothy",
+      "delta_i": 2.429516,
+      "quantum_mi": 2.429516,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "Philemon",
+      "delta_i": 2.425713,
+      "quantum_mi": 2.425713,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "2 Corinthians",
+      "delta_i": 2.414628,
+      "quantum_mi": 2.414628,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Ecclesiastes",
+      "book_b": "1 Corinthians",
+      "delta_i": 2.412046,
+      "quantum_mi": 2.412046,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "2 Timothy",
+      "delta_i": 2.411202,
+      "quantum_mi": 2.411202,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "2 Corinthians",
+      "delta_i": 2.404214,
+      "quantum_mi": 2.404214,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "Galatians",
+      "delta_i": 2.403204,
+      "quantum_mi": 2.403204,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Ecclesiastes",
+      "book_b": "Philippians",
+      "delta_i": 2.398213,
+      "quantum_mi": 2.398213,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Galatians",
+      "delta_i": 2.397075,
+      "quantum_mi": 2.397075,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "2 Corinthians",
+      "delta_i": 2.393685,
+      "quantum_mi": 2.393685,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Romans",
+      "delta_i": 2.392033,
+      "quantum_mi": 2.392033,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "1 Thessalonians",
+      "delta_i": 2.387151,
+      "quantum_mi": 2.387151,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Proverbs",
+      "book_b": "Galatians",
+      "delta_i": 2.383601,
+      "quantum_mi": 2.383601,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Ephesians",
+      "delta_i": 2.383165,
+      "quantum_mi": 2.383165,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Daniel",
+      "book_b": "1 Thessalonians",
+      "delta_i": 2.382996,
+      "quantum_mi": 2.382996,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Song of Songs",
+      "book_b": "Titus",
+      "delta_i": 2.381682,
+      "quantum_mi": 2.381682,
+      "classical_mi": 0.0
+    },
+    {
+      "book_a": "Ecclesiastes",
+      "book_b": "1 Timothy",
+      "delta_i": 2.380977,
+      "quantum_mi": 2.380977,
+      "classical_mi": 0.0
+    }
+  ],
+  "mean_delta": 1.587144,
+  "std_delta": 0.594068
+}

@@ -1,0 +1,11 @@
+{
+  "quantum_network": {
+    "modularity_genre": 0.005944,
+    "modularity_corpus": 0.010883
+  },
+  "classical_network": {
+    "modularity_genre": 0.132095,
+    "modularity_corpus": 0.215096
+  },
+  "interpretation": "Higher modularity means the network's communities align better with the given partition (genre or corpus)."
+}

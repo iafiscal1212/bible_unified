@@ -1,0 +1,398 @@
+[
+  {
+    "book": "Genesis",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.586164
+  },
+  {
+    "book": "Exodus",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.612783
+  },
+  {
+    "book": "Leviticus",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.631328
+  },
+  {
+    "book": "Numbers",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.60249
+  },
+  {
+    "book": "Deuteronomy",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.616513
+  },
+  {
+    "book": "Joshua",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.664216
+  },
+  {
+    "book": "Judges",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.681798
+  },
+  {
+    "book": "Ruth",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.623336
+  },
+  {
+    "book": "1 Samuel",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.686379
+  },
+  {
+    "book": "2 Samuel",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.649654
+  },
+  {
+    "book": "1 Kings",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.651374
+  },
+  {
+    "book": "2 Kings",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.688239
+  },
+  {
+    "book": "1 Chronicles",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.647296
+  },
+  {
+    "book": "2 Chronicles",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.702943
+  },
+  {
+    "book": "Ezra",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.536421
+  },
+  {
+    "book": "Nehemiah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.570645
+  },
+  {
+    "book": "Esther",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.750284
+  },
+  {
+    "book": "Job",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.489361
+  },
+  {
+    "book": "Psalms",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.52002
+  },
+  {
+    "book": "Proverbs",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.513768
+  },
+  {
+    "book": "Ecclesiastes",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.564985
+  },
+  {
+    "book": "Song of Songs",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.543499
+  },
+  {
+    "book": "Isaiah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.602658
+  },
+  {
+    "book": "Jeremiah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.642589
+  },
+  {
+    "book": "Lamentations",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.589591
+  },
+  {
+    "book": "Ezekiel",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.612886
+  },
+  {
+    "book": "Daniel",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.529204
+  },
+  {
+    "book": "Hosea",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.586061
+  },
+  {
+    "book": "Joel",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.655742
+  },
+  {
+    "book": "Amos",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.647938
+  },
+  {
+    "book": "Obadiah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.646514
+  },
+  {
+    "book": "Jonah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.659802
+  },
+  {
+    "book": "Micah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.648306
+  },
+  {
+    "book": "Nahum",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.660059
+  },
+  {
+    "book": "Habakkuk",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.602992
+  },
+  {
+    "book": "Zephaniah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.635299
+  },
+  {
+    "book": "Haggai",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.59407
+  },
+  {
+    "book": "Zechariah",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.644706
+  },
+  {
+    "book": "Malachi",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.683655
+  },
+  {
+    "book": "Matthew",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.620838
+  },
+  {
+    "book": "Mark",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.62314
+  },
+  {
+    "book": "Luke",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.625199
+  },
+  {
+    "book": "John",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.651992
+  },
+  {
+    "book": "Acts",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.677851
+  },
+  {
+    "book": "Romans",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.565043
+  },
+  {
+    "book": "1 Corinthians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.529327
+  },
+  {
+    "book": "2 Corinthians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.549808
+  },
+  {
+    "book": "Galatians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.5553
+  },
+  {
+    "book": "Ephesians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.602916
+  },
+  {
+    "book": "Philippians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.537092
+  },
+  {
+    "book": "Colossians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.642688
+  },
+  {
+    "book": "1 Thessalonians",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.551811
+  },
+  {
+    "book": "2 Thessalonians",
+    "trace": 1.0,
+    "rank": 8,
+    "purity": 0.591732
+  },
+  {
+    "book": "1 Timothy",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.539412
+  },
+  {
+    "book": "2 Timothy",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.544856
+  },
+  {
+    "book": "Titus",
+    "trace": 1.0,
+    "rank": 8,
+    "purity": 0.506118
+  },
+  {
+    "book": "Philemon",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.510607
+  },
+  {
+    "book": "Hebrews",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.602951
+  },
+  {
+    "book": "James",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.582641
+  },
+  {
+    "book": "1 Peter",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.569328
+  },
+  {
+    "book": "2 Peter",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.667926
+  },
+  {
+    "book": "1 John",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.668695
+  },
+  {
+    "book": "2 John",
+    "trace": 1.0,
+    "rank": 8,
+    "purity": 0.616745
+  },
+  {
+    "book": "3 John",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.670973
+  },
+  {
+    "book": "Jude",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.633952
+  },
+  {
+    "book": "Revelation",
+    "trace": 1.0,
+    "rank": 9,
+    "purity": 0.685105
+  }
+]

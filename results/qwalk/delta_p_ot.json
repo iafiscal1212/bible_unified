@@ -1,0 +1,292 @@
+{
+  "top20_positive": [
+    {
+      "lemma": "477",
+      "rank": 672,
+      "delta_p": 0.00307263,
+      "p_quantum": 0.00335635,
+      "p_classical": 0.00028372
+    },
+    {
+      "lemma": "6659",
+      "rank": 721,
+      "delta_p": 0.00284284,
+      "p_quantum": 0.0030483,
+      "p_classical": 0.00020546
+    },
+    {
+      "lemma": "4376",
+      "rank": 503,
+      "delta_p": 0.00261971,
+      "p_quantum": 0.00292069,
+      "p_classical": 0.00030097
+    },
+    {
+      "lemma": "5381",
+      "rank": 748,
+      "delta_p": 0.00252265,
+      "p_quantum": 0.00274537,
+      "p_classical": 0.00022272
+    },
+    {
+      "lemma": "3448",
+      "rank": 891,
+      "delta_p": 0.00233927,
+      "p_quantum": 0.0025315,
+      "p_classical": 0.00019222
+    },
+    {
+      "lemma": "2850",
+      "rank": 772,
+      "delta_p": 0.00233438,
+      "p_quantum": 0.0025559,
+      "p_classical": 0.00022152
+    },
+    {
+      "lemma": "914",
+      "rank": 869,
+      "delta_p": 0.00219527,
+      "p_quantum": 0.00237746,
+      "p_classical": 0.00018219
+    },
+    {
+      "lemma": "3988a",
+      "rank": 543,
+      "delta_p": 0.00218383,
+      "p_quantum": 0.00247196,
+      "p_classical": 0.00028813
+    },
+    {
+      "lemma": "7167",
+      "rank": 619,
+      "delta_p": 0.00216339,
+      "p_quantum": 0.00244831,
+      "p_classical": 0.00028492
+    },
+    {
+      "lemma": "374",
+      "rank": 924,
+      "delta_p": 0.00215209,
+      "p_quantum": 0.00225362,
+      "p_classical": 0.00010153
+    },
+    {
+      "lemma": "7667",
+      "rank": 838,
+      "delta_p": 0.00203128,
+      "p_quantum": 0.0021609,
+      "p_classical": 0.00012962
+    },
+    {
+      "lemma": "8641",
+      "rank": 530,
+      "delta_p": 0.00199997,
+      "p_quantum": 0.00230415,
+      "p_classical": 0.00030418
+    },
+    {
+      "lemma": "2778a",
+      "rank": 950,
+      "delta_p": 0.00198213,
+      "p_quantum": 0.00213984,
+      "p_classical": 0.00015771
+    },
+    {
+      "lemma": "7198",
+      "rank": 527,
+      "delta_p": 0.00189703,
+      "p_quantum": 0.00217714,
+      "p_classical": 0.00028011
+    },
+    {
+      "lemma": "530",
+      "rank": 766,
+      "delta_p": 0.00188968,
+      "p_quantum": 0.002049,
+      "p_classical": 0.00015932
+    },
+    {
+      "lemma": "319",
+      "rank": 638,
+      "delta_p": 0.00185416,
+      "p_quantum": 0.00207608,
+      "p_classical": 0.00022192
+    },
+    {
+      "lemma": "1834",
+      "rank": 818,
+      "delta_p": 0.00183577,
+      "p_quantum": 0.00201796,
+      "p_classical": 0.00018219
+    },
+    {
+      "lemma": "3407",
+      "rank": 710,
+      "delta_p": 0.00182605,
+      "p_quantum": 0.00192878,
+      "p_classical": 0.00010273
+    },
+    {
+      "lemma": "6113",
+      "rank": 804,
+      "delta_p": 0.00181208,
+      "p_quantum": 0.00203199,
+      "p_classical": 0.00021991
+    },
+    {
+      "lemma": "7919a",
+      "rank": 626,
+      "delta_p": 0.00180079,
+      "p_quantum": 0.0020219,
+      "p_classical": 0.00022111
+    }
+  ],
+  "top20_negative": [
+    {
+      "lemma": "853",
+      "rank": 0,
+      "delta_p": -0.03073267,
+      "p_quantum": 0.00083057,
+      "p_classical": 0.03156324
+    },
+    {
+      "lemma": "3068",
+      "rank": 1,
+      "delta_p": -0.02366222,
+      "p_quantum": 0.00083096,
+      "p_classical": 0.02449318
+    },
+    {
+      "lemma": "559",
+      "rank": 5,
+      "delta_p": -0.01994823,
+      "p_quantum": 0.00083014,
+      "p_classical": 0.02077837
+    },
+    {
+      "lemma": "834a",
+      "rank": 7,
+      "delta_p": -0.01986665,
+      "p_quantum": 0.00083026,
+      "p_classical": 0.02069691
+    },
+    {
+      "lemma": "413",
+      "rank": 3,
+      "delta_p": -0.01915711,
+      "p_quantum": 0.0008295,
+      "p_classical": 0.01998661
+    },
+    {
+      "lemma": "5921a",
+      "rank": 2,
+      "delta_p": -0.01898167,
+      "p_quantum": 0.00082958,
+      "p_classical": 0.01981125
+    },
+    {
+      "lemma": "3605",
+      "rank": 4,
+      "delta_p": -0.01859426,
+      "p_quantum": 0.00083054,
+      "p_classical": 0.0194248
+    },
+    {
+      "lemma": "3808",
+      "rank": 6,
+      "delta_p": -0.01670007,
+      "p_quantum": 0.0008302,
+      "p_classical": 0.01753027
+    },
+    {
+      "lemma": "3588a",
+      "rank": 10,
+      "delta_p": -0.0163385,
+      "p_quantum": 0.0008306,
+      "p_classical": 0.0171691
+    },
+    {
+      "lemma": "l",
+      "rank": 9,
+      "delta_p": -0.01581555,
+      "p_quantum": 0.00082906,
+      "p_classical": 0.01664461
+    },
+    {
+      "lemma": "1121a",
+      "rank": 8,
+      "delta_p": -0.01369473,
+      "p_quantum": 0.00082903,
+      "p_classical": 0.01452375
+    },
+    {
+      "lemma": "1961",
+      "rank": 11,
+      "delta_p": -0.01277233,
+      "p_quantum": 0.00083045,
+      "p_classical": 0.01360278
+    },
+    {
+      "lemma": "3478",
+      "rank": 16,
+      "delta_p": -0.01019052,
+      "p_quantum": 0.0008287,
+      "p_classical": 0.01101922
+    },
+    {
+      "lemma": "935",
+      "rank": 14,
+      "delta_p": -0.01017078,
+      "p_quantum": 0.00082998,
+      "p_classical": 0.01100076
+    },
+    {
+      "lemma": "430",
+      "rank": 13,
+      "delta_p": -0.00978312,
+      "p_quantum": 0.00082999,
+      "p_classical": 0.01061311
+    },
+    {
+      "lemma": "6213a",
+      "rank": 12,
+      "delta_p": -0.00966584,
+      "p_quantum": 0.00083009,
+      "p_classical": 0.01049593
+    },
+    {
+      "lemma": "776",
+      "rank": 17,
+      "delta_p": -0.00892043,
+      "p_quantum": 0.00083149,
+      "p_classical": 0.00975193
+    },
+    {
+      "lemma": "4428",
+      "rank": 15,
+      "delta_p": -0.00851275,
+      "p_quantum": 0.00082905,
+      "p_classical": 0.0093418
+    },
+    {
+      "lemma": "3117",
+      "rank": 18,
+      "delta_p": -0.00805914,
+      "p_quantum": 0.0008292,
+      "p_classical": 0.00888833
+    },
+    {
+      "lemma": "376",
+      "rank": 19,
+      "delta_p": -0.00797414,
+      "p_quantum": 0.00082993,
+      "p_classical": 0.00880406
+    }
+  ],
+  "stats": {
+    "mean_abs_delta": 0.00115847,
+    "max_delta": 0.00307263,
+    "min_delta": -0.03073267,
+    "std_delta": 0.00257922
+  }
+}

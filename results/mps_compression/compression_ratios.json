@@ -1,0 +1,44 @@
+{
+  "OT": {
+    "n_verses": 23213,
+    "max_verse_length": 43,
+    "unique_lengths": 42,
+    "bond_dimension_chi": 122,
+    "shannon_entropy_bits": 4.4882,
+    "bits_direct": 125959.88,
+    "bits_classical": 104184.21,
+    "bits_mps": 446938.28,
+    "ratio_direct_vs_classical": 1.209,
+    "ratio_direct_vs_mps": 0.2818,
+    "ratio_classical_vs_mps": 0.2331,
+    "mps_more_compressible": false
+  },
+  "NT": {
+    "n_verses": 7927,
+    "max_verse_length": 58,
+    "unique_lengths": 50,
+    "bond_dimension_chi": 239,
+    "shannon_entropy_bits": 4.6999,
+    "bits_direct": 46436.22,
+    "bits_classical": 37255.83,
+    "bits_mps": 169999.19,
+    "ratio_direct_vs_classical": 1.2464,
+    "ratio_direct_vs_mps": 0.2732,
+    "ratio_classical_vs_mps": 0.2192,
+    "mps_more_compressible": false
+  },
+  "global": {
+    "n_verses": 31140,
+    "max_verse_length": 58,
+    "unique_lengths": 50,
+    "bond_dimension_chi": 126,
+    "shannon_entropy_bits": 4.6073,
+    "bits_direct": 182417.53,
+    "bits_classical": 143471.83,
+    "bits_mps": 610294.68,
+    "ratio_direct_vs_classical": 1.2715,
+    "ratio_direct_vs_mps": 0.2989,
+    "ratio_classical_vs_mps": 0.2351,
+    "mps_more_compressible": false
+  }
+}

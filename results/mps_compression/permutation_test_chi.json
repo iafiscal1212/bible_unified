@@ -1,0 +1,41 @@
+{
+  "OT": {
+    "chi_observed": 52,
+    "chi_permutation_mean": 64.0,
+    "chi_permutation_std": 0.02,
+    "chi_permutation_median": 64.0,
+    "chi_permutation_ci_95": [
+      64.0,
+      64.0
+    ],
+    "p_value": 0.0,
+    "significant": true,
+    "interpretation": "Real χ=52 is significantly lower than random (mean χ=64.0, p=0.0000). The corpus has more MPS-compressible structure than random."
+  },
+  "NT": {
+    "chi_observed": 63,
+    "chi_permutation_mean": 63.78,
+    "chi_permutation_std": 0.42,
+    "chi_permutation_median": 64.0,
+    "chi_permutation_ci_95": [
+      63.0,
+      64.0
+    ],
+    "p_value": 0.2231,
+    "significant": false,
+    "interpretation": "Real χ=63 is not significantly different than random (mean χ=63.8, p=0.2231). No evidence of extra MPS compressibility."
+  },
+  "global": {
+    "chi_observed": 53,
+    "chi_permutation_mean": 64.0,
+    "chi_permutation_std": 0.0,
+    "chi_permutation_median": 64.0,
+    "chi_permutation_ci_95": [
+      64.0,
+      64.0
+    ],
+    "p_value": 0.0,
+    "significant": true,
+    "interpretation": "Real χ=53 is significantly lower than random (mean χ=64.0, p=0.0000). The corpus has more MPS-compressible structure than random."
+  }
+}

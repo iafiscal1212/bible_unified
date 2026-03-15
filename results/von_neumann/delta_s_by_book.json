@@ -1,0 +1,1124 @@
+[
+  {
+    "book": "Genesis",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1533,
+    "n_words": 20629,
+    "s_von_neumann": 1.359228,
+    "s_shannon": 2.086931,
+    "delta_s": -0.727703,
+    "top3_eigenvalues": [
+      0.753555,
+      0.123212,
+      0.039056
+    ],
+    "zipf_s": 0.718868,
+    "vn_ratio": 0.626
+  },
+  {
+    "book": "Exodus",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1213,
+    "n_words": 16726,
+    "s_von_neumann": 1.293937,
+    "s_shannon": 2.054349,
+    "delta_s": -0.760412,
+    "top3_eigenvalues": [
+      0.774,
+      0.101286,
+      0.040376
+    ],
+    "zipf_s": 0.747452,
+    "vn_ratio": 0.5073
+  },
+  {
+    "book": "Leviticus",
+    "corpus": "OT",
+    "genre": "legal",
+    "n_verses": 859,
+    "n_words": 11955,
+    "s_von_neumann": 1.254071,
+    "s_shannon": 2.091228,
+    "delta_s": -0.837156,
+    "top3_eigenvalues": [
+      0.78742,
+      0.090773,
+      0.037086
+    ],
+    "zipf_s": 0.739585,
+    "vn_ratio": 0.5105
+  },
+  {
+    "book": "Numbers",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1289,
+    "n_words": 16422,
+    "s_von_neumann": 1.311873,
+    "s_shannon": 1.981567,
+    "delta_s": -0.669694,
+    "top3_eigenvalues": [
+      0.766981,
+      0.093691,
+      0.059847
+    ],
+    "zipf_s": 0.707055,
+    "vn_ratio": 0.3841
+  },
+  {
+    "book": "Deuteronomy",
+    "corpus": "OT",
+    "genre": "legal",
+    "n_verses": 959,
+    "n_words": 14320,
+    "s_von_neumann": 1.279657,
+    "s_shannon": 2.070809,
+    "delta_s": -0.791153,
+    "top3_eigenvalues": [
+      0.776346,
+      0.100725,
+      0.048397
+    ],
+    "zipf_s": 0.724673,
+    "vn_ratio": 0.631
+  },
+  {
+    "book": "Joshua",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 658,
+    "n_words": 10083,
+    "s_von_neumann": 1.119884,
+    "s_shannon": 1.9465,
+    "delta_s": -0.826616,
+    "top3_eigenvalues": [
+      0.807763,
+      0.098481,
+      0.031457
+    ],
+    "zipf_s": 0.722973,
+    "vn_ratio": 0.3799
+  },
+  {
+    "book": "Judges",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 618,
+    "n_words": 9905,
+    "s_von_neumann": 1.079445,
+    "s_shannon": 2.03669,
+    "delta_s": -0.957245,
+    "top3_eigenvalues": [
+      0.819591,
+      0.091437,
+      0.028245
+    ],
+    "zipf_s": 0.702145,
+    "vn_ratio": 0.6127
+  },
+  {
+    "book": "Ruth",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 85,
+    "n_words": 1306,
+    "s_von_neumann": 1.257356,
+    "s_shannon": 2.139887,
+    "delta_s": -0.882531,
+    "top3_eigenvalues": [
+      0.780224,
+      0.110791,
+      0.031676
+    ],
+    "zipf_s": 0.616228,
+    "vn_ratio": 1.1023
+  },
+  {
+    "book": "1 Samuel",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 811,
+    "n_words": 13335,
+    "s_von_neumann": 1.092888,
+    "s_shannon": 2.088368,
+    "delta_s": -0.995481,
+    "top3_eigenvalues": [
+      0.823525,
+      0.078865,
+      0.032019
+    ],
+    "zipf_s": 0.688066,
+    "vn_ratio": 0.6527
+  },
+  {
+    "book": "2 Samuel",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 695,
+    "n_words": 11130,
+    "s_von_neumann": 1.179281,
+    "s_shannon": 2.062947,
+    "delta_s": -0.883666,
+    "top3_eigenvalues": [
+      0.798455,
+      0.099147,
+      0.037943
+    ],
+    "zipf_s": 0.679514,
+    "vn_ratio": 0.5691
+  },
+  {
+    "book": "1 Kings",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 817,
+    "n_words": 13186,
+    "s_von_neumann": 1.171643,
+    "s_shannon": 2.064231,
+    "delta_s": -0.892588,
+    "top3_eigenvalues": [
+      0.799651,
+      0.098744,
+      0.030753
+    ],
+    "zipf_s": 0.688422,
+    "vn_ratio": 0.5231
+  },
+  {
+    "book": "2 Kings",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 719,
+    "n_words": 12354,
+    "s_von_neumann": 1.05954,
+    "s_shannon": 2.0126,
+    "delta_s": -0.95306,
+    "top3_eigenvalues": [
+      0.823868,
+      0.087632,
+      0.030627
+    ],
+    "zipf_s": 0.711125,
+    "vn_ratio": 0.5363
+  },
+  {
+    "book": "1 Chronicles",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 943,
+    "n_words": 10790,
+    "s_von_neumann": 1.183711,
+    "s_shannon": 1.750239,
+    "delta_s": -0.566528,
+    "top3_eigenvalues": [
+      0.798111,
+      0.072929,
+      0.059214
+    ],
+    "zipf_s": 0.817278,
+    "vn_ratio": 0.2197
+  },
+  {
+    "book": "2 Chronicles",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 822,
+    "n_words": 13354,
+    "s_von_neumann": 1.037114,
+    "s_shannon": 1.948292,
+    "delta_s": -0.911177,
+    "top3_eigenvalues": [
+      0.834204,
+      0.070897,
+      0.029928
+    ],
+    "zipf_s": 0.686399,
+    "vn_ratio": 0.415
+  },
+  {
+    "book": "Ezra",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 280,
+    "n_words": 3791,
+    "s_von_neumann": 1.447675,
+    "s_shannon": 2.063324,
+    "delta_s": -0.615649,
+    "top3_eigenvalues": [
+      0.71525,
+      0.126184,
+      0.083459
+    ],
+    "zipf_s": 0.712425,
+    "vn_ratio": 0.284
+  },
+  {
+    "book": "Nehemiah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 405,
+    "n_words": 5336,
+    "s_von_neumann": 1.335555,
+    "s_shannon": 1.923162,
+    "delta_s": -0.587607,
+    "top3_eigenvalues": [
+      0.740174,
+      0.127612,
+      0.074064
+    ],
+    "zipf_s": 0.69101,
+    "vn_ratio": 0.3414
+  },
+  {
+    "book": "Esther",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 167,
+    "n_words": 3057,
+    "s_von_neumann": 0.895077,
+    "s_shannon": 1.978725,
+    "delta_s": -1.083649,
+    "top3_eigenvalues": [
+      0.863493,
+      0.056588,
+      0.025444
+    ],
+    "zipf_s": 0.714132,
+    "vn_ratio": 0.4241
+  },
+  {
+    "book": "Job",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1070,
+    "n_words": 8399,
+    "s_von_neumann": 1.671679,
+    "s_shannon": 2.099205,
+    "delta_s": -0.427526,
+    "top3_eigenvalues": [
+      0.681546,
+      0.128027,
+      0.074358
+    ],
+    "zipf_s": 0.691728,
+    "vn_ratio": 0.8995
+  },
+  {
+    "book": "Psalms",
+    "corpus": "OT",
+    "genre": "poetic",
+    "n_verses": 2527,
+    "n_words": 19657,
+    "s_von_neumann": 1.538098,
+    "s_shannon": 1.898822,
+    "delta_s": -0.360724,
+    "top3_eigenvalues": [
+      0.703072,
+      0.136362,
+      0.074312
+    ],
+    "zipf_s": 0.685429,
+    "vn_ratio": 0.7035
+  },
+  {
+    "book": "Proverbs",
+    "corpus": "OT",
+    "genre": "poetic",
+    "n_verses": 915,
+    "n_words": 6984,
+    "s_von_neumann": 1.542654,
+    "s_shannon": 1.963245,
+    "delta_s": -0.420591,
+    "top3_eigenvalues": [
+      0.698462,
+      0.13542,
+      0.064668
+    ],
+    "zipf_s": 0.582741,
+    "vn_ratio": 0.6551
+  },
+  {
+    "book": "Ecclesiastes",
+    "corpus": "OT",
+    "genre": "poetic",
+    "n_verses": 222,
+    "n_words": 2999,
+    "s_von_neumann": 1.458311,
+    "s_shannon": 2.311104,
+    "delta_s": -0.852793,
+    "top3_eigenvalues": [
+      0.74106,
+      0.104435,
+      0.045924
+    ],
+    "zipf_s": 0.613838,
+    "vn_ratio": 0.7052
+  },
+  {
+    "book": "Song of Songs",
+    "corpus": "OT",
+    "genre": "poetic",
+    "n_verses": 117,
+    "n_words": 1255,
+    "s_von_neumann": 1.455554,
+    "s_shannon": 1.901863,
+    "delta_s": -0.446309,
+    "top3_eigenvalues": [
+      0.721183,
+      0.132022,
+      0.064693
+    ],
+    "zipf_s": 0.586076,
+    "vn_ratio": 0.5229
+  },
+  {
+    "book": "Isaiah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1291,
+    "n_words": 16988,
+    "s_von_neumann": 1.324179,
+    "s_shannon": 2.015773,
+    "delta_s": -0.691594,
+    "top3_eigenvalues": [
+      0.766908,
+      0.098772,
+      0.05959
+    ],
+    "zipf_s": 0.670465,
+    "vn_ratio": 0.7022
+  },
+  {
+    "book": "Jeremiah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1364,
+    "n_words": 21976,
+    "s_von_neumann": 1.206818,
+    "s_shannon": 2.083385,
+    "delta_s": -0.876568,
+    "top3_eigenvalues": [
+      0.794148,
+      0.095678,
+      0.040805
+    ],
+    "zipf_s": 0.702333,
+    "vn_ratio": 0.5819
+  },
+  {
+    "book": "Lamentations",
+    "corpus": "OT",
+    "genre": "poetic",
+    "n_verses": 154,
+    "n_words": 1564,
+    "s_von_neumann": 1.347942,
+    "s_shannon": 1.838211,
+    "delta_s": -0.49027,
+    "top3_eigenvalues": [
+      0.756911,
+      0.108594,
+      0.060912
+    ],
+    "zipf_s": 0.597213,
+    "vn_ratio": 0.8673
+  },
+  {
+    "book": "Ezekiel",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 1273,
+    "n_words": 18866,
+    "s_von_neumann": 1.284811,
+    "s_shannon": 2.045817,
+    "delta_s": -0.761006,
+    "top3_eigenvalues": [
+      0.773259,
+      0.108563,
+      0.044234
+    ],
+    "zipf_s": 0.674329,
+    "vn_ratio": 0.5705
+  },
+  {
+    "book": "Daniel",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 357,
+    "n_words": 6035,
+    "s_von_neumann": 1.541639,
+    "s_shannon": 2.246232,
+    "delta_s": -0.704593,
+    "top3_eigenvalues": [
+      0.713247,
+      0.114803,
+      0.065651
+    ],
+    "zipf_s": 0.671304,
+    "vn_ratio": 0.8462
+  },
+  {
+    "book": "Hosea",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 197,
+    "n_words": 2386,
+    "s_von_neumann": 1.328828,
+    "s_shannon": 1.999537,
+    "delta_s": -0.670708,
+    "top3_eigenvalues": [
+      0.75248,
+      0.124577,
+      0.056906
+    ],
+    "zipf_s": 0.634972,
+    "vn_ratio": 0.7197
+  },
+  {
+    "book": "Joel",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 73,
+    "n_words": 958,
+    "s_von_neumann": 1.145047,
+    "s_shannon": 1.966511,
+    "delta_s": -0.821464,
+    "top3_eigenvalues": [
+      0.802489,
+      0.092445,
+      0.050369
+    ],
+    "zipf_s": 0.595484,
+    "vn_ratio": 0.5903
+  },
+  {
+    "book": "Amos",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 146,
+    "n_words": 2045,
+    "s_von_neumann": 1.238145,
+    "s_shannon": 2.105251,
+    "delta_s": -0.867106,
+    "top3_eigenvalues": [
+      0.799764,
+      0.069675,
+      0.043004
+    ],
+    "zipf_s": 0.668567,
+    "vn_ratio": 0.5983
+  },
+  {
+    "book": "Obadiah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 21,
+    "n_words": 292,
+    "s_von_neumann": 1.172341,
+    "s_shannon": 1.956244,
+    "delta_s": -0.783903,
+    "top3_eigenvalues": [
+      0.796792,
+      0.088961,
+      0.050521
+    ],
+    "zipf_s": 0.529745,
+    "vn_ratio": 0.5085
+  },
+  {
+    "book": "Jonah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 48,
+    "n_words": 688,
+    "s_von_neumann": 1.153988,
+    "s_shannon": 2.10728,
+    "delta_s": -0.953292,
+    "top3_eigenvalues": [
+      0.806402,
+      0.077701,
+      0.043871
+    ],
+    "zipf_s": 0.634239,
+    "vn_ratio": 0.8636
+  },
+  {
+    "book": "Micah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 105,
+    "n_words": 1400,
+    "s_von_neumann": 1.176019,
+    "s_shannon": 2.00528,
+    "delta_s": -0.829261,
+    "top3_eigenvalues": [
+      0.797374,
+      0.099742,
+      0.041676
+    ],
+    "zipf_s": 0.59528,
+    "vn_ratio": 0.6736
+  },
+  {
+    "book": "Nahum",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 47,
+    "n_words": 562,
+    "s_von_neumann": 1.107893,
+    "s_shannon": 1.793923,
+    "delta_s": -0.68603,
+    "top3_eigenvalues": [
+      0.804332,
+      0.102395,
+      0.044341
+    ],
+    "zipf_s": 0.501125,
+    "vn_ratio": 0.6667
+  },
+  {
+    "book": "Habakkuk",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 56,
+    "n_words": 672,
+    "s_von_neumann": 1.274728,
+    "s_shannon": 1.994993,
+    "delta_s": -0.720264,
+    "top3_eigenvalues": [
+      0.764088,
+      0.125923,
+      0.050612
+    ],
+    "zipf_s": 0.576552,
+    "vn_ratio": 0.7835
+  },
+  {
+    "book": "Zephaniah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 53,
+    "n_words": 769,
+    "s_von_neumann": 1.235126,
+    "s_shannon": 1.984593,
+    "delta_s": -0.749467,
+    "top3_eigenvalues": [
+      0.789966,
+      0.088029,
+      0.045463
+    ],
+    "zipf_s": 0.655228,
+    "vn_ratio": 0.5061
+  },
+  {
+    "book": "Haggai",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 38,
+    "n_words": 601,
+    "s_von_neumann": 1.371448,
+    "s_shannon": 2.12648,
+    "delta_s": -0.755032,
+    "top3_eigenvalues": [
+      0.762191,
+      0.092541,
+      0.048478
+    ],
+    "zipf_s": 0.640622,
+    "vn_ratio": 0.4191
+  },
+  {
+    "book": "Zechariah",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 211,
+    "n_words": 3134,
+    "s_von_neumann": 1.204139,
+    "s_shannon": 2.093328,
+    "delta_s": -0.889189,
+    "top3_eigenvalues": [
+      0.795574,
+      0.097039,
+      0.034631
+    ],
+    "zipf_s": 0.683408,
+    "vn_ratio": 0.6254
+  },
+  {
+    "book": "Malachi",
+    "corpus": "OT",
+    "genre": "narrative",
+    "n_verses": 55,
+    "n_words": 876,
+    "s_von_neumann": 1.109019,
+    "s_shannon": 2.111147,
+    "delta_s": -1.002128,
+    "top3_eigenvalues": [
+      0.822164,
+      0.073116,
+      0.03756
+    ],
+    "zipf_s": 0.675102,
+    "vn_ratio": 0.7904
+  },
+  {
+    "book": "Matthew",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 1068,
+    "n_words": 18329,
+    "s_von_neumann": 1.336366,
+    "s_shannon": 2.477428,
+    "delta_s": -1.141061,
+    "top3_eigenvalues": [
+      0.782153,
+      0.07405,
+      0.035117
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.1276
+  },
+  {
+    "book": "Mark",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 673,
+    "n_words": 11286,
+    "s_von_neumann": 1.321604,
+    "s_shannon": 2.482833,
+    "delta_s": -1.161229,
+    "top3_eigenvalues": [
+      0.783513,
+      0.075571,
+      0.036526
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.3454
+  },
+  {
+    "book": "Luke",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 1149,
+    "n_words": 19446,
+    "s_von_neumann": 1.318534,
+    "s_shannon": 2.482037,
+    "delta_s": -1.163503,
+    "top3_eigenvalues": [
+      0.784984,
+      0.07448,
+      0.033762
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.2436
+  },
+  {
+    "book": "John",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 866,
+    "n_words": 15438,
+    "s_von_neumann": 1.229207,
+    "s_shannon": 2.476873,
+    "delta_s": -1.247665,
+    "top3_eigenvalues": [
+      0.802317,
+      0.075362,
+      0.032587
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.3679
+  },
+  {
+    "book": "Acts",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 1002,
+    "n_words": 18412,
+    "s_von_neumann": 1.160585,
+    "s_shannon": 2.431445,
+    "delta_s": -1.270859,
+    "top3_eigenvalues": [
+      0.819665,
+      0.057113,
+      0.031023
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.9767
+  },
+  {
+    "book": "Romans",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 430,
+    "n_words": 7055,
+    "s_von_neumann": 1.50287,
+    "s_shannon": 2.473371,
+    "delta_s": -0.970501,
+    "top3_eigenvalues": [
+      0.743529,
+      0.082648,
+      0.041583
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7014
+  },
+  {
+    "book": "1 Corinthians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 437,
+    "n_words": 6812,
+    "s_von_neumann": 1.627497,
+    "s_shannon": 2.548806,
+    "delta_s": -0.921309,
+    "top3_eigenvalues": [
+      0.718168,
+      0.080459,
+      0.047721
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.959
+  },
+  {
+    "book": "2 Corinthians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 256,
+    "n_words": 4473,
+    "s_von_neumann": 1.54122,
+    "s_shannon": 2.571111,
+    "delta_s": -1.029891,
+    "top3_eigenvalues": [
+      0.731613,
+      0.096733,
+      0.042335
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.8489
+  },
+  {
+    "book": "Galatians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 149,
+    "n_words": 2226,
+    "s_von_neumann": 1.528541,
+    "s_shannon": 2.510937,
+    "delta_s": -0.982396,
+    "top3_eigenvalues": [
+      0.736087,
+      0.090743,
+      0.042231
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7905
+  },
+  {
+    "book": "Ephesians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 155,
+    "n_words": 2416,
+    "s_von_neumann": 1.375762,
+    "s_shannon": 2.387476,
+    "delta_s": -1.011714,
+    "top3_eigenvalues": [
+      0.770081,
+      0.065385,
+      0.048077
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.5257
+  },
+  {
+    "book": "Philippians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 104,
+    "n_words": 1626,
+    "s_von_neumann": 1.577599,
+    "s_shannon": 2.563203,
+    "delta_s": -0.985605,
+    "top3_eigenvalues": [
+      0.722606,
+      0.094151,
+      0.048682
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7033
+  },
+  {
+    "book": "Colossians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 95,
+    "n_words": 1580,
+    "s_von_neumann": 1.256711,
+    "s_shannon": 2.41812,
+    "delta_s": -1.161409,
+    "top3_eigenvalues": [
+      0.796654,
+      0.06686,
+      0.038528
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.6082
+  },
+  {
+    "book": "1 Thessalonians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 89,
+    "n_words": 1473,
+    "s_von_neumann": 1.52465,
+    "s_shannon": 2.507032,
+    "delta_s": -0.982383,
+    "top3_eigenvalues": [
+      0.733519,
+      0.087277,
+      0.045591
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7666
+  },
+  {
+    "book": "2 Thessalonians",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 47,
+    "n_words": 820,
+    "s_von_neumann": 1.329268,
+    "s_shannon": 2.447391,
+    "delta_s": -1.118122,
+    "top3_eigenvalues": [
+      0.757735,
+      0.118849,
+      0.037888
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.602
+  },
+  {
+    "book": "1 Timothy",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 113,
+    "n_words": 1591,
+    "s_von_neumann": 1.548869,
+    "s_shannon": 2.511255,
+    "delta_s": -0.962386,
+    "top3_eigenvalues": [
+      0.723713,
+      0.086109,
+      0.072146
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.734
+  },
+  {
+    "book": "2 Timothy",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 83,
+    "n_words": 1235,
+    "s_von_neumann": 1.540657,
+    "s_shannon": 2.484462,
+    "delta_s": -0.943805,
+    "top3_eigenvalues": [
+      0.728244,
+      0.087207,
+      0.055583
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.729
+  },
+  {
+    "book": "Titus",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 46,
+    "n_words": 659,
+    "s_von_neumann": 1.624001,
+    "s_shannon": 2.522832,
+    "delta_s": -0.898831,
+    "top3_eigenvalues": [
+      0.697164,
+      0.098792,
+      0.081818
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7451
+  },
+  {
+    "book": "Philemon",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 25,
+    "n_words": 334,
+    "s_von_neumann": 1.580485,
+    "s_shannon": 2.527119,
+    "delta_s": -0.946634,
+    "top3_eigenvalues": [
+      0.696422,
+      0.141055,
+      0.051601
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.5432
+  },
+  {
+    "book": "Hebrews",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 303,
+    "n_words": 4935,
+    "s_von_neumann": 1.393508,
+    "s_shannon": 2.480034,
+    "delta_s": -1.086526,
+    "top3_eigenvalues": [
+      0.770534,
+      0.066776,
+      0.037669
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.7906
+  },
+  {
+    "book": "James",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 108,
+    "n_words": 1739,
+    "s_von_neumann": 1.45458,
+    "s_shannon": 2.526274,
+    "delta_s": -1.071694,
+    "top3_eigenvalues": [
+      0.756318,
+      0.067364,
+      0.053584
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.9423
+  },
+  {
+    "book": "1 Peter",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 105,
+    "n_words": 1678,
+    "s_von_neumann": 1.481334,
+    "s_shannon": 2.494978,
+    "delta_s": -1.013644,
+    "top3_eigenvalues": [
+      0.74681,
+      0.069928,
+      0.049237
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.6498
+  },
+  {
+    "book": "2 Peter",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 61,
+    "n_words": 1098,
+    "s_von_neumann": 1.18005,
+    "s_shannon": 2.478347,
+    "delta_s": -1.298298,
+    "top3_eigenvalues": [
+      0.813218,
+      0.058004,
+      0.036325
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.6455
+  },
+  {
+    "book": "1 John",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 105,
+    "n_words": 2137,
+    "s_von_neumann": 1.161021,
+    "s_shannon": 2.427961,
+    "delta_s": -1.26694,
+    "top3_eigenvalues": [
+      0.81292,
+      0.072675,
+      0.035135
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.1094
+  },
+  {
+    "book": "2 John",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 13,
+    "n_words": 245,
+    "s_von_neumann": 1.24987,
+    "s_shannon": 2.48412,
+    "delta_s": -1.23425,
+    "top3_eigenvalues": [
+      0.77654,
+      0.092237,
+      0.060498
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.96
+  },
+  {
+    "book": "3 John",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 15,
+    "n_words": 219,
+    "s_von_neumann": 1.112257,
+    "s_shannon": 2.522477,
+    "delta_s": -1.41022,
+    "top3_eigenvalues": [
+      0.813535,
+      0.077014,
+      0.04233
+    ],
+    "zipf_s": null,
+    "vn_ratio": 1.625
+  },
+  {
+    "book": "Jude",
+    "corpus": "NT",
+    "genre": "epistolar",
+    "n_verses": 25,
+    "n_words": 459,
+    "s_von_neumann": 1.217437,
+    "s_shannon": 2.477214,
+    "delta_s": -1.259777,
+    "top3_eigenvalues": [
+      0.788387,
+      0.092183,
+      0.051832
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.6911
+  },
+  {
+    "book": "Revelation",
+    "corpus": "NT",
+    "genre": "narrative",
+    "n_verses": 405,
+    "n_words": 9833,
+    "s_von_neumann": 1.135184,
+    "s_shannon": 2.363374,
+    "delta_s": -1.22819,
+    "top3_eigenvalues": [
+      0.824142,
+      0.054792,
+      0.037484
+    ],
+    "zipf_s": null,
+    "vn_ratio": 0.6695
+  }
+]

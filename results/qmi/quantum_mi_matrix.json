@@ -1,0 +1,258 @@
+{
+  "top50": [
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Titus",
+      "quantum_mi": 2.717211
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Philippians",
+      "quantum_mi": 2.691103
+    },
+    {
+      "book_a": "1 Timothy",
+      "book_b": "Titus",
+      "quantum_mi": 2.679082
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "1 Timothy",
+      "quantum_mi": 2.674274
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "Philippians",
+      "quantum_mi": 2.671689
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "Titus",
+      "quantum_mi": 2.667329
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Titus",
+      "quantum_mi": 2.660829
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Galatians",
+      "quantum_mi": 2.659619
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.659439
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "Philemon",
+      "quantum_mi": 2.653518
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Corinthians",
+      "quantum_mi": 2.651165
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Psalms",
+      "quantum_mi": 2.651031
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Proverbs",
+      "quantum_mi": 2.650957
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "2 Corinthians",
+      "quantum_mi": 2.647813
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.646225
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "Philemon",
+      "quantum_mi": 2.640524
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "James",
+      "quantum_mi": 2.638805
+    },
+    {
+      "book_a": "2 Timothy",
+      "book_b": "Titus",
+      "quantum_mi": 2.635197
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "1 Thessalonians",
+      "quantum_mi": 2.631325
+    },
+    {
+      "book_a": "Galatians",
+      "book_b": "Philippians",
+      "quantum_mi": 2.624402
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "1 Thessalonians",
+      "quantum_mi": 2.622199
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Daniel",
+      "quantum_mi": 2.622002
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "Philippians",
+      "quantum_mi": 2.621831
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "Titus",
+      "quantum_mi": 2.621286
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "Galatians",
+      "quantum_mi": 2.617394
+    },
+    {
+      "book_a": "Galatians",
+      "book_b": "Titus",
+      "quantum_mi": 2.616656
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "1 Thessalonians",
+      "quantum_mi": 2.616063
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "Philemon",
+      "quantum_mi": 2.611757
+    },
+    {
+      "book_a": "1 Thessalonians",
+      "book_b": "Titus",
+      "quantum_mi": 2.60878
+    },
+    {
+      "book_a": "1 Corinthians",
+      "book_b": "1 Peter",
+      "quantum_mi": 2.6087
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Philippians",
+      "quantum_mi": 2.607988
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "1 Corinthians",
+      "quantum_mi": 2.604745
+    },
+    {
+      "book_a": "Titus",
+      "book_b": "Philemon",
+      "quantum_mi": 2.604549
+    },
+    {
+      "book_a": "1 Thessalonians",
+      "book_b": "Philemon",
+      "quantum_mi": 2.603221
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "1 Timothy",
+      "quantum_mi": 2.601001
+    },
+    {
+      "book_a": "2 Corinthians",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.595802
+    },
+    {
+      "book_a": "Job",
+      "book_b": "1 Timothy",
+      "quantum_mi": 2.593062
+    },
+    {
+      "book_a": "Titus",
+      "book_b": "1 Peter",
+      "quantum_mi": 2.592269
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "Titus",
+      "quantum_mi": 2.590154
+    },
+    {
+      "book_a": "Philippians",
+      "book_b": "1 Peter",
+      "quantum_mi": 2.588272
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Philemon",
+      "quantum_mi": 2.583788
+    },
+    {
+      "book_a": "Job",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.583277
+    },
+    {
+      "book_a": "Galatians",
+      "book_b": "1 Thessalonians",
+      "quantum_mi": 2.579047
+    },
+    {
+      "book_a": "Job",
+      "book_b": "2 Corinthians",
+      "quantum_mi": 2.576202
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.575794
+    },
+    {
+      "book_a": "Galatians",
+      "book_b": "Philemon",
+      "quantum_mi": 2.573556
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "Galatians",
+      "quantum_mi": 2.571908
+    },
+    {
+      "book_a": "2 Timothy",
+      "book_b": "Philemon",
+      "quantum_mi": 2.57145
+    },
+    {
+      "book_a": "Galatians",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.570784
+    },
+    {
+      "book_a": "1 Thessalonians",
+      "book_b": "2 Timothy",
+      "quantum_mi": 2.56828
+    }
+  ],
+  "stats": {
+    "mean": 1.993767,
+    "max": 2.717211
+  }
+}

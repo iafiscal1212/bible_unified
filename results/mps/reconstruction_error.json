@@ -1,0 +1,17 @@
+{
+  "OT": {
+    "bond_dimension_used": 122,
+    "relative_frobenius_error": 0.09996113,
+    "original_frobenius_norm": 2468.5279
+  },
+  "NT": {
+    "bond_dimension_used": 239,
+    "relative_frobenius_error": 0.09833986,
+    "original_frobenius_norm": 1123.0893
+  },
+  "global": {
+    "bond_dimension_used": 126,
+    "relative_frobenius_error": 0.09986929,
+    "original_frobenius_norm": 2894.6921
+  }
+}

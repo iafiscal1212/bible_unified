@@ -1,0 +1,363 @@
+{
+  "start_node": "ὁ",
+  "times": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "time_averaged": [
+    {
+      "lemma": "ὁ",
+      "rank": 0,
+      "p_quantum": 0.00086804,
+      "p_classical": 0.06579939,
+      "delta_p": -0.06493135
+    },
+    {
+      "lemma": "καί",
+      "rank": 1,
+      "p_quantum": 0.00086781,
+      "p_classical": 0.04992771,
+      "delta_p": -0.0490599
+    },
+    {
+      "lemma": "αὐτός",
+      "rank": 2,
+      "p_quantum": 0.00086851,
+      "p_classical": 0.03724776,
+      "delta_p": -0.03637925
+    },
+    {
+      "lemma": "σύ",
+      "rank": 3,
+      "p_quantum": 0.00086672,
+      "p_classical": 0.02089069,
+      "delta_p": -0.02002397
+    },
+    {
+      "lemma": "δέ",
+      "rank": 4,
+      "p_quantum": 0.0008679,
+      "p_classical": 0.0235954,
+      "delta_p": -0.0227275
+    },
+    {
+      "lemma": "ἐν",
+      "rank": 5,
+      "p_quantum": 0.00086776,
+      "p_classical": 0.02152662,
+      "delta_p": -0.02065885
+    },
+    {
+      "lemma": "ἐγώ",
+      "rank": 6,
+      "p_quantum": 0.00086762,
+      "p_classical": 0.01910526,
+      "delta_p": -0.01823764
+    },
+    {
+      "lemma": "εἰμί",
+      "rank": 7,
+      "p_quantum": 0.00086778,
+      "p_classical": 0.02157733,
+      "delta_p": -0.02070956
+    },
+    {
+      "lemma": "λέγω",
+      "rank": 8,
+      "p_quantum": 0.00086929,
+      "p_classical": 0.02125615,
+      "delta_p": -0.02038686
+    },
+    {
+      "lemma": "εἰς",
+      "rank": 9,
+      "p_quantum": 0.00086876,
+      "p_classical": 0.01550461,
+      "delta_p": -0.01463585
+    },
+    {
+      "lemma": "οὐ",
+      "rank": 10,
+      "p_quantum": 0.00086849,
+      "p_classical": 0.01450402,
+      "delta_p": -0.01363553
+    },
+    {
+      "lemma": "ὅς",
+      "rank": 11,
+      "p_quantum": 0.00086848,
+      "p_classical": 0.01321928,
+      "delta_p": -0.0123508
+    },
+    {
+      "lemma": "οὗτος",
+      "rank": 12,
+      "p_quantum": 0.00086808,
+      "p_classical": 0.01337384,
+      "delta_p": -0.01250576
+    },
+    {
+      "lemma": "θεός",
+      "rank": 13,
+      "p_quantum": 0.00086707,
+      "p_classical": 0.01178241,
+      "delta_p": -0.01091534
+    },
+    {
+      "lemma": "ὅτι",
+      "rank": 14,
+      "p_quantum": 0.00086815,
+      "p_classical": 0.01273067,
+      "delta_p": -0.01186251
+    },
+    {
+      "lemma": "πᾶς",
+      "rank": 15,
+      "p_quantum": 0.00086853,
+      "p_classical": 0.0107126,
+      "delta_p": -0.00984407
+    },
+    {
+      "lemma": "γάρ",
+      "rank": 16,
+      "p_quantum": 0.00086817,
+      "p_classical": 0.00956631,
+      "delta_p": -0.00869814
+    },
+    {
+      "lemma": "μή",
+      "rank": 17,
+      "p_quantum": 0.00086824,
+      "p_classical": 0.00948662,
+      "delta_p": -0.00861838
+    },
+    {
+      "lemma": "ἐκ",
+      "rank": 18,
+      "p_quantum": 0.00086809,
+      "p_classical": 0.00806262,
+      "delta_p": -0.00719453
+    },
+    {
+      "lemma": "Ἰησοῦς",
+      "rank": 19,
+      "p_quantum": 0.00086861,
+      "p_classical": 0.00926203,
+      "delta_p": -0.00839342
+    },
+    {
+      "lemma": "ἐπί",
+      "rank": 20,
+      "p_quantum": 0.00086852,
+      "p_classical": 0.00838944,
+      "delta_p": -0.00752092
+    },
+    {
+      "lemma": "κύριος",
+      "rank": 21,
+      "p_quantum": 0.00086794,
+      "p_classical": 0.00663943,
+      "delta_p": -0.00577148
+    },
+    {
+      "lemma": "ἔχω",
+      "rank": 22,
+      "p_quantum": 0.00086723,
+      "p_classical": 0.00652995,
+      "delta_p": -0.00566272
+    },
+    {
+      "lemma": "πρός",
+      "rank": 23,
+      "p_quantum": 0.00086951,
+      "p_classical": 0.00688333,
+      "delta_p": -0.00601382
+    },
+    {
+      "lemma": "γίνομαι",
+      "rank": 24,
+      "p_quantum": 0.00086625,
+      "p_classical": 0.00632468,
+      "delta_p": -0.00545844
+    },
+    {
+      "lemma": "διά",
+      "rank": 25,
+      "p_quantum": 0.00086779,
+      "p_classical": 0.00617415,
+      "delta_p": -0.00530636
+    },
+    {
+      "lemma": "ἵνα",
+      "rank": 26,
+      "p_quantum": 0.00086701,
+      "p_classical": 0.00646958,
+      "delta_p": -0.00560257
+    },
+    {
+      "lemma": "ἀπό",
+      "rank": 27,
+      "p_quantum": 0.0008673,
+      "p_classical": 0.00646877,
+      "delta_p": -0.00560147
+    },
+    {
+      "lemma": "ἀλλά",
+      "rank": 28,
+      "p_quantum": 0.00086818,
+      "p_classical": 0.00631583,
+      "delta_p": -0.00544764
+    },
+    {
+      "lemma": "ἔρχομαι",
+      "rank": 29,
+      "p_quantum": 0.00086906,
+      "p_classical": 0.00641645,
+      "delta_p": -0.00554739
+    },
+    {
+      "lemma": "ποιέω",
+      "rank": 30,
+      "p_quantum": 0.00086752,
+      "p_classical": 0.00539252,
+      "delta_p": -0.004525
+    },
+    {
+      "lemma": "τίς",
+      "rank": 31,
+      "p_quantum": 0.00086661,
+      "p_classical": 0.0050496,
+      "delta_p": -0.00418299
+    },
+    {
+      "lemma": "ἄνθρωπος",
+      "rank": 32,
+      "p_quantum": 0.00086779,
+      "p_classical": 0.00515666,
+      "delta_p": -0.00428887
+    },
+    {
+      "lemma": "τις",
+      "rank": 33,
+      "p_quantum": 0.00086798,
+      "p_classical": 0.00501821,
+      "delta_p": -0.00415023
+    },
+    {
+      "lemma": "Χριστός",
+      "rank": 34,
+      "p_quantum": 0.00086429,
+      "p_classical": 0.00492081,
+      "delta_p": -0.00405652
+    },
+    {
+      "lemma": "ὡς",
+      "rank": 35,
+      "p_quantum": 0.00086805,
+      "p_classical": 0.004532,
+      "delta_p": -0.00366395
+    },
+    {
+      "lemma": "εἰ",
+      "rank": 36,
+      "p_quantum": 0.00086778,
+      "p_classical": 0.00479684,
+      "delta_p": -0.00392906
+    },
+    {
+      "lemma": "οὖν",
+      "rank": 37,
+      "p_quantum": 0.00086849,
+      "p_classical": 0.00481616,
+      "delta_p": -0.00394767
+    },
+    {
+      "lemma": "ὁράω",
+      "rank": 38,
+      "p_quantum": 0.00086899,
+      "p_classical": 0.00488539,
+      "delta_p": -0.0040164
+    },
+    {
+      "lemma": "μετά",
+      "rank": 39,
+      "p_quantum": 0.00086801,
+      "p_classical": 0.00474291,
+      "delta_p": -0.0038749
+    },
+    {
+      "lemma": "κατά",
+      "rank": 40,
+      "p_quantum": 0.00086683,
+      "p_classical": 0.00426717,
+      "delta_p": -0.00340034
+    },
+    {
+      "lemma": "ἀκούω",
+      "rank": 41,
+      "p_quantum": 0.00087191,
+      "p_classical": 0.00416011,
+      "delta_p": -0.0032882
+    },
+    {
+      "lemma": "πολύς",
+      "rank": 42,
+      "p_quantum": 0.00086706,
+      "p_classical": 0.00383973,
+      "delta_p": -0.00297267
+    },
+    {
+      "lemma": "δίδωμι",
+      "rank": 43,
+      "p_quantum": 0.00086717,
+      "p_classical": 0.00400716,
+      "delta_p": -0.00313999
+    },
+    {
+      "lemma": "πατήρ",
+      "rank": 44,
+      "p_quantum": 0.00086947,
+      "p_classical": 0.0039975,
+      "delta_p": -0.00312803
+    },
+    {
+      "lemma": "ἡμέρα",
+      "rank": 45,
+      "p_quantum": 0.00086525,
+      "p_classical": 0.00400877,
+      "delta_p": -0.00314353
+    },
+    {
+      "lemma": "πνεῦμα",
+      "rank": 46,
+      "p_quantum": 0.00086922,
+      "p_classical": 0.00359099,
+      "delta_p": -0.00272177
+    },
+    {
+      "lemma": "υἱός",
+      "rank": 47,
+      "p_quantum": 0.0008669,
+      "p_classical": 0.00378257,
+      "delta_p": -0.00291568
+    },
+    {
+      "lemma": "ἤ",
+      "rank": 48,
+      "p_quantum": 0.000869,
+      "p_classical": 0.00289469,
+      "delta_p": -0.00202569
+    },
+    {
+      "lemma": "ἀδελφός",
+      "rank": 49,
+      "p_quantum": 0.00086853,
+      "p_classical": 0.00334467,
+      "delta_p": -0.00247614
+    }
+  ]
+}

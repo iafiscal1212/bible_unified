@@ -1,0 +1,14 @@
+{
+  "delta_s_vs_zipf_s": {
+    "pearson_r": -0.1528,
+    "p_value": 0.353092,
+    "significant": false,
+    "n": 39
+  },
+  "delta_s_vs_vn_ratio": {
+    "pearson_r": -0.5004,
+    "p_value": 1.9e-05,
+    "significant": true,
+    "n": 66
+  }
+}

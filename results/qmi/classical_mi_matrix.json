@@ -1,0 +1,258 @@
+{
+  "top50": [
+    {
+      "book_a": "Psalms",
+      "book_b": "Isaiah",
+      "classical_mi": 2.376823
+    },
+    {
+      "book_a": "1 Kings",
+      "book_b": "2 Chronicles",
+      "classical_mi": 2.349671
+    },
+    {
+      "book_a": "Matthew",
+      "book_b": "Luke",
+      "classical_mi": 2.337728
+    },
+    {
+      "book_a": "1 Kings",
+      "book_b": "2 Kings",
+      "classical_mi": 2.283436
+    },
+    {
+      "book_a": "2 Kings",
+      "book_b": "2 Chronicles",
+      "classical_mi": 2.215022
+    },
+    {
+      "book_a": "1 Samuel",
+      "book_b": "2 Samuel",
+      "classical_mi": 2.204096
+    },
+    {
+      "book_a": "Isaiah",
+      "book_b": "Jeremiah",
+      "classical_mi": 2.165545
+    },
+    {
+      "book_a": "2 Samuel",
+      "book_b": "1 Kings",
+      "classical_mi": 2.071027
+    },
+    {
+      "book_a": "Judges",
+      "book_b": "2 Samuel",
+      "classical_mi": 2.070849
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "Numbers",
+      "classical_mi": 2.062053
+    },
+    {
+      "book_a": "Luke",
+      "book_b": "Acts",
+      "classical_mi": 2.033326
+    },
+    {
+      "book_a": "Matthew",
+      "book_b": "Mark",
+      "classical_mi": 2.021719
+    },
+    {
+      "book_a": "1 Samuel",
+      "book_b": "1 Kings",
+      "classical_mi": 2.017315
+    },
+    {
+      "book_a": "Judges",
+      "book_b": "1 Samuel",
+      "classical_mi": 2.004759
+    },
+    {
+      "book_a": "2 Samuel",
+      "book_b": "2 Kings",
+      "classical_mi": 2.001787
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "Isaiah",
+      "classical_mi": 1.983955
+    },
+    {
+      "book_a": "Isaiah",
+      "book_b": "Ezekiel",
+      "classical_mi": 1.979509
+    },
+    {
+      "book_a": "Jeremiah",
+      "book_b": "Ezekiel",
+      "classical_mi": 1.969957
+    },
+    {
+      "book_a": "1 Samuel",
+      "book_b": "2 Kings",
+      "classical_mi": 1.957268
+    },
+    {
+      "book_a": "Joshua",
+      "book_b": "Judges",
+      "classical_mi": 1.938796
+    },
+    {
+      "book_a": "Judges",
+      "book_b": "2 Kings",
+      "classical_mi": 1.913961
+    },
+    {
+      "book_a": "Judges",
+      "book_b": "1 Kings",
+      "classical_mi": 1.891129
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "1 Kings",
+      "classical_mi": 1.891065
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "Jeremiah",
+      "classical_mi": 1.882088
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "Ezekiel",
+      "classical_mi": 1.873287
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "Deuteronomy",
+      "classical_mi": 1.86866
+    },
+    {
+      "book_a": "Psalms",
+      "book_b": "Jeremiah",
+      "classical_mi": 1.861647
+    },
+    {
+      "book_a": "Mark",
+      "book_b": "Luke",
+      "classical_mi": 1.853875
+    },
+    {
+      "book_a": "2 Samuel",
+      "book_b": "2 Chronicles",
+      "classical_mi": 1.846065
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "Psalms",
+      "classical_mi": 1.844895
+    },
+    {
+      "book_a": "Genesis",
+      "book_b": "Jeremiah",
+      "classical_mi": 1.840959
+    },
+    {
+      "book_a": "Matthew",
+      "book_b": "Acts",
+      "classical_mi": 1.839295
+    },
+    {
+      "book_a": "Genesis",
+      "book_b": "Exodus",
+      "classical_mi": 1.821922
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "1 Kings",
+      "classical_mi": 1.820623
+    },
+    {
+      "book_a": "1 Samuel",
+      "book_b": "Isaiah",
+      "classical_mi": 1.816693
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Proverbs",
+      "classical_mi": 1.813635
+    },
+    {
+      "book_a": "1 Samuel",
+      "book_b": "2 Chronicles",
+      "classical_mi": 1.811758
+    },
+    {
+      "book_a": "Matthew",
+      "book_b": "John",
+      "classical_mi": 1.811516
+    },
+    {
+      "book_a": "1 Chronicles",
+      "book_b": "2 Chronicles",
+      "classical_mi": 1.809943
+    },
+    {
+      "book_a": "Job",
+      "book_b": "Isaiah",
+      "classical_mi": 1.808625
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "2 Chronicles",
+      "classical_mi": 1.80035
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "1 Samuel",
+      "classical_mi": 1.798792
+    },
+    {
+      "book_a": "Romans",
+      "book_b": "1 Corinthians",
+      "classical_mi": 1.793371
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "2 Chronicles",
+      "classical_mi": 1.792985
+    },
+    {
+      "book_a": "Genesis",
+      "book_b": "Deuteronomy",
+      "classical_mi": 1.792973
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "1 Samuel",
+      "classical_mi": 1.792812
+    },
+    {
+      "book_a": "Exodus",
+      "book_b": "Isaiah",
+      "classical_mi": 1.792507
+    },
+    {
+      "book_a": "1 Kings",
+      "book_b": "Ezekiel",
+      "classical_mi": 1.792394
+    },
+    {
+      "book_a": "2 Chronicles",
+      "book_b": "Isaiah",
+      "classical_mi": 1.786268
+    },
+    {
+      "book_a": "Deuteronomy",
+      "book_b": "Ezekiel",
+      "classical_mi": 1.785841
+    }
+  ],
+  "stats": {
+    "mean": 0.750761,
+    "max": 2.376823
+  }
+}

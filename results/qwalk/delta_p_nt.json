@@ -1,0 +1,292 @@
+{
+  "top20_positive": [
+    {
+      "lemma": "ἐπιβάλλω",
+      "rank": 663,
+      "delta_p": 0.00385946,
+      "p_quantum": 0.00404782,
+      "p_classical": 0.00018836
+    },
+    {
+      "lemma": "συνίημι",
+      "rank": 514,
+      "delta_p": 0.00286729,
+      "p_quantum": 0.00308705,
+      "p_classical": 0.00021976
+    },
+    {
+      "lemma": "Μαριάμ",
+      "rank": 515,
+      "delta_p": 0.00267887,
+      "p_quantum": 0.0029268,
+      "p_classical": 0.00024793
+    },
+    {
+      "lemma": "δῶρον",
+      "rank": 636,
+      "delta_p": 0.0025462,
+      "p_quantum": 0.00273456,
+      "p_classical": 0.00018836
+    },
+    {
+      "lemma": "ἀπέχω",
+      "rank": 641,
+      "delta_p": 0.00239518,
+      "p_quantum": 0.0025932,
+      "p_classical": 0.00019802
+    },
+    {
+      "lemma": "ἄφεσις",
+      "rank": 713,
+      "delta_p": 0.00226225,
+      "p_quantum": 0.00242163,
+      "p_classical": 0.00015938
+    },
+    {
+      "lemma": "ἐκλέγομαι",
+      "rank": 591,
+      "delta_p": 0.00223845,
+      "p_quantum": 0.0024727,
+      "p_classical": 0.00023425
+    },
+    {
+      "lemma": "παράπτωμα",
+      "rank": 642,
+      "delta_p": 0.00219243,
+      "p_quantum": 0.00235504,
+      "p_classical": 0.0001626
+    },
+    {
+      "lemma": "προάγω",
+      "rank": 615,
+      "delta_p": 0.00215635,
+      "p_quantum": 0.00237932,
+      "p_classical": 0.00022298
+    },
+    {
+      "lemma": "δένδρον",
+      "rank": 526,
+      "delta_p": 0.00195406,
+      "p_quantum": 0.0021384,
+      "p_classical": 0.00018434
+    },
+    {
+      "lemma": "κληρονομέω",
+      "rank": 659,
+      "delta_p": 0.00192146,
+      "p_quantum": 0.00208406,
+      "p_classical": 0.0001626
+    },
+    {
+      "lemma": "παιδίσκη",
+      "rank": 881,
+      "delta_p": 0.00189444,
+      "p_quantum": 0.0020176,
+      "p_classical": 0.00012316
+    },
+    {
+      "lemma": "προφητεία",
+      "rank": 646,
+      "delta_p": 0.00188774,
+      "p_quantum": 0.00208094,
+      "p_classical": 0.00019319
+    },
+    {
+      "lemma": "ῥίζα",
+      "rank": 688,
+      "delta_p": 0.00184171,
+      "p_quantum": 0.00200512,
+      "p_classical": 0.00016341
+    },
+    {
+      "lemma": "στρέφω",
+      "rank": 599,
+      "delta_p": 0.00182823,
+      "p_quantum": 0.00207456,
+      "p_classical": 0.00024632
+    },
+    {
+      "lemma": "ἡγέομαι",
+      "rank": 481,
+      "delta_p": 0.00181961,
+      "p_quantum": 0.00207479,
+      "p_classical": 0.00025518
+    },
+    {
+      "lemma": "πίμπλημι",
+      "rank": 549,
+      "delta_p": 0.00177567,
+      "p_quantum": 0.00200429,
+      "p_classical": 0.00022861
+    },
+    {
+      "lemma": "καθίστημι",
+      "rank": 610,
+      "delta_p": 0.00175235,
+      "p_quantum": 0.00197533,
+      "p_classical": 0.00022298
+    },
+    {
+      "lemma": "νεφέλη",
+      "rank": 536,
+      "delta_p": 0.00173975,
+      "p_quantum": 0.00198204,
+      "p_classical": 0.0002423
+    },
+    {
+      "lemma": "λατρεύω",
+      "rank": 598,
+      "delta_p": 0.00172877,
+      "p_quantum": 0.00197348,
+      "p_classical": 0.00024471
+    }
+  ],
+  "top20_negative": [
+    {
+      "lemma": "ὁ",
+      "rank": 0,
+      "delta_p": -0.06493135,
+      "p_quantum": 0.00086804,
+      "p_classical": 0.06579939
+    },
+    {
+      "lemma": "καί",
+      "rank": 1,
+      "delta_p": -0.0490599,
+      "p_quantum": 0.00086781,
+      "p_classical": 0.04992771
+    },
+    {
+      "lemma": "αὐτός",
+      "rank": 2,
+      "delta_p": -0.03637925,
+      "p_quantum": 0.00086851,
+      "p_classical": 0.03724776
+    },
+    {
+      "lemma": "δέ",
+      "rank": 4,
+      "delta_p": -0.0227275,
+      "p_quantum": 0.0008679,
+      "p_classical": 0.0235954
+    },
+    {
+      "lemma": "εἰμί",
+      "rank": 7,
+      "delta_p": -0.02070956,
+      "p_quantum": 0.00086778,
+      "p_classical": 0.02157733
+    },
+    {
+      "lemma": "ἐν",
+      "rank": 5,
+      "delta_p": -0.02065885,
+      "p_quantum": 0.00086776,
+      "p_classical": 0.02152662
+    },
+    {
+      "lemma": "λέγω",
+      "rank": 8,
+      "delta_p": -0.02038686,
+      "p_quantum": 0.00086929,
+      "p_classical": 0.02125615
+    },
+    {
+      "lemma": "σύ",
+      "rank": 3,
+      "delta_p": -0.02002397,
+      "p_quantum": 0.00086672,
+      "p_classical": 0.02089069
+    },
+    {
+      "lemma": "ἐγώ",
+      "rank": 6,
+      "delta_p": -0.01823764,
+      "p_quantum": 0.00086762,
+      "p_classical": 0.01910526
+    },
+    {
+      "lemma": "εἰς",
+      "rank": 9,
+      "delta_p": -0.01463585,
+      "p_quantum": 0.00086876,
+      "p_classical": 0.01550461
+    },
+    {
+      "lemma": "οὐ",
+      "rank": 10,
+      "delta_p": -0.01363553,
+      "p_quantum": 0.00086849,
+      "p_classical": 0.01450402
+    },
+    {
+      "lemma": "οὗτος",
+      "rank": 12,
+      "delta_p": -0.01250576,
+      "p_quantum": 0.00086808,
+      "p_classical": 0.01337384
+    },
+    {
+      "lemma": "ὅς",
+      "rank": 11,
+      "delta_p": -0.0123508,
+      "p_quantum": 0.00086848,
+      "p_classical": 0.01321928
+    },
+    {
+      "lemma": "ὅτι",
+      "rank": 14,
+      "delta_p": -0.01186251,
+      "p_quantum": 0.00086815,
+      "p_classical": 0.01273067
+    },
+    {
+      "lemma": "θεός",
+      "rank": 13,
+      "delta_p": -0.01091534,
+      "p_quantum": 0.00086707,
+      "p_classical": 0.01178241
+    },
+    {
+      "lemma": "πᾶς",
+      "rank": 15,
+      "delta_p": -0.00984407,
+      "p_quantum": 0.00086853,
+      "p_classical": 0.0107126
+    },
+    {
+      "lemma": "γάρ",
+      "rank": 16,
+      "delta_p": -0.00869814,
+      "p_quantum": 0.00086817,
+      "p_classical": 0.00956631
+    },
+    {
+      "lemma": "μή",
+      "rank": 17,
+      "delta_p": -0.00861838,
+      "p_quantum": 0.00086824,
+      "p_classical": 0.00948662
+    },
+    {
+      "lemma": "Ἰησοῦς",
+      "rank": 19,
+      "delta_p": -0.00839342,
+      "p_quantum": 0.00086861,
+      "p_classical": 0.00926203
+    },
+    {
+      "lemma": "ἐπί",
+      "rank": 20,
+      "delta_p": -0.00752092,
+      "p_quantum": 0.00086852,
+      "p_classical": 0.00838944
+    }
+  ],
+  "stats": {
+    "mean_abs_delta": 0.00122088,
+    "max_delta": 0.00385946,
+    "min_delta": -0.06493135,
+    "std_delta": 0.00362016
+  }
+}
