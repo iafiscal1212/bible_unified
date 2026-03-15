@@ -53,7 +53,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{15 de marzo de 2026 --- v4.0}
+\date{15 de marzo de 2026 --- v4.1}
 
 
 \begin{document}
@@ -112,6 +112,17 @@ sin frameworks cu\'anticos):
 en el AT ($\chi_{\text{obs}}=52$ vs.\ $\chi_{\text{rand}}=64$, $p=0.000$)
 pero no en el NT ($p=0.223$).
 De las 5 investigaciones, \textbf{4 a\~naden informaci\'on} m\'as all\'a de los m\'etodos cl\'asicos.
+
+\textbf{Control cr\'itico}: Cuatro tests independientes verifican que $\Delta S < 0$
+no es artefacto dimensional:
+(i)~la cota te\'orica $\log_2(9)$ nunca se alcanza (0\% de libros);
+(ii)~el 98.5\% de libros tienen $\Delta S$ significativamente diferente del texto
+aleatorio (Bonferroni);
+(iii)~con $d=50$ lemas el signo se mantiene y la diferencia AT/NT persiste ($p \approx 0$);
+(iv)~la \emph{direcci\'on} del efecto separa casi perfectamente AT de NT:
+36/39 libros del AT tienen $\Delta S$ \emph{menos negativo} que el aleatorio
+(m\'as variaci\'on POS), mientras 25/27 del NT lo tienen \emph{m\'as negativo}
+(estructura POS m\'as r\'igida) ---con 19/21 ep\'istolas en este grupo.
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -1273,6 +1284,160 @@ de Fase~3 ($H = 1.11$ vs.\ $0.99$).
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Control Cr\'itico: ?`Es $\Delta S$ un Artefacto?}
+% ══════════════════════════════════════════════════════════════════════════
+
+El hallazgo $\Delta S = S_{\text{vN}} - S_{\text{Shannon}} < 0$ en todos los libros requiere
+verificaci\'on: con $d = 9$ categor\'ias POS, la matriz de densidad $\rho$ tiene rango m\'aximo~9
+y $S_{\text{vN}} \leq \log_2(9) = 3.17$ bits. ?`Es $\Delta S < 0$ una consecuencia trivial
+de esta cota? Se ejecutaron cuatro tests independientes.
+
+% ─── 7.1 Cota te\'orica ──────────────────────────────────────────────────
+\subsection{Test 1: Cota te\'orica}
+
+Para cada libro se verific\'o si $S_{\text{Shannon}} > \log_2(d)$, lo cual
+\emph{forzar\'ia} $\Delta S < 0$ independientemente de la estructura del texto.
+
+\begin{center}
+\fbox{\parbox{0.85\textwidth}{%
+\textbf{Resultado}: \val{0\%} de libros tienen $S_{\text{Shannon}} > \log_2(9) = 3.17$.\\[0.3em]
+La entrop\'ia de Shannon observada (m\'ax $\approx 2.5$ bits) est\'a siempre por debajo
+del techo te\'orico de Von Neumann. \textbf{La baja dimensi\'on no fuerza} $\Delta S < 0$.
+}}
+\end{center}
+
+% ─── 7.2 Control aleatorio ──────────────────────────────────────────────
+\subsection{Test 2: Control con texto aleatorio}
+
+Para cada libro se generaron 1,000 textos sint\'eticos: misma cantidad de vers\'iculos,
+misma longitud media, con POS asignados aleatoriamente desde la distribuci\'on marginal
+real del libro (muestreo IID). Se calcul\'o $\Delta S_{\text{rand}}$ para cada simulaci\'on
+y se compar\'o con $\Delta S_{\text{obs}}$ mediante $t$-test con correcci\'on de Bonferroni ($\times 66$).
+
+\begin{table}[H]
+\centering
+\caption{Resumen del control aleatorio}
+\label{tab:randomcontrol}
+\begin{tabular}{lr}
+\toprule
+\textbf{M\'etrica} & \textbf{Valor} \\
+\midrule
+Libros con $\Delta S$ significativamente $\neq$ aleatorio (Bonferroni) & \val{65/66} (98.5\%) \\
+Libros con $\Delta S_{\text{obs}}$ menos negativo que $\Delta S_{\text{rand}}$ & 38 \\
+Libros con $\Delta S_{\text{obs}}$ m\'as negativo que $\Delta S_{\text{rand}}$ & 28 \\
+Artefactos puros & \val{0} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Hallazgo cr\'itico: la direcci\'on separa AT de NT.}
+
+\begin{table}[H]
+\centering
+\caption{Direcci\'on de $\Delta S$ respecto al control aleatorio, por corpus}
+\label{tab:direction_corpus}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Grupo} & \textbf{\ot{}} & \textbf{\nt{}} \\
+\midrule
+Menos negativo que aleatorio (m\'as variaci\'on POS) & \val{36} & 2 \\
+M\'as negativo que aleatorio (m\'as estructura POS)  & 3 & \val{25} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Direcci\'on de $\Delta S$ respecto al control aleatorio, por g\'enero}
+\label{tab:direction_genre}
+\begin{tabular}{lccr}
+\toprule
+\textbf{G\'enero} & \textbf{Menos neg.} & \textbf{M\'as neg.} & \textbf{Total} \\
+\midrule
+Narrativo   & \val{29} & 9\textsuperscript{*}  & 38 \\
+Po\'etico   & \val{5}  & 0   & 5 \\
+Legal       & \val{2}  & 0   & 2 \\
+Epistolar   & 2\textsuperscript{$\dagger$} & \val{19} & 21 \\
+\bottomrule
+\end{tabular}\\[0.3em]
+{\small \textsuperscript{*}6 de los 9 son evangelios/Hechos/Apocalipsis (NT narrativo).
+\textsuperscript{$\dagger$}Tito y Filem\'on, las dos ep\'istolas m\'as cortas.}
+\end{table}
+
+\paragraph{Interpretaci\'on.}
+\begin{itemize}[leftmargin=2em]
+\item \textbf{AT hebreo}: Los vers\'iculos reales tienen \emph{m\'as} variaci\'on POS
+      inter-verso que texto IID con la misma distribuci\'on marginal.
+      El hebreo b\'iblico mezcla estilos dentro de cada libro (narrativa, di\'alogo,
+      genealog\'ia, ley), generando vers\'iculos POS-diversos.
+\item \textbf{NT griego}: Los vers\'iculos reales tienen \emph{menos} variaci\'on POS
+      de la esperada bajo IID ---estructura m\'as r\'igida.
+      Las ep\'istolas paulinas son el caso extremo: el estilo argumentativo griego
+      produce vers\'iculos POS-homog\'eneos
+      (Colosenses $\Delta = -0.22$, 3~Juan $\Delta = -0.40$).
+\item Las \'unicas excepciones son Job (AT, poes\'ia sapiencial at\'ipica),
+      Jon\'as/Malaqu\'ias (AT, borderline), y Tito/Filem\'on (NT, ep\'istolas muy cortas).
+\end{itemize}
+
+% ─── 7.3 Sensibilidad dimensional ───────────────────────────────────────
+\subsection{Test 3: Sensibilidad a la dimensi\'on}
+
+Se recalcul\'o $\Delta S$ usando subconjuntos de categor\'ias POS con dimensi\'on creciente.
+
+\begin{table}[H]
+\centering
+\caption{$\overline{\Delta S}$ medio global en funci\'on de la dimensi\'on $d$}
+\label{tab:dimsens}
+\begin{tabular}{clcc}
+\toprule
+$\boldsymbol{d}$ & \textbf{Categor\'ias} & $\boldsymbol{\overline{\Delta S}}$ & $\boldsymbol{\log_2(d)}$ \\
+\midrule
+2 & verbo / no-verbo        & $-0.562$ & 1.00 \\
+3 & nombre / verbo / otro   & $-0.886$ & 1.58 \\
+5 & N / V / Pron / Adj / otro & $-1.087$ & 2.32 \\
+7 & +Adv / +Prep             & $-1.213$ & 2.81 \\
+9 & completo                 & $-1.300$ & 3.17 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+$\Delta S$ se vuelve \emph{m\'as negativo} al aumentar $d$. Esto \textbf{no} es un efecto
+de techo (el techo $\log_2(d)$ tambi\'en sube), sino que refleja que m\'as categor\'ias
+crean m\'as espacio para que la estructura inter-verso difiera de la marginal.
+Si fuera artefacto dimensional, $\Delta S / \log_2(d)$ ser\'ia constante; no lo es.
+
+% ─── 7.4 Dimensi\'on expandida ───────────────────────────────────────────
+\subsection{Test 4: Dimensi\'on expandida ($d = 50$ lemas)}
+
+Se reemplazaron las 9 categor\'ias POS por un vector de frecuencias de los 50 lemas
+m\'as frecuentes del corpus, aumentando la dimensi\'on de 9 a 50.
+
+\begin{center}
+\fbox{\parbox{0.85\textwidth}{%
+\textbf{Resultado}:\\[0.3em]
+$\bullet$ El signo de $\Delta S$ \textbf{no cambia}: sigue negativo en todos los libros.\\
+$\bullet$ La diferencia AT/NT \textbf{persiste} (Mann-Whitney $p \approx 0.0000$).\\[0.3em]
+El efecto es robusto incluso con una dimensi\'on $5.5\times$ mayor.
+}}
+\end{center}
+
+\subsection{Veredicto del control}
+
+\begin{center}
+\fbox{\parbox{0.85\textwidth}{%
+$\Delta S < 0$ es un \textbf{efecto real}, no un artefacto dimensional.
+La cota te\'orica nunca se alcanza (Test~1), el efecto es significativamente
+diferente del texto aleatorio en el 98.5\% de libros (Test~2), se amplifica
+con m\'as dimensiones (Test~3), y persiste con $d = 50$ (Test~4).\\[0.3em]
+La \textbf{direcci\'on} del efecto (Test~2) revela una nueva asimetr\'ia estructural:
+el AT hebreo tiene vers\'iculos POS-diversos (m\'as variaci\'on que IID),
+mientras el NT griego tiene vers\'iculos POS-homog\'eneos (menos variaci\'on que IID),
+con una separaci\'on casi perfecta AT/NT ($36{:}3$ vs.\ $2{:}25$).
+}}
+\end{center}
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
@@ -1333,6 +1498,10 @@ AT/NT detectada en fases anteriores:
       ($p = 0.000$ vs.\ $0.223$ para NT), coherente con $H = 1.11$ vs.\ $0.99$.
 \item \textbf{Resultado negativo}: La MI cu\'antica no mejora la detecci\'on de
       comunidades de g\'enero ($Q_q = 0.006$ vs.\ $Q_c = 0.132$).
+\item \textbf{Control cr\'itico} (\S7): $\Delta S < 0$ es real, no artefacto.
+      La \emph{direcci\'on} del efecto revela que el AT tiene vers\'iculos POS-diversos
+      y el NT vers\'iculos POS-homog\'eneos ($36{:}3$ vs.\ $2{:}25$), separaci\'on
+      casi perfecta que coincide con la frontera ling\"u\'istica hebreo/griego.
 \end{enumerate}
 
 \subsection{S\'intesis: Un corpus con estructura at\'ipica}
@@ -1356,6 +1525,12 @@ Las cuatro fases de an\'alisis convergen en una imagen coherente del corpus b\'i
       correlaciones m\'as simples (un valor singular dominante al 95.5\%). El NT carece
       de estas propiedades. La entrop\'ia de Von Neumann revela que la poes\'ia tiene
       la estructura POS m\'as libre y las ep\'istolas la m\'as r\'igida.
+\item \textbf{Dualidad variaci\'on/estructura POS}: El control cr\'itico (\S7)
+      revela que el AT hebreo tiene m\'as variaci\'on POS inter-verso que texto
+      aleatorio (vers\'iculos diversos), mientras el NT griego tiene menos
+      (vers\'iculos homog\'eneos). Esta separaci\'on $36{:}3$ vs.\ $2{:}25$ es
+      el hallazgo m\'as limpio del estudio: una propiedad estad\'istica que
+      distingue los dos testamentos con precisi\'on casi perfecta.
 \item \textbf{L\'imites del formalismo cu\'antico}: La MI cu\'antica amplifica
       conexiones homog\'eneamente, difuminando fronteras de g\'enero. No todo
       an\'alisis ``cu\'antico'' mejora sobre lo cl\'asico; la ganancia depende
