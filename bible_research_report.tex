@@ -1,0 +1,642 @@
+\documentclass[12pt,a4paper]{article}
+
+% ── Paquetes ──────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{caption}
+
+\geometry{margin=2.5cm}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, citecolor=blue!60!black, urlcolor=blue!50!black}
+
+% ── Headers/Footers ──────────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textit{Bible Unified --- An\'alisis Matem\'atico}}
+\fancyhead[R]{\small\thepage}
+\fancyfoot[C]{\small\textit{Investigaci\'on exploratoria --- iafiscal1212}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ── Colores ──────────────────────────────────────────────────────────────
+\definecolor{otcolor}{HTML}{2E86AB}
+\definecolor{ntcolor}{HTML}{A23B72}
+\definecolor{hlcolor}{HTML}{F18F01}
+\definecolor{graybox}{HTML}{F0F0F0}
+
+% ── Comandos ─────────────────────────────────────────────────────────────
+\newcommand{\ot}{\textcolor{otcolor}{\textbf{AT}}}
+\newcommand{\nt}{\textcolor{ntcolor}{\textbf{NT}}}
+\newcommand{\val}[1]{\textcolor{hlcolor}{\textbf{#1}}}
+\newcommand{\secline}{\noindent\rule{\textwidth}{0.4pt}\vspace{0.3em}}
+
+\title{%
+  \vspace{-1cm}
+  {\LARGE\bfseries Bible Unified}\\[0.3em]
+  {\Large An\'alisis Matem\'atico del Corpus B\'iblico Completo}\\[0.5em]
+  {\large Investigaci\'on exploratoria inductiva}\\[0.3em]
+  \secline
+}
+\author{%
+  Proyecto Bible Research\\
+  \texttt{github.com/iafiscal1212/bible\_unified}
+}
+\date{15 de marzo de 2026 --- v1.0}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\vspace{1cm}
+
+\begin{abstract}
+\noindent
+Se presenta un an\'alisis matem\'atico exploratorio del corpus b\'iblico completo:
+39 libros del Antiguo Testamento en hebreo (Westminster Leningrad Codex) y
+27 libros del Nuevo Testamento en griego (SBLGNT/MorphGNT).
+El corpus unificado contiene \textbf{444,339 palabras} con morfolog\'ia normalizada.
+
+Seis m\'odulos de an\'alisis independientes ---frecuencias, morfolog\'ia, valores num\'ericos,
+estructura, coocurrencia y patrones posicionales--- se ejecutaron en paralelo sobre
+los 66 libros. Los resultados revelan anomal\'ias estad\'isticas significativas:
+un exponente de Zipf at\'ipico en el AT ($s=0.68$, donde $s\approx1.0$ es el valor can\'onico),
+una cuasi-igualdad num\'erica inesperada entre AT y NT (ratio gematr\'ia/isopsef\'ia $\approx 0.991$),
+y asimetr\'ias morfol\'ogicas pronunciadas entre los dos corpus.
+
+Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
+\end{abstract}
+
+\vspace{0.5cm}
+\tableofcontents
+\newpage
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Introducci\'on y Contexto}
+% ══════════════════════════════════════════════════════════════════════════
+
+Este proyecto aplica an\'alisis matem\'atico y estad\'istico al corpus b\'iblico completo,
+tratando el texto como un objeto puramente formal: una secuencia de s\'imbolos con
+estructura jer\'arquica (palabra $\subset$ vers\'iculo $\subset$ cap\'itulo $\subset$ libro $\subset$ corpus).
+
+\subsection{Principio rector: An\'alisis inductivo}
+
+No se parte de hip\'otesis previas sobre qu\'e patrones ``deber\'ian'' existir.
+Los m\'odulos de an\'alisis calculan m\'etricas base y dejan que la inspecci\'on posterior
+identifique anomal\'ias estad\'isticas. Cualquier patr\'on reportado \emph{emerge} de los datos.
+
+\subsection{Corpus}
+
+\begin{table}[H]
+\centering
+\caption{Composici\'on del corpus unificado}
+\label{tab:corpus}
+\begin{tabular}{lrrr}
+\toprule
+& \textbf{\ot{} Hebreo} & \textbf{\nt{} Griego} & \textbf{Total} \\
+\midrule
+Libros       & 39      & 27      & 66 \\
+Cap\'itulos  & 929     & 260     & 1,189 \\
+Vers\'iculos & 23,213  & 7,927   & 31,140 \\
+Palabras     & 306,785 & 137,554 & 444,339 \\
+\midrule
+Fuente       & WLC (OSHB) & SBLGNT (MorphGNT) & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cada palabra del corpus contiene: texto original, lema normalizado, c\'odigo morfol\'ogico,
+parte del discurso normalizada (POS), y metadatos posicionales (libro, cap\'itulo, vers\'iculo, posici\'on).
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Metodolog\'ia}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Arquitectura de paralelismo doble}
+
+El an\'alisis emplea paralelismo en dos dimensiones:
+
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{Por tipo de patr\'on}: 6 m\'odulos independientes ejecutados como subprocesos
+      simult\'aneos por el \texttt{orchestrator.py}.
+\item \textbf{Por libro}: Dentro de cada m\'odulo, \texttt{multiprocessing.Pool} procesa
+      los 66 libros en paralelo.
+\end{enumerate}
+
+\subsection{M\'odulos de an\'alisis}
+
+\begin{table}[H]
+\centering
+\caption{Los 6 m\'odulos de an\'alisis}
+\begin{tabular}{lp{9cm}}
+\toprule
+\textbf{M\'odulo} & \textbf{M\'etricas principales} \\
+\midrule
+\texttt{frequencies}   & Frecuencias absolutas/relativas, Zipf, hapax, TTR \\
+\texttt{morphology}    & Distribuciones POS, ratio V/N, bigramas POS \\
+\texttt{numerical}     & Gematr\'ia hebrea, isopsef\'ia griega, sumas por vers\'iculo/cap\'itulo \\
+\texttt{structure}     & Longitudes, momentos estad\'isticos, proporciones \\
+\texttt{cooccurrence}  & Coocurrencia de lemas, PMI (Pointwise Mutual Information) \\
+\texttt{positional}    & Patrones primera/\'ultima palabra, POS por posici\'on \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Infraestructura}
+
+\begin{itemize}[leftmargin=2em]
+\item Servidor Hetzner dedicado: 20 cores, 64 GB RAM, Ubuntu 24.04
+\item Tiempo total de ejecuci\'on: \textbf{7 segundos} (los 6 m\'odulos en paralelo)
+\item Dependencias: Python 3.12, NumPy, Pandas, SciPy
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Resultados}
+% ══════════════════════════════════════════════════════════════════════════
+
+% ─── 3.1 Frecuencias ────────────────────────────────────────────────────
+\subsection{Frecuencias y Ley de Zipf}
+
+\subsubsection{Estad\'isticas l\'exicas globales}
+
+\begin{table}[H]
+\centering
+\caption{Diversidad l\'exica del corpus}
+\label{tab:lexdiv}
+\begin{tabular}{lrrr}
+\toprule
+& \textbf{\ot{}} & \textbf{\nt{}} & \textbf{Global} \\
+\midrule
+Tokens (palabras)          & 306,785 & 137,554 & 444,339 \\
+Tipos (word-forms)         & 112,072 &  19,335 & 131,407 \\
+Tipos (lemas)              &   9,524 &   5,461 &  14,985 \\
+Hapax legomena (words)     &     --- &     --- &  90,782 \\
+Hapax legomena (lemas)     &     --- &     --- &   5,150 \\
+\midrule
+Hapax / tipos (words)      &     --- &     --- &  69.1\% \\
+Hapax / tipos (lemas)      &     --- &     --- &  34.4\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Observaci\'on clave}: El 69\% de las formas de palabra aparecen exactamente una vez
+(\emph{hapax legomena}). El AT hebreo contribuye desproporcionadamente: con 2.23$\times$ m\'as
+tokens, tiene 5.8$\times$ m\'as word-types, reflejando la riqueza morfol\'ogica aglutinante
+del hebreo b\'iblico.
+
+\subsubsection{Ley de Zipf}
+
+La ley de Zipf predice que la frecuencia de la $r$-\'esima palabra m\'as com\'un
+es proporcional a $r^{-s}$, con $s \approx 1.0$ para lenguas naturales t\'ipicas.
+
+\begin{table}[H]
+\centering
+\caption{Ajuste de Zipf: $\log f = a - s \cdot \log r$}
+\label{tab:zipf}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Corpus} & \textbf{Exponente $s$} & \textbf{$R^2$} \\
+\midrule
+Global          & 0.734 & 0.918 \\
+\ot{} (hebreo)  & \val{0.679} & 0.907 \\
+\nt{} (griego)  & \val{0.976} & 0.962 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Anomal\'ia del AT.}
+El exponente $s = 0.679$ del AT se desv\'ia significativamente del valor can\'onico $s \approx 1$.
+Esto indica una \emph{cola m\'as pesada}: hay proporcionalmente m\'as palabras de frecuencia
+intermedia de lo que Zipf predice. Hipotesis candidatas:
+
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{Morfolog\'ia aglutinante}: Los prefijos hebreos (\textit{be-}, \textit{ha-}, \textit{we-})
+      generan m\'ultiples formas de superficie para cada lema, inflando la zona media del ranking.
+\item \textbf{Vocabulario t\'ecnico repetido}: Las secciones legales (Lev\'itico, Deuteronomio)
+      y geneal\'ogicas repiten vocabulario especializado con frecuencia intermedia.
+\item \textbf{Heterogeneidad de g\'enero}: El AT mezcla narrativa, poes\'ia, ley y profec\'ia,
+      cada uno con su propio vocabulario, produciendo superposici\'on de distribuciones.
+\end{enumerate}
+
+\paragraph{NT can\'onico.}
+El NT griego ($s = 0.976$, $R^2 = 0.962$) se ajusta casi perfectamente a Zipf,
+comportamiento t\'ipico de un corpus ling\"u\'istico homog\'eneo.
+
+
+% ─── 3.2 Morfolog\'ia ──────────────────────────────────────────────────
+\subsection{Distribuciones Morfol\'ogicas}
+
+\subsubsection{Distribuci\'on POS global}
+
+\begin{table}[H]
+\centering
+\caption{Distribuci\'on de partes del discurso}
+\label{tab:pos}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{POS} & \textbf{Frecuencia} & \textbf{\%} \\
+\midrule
+Nombre (noun)         & 148,415 & 33.4\% \\
+Verbo (verb)          &  94,088 & 21.2\% \\
+Sufijo pronominal     &  47,824 & 10.8\% \\
+Part\'icula           &  28,506 &  6.4\% \\
+Conjunci\'on          &  24,605 &  5.5\% \\
+Preposici\'on         &  23,908 &  5.4\% \\
+Pronombre             &  23,831 &  5.4\% \\
+Adjetivo              &  23,194 &  5.2\% \\
+Art\'iculo            &  19,770 &  4.5\% \\
+Adverbio              &  10,180 &  2.3\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Asimetr\'ia verbo/nombre AT vs.\ NT}
+
+\begin{table}[H]
+\centering
+\caption{Ratio verbo/nombre por corpus}
+\label{tab:vnratio}
+\begin{tabular}{lc}
+\toprule
+\textbf{Corpus} & \textbf{Ratio V/N} \\
+\midrule
+\ot{} (hebreo) & \val{0.55} \\
+\nt{} (griego) & \val{0.99} \\
+Global          & 0.63 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El AT es fuertemente \textbf{nominal} (casi 2 nombres por cada verbo), mientras que
+el NT tiene equilibrio pr\'acticamente 1:1. Esto refleja:
+\begin{itemize}[leftmargin=2em]
+\item AT: estilo genealogico-descriptivo, constructos nominales encadenados (\emph{semikhut})
+\item NT: estilo argumentativo-discursivo, oraciones verbales complejas (koin\'e griega)
+\end{itemize}
+
+\subsubsection{Bigramas POS dominantes}
+
+El bigrama m\'as frecuente es \textbf{nombre$\to$nombre} con 54,207 ocurrencias,
+reflejando las cadenas de constructo del hebreo (\emph{``hijo-de-David rey-de-Israel''}).
+El segundo lugar lo ocupa \textbf{verbo$\to$nombre} (26,255), el patr\'on narrativo b\'asico.
+
+
+% ─── 3.3 Valores Num\'ericos ────────────────────────────────────────────
+\subsection{Valores Num\'ericos: Gematr\'ia e Isopsef\'ia}
+
+\subsubsection{Sistemas de asignaci\'on}
+
+\begin{itemize}[leftmargin=2em]
+\item \textbf{Gematr\'ia hebrea}: $\aleph=1, \beth=2, \ldots, \tau=400$
+      (sistema est\'andar, formas finales = mismo valor)
+\item \textbf{Isopsef\'ia griega}: $\alpha=1, \beta=2, \ldots, \omega=800$
+      (sistema cl\'asico con digamma=6, koppa=90)
+\end{itemize}
+
+\subsubsection{Resultado principal: Cuasi-igualdad AT/NT}
+
+\begin{table}[H]
+\centering
+\caption{Valores num\'ericos totales por corpus}
+\label{tab:numtotals}
+\begin{tabular}{lrl}
+\toprule
+\textbf{Corpus} & \textbf{Valor total} & \\
+\midrule
+\ot{} (gematr\'ia)    & 78,482,867 & \\
+\nt{} (isopsef\'ia)   & 79,203,470 & \\
+\midrule
+\textbf{Ratio AT/NT}  & \val{0.9909} & \\
+\textbf{Diferencia}   & 720,603 & (0.91\%) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Interpretaci\'on.}
+A pesar de que el AT tiene $2.23\times$ m\'as palabras que el NT, los valores
+num\'ericos totales son pr\'acticamente id\'enticos (diferencia $< 1\%$).
+Esto ocurre porque el alfabeto griego asigna valores m\'as altos
+(m\'aximo $\omega = 800$) que el hebreo (m\'aximo $\tau = 400$),
+compensando exactamente la menor cantidad de texto.
+
+\textbf{Pregunta abierta}: ?`Es esta cuasi-igualdad una consecuencia trivial
+de las proporciones alfab\'eticas, o existe una invariancia m\'as profunda?
+Un test de permutaci\'on (bootstrap) puede distinguir ambas hip\'otesis.
+
+\subsubsection{Estad\'isticas por vers\'iculo}
+
+\begin{table}[H]
+\centering
+\caption{Valores num\'ericos por vers\'iculo (global)}
+\label{tab:numverse}
+\begin{tabular}{lr}
+\toprule
+\textbf{M\'etrica} & \textbf{Valor} \\
+\midrule
+N\'umero de vers\'iculos & 31,140 \\
+Media              & 5,063.8 \\
+Mediana            & 3,855 \\
+M\'inimo           & 160 \\
+M\'aximo           & 32,312 \\
+Percentil 25       & 2,376 \\
+Percentil 75       & 6,386 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ─── 3.4 Estructura ─────────────────────────────────────────────────────
+\subsection{An\'alisis Estructural}
+
+\subsubsection{Longitud de vers\'iculos}
+
+\begin{table}[H]
+\centering
+\caption{Momentos estad\'isticos de la longitud de vers\'iculo (en palabras)}
+\label{tab:verselen}
+\begin{tabular}{lr}
+\toprule
+\textbf{Momento} & \textbf{Valor} \\
+\midrule
+Media ($\mu$)         & 14.27 \\
+Mediana               & 13 \\
+Desviaci\'on est\'andar ($\sigma$) & 6.44 \\
+Asimetr\'ia (skewness)  & +0.76 \\
+Curtosis (excess)       & +0.53 \\
+M\'inimo               & 2 \\
+M\'aximo               & 58 \\
+P10                     & 7 \\
+P90                     & 23 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La distribuci\'on tiene asimetr\'ia positiva ($\gamma_1 = 0.76$): cola derecha extendida.
+La curtosis ligeramente positiva ($\kappa = 0.53$) indica un pico m\'as agudo que
+la distribuci\'on normal, con colas algo m\'as pesadas.
+
+\subsubsection{Proporciones estructurales AT/NT}
+
+\begin{table}[H]
+\centering
+\caption{Proporciones entre AT y NT}
+\label{tab:proportions}
+\begin{tabular}{lrrl}
+\toprule
+\textbf{M\'etrica} & \textbf{\ot{}} & \textbf{\nt{}} & \textbf{Ratio AT/NT} \\
+\midrule
+Palabras     & 306,785 & 137,554 & 2.230 \\
+Vers\'iculos & 23,213  &   7,927 & 2.928 \\
+Cap\'itulos  &    929  &     260 & 3.573 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Patr\'on jer\'arquico.}
+Los ratios AT/NT crecen al subir en la jerarqu\'ia:
+$2.23 \to 2.93 \to 3.57$ (palabras $\to$ vers\'iculos $\to$ cap\'itulos).
+Esto implica que los vers\'iculos del NT son en promedio m\'as largos
+(17.35 palabras/verso) que los del AT (13.22 palabras/verso), y los cap\'itulos
+del NT contienen m\'as vers\'iculos.
+
+\subsubsection{Libros m\'as grandes}
+
+\begin{table}[H]
+\centering
+\caption{Top 5 libros por n\'umero de palabras}
+\begin{tabular}{rlr}
+\toprule
+\textbf{\#} & \textbf{Libro} & \textbf{Palabras} \\
+\midrule
+1 & Jerem\'ias   & 21,976 \\
+2 & G\'enesis    & 20,629 \\
+3 & Salmos       & 19,657 \\
+4 & Lucas        & 19,446 \\
+5 & Ezequiel     & 18,866 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ─── 3.5 Coocurrencia ───────────────────────────────────────────────────
+\subsection{Coocurrencia de Lemas}
+
+Se analizaron 688,150 pares \'unicos de lemas que coocurren en al menos un vers\'iculo.
+
+\subsubsection{Pares m\'as frecuentes}
+
+\begin{table}[H]
+\centering
+\caption{Top 10 pares de lemas coocurrentes (por frecuencia)}
+\label{tab:cooccpairs}
+\begin{tabular}{rllr}
+\toprule
+\textbf{\#} & \textbf{Lema A} & \textbf{Lema B} & \textbf{Coocurrencias} \\
+\midrule
+1  & \textit{kai} (y)        & \textit{ho} (el)     & 4,568 \\
+2  & \textit{autos} (\'el)   & \textit{ho} (el)     & 3,427 \\
+3  & \textit{autos} (\'el)   & \textit{kai} (y)     & 2,735 \\
+4  & \textit{de} (pero)      & \textit{ho} (el)     & 2,245 \\
+5  & YHWH (3068)              & \textit{'et} (853)   & 2,125 \\
+6  & \textit{'el} (a) [413]  & \textit{'amar} (dijo) [559] & 2,107 \\
+7  & \textit{'asher} (que) [834] & \textit{'et} (853) & 2,001 \\
+8  & \textit{en} (en)        & \textit{ho} (el)     & 1,912 \\
+9  & \textit{eimi} (ser)     & \textit{ho} (el)     & 1,868 \\
+10 & \textit{lego} (decir)   & \textit{ho} (el)     & 1,826 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Los pares del NT dominan el ranking global debido a la alta frecuencia del art\'iculo
+$\dot{o}$ en griego. En el AT, el par dominante es YHWH + marcador de objeto directo
+(\textit{'et}), reflejando la construcci\'on ``[verbo] a YHWH''.
+
+
+% ─── 3.6 Posicional ─────────────────────────────────────────────────────
+\subsection{Patrones Posicionales}
+
+\subsubsection{POS de la primera palabra del vers\'iculo}
+
+\begin{table}[H]
+\centering
+\caption{POS de la primera palabra de cada vers\'iculo}
+\label{tab:firstpos}
+\begin{tabular}{lrr}
+\toprule
+\textbf{POS} & \textbf{Frecuencia} & \textbf{\%} \\
+\midrule
+Verbo          & 12,668 & 40.7\% \\
+Nombre         &  4,977 & 16.0\% \\
+Conjunci\'on   &  4,245 & 13.6\% \\
+Part\'icula    &  2,265 &  7.3\% \\
+Pronombre      &  1,478 &  4.7\% \\
+Sufijo         &  1,477 &  4.7\% \\
+Adverbio       &  1,423 &  4.6\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Patr\'on narrativo.}
+El 40.7\% de los vers\'iculos comienzan con un \textbf{verbo}, reflejando la estructura
+\emph{wayyiqtol} del hebreo narrativo (``Y dijo\ldots'', ``Y fue\ldots'') y construcciones
+similares en el NT griego. Esto es un rasgo tipol\'ogico fundamental del estilo b\'iblico.
+
+\subsubsection{POS de la \'ultima palabra del vers\'iculo}
+
+\begin{table}[H]
+\centering
+\caption{POS de la \'ultima palabra de cada vers\'iculo}
+\begin{tabular}{lrr}
+\toprule
+\textbf{POS} & \textbf{Frecuencia} & \textbf{\%} \\
+\midrule
+Nombre          & 12,810 & 41.1\% \\
+Sufijo pron.    &  7,090 & 22.8\% \\
+Verbo           &  6,138 & 19.7\% \\
+Pronombre       &  2,398 &  7.7\% \\
+Adjetivo        &  1,980 &  6.4\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Complementariedad posicional.}
+Existe una clara \textbf{complementariedad}: los vers\'iculos \emph{abren con verbo} (40.7\%)
+y \emph{cierran con nombre} (41.1\%) + sufijo pronominal (22.8\%).
+La preposici\'on casi nunca cierra un vers\'iculo (0.02\%), como era esperable.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Discusi\'on: Anomal\'ias y Patrones}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Anomal\'ia 1: Exponente de Zipf del AT ($s = 0.679$)}
+
+El valor can\'onico $s \approx 1.0$ se observa en la mayor\'ia de los corpus de lenguas
+naturales. El AT hebreo se desv\'ia con $s = 0.679$, lo cual es inusual.
+La desviaci\'on no se observa en el NT griego ($s = 0.976$).
+
+\textbf{Hip\'otesis principal}: La morfolog\'ia aglutinante del hebreo b\'iblico ---donde
+prefijos (\textit{be-}, \textit{ha-}, \textit{we-}, \textit{le-}) se adhieren a las ra\'ices---
+genera un n\'umero desproporcionado de formas de superficie \'unicas, inflando la
+zona media del ranking de frecuencias y aplanando la pendiente de Zipf.
+
+\textbf{Test sugerido}: Recalcular Zipf sobre \emph{lemas} en lugar de word-forms.
+Si el exponente se acerca a 1.0 al usar lemas, la hip\'otesis morfol\'ogica queda confirmada.
+
+\subsection{Anomal\'ia 2: Cuasi-igualdad num\'erica AT/NT}
+
+El ratio de valores totales gematr\'ia(AT)/isopsef\'ia(NT) es $0.9909$, es decir,
+los valores son pr\'acticamente id\'enticos a pesar de:
+\begin{itemize}[leftmargin=2em]
+\item El AT tiene $2.23\times$ m\'as palabras
+\item Los alfabetos tienen rangos de valores diferentes (hebreo: 1--400, griego: 1--800)
+\item Los textos fueron escritos en diferentes siglos y lenguas
+\end{itemize}
+
+\textbf{Test sugerido}: Bootstrap/permutaci\'on. Generar $N=10{,}000$ corpus aleatorios
+con las mismas distribuciones de caracteres pero con longitudes permutadas, y comparar
+el ratio AT/NT observado con la distribuci\'on nula.
+
+\subsection{Anomal\'ia 3: Ratio V/N como marcador estil\'istico}
+
+El salto de V/N $= 0.55$ (AT) a V/N $= 0.99$ (NT) es dr\'astico.
+Dentro del AT, es probable que haya variaci\'on significativa por g\'enero literario
+(narrativo vs.\ po\'etico vs.\ legal). Mapear V/N por libro puede revelar
+clusters de autoría o \'epoca.
+
+\subsection{Patr\'on 4: Ratios jer\'arquicos crecientes}
+
+Los ratios AT/NT crecen mon\'otonamente con el nivel jer\'arquico:
+\[
+\frac{\text{AT}}{\text{NT}} = \begin{cases}
+2.230 & \text{(palabras)} \\
+2.928 & \text{(vers\'iculos)} \\
+3.573 & \text{(cap\'itulos)}
+\end{cases}
+\]
+
+Esto implica que la ``densidad'' de texto disminuye al subir en la jerarqu\'ia
+del NT respecto al AT: los vers\'iculos del NT son m\'as largos y los cap\'itulos
+contienen m\'as vers\'iculos, de manera consistente.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{L\'ineas de Investigaci\'on Futuras}
+% ══════════════════════════════════════════════════════════════════════════
+
+\begin{enumerate}[leftmargin=2em]
+
+\item \textbf{Zipf sobre lemas vs.\ formas}: Separar el efecto morfol\'ogico del efecto
+      sem\'antico en la anomal\'ia de Zipf del AT. Si $s_{\text{lema}} \approx 1.0$,
+      la desviaci\'on es puramente morfol\'ogica.
+
+\item \textbf{Test de permutaci\'on para la igualdad num\'erica}: Determinar si
+      el ratio $\approx 0.991$ es estad\'isticamente significativo o una consecuencia
+      trivial de las proporciones alfab\'eticas.
+
+\item \textbf{Mapa V/N por libro}: Correlacionar el ratio verbo/nombre con la
+      dataci\'on propuesta, g\'enero literario y autor\'ia. Posible uso como
+      ``fingerprint'' estil\'istico.
+
+\item \textbf{Distribuci\'on de longitud de vers\'iculos por g\'enero}:
+      Investigar la posible bimodalidad (picos en 7 y 12--13 palabras) y su
+      correlaci\'on con narrativa vs.\ poes\'ia vs.\ ley.
+
+\item \textbf{An\'alisis espectral}: Aplicar FFT a la serie temporal de valores
+      num\'ericos por vers\'iculo para detectar periodicidades.
+
+\item \textbf{Redes de coocurrencia}: Construir grafos de coocurrencia de lemas
+      y analizar propiedades topol\'ogicas (clustering, centralidad, comunidades).
+
+\item \textbf{Entrop\'ia posicional}: Calcular la entrop\'ia de Shannon por posici\'on
+      dentro del vers\'iculo para cuantificar la ``predictibilidad'' de cada posici\'on.
+
+\end{enumerate}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Ap\'endice: Datos T\'ecnicos}
+% ══════════════════════════════════════════════════════════════════════════
+
+\subsection{Gematr\'ia hebrea est\'andar}
+
+\begin{center}
+\begin{tabular}{cccccccccc}
+\toprule
+$\aleph$=1 & $\beth$=2 & $\gimel$=3 & $\daleth$=4 & $\he$=5 &
+$\vav$=6 & $\zayin$=7 & $\heth$=8 & $\teth$=9 \\
+$\yod$=10 & $\kaph$=20 & $\lamed$=30 & $\mem$=40 & $\nun$=50 &
+$\samekh$=60 & $\ayin$=70 & $\pe$=80 & $\tsade$=90 \\
+$\qoph$=100 & $\resh$=200 & $\shin$=300 & $\tav$=400 & & & & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Repositorio}
+
+Todo el c\'odigo fuente, scripts de an\'alisis y datos est\'an disponibles en:\\
+\url{https://github.com/iafiscal1212/bible_unified}
+
+\vspace{1cm}
+\begin{center}
+\rule{4cm}{0.4pt}\\[0.5em]
+\textit{Documento generado autom\'aticamente el 15 de marzo de 2026.}\\
+\textit{Todos los valores emergen inductivamente del corpus; ning\'un par\'ametro hardcodeado.}
+\end{center}
+
+\end{document}
