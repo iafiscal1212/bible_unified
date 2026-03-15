@@ -1,0 +1,218 @@
+{
+  "question": "¿Es el AT estadísticamente único respecto a los corpus externos?",
+  "corpora_analyzed": [
+    "AT (Hebreo)",
+    "NT (Griego)",
+    "Corán (Árabe)",
+    "Homero (Griego)",
+    "Heródoto (Griego)",
+    "Mishnah (Hebreo)"
+  ],
+  "n_external_corpora": 4,
+  "comparisons": [
+    {
+      "corpus": "Corán (Árabe)",
+      "lang": "ara",
+      "type": "religioso",
+      "metrics_like_AT": 3,
+      "metrics_like_NT": 2,
+      "metrics_total": 5,
+      "overall_profile": "AT-like",
+      "details": {
+        "hurst_H": {
+          "ext": 0.9826,
+          "AT": 1.1099,
+          "NT": 0.9928,
+          "closer_to": "NT"
+        },
+        "dfa_alpha": {
+          "ext": 0.9082,
+          "AT": 0.8458,
+          "NT": 0.6805,
+          "closer_to": "AT"
+        },
+        "box_counting_Df": {
+          "ext": 0.8567,
+          "AT": 0.834,
+          "NT": 0.7871,
+          "closer_to": "AT"
+        },
+        "mps_significant": {
+          "ext": true,
+          "AT": true,
+          "NT": false,
+          "closer_to": "AT"
+        },
+        "delta_S": {
+          "ext": -1.037329,
+          "AT": -0.761583,
+          "NT": -1.10255,
+          "closer_to": "NT"
+        }
+      }
+    },
+    {
+      "corpus": "Homero (Griego)",
+      "lang": "grc",
+      "type": "literario",
+      "metrics_like_AT": 1,
+      "metrics_like_NT": 4,
+      "metrics_total": 5,
+      "overall_profile": "NT-like",
+      "details": {
+        "hurst_H": {
+          "ext": 0.6278,
+          "AT": 1.1099,
+          "NT": 0.9928,
+          "closer_to": "NT"
+        },
+        "dfa_alpha": {
+          "ext": 0.5977,
+          "AT": 0.8458,
+          "NT": 0.6805,
+          "closer_to": "NT"
+        },
+        "box_counting_Df": {
+          "ext": 0.8262,
+          "AT": 0.834,
+          "NT": 0.7871,
+          "closer_to": "AT"
+        },
+        "mps_significant": {
+          "ext": false,
+          "AT": true,
+          "NT": false,
+          "closer_to": "NT"
+        },
+        "delta_S": {
+          "ext": -1.339333,
+          "AT": -0.761583,
+          "NT": -1.10255,
+          "closer_to": "NT"
+        }
+      }
+    },
+    {
+      "corpus": "Heródoto (Griego)",
+      "lang": "grc",
+      "type": "historico",
+      "metrics_like_AT": 0,
+      "metrics_like_NT": 5,
+      "metrics_total": 5,
+      "overall_profile": "NT-like",
+      "details": {
+        "hurst_H": {
+          "ext": 0.6329,
+          "AT": 1.1099,
+          "NT": 0.9928,
+          "closer_to": "NT"
+        },
+        "dfa_alpha": {
+          "ext": 0.6322,
+          "AT": 0.8458,
+          "NT": 0.6805,
+          "closer_to": "NT"
+        },
+        "box_counting_Df": {
+          "ext": 0.7777,
+          "AT": 0.834,
+          "NT": 0.7871,
+          "closer_to": "NT"
+        },
+        "mps_significant": {
+          "ext": false,
+          "AT": true,
+          "NT": false,
+          "closer_to": "NT"
+        },
+        "delta_S": {
+          "ext": -1.507333,
+          "AT": -0.761583,
+          "NT": -1.10255,
+          "closer_to": "NT"
+        }
+      }
+    },
+    {
+      "corpus": "Mishnah (Hebreo)",
+      "lang": "heb",
+      "type": "religioso",
+      "metrics_like_AT": 2,
+      "metrics_like_NT": 3,
+      "metrics_total": 5,
+      "overall_profile": "NT-like",
+      "details": {
+        "hurst_H": {
+          "ext": 0.6829,
+          "AT": 1.1099,
+          "NT": 0.9928,
+          "closer_to": "NT"
+        },
+        "dfa_alpha": {
+          "ext": 0.7843,
+          "AT": 0.8458,
+          "NT": 0.6805,
+          "closer_to": "AT"
+        },
+        "box_counting_Df": {
+          "ext": 0.6884,
+          "AT": 0.834,
+          "NT": 0.7871,
+          "closer_to": "NT"
+        },
+        "mps_significant": {
+          "ext": true,
+          "AT": true,
+          "NT": false,
+          "closer_to": "AT"
+        },
+        "delta_S": {
+          "ext": -1.26812,
+          "AT": -0.761583,
+          "NT": -1.10255,
+          "closer_to": "NT"
+        }
+      }
+    }
+  ],
+  "hypotheses": {
+    "H1_language": {
+      "hypothesis": "Las propiedades del AT se deben a la lengua (hebreo/semítico)",
+      "semitic_corpora": [
+        "Corán (Árabe)",
+        "Mishnah (Hebreo)"
+      ],
+      "semitic_AT_like": 1,
+      "non_semitic_AT_like": 0,
+      "supported": true,
+      "evidence": "1/2 corpus semíticos son AT-like, 0/2 no-semíticos son AT-like."
+    },
+    "H2_composition": {
+      "hypothesis": "Las propiedades del AT se deben a composición multi-autor/oral",
+      "oral_multi_author": [
+        "Homero (Griego)"
+      ],
+      "oral_AT_like": 0,
+      "single_author_AT_like": 0,
+      "supported": false,
+      "evidence": "0/1 corpus orales/multi-autor son AT-like, 0/1 de autor único son AT-like."
+    },
+    "H3_communicative": {
+      "hypothesis": "Las propiedades del AT se deben a su función comunicativa (religioso/ritual)",
+      "religious_corpora": [
+        "Corán (Árabe)",
+        "Mishnah (Hebreo)"
+      ],
+      "religious_AT_like": 1,
+      "non_religious_AT_like": 0,
+      "supported": true,
+      "evidence": "1/2 corpus religiosos son AT-like, 0/2 no-religiosos son AT-like."
+    }
+  },
+  "conclusion": "1/4 corpus externos muestran un perfil AT-like: Corán (Árabe). El AT comparte algunas propiedades con estos corpus pero la combinación completa puede ser parcialmente única.",
+  "at_unique": "partial",
+  "best_hypothesis": [
+    "H1_language",
+    "H3_communicative"
+  ]
+}
