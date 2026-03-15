@@ -53,7 +53,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{15 de marzo de 2026 --- v3.0}
+\date{15 de marzo de 2026 --- v4.0}
 
 
 \begin{document}
@@ -97,6 +97,21 @@ significativamente diferente entre AT y NT ($p = 10^{-6}$);
 (iv)~la anomal\'ia de Zipf del AT se concentra en profetas menores cortos,
 est\'a en la \emph{cola} de la distribuci\'on, y correlaciona fuertemente con la
 densidad verbal ($r = -0.55$, $p = 0.0003$).
+
+\textbf{Fase~4}: Cinco an\'alisis cu\'antico-inspirados (implementados en numpy/scipy puro,
+sin frameworks cu\'anticos):
+(i)~la representaci\'on MPS revela $\chi_{99}^{\text{AT}}=122$ vs.\ $\chi_{99}^{\text{NT}}=239$
+(el AT es $\sim2\times$ m\'as compresible);
+(ii)~la entrop\'ia de Von Neumann captura estructura intra-vers\'iculo invisible a Shannon
+($\Delta S < 0$ siempre, $p \approx 0$ AT vs.\ NT);
+(iii)~la informaci\'on mutua cu\'antica \emph{difumina} las comunidades de g\'enero
+(modularidad cu\'antica $0.006$ vs.\ cl\'asica $0.132$);
+(iv)~el quantum walk amplifica lemas perif\'ericos tem\'aticamente conectados
+(rank 500--900);
+(v)~el permutation test de compresi\'on MPS confirma estructura no aleatoria
+en el AT ($\chi_{\text{obs}}=52$ vs.\ $\chi_{\text{rand}}=64$, $p=0.000$)
+pero no en el NT ($p=0.223$).
+De las 5 investigaciones, \textbf{4 a\~naden informaci\'on} m\'as all\'a de los m\'etodos cl\'asicos.
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -220,6 +235,29 @@ ejecutadas por \texttt{orchestrator\_fase3.py}:
 \end{tabular}
 \end{table}
 
+\subsection{Fase~4: An\'alisis cu\'antico-inspirado}
+
+Cinco investigaciones que aplican formalismos de f\'isica cu\'antica (matrices de densidad,
+entrop\'ia de Von Neumann, informaci\'on mutua cu\'antica, quantum walks) implementados
+\textbf{enteramente en numpy/scipy} (sin qiskit, pennylane ni ning\'un framework cu\'antico),
+ejecutadas por \texttt{orchestrator\_fase4.py}:
+
+\begin{table}[H]
+\centering
+\caption{Los 5 m\'odulos de Fase~4}
+\begin{tabular}{lp{9cm}}
+\toprule
+\textbf{M\'odulo} & \textbf{Pregunta de investigaci\'on} \\
+\midrule
+\texttt{mps\_representation}      & ?`Cu\'al es la dimensi\'on de enlace MPS del corpus? \\
+\texttt{von\_neumann\_entropy}    & ?`La entrop\'ia de Von Neumann captura estructura invisible a Shannon? \\
+\texttt{quantum\_mutual\_information} & ?`La red cu\'antica detecta mejor las comunidades de g\'enero? \\
+\texttt{quantum\_walk}            & ?`El quantum walk revela lemas ``ocultos'' al random walk? \\
+\texttt{mps\_compression\_ratio}  & ?`La compresi\'on MPS supera a Shannon? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \subsection{Infraestructura}
 
 \begin{itemize}[leftmargin=2em]
@@ -227,6 +265,8 @@ ejecutadas por \texttt{orchestrator\_fase3.py}:
 \item Fase~1: \textbf{7 segundos} (6 m\'odulos en paralelo)
 \item Fase~2: \textbf{45 segundos} (5 investigaciones con permutaciones y bootstrap)
 \item Fase~3: \textbf{116 segundos} (4 investigaciones con bootstrap $\times$ 10K y an\'alisis fractal)
+\item Fase~4: \textbf{8,318 segundos} (5 investigaciones cu\'antico-inspiradas,
+      dominado por $3 \times 10{,}000$ permutaciones de MPS)
 \item Dependencias: Python 3.12, NumPy, Pandas, SciPy, scikit-learn (GMM)
 \end{itemize}
 
@@ -1006,6 +1046,233 @@ estad\'istica ($p = 0.35$). La entrop\'ia de Shannon correlaciona marginalmente 
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Fase~4: An\'alisis Cu\'antico-Inspirado}
+% ══════════════════════════════════════════════════════════════════════════
+
+Las cinco investigaciones de esta secci\'on aplican formalismos de f\'isica cu\'antica
+al corpus b\'iblico. \textbf{No se utiliza ningún framework cu\'antico}: todo se implementa
+en numpy/scipy puro, tratando las matrices de densidad y los operadores como objetos
+matem\'aticos est\'andar.
+
+% ─── 6.1 MPS ────────────────────────────────────────────────────────────
+\subsection{Representaci\'on MPS: dimensi\'on de enlace}
+
+Se construye la matriz de autocorrelaci\'on de la serie temporal de longitudes de
+vers\'iculo ($256 \times 256$, Toeplitz), se aplica SVD, y se define la
+\emph{dimensi\'on de enlace} $\chi_\theta$ como el n\'umero m\'inimo de valores singulares
+que capturan el $\theta\%$ de la varianza.
+
+\begin{table}[H]
+\centering
+\caption{Dimensi\'on de enlace MPS por corpus}
+\label{tab:mps}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Corpus} & $\boldsymbol{\chi_{90}}$ & $\boldsymbol{\chi_{95}}$ & $\boldsymbol{\chi_{99}}$ & $\boldsymbol{\chi_{99.9}}$ \\
+\midrule
+\ot{}    & 1   & 1   & \val{122} & 239 \\
+\nt{}    & 141 & 190 & \val{239} & 254 \\
+Global   & 1   & 1   & \val{126} & 240 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Hallazgos.}
+\begin{itemize}[leftmargin=2em]
+\item El \ot{} es $\sim 2\times$ m\'as compresible que el \nt{}: $\chi_{99}^{\text{AT}} = 122$
+      vs.\ $\chi_{99}^{\text{NT}} = 239$.
+\item El primer valor singular del AT captura el \val{95.5\%} de la varianza (vs.\ 64.7\% en NT),
+      reflejando una correlaci\'on dominante de un \'unico modo.
+\item Error de reconstrucci\'on con $\chi_{99}$: AT~$=10.0\%$, NT~$=9.8\%$ (excelente).
+\item La diferencia no es trivial: el AT tiene estructura de correlaci\'on m\'as simple
+      (serie m\'as regular), coherente con la mayor memoria larga de Fase~3 ($H = 1.11$).
+\end{itemize}
+
+% ─── 6.2 Von Neumann ────────────────────────────────────────────────────
+\subsection{Entrop\'ia de Von Neumann vs.\ Shannon}
+
+Para cada libro, se construye una \emph{matriz de densidad} $\rho$ a partir de los vectores
+de frecuencia POS de cada vers\'iculo: $\rho = \frac{1}{N} \sum_{i=1}^{N} |\vec{v}_i\rangle\langle\vec{v}_i|$.
+La entrop\'ia de Von Neumann $S_{\text{vN}} = -\text{Tr}(\rho \log_2 \rho)$ captura correlaciones
+entre categor\'ias POS que Shannon (marginal) no detecta.
+
+\begin{table}[H]
+\centering
+\caption{$\Delta S = S_{\text{vN}} - S_{\text{Shannon}}$ por corpus}
+\label{tab:deltavn}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Corpus} & $\boldsymbol{\bar{\Delta S}}$ & $\boldsymbol{\sigma}$ & \textbf{Mann-Whitney $p$} & \textbf{Sig.} \\
+\midrule
+\ot{}     & \val{$-0.762$} & 0.172 & \multirow{2}{*}{$\approx 0$} & \multirow{2}{*}{S\'I} \\
+\nt{}     & \val{$-1.103$} & 0.137 & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Por g\'enero literario.}
+\begin{table}[H]
+\centering
+\caption{$\Delta S$ por g\'enero}
+\label{tab:deltavngenre}
+\begin{tabular}{lrcc}
+\toprule
+\textbf{G\'enero} & $N$ & $\boldsymbol{\bar{\Delta S}}$ & $\boldsymbol{\sigma}$ \\
+\midrule
+Po\'etico   & 5  & \val{$-0.514$} & 0.174 \\
+Legal       & 2  & $-0.814$ & 0.023 \\
+Narrativo   & 38 & $-0.861$ & 0.198 \\
+Epistolar   & 21 & \val{$-1.074$} & 0.141 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Interpretaci\'on.}
+$\Delta S < 0$ siempre: la entrop\'ia cu\'antica captura m\'as estructura que Shannon.
+La poes\'ia ($\Delta S = -0.51$) es la menos ``cu\'anticamente estructurada'' ---consistente
+con mayor variabilidad POS en versos po\'eticos--- mientras que las ep\'istolas ($\Delta S = -1.07$)
+tienen la estructura POS m\'as r\'igida.
+
+$\Delta S$ correlaciona significativamente con el ratio V/N ($r = -0.50$, $p = 1.9 \times 10^{-5}$):
+m\'as verbos $\Rightarrow$ mayor estructura cu\'antica.
+
+% ─── 6.3 QMI ─────────────────────────────────────────────────────────────
+\subsection{Informaci\'on Mutua Cu\'antica}
+
+Se calcula la informaci\'on mutua cu\'antica $I_q(A:B) = S_{\text{vN}}(\rho_A) + S_{\text{vN}}(\rho_B) - S_{\text{vN}}(\rho_{AB})$
+para todos los $\binom{66}{2} = 2{,}145$ pares de libros, y se compara con la
+MI cl\'asica basada en proporciones de lemas compartidos.
+
+\begin{table}[H]
+\centering
+\caption{Modularidad de red: cu\'antica vs.\ cl\'asica}
+\label{tab:modularity}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Partici\'on} & \textbf{$Q_{\text{cu\'antico}}$} & \textbf{$Q_{\text{cl\'asico}}$} \\
+\midrule
+G\'enero literario & \val{0.006} & \val{0.132} \\
+Corpus (AT/NT)      & 0.011 & 0.215 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{MI cu\'antica intra-g\'enero.}
+\begin{table}[H]
+\centering
+\caption{MI cu\'antica y cl\'asica promedio dentro de cada g\'enero}
+\label{tab:qmigenre}
+\begin{tabular}{lcc}
+\toprule
+\textbf{G\'enero} & $\boldsymbol{\bar{I}_q}$ & $\boldsymbol{\bar{I}_c}$ \\
+\midrule
+Epistolar  & \val{2.321} & 0.799 \\
+Po\'etico  & 2.326 & 0.782 \\
+Legal      & 1.931 & \val{1.555} \\
+Narrativo  & 1.841 & 0.585 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Resultado.}
+La red cu\'antica \textbf{no mejora} la detecci\'on de comunidades de g\'enero
+($Q_q = 0.006$ vs.\ $Q_c = 0.132$). La MI cu\'antica es uniformemente mayor que la
+cl\'asica ($\bar{\Delta I} = 1.59$), pero esta ``ganancia'' es \emph{homog\'enea}:
+amplifica todas las conexiones por igual, difuminando las fronteras de g\'enero en vez
+de aclararlas. Los pares con mayor $\Delta I$ son inter-testamento (Job--Tito: $\Delta I = 2.66$),
+donde la MI cl\'asica es cero (sin lemas compartidos entre hebreo y griego).
+
+% ─── 6.4 Quantum walk ───────────────────────────────────────────────────
+\subsection{Quantum Walk sobre grafos de coocurrencia}
+
+Se construye un grafo de coocurrencia de los 1,000 lemas m\'as frecuentes (por corpus)
+y se ejecuta un \emph{continuous-time quantum walk} (CTQW):
+$U(t) = e^{-iLt}$, donde $L$ es el Laplaciano del grafo. Se compara la distribuci\'on
+estacionaria cl\'asica $\pi_v \propto \deg(v)$ con la distribuci\'on cu\'antica promediada
+$\bar{p}_q = \frac{1}{|T|} \sum_{t \in T} |\langle v|U(t)|\psi_0\rangle|^2$.
+
+\begin{table}[H]
+\centering
+\caption{Estad\'isticas de $\Delta p = \bar{p}_q - \pi_{\text{cl\'asico}}$}
+\label{tab:qwalk}
+\begin{tabular}{lcc}
+\toprule
+\textbf{M\'etrica} & \textbf{\ot{}} & \textbf{\nt{}} \\
+\midrule
+$\overline{|\Delta p|}$  & 0.00116 & 0.00122 \\
+$\max(\Delta p)$          & 0.00307 & 0.00386 \\
+$\min(\Delta p)$          & $-0.031$ & $-0.065$ \\
+$\sigma(\Delta p)$        & 0.00258 & 0.00362 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Lemas ``quantum-preferred''.}
+Los lemas amplificados por el quantum walk (mayor $\Delta p > 0$) son de
+\textbf{rango medio-bajo} (posiciones 500--900 en frecuencia), no los m\'as comunes.
+En el NT griego incluyen: \textit{\'epib\'all\=o} (``echar''), \textit{syn\'i\=emi} (``comprender''),
+\textit{Mari\'am}, \textit{d\=oron} (``don''), \textit{ap\'ech\=o} (``recibir'').
+Son lemas perif\'ericos pero tem\'aticamente ricos: el quantum walk revela
+nodos de alta \emph{conectividad local} que el random walk cl\'asico diluye
+en el grado global del grafo.
+
+% ─── 6.5 Compresi\'on MPS ────────────────────────────────────────────────
+\subsection{Compresi\'on MPS vs.\ Shannon: permutation test}
+
+Se comparan tres codificaciones de la serie de longitudes de vers\'iculo:
+directa ($N \log_2 L_{\max}$ bits), Shannon ($H \cdot N$ bits), y MPS
+($\log_2(\chi^2 \cdot d) \cdot N$ bits).
+
+\begin{table}[H]
+\centering
+\caption{Bits totales por m\'etodo de compresi\'on}
+\label{tab:compression}
+\begin{tabular}{lrrrl}
+\toprule
+\textbf{Corpus} & \textbf{Directa} & \textbf{Shannon} & \textbf{MPS} & \textbf{Mejor} \\
+\midrule
+\ot{}    & 125,960 & \val{104,184} & 446,938 & Shannon \\
+\nt{}    &  46,436 & \val{37,256}  & 169,999 & Shannon \\
+Global   & 182,418 & \val{143,472} & 610,295 & Shannon \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Compresi\'on MPS inferior.}
+La representaci\'on MPS requiere $\sim 4\times$ m\'as bits que Shannon.
+Esto es esperable: la serie de longitudes de vers\'iculo tiene baja entrelazaci\'on
+(es esencialmente 1D con correlaciones locales), donde MPS no aporta ventaja
+sobre codificaci\'on entr\'opica cl\'asica.
+
+\paragraph{Permutation test de $\chi$.}
+Sin embargo, el permutation test (10,000 permutaciones aleatorias) revela una
+diferencia fundamental:
+
+\begin{table}[H]
+\centering
+\caption{Permutation test de dimensi\'on de enlace $\chi$ (max\_lag=64)}
+\label{tab:permchi}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Corpus} & $\boldsymbol{\chi_{\text{obs}}}$ & $\boldsymbol{\bar{\chi}_{\text{rand}}}$ & $\boldsymbol{p}$ & \textbf{Sig.} \\
+\midrule
+\ot{}    & \val{52} & 64.0 $\pm$ 0.02 & \val{0.000} & S\'I \\
+\nt{}    & 63 & 63.8 $\pm$ 0.42 & 0.223 & NO \\
+Global   & \val{53} & 64.0 $\pm$ 0.00 & \val{0.000} & S\'I \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Interpretaci\'on.}
+El AT tiene una dimensi\'on de enlace $\chi = 52$ \textbf{significativamente menor}
+que la esperada bajo permutaci\'on aleatoria ($\chi_{\text{rand}} = 64$, $p = 0.000$):
+el orden de los vers\'iculos del AT tiene m\'as \emph{estructura compresible MPS}
+que una permutaci\'on aleatoria del mismo texto. El NT ($\chi = 63$ vs.\ $64$, $p = 0.22$)
+no muestra esta propiedad. Esto es coherente con la mayor memoria larga del AT
+de Fase~3 ($H = 1.11$ vs.\ $0.99$).
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
@@ -1052,9 +1319,25 @@ tienen Zipf m\'as an\'omalo ($r = -0.55$, $p = 0.0003$), estableciendo un
       una progresi\'on aritm\'etica, no geom\'etrica.
 \end{enumerate}
 
+\subsection{Patr\'on 5: El formalismo cu\'antico revela asimetr\'ia AT/NT}
+
+La Fase~4 a\~nade una capa de an\'alisis que confirma y extiende la asimetr\'ia
+AT/NT detectada en fases anteriores:
+
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{MPS}: El AT necesita la mitad del bond dimension que el NT
+      ($\chi_{99} = 122$ vs.\ $239$), confirmando correlaciones m\'as simples.
+\item \textbf{Von Neumann}: $|\Delta S|$ es significativamente mayor en NT ($1.10$ vs.\ $0.76$,
+      $p \approx 0$): las ep\'istolas griegas tienen la estructura POS m\'as r\'igida.
+\item \textbf{Permutation test}: Solo el AT tiene estructura MPS significativa
+      ($p = 0.000$ vs.\ $0.223$ para NT), coherente con $H = 1.11$ vs.\ $0.99$.
+\item \textbf{Resultado negativo}: La MI cu\'antica no mejora la detecci\'on de
+      comunidades de g\'enero ($Q_q = 0.006$ vs.\ $Q_c = 0.132$).
+\end{enumerate}
+
 \subsection{S\'intesis: Un corpus con estructura at\'ipica}
 
-Las tres fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico:
+Las cuatro fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico:
 
 \begin{itemize}[leftmargin=2em]
 \item \textbf{Anomal\'ia l\'exica localizada}: El AT tiene Zipf an\'omalo por libros
@@ -1068,12 +1351,23 @@ Las tres fases de an\'alisis convergen en una imagen coherente del corpus b\'ibl
 \item \textbf{Bimodalidad poes\'ia/prosa}: Confirmada y estable.
 \item \textbf{Sin relaci\'on con constantes matem\'aticas}: Descartada tras
       correcci\'on rigurosa.
+\item \textbf{Asimetr\'ia cu\'antico-estructural AT/NT}: El AT tiene estructura MPS
+      no aleatoria ($p = 0.000$), mayor compresibilidad ($\chi_{99} = 122$), y
+      correlaciones m\'as simples (un valor singular dominante al 95.5\%). El NT carece
+      de estas propiedades. La entrop\'ia de Von Neumann revela que la poes\'ia tiene
+      la estructura POS m\'as libre y las ep\'istolas la m\'as r\'igida.
+\item \textbf{L\'imites del formalismo cu\'antico}: La MI cu\'antica amplifica
+      conexiones homog\'eneamente, difuminando fronteras de g\'enero. No todo
+      an\'alisis ``cu\'antico'' mejora sobre lo cl\'asico; la ganancia depende
+      de la pregunta.
 \end{itemize}
 
 El corpus b\'iblico no se comporta como un corpus ling\"u\'istico ordinario,
 pero sus propiedades at\'ipicas tienen explicaciones causales identificables:
 heterogeneidad de g\'eneros, tama\~no variable de libros, y caracter\'isticas
-espec\'ificas de los sistemas de escritura hebreo y griego.
+espec\'ificas de los sistemas de escritura hebreo y griego. El formalismo cu\'antico
+a\~nade valor espec\'ificamente para detectar \emph{estructura no aleatoria en el orden
+secuencial} (MPS, Von Neumann), pero no para detecci\'on de comunidades (QMI).
 
 
 % ══════════════════════════════════════════════════════════════════════════
@@ -1081,33 +1375,32 @@ espec\'ificas de los sistemas de escritura hebreo y griego.
 % ══════════════════════════════════════════════════════════════════════════
 
 \noindent
-Las l\'ineas de Fase~2 (Zipf lemas, permutaci\'on, V/N, bimodalidad) y las de Fase~3
-(dimensi\'on fractal, Zipf por libro del AT, mecanismo de la cuasi-igualdad)
-fueron \textbf{resueltas}. Las siguientes permanecen abiertas:
+Las l\'ineas de Fase~2 (Zipf lemas, permutaci\'on, V/N, bimodalidad), Fase~3
+(dimensi\'on fractal, Zipf por libro, mecanismo num\'erico) y Fase~4
+(MPS, Von Neumann, quantum walk, compresi\'on) fueron \textbf{resueltas}.
+Las siguientes permanecen abiertas:
 
 \begin{enumerate}[leftmargin=2em]
 
 \item \textbf{An\'alisis espectral}: Aplicar FFT a la serie temporal de valores
       num\'ericos por vers\'iculo para detectar periodicidades.
 
-\item \textbf{Redes de coocurrencia}: Construir grafos de coocurrencia de lemas
-      y analizar propiedades topol\'ogicas (clustering, centralidad, comunidades).
-
-\item \textbf{Entrop\'ia posicional}: Calcular la entrop\'ia de Shannon por posici\'on
-      dentro del vers\'iculo para cuantificar la ``predictibilidad'' de cada posici\'on.
-
 \item \textbf{Comparaci\'on con corpus de control}: Aplicar el mismo pipeline a
       textos lit\'urgicos no b\'iblicos (Cor\'an, Vedas, textos budistas) para
       determinar qu\'e anomal\'ias son espec\'ificas del corpus b\'iblico y cu\'ales
       son propiedades generales de textos sagrados.
 
-\item \textbf{Memoria larga por serie temporal}: Aplicar DFA y Hurst a series
-      diferentes (valores num\'ericos, ratio V/N por vers\'iculo) para determinar
-      si la memoria larga es una propiedad de la \emph{longitud} o del \emph{contenido}.
-
 \item \textbf{Efecto de tama\~no en Zipf}: Cuantificar con subsampling si la anomal\'ia
       de los profetas menores persiste al normalizar por tama\~no de libro
       (remuestreando $n$ palabras de cada libro).
+
+\item \textbf{Entanglement entropy}: Calcular la entrop\'ia de entrelazamiento entre
+      mitades del corpus (bipartici\'on) para cuantificar el grado de correlaci\'on
+      cu\'antica entre secciones.
+
+\item \textbf{MPS para series sem\'anticas}: Aplicar la representaci\'on MPS no a
+      longitudes de vers\'iculo (resultado negativo en compresi\'on) sino a series de
+      \'indices de lema o POS, donde la estructura secuencial es m\'as rica.
 
 \end{enumerate}
 
