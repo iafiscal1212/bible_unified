@@ -1,0 +1,62 @@
+{
+  "by_corpus": {
+    "OT": {
+      "surface": {
+        "s": 0.800845,
+        "r2": 0.994062,
+        "n_types": 112072,
+        "ks_stat": 0.294478
+      },
+      "lemma": {
+        "s": 0.715316,
+        "r2": 0.905171,
+        "n_types": 9524,
+        "ks_stat": 0.122968
+      },
+      "delta_s": 0.085529
+    },
+    "NT": {
+      "surface": {
+        "s": 0.83788,
+        "r2": 0.961621,
+        "n_types": 19335,
+        "ks_stat": 0.084991
+      },
+      "lemma": {
+        "s": 1.077674,
+        "r2": 0.992832,
+        "n_types": 5461,
+        "ks_stat": 0.110492
+      },
+      "delta_s": -0.239794
+    },
+    "global": {
+      "surface": {
+        "s": 0.749312,
+        "r2": 0.975538,
+        "n_types": 131407,
+        "ks_stat": 0.222544
+      },
+      "lemma": {
+        "s": 0.758753,
+        "r2": 0.96495,
+        "n_types": 14985,
+        "ks_stat": 0.112523
+      },
+      "delta_s": -0.009441
+    }
+  },
+  "delta_analysis": {
+    "ot_delta_s_mean": -0.045642,
+    "ot_delta_s_std": 0.089116,
+    "nt_delta_s_mean": -0.237867,
+    "nt_delta_s_std": 0.07635,
+    "interpretation": "If \u0394s is constant across books, the Zipf anomaly is purely morphological. If \u0394s varies significantly, there is semantic structure contributing.",
+    "ot_delta_s_cv": 1.9525,
+    "nt_delta_s_cv": 0.321,
+    "mannwhitney_ot_vs_nt": {
+      "U": 995.0,
+      "p_value": 0.0
+    }
+  }
+}

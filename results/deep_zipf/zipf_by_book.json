@@ -1,0 +1,1256 @@
+[
+  {
+    "book": "Genesis",
+    "book_num": 1,
+    "corpus": "OT",
+    "n_tokens": 20629,
+    "surface": {
+      "s": 0.809859,
+      "r2": 0.977249,
+      "n_types": 10732
+    },
+    "lemma": {
+      "s": 0.718868,
+      "r2": 0.951513,
+      "n_types": 1837
+    },
+    "delta_s": 0.090991,
+    "ks_vs_zipf1_surface": 0.349309,
+    "ks_vs_zipf1_lemma": 0.147146
+  },
+  {
+    "book": "Exodus",
+    "book_num": 2,
+    "corpus": "OT",
+    "n_tokens": 16726,
+    "surface": {
+      "s": 0.841794,
+      "r2": 0.975541,
+      "n_types": 8450
+    },
+    "lemma": {
+      "s": 0.747452,
+      "r2": 0.951689,
+      "n_types": 1440
+    },
+    "delta_s": 0.094342,
+    "ks_vs_zipf1_surface": 0.3294,
+    "ks_vs_zipf1_lemma": 0.143347
+  },
+  {
+    "book": "Leviticus",
+    "book_num": 3,
+    "corpus": "OT",
+    "n_tokens": 11955,
+    "surface": {
+      "s": 0.76596,
+      "r2": 0.987468,
+      "n_types": 5827
+    },
+    "lemma": {
+      "s": 0.739585,
+      "r2": 0.959342,
+      "n_types": 967
+    },
+    "delta_s": 0.026375,
+    "ks_vs_zipf1_surface": 0.3056,
+    "ks_vs_zipf1_lemma": 0.142525
+  },
+  {
+    "book": "Numbers",
+    "book_num": 4,
+    "corpus": "OT",
+    "n_tokens": 16422,
+    "surface": {
+      "s": 0.719887,
+      "r2": 0.987923,
+      "n_types": 7897
+    },
+    "lemma": {
+      "s": 0.707055,
+      "r2": 0.946786,
+      "n_types": 1492
+    },
+    "delta_s": 0.012832,
+    "ks_vs_zipf1_surface": 0.317323,
+    "ks_vs_zipf1_lemma": 0.149503
+  },
+  {
+    "book": "Deuteronomy",
+    "book_num": 5,
+    "corpus": "OT",
+    "n_tokens": 14320,
+    "surface": {
+      "s": 0.73612,
+      "r2": 0.975285,
+      "n_types": 7821
+    },
+    "lemma": {
+      "s": 0.724673,
+      "r2": 0.917318,
+      "n_types": 1477
+    },
+    "delta_s": 0.011447,
+    "ks_vs_zipf1_surface": 0.323334,
+    "ks_vs_zipf1_lemma": 0.114749
+  },
+  {
+    "book": "Joshua",
+    "book_num": 6,
+    "corpus": "OT",
+    "n_tokens": 10083,
+    "surface": {
+      "s": 0.762136,
+      "r2": 0.97622,
+      "n_types": 5641
+    },
+    "lemma": {
+      "s": 0.722973,
+      "r2": 0.945224,
+      "n_types": 1240
+    },
+    "delta_s": 0.039163,
+    "ks_vs_zipf1_surface": 0.335748,
+    "ks_vs_zipf1_lemma": 0.151915
+  },
+  {
+    "book": "Judges",
+    "book_num": 7,
+    "corpus": "OT",
+    "n_tokens": 9905,
+    "surface": {
+      "s": 0.769131,
+      "r2": 0.968127,
+      "n_types": 5972
+    },
+    "lemma": {
+      "s": 0.702145,
+      "r2": 0.945243,
+      "n_types": 1247
+    },
+    "delta_s": 0.066986,
+    "ks_vs_zipf1_surface": 0.373167,
+    "ks_vs_zipf1_lemma": 0.15902
+  },
+  {
+    "book": "Ruth",
+    "book_num": 8,
+    "corpus": "OT",
+    "n_tokens": 1306,
+    "surface": {
+      "s": 0.524658,
+      "r2": 0.902654,
+      "n_types": 1038
+    },
+    "lemma": {
+      "s": 0.616228,
+      "r2": 0.9305,
+      "n_types": 321
+    },
+    "delta_s": -0.09157,
+    "ks_vs_zipf1_surface": 0.429189,
+    "ks_vs_zipf1_lemma": 0.226503
+  },
+  {
+    "book": "1 Samuel",
+    "book_num": 9,
+    "corpus": "OT",
+    "n_tokens": 13335,
+    "surface": {
+      "s": 0.757736,
+      "r2": 0.961658,
+      "n_types": 7403
+    },
+    "lemma": {
+      "s": 0.688066,
+      "r2": 0.907599,
+      "n_types": 1293
+    },
+    "delta_s": 0.06967,
+    "ks_vs_zipf1_surface": 0.334475,
+    "ks_vs_zipf1_lemma": 0.149209
+  },
+  {
+    "book": "2 Samuel",
+    "book_num": 10,
+    "corpus": "OT",
+    "n_tokens": 11130,
+    "surface": {
+      "s": 0.759776,
+      "r2": 0.973616,
+      "n_types": 6414
+    },
+    "lemma": {
+      "s": 0.679514,
+      "r2": 0.887634,
+      "n_types": 1351
+    },
+    "delta_s": 0.080262,
+    "ks_vs_zipf1_surface": 0.337372,
+    "ks_vs_zipf1_lemma": 0.151228
+  },
+  {
+    "book": "1 Kings",
+    "book_num": 11,
+    "corpus": "OT",
+    "n_tokens": 13186,
+    "surface": {
+      "s": 0.771819,
+      "r2": 0.984756,
+      "n_types": 7294
+    },
+    "lemma": {
+      "s": 0.688422,
+      "r2": 0.914895,
+      "n_types": 1325
+    },
+    "delta_s": 0.083397,
+    "ks_vs_zipf1_surface": 0.343571,
+    "ks_vs_zipf1_lemma": 0.156642
+  },
+  {
+    "book": "2 Kings",
+    "book_num": 12,
+    "corpus": "OT",
+    "n_tokens": 12354,
+    "surface": {
+      "s": 0.750786,
+      "r2": 0.987224,
+      "n_types": 6628
+    },
+    "lemma": {
+      "s": 0.711125,
+      "r2": 0.939245,
+      "n_types": 1295
+    },
+    "delta_s": 0.039661,
+    "ks_vs_zipf1_surface": 0.319349,
+    "ks_vs_zipf1_lemma": 0.140899
+  },
+  {
+    "book": "1 Chronicles",
+    "book_num": 13,
+    "corpus": "OT",
+    "n_tokens": 10790,
+    "surface": {
+      "s": 0.759926,
+      "r2": 0.968854,
+      "n_types": 6818
+    },
+    "lemma": {
+      "s": 0.817278,
+      "r2": 0.979473,
+      "n_types": 2026
+    },
+    "delta_s": -0.057352,
+    "ks_vs_zipf1_surface": 0.370313,
+    "ks_vs_zipf1_lemma": 0.14205
+  },
+  {
+    "book": "2 Chronicles",
+    "book_num": 14,
+    "corpus": "OT",
+    "n_tokens": 13354,
+    "surface": {
+      "s": 0.744461,
+      "r2": 0.986989,
+      "n_types": 7763
+    },
+    "lemma": {
+      "s": 0.686399,
+      "r2": 0.914042,
+      "n_types": 1420
+    },
+    "delta_s": 0.058062,
+    "ks_vs_zipf1_surface": 0.348296,
+    "ks_vs_zipf1_lemma": 0.159931
+  },
+  {
+    "book": "Ezra",
+    "book_num": 15,
+    "corpus": "OT",
+    "n_tokens": 3791,
+    "surface": {
+      "s": 0.567112,
+      "r2": 0.956502,
+      "n_types": 2717
+    },
+    "lemma": {
+      "s": 0.712425,
+      "r2": 0.968778,
+      "n_types": 1002
+    },
+    "delta_s": -0.145313,
+    "ks_vs_zipf1_surface": 0.406187,
+    "ks_vs_zipf1_lemma": 0.229146
+  },
+  {
+    "book": "Nehemiah",
+    "book_num": 16,
+    "corpus": "OT",
+    "n_tokens": 5336,
+    "surface": {
+      "s": 0.644225,
+      "r2": 0.951004,
+      "n_types": 3808
+    },
+    "lemma": {
+      "s": 0.69101,
+      "r2": 0.96123,
+      "n_types": 1098
+    },
+    "delta_s": -0.046785,
+    "ks_vs_zipf1_surface": 0.411919,
+    "ks_vs_zipf1_lemma": 0.204273
+  },
+  {
+    "book": "Esther",
+    "book_num": 17,
+    "corpus": "OT",
+    "n_tokens": 3057,
+    "surface": {
+      "s": 0.611902,
+      "r2": 0.959095,
+      "n_types": 1929
+    },
+    "lemma": {
+      "s": 0.714132,
+      "r2": 0.959961,
+      "n_types": 477
+    },
+    "delta_s": -0.10223,
+    "ks_vs_zipf1_surface": 0.359177,
+    "ks_vs_zipf1_lemma": 0.164871
+  },
+  {
+    "book": "Job",
+    "book_num": 18,
+    "corpus": "OT",
+    "n_tokens": 8399,
+    "surface": {
+      "s": 0.623676,
+      "r2": 0.915476,
+      "n_types": 5945
+    },
+    "lemma": {
+      "s": 0.691728,
+      "r2": 0.975747,
+      "n_types": 1719
+    },
+    "delta_s": -0.068052,
+    "ks_vs_zipf1_surface": 0.422764,
+    "ks_vs_zipf1_lemma": 0.220402
+  },
+  {
+    "book": "Psalms",
+    "book_num": 19,
+    "corpus": "OT",
+    "n_tokens": 19657,
+    "surface": {
+      "s": 0.630522,
+      "r2": 0.933417,
+      "n_types": 12333
+    },
+    "lemma": {
+      "s": 0.685429,
+      "r2": 0.954796,
+      "n_types": 2260
+    },
+    "delta_s": -0.054907,
+    "ks_vs_zipf1_surface": 0.396225,
+    "ks_vs_zipf1_lemma": 0.203255
+  },
+  {
+    "book": "Proverbs",
+    "book_num": 20,
+    "corpus": "OT",
+    "n_tokens": 6984,
+    "surface": {
+      "s": 0.556956,
+      "r2": 0.966478,
+      "n_types": 4771
+    },
+    "lemma": {
+      "s": 0.582741,
+      "r2": 0.884362,
+      "n_types": 1367
+    },
+    "delta_s": -0.025785,
+    "ks_vs_zipf1_surface": 0.425612,
+    "ks_vs_zipf1_lemma": 0.257363
+  },
+  {
+    "book": "Ecclesiastes",
+    "book_num": 21,
+    "corpus": "OT",
+    "n_tokens": 2999,
+    "surface": {
+      "s": 0.610565,
+      "r2": 0.962095,
+      "n_types": 2051
+    },
+    "lemma": {
+      "s": 0.613838,
+      "r2": 0.855569,
+      "n_types": 581
+    },
+    "delta_s": -0.003273,
+    "ks_vs_zipf1_surface": 0.371946,
+    "ks_vs_zipf1_lemma": 0.210734
+  },
+  {
+    "book": "Song of Songs",
+    "book_num": 22,
+    "corpus": "OT",
+    "n_tokens": 1255,
+    "surface": {
+      "s": 0.423509,
+      "r2": 0.887559,
+      "n_types": 1019
+    },
+    "lemma": {
+      "s": 0.586076,
+      "r2": 0.957318,
+      "n_types": 505
+    },
+    "delta_s": -0.162567,
+    "ks_vs_zipf1_surface": 0.464968,
+    "ks_vs_zipf1_lemma": 0.297941
+  },
+  {
+    "book": "Isaiah",
+    "book_num": 23,
+    "corpus": "OT",
+    "n_tokens": 16988,
+    "surface": {
+      "s": 0.648676,
+      "r2": 0.96491,
+      "n_types": 11525
+    },
+    "lemma": {
+      "s": 0.670465,
+      "r2": 0.92536,
+      "n_types": 2566
+    },
+    "delta_s": -0.021789,
+    "ks_vs_zipf1_surface": 0.414333,
+    "ks_vs_zipf1_lemma": 0.18691
+  },
+  {
+    "book": "Jeremiah",
+    "book_num": 24,
+    "corpus": "OT",
+    "n_tokens": 21976,
+    "surface": {
+      "s": 0.712937,
+      "r2": 0.979944,
+      "n_types": 11540
+    },
+    "lemma": {
+      "s": 0.702333,
+      "r2": 0.905728,
+      "n_types": 1979
+    },
+    "delta_s": 0.010604,
+    "ks_vs_zipf1_surface": 0.314143,
+    "ks_vs_zipf1_lemma": 0.137215
+  },
+  {
+    "book": "Lamentations",
+    "book_num": 25,
+    "corpus": "OT",
+    "n_tokens": 1564,
+    "surface": {
+      "s": 0.515632,
+      "r2": 0.866538,
+      "n_types": 1307
+    },
+    "lemma": {
+      "s": 0.597213,
+      "r2": 0.918548,
+      "n_types": 589
+    },
+    "delta_s": -0.081581,
+    "ks_vs_zipf1_surface": 0.465956,
+    "ks_vs_zipf1_lemma": 0.246717
+  },
+  {
+    "book": "Ezekiel",
+    "book_num": 26,
+    "corpus": "OT",
+    "n_tokens": 18866,
+    "surface": {
+      "s": 0.703666,
+      "r2": 0.981564,
+      "n_types": 10497
+    },
+    "lemma": {
+      "s": 0.674329,
+      "r2": 0.910847,
+      "n_types": 1744
+    },
+    "delta_s": 0.029337,
+    "ks_vs_zipf1_surface": 0.349473,
+    "ks_vs_zipf1_lemma": 0.167478
+  },
+  {
+    "book": "Daniel",
+    "book_num": 27,
+    "corpus": "OT",
+    "n_tokens": 6035,
+    "surface": {
+      "s": 0.608513,
+      "r2": 0.92976,
+      "n_types": 4297
+    },
+    "lemma": {
+      "s": 0.671304,
+      "r2": 0.9705,
+      "n_types": 1127
+    },
+    "delta_s": -0.062791,
+    "ks_vs_zipf1_surface": 0.427189,
+    "ks_vs_zipf1_lemma": 0.234064
+  },
+  {
+    "book": "Hosea",
+    "book_num": 28,
+    "corpus": "OT",
+    "n_tokens": 2386,
+    "surface": {
+      "s": 0.56056,
+      "r2": 0.932201,
+      "n_types": 1872
+    },
+    "lemma": {
+      "s": 0.634972,
+      "r2": 0.91638,
+      "n_types": 744
+    },
+    "delta_s": -0.074412,
+    "ks_vs_zipf1_surface": 0.433338,
+    "ks_vs_zipf1_lemma": 0.209625
+  },
+  {
+    "book": "Joel",
+    "book_num": 29,
+    "corpus": "OT",
+    "n_tokens": 958,
+    "surface": {
+      "s": 0.456,
+      "r2": 0.831329,
+      "n_types": 806
+    },
+    "lemma": {
+      "s": 0.595484,
+      "r2": 0.956595,
+      "n_types": 395
+    },
+    "delta_s": -0.139484,
+    "ks_vs_zipf1_surface": 0.455114,
+    "ks_vs_zipf1_lemma": 0.259501
+  },
+  {
+    "book": "Amos",
+    "book_num": 30,
+    "corpus": "OT",
+    "n_tokens": 2045,
+    "surface": {
+      "s": 0.607262,
+      "r2": 0.958576,
+      "n_types": 1487
+    },
+    "lemma": {
+      "s": 0.668567,
+      "r2": 0.950388,
+      "n_types": 654
+    },
+    "delta_s": -0.061305,
+    "ks_vs_zipf1_surface": 0.384176,
+    "ks_vs_zipf1_lemma": 0.203431
+  },
+  {
+    "book": "Obadiah",
+    "book_num": 31,
+    "corpus": "OT",
+    "n_tokens": 292,
+    "surface": {
+      "s": 0.353722,
+      "r2": 0.760234,
+      "n_types": 260
+    },
+    "lemma": {
+      "s": 0.529745,
+      "r2": 0.946915,
+      "n_types": 165
+    },
+    "delta_s": -0.176023,
+    "ks_vs_zipf1_surface": 0.452269,
+    "ks_vs_zipf1_lemma": 0.271952
+  },
+  {
+    "book": "Jonah",
+    "book_num": 32,
+    "corpus": "OT",
+    "n_tokens": 688,
+    "surface": {
+      "s": 0.587784,
+      "r2": 0.842058,
+      "n_types": 553
+    },
+    "lemma": {
+      "s": 0.634239,
+      "r2": 0.938113,
+      "n_types": 250
+    },
+    "delta_s": -0.046455,
+    "ks_vs_zipf1_surface": 0.410938,
+    "ks_vs_zipf1_lemma": 0.198408
+  },
+  {
+    "book": "Micah",
+    "book_num": 33,
+    "corpus": "OT",
+    "n_tokens": 1400,
+    "surface": {
+      "s": 0.459045,
+      "r2": 0.875432,
+      "n_types": 1180
+    },
+    "lemma": {
+      "s": 0.59528,
+      "r2": 0.936319,
+      "n_types": 589
+    },
+    "delta_s": -0.136235,
+    "ks_vs_zipf1_surface": 0.468841,
+    "ks_vs_zipf1_lemma": 0.259567
+  },
+  {
+    "book": "Nahum",
+    "book_num": 34,
+    "corpus": "OT",
+    "n_tokens": 562,
+    "surface": {
+      "s": 0.295043,
+      "r2": 0.628616,
+      "n_types": 521
+    },
+    "lemma": {
+      "s": 0.501125,
+      "r2": 0.943652,
+      "n_types": 356
+    },
+    "delta_s": -0.206082,
+    "ks_vs_zipf1_surface": 0.511322,
+    "ks_vs_zipf1_lemma": 0.350527
+  },
+  {
+    "book": "Habakkuk",
+    "book_num": 35,
+    "corpus": "OT",
+    "n_tokens": 672,
+    "surface": {
+      "s": 0.367479,
+      "r2": 0.709408,
+      "n_types": 602
+    },
+    "lemma": {
+      "s": 0.576552,
+      "r2": 0.9628,
+      "n_types": 391
+    },
+    "delta_s": -0.209073,
+    "ks_vs_zipf1_surface": 0.490514,
+    "ks_vs_zipf1_lemma": 0.310551
+  },
+  {
+    "book": "Zephaniah",
+    "book_num": 36,
+    "corpus": "OT",
+    "n_tokens": 769,
+    "surface": {
+      "s": 0.477436,
+      "r2": 0.874777,
+      "n_types": 641
+    },
+    "lemma": {
+      "s": 0.655228,
+      "r2": 0.920717,
+      "n_types": 368
+    },
+    "delta_s": -0.177792,
+    "ks_vs_zipf1_surface": 0.440725,
+    "ks_vs_zipf1_lemma": 0.220622
+  },
+  {
+    "book": "Haggai",
+    "book_num": 37,
+    "corpus": "OT",
+    "n_tokens": 601,
+    "surface": {
+      "s": 0.475789,
+      "r2": 0.901242,
+      "n_types": 429
+    },
+    "lemma": {
+      "s": 0.640622,
+      "r2": 0.970146,
+      "n_types": 205
+    },
+    "delta_s": -0.164833,
+    "ks_vs_zipf1_surface": 0.345766,
+    "ks_vs_zipf1_lemma": 0.213349
+  },
+  {
+    "book": "Zechariah",
+    "book_num": 38,
+    "corpus": "OT",
+    "n_tokens": 3134,
+    "surface": {
+      "s": 0.666053,
+      "r2": 0.964856,
+      "n_types": 2191
+    },
+    "lemma": {
+      "s": 0.683408,
+      "r2": 0.936977,
+      "n_types": 733
+    },
+    "delta_s": -0.017355,
+    "ks_vs_zipf1_surface": 0.380113,
+    "ks_vs_zipf1_lemma": 0.16731
+  },
+  {
+    "book": "Malachi",
+    "book_num": 39,
+    "corpus": "OT",
+    "n_tokens": 876,
+    "surface": {
+      "s": 0.51498,
+      "r2": 0.861497,
+      "n_types": 712
+    },
+    "lemma": {
+      "s": 0.675102,
+      "r2": 0.96183,
+      "n_types": 311
+    },
+    "delta_s": -0.160122,
+    "ks_vs_zipf1_surface": 0.427131,
+    "ks_vs_zipf1_lemma": 0.198501
+  },
+  {
+    "book": "Matthew",
+    "book_num": 40,
+    "corpus": "NT",
+    "n_tokens": 18329,
+    "surface": {
+      "s": 0.817889,
+      "r2": 0.976585,
+      "n_types": 4377
+    },
+    "lemma": {
+      "s": 1.080753,
+      "r2": 0.995405,
+      "n_types": 1680
+    },
+    "delta_s": -0.262864,
+    "ks_vs_zipf1_surface": 0.121727,
+    "ks_vs_zipf1_lemma": 0.044807
+  },
+  {
+    "book": "Mark",
+    "book_num": 41,
+    "corpus": "NT",
+    "n_tokens": 11286,
+    "surface": {
+      "s": 0.930082,
+      "r2": 0.919187,
+      "n_types": 3125
+    },
+    "lemma": {
+      "s": 1.017386,
+      "r2": 0.955756,
+      "n_types": 1341
+    },
+    "delta_s": -0.087304,
+    "ks_vs_zipf1_surface": 0.130676,
+    "ks_vs_zipf1_lemma": 0.061764
+  },
+  {
+    "book": "Luke",
+    "book_num": 42,
+    "corpus": "NT",
+    "n_tokens": 19446,
+    "surface": {
+      "s": 0.868112,
+      "r2": 0.97406,
+      "n_types": 5064
+    },
+    "lemma": {
+      "s": 1.01347,
+      "r2": 0.993376,
+      "n_types": 2046
+    },
+    "delta_s": -0.145358,
+    "ks_vs_zipf1_surface": 0.109743,
+    "ks_vs_zipf1_lemma": 0.056316
+  },
+  {
+    "book": "John",
+    "book_num": 43,
+    "corpus": "NT",
+    "n_tokens": 15438,
+    "surface": {
+      "s": 0.760125,
+      "r2": 0.964131,
+      "n_types": 2926
+    },
+    "lemma": {
+      "s": 0.967594,
+      "r2": 0.986059,
+      "n_types": 999
+    },
+    "delta_s": -0.207469,
+    "ks_vs_zipf1_surface": 0.144629,
+    "ks_vs_zipf1_lemma": 0.082937
+  },
+  {
+    "book": "Acts",
+    "book_num": 44,
+    "corpus": "NT",
+    "n_tokens": 18412,
+    "surface": {
+      "s": 0.820777,
+      "r2": 0.981796,
+      "n_types": 4980
+    },
+    "lemma": {
+      "s": 1.09714,
+      "r2": 0.991727,
+      "n_types": 2032
+    },
+    "delta_s": -0.276363,
+    "ks_vs_zipf1_surface": 0.1232,
+    "ks_vs_zipf1_lemma": 0.040401
+  },
+  {
+    "book": "Romans",
+    "book_num": 45,
+    "corpus": "NT",
+    "n_tokens": 7055,
+    "surface": {
+      "s": 0.704497,
+      "r2": 0.929595,
+      "n_types": 2141
+    },
+    "lemma": {
+      "s": 1.101733,
+      "r2": 0.940664,
+      "n_types": 1054
+    },
+    "delta_s": -0.397236,
+    "ks_vs_zipf1_surface": 0.160345,
+    "ks_vs_zipf1_lemma": 0.04224
+  },
+  {
+    "book": "1 Corinthians",
+    "book_num": 46,
+    "corpus": "NT",
+    "n_tokens": 6812,
+    "surface": {
+      "s": 0.722137,
+      "r2": 0.96177,
+      "n_types": 2120
+    },
+    "lemma": {
+      "s": 0.961916,
+      "r2": 0.966536,
+      "n_types": 952
+    },
+    "delta_s": -0.239779,
+    "ks_vs_zipf1_surface": 0.165908,
+    "ks_vs_zipf1_lemma": 0.060428
+  },
+  {
+    "book": "2 Corinthians",
+    "book_num": 47,
+    "corpus": "NT",
+    "n_tokens": 4473,
+    "surface": {
+      "s": 0.718652,
+      "r2": 0.939925,
+      "n_types": 1521
+    },
+    "lemma": {
+      "s": 0.930748,
+      "r2": 0.976334,
+      "n_types": 786
+    },
+    "delta_s": -0.212096,
+    "ks_vs_zipf1_surface": 0.172328,
+    "ks_vs_zipf1_lemma": 0.049165
+  },
+  {
+    "book": "Galatians",
+    "book_num": 48,
+    "corpus": "NT",
+    "n_tokens": 2226,
+    "surface": {
+      "s": 0.638459,
+      "r2": 0.945269,
+      "n_types": 917
+    },
+    "lemma": {
+      "s": 0.924641,
+      "r2": 0.9413,
+      "n_types": 519
+    },
+    "delta_s": -0.286182,
+    "ks_vs_zipf1_surface": 0.228128,
+    "ks_vs_zipf1_lemma": 0.106819
+  },
+  {
+    "book": "Ephesians",
+    "book_num": 49,
+    "corpus": "NT",
+    "n_tokens": 2416,
+    "surface": {
+      "s": 0.765335,
+      "r2": 0.96593,
+      "n_types": 921
+    },
+    "lemma": {
+      "s": 1.142717,
+      "r2": 0.980736,
+      "n_types": 528
+    },
+    "delta_s": -0.377382,
+    "ks_vs_zipf1_surface": 0.155746,
+    "ks_vs_zipf1_lemma": 0.031936
+  },
+  {
+    "book": "Philippians",
+    "book_num": 50,
+    "corpus": "NT",
+    "n_tokens": 1626,
+    "surface": {
+      "s": 0.778178,
+      "r2": 0.980197,
+      "n_types": 710
+    },
+    "lemma": {
+      "s": 0.909257,
+      "r2": 0.997122,
+      "n_types": 442
+    },
+    "delta_s": -0.131079,
+    "ks_vs_zipf1_surface": 0.193082,
+    "ks_vs_zipf1_lemma": 0.055384
+  },
+  {
+    "book": "Colossians",
+    "book_num": 51,
+    "corpus": "NT",
+    "n_tokens": 1580,
+    "surface": {
+      "s": 0.786499,
+      "r2": 0.963926,
+      "n_types": 678
+    },
+    "lemma": {
+      "s": 1.067472,
+      "r2": 0.991724,
+      "n_types": 430
+    },
+    "delta_s": -0.280973,
+    "ks_vs_zipf1_surface": 0.170812,
+    "ks_vs_zipf1_lemma": 0.034339
+  },
+  {
+    "book": "1 Thessalonians",
+    "book_num": 52,
+    "corpus": "NT",
+    "n_tokens": 1473,
+    "surface": {
+      "s": 0.754437,
+      "r2": 0.980324,
+      "n_types": 586
+    },
+    "lemma": {
+      "s": 0.93,
+      "r2": 0.994139,
+      "n_types": 361
+    },
+    "delta_s": -0.175563,
+    "ks_vs_zipf1_surface": 0.184234,
+    "ks_vs_zipf1_lemma": 0.039899
+  },
+  {
+    "book": "2 Thessalonians",
+    "book_num": 53,
+    "corpus": "NT",
+    "n_tokens": 820,
+    "surface": {
+      "s": 0.699498,
+      "r2": 0.972505,
+      "n_types": 396
+    },
+    "lemma": {
+      "s": 0.920785,
+      "r2": 0.992601,
+      "n_types": 249
+    },
+    "delta_s": -0.221287,
+    "ks_vs_zipf1_surface": 0.200599,
+    "ks_vs_zipf1_lemma": 0.070412
+  },
+  {
+    "book": "1 Timothy",
+    "book_num": 54,
+    "corpus": "NT",
+    "n_tokens": 1591,
+    "surface": {
+      "s": 0.769223,
+      "r2": 0.977162,
+      "n_types": 860
+    },
+    "lemma": {
+      "s": 0.894516,
+      "r2": 0.98004,
+      "n_types": 538
+    },
+    "delta_s": -0.125293,
+    "ks_vs_zipf1_surface": 0.251774,
+    "ks_vs_zipf1_lemma": 0.137589
+  },
+  {
+    "book": "2 Timothy",
+    "book_num": 55,
+    "corpus": "NT",
+    "n_tokens": 1235,
+    "surface": {
+      "s": 0.726865,
+      "r2": 0.984342,
+      "n_types": 674
+    },
+    "lemma": {
+      "s": 0.95674,
+      "r2": 0.989313,
+      "n_types": 452
+    },
+    "delta_s": -0.229875,
+    "ks_vs_zipf1_surface": 0.241264,
+    "ks_vs_zipf1_lemma": 0.105011
+  },
+  {
+    "book": "Titus",
+    "book_num": 56,
+    "corpus": "NT",
+    "n_tokens": 659,
+    "surface": {
+      "s": 0.677444,
+      "r2": 0.946687,
+      "n_types": 414
+    },
+    "lemma": {
+      "s": 0.819987,
+      "r2": 0.984625,
+      "n_types": 300
+    },
+    "delta_s": -0.142543,
+    "ks_vs_zipf1_surface": 0.280721,
+    "ks_vs_zipf1_lemma": 0.154127
+  },
+  {
+    "book": "Philemon",
+    "book_num": 57,
+    "corpus": "NT",
+    "n_tokens": 334,
+    "surface": {
+      "s": 0.569711,
+      "r2": 0.961674,
+      "n_types": 202
+    },
+    "lemma": {
+      "s": 0.809475,
+      "r2": 0.967525,
+      "n_types": 140
+    },
+    "delta_s": -0.239764,
+    "ks_vs_zipf1_surface": 0.303184,
+    "ks_vs_zipf1_lemma": 0.13052
+  },
+  {
+    "book": "Hebrews",
+    "book_num": 58,
+    "corpus": "NT",
+    "n_tokens": 4935,
+    "surface": {
+      "s": 0.742123,
+      "r2": 0.948433,
+      "n_types": 1941
+    },
+    "lemma": {
+      "s": 1.110382,
+      "r2": 0.97039,
+      "n_types": 1029
+    },
+    "delta_s": -0.368259,
+    "ks_vs_zipf1_surface": 0.183954,
+    "ks_vs_zipf1_lemma": 0.067474
+  },
+  {
+    "book": "James",
+    "book_num": 59,
+    "corpus": "NT",
+    "n_tokens": 1739,
+    "surface": {
+      "s": 0.771021,
+      "r2": 0.96009,
+      "n_types": 881
+    },
+    "lemma": {
+      "s": 1.02236,
+      "r2": 0.984843,
+      "n_types": 555
+    },
+    "delta_s": -0.251339,
+    "ks_vs_zipf1_surface": 0.209192,
+    "ks_vs_zipf1_lemma": 0.088217
+  },
+  {
+    "book": "1 Peter",
+    "book_num": 60,
+    "corpus": "NT",
+    "n_tokens": 1678,
+    "surface": {
+      "s": 0.691317,
+      "r2": 0.963041,
+      "n_types": 852
+    },
+    "lemma": {
+      "s": 0.936522,
+      "r2": 0.979026,
+      "n_types": 543
+    },
+    "delta_s": -0.245205,
+    "ks_vs_zipf1_surface": 0.20983,
+    "ks_vs_zipf1_lemma": 0.089735
+  },
+  {
+    "book": "2 Peter",
+    "book_num": 61,
+    "corpus": "NT",
+    "n_tokens": 1098,
+    "surface": {
+      "s": 0.758118,
+      "r2": 0.980401,
+      "n_types": 626
+    },
+    "lemma": {
+      "s": 0.919254,
+      "r2": 0.994236,
+      "n_types": 399
+    },
+    "delta_s": -0.161136,
+    "ks_vs_zipf1_surface": 0.241354,
+    "ks_vs_zipf1_lemma": 0.119855
+  },
+  {
+    "book": "1 John",
+    "book_num": 62,
+    "corpus": "NT",
+    "n_tokens": 2137,
+    "surface": {
+      "s": 0.721856,
+      "r2": 0.945885,
+      "n_types": 539
+    },
+    "lemma": {
+      "s": 0.969849,
+      "r2": 0.979927,
+      "n_types": 233
+    },
+    "delta_s": -0.247993,
+    "ks_vs_zipf1_surface": 0.137801,
+    "ks_vs_zipf1_lemma": 0.057948
+  },
+  {
+    "book": "2 John",
+    "book_num": 63,
+    "corpus": "NT",
+    "n_tokens": 245,
+    "surface": {
+      "s": 0.596955,
+      "r2": 0.940968,
+      "n_types": 156
+    },
+    "lemma": {
+      "s": 0.825738,
+      "r2": 0.972014,
+      "n_types": 95
+    },
+    "delta_s": -0.228783,
+    "ks_vs_zipf1_surface": 0.292355,
+    "ks_vs_zipf1_lemma": 0.167101
+  },
+  {
+    "book": "3 John",
+    "book_num": 64,
+    "corpus": "NT",
+    "n_tokens": 219,
+    "surface": {
+      "s": 0.507825,
+      "r2": 0.911067,
+      "n_types": 158
+    },
+    "lemma": {
+      "s": 0.841207,
+      "r2": 0.958376,
+      "n_types": 108
+    },
+    "delta_s": -0.333382,
+    "ks_vs_zipf1_surface": 0.341029,
+    "ks_vs_zipf1_lemma": 0.179475
+  },
+  {
+    "book": "Jude",
+    "book_num": 65,
+    "corpus": "NT",
+    "n_tokens": 459,
+    "surface": {
+      "s": 0.593219,
+      "r2": 0.964282,
+      "n_types": 300
+    },
+    "lemma": {
+      "s": 0.889361,
+      "r2": 0.961263,
+      "n_types": 226
+    },
+    "delta_s": -0.296142,
+    "ks_vs_zipf1_surface": 0.315609,
+    "ks_vs_zipf1_lemma": 0.1708
+  },
+  {
+    "book": "Revelation",
+    "book_num": 66,
+    "corpus": "NT",
+    "n_tokens": 9833,
+    "surface": {
+      "s": 0.982116,
+      "r2": 0.953613,
+      "n_types": 2268
+    },
+    "lemma": {
+      "s": 1.233865,
+      "r2": 0.965476,
+      "n_types": 911
+    },
+    "delta_s": -0.251749,
+    "ks_vs_zipf1_surface": 0.087689,
+    "ks_vs_zipf1_lemma": 0.10269
+  }
+]

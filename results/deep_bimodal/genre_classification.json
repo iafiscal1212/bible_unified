@@ -1,0 +1,662 @@
+[
+  {
+    "book": "Genesis",
+    "book_num": 1,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.626,
+    "mean_verse_length": 13.46,
+    "std_verse_length": 4.84,
+    "n_verses": 1533
+  },
+  {
+    "book": "Exodus",
+    "book_num": 2,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5073,
+    "mean_verse_length": 13.79,
+    "std_verse_length": 5.19,
+    "n_verses": 1213
+  },
+  {
+    "book": "Leviticus",
+    "book_num": 3,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5105,
+    "mean_verse_length": 13.92,
+    "std_verse_length": 5.17,
+    "n_verses": 859
+  },
+  {
+    "book": "Numbers",
+    "book_num": 4,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.3841,
+    "mean_verse_length": 12.74,
+    "std_verse_length": 5.5,
+    "n_verses": 1289
+  },
+  {
+    "book": "Deuteronomy",
+    "book_num": 5,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.631,
+    "mean_verse_length": 14.93,
+    "std_verse_length": 5.77,
+    "n_verses": 959
+  },
+  {
+    "book": "Joshua",
+    "book_num": 6,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.3799,
+    "mean_verse_length": 15.32,
+    "std_verse_length": 7.05,
+    "n_verses": 658
+  },
+  {
+    "book": "Judges",
+    "book_num": 7,
+    "corpus": "OT",
+    "genre": "legal",
+    "vn_ratio": 0.6127,
+    "mean_verse_length": 16.03,
+    "std_verse_length": 5.6,
+    "n_verses": 618
+  },
+  {
+    "book": "Ruth",
+    "book_num": 8,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 1.1023,
+    "mean_verse_length": 15.36,
+    "std_verse_length": 5.14,
+    "n_verses": 85
+  },
+  {
+    "book": "1 Samuel",
+    "book_num": 9,
+    "corpus": "OT",
+    "genre": "legal",
+    "vn_ratio": 0.6527,
+    "mean_verse_length": 16.44,
+    "std_verse_length": 5.72,
+    "n_verses": 811
+  },
+  {
+    "book": "2 Samuel",
+    "book_num": 10,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5691,
+    "mean_verse_length": 16.01,
+    "std_verse_length": 6.41,
+    "n_verses": 695
+  },
+  {
+    "book": "1 Kings",
+    "book_num": 11,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5231,
+    "mean_verse_length": 16.14,
+    "std_verse_length": 6.01,
+    "n_verses": 817
+  },
+  {
+    "book": "2 Kings",
+    "book_num": 12,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5363,
+    "mean_verse_length": 17.18,
+    "std_verse_length": 6.26,
+    "n_verses": 719
+  },
+  {
+    "book": "1 Chronicles",
+    "book_num": 13,
+    "corpus": "OT",
+    "genre": "poetic",
+    "vn_ratio": 0.2197,
+    "mean_verse_length": 11.44,
+    "std_verse_length": 5.56,
+    "n_verses": 943
+  },
+  {
+    "book": "2 Chronicles",
+    "book_num": 14,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.415,
+    "mean_verse_length": 16.25,
+    "std_verse_length": 6.06,
+    "n_verses": 822
+  },
+  {
+    "book": "Ezra",
+    "book_num": 15,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.284,
+    "mean_verse_length": 13.54,
+    "std_verse_length": 6.91,
+    "n_verses": 280
+  },
+  {
+    "book": "Nehemiah",
+    "book_num": 16,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.3414,
+    "mean_verse_length": 13.18,
+    "std_verse_length": 6.89,
+    "n_verses": 405
+  },
+  {
+    "book": "Esther",
+    "book_num": 17,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.4241,
+    "mean_verse_length": 18.31,
+    "std_verse_length": 7.23,
+    "n_verses": 167
+  },
+  {
+    "book": "Job",
+    "book_num": 18,
+    "corpus": "OT",
+    "genre": "poetic",
+    "vn_ratio": 0.8995,
+    "mean_verse_length": 7.85,
+    "std_verse_length": 2.85,
+    "n_verses": 1070
+  },
+  {
+    "book": "Psalms",
+    "book_num": 19,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7035,
+    "mean_verse_length": 7.78,
+    "std_verse_length": 2.3,
+    "n_verses": 2527
+  },
+  {
+    "book": "Proverbs",
+    "book_num": 20,
+    "corpus": "OT",
+    "genre": "poetic",
+    "vn_ratio": 0.6551,
+    "mean_verse_length": 7.63,
+    "std_verse_length": 1.58,
+    "n_verses": 915
+  },
+  {
+    "book": "Ecclesiastes",
+    "book_num": 21,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7052,
+    "mean_verse_length": 13.51,
+    "std_verse_length": 5.53,
+    "n_verses": 222
+  },
+  {
+    "book": "Song of Songs",
+    "book_num": 22,
+    "corpus": "OT",
+    "genre": "poetic",
+    "vn_ratio": 0.5229,
+    "mean_verse_length": 10.73,
+    "std_verse_length": 3.91,
+    "n_verses": 117
+  },
+  {
+    "book": "Isaiah",
+    "book_num": 23,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7022,
+    "mean_verse_length": 13.16,
+    "std_verse_length": 4.59,
+    "n_verses": 1291
+  },
+  {
+    "book": "Jeremiah",
+    "book_num": 24,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5819,
+    "mean_verse_length": 16.11,
+    "std_verse_length": 5.98,
+    "n_verses": 1364
+  },
+  {
+    "book": "Lamentations",
+    "book_num": 25,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.8673,
+    "mean_verse_length": 10.16,
+    "std_verse_length": 5.22,
+    "n_verses": 154
+  },
+  {
+    "book": "Ezekiel",
+    "book_num": 26,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5705,
+    "mean_verse_length": 14.82,
+    "std_verse_length": 5.69,
+    "n_verses": 1273
+  },
+  {
+    "book": "Daniel",
+    "book_num": 27,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.8462,
+    "mean_verse_length": 16.9,
+    "std_verse_length": 6.99,
+    "n_verses": 357
+  },
+  {
+    "book": "Hosea",
+    "book_num": 28,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7197,
+    "mean_verse_length": 12.11,
+    "std_verse_length": 4.41,
+    "n_verses": 197
+  },
+  {
+    "book": "Joel",
+    "book_num": 29,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5903,
+    "mean_verse_length": 13.12,
+    "std_verse_length": 4.77,
+    "n_verses": 73
+  },
+  {
+    "book": "Amos",
+    "book_num": 30,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5983,
+    "mean_verse_length": 14.01,
+    "std_verse_length": 4.91,
+    "n_verses": 146
+  },
+  {
+    "book": "Obadiah",
+    "book_num": 31,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5085,
+    "mean_verse_length": 13.9,
+    "std_verse_length": 4.48,
+    "n_verses": 21
+  },
+  {
+    "book": "Jonah",
+    "book_num": 32,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.8636,
+    "mean_verse_length": 14.33,
+    "std_verse_length": 5.55,
+    "n_verses": 48
+  },
+  {
+    "book": "Micah",
+    "book_num": 33,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.6736,
+    "mean_verse_length": 13.33,
+    "std_verse_length": 4.19,
+    "n_verses": 105
+  },
+  {
+    "book": "Nahum",
+    "book_num": 34,
+    "corpus": "OT",
+    "genre": "poetic",
+    "vn_ratio": 0.6667,
+    "mean_verse_length": 11.96,
+    "std_verse_length": 3.66,
+    "n_verses": 47
+  },
+  {
+    "book": "Habakkuk",
+    "book_num": 35,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7835,
+    "mean_verse_length": 12.0,
+    "std_verse_length": 4.25,
+    "n_verses": 56
+  },
+  {
+    "book": "Zephaniah",
+    "book_num": 36,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.5061,
+    "mean_verse_length": 14.51,
+    "std_verse_length": 5.25,
+    "n_verses": 53
+  },
+  {
+    "book": "Haggai",
+    "book_num": 37,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.4191,
+    "mean_verse_length": 15.82,
+    "std_verse_length": 5.98,
+    "n_verses": 38
+  },
+  {
+    "book": "Zechariah",
+    "book_num": 38,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.6254,
+    "mean_verse_length": 14.85,
+    "std_verse_length": 5.48,
+    "n_verses": 211
+  },
+  {
+    "book": "Malachi",
+    "book_num": 39,
+    "corpus": "OT",
+    "genre": "narrative",
+    "vn_ratio": 0.7904,
+    "mean_verse_length": 15.93,
+    "std_verse_length": 5.34,
+    "n_verses": 55
+  },
+  {
+    "book": "Matthew",
+    "book_num": 40,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.1276,
+    "mean_verse_length": 17.16,
+    "std_verse_length": 6.49,
+    "n_verses": 1068
+  },
+  {
+    "book": "Mark",
+    "book_num": 41,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.3454,
+    "mean_verse_length": 16.77,
+    "std_verse_length": 6.3,
+    "n_verses": 673
+  },
+  {
+    "book": "Luke",
+    "book_num": 42,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.2436,
+    "mean_verse_length": 16.92,
+    "std_verse_length": 6.37,
+    "n_verses": 1149
+  },
+  {
+    "book": "John",
+    "book_num": 43,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.3679,
+    "mean_verse_length": 17.83,
+    "std_verse_length": 6.58,
+    "n_verses": 866
+  },
+  {
+    "book": "Acts",
+    "book_num": 44,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 0.9767,
+    "mean_verse_length": 18.38,
+    "std_verse_length": 6.32,
+    "n_verses": 1002
+  },
+  {
+    "book": "Romans",
+    "book_num": 45,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7014,
+    "mean_verse_length": 16.41,
+    "std_verse_length": 5.95,
+    "n_verses": 430
+  },
+  {
+    "book": "1 Corinthians",
+    "book_num": 46,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 0.959,
+    "mean_verse_length": 15.59,
+    "std_verse_length": 5.75,
+    "n_verses": 437
+  },
+  {
+    "book": "2 Corinthians",
+    "book_num": 47,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 0.8489,
+    "mean_verse_length": 17.47,
+    "std_verse_length": 6.09,
+    "n_verses": 256
+  },
+  {
+    "book": "Galatians",
+    "book_num": 48,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7905,
+    "mean_verse_length": 14.94,
+    "std_verse_length": 6.02,
+    "n_verses": 149
+  },
+  {
+    "book": "Ephesians",
+    "book_num": 49,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.5257,
+    "mean_verse_length": 15.59,
+    "std_verse_length": 5.3,
+    "n_verses": 155
+  },
+  {
+    "book": "Philippians",
+    "book_num": 50,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7033,
+    "mean_verse_length": 15.63,
+    "std_verse_length": 5.7,
+    "n_verses": 104
+  },
+  {
+    "book": "Colossians",
+    "book_num": 51,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.6082,
+    "mean_verse_length": 16.63,
+    "std_verse_length": 6.07,
+    "n_verses": 95
+  },
+  {
+    "book": "1 Thessalonians",
+    "book_num": 52,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7666,
+    "mean_verse_length": 16.55,
+    "std_verse_length": 7.45,
+    "n_verses": 89
+  },
+  {
+    "book": "2 Thessalonians",
+    "book_num": 53,
+    "corpus": "NT",
+    "genre": "legal",
+    "vn_ratio": 0.602,
+    "mean_verse_length": 17.45,
+    "std_verse_length": 5.61,
+    "n_verses": 47
+  },
+  {
+    "book": "1 Timothy",
+    "book_num": 54,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.734,
+    "mean_verse_length": 14.08,
+    "std_verse_length": 5.2,
+    "n_verses": 113
+  },
+  {
+    "book": "2 Timothy",
+    "book_num": 55,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.729,
+    "mean_verse_length": 14.88,
+    "std_verse_length": 5.71,
+    "n_verses": 83
+  },
+  {
+    "book": "Titus",
+    "book_num": 56,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7451,
+    "mean_verse_length": 14.33,
+    "std_verse_length": 4.48,
+    "n_verses": 46
+  },
+  {
+    "book": "Philemon",
+    "book_num": 57,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.5432,
+    "mean_verse_length": 13.36,
+    "std_verse_length": 3.7,
+    "n_verses": 25
+  },
+  {
+    "book": "Hebrews",
+    "book_num": 58,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.7906,
+    "mean_verse_length": 16.29,
+    "std_verse_length": 5.93,
+    "n_verses": 303
+  },
+  {
+    "book": "James",
+    "book_num": 59,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 0.9423,
+    "mean_verse_length": 16.1,
+    "std_verse_length": 5.65,
+    "n_verses": 108
+  },
+  {
+    "book": "1 Peter",
+    "book_num": 60,
+    "corpus": "NT",
+    "genre": "narrative",
+    "vn_ratio": 0.6498,
+    "mean_verse_length": 15.98,
+    "std_verse_length": 5.36,
+    "n_verses": 105
+  },
+  {
+    "book": "2 Peter",
+    "book_num": 61,
+    "corpus": "NT",
+    "genre": "legal",
+    "vn_ratio": 0.6455,
+    "mean_verse_length": 18.0,
+    "std_verse_length": 4.63,
+    "n_verses": 61
+  },
+  {
+    "book": "1 John",
+    "book_num": 62,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.1094,
+    "mean_verse_length": 20.35,
+    "std_verse_length": 7.08,
+    "n_verses": 105
+  },
+  {
+    "book": "2 John",
+    "book_num": 63,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 0.96,
+    "mean_verse_length": 18.85,
+    "std_verse_length": 5.74,
+    "n_verses": 13
+  },
+  {
+    "book": "3 John",
+    "book_num": 64,
+    "corpus": "NT",
+    "genre": "epistolar",
+    "vn_ratio": 1.625,
+    "mean_verse_length": 14.6,
+    "std_verse_length": 5.87,
+    "n_verses": 15
+  },
+  {
+    "book": "Jude",
+    "book_num": 65,
+    "corpus": "NT",
+    "genre": "legal",
+    "vn_ratio": 0.6911,
+    "mean_verse_length": 18.36,
+    "std_verse_length": 6.18,
+    "n_verses": 25
+  },
+  {
+    "book": "Revelation",
+    "book_num": 66,
+    "corpus": "NT",
+    "genre": "legal",
+    "vn_ratio": 0.6695,
+    "mean_verse_length": 24.28,
+    "std_verse_length": 8.11,
+    "n_verses": 405
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "heb_alphabet_mean_value": 65.74,
+  "grc_alphabet_mean_value": 159.07,
+  "n_ot_words": 306785,
+  "n_nt_words": 137554,
+  "theoretical_ratio_uniform": 0.92171379,
+  "observed_ratio": 0.99090188,
+  "deviation_from_theoretical": 0.06918808,
+  "ot_observed_mean_per_word": 255.82,
+  "nt_observed_mean_per_word": 575.8
+}

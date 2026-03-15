@@ -1,0 +1,116 @@
+{
+  "global": {
+    "component_1": {
+      "mu": 9.03,
+      "sigma": 2.7,
+      "weight": 0.3544
+    },
+    "component_2": {
+      "mu": 17.15,
+      "sigma": 6.08,
+      "weight": 0.6456
+    },
+    "bic_1_component": 204402.0,
+    "bic_2_component": 200920.21,
+    "bic_improvement": 3481.78,
+    "favors_2_components": true
+  },
+  "OT": {
+    "component_1": {
+      "mu": 7.85,
+      "sigma": 1.96,
+      "weight": 0.3127
+    },
+    "component_2": {
+      "mu": 15.66,
+      "sigma": 5.67,
+      "weight": 0.6873
+    },
+    "bic_1_component": 149318.91,
+    "bic_2_component": 145783.93,
+    "bic_improvement": 3534.97,
+    "favors_2_components": true
+  },
+  "NT": {
+    "component_1": {
+      "mu": 14.0,
+      "sigma": 4.17,
+      "weight": 0.5595
+    },
+    "component_2": {
+      "mu": 21.61,
+      "sigma": 6.68,
+      "weight": 0.4405
+    },
+    "bic_1_component": 52459.9,
+    "bic_2_component": 51886.89,
+    "bic_improvement": 573.02,
+    "favors_2_components": true
+  },
+  "by_genre": {
+    "narrative": {
+      "component_1": {
+        "mu": 9.43,
+        "sigma": 3.0,
+        "weight": 0.403
+      },
+      "component_2": {
+        "mu": 16.83,
+        "sigma": 5.72,
+        "weight": 0.597
+      },
+      "bic_1_component": 131143.58,
+      "bic_2_component": 129329.74,
+      "bic_improvement": 1813.84,
+      "favors_2_components": true
+    },
+    "legal": {
+      "component_1": {
+        "mu": 14.19,
+        "sigma": 4.08,
+        "weight": 0.5315
+      },
+      "component_2": {
+        "mu": 22.38,
+        "sigma": 7.1,
+        "weight": 0.4685
+      },
+      "bic_1_component": 13257.9,
+      "bic_2_component": 13091.29,
+      "bic_improvement": 166.62,
+      "favors_2_components": true
+    },
+    "poetic": {
+      "component_1": {
+        "mu": 7.33,
+        "sigma": 1.32,
+        "weight": 0.6868
+      },
+      "component_2": {
+        "mu": 12.83,
+        "sigma": 5.4,
+        "weight": 0.3132
+      },
+      "bic_1_component": 17521.74,
+      "bic_2_component": 15383.09,
+      "bic_improvement": 2138.65,
+      "favors_2_components": true
+    },
+    "epistolar": {
+      "component_1": {
+        "mu": 13.97,
+        "sigma": 4.13,
+        "weight": 0.5464
+      },
+      "component_2": {
+        "mu": 21.34,
+        "sigma": 6.36,
+        "weight": 0.4536
+      },
+      "bic_1_component": 37322.23,
+      "bic_2_component": 36986.39,
+      "bic_improvement": 335.84,
+      "favors_2_components": true
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "test": "Kolmogorov-Smirnov: observed frequency distribution vs Zipf(s=1.0)",
+  "by_corpus": {
+    "OT": {
+      "surface_ks_stat": 0.294478,
+      "lemma_ks_stat": 0.122968
+    },
+    "NT": {
+      "surface_ks_stat": 0.084991,
+      "lemma_ks_stat": 0.110492
+    }
+  },
+  "by_book": [
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "surface_ks": 0.349309,
+      "lemma_ks": 0.147146
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "surface_ks": 0.3294,
+      "lemma_ks": 0.143347
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "surface_ks": 0.3056,
+      "lemma_ks": 0.142525
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "surface_ks": 0.317323,
+      "lemma_ks": 0.149503
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "surface_ks": 0.323334,
+      "lemma_ks": 0.114749
+    },
+    {
+      "book": "Joshua",
+      "corpus": "OT",
+      "surface_ks": 0.335748,
+      "lemma_ks": 0.151915
+    },
+    {
+      "book": "Judges",
+      "corpus": "OT",
+      "surface_ks": 0.373167,
+      "lemma_ks": 0.15902
+    },
+    {
+      "book": "Ruth",
+      "corpus": "OT",
+      "surface_ks": 0.429189,
+      "lemma_ks": 0.226503
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "surface_ks": 0.334475,
+      "lemma_ks": 0.149209
+    },
+    {
+      "book": "2 Samuel",
+      "corpus": "OT",
+      "surface_ks": 0.337372,
+      "lemma_ks": 0.151228
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "surface_ks": 0.343571,
+      "lemma_ks": 0.156642
+    },
+    {
+      "book": "2 Kings",
+      "corpus": "OT",
+      "surface_ks": 0.319349,
+      "lemma_ks": 0.140899
+    },
+    {
+      "book": "1 Chronicles",
+      "corpus": "OT",
+      "surface_ks": 0.370313,
+      "lemma_ks": 0.14205
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "surface_ks": 0.348296,
+      "lemma_ks": 0.159931
+    },
+    {
+      "book": "Ezra",
+      "corpus": "OT",
+      "surface_ks": 0.406187,
+      "lemma_ks": 0.229146
+    },
+    {
+      "book": "Nehemiah",
+      "corpus": "OT",
+      "surface_ks": 0.411919,
+      "lemma_ks": 0.204273
+    },
+    {
+      "book": "Esther",
+      "corpus": "OT",
+      "surface_ks": 0.359177,
+      "lemma_ks": 0.164871
+    },
+    {
+      "book": "Job",
+      "corpus": "OT",
+      "surface_ks": 0.422764,
+      "lemma_ks": 0.220402
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "surface_ks": 0.396225,
+      "lemma_ks": 0.203255
+    },
+    {
+      "book": "Proverbs",
+      "corpus": "OT",
+      "surface_ks": 0.425612,
+      "lemma_ks": 0.257363
+    },
+    {
+      "book": "Ecclesiastes",
+      "corpus": "OT",
+      "surface_ks": 0.371946,
+      "lemma_ks": 0.210734
+    },
+    {
+      "book": "Song of Songs",
+      "corpus": "OT",
+      "surface_ks": 0.464968,
+      "lemma_ks": 0.297941
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "surface_ks": 0.414333,
+      "lemma_ks": 0.18691
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "surface_ks": 0.314143,
+      "lemma_ks": 0.137215
+    },
+    {
+      "book": "Lamentations",
+      "corpus": "OT",
+      "surface_ks": 0.465956,
+      "lemma_ks": 0.246717
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "surface_ks": 0.349473,
+      "lemma_ks": 0.167478
+    },
+    {
+      "book": "Daniel",
+      "corpus": "OT",
+      "surface_ks": 0.427189,
+      "lemma_ks": 0.234064
+    },
+    {
+      "book": "Hosea",
+      "corpus": "OT",
+      "surface_ks": 0.433338,
+      "lemma_ks": 0.209625
+    },
+    {
+      "book": "Joel",
+      "corpus": "OT",
+      "surface_ks": 0.455114,
+      "lemma_ks": 0.259501
+    },
+    {
+      "book": "Amos",
+      "corpus": "OT",
+      "surface_ks": 0.384176,
+      "lemma_ks": 0.203431
+    },
+    {
+      "book": "Obadiah",
+      "corpus": "OT",
+      "surface_ks": 0.452269,
+      "lemma_ks": 0.271952
+    },
+    {
+      "book": "Jonah",
+      "corpus": "OT",
+      "surface_ks": 0.410938,
+      "lemma_ks": 0.198408
+    },
+    {
+      "book": "Micah",
+      "corpus": "OT",
+      "surface_ks": 0.468841,
+      "lemma_ks": 0.259567
+    },
+    {
+      "book": "Nahum",
+      "corpus": "OT",
+      "surface_ks": 0.511322,
+      "lemma_ks": 0.350527
+    },
+    {
+      "book": "Habakkuk",
+      "corpus": "OT",
+      "surface_ks": 0.490514,
+      "lemma_ks": 0.310551
+    },
+    {
+      "book": "Zephaniah",
+      "corpus": "OT",
+      "surface_ks": 0.440725,
+      "lemma_ks": 0.220622
+    },
+    {
+      "book": "Haggai",
+      "corpus": "OT",
+      "surface_ks": 0.345766,
+      "lemma_ks": 0.213349
+    },
+    {
+      "book": "Zechariah",
+      "corpus": "OT",
+      "surface_ks": 0.380113,
+      "lemma_ks": 0.16731
+    },
+    {
+      "book": "Malachi",
+      "corpus": "OT",
+      "surface_ks": 0.427131,
+      "lemma_ks": 0.198501
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "surface_ks": 0.121727,
+      "lemma_ks": 0.044807
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "surface_ks": 0.130676,
+      "lemma_ks": 0.061764
+    },
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "surface_ks": 0.109743,
+      "lemma_ks": 0.056316
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "surface_ks": 0.144629,
+      "lemma_ks": 0.082937
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "surface_ks": 0.1232,
+      "lemma_ks": 0.040401
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "surface_ks": 0.160345,
+      "lemma_ks": 0.04224
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "surface_ks": 0.165908,
+      "lemma_ks": 0.060428
+    },
+    {
+      "book": "2 Corinthians",
+      "corpus": "NT",
+      "surface_ks": 0.172328,
+      "lemma_ks": 0.049165
+    },
+    {
+      "book": "Galatians",
+      "corpus": "NT",
+      "surface_ks": 0.228128,
+      "lemma_ks": 0.106819
+    },
+    {
+      "book": "Ephesians",
+      "corpus": "NT",
+      "surface_ks": 0.155746,
+      "lemma_ks": 0.031936
+    },
+    {
+      "book": "Philippians",
+      "corpus": "NT",
+      "surface_ks": 0.193082,
+      "lemma_ks": 0.055384
+    },
+    {
+      "book": "Colossians",
+      "corpus": "NT",
+      "surface_ks": 0.170812,
+      "lemma_ks": 0.034339
+    },
+    {
+      "book": "1 Thessalonians",
+      "corpus": "NT",
+      "surface_ks": 0.184234,
+      "lemma_ks": 0.039899
+    },
+    {
+      "book": "2 Thessalonians",
+      "corpus": "NT",
+      "surface_ks": 0.200599,
+      "lemma_ks": 0.070412
+    },
+    {
+      "book": "1 Timothy",
+      "corpus": "NT",
+      "surface_ks": 0.251774,
+      "lemma_ks": 0.137589
+    },
+    {
+      "book": "2 Timothy",
+      "corpus": "NT",
+      "surface_ks": 0.241264,
+      "lemma_ks": 0.105011
+    },
+    {
+      "book": "Titus",
+      "corpus": "NT",
+      "surface_ks": 0.280721,
+      "lemma_ks": 0.154127
+    },
+    {
+      "book": "Philemon",
+      "corpus": "NT",
+      "surface_ks": 0.303184,
+      "lemma_ks": 0.13052
+    },
+    {
+      "book": "Hebrews",
+      "corpus": "NT",
+      "surface_ks": 0.183954,
+      "lemma_ks": 0.067474
+    },
+    {
+      "book": "James",
+      "corpus": "NT",
+      "surface_ks": 0.209192,
+      "lemma_ks": 0.088217
+    },
+    {
+      "book": "1 Peter",
+      "corpus": "NT",
+      "surface_ks": 0.20983,
+      "lemma_ks": 0.089735
+    },
+    {
+      "book": "2 Peter",
+      "corpus": "NT",
+      "surface_ks": 0.241354,
+      "lemma_ks": 0.119855
+    },
+    {
+      "book": "1 John",
+      "corpus": "NT",
+      "surface_ks": 0.137801,
+      "lemma_ks": 0.057948
+    },
+    {
+      "book": "2 John",
+      "corpus": "NT",
+      "surface_ks": 0.292355,
+      "lemma_ks": 0.167101
+    },
+    {
+      "book": "3 John",
+      "corpus": "NT",
+      "surface_ks": 0.341029,
+      "lemma_ks": 0.179475
+    },
+    {
+      "book": "Jude",
+      "corpus": "NT",
+      "surface_ks": 0.315609,
+      "lemma_ks": 0.1708
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "surface_ks": 0.087689,
+      "lemma_ks": 0.10269
+    }
+  ]
+}

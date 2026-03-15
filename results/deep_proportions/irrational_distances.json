@@ -1,0 +1,320 @@
+{
+  "words_AT/NT": {
+    "observed_value": 2.230288,
+    "nearest_constant": "sqrt5",
+    "nearest_value": 2.236068,
+    "nearest_distance": 0.00578,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 0.612254,
+        "relative_distance": 0.378394
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 0.816074,
+        "relative_distance": 0.577052
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 0.659491,
+        "relative_distance": 0.419845
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 0.871147,
+        "relative_distance": 0.640954
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 0.498237,
+        "relative_distance": 0.287657
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 1.537141,
+        "relative_distance": 2.217625
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 0.911305,
+        "relative_distance": 0.290077
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 0.487994,
+        "relative_distance": 0.179523
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 0.00578,
+        "relative_distance": 0.002585
+      }
+    }
+  },
+  "verses_AT/NT": {
+    "observed_value": 2.928346,
+    "nearest_constant": "e",
+    "nearest_value": 2.718282,
+    "nearest_distance": 0.210064,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 1.310312,
+        "relative_distance": 0.809817
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 1.514133,
+        "relative_distance": 1.070653
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 1.35755,
+        "relative_distance": 0.864243
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 1.569205,
+        "relative_distance": 1.154557
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 1.196295,
+        "relative_distance": 0.690681
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 2.235199,
+        "relative_distance": 3.22471
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 0.213246,
+        "relative_distance": 0.067878
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 0.210064,
+        "relative_distance": 0.077278
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 0.692278,
+        "relative_distance": 0.309596
+      }
+    }
+  },
+  "chapters_AT/NT": {
+    "observed_value": 3.573077,
+    "nearest_constant": "pi",
+    "nearest_value": 3.141593,
+    "nearest_distance": 0.431484,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 1.955043,
+        "relative_distance": 1.208283
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 2.158863,
+        "relative_distance": 1.526547
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 2.002281,
+        "relative_distance": 1.274691
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 2.213936,
+        "relative_distance": 1.628923
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 1.841026,
+        "relative_distance": 1.062917
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 2.87993,
+        "relative_distance": 4.15486
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 0.431484,
+        "relative_distance": 0.137346
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 0.854795,
+        "relative_distance": 0.314462
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 1.337009,
+        "relative_distance": 0.597929
+      }
+    }
+  },
+  "books_AT/NT": {
+    "observed_value": 1.444444,
+    "nearest_constant": "sqrt2",
+    "nearest_value": 1.414214,
+    "nearest_distance": 0.030231,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 0.17359,
+        "relative_distance": 0.107284
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 0.030231,
+        "relative_distance": 0.021376
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 0.126352,
+        "relative_distance": 0.080438
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 0.085304,
+        "relative_distance": 0.062763
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 0.287606,
+        "relative_distance": 0.16605
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 0.751297,
+        "relative_distance": 1.083893
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 1.697148,
+        "relative_distance": 0.540219
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 1.273837,
+        "relative_distance": 0.468619
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 0.791624,
+        "relative_distance": 0.354025
+      }
+    }
+  },
+  "mean_wpv_AT/NT": {
+    "observed_value": 0.76162,
+    "nearest_constant": "ln2",
+    "nearest_value": 0.693147,
+    "nearest_distance": 0.068473,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 0.856414,
+        "relative_distance": 0.529293
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 0.652593,
+        "relative_distance": 0.461453
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 0.809176,
+        "relative_distance": 0.515137
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 0.597521,
+        "relative_distance": 0.439631
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 0.970431,
+        "relative_distance": 0.560278
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 0.068473,
+        "relative_distance": 0.098786
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 2.379972,
+        "relative_distance": 0.757569
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 1.956662,
+        "relative_distance": 0.719816
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 1.474448,
+        "relative_distance": 0.659393
+      }
+    }
+  },
+  "mean_vpc_AT/NT": {
+    "observed_value": 0.819559,
+    "nearest_constant": "ln2",
+    "nearest_value": 0.693147,
+    "nearest_distance": 0.126411,
+    "all_distances": {
+      "phi": {
+        "constant_value": 1.618034,
+        "absolute_distance": 0.798475,
+        "relative_distance": 0.493485
+      },
+      "sqrt2": {
+        "constant_value": 1.414214,
+        "absolute_distance": 0.594655,
+        "relative_distance": 0.420485
+      },
+      "pi_over_2": {
+        "constant_value": 1.570796,
+        "absolute_distance": 0.751238,
+        "relative_distance": 0.478253
+      },
+      "e_over_2": {
+        "constant_value": 1.359141,
+        "absolute_distance": 0.539582,
+        "relative_distance": 0.397002
+      },
+      "sqrt3": {
+        "constant_value": 1.732051,
+        "absolute_distance": 0.912492,
+        "relative_distance": 0.526828
+      },
+      "ln2": {
+        "constant_value": 0.693147,
+        "absolute_distance": 0.126411,
+        "relative_distance": 0.182373
+      },
+      "pi": {
+        "constant_value": 3.141593,
+        "absolute_distance": 2.322034,
+        "relative_distance": 0.739126
+      },
+      "e": {
+        "constant_value": 2.718282,
+        "absolute_distance": 1.898723,
+        "relative_distance": 0.698501
+      },
+      "sqrt5": {
+        "constant_value": 2.236068,
+        "absolute_distance": 1.416509,
+        "relative_distance": 0.633482
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "narrative": {
+    "n_verses": 20389,
+    "mean": 13.85,
+    "median": 13.0,
+    "std": 6.03,
+    "skewness": 0.6919,
+    "kurtosis": 0.335,
+    "p10": 7.0,
+    "p90": 22.0
+  },
+  "legal": {
+    "n_verses": 1967,
+    "mean": 18.02,
+    "median": 17.0,
+    "std": 7.01,
+    "skewness": 0.8456,
+    "kurtosis": 1.2341,
+    "p10": 10.0,
+    "p90": 27.0
+  },
+  "poetic": {
+    "n_verses": 3092,
+    "mean": 9.05,
+    "median": 8.0,
+    "std": 4.1,
+    "skewness": 2.1025,
+    "kurtosis": 5.5028,
+    "p10": 6.0,
+    "p90": 15.0
+  },
+  "epistolar": {
+    "n_verses": 5692,
+    "mean": 17.31,
+    "median": 17.0,
+    "std": 6.41,
+    "skewness": 0.6212,
+    "kurtosis": 0.4073,
+    "p10": 10.0,
+    "p90": 26.0
+  }
+}

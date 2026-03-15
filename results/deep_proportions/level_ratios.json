@@ -1,0 +1,37 @@
+{
+  "words_per_verse": {
+    "ot_mean": 13.2161,
+    "nt_mean": 17.3526,
+    "ratio_means": 0.76162,
+    "ot_cv": 0.4563,
+    "nt_cv": 0.381
+  },
+  "verses_per_chapter": {
+    "ot_mean": 24.9871,
+    "nt_mean": 30.4885,
+    "ratio_means": 0.819559,
+    "ot_cv": 0.5199,
+    "nt_cv": 0.4462
+  },
+  "words_per_chapter": {
+    "ot_mean": 330.2314,
+    "nt_mean": 529.0538,
+    "ratio_means": 0.624192
+  },
+  "chapters_per_book": {
+    "ot_mean": 23.8205,
+    "nt_mean": 9.6296,
+    "ratio_means": 2.473669
+  },
+  "words_per_book": {
+    "ot_mean": 7866.2821,
+    "nt_mean": 5094.5926,
+    "ratio_means": 1.544045
+  },
+  "total_ratio": {
+    "total_words": 2.230288,
+    "total_verses": 2.928346,
+    "total_chapters": 3.573077,
+    "total_books": 1.444444
+  }
+}

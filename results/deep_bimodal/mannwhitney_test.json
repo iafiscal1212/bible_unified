@@ -1,0 +1,56 @@
+{
+  "epistolar_vs_legal": {
+    "U": 5337682.0,
+    "p_value": 0.00204,
+    "significant_005": true,
+    "n1": 5692,
+    "n2": 1967,
+    "median1": 17.0,
+    "median2": 17.0
+  },
+  "epistolar_vs_narrative": {
+    "U": 76205179.0,
+    "p_value": 1.5e-287,
+    "significant_005": true,
+    "n1": 5692,
+    "n2": 20389,
+    "median1": 17.0,
+    "median2": 13.0
+  },
+  "epistolar_vs_poetic": {
+    "U": 15505061.5,
+    "p_value": 0.0,
+    "significant_005": true,
+    "n1": 5692,
+    "n2": 3092,
+    "median1": 17.0,
+    "median2": 8.0
+  },
+  "legal_vs_narrative": {
+    "U": 27059414.0,
+    "p_value": 2.78e-145,
+    "significant_005": true,
+    "n1": 1967,
+    "n2": 20389,
+    "median1": 17.0,
+    "median2": 13.0
+  },
+  "legal_vs_poetic": {
+    "U": 5414506.0,
+    "p_value": 0.0,
+    "significant_005": true,
+    "n1": 1967,
+    "n2": 3092,
+    "median1": 17.0,
+    "median2": 8.0
+  },
+  "narrative_vs_poetic": {
+    "U": 47656156.5,
+    "p_value": 0.0,
+    "significant_005": true,
+    "n1": 20389,
+    "n2": 3092,
+    "median1": 13.0,
+    "median2": 8.0
+  }
+}

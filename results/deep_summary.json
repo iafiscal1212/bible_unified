@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-03-15T07:42:30.591303",
+  "phase": "Fase 2 — Análisis Profundo",
+  "investigations": {
+    "deep_zipf": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_zipf/zipf_by_book.json",
+        "/home/bible_research/results/deep_zipf/zipf_surface_vs_lemma.json",
+        "/home/bible_research/results/deep_zipf/ks_test_results.json"
+      ],
+      "key_finding": {
+        "ot_surface_s": 0.800845,
+        "ot_lemma_s": 0.715316,
+        "nt_surface_s": 0.83788,
+        "nt_lemma_s": 1.077674,
+        "ot_delta_s_mean": -0.045642,
+        "ot_delta_s_cv": 1.9525,
+        "nt_delta_s_mean": -0.237867,
+        "mannwhitney": {
+          "U": 995.0,
+          "p_value": 0.0
+        }
+      }
+    },
+    "deep_numerical": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_numerical/permutation_test.json",
+        "/home/bible_research/results/deep_numerical/bootstrap_ci.json",
+        "/home/bible_research/results/deep_numerical/theoretical_vs_observed.json",
+        "/home/bible_research/results/deep_numerical/ratio_by_book.json"
+      ],
+      "key_finding": {
+        "observed_ratio": 0.99090188,
+        "permutation_p_value": 0.0,
+        "bootstrap_95_ci": [
+          0.98559494,
+          0.99618063
+        ],
+        "ci_contains_1": false,
+        "theoretical_ratio": 0.92171379
+      }
+    },
+    "deep_bimodal": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_bimodal/gmm_fit.json",
+        "/home/bible_research/results/deep_bimodal/genre_classification.json",
+        "/home/bible_research/results/deep_bimodal/length_by_genre.json",
+        "/home/bible_research/results/deep_bimodal/mannwhitney_test.json"
+      ],
+      "key_finding": {
+        "gmm_global": {
+          "component_1": {
+            "mu": 9.03,
+            "sigma": 2.7,
+            "weight": 0.3544
+          },
+          "component_2": {
+            "mu": 17.15,
+            "sigma": 6.08,
+            "weight": 0.6456
+          },
+          "bic_1_component": 204402.0,
+          "bic_2_component": 200920.21,
+          "bic_improvement": 3481.78,
+          "favors_2_components": true
+        },
+        "genre_stats": {
+          "narrative": {
+            "mean": 13.85,
+            "n": 20389
+          },
+          "legal": {
+            "mean": 18.02,
+            "n": 1967
+          },
+          "poetic": {
+            "mean": 9.05,
+            "n": 3092
+          },
+          "epistolar": {
+            "mean": 17.31,
+            "n": 5692
+          }
+        },
+        "mannwhitney_tests": {
+          "epistolar_vs_legal": {
+            "p": 0.00204,
+            "sig": true
+          },
+          "epistolar_vs_narrative": {
+            "p": 1.5e-287,
+            "sig": true
+          },
+          "epistolar_vs_poetic": {
+            "p": 0.0,
+            "sig": true
+          },
+          "legal_vs_narrative": {
+            "p": 2.78e-145,
+            "sig": true
+          },
+          "legal_vs_poetic": {
+            "p": 0.0,
+            "sig": true
+          },
+          "narrative_vs_poetic": {
+            "p": 0.0,
+            "sig": true
+          }
+        }
+      }
+    },
+    "deep_vn_ratio": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_vn_ratio/vn_by_book.json",
+        "/home/bible_research/results/deep_vn_ratio/changepoints.json",
+        "/home/bible_research/results/deep_vn_ratio/correlations.json",
+        "/home/bible_research/results/deep_vn_ratio/autocorrelation.json"
+      ],
+      "key_finding": {
+        "changepoints": [
+          {
+            "position": 38,
+            "t_stat": -4.4821,
+            "p_value": 5.26e-05,
+            "left_mean": 0.5981,
+            "right_mean": 0.864,
+            "book_before": "Zechariah",
+            "book_after": "Malachi"
+          },
+          {
+            "position": 17,
+            "t_stat": -4.5036,
+            "p_value": 7.5e-05,
+            "left_mean": 0.5129,
+            "right_mean": 0.7796,
+            "book_before": "Esther",
+            "book_after": "Job"
+          },
+          {
+            "position": 24,
+            "t_stat": -4.2062,
+            "p_value": 8.96e-05,
+            "left_mean": 0.5621,
+            "right_mean": 0.796,
+            "book_before": "Jeremiah",
+            "book_after": "Lamentations"
+          },
+          {
+            "position": 31,
+            "t_stat": -4.1736,
+            "p_value": 9.7e-05,
+            "left_mean": 0.5868,
+            "right_mean": 0.8208,
+            "book_before": "Obadiah",
+            "book_after": "Jonah"
+          },
+          {
+            "position": 34,
+            "t_stat": -3.9376,
+            "p_value": 0.000239,
+            "left_mean": 0.5998,
+            "right_mean": 0.8289,
+            "book_before": "Nahum",
+            "book_after": "Habakkuk"
+          }
+        ],
+        "correlations": {
+          "vn_vs_mean_verse_length": {
+            "pearson_r": 0.2187,
+            "p_value": 0.0778,
+            "significant": false
+          },
+          "vn_vs_hapax_rate": {
+            "pearson_r": -0.3901,
+            "p_value": 0.0012,
+            "significant": true
+          },
+          "vn_vs_zipf_s": {
+            "pearson_r": 0.3519,
+            "p_value": 0.00376,
+            "significant": true
+          },
+          "vn_vs_book_size": {
+            "pearson_r": 0.0012,
+            "p_value": 0.992,
+            "significant": false
+          }
+        }
+      }
+    },
+    "deep_proportions": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_proportions/level_ratios.json",
+        "/home/bible_research/results/deep_proportions/irrational_distances.json",
+        "/home/bible_research/results/deep_proportions/book_size_distribution.json",
+        "/home/bible_research/results/deep_proportions/selfsimilarity_test.json"
+      ],
+      "key_finding": {
+        "total_ratios": {
+          "total_words": 2.230288,
+          "total_verses": 2.928346,
+          "total_chapters": 3.573077,
+          "total_books": 1.444444
+        },
+        "nearest_irrationals": {
+          "words_AT/NT": {
+            "value": 2.230288,
+            "nearest": "sqrt5",
+            "distance": 0.00578
+          },
+          "verses_AT/NT": {
+            "value": 2.928346,
+            "nearest": "e",
+            "distance": 0.210064
+          },
+          "chapters_AT/NT": {
+            "value": 3.573077,
+            "nearest": "pi",
+            "distance": 0.431484
+          },
+          "books_AT/NT": {
+            "value": 1.444444,
+            "nearest": "sqrt2",
+            "distance": 0.030231
+          },
+          "mean_wpv_AT/NT": {
+            "value": 0.76162,
+            "nearest": "ln2",
+            "distance": 0.068473
+          },
+          "mean_vpc_AT/NT": {
+            "value": 0.819559,
+            "nearest": "ln2",
+            "distance": 0.126411
+          }
+        },
+        "self_similarity": {
+          "ks_stat": 0.02866,
+          "p_value": 0.301,
+          "self_similar": true
+        }
+      }
+    }
+  }
+}

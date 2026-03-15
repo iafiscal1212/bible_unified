@@ -1,0 +1,12 @@
+{
+  "ks_stat": 0.02866,
+  "p_value": 0.301,
+  "n_verse_samples": 31138,
+  "n_chapter_samples": 1182,
+  "verse_normalized_mean": 1.0,
+  "verse_normalized_std": 0.3492,
+  "chapter_normalized_mean": 1.0,
+  "chapter_normalized_std": 0.4209,
+  "interpretation": "If p > 0.05, the two distributions are statistically indistinguishable, suggesting self-similarity across hierarchical levels.",
+  "self_similar": true
+}

@@ -1,0 +1,576 @@
+{
+  "generated_at": "2026-03-15T07:30:18.873216",
+  "modules": {
+    "frequencies": {
+      "status": "OK",
+      "file": "/home/bible_research/results/frequencies/frequency_analysis.json",
+      "highlights": {
+        "total_tokens": 444339,
+        "total_word_types": 131407,
+        "total_lemma_types": 14985,
+        "hapax_words": 90782,
+        "hapax_lemmas": 5150,
+        "zipf": {
+          "global": {
+            "exponent": 0.7343,
+            "r_squared": 0.917941
+          },
+          "OT": {
+            "exponent": 0.6787,
+            "r_squared": 0.907422
+          },
+          "NT": {
+            "exponent": 0.976,
+            "r_squared": 0.96161
+          }
+        },
+        "ot_tokens": 306785,
+        "nt_tokens": 137554,
+        "top10_words": [
+          [
+            "καὶ",
+            8563
+          ],
+          [
+            "אֶת",
+            6476
+          ],
+          [
+            "אֶל",
+            3373
+          ],
+          [
+            "עַל",
+            3089
+          ],
+          [
+            "ὁ",
+            2798
+          ],
+          [
+            "ἐν",
+            2680
+          ],
+          [
+            "δὲ",
+            2597
+          ],
+          [
+            "כָּל",
+            2528
+          ],
+          [
+            "τοῦ",
+            2498
+          ],
+          [
+            "εἰς",
+            1744
+          ]
+        ],
+        "top10_lemmas": [
+          [
+            "ὁ",
+            19769
+          ],
+          [
+            "853",
+            10979
+          ],
+          [
+            "καί",
+            8973
+          ],
+          [
+            "3068",
+            6521
+          ],
+          [
+            "5921a",
+            5770
+          ],
+          [
+            "αὐτός",
+            5546
+          ],
+          [
+            "413",
+            5516
+          ],
+          [
+            "3605",
+            5417
+          ],
+          [
+            "559",
+            5318
+          ],
+          [
+            "3808",
+            5191
+          ]
+        ]
+      }
+    },
+    "morphology": {
+      "status": "OK",
+      "file": "/home/bible_research/results/morphology/morphology_analysis.json",
+      "highlights": {
+        "global_pos": {
+          "noun": 148415,
+          "verb": 94088,
+          "particle": 28506,
+          "preposition": 23908,
+          "conjunction": 24605,
+          "adjective": 23194,
+          "adverb": 10180,
+          "suffix": 47824,
+          "pronoun": 23831,
+          "article": 19770,
+          "other": 18
+        },
+        "global_vn_ratio": 0.634,
+        "ot_vn_ratio": 0.5495,
+        "nt_vn_ratio": 0.9936,
+        "top10_bigrams": [
+          [
+            [
+              "noun",
+              "noun"
+            ],
+            54207
+          ],
+          [
+            [
+              "verb",
+              "noun"
+            ],
+            26255
+          ],
+          [
+            [
+              "noun",
+              "verb"
+            ],
+            23986
+          ],
+          [
+            [
+              "verb",
+              "suffix"
+            ],
+            15981
+          ],
+          [
+            [
+              "article",
+              "noun"
+            ],
+            13893
+          ],
+          [
+            [
+              "noun",
+              "suffix"
+            ],
+            13255
+          ],
+          [
+            [
+              "suffix",
+              "noun"
+            ],
+            12441
+          ],
+          [
+            [
+              "preposition",
+              "noun"
+            ],
+            11974
+          ],
+          [
+            [
+              "particle",
+              "verb"
+            ],
+            10664
+          ],
+          [
+            [
+              "suffix",
+              "verb"
+            ],
+            10134
+          ]
+        ]
+      }
+    },
+    "numerical": {
+      "status": "OK",
+      "file": "/home/bible_research/results/numerical/numerical_analysis.json",
+      "highlights": {
+        "ot_total": 78482867,
+        "nt_total": 79203470,
+        "grand_total": 157686337,
+        "ot_nt_ratio": 0.990902,
+        "verse_stats": {
+          "n": 31140,
+          "mean": 5063.79,
+          "median": 3855,
+          "min": 160,
+          "max": 32312,
+          "p25": 2376,
+          "p75": 6386
+        }
+      }
+    },
+    "structure": {
+      "status": "OK",
+      "file": "/home/bible_research/results/structure/structure_analysis.json",
+      "highlights": {
+        "verse_length": {
+          "mean": 14.2691,
+          "std": 6.4412,
+          "skewness": 0.7623,
+          "kurtosis": 0.529,
+          "n": 31140,
+          "min": 2,
+          "max": 58,
+          "median": 13,
+          "p10": 7,
+          "p90": 23
+        },
+        "proportions": {
+          "ot_words": 306785,
+          "nt_words": 137554,
+          "ot_nt_word_ratio": 2.230288,
+          "ot_verses": 23213,
+          "nt_verses": 7927,
+          "ot_nt_verse_ratio": 2.928346,
+          "ot_chapters": 929,
+          "nt_chapters": 260
+        },
+        "book_sizes_top5": [
+          [
+            "Jeremiah",
+            21976
+          ],
+          [
+            "Genesis",
+            20629
+          ],
+          [
+            "Psalms",
+            19657
+          ],
+          [
+            "Luke",
+            19446
+          ],
+          [
+            "Ezekiel",
+            18866
+          ]
+        ]
+      }
+    },
+    "cooccurrence": {
+      "status": "OK",
+      "file": "/home/bible_research/results/cooccurrence/cooccurrence_analysis.json",
+      "highlights": {
+        "total_verses": 31140,
+        "unique_pairs": 688150,
+        "top10_pairs": [
+          [
+            [
+              "καί",
+              "ὁ"
+            ],
+            4568
+          ],
+          [
+            [
+              "αὐτός",
+              "ὁ"
+            ],
+            3427
+          ],
+          [
+            [
+              "αὐτός",
+              "καί"
+            ],
+            2735
+          ],
+          [
+            [
+              "δέ",
+              "ὁ"
+            ],
+            2245
+          ],
+          [
+            [
+              "3068",
+              "853"
+            ],
+            2125
+          ],
+          [
+            [
+              "413",
+              "559"
+            ],
+            2107
+          ],
+          [
+            [
+              "834a",
+              "853"
+            ],
+            2001
+          ],
+          [
+            [
+              "ἐν",
+              "ὁ"
+            ],
+            1912
+          ],
+          [
+            [
+              "εἰμί",
+              "ὁ"
+            ],
+            1868
+          ],
+          [
+            [
+              "λέγω",
+              "ὁ"
+            ],
+            1826
+          ]
+        ],
+        "top10_pmi": [
+          {
+            "pair": [
+              "883",
+              "883+"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "5209",
+              "5220"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "3195",
+              "5305"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "201",
+              "6825"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "204",
+              "621"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "204",
+              "6319"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "204",
+              "6319+"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "621",
+              "6319"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "621",
+              "6319+"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          },
+          {
+            "pair": [
+              "6319",
+              "6319+"
+            ],
+            "pmi": 13.3415,
+            "co_count": 3,
+            "freq_a": 3,
+            "freq_b": 3
+          }
+        ]
+      }
+    },
+    "positional": {
+      "status": "OK",
+      "file": "/home/bible_research/results/positional/positional_analysis.json",
+      "highlights": {
+        "first_lemma_top10": [
+          [
+            "καί",
+            1859
+          ],
+          [
+            "559",
+            1702
+          ],
+          [
+            "1961",
+            1073
+          ],
+          [
+            "3588a",
+            991
+          ],
+          [
+            "ὁ",
+            829
+          ],
+          [
+            "1121a",
+            508
+          ],
+          [
+            "3808",
+            495
+          ],
+          [
+            "935",
+            441
+          ],
+          [
+            "853",
+            370
+          ],
+          [
+            "3605",
+            361
+          ]
+        ],
+        "last_lemma_top10": [
+          [
+            "αὐτός",
+            893
+          ],
+          [
+            "3068",
+            718
+          ],
+          [
+            "l",
+            565
+          ],
+          [
+            "3478",
+            429
+          ],
+          [
+            "σύ",
+            355
+          ],
+          [
+            "776",
+            353
+          ],
+          [
+            "559",
+            332
+          ],
+          [
+            "ἐγώ",
+            311
+          ],
+          [
+            "430",
+            304
+          ],
+          [
+            "b",
+            297
+          ]
+        ],
+        "first_pos": {
+          "noun": 4977,
+          "verb": 12668,
+          "pronoun": 1478,
+          "preposition": 939,
+          "conjunction": 4245,
+          "suffix": 1477,
+          "particle": 2265,
+          "adverb": 1423,
+          "adjective": 838,
+          "article": 829,
+          "other": 1
+        },
+        "last_pos": {
+          "noun": 12810,
+          "adjective": 1980,
+          "adverb": 508,
+          "suffix": 7090,
+          "verb": 6138,
+          "pronoun": 2398,
+          "particle": 206,
+          "preposition": 7,
+          "conjunction": 2,
+          "other": 1
+        }
+      }
+    }
+  }
+}

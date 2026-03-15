@@ -1,0 +1,588 @@
+{
+  "ratio_by_book": [
+    {
+      "book": "1 Chronicles",
+      "corpus": "OT",
+      "total_value": 2777866,
+      "n_words": 10790,
+      "mean_value_per_word": 257.45
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "total_value": 3903459,
+      "n_words": 6812,
+      "mean_value_per_word": 573.03
+    },
+    {
+      "book": "1 John",
+      "corpus": "NT",
+      "total_value": 1122435,
+      "n_words": 2137,
+      "mean_value_per_word": 525.24
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "total_value": 3373171,
+      "n_words": 13186,
+      "mean_value_per_word": 255.81
+    },
+    {
+      "book": "1 Peter",
+      "corpus": "NT",
+      "total_value": 1089605,
+      "n_words": 1678,
+      "mean_value_per_word": 649.35
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "total_value": 3218449,
+      "n_words": 13335,
+      "mean_value_per_word": 241.35
+    },
+    {
+      "book": "1 Thessalonians",
+      "corpus": "NT",
+      "total_value": 869503,
+      "n_words": 1473,
+      "mean_value_per_word": 590.29
+    },
+    {
+      "book": "1 Timothy",
+      "corpus": "NT",
+      "total_value": 1000174,
+      "n_words": 1591,
+      "mean_value_per_word": 628.64
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "total_value": 3447493,
+      "n_words": 13354,
+      "mean_value_per_word": 258.16
+    },
+    {
+      "book": "2 Corinthians",
+      "corpus": "NT",
+      "total_value": 2618547,
+      "n_words": 4473,
+      "mean_value_per_word": 585.41
+    },
+    {
+      "book": "2 John",
+      "corpus": "NT",
+      "total_value": 124111,
+      "n_words": 245,
+      "mean_value_per_word": 506.58
+    },
+    {
+      "book": "2 Kings",
+      "corpus": "OT",
+      "total_value": 3114699,
+      "n_words": 12354,
+      "mean_value_per_word": 252.12
+    },
+    {
+      "book": "2 Peter",
+      "corpus": "NT",
+      "total_value": 726944,
+      "n_words": 1098,
+      "mean_value_per_word": 662.06
+    },
+    {
+      "book": "2 Samuel",
+      "corpus": "OT",
+      "total_value": 2591928,
+      "n_words": 11130,
+      "mean_value_per_word": 232.88
+    },
+    {
+      "book": "2 Thessalonians",
+      "corpus": "NT",
+      "total_value": 476931,
+      "n_words": 820,
+      "mean_value_per_word": 581.62
+    },
+    {
+      "book": "2 Timothy",
+      "corpus": "NT",
+      "total_value": 719782,
+      "n_words": 1235,
+      "mean_value_per_word": 582.82
+    },
+    {
+      "book": "3 John",
+      "corpus": "NT",
+      "total_value": 131251,
+      "n_words": 219,
+      "mean_value_per_word": 599.32
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "total_value": 11008607,
+      "n_words": 18412,
+      "mean_value_per_word": 597.9
+    },
+    {
+      "book": "Amos",
+      "corpus": "OT",
+      "total_value": 517962,
+      "n_words": 2045,
+      "mean_value_per_word": 253.28
+    },
+    {
+      "book": "Colossians",
+      "corpus": "NT",
+      "total_value": 969037,
+      "n_words": 1580,
+      "mean_value_per_word": 613.31
+    },
+    {
+      "book": "Daniel",
+      "corpus": "OT",
+      "total_value": 1472808,
+      "n_words": 6035,
+      "mean_value_per_word": 244.04
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "total_value": 3785607,
+      "n_words": 14320,
+      "mean_value_per_word": 264.36
+    },
+    {
+      "book": "Ecclesiastes",
+      "corpus": "OT",
+      "total_value": 728214,
+      "n_words": 2999,
+      "mean_value_per_word": 242.82
+    },
+    {
+      "book": "Ephesians",
+      "corpus": "NT",
+      "total_value": 1489318,
+      "n_words": 2416,
+      "mean_value_per_word": 616.44
+    },
+    {
+      "book": "Esther",
+      "corpus": "OT",
+      "total_value": 858305,
+      "n_words": 3057,
+      "mean_value_per_word": 280.77
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "total_value": 4642743,
+      "n_words": 16726,
+      "mean_value_per_word": 277.58
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "total_value": 5152454,
+      "n_words": 18866,
+      "mean_value_per_word": 273.11
+    },
+    {
+      "book": "Ezra",
+      "corpus": "OT",
+      "total_value": 997256,
+      "n_words": 3791,
+      "mean_value_per_word": 263.06
+    },
+    {
+      "book": "Galatians",
+      "corpus": "NT",
+      "total_value": 1255889,
+      "n_words": 2226,
+      "mean_value_per_word": 564.19
+    },
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "total_value": 5110946,
+      "n_words": 20629,
+      "mean_value_per_word": 247.76
+    },
+    {
+      "book": "Habakkuk",
+      "corpus": "OT",
+      "total_value": 162870,
+      "n_words": 672,
+      "mean_value_per_word": 242.37
+    },
+    {
+      "book": "Haggai",
+      "corpus": "OT",
+      "total_value": 138592,
+      "n_words": 601,
+      "mean_value_per_word": 230.6
+    },
+    {
+      "book": "Hebrews",
+      "corpus": "NT",
+      "total_value": 3017774,
+      "n_words": 4935,
+      "mean_value_per_word": 611.5
+    },
+    {
+      "book": "Hosea",
+      "corpus": "OT",
+      "total_value": 577384,
+      "n_words": 2386,
+      "mean_value_per_word": 241.99
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "total_value": 4245485,
+      "n_words": 16988,
+      "mean_value_per_word": 249.91
+    },
+    {
+      "book": "James",
+      "corpus": "NT",
+      "total_value": 1014278,
+      "n_words": 1739,
+      "mean_value_per_word": 583.25
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "total_value": 5459133,
+      "n_words": 21976,
+      "mean_value_per_word": 248.41
+    },
+    {
+      "book": "Job",
+      "corpus": "OT",
+      "total_value": 2035986,
+      "n_words": 8399,
+      "mean_value_per_word": 242.41
+    },
+    {
+      "book": "Joel",
+      "corpus": "OT",
+      "total_value": 228061,
+      "n_words": 958,
+      "mean_value_per_word": 238.06
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "total_value": 8259144,
+      "n_words": 15438,
+      "mean_value_per_word": 534.99
+    },
+    {
+      "book": "Jonah",
+      "corpus": "OT",
+      "total_value": 149331,
+      "n_words": 688,
+      "mean_value_per_word": 217.05
+    },
+    {
+      "book": "Joshua",
+      "corpus": "OT",
+      "total_value": 2603327,
+      "n_words": 10083,
+      "mean_value_per_word": 258.19
+    },
+    {
+      "book": "Jude",
+      "corpus": "NT",
+      "total_value": 309986,
+      "n_words": 459,
+      "mean_value_per_word": 675.35
+    },
+    {
+      "book": "Judges",
+      "corpus": "OT",
+      "total_value": 2493621,
+      "n_words": 9905,
+      "mean_value_per_word": 251.75
+    },
+    {
+      "book": "Lamentations",
+      "corpus": "OT",
+      "total_value": 380692,
+      "n_words": 1564,
+      "mean_value_per_word": 243.41
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "total_value": 3137690,
+      "n_words": 11955,
+      "mean_value_per_word": 262.46
+    },
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "total_value": 11102876,
+      "n_words": 19446,
+      "mean_value_per_word": 570.96
+    },
+    {
+      "book": "Malachi",
+      "corpus": "OT",
+      "total_value": 225548,
+      "n_words": 876,
+      "mean_value_per_word": 257.47
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "total_value": 6347097,
+      "n_words": 11286,
+      "mean_value_per_word": 562.39
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "total_value": 10500896,
+      "n_words": 18329,
+      "mean_value_per_word": 572.91
+    },
+    {
+      "book": "Micah",
+      "corpus": "OT",
+      "total_value": 368397,
+      "n_words": 1400,
+      "mean_value_per_word": 263.14
+    },
+    {
+      "book": "Nahum",
+      "corpus": "OT",
+      "total_value": 133139,
+      "n_words": 562,
+      "mean_value_per_word": 236.9
+    },
+    {
+      "book": "Nehemiah",
+      "corpus": "OT",
+      "total_value": 1418684,
+      "n_words": 5336,
+      "mean_value_per_word": 265.87
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "total_value": 4352836,
+      "n_words": 16422,
+      "mean_value_per_word": 265.06
+    },
+    {
+      "book": "Obadiah",
+      "corpus": "OT",
+      "total_value": 73378,
+      "n_words": 292,
+      "mean_value_per_word": 251.29
+    },
+    {
+      "book": "Philemon",
+      "corpus": "NT",
+      "total_value": 198844,
+      "n_words": 334,
+      "mean_value_per_word": 595.34
+    },
+    {
+      "book": "Philippians",
+      "corpus": "NT",
+      "total_value": 971361,
+      "n_words": 1626,
+      "mean_value_per_word": 597.39
+    },
+    {
+      "book": "Proverbs",
+      "corpus": "OT",
+      "total_value": 1886967,
+      "n_words": 6984,
+      "mean_value_per_word": 270.18
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "total_value": 4957865,
+      "n_words": 19657,
+      "mean_value_per_word": 252.22
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "total_value": 5534872,
+      "n_words": 9833,
+      "mean_value_per_word": 562.89
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "total_value": 4030378,
+      "n_words": 7055,
+      "mean_value_per_word": 571.28
+    },
+    {
+      "book": "Ruth",
+      "corpus": "OT",
+      "total_value": 369236,
+      "n_words": 1306,
+      "mean_value_per_word": 282.72
+    },
+    {
+      "book": "Song of Songs",
+      "corpus": "OT",
+      "total_value": 355666,
+      "n_words": 1255,
+      "mean_value_per_word": 283.4
+    },
+    {
+      "book": "Titus",
+      "corpus": "NT",
+      "total_value": 410371,
+      "n_words": 659,
+      "mean_value_per_word": 622.72
+    },
+    {
+      "book": "Zechariah",
+      "corpus": "OT",
+      "total_value": 755270,
+      "n_words": 3134,
+      "mean_value_per_word": 240.99
+    },
+    {
+      "book": "Zephaniah",
+      "corpus": "OT",
+      "total_value": 183808,
+      "n_words": 769,
+      "mean_value_per_word": 239.02
+    }
+  ],
+  "sensitivity_top20": [
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "ratio_without_book": 1.15245496,
+      "delta_ratio": 0.16155308
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "ratio_without_book": 1.15086186,
+      "delta_ratio": 0.15995999
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "ratio_without_book": 1.14235701,
+      "delta_ratio": 0.15145513
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "ratio_without_book": 1.10625996,
+      "delta_ratio": 0.11535808
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "ratio_without_book": 1.0772272,
+      "delta_ratio": 0.08632533
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "ratio_without_book": 1.06535035,
+      "delta_ratio": 0.07444848
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "ratio_without_book": 0.92197645,
+      "delta_ratio": 0.06892543
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "ratio_without_book": 0.92584849,
+      "delta_ratio": 0.06505339
+    },
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "ratio_without_book": 0.92637256,
+      "delta_ratio": 0.06452932
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "ratio_without_book": 0.92830531,
+      "delta_ratio": 0.06259656
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "ratio_without_book": 0.93228395,
+      "delta_ratio": 0.05861792
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "ratio_without_book": 0.93594423,
+      "delta_ratio": 0.05495764
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "ratio_without_book": 0.93729962,
+      "delta_ratio": 0.05360226
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "ratio_without_book": 1.04402872,
+      "delta_ratio": 0.05312684
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "ratio_without_book": 1.042269,
+      "delta_ratio": 0.05136712
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "ratio_without_book": 0.9431059,
+      "delta_ratio": 0.04779597
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "ratio_without_book": 0.94737483,
+      "delta_ratio": 0.04352704
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "ratio_without_book": 0.9483132,
+      "delta_ratio": 0.04258868
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "ratio_without_book": 0.95026667,
+      "delta_ratio": 0.0406352
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "ratio_without_book": 0.95128631,
+      "delta_ratio": 0.03961556
+    }
+  ]
+}

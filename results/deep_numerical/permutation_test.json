@@ -1,0 +1,11 @@
+{
+  "observed_ratio": 0.99090188,
+  "observed_distance_from_1": 0.00909812,
+  "n_permutations": 10000,
+  "p_value": 0.0,
+  "perm_ratio_mean": 2.230397,
+  "perm_ratio_std": 0.007323,
+  "perm_ratio_min": 2.202675,
+  "perm_ratio_max": 2.259097,
+  "interpretation": "p=0.0000. If p < 0.05, the observed ratio is significantly closer to 1.0 than expected by chance (the quasi-equality is non-trivial)."
+}

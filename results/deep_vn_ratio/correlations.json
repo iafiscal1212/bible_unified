@@ -1,0 +1,22 @@
+{
+  "vn_vs_mean_verse_length": {
+    "pearson_r": 0.2187,
+    "p_value": 0.0778,
+    "significant": false
+  },
+  "vn_vs_hapax_rate": {
+    "pearson_r": -0.3901,
+    "p_value": 0.0012,
+    "significant": true
+  },
+  "vn_vs_zipf_s": {
+    "pearson_r": 0.3519,
+    "p_value": 0.00376,
+    "significant": true
+  },
+  "vn_vs_book_size": {
+    "pearson_r": 0.0012,
+    "p_value": 0.992,
+    "significant": false
+  }
+}
