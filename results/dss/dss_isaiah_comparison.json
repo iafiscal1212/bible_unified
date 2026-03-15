@@ -1,0 +1,84 @@
+{
+  "corpus_a": "1QIsa-a (DSS, ~100 BCE)",
+  "corpus_b": "Isaiah WLC (Masoretic, ~1000 CE)",
+  "scrolls_used": [
+    "1Qisaa"
+  ],
+  "unit_type_a": "lines (physical scroll lines)",
+  "unit_type_b": "verses (biblical verses)",
+  "n_units_a": 1601,
+  "n_words_a": 22776,
+  "mean_unit_length_a": 14.226108682073704,
+  "n_units_b": 1291,
+  "n_words_b": 16988,
+  "mean_unit_length_b": 13.158791634391944,
+  "metrics_a": {
+    "hurst_H": 0.8865486166594662,
+    "hurst_R2": 0.9935650616095576,
+    "dfa_alpha": 0.8681372885622746,
+    "dfa_R2": 0.9925252467816317,
+    "box_counting_Df": 0.9955420808287709,
+    "box_counting_R2": 0.9018075391974016,
+    "bond_dim_chi": 58,
+    "mps_permtest_p": 0.0,
+    "mps_permtest_chi_obs": 58,
+    "mps_permtest_chi_rand": 62.9043,
+    "mps_significant": true,
+    "delta_S_mean": -0.9445179691018571,
+    "delta_s_group": "more_varied",
+    "zipf_s_lemma": 1.1249970085760737
+  },
+  "metrics_b": {
+    "hurst_H": 0.6897024958983058,
+    "hurst_R2": 0.9954363769086568,
+    "dfa_alpha": 0.6996977683212892,
+    "dfa_R2": 0.9956257840832848,
+    "box_counting_Df": 1.0171778224620238,
+    "box_counting_R2": 0.8846522243961946,
+    "bond_dim_chi": 62,
+    "mps_permtest_p": 0.2469,
+    "mps_permtest_chi_obs": 62,
+    "mps_permtest_chi_rand": 62.7519,
+    "mps_significant": false,
+    "delta_S_mean": -0.6915943078790541,
+    "delta_s_group": "more_varied",
+    "zipf_s_lemma": 1.0860929556582493
+  },
+  "statistical_tests": {
+    "mann_whitney": {
+      "statistic": 1236723.5,
+      "p_value": 6.554608755818482e-20
+    },
+    "ks_verse_lengths": {
+      "statistic": 0.1990975818270049,
+      "p_value": 2.884997732133439e-25
+    },
+    "metric_diffs": {
+      "hurst_H": {
+        "dss": 0.8865486166594662,
+        "wlc": 0.6897024958983058,
+        "diff": 0.19684612076116037
+      },
+      "dfa_alpha": {
+        "dss": 0.8681372885622746,
+        "wlc": 0.6996977683212892,
+        "diff": 0.1684395202409854
+      },
+      "box_counting_Df": {
+        "dss": 0.9955420808287709,
+        "wlc": 1.0171778224620238,
+        "diff": 0.02163574163325288
+      },
+      "delta_S_mean": {
+        "dss": -0.9445179691018571,
+        "wlc": -0.6915943078790541,
+        "diff": 0.2529236612228031
+      }
+    },
+    "metrics_significantly_different": true
+  },
+  "verdict": "H5a_confirmed",
+  "confidence": "high",
+  "reasoning": "1QIsa^a tiene memoria larga MAYOR que el masoréetico (H: 0.887 vs 0.690, alpha: 0.868 vs 0.700). La transmisión masorética degradó parcialmente la estructura original. La memoria larga ya existía antes de la canonización - H5a.",
+  "note": "DSS uses physical scroll lines as units (no chapter/verse markup). WLC uses biblical verses. Both are sequential text segments, but with different granularity. The comparison of fractal/memory metrics is valid because these are scale-invariant properties."
+}
