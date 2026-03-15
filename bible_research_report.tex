@@ -53,7 +53,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{15 de marzo de 2026 --- v2.0}
+\date{15 de marzo de 2026 --- v3.0}
 
 
 \begin{document}
@@ -86,6 +86,17 @@ y prosa ($\mu=17$);
 de g\'enero literario;
 (v)~el texto b\'iblico exhibe autosimilaridad fractal entre niveles jer\'arquicos
 ($\text{KS}=0.029$, $p=0.301$).
+
+\textbf{Fase~3}: Cuatro investigaciones adicionales:
+(i)~el equilibrio num\'erico 0.991 est\'a concentrado en 3 letras de alto valor por alfabeto
+(Gini $> 0.70$);
+(ii)~ninguna proximidad a constantes irracionales sobrevive la correcci\'on de Bonferroni
+(1,172 comparaciones);
+(iii)~el corpus tiene memoria larga (Hurst $H = 1.13$, DFA $\alpha = 0.82$),
+significativamente diferente entre AT y NT ($p = 10^{-6}$);
+(iv)~la anomal\'ia de Zipf del AT se concentra en profetas menores cortos,
+est\'a en la \emph{cola} de la distribuci\'on, y correlaciona fuertemente con la
+densidad verbal ($r = -0.55$, $p = 0.0003$).
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -188,12 +199,34 @@ dirigidas, ejecutadas por \texttt{orchestrator\_fase2.py}:
 \end{tabular}
 \end{table}
 
+\subsection{Fase~3: Investigaciones de tercer nivel}
+
+A partir de los resultados de Fase~2, se dise\~naron 4 investigaciones que profundizan
+en los mecanismos causales y cuantifican propiedades fractales,
+ejecutadas por \texttt{orchestrator\_fase3.py}:
+
+\begin{table}[H]
+\centering
+\caption{Los 4 m\'odulos de Fase~3}
+\begin{tabular}{lp{9cm}}
+\toprule
+\textbf{M\'odulo} & \textbf{Pregunta de investigaci\'on} \\
+\midrule
+\texttt{deep\_numerical\_mechanism} & ?`Qu\'e letras espec\'ificas producen el equilibrio 0.991? \\
+\texttt{deep\_algebraic\_constants} & ?`Los ratios AT/NT $\approx \sqrt{5}$ sobreviven Bonferroni? \\
+\texttt{deep\_fractal}             & ?`Cu\'al es la dimensi\'on fractal real (Hurst, DFA)? \\
+\texttt{deep\_zipf\_semantic}      & ?`Qu\'e libros y POS concentran la anomal\'ia de Zipf? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \subsection{Infraestructura}
 
 \begin{itemize}[leftmargin=2em]
 \item Servidor Hetzner dedicado: 20 cores, 64 GB RAM, Ubuntu 24.04
 \item Fase~1: \textbf{7 segundos} (6 m\'odulos en paralelo)
 \item Fase~2: \textbf{45 segundos} (5 investigaciones con permutaciones y bootstrap)
+\item Fase~3: \textbf{116 segundos} (4 investigaciones con bootstrap $\times$ 10K y an\'alisis fractal)
 \item Dependencias: Python 3.12, NumPy, Pandas, SciPy, scikit-learn (GMM)
 \end{itemize}
 
@@ -747,56 +780,300 @@ ya sea que se mire hacia adentro (vers\'iculos en cap\'itulos) o hacia afuera
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Fase~3: Mecanismos Causales y Cuantificaci\'on Fractal}
+% ══════════════════════════════════════════════════════════════════════════
+
+Las cuatro investigaciones de esta secci\'on profundizan en los \emph{mecanismos}
+subyacentes a las anomal\'ias confirmadas en Fase~2, y cuantifican por primera vez
+las propiedades fractales del corpus.
+
+% ─── 5.1 Mecanismo num\'erico ──────────────────────────────────────────────
+\subsection{Mecanismo del equilibrio num\'erico}
+
+Se descompuso el total gematr\'ia/isopsef\'ia letra por letra para identificar
+qu\'e caracteres espec\'ificos producen el ratio $0.991$.
+
+\subsubsection{Contribuci\'on por letra}
+
+\begin{table}[H]
+\centering
+\caption{Top 3 letras contribuyentes al total num\'erico}
+\label{tab:lettercontrib}
+\begin{tabular}{clrrr}
+\toprule
+& \textbf{Letra} & \textbf{Valor} & \textbf{Frecuencia} & \textbf{Contribuci\'on} \\
+\midrule
+\ot{} & $\tav$     & 400 & 63,583 & 25,433,200 \\
+\ot{} & $\shin$    & 300 & 58,451 & 17,535,300 \\
+\ot{} & $\resh$    & 200 & 68,365 & 13,673,000 \\
+\midrule
+\nt{} & $\omega$   & 800 & 21,327 & 17,061,600 \\
+\nt{} & $\upsilon$ & 400 & 39,549 & 15,819,600 \\
+\nt{} & $\tau$     & 300 & 51,039 & 15,311,700 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Concentraci\'on.}
+\begin{itemize}[leftmargin=2em]
+\item Las top-3 letras del \ot{} producen el \val{72.2\%} del total de gematr\'ia.
+\item Las top-3 letras del \nt{} producen el \val{60.9\%} del total de isopsef\'ia.
+\item Coeficiente de Gini: \ot{} $= 0.75$, \nt{} $= 0.70$ $\Rightarrow$ el equilibrio
+      es \textbf{concentrado en pocas letras de alto valor}, no distribuido.
+\end{itemize}
+
+\subsubsection{Curva de sensibilidad}
+
+\begin{table}[H]
+\centering
+\caption{Ratio AT/NT al eliminar el $X\%$ de letras de mayor contribuci\'on}
+\label{tab:sensitivity}
+\begin{tabular}{rrr}
+\toprule
+\textbf{\% eliminado} & \textbf{Ratio restante} & \textbf{$\Delta$ vs.\ 0.991} \\
+\midrule
+0\%  & 0.991 & --- \\
+10\% & 0.767 & $-0.224$ \\
+20\% & 0.775 & $-0.216$ \\
+30\% & 0.778 & $-0.213$ \\
+40\% & 1.212 & $+0.221$ \\
+50\% & 1.192 & $+0.201$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Eliminar tan solo el 10\% de letras de mayor contribuci\'on destruye la cuasi-igualdad
+(ratio cae a 0.77). Esto confirma que el equilibrio depende cr\'iticamente de las letras
+$\tav$, $\shin$, $\resh$ en hebreo y $\omega$, $\upsilon$, $\tau$ en griego.
+
+\subsubsection{Test de independencia}
+
+Las distribuciones de frecuencia de letras por clase de valor (unidades, decenas, centenas)
+son \textbf{significativamente diferentes} entre AT y NT
+($\chi^2 = 77{,}560$, $p \approx 0$, $\text{dof} = 3$).
+El equilibrio no proviene de distribuciones similares sino de una \emph{compensaci\'on accidental}
+entre valores altos del griego y volumen de texto del hebreo.
+
+% ─── 5.2 Constantes algebraicas ──────────────────────────────────────────
+\subsection{Constantes algebraicas: correcci\'on de comparaciones m\'ultiples}
+
+Se busc\'o sistem\'aticamente en un espacio de 293 constantes algebraicas y
+transcendentales ($\sqrt{n}$, $\sqrt[3]{n}$, $(\sqrt{n}+\sqrt{m})/k$,
+$\pi$, $e$, $\varphi$, \ldots), generando 1,172 comparaciones (293 constantes $\times$ 4 ratios).
+
+\begin{table}[H]
+\centering
+\caption{Proximidad a constantes algebraicas tras correcci\'on de Bonferroni}
+\label{tab:bonferroni}
+\begin{tabular}{lllcc}
+\toprule
+\textbf{Nivel} & \textbf{Ratio} & \textbf{Constante m\'as cercana} & \textbf{$p_{\text{Bonf.}}$} & \textbf{Sig.} \\
+\midrule
+Palabras     & 2.230 & $(\sqrt{4}+\sqrt{6})/2 = 2.225$ & 1.0 & NO \\
+Vers\'iculos & 2.928 & $(\sqrt{8}+\sqrt{9})/2 = 2.914$ & 1.0 & NO \\
+Cap\'itulos  & 3.573 & $\sqrt{13} = 3.606$              & 1.0 & NO \\
+Libros       & 1.444 & $\sqrt[3]{3} = 1.442$            & 1.0 & NO \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Veredicto.}
+\textbf{Ninguna proximidad sobrevive la correcci\'on de Bonferroni.}
+La cercan\'ia a $\sqrt{5}$ reportada en Fase~2 ($d = 0.006$) es un artefacto
+de comparaciones m\'ultiples: con 1,172 comparaciones, distancias de esa magnitud
+son esperables por azar. Se retira esta observaci\'on como hallazgo.
+
+\paragraph{Progresiones.}
+Los ratios (1.44, 2.23, 2.93, 3.57) forman una \textbf{progresi\'on aritm\'etica}
+(diferencias sucesivas: 0.79, 0.70, 0.64, CV bajo), no geom\'etrica.
+Esto indica que la ``ganancia'' de AT sobre NT crece linealmente con el nivel
+jer\'arquico, no exponencialmente.
+
+% ─── 5.3 Dimensi\'on fractal ──────────────────────────────────────────────
+\subsection{Dimensi\'on fractal del corpus}
+
+Se aplicaron tres m\'etodos independientes a la serie temporal de longitudes de
+vers\'iculo (31,140 puntos):
+
+\begin{table}[H]
+\centering
+\caption{An\'alisis fractal: tres m\'etodos independientes}
+\label{tab:fractal}
+\begin{tabular}{lccc}
+\toprule
+\textbf{M\'etrica} & \textbf{Global} & \textbf{\ot{}} & \textbf{\nt{}} \\
+\midrule
+Box-counting $D_f$             & 0.825 & 0.834 & 0.787 \\
+Hurst $H$ ($R^2$)              & \val{1.126} (0.994) & \val{1.110} (0.987) & \val{0.993} (0.989) \\
+DFA $\alpha$ ($R^2$)           & \val{0.823} (0.988) & \val{0.846} (0.986) & \val{0.681} (0.988) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Interpretaci\'on.}
+\begin{itemize}[leftmargin=2em]
+\item $H > 0.5$ y $\alpha > 0.5$ en todos los casos $\Rightarrow$ \textbf{memoria larga confirmada}.
+      Vers\'iculos largos tienden a estar cerca de vers\'iculos largos (persistencia).
+\item $H \approx 1.1$ en el AT indica \emph{fuerte persistencia}, t\'ipica de procesos
+      con memoria larga similar a ruido $1/f$.
+\item AT vs.\ NT son \textbf{significativamente diferentes} ($p = 10^{-6}$ por bootstrap $t$-test):
+      el AT tiene memoria m\'as larga que el NT.
+\end{itemize}
+
+\subsubsection{Dimensi\'on fractal por g\'enero literario}
+
+\begin{table}[H]
+\centering
+\caption{Exponentes fractales por g\'enero}
+\label{tab:fractalgenre}
+\begin{tabular}{lcc}
+\toprule
+\textbf{G\'enero} & \textbf{Hurst $H$} & \textbf{DFA $\alpha$} \\
+\midrule
+Narrativo   & \val{1.065} & 0.818 \\
+Po\'etico   & 0.934 & 0.776 \\
+Epistolar   & 0.740 & 0.642 \\
+Legal       & 0.677 & 0.650 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La \textbf{narrativa} tiene la memoria m\'as larga ($H = 1.07$), coherente con la estructura
+secuencial de la prosa hist\'orica (escenas que mantienen longitud similar). La literatura
+\textbf{legal} tiene la menor ($H = 0.68$), reflejando la naturaleza m\'as ``at\'omica'' de
+las leyes individuales. Todos los g\'eneros tienen $\alpha > 0.5$, confirmando correlaciones
+de largo alcance en todo el corpus.
+
+% ─── 5.4 Zipf sem\'antico ─────────────────────────────────────────────────
+\subsection{Zipf sem\'antico: localizaci\'on de la anomal\'ia del AT}
+
+\subsubsection{Los libros m\'as an\'omalos}
+
+\begin{table}[H]
+\centering
+\caption{Top 5 libros del AT con menor exponente Zipf en lemas}
+\label{tab:top5anomalous}
+\begin{tabular}{rlcl}
+\toprule
+\textbf{\#} & \textbf{Libro} & \textbf{$s$ (lemas)} & \textbf{Zona de la anomal\'ia} \\
+\midrule
+1 & Nah\'um               & \val{0.501} & cola \\
+2 & Abd\'ias              & \val{0.530} & cola \\
+3 & Habacuc               & \val{0.577} & cola \\
+4 & Proverbios            & 0.583 & cola \\
+5 & Cantar de los Cantares & 0.586 & cola \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Hallazgo clave.}
+La anomal\'ia est\'a \textbf{siempre en la cola} (frecuencias medias-bajas), no en la cabeza.
+Los libros m\'as an\'omalos son \emph{profetas menores cortos} y \emph{literatura sapiencial}:
+textos con vocabulario especializado y repetitivo en la zona media de frecuencias.
+
+\subsubsection{Correlaciones con caracter\'isticas del texto}
+
+\begin{table}[H]
+\centering
+\caption{Correlaciones del exponente Zipf ($s$) con caracter\'isticas del libro}
+\label{tab:zipfcorr}
+\begin{tabular}{lccl}
+\toprule
+\textbf{Variable} & \textbf{Pearson $r$} & \textbf{$p$} & \textbf{Interpretaci\'on} \\
+\midrule
+\% verbos            & \val{$-0.545$} & 0.0003 & M\'as verbos $\Rightarrow$ Zipf m\'as an\'omalo \\
+\% nombres           & $+0.377$ & 0.018 & M\'as nombres $\Rightarrow$ Zipf m\'as can\'onico \\
+Tama\~no (tokens)    & \val{$+0.612$} & $3.4 \times 10^{-5}$ & Libros cortos $\Rightarrow$ m\'as an\'omalos \\
+Long.\ media verso   & $+0.281$ & 0.084 & No significativo \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Mecanismo propuesto.}
+La anomal\'ia de Zipf del AT se explica por dos factores:
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{Tama\~no}: Los libros cortos tienen muestras insuficientes para que la ley de Zipf
+      se manifieste plenamente ($r = 0.61$, $p < 10^{-4}$).
+\item \textbf{Densidad verbal}: Los libros con mayor proporci\'on de verbos presentan Zipf
+      m\'as an\'omalo ($r = -0.55$, $p = 0.0003$), sugiriendo que el vocabulario verbal hebreo
+      tiene una distribuci\'on de frecuencias intr\'insecamente diferente a la nominal.
+\end{enumerate}
+
+Los verbos del AT ($\bar{s}_{\text{verbo}} = 0.72$) son ligeramente m\'as an\'omalos que
+los nombres ($\bar{s}_{\text{nombre}} = 0.75$), aunque la diferencia no alcanza significancia
+estad\'istica ($p = 0.35$). La entrop\'ia de Shannon correlaciona marginalmente con $s$
+($r = 0.31$, $p = 0.059$): los libros an\'omalos tienden a distribuciones menos uniformes.
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
-\subsection{Anomal\'ia 1: Zipf del AT --- confirmada como sem\'antica}
+\subsection{Anomal\'ia 1: Zipf del AT --- sem\'antica, localizada en profetas menores}
 
-La Fase~1 detect\'o $s = 0.679$ para el AT (can\'onico: $s \approx 1$).
-La Fase~2 (\S4.1) demuestra que la anomal\'ia \textbf{no es puramente morfol\'ogica}:
-al recalcular sobre lemas, el NT se normaliza ($s = 1.08$) pero el AT persiste
-an\'omalo ($s = 0.715$). La desviaci\'on es sem\'antica: el vocabulario del AT hebreo
-est\'a organizado de manera fundamentalmente diferente a lo que Zipf predice,
-con alta variabilidad entre libros (CV $= 1.95$).
+La Fase~1 detect\'o $s = 0.679$ para el AT. La Fase~2 demostr\'o que persiste en lemas
+($s = 0.715$): es sem\'antica, no morfol\'ogica. La Fase~3 (\S5.4) \emph{localiza} la anomal\'ia:
+se concentra en \textbf{profetas menores cortos} (Nah\'um $s=0.50$, Abd\'ias $s=0.53$) y
+\textbf{literatura sapiencial} (Proverbios $s=0.58$). El mecanismo es doble: libros cortos
+con alta densidad verbal. La anomal\'ia est\'a siempre en la \emph{cola} (frecuencias medias),
+no en la cabeza de la distribuci\'on.
 
-\subsection{Anomal\'ia 2: Cuasi-igualdad num\'erica --- confirmada}
+\subsection{Anomal\'ia 2: Cuasi-igualdad num\'erica --- mecanismo identificado}
 
-La Fase~2 (\S4.2) confirma que el ratio $0.991$ es \textbf{estad\'isticamente significativo}
-($p = 0.0$ por permutaci\'on) y \textbf{no trivial} (ratio te\'orico bajo letras
-uniformes: $0.922$). Sin embargo, el IC~95\% bootstrap $[0.986, 0.996]$ no contiene
-1.0, por lo que la igualdad no es exacta. Se trata de una \emph{cuasi-igualdad real}:
-un fen\'omeno robusto que no emerge del azar ni de las proporciones alfab\'eticas.
+La Fase~2 confirm\'o que el ratio $0.991$ es significativo ($p = 0.0$) y no trivial.
+La Fase~3 (\S5.1) identifica el \textbf{mecanismo causal}: el equilibrio est\'a
+concentrado en pocas letras de alto valor (Gini $> 0.70$). Tres letras por alfabeto
+($\tav$/$\shin$/$\resh$ en hebreo; $\omega$/$\upsilon$/$\tau$ en griego) producen
+el 60--72\% de los totales. Las distribuciones de frecuencia son significativamente
+diferentes ($\chi^2 = 77{,}560$), por lo que se trata de una \textbf{compensaci\'on accidental}:
+los valores altos del griego compensan el mayor volumen del hebreo.
 
 \subsection{Anomal\'ia 3: V/N como fingerprint estil\'istico --- confirmada}
 
 La Fase~2 (\S4.4) confirma que el ratio V/N presenta \textbf{quiebres significativos}
-que coinciden con transiciones de g\'enero literario (Ester$\to$Job, Jerem\'ias$\to$Lamentaciones).
-Las correlaciones V/N vs.\ tasa de hapax ($r = -0.39$) y vs.\ exponente Zipf ($r = 0.35$)
-demuestran que este ratio est\'a conectado con la estructura l\'exica profunda del texto.
+que coinciden con transiciones de g\'enero literario. La Fase~3 (\S5.4) a\~nade que
+el ratio V/N correlaciona directamente con el exponente de Zipf: libros con m\'as verbos
+tienen Zipf m\'as an\'omalo ($r = -0.55$, $p = 0.0003$), estableciendo un
+\textbf{v\'inculo cuantitativo} entre estilo y estructura l\'exica.
 
-\subsection{Patr\'on 4: Bimodalidad y autosimilaridad --- nuevos hallazgos}
-
-La Fase~2 revela dos patrones estructurales nuevos:
+\subsection{Patr\'on 4: Estructura fractal cuantificada}
 
 \begin{enumerate}[leftmargin=2em]
-\item \textbf{Bimodalidad} (\S4.3): La distribuci\'on de longitud de vers\'iculos tiene
-      dos componentes gaussianos ($\mu_1 = 9$, $\mu_2 = 17$), correspondientes a
-      poes\'ia vs.\ prosa. La mejora BIC de 3,482 puntos hace la bimodalidad incontestable.
+\item \textbf{Bimodalidad} (\S4.3): Confirmada con GMM ($\Delta\text{BIC} = 3{,}482$).
 
-\item \textbf{Autosimilaridad fractal} (\S4.5): Las distribuciones normalizadas de tama\~no
-      entre niveles jer\'arquicos son estad\'isticamente indistinguibles (KS $= 0.029$, $p = 0.301$).
-      El corpus b\'iblico tiene la misma ``forma'' a diferentes escalas, una propiedad
-      caracter\'istica de estructuras fractales.
+\item \textbf{Memoria larga} (\S5.3): Hurst $H = 1.13$ y DFA $\alpha = 0.82$,
+      ambos $> 0.5$ con $R^2 > 0.98$. Tres m\'etodos independientes convergen:
+      el corpus tiene \textbf{correlaciones de largo alcance} en la serie de longitudes
+      de vers\'iculo. El AT ($H = 1.11$) tiene memoria significativamente m\'as larga
+      que el NT ($H = 0.99$, $p = 10^{-6}$).
+
+\item \textbf{Constantes irracionales descartadas} (\S5.2): La proximidad a $\sqrt{5}$
+      de Fase~2 no sobrevive Bonferroni (1,172 comparaciones). Los ratios forman
+      una progresi\'on aritm\'etica, no geom\'etrica.
 \end{enumerate}
 
 \subsection{S\'intesis: Un corpus con estructura at\'ipica}
 
-Los cinco hallazgos de Fase~2 convergen en una conclusi\'on: el corpus b\'iblico
-no se comporta como un corpus ling\"u\'istico ordinario. Presenta anomal\'ias
-sem\'anticas (Zipf), proporcionales (cuasi-igualdad num\'erica), estil\'isticas
-(V/N como fingerprint), distribucionales (bimodalidad) y geom\'etricas (autosimilaridad).
-Ninguna de estas propiedades es explicable por artefactos metodol\'ogicos o
-caracter\'isticas triviales de los alfabetos.
+Las tres fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico:
+
+\begin{itemize}[leftmargin=2em]
+\item \textbf{Anomal\'ia l\'exica localizada}: El AT tiene Zipf an\'omalo por libros
+      cortos con alta densidad verbal (profetas, sabidur\'ia). El NT es can\'onico.
+\item \textbf{Equilibrio num\'erico concentrado}: El ratio 0.991 es real pero depende
+      de 6 letras de alto valor. Es una compensaci\'on accidental, no una propiedad
+      profunda.
+\item \textbf{Memoria larga con jerarqu\'ia de g\'eneros}: La narrativa tiene la
+      memoria m\'as larga ($H = 1.07$), la legislaci\'on la menor ($H = 0.68$).
+      Todos los g\'eneros son persistentes ($\alpha > 0.5$).
+\item \textbf{Bimodalidad poes\'ia/prosa}: Confirmada y estable.
+\item \textbf{Sin relaci\'on con constantes matem\'aticas}: Descartada tras
+      correcci\'on rigurosa.
+\end{itemize}
+
+El corpus b\'iblico no se comporta como un corpus ling\"u\'istico ordinario,
+pero sus propiedades at\'ipicas tienen explicaciones causales identificables:
+heterogeneidad de g\'eneros, tama\~no variable de libros, y caracter\'isticas
+espec\'ificas de los sistemas de escritura hebreo y griego.
 
 
 % ══════════════════════════════════════════════════════════════════════════
@@ -804,9 +1081,9 @@ caracter\'isticas triviales de los alfabetos.
 % ══════════════════════════════════════════════════════════════════════════
 
 \noindent
-Las l\'ineas 1--4 de la versi\'on anterior (Zipf sobre lemas, test de permutaci\'on,
-mapa V/N, bimodalidad por g\'enero) fueron \textbf{resueltas en Fase~2}.
-Las siguientes l\'ineas permanecen abiertas o son nuevas:
+Las l\'ineas de Fase~2 (Zipf lemas, permutaci\'on, V/N, bimodalidad) y las de Fase~3
+(dimensi\'on fractal, Zipf por libro del AT, mecanismo de la cuasi-igualdad)
+fueron \textbf{resueltas}. Las siguientes permanecen abiertas:
 
 \begin{enumerate}[leftmargin=2em]
 
@@ -819,21 +1096,18 @@ Las siguientes l\'ineas permanecen abiertas o son nuevas:
 \item \textbf{Entrop\'ia posicional}: Calcular la entrop\'ia de Shannon por posici\'on
       dentro del vers\'iculo para cuantificar la ``predictibilidad'' de cada posici\'on.
 
-\item \textbf{Dimensi\'on fractal expl\'icita}: Cuantificar la dimensi\'on de Hausdorff
-      del corpus mediante box-counting sobre la serie de longitudes de vers\'iculos,
-      dado el resultado positivo de autosimilaridad.
-
-\item \textbf{Zipf por libro del AT}: Identificar qu\'e libros espec\'ificos contribuyen
-      m\'as a la anomal\'ia sem\'antica (CV $= 1.95$ sugiere heterogeneidad alta).
-
-\item \textbf{Modelo causal de la cuasi-igualdad}: Investigar si la proximidad
-      gematr\'ia/isopsef\'ia emerge de restricciones fonol\'ogicas comunes a lenguas
-      sem\'iticas y hel\'enicas, o de la selecci\'on can\'onica del corpus.
-
 \item \textbf{Comparaci\'on con corpus de control}: Aplicar el mismo pipeline a
       textos lit\'urgicos no b\'iblicos (Cor\'an, Vedas, textos budistas) para
       determinar qu\'e anomal\'ias son espec\'ificas del corpus b\'iblico y cu\'ales
       son propiedades generales de textos sagrados.
+
+\item \textbf{Memoria larga por serie temporal}: Aplicar DFA y Hurst a series
+      diferentes (valores num\'ericos, ratio V/N por vers\'iculo) para determinar
+      si la memoria larga es una propiedad de la \emph{longitud} o del \emph{contenido}.
+
+\item \textbf{Efecto de tama\~no en Zipf}: Cuantificar con subsampling si la anomal\'ia
+      de los profetas menores persiste al normalizar por tama\~no de libro
+      (remuestreando $n$ palabras de cada libro).
 
 \end{enumerate}
 
