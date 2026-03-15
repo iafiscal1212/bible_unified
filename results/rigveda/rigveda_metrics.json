@@ -1,0 +1,61 @@
+{
+  "corpus": "Rigveda",
+  "lang": "san",
+  "family": "indo-european",
+  "type": "revelacion_transmision_controlada",
+  "n_padas": 21253,
+  "n_words": 169972,
+  "n_hymns": 1028,
+  "n_unique_lemmas": 8765,
+  "n_failed_downloads": 0,
+  "hurst_H": 0.9336,
+  "hurst_R2": 0.9946,
+  "dfa_alpha": 0.8486,
+  "dfa_R2": 0.9984,
+  "box_counting_Df": 0.8909,
+  "box_counting_R2": 0.9256,
+  "bond_dim_chi": 192,
+  "mps_permtest_p": 0.0,
+  "mps_permtest_chi_obs": 55,
+  "mps_permtest_chi_rand": 64.0,
+  "mps_significant": true,
+  "delta_S_mean": -0.959028,
+  "delta_s_vs_random_p": 0.0,
+  "delta_s_group": "more_structured",
+  "zipf_s_lemma": 1.4316,
+  "profile": "AT-like",
+  "metrics_like_AT": 3,
+  "metrics_like_NT": 2,
+  "details": {
+    "hurst_H": {
+      "rigveda": 0.9336,
+      "AT": 1.1099,
+      "NT": 0.9928,
+      "closer_to": "NT"
+    },
+    "dfa_alpha": {
+      "rigveda": 0.8486,
+      "AT": 0.8458,
+      "NT": 0.6805,
+      "closer_to": "AT"
+    },
+    "box_counting_Df": {
+      "rigveda": 0.8909,
+      "AT": 0.834,
+      "NT": 0.7871,
+      "closer_to": "AT"
+    },
+    "mps_significant": {
+      "rigveda": true,
+      "AT": true,
+      "NT": false,
+      "closer_to": "AT"
+    },
+    "delta_S": {
+      "rigveda": -0.959028,
+      "AT": -0.761583,
+      "NT": -1.10255,
+      "closer_to": "NT"
+    }
+  }
+}
