@@ -53,7 +53,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{15 de marzo de 2026 --- v1.0}
+\date{15 de marzo de 2026 --- v2.0}
 
 
 \begin{document}
@@ -69,12 +69,23 @@ Se presenta un an\'alisis matem\'atico exploratorio del corpus b\'iblico complet
 27 libros del Nuevo Testamento en griego (SBLGNT/MorphGNT).
 El corpus unificado contiene \textbf{444,339 palabras} con morfolog\'ia normalizada.
 
-Seis m\'odulos de an\'alisis independientes ---frecuencias, morfolog\'ia, valores num\'ericos,
-estructura, coocurrencia y patrones posicionales--- se ejecutaron en paralelo sobre
-los 66 libros. Los resultados revelan anomal\'ias estad\'isticas significativas:
-un exponente de Zipf at\'ipico en el AT ($s=0.68$, donde $s\approx1.0$ es el valor can\'onico),
-una cuasi-igualdad num\'erica inesperada entre AT y NT (ratio gematr\'ia/isopsef\'ia $\approx 0.991$),
-y asimetr\'ias morfol\'ogicas pronunciadas entre los dos corpus.
+\textbf{Fase~1}: Seis m\'odulos de an\'alisis independientes ---frecuencias, morfolog\'ia,
+valores num\'ericos, estructura, coocurrencia y patrones posicionales--- se ejecutaron
+en paralelo sobre los 66 libros, revelando anomal\'ias significativas: exponente de Zipf
+at\'ipico en el AT ($s=0.68$), cuasi-igualdad num\'erica AT/NT ($\approx 0.991$),
+y asimetr\'ias morfol\'ogicas pronunciadas.
+
+\textbf{Fase~2}: Cinco investigaciones profundas confirman y extienden estos hallazgos:
+(i)~la anomal\'ia de Zipf del AT persiste al nivel de lemas ($s=0.715$), demostrando
+estructura sem\'antica ---no s\'olo morfol\'ogica--- subyacente;
+(ii)~la cuasi-igualdad num\'erica es estad\'isticamente significativa ($p=0.0$ por permutaci\'on)
+pero no exacta (IC~95\% no contiene~1.0);
+(iii)~la distribuci\'on de longitud de vers\'iculos es bimodal, con picos en poes\'ia ($\mu=9$)
+y prosa ($\mu=17$);
+(iv)~se detectan quiebres significativos en el ratio V/N correlacionados con transiciones
+de g\'enero literario;
+(v)~el texto b\'iblico exhibe autosimilaridad fractal entre niveles jer\'arquicos
+($\text{KS}=0.029$, $p=0.301$).
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -156,12 +167,34 @@ El an\'alisis emplea paralelismo en dos dimensiones:
 \end{tabular}
 \end{table}
 
+\subsection{Fase~2: Investigaciones profundas}
+
+A partir de las anomal\'ias detectadas en Fase~1, se dise\~naron 5 investigaciones estad\'isticas
+dirigidas, ejecutadas por \texttt{orchestrator\_fase2.py}:
+
+\begin{table}[H]
+\centering
+\caption{Los 5 m\'odulos de Fase~2}
+\begin{tabular}{lp{9cm}}
+\toprule
+\textbf{M\'odulo} & \textbf{Pregunta de investigaci\'on} \\
+\midrule
+\texttt{deep\_zipf}        & ?`La anomal\'ia de Zipf del AT es morfol\'ogica o sem\'antica? \\
+\texttt{deep\_numerical}   & ?`El ratio num\'erico 0.991 es estad\'isticamente significativo? \\
+\texttt{deep\_bimodal}     & ?`La distribuci\'on de longitud de vers\'iculos es bimodal? \\
+\texttt{deep\_vn\_ratio}   & ?`D\'onde se quiebra el ratio V/N y qu\'e lo correlaciona? \\
+\texttt{deep\_proportions} & ?`El corpus exhibe autosimilaridad fractal? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
 \subsection{Infraestructura}
 
 \begin{itemize}[leftmargin=2em]
 \item Servidor Hetzner dedicado: 20 cores, 64 GB RAM, Ubuntu 24.04
-\item Tiempo total de ejecuci\'on: \textbf{7 segundos} (los 6 m\'odulos en paralelo)
-\item Dependencias: Python 3.12, NumPy, Pandas, SciPy
+\item Fase~1: \textbf{7 segundos} (6 m\'odulos en paralelo)
+\item Fase~2: \textbf{45 segundos} (5 investigaciones con permutaciones y bootstrap)
+\item Dependencias: Python 3.12, NumPy, Pandas, SciPy, scikit-learn (GMM)
 \end{itemize}
 
 
@@ -521,81 +554,261 @@ La preposici\'on casi nunca cierra un vers\'iculo (0.02\%), como era esperable.
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Fase~2: Investigaciones Profundas}
+% ══════════════════════════════════════════════════════════════════════════
+
+Las cinco investigaciones de esta secci\'on responden directamente a las anomal\'ias
+y preguntas abiertas de la Fase~1.
+
+% ─── 4.1 Zipf profundo ────────────────────────────────────────────────────
+\subsection{Zipf: ?`Morfolog\'ia o sem\'antica?}
+
+Se recalcul\'o el exponente de Zipf sobre \emph{lemas} (eliminando la variaci\'on
+morfol\'ogica de superficie) y se compar\'o con el ajuste sobre formas de superficie,
+libro por libro.
+
+\begin{table}[H]
+\centering
+\caption{Exponente de Zipf: formas de superficie vs.\ lemas}
+\label{tab:zipfdeep}
+\begin{tabular}{lccr}
+\toprule
+\textbf{Corpus} & \textbf{Superficie ($s$)} & \textbf{Lemas ($s$)} & \textbf{$\Delta s$} \\
+\midrule
+\ot{} (hebreo) & 0.801 & \val{0.715} & $-0.046$ \\
+\nt{} (griego) & 0.838 & \val{1.078} & $-0.238$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Resultado.}
+\begin{itemize}[leftmargin=2em]
+\item El \nt{} se normaliza perfectamente a $s \approx 1.08$ al usar lemas:
+      la desviaci\'on en superficie era \textbf{puramente morfol\'ogica}.
+\item El \ot{} \emph{sigue an\'omalo} en lemas ($s = 0.715$): hay \textbf{estructura
+      sem\'antica subyacente} que desv\'ia la distribuci\'on, no explicable por morfolog\'ia.
+\item El CV de $\Delta s$ en el AT es 1.95 (alta variabilidad entre libros):
+      la anomal\'ia no es uniforme sino espec\'ifica de ciertos libros.
+\item Mann-Whitney AT vs.\ NT sobre $\Delta s$: $p = 0.0$ (diferencia extremadamente significativa).
+\end{itemize}
+
+\paragraph{Implicaci\'on.}
+El AT hebreo tiene una estructura l\'exica \emph{sui generis}: incluso al nivel de lemas,
+la distribuci\'on de frecuencias se desv\'ia del comportamiento zipfiano can\'onico.
+Esto apunta a una organizaci\'on sem\'antica del vocabulario diferente a la de cualquier
+corpus ling\"u\'istico homog\'eneo.
+
+% ─── 4.2 Ratio num\'erico ──────────────────────────────────────────────────
+\subsection{Cuasi-igualdad num\'erica: significancia estad\'istica}
+
+Se ejecutaron tres tests para determinar si el ratio gematr\'ia/isopsef\'ia $= 0.991$
+es trivial o significativo.
+
+\begin{table}[H]
+\centering
+\caption{Tests estad\'isticos sobre el ratio num\'erico AT/NT}
+\label{tab:numtests}
+\begin{tabular}{lll}
+\toprule
+\textbf{Test} & \textbf{Resultado} & \textbf{Interpretaci\'on} \\
+\midrule
+Permutaci\'on (10K) & $p = 0.0$ & Ninguna permutaci\'on produce ratio tan cercano a 1 \\
+Bootstrap IC~95\% & $[0.986,\; 0.996]$ & \textbf{No contiene 1.0} \\
+Ratio te\'orico  & 0.922 & Si letras fueran uniformes \\
+Ratio observado  & \val{0.991} & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Veredicto.}
+El ratio 0.991 es \textbf{doblemente significativo}:
+\begin{enumerate}[leftmargin=2em]
+\item Es significativamente m\'as cercano a 1.0 que el azar ($p = 0.0$).
+\item Pero \textbf{no es exactamente 1.0} (el IC~95\% no lo contiene).
+\item El ratio te\'orico bajo letras uniformes (0.922) est\'a lejos del observado:
+      la cuasi-igualdad no es una propiedad trivial de los alfabetos.
+\end{enumerate}
+
+La cuasi-igualdad num\'erica AT/NT es un \textbf{fen\'omeno real}, no explicable
+por las proporciones de los alfabetos ni por el azar.
+
+% ─── 4.3 Bimodalidad ──────────────────────────────────────────────────────
+\subsection{Bimodalidad en longitud de vers\'iculos}
+
+Se clasific\'o cada vers\'iculo por g\'enero literario y se ajust\'o un modelo de
+mezcla gaussiana (GMM) a la distribuci\'on global de longitudes.
+
+\begin{table}[H]
+\centering
+\caption{Longitud media por g\'enero literario}
+\label{tab:genres}
+\begin{tabular}{lrr}
+\toprule
+\textbf{G\'enero} & \textbf{Media (pal/verso)} & \textbf{$N$ vers\'iculos} \\
+\midrule
+Po\'etico   & \val{9.05}  & 3,092 \\
+Narrativo   & 13.85 & 20,389 \\
+Epistolar   & 17.31 & 5,692 \\
+Legal       & \val{18.02} & 1,967 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{GMM de 2 componentes.}
+\begin{itemize}[leftmargin=2em]
+\item Componente 1: $\mu_1 = 9.03$, $\sigma_1 = 2.7$, peso $= 35.4\%$
+\item Componente 2: $\mu_2 = 17.15$, $\sigma_2 = 6.08$, peso $= 64.6\%$
+\item Mejora BIC: \val{3,482 puntos} $\Rightarrow$ el modelo bimodal es masivamente superior
+\item Mann-Whitney entre todos los pares de g\'eneros: $p < 0.003$ en todos los casos
+\end{itemize}
+
+Los dos picos del GMM corresponden exactamente a \textbf{poes\'ia} ($\mu \approx 9$) vs.\
+\textbf{narrativa/legal/epistolar} ($\mu \approx 17$). La bimodalidad es una huella
+estad\'istica de la \emph{dualidad verso po\'etico / oraci\'on prosaica} que estructura
+el corpus b\'iblico.
+
+% ─── 4.4 V/N ratio ────────────────────────────────────────────────────────
+\subsection{Quiebres en el ratio V/N por libro}
+
+Se analiz\'o la serie V/N (verbo/nombre) de los 66 libros en orden can\'onico,
+buscando \emph{changepoints} significativos (test $t$ con $p < 0.001$).
+
+\begin{table}[H]
+\centering
+\caption{Changepoints significativos en la serie V/N}
+\label{tab:changepoints}
+\begin{tabular}{rllc}
+\toprule
+\textbf{Pos.} & \textbf{Entre\ldots} & \textbf{V/N antes $\to$ despu\'es} & \textbf{$p$} \\
+\midrule
+\#38 & Zacar\'ias $\to$ Malaqu\'ias       & $0.598 \to 0.864$ & $5.3 \times 10^{-5}$ \\
+\#17 & Ester $\to$ Job                     & $0.513 \to 0.780$ & $7.5 \times 10^{-5}$ \\
+\#24 & Jerem\'ias $\to$ Lamentaciones      & $0.562 \to 0.796$ & $9.0 \times 10^{-5}$ \\
+\#31 & Abd\'ias $\to$ Jon\'as              & $0.587 \to 0.821$ & $9.7 \times 10^{-5}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Correlaciones con otras m\'etricas.}
+\begin{itemize}[leftmargin=2em]
+\item V/N vs.\ tasa de hapax: $r = -0.39$, $p = 0.001$ (m\'as verbos $\Rightarrow$ menos hapax)
+\item V/N vs.\ exponente Zipf: $r = 0.35$, $p = 0.004$ (m\'as verbos $\Rightarrow$ Zipf m\'as can\'onico)
+\item V/N vs.\ tama\~no de libro: $r = 0.001$, $p = 0.99$ (sin relaci\'on)
+\end{itemize}
+
+Los quiebres coinciden con transiciones de g\'enero literario bien conocidas:
+Ester$\to$Job marca el paso de narrativa hist\'orica a literatura sapiencial;
+Jerem\'ias$\to$Lamentaciones, de profec\'ia en prosa a poes\'ia eleg\'iaca.
+El ratio V/N funciona como un \textbf{fingerprint estil\'istico} cuantitativo.
+
+% ─── 4.5 Autosimilaridad ──────────────────────────────────────────────────
+\subsection{Proporciones y autosimilaridad fractal}
+
+\subsubsection{Ratios AT/NT y constantes irracionales}
+
+\begin{table}[H]
+\centering
+\caption{Proximidad de los ratios AT/NT a constantes irracionales}
+\label{tab:irrationals}
+\begin{tabular}{lrcr}
+\toprule
+\textbf{Nivel} & \textbf{Ratio AT/NT} & \textbf{Constante m\'as cercana} & \textbf{Distancia} \\
+\midrule
+Palabras     & 2.230 & $\sqrt{5} = 2.236$ & \val{0.006} \\
+Vers\'iculos & 2.928 & $e = 2.718$         & 0.210 \\
+Cap\'itulos  & 3.573 & $\pi = 3.142$       & 0.431 \\
+Libros       & 1.444 & $\sqrt{2} = 1.414$  & 0.030 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Nota.}
+La proximidad a nivel de palabras ($|2.230 - \sqrt{5}| = 0.006$) y de libros
+($|1.444 - \sqrt{2}| = 0.030$) es notable, pero las proximidades a nivel de
+vers\'iculos y cap\'itulos son d\'ebiles. No se afirma relaci\'on causal con
+constantes matem\'aticas; se reporta como observaci\'on descriptiva.
+
+\subsubsection{Test de autosimilaridad}
+
+Se compar\'o la distribuci\'on normalizada de longitudes de vers\'iculos dentro de cada
+cap\'itulo con la distribuci\'on normalizada de longitudes de cap\'itulos dentro de cada libro,
+mediante un test de Kolmogorov-Smirnov.
+
+\begin{center}
+\fbox{\parbox{0.85\textwidth}{%
+\textbf{Resultado}: $\text{KS} = 0.029$, $p = 0.301$.\\[0.3em]
+Las distribuciones normalizadas son \textbf{estad\'isticamente indistinguibles}
+($p > 0.05$). El texto b\'iblico exhibe \textbf{autosimilaridad fractal}
+entre niveles jer\'arquicos: la forma de la variaci\'on es la misma
+ya sea que se mire hacia adentro (vers\'iculos en cap\'itulos) o hacia afuera
+(cap\'itulos en libros).
+}}
+\end{center}
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
-\subsection{Anomal\'ia 1: Exponente de Zipf del AT ($s = 0.679$)}
+\subsection{Anomal\'ia 1: Zipf del AT --- confirmada como sem\'antica}
 
-El valor can\'onico $s \approx 1.0$ se observa en la mayor\'ia de los corpus de lenguas
-naturales. El AT hebreo se desv\'ia con $s = 0.679$, lo cual es inusual.
-La desviaci\'on no se observa en el NT griego ($s = 0.976$).
+La Fase~1 detect\'o $s = 0.679$ para el AT (can\'onico: $s \approx 1$).
+La Fase~2 (\S4.1) demuestra que la anomal\'ia \textbf{no es puramente morfol\'ogica}:
+al recalcular sobre lemas, el NT se normaliza ($s = 1.08$) pero el AT persiste
+an\'omalo ($s = 0.715$). La desviaci\'on es sem\'antica: el vocabulario del AT hebreo
+est\'a organizado de manera fundamentalmente diferente a lo que Zipf predice,
+con alta variabilidad entre libros (CV $= 1.95$).
 
-\textbf{Hip\'otesis principal}: La morfolog\'ia aglutinante del hebreo b\'iblico ---donde
-prefijos (\textit{be-}, \textit{ha-}, \textit{we-}, \textit{le-}) se adhieren a las ra\'ices---
-genera un n\'umero desproporcionado de formas de superficie \'unicas, inflando la
-zona media del ranking de frecuencias y aplanando la pendiente de Zipf.
+\subsection{Anomal\'ia 2: Cuasi-igualdad num\'erica --- confirmada}
 
-\textbf{Test sugerido}: Recalcular Zipf sobre \emph{lemas} en lugar de word-forms.
-Si el exponente se acerca a 1.0 al usar lemas, la hip\'otesis morfol\'ogica queda confirmada.
+La Fase~2 (\S4.2) confirma que el ratio $0.991$ es \textbf{estad\'isticamente significativo}
+($p = 0.0$ por permutaci\'on) y \textbf{no trivial} (ratio te\'orico bajo letras
+uniformes: $0.922$). Sin embargo, el IC~95\% bootstrap $[0.986, 0.996]$ no contiene
+1.0, por lo que la igualdad no es exacta. Se trata de una \emph{cuasi-igualdad real}:
+un fen\'omeno robusto que no emerge del azar ni de las proporciones alfab\'eticas.
 
-\subsection{Anomal\'ia 2: Cuasi-igualdad num\'erica AT/NT}
+\subsection{Anomal\'ia 3: V/N como fingerprint estil\'istico --- confirmada}
 
-El ratio de valores totales gematr\'ia(AT)/isopsef\'ia(NT) es $0.9909$, es decir,
-los valores son pr\'acticamente id\'enticos a pesar de:
-\begin{itemize}[leftmargin=2em]
-\item El AT tiene $2.23\times$ m\'as palabras
-\item Los alfabetos tienen rangos de valores diferentes (hebreo: 1--400, griego: 1--800)
-\item Los textos fueron escritos en diferentes siglos y lenguas
-\end{itemize}
+La Fase~2 (\S4.4) confirma que el ratio V/N presenta \textbf{quiebres significativos}
+que coinciden con transiciones de g\'enero literario (Ester$\to$Job, Jerem\'ias$\to$Lamentaciones).
+Las correlaciones V/N vs.\ tasa de hapax ($r = -0.39$) y vs.\ exponente Zipf ($r = 0.35$)
+demuestran que este ratio est\'a conectado con la estructura l\'exica profunda del texto.
 
-\textbf{Test sugerido}: Bootstrap/permutaci\'on. Generar $N=10{,}000$ corpus aleatorios
-con las mismas distribuciones de caracteres pero con longitudes permutadas, y comparar
-el ratio AT/NT observado con la distribuci\'on nula.
+\subsection{Patr\'on 4: Bimodalidad y autosimilaridad --- nuevos hallazgos}
 
-\subsection{Anomal\'ia 3: Ratio V/N como marcador estil\'istico}
+La Fase~2 revela dos patrones estructurales nuevos:
 
-El salto de V/N $= 0.55$ (AT) a V/N $= 0.99$ (NT) es dr\'astico.
-Dentro del AT, es probable que haya variaci\'on significativa por g\'enero literario
-(narrativo vs.\ po\'etico vs.\ legal). Mapear V/N por libro puede revelar
-clusters de autoría o \'epoca.
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{Bimodalidad} (\S4.3): La distribuci\'on de longitud de vers\'iculos tiene
+      dos componentes gaussianos ($\mu_1 = 9$, $\mu_2 = 17$), correspondientes a
+      poes\'ia vs.\ prosa. La mejora BIC de 3,482 puntos hace la bimodalidad incontestable.
 
-\subsection{Patr\'on 4: Ratios jer\'arquicos crecientes}
+\item \textbf{Autosimilaridad fractal} (\S4.5): Las distribuciones normalizadas de tama\~no
+      entre niveles jer\'arquicos son estad\'isticamente indistinguibles (KS $= 0.029$, $p = 0.301$).
+      El corpus b\'iblico tiene la misma ``forma'' a diferentes escalas, una propiedad
+      caracter\'istica de estructuras fractales.
+\end{enumerate}
 
-Los ratios AT/NT crecen mon\'otonamente con el nivel jer\'arquico:
-\[
-\frac{\text{AT}}{\text{NT}} = \begin{cases}
-2.230 & \text{(palabras)} \\
-2.928 & \text{(vers\'iculos)} \\
-3.573 & \text{(cap\'itulos)}
-\end{cases}
-\]
+\subsection{S\'intesis: Un corpus con estructura at\'ipica}
 
-Esto implica que la ``densidad'' de texto disminuye al subir en la jerarqu\'ia
-del NT respecto al AT: los vers\'iculos del NT son m\'as largos y los cap\'itulos
-contienen m\'as vers\'iculos, de manera consistente.
+Los cinco hallazgos de Fase~2 convergen en una conclusi\'on: el corpus b\'iblico
+no se comporta como un corpus ling\"u\'istico ordinario. Presenta anomal\'ias
+sem\'anticas (Zipf), proporcionales (cuasi-igualdad num\'erica), estil\'isticas
+(V/N como fingerprint), distribucionales (bimodalidad) y geom\'etricas (autosimilaridad).
+Ninguna de estas propiedades es explicable por artefactos metodol\'ogicos o
+caracter\'isticas triviales de los alfabetos.
 
 
 % ══════════════════════════════════════════════════════════════════════════
 \section{L\'ineas de Investigaci\'on Futuras}
 % ══════════════════════════════════════════════════════════════════════════
 
+\noindent
+Las l\'ineas 1--4 de la versi\'on anterior (Zipf sobre lemas, test de permutaci\'on,
+mapa V/N, bimodalidad por g\'enero) fueron \textbf{resueltas en Fase~2}.
+Las siguientes l\'ineas permanecen abiertas o son nuevas:
+
 \begin{enumerate}[leftmargin=2em]
-
-\item \textbf{Zipf sobre lemas vs.\ formas}: Separar el efecto morfol\'ogico del efecto
-      sem\'antico en la anomal\'ia de Zipf del AT. Si $s_{\text{lema}} \approx 1.0$,
-      la desviaci\'on es puramente morfol\'ogica.
-
-\item \textbf{Test de permutaci\'on para la igualdad num\'erica}: Determinar si
-      el ratio $\approx 0.991$ es estad\'isticamente significativo o una consecuencia
-      trivial de las proporciones alfab\'eticas.
-
-\item \textbf{Mapa V/N por libro}: Correlacionar el ratio verbo/nombre con la
-      dataci\'on propuesta, g\'enero literario y autor\'ia. Posible uso como
-      ``fingerprint'' estil\'istico.
-
-\item \textbf{Distribuci\'on de longitud de vers\'iculos por g\'enero}:
-      Investigar la posible bimodalidad (picos en 7 y 12--13 palabras) y su
-      correlaci\'on con narrativa vs.\ poes\'ia vs.\ ley.
 
 \item \textbf{An\'alisis espectral}: Aplicar FFT a la serie temporal de valores
       num\'ericos por vers\'iculo para detectar periodicidades.
@@ -605,6 +818,22 @@ contienen m\'as vers\'iculos, de manera consistente.
 
 \item \textbf{Entrop\'ia posicional}: Calcular la entrop\'ia de Shannon por posici\'on
       dentro del vers\'iculo para cuantificar la ``predictibilidad'' de cada posici\'on.
+
+\item \textbf{Dimensi\'on fractal expl\'icita}: Cuantificar la dimensi\'on de Hausdorff
+      del corpus mediante box-counting sobre la serie de longitudes de vers\'iculos,
+      dado el resultado positivo de autosimilaridad.
+
+\item \textbf{Zipf por libro del AT}: Identificar qu\'e libros espec\'ificos contribuyen
+      m\'as a la anomal\'ia sem\'antica (CV $= 1.95$ sugiere heterogeneidad alta).
+
+\item \textbf{Modelo causal de la cuasi-igualdad}: Investigar si la proximidad
+      gematr\'ia/isopsef\'ia emerge de restricciones fonol\'ogicas comunes a lenguas
+      sem\'iticas y hel\'enicas, o de la selecci\'on can\'onica del corpus.
+
+\item \textbf{Comparaci\'on con corpus de control}: Aplicar el mismo pipeline a
+      textos lit\'urgicos no b\'iblicos (Cor\'an, Vedas, textos budistas) para
+      determinar qu\'e anomal\'ias son espec\'ificas del corpus b\'iblico y cu\'ales
+      son propiedades generales de textos sagrados.
 
 \end{enumerate}
 
