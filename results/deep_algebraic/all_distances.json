@@ -1,0 +1,226 @@
+{
+  "n_constants": 293,
+  "n_comparisons": 1172,
+  "distances": {
+    "words": {
+      "observed": 2.23028774,
+      "top10_nearest": [
+        {
+          "constant": "(sqrt(4)+sqrt(6))/2",
+          "constant_value": 2.22474487,
+          "distance": 0.00554287
+        },
+        {
+          "constant": "(sqrt(5)+sqrt(5))/2",
+          "constant_value": 2.23606798,
+          "distance": 0.00578024
+        },
+        {
+          "constant": "cbrt(11)",
+          "constant_value": 2.22398009,
+          "distance": 0.00630765
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(9))/2",
+          "constant_value": 2.20710678,
+          "distance": 0.02318096
+        },
+        {
+          "constant": "(sqrt(3)+sqrt(7))/2",
+          "constant_value": 2.18890106,
+          "distance": 0.04138668
+        },
+        {
+          "constant": "(sqrt(3)+sqrt(8))/2",
+          "constant_value": 2.28023897,
+          "distance": 0.04995122
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(10))/2",
+          "constant_value": 2.28824561,
+          "distance": 0.05795787
+        },
+        {
+          "constant": "cbrt(12)",
+          "constant_value": 2.28942849,
+          "distance": 0.05914074
+        },
+        {
+          "constant": "cbrt(10)",
+          "constant_value": 2.15443469,
+          "distance": 0.07585305
+        },
+        {
+          "constant": "(sqrt(4)+sqrt(7))/2",
+          "constant_value": 2.32287566,
+          "distance": 0.09258791
+        }
+      ]
+    },
+    "verses": {
+      "observed": 2.92834616,
+      "top10_nearest": [
+        {
+          "constant": "(sqrt(8)+sqrt(9))/2",
+          "constant_value": 2.91421356,
+          "distance": 0.0141326
+        },
+        {
+          "constant": "(sqrt(7)+sqrt(10))/2",
+          "constant_value": 2.90401449,
+          "distance": 0.02433167
+        },
+        {
+          "constant": "(sqrt(8)+sqrt(10))/2",
+          "constant_value": 2.99535239,
+          "distance": 0.06700623
+        },
+        {
+          "constant": "(sqrt(1)+sqrt(4))/1",
+          "constant_value": 3.0,
+          "distance": 0.07165384
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(2))/1",
+          "constant_value": 2.82842712,
+          "distance": 0.09991903
+        },
+        {
+          "constant": "(sqrt(7)+sqrt(9))/2",
+          "constant_value": 2.82287566,
+          "distance": 0.1054705
+        },
+        {
+          "constant": "(sqrt(6)+sqrt(10))/2",
+          "constant_value": 2.8058837,
+          "distance": 0.12246246
+        },
+        {
+          "constant": "(sqrt(9)+sqrt(10))/2",
+          "constant_value": 3.08113883,
+          "distance": 0.15279267
+        },
+        {
+          "constant": "(sqrt(7)+sqrt(8))/2",
+          "constant_value": 2.73708922,
+          "distance": 0.19125694
+        },
+        {
+          "constant": "(sqrt(1)+sqrt(3))/1",
+          "constant_value": 2.73205081,
+          "distance": 0.19629535
+        }
+      ]
+    },
+    "chapters": {
+      "observed": 3.57307692,
+      "top10_nearest": [
+        {
+          "constant": "sqrt(13)",
+          "constant_value": 3.60555128,
+          "distance": 0.03247435
+        },
+        {
+          "constant": "(sqrt(1)+sqrt(7))/1",
+          "constant_value": 3.64575131,
+          "distance": 0.07267439
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(5))/1",
+          "constant_value": 3.65028154,
+          "distance": 0.07720462
+        },
+        {
+          "constant": "(sqrt(3)+sqrt(3))/1",
+          "constant_value": 3.46410162,
+          "distance": 0.10897531
+        },
+        {
+          "constant": "(sqrt(1)+sqrt(6))/1",
+          "constant_value": 3.44948974,
+          "distance": 0.12358718
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(4))/1",
+          "constant_value": 3.41421356,
+          "distance": 0.15886336
+        },
+        {
+          "constant": "(sqrt(3)+sqrt(4))/1",
+          "constant_value": 3.73205081,
+          "distance": 0.15897388
+        },
+        {
+          "constant": "sqrt(14)",
+          "constant_value": 3.74165739,
+          "distance": 0.16858046
+        },
+        {
+          "constant": "(sqrt(1)+sqrt(8))/1",
+          "constant_value": 3.82842712,
+          "distance": 0.2553502
+        },
+        {
+          "constant": "sqrt(11)",
+          "constant_value": 3.31662479,
+          "distance": 0.25645213
+        }
+      ]
+    },
+    "books": {
+      "observed": 1.44444444,
+      "top10_nearest": [
+        {
+          "constant": "cbrt(3)",
+          "constant_value": 1.44224957,
+          "distance": 0.00219487
+        },
+        {
+          "constant": "(sqrt(7)+sqrt(10))/4",
+          "constant_value": 1.45200724,
+          "distance": 0.0075628
+        },
+        {
+          "constant": "(sqrt(8)+sqrt(9))/4",
+          "constant_value": 1.45710678,
+          "distance": 0.01266234
+        },
+        {
+          "constant": "(sqrt(3)+sqrt(7))/3",
+          "constant_value": 1.45926737,
+          "distance": 0.01482293
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(9))/3",
+          "constant_value": 1.47140452,
+          "distance": 0.02696008
+        },
+        {
+          "constant": "(sqrt(2)+sqrt(2))/2",
+          "constant_value": 1.41421356,
+          "distance": 0.03023088
+        },
+        {
+          "constant": "(sqrt(4)+sqrt(5))/3",
+          "constant_value": 1.41202266,
+          "distance": 0.03242179
+        },
+        {
+          "constant": "(sqrt(7)+sqrt(9))/4",
+          "constant_value": 1.41143783,
+          "distance": 0.03300662
+        },
+        {
+          "constant": "(sqrt(4)+sqrt(6))/3",
+          "constant_value": 1.48316325,
+          "distance": 0.0387188
+        },
+        {
+          "constant": "(sqrt(6)+sqrt(10))/4",
+          "constant_value": 1.40294185,
+          "distance": 0.04150259
+        }
+      ]
+    }
+  }
+}

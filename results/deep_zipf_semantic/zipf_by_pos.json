@@ -1,0 +1,674 @@
+{
+  "by_book": [
+    {
+      "book": "Genesis",
+      "book_num": 1,
+      "verb": {
+        "s": 0.906262,
+        "r2": 0.987022,
+        "n_types": 444,
+        "n_tokens": 4613
+      },
+      "noun": {
+        "s": 0.709987,
+        "r2": 0.915417,
+        "n_types": 1070,
+        "n_tokens": 7369
+      },
+      "delta_verb_noun": 0.196275
+    },
+    {
+      "book": "Exodus",
+      "book_num": 2,
+      "verb": {
+        "s": 0.825873,
+        "r2": 0.929661,
+        "n_types": 404,
+        "n_tokens": 3427
+      },
+      "noun": {
+        "s": 0.740005,
+        "r2": 0.951277,
+        "n_types": 755,
+        "n_tokens": 6756
+      },
+      "delta_verb_noun": 0.085868
+    },
+    {
+      "book": "Leviticus",
+      "book_num": 3,
+      "verb": {
+        "s": 0.681488,
+        "r2": 0.890335,
+        "n_types": 279,
+        "n_tokens": 2342
+      },
+      "noun": {
+        "s": 0.748254,
+        "r2": 0.957315,
+        "n_types": 511,
+        "n_tokens": 4588
+      },
+      "delta_verb_noun": -0.066766
+    },
+    {
+      "book": "Numbers",
+      "book_num": 4,
+      "verb": {
+        "s": 0.767027,
+        "r2": 0.951002,
+        "n_types": 327,
+        "n_tokens": 2915
+      },
+      "noun": {
+        "s": 0.80542,
+        "r2": 0.977208,
+        "n_types": 912,
+        "n_tokens": 7590
+      },
+      "delta_verb_noun": -0.038393
+    },
+    {
+      "book": "Deuteronomy",
+      "book_num": 5,
+      "verb": {
+        "s": 0.718562,
+        "r2": 0.898457,
+        "n_types": 423,
+        "n_tokens": 2929
+      },
+      "noun": {
+        "s": 0.949622,
+        "r2": 0.986686,
+        "n_types": 757,
+        "n_tokens": 4642
+      },
+      "delta_verb_noun": -0.23106
+    },
+    {
+      "book": "Joshua",
+      "book_num": 6,
+      "verb": {
+        "s": 0.754928,
+        "r2": 0.944988,
+        "n_types": 225,
+        "n_tokens": 1785
+      },
+      "noun": {
+        "s": 0.731125,
+        "r2": 0.887227,
+        "n_types": 825,
+        "n_tokens": 4699
+      },
+      "delta_verb_noun": 0.023803
+    },
+    {
+      "book": "Judges",
+      "book_num": 7,
+      "verb": {
+        "s": 0.841856,
+        "r2": 0.979424,
+        "n_types": 331,
+        "n_tokens": 2354
+      },
+      "noun": {
+        "s": 0.727971,
+        "r2": 0.884278,
+        "n_types": 669,
+        "n_tokens": 3842
+      },
+      "delta_verb_noun": 0.113885
+    },
+    {
+      "book": "Ruth",
+      "book_num": 8,
+      "verb": {
+        "s": 0.81825,
+        "r2": 0.962164,
+        "n_types": 103,
+        "n_tokens": 388
+      },
+      "noun": {
+        "s": 0.608204,
+        "r2": 0.867084,
+        "n_types": 101,
+        "n_tokens": 352
+      },
+      "delta_verb_noun": 0.210046
+    },
+    {
+      "book": "1 Samuel",
+      "book_num": 9,
+      "verb": {
+        "s": 0.903371,
+        "r2": 0.975167,
+        "n_types": 370,
+        "n_tokens": 3221
+      },
+      "noun": {
+        "s": 0.76524,
+        "r2": 0.88878,
+        "n_types": 678,
+        "n_tokens": 4935
+      },
+      "delta_verb_noun": 0.138131
+    },
+    {
+      "book": "2 Samuel",
+      "book_num": 10,
+      "verb": {
+        "s": 0.909274,
+        "r2": 0.987915,
+        "n_types": 343,
+        "n_tokens": 2529
+      },
+      "noun": {
+        "s": 0.769271,
+        "r2": 0.91612,
+        "n_types": 730,
+        "n_tokens": 4444
+      },
+      "delta_verb_noun": 0.140003
+    },
+    {
+      "book": "1 Kings",
+      "book_num": 11,
+      "verb": {
+        "s": 0.847616,
+        "r2": 0.982935,
+        "n_types": 313,
+        "n_tokens": 2815
+      },
+      "noun": {
+        "s": 0.743352,
+        "r2": 0.925998,
+        "n_types": 769,
+        "n_tokens": 5381
+      },
+      "delta_verb_noun": 0.104264
+    },
+    {
+      "book": "2 Kings",
+      "book_num": 12,
+      "verb": {
+        "s": 0.859775,
+        "r2": 0.980863,
+        "n_types": 321,
+        "n_tokens": 2788
+      },
+      "noun": {
+        "s": 0.778621,
+        "r2": 0.96272,
+        "n_types": 750,
+        "n_tokens": 5199
+      },
+      "delta_verb_noun": 0.081154
+    },
+    {
+      "book": "1 Chronicles",
+      "book_num": 13,
+      "verb": {
+        "s": 0.777354,
+        "r2": 0.954545,
+        "n_types": 251,
+        "n_tokens": 1356
+      },
+      "noun": {
+        "s": 0.919176,
+        "r2": 0.977101,
+        "n_types": 1571,
+        "n_tokens": 6171
+      },
+      "delta_verb_noun": -0.141822
+    },
+    {
+      "book": "2 Chronicles",
+      "book_num": 14,
+      "verb": {
+        "s": 0.745479,
+        "r2": 0.9224,
+        "n_types": 324,
+        "n_tokens": 2585
+      },
+      "noun": {
+        "s": 0.759348,
+        "r2": 0.927436,
+        "n_types": 905,
+        "n_tokens": 6229
+      },
+      "delta_verb_noun": -0.013869
+    },
+    {
+      "book": "Ezra",
+      "book_num": 15,
+      "verb": {
+        "s": 0.565808,
+        "r2": 0.860422,
+        "n_types": 184,
+        "n_tokens": 510
+      },
+      "noun": {
+        "s": 0.90535,
+        "r2": 0.920149,
+        "n_types": 580,
+        "n_tokens": 1796
+      },
+      "delta_verb_noun": -0.339542
+    },
+    {
+      "book": "Nehemiah",
+      "book_num": 16,
+      "verb": {
+        "s": 0.693284,
+        "r2": 0.863418,
+        "n_types": 199,
+        "n_tokens": 873
+      },
+      "noun": {
+        "s": 0.849812,
+        "r2": 0.9465,
+        "n_types": 713,
+        "n_tokens": 2557
+      },
+      "delta_verb_noun": -0.156528
+    },
+    {
+      "book": "Esther",
+      "book_num": 17,
+      "verb": {
+        "s": 0.739357,
+        "r2": 0.948091,
+        "n_types": 128,
+        "n_tokens": 606
+      },
+      "noun": {
+        "s": 0.875583,
+        "r2": 0.960898,
+        "n_types": 240,
+        "n_tokens": 1429
+      },
+      "delta_verb_noun": -0.136226
+    },
+    {
+      "book": "Job",
+      "book_num": 18,
+      "verb": {
+        "s": 0.657669,
+        "r2": 0.956441,
+        "n_types": 562,
+        "n_tokens": 2167
+      },
+      "noun": {
+        "s": 0.611903,
+        "r2": 0.902809,
+        "n_types": 744,
+        "n_tokens": 2409
+      },
+      "delta_verb_noun": 0.045766
+    },
+    {
+      "book": "Psalms",
+      "book_num": 19,
+      "verb": {
+        "s": 0.586792,
+        "r2": 0.844637,
+        "n_types": 738,
+        "n_tokens": 4602
+      },
+      "noun": {
+        "s": 0.93044,
+        "r2": 0.9938,
+        "n_types": 1071,
+        "n_tokens": 6542
+      },
+      "delta_verb_noun": -0.343648
+    },
+    {
+      "book": "Proverbs",
+      "book_num": 20,
+      "verb": {
+        "s": 0.528558,
+        "r2": 0.845676,
+        "n_types": 458,
+        "n_tokens": 1763
+      },
+      "noun": {
+        "s": 0.638577,
+        "r2": 0.930276,
+        "n_types": 648,
+        "n_tokens": 2691
+      },
+      "delta_verb_noun": -0.110019
+    },
+    {
+      "book": "Ecclesiastes",
+      "book_num": 21,
+      "verb": {
+        "s": 0.713946,
+        "r2": 0.905429,
+        "n_types": 192,
+        "n_tokens": 689
+      },
+      "noun": {
+        "s": 0.765056,
+        "r2": 0.967548,
+        "n_types": 259,
+        "n_tokens": 977
+      },
+      "delta_verb_noun": -0.05111
+    },
+    {
+      "book": "Song of Songs",
+      "book_num": 22,
+      "verb": {
+        "s": 0.453823,
+        "r2": 0.861927,
+        "n_types": 114,
+        "n_tokens": 228
+      },
+      "noun": {
+        "s": 0.487124,
+        "r2": 0.89275,
+        "n_types": 238,
+        "n_tokens": 436
+      },
+      "delta_verb_noun": -0.033301
+    },
+    {
+      "book": "Isaiah",
+      "book_num": 23,
+      "verb": {
+        "s": 0.738508,
+        "r2": 0.97611,
+        "n_types": 749,
+        "n_tokens": 4397
+      },
+      "noun": {
+        "s": 0.811975,
+        "r2": 0.990685,
+        "n_types": 1411,
+        "n_tokens": 6262
+      },
+      "delta_verb_noun": -0.073467
+    },
+    {
+      "book": "Jeremiah",
+      "book_num": 24,
+      "verb": {
+        "s": 0.831712,
+        "r2": 0.985501,
+        "n_types": 540,
+        "n_tokens": 4907
+      },
+      "noun": {
+        "s": 0.821222,
+        "r2": 0.974253,
+        "n_types": 1069,
+        "n_tokens": 8432
+      },
+      "delta_verb_noun": 0.01049
+    },
+    {
+      "book": "Lamentations",
+      "book_num": 25,
+      "verb": {
+        "s": 0.599602,
+        "r2": 0.978074,
+        "n_types": 199,
+        "n_tokens": 438
+      },
+      "noun": {
+        "s": 0.743052,
+        "r2": 0.963021,
+        "n_types": 225,
+        "n_tokens": 505
+      },
+      "delta_verb_noun": -0.14345
+    },
+    {
+      "book": "Ezekiel",
+      "book_num": 26,
+      "verb": {
+        "s": 0.827429,
+        "r2": 0.944898,
+        "n_types": 448,
+        "n_tokens": 3925
+      },
+      "noun": {
+        "s": 0.691308,
+        "r2": 0.905149,
+        "n_types": 945,
+        "n_tokens": 6880
+      },
+      "delta_verb_noun": 0.136121
+    },
+    {
+      "book": "Daniel",
+      "book_num": 27,
+      "verb": {
+        "s": 0.640907,
+        "r2": 0.94488,
+        "n_types": 315,
+        "n_tokens": 1370
+      },
+      "noun": {
+        "s": 0.626497,
+        "r2": 0.954529,
+        "n_types": 473,
+        "n_tokens": 1619
+      },
+      "delta_verb_noun": 0.01441
+    },
+    {
+      "book": "Hosea",
+      "book_num": 28,
+      "verb": {
+        "s": 0.608607,
+        "r2": 0.950792,
+        "n_types": 231,
+        "n_tokens": 588
+      },
+      "noun": {
+        "s": 0.712012,
+        "r2": 0.936316,
+        "n_types": 325,
+        "n_tokens": 817
+      },
+      "delta_verb_noun": -0.103405
+    },
+    {
+      "book": "Joel",
+      "book_num": 29,
+      "verb": {
+        "s": 0.532976,
+        "r2": 0.915395,
+        "n_types": 109,
+        "n_tokens": 232
+      },
+      "noun": {
+        "s": 0.714772,
+        "r2": 0.979838,
+        "n_types": 182,
+        "n_tokens": 393
+      },
+      "delta_verb_noun": -0.181796
+    },
+    {
+      "book": "Amos",
+      "book_num": 30,
+      "verb": {
+        "s": 0.782379,
+        "r2": 0.916042,
+        "n_types": 183,
+        "n_tokens": 481
+      },
+      "noun": {
+        "s": 0.74115,
+        "r2": 0.968408,
+        "n_types": 317,
+        "n_tokens": 804
+      },
+      "delta_verb_noun": 0.041229
+    },
+    {
+      "book": "Obadiah",
+      "book_num": 31,
+      "verb": {
+        "s": 0.607737,
+        "r2": 0.956993,
+        "n_types": 38,
+        "n_tokens": 60
+      },
+      "noun": {
+        "s": 0.67316,
+        "r2": 0.963846,
+        "n_types": 67,
+        "n_tokens": 118
+      },
+      "delta_verb_noun": -0.065423
+    },
+    {
+      "book": "Jonah",
+      "book_num": 32,
+      "verb": {
+        "s": 0.72278,
+        "r2": 0.96406,
+        "n_types": 84,
+        "n_tokens": 190
+      },
+      "noun": {
+        "s": 0.778577,
+        "r2": 0.973675,
+        "n_types": 88,
+        "n_tokens": 220
+      },
+      "delta_verb_noun": -0.055797
+    },
+    {
+      "book": "Micah",
+      "book_num": 33,
+      "verb": {
+        "s": 0.578064,
+        "r2": 0.961477,
+        "n_types": 179,
+        "n_tokens": 355
+      },
+      "noun": {
+        "s": 0.70364,
+        "r2": 0.949202,
+        "n_types": 264,
+        "n_tokens": 527
+      },
+      "delta_verb_noun": -0.125576
+    },
+    {
+      "book": "Nahum",
+      "book_num": 34,
+      "verb": {
+        "s": 0.388964,
+        "r2": 0.87779,
+        "n_types": 110,
+        "n_tokens": 150
+      },
+      "noun": {
+        "s": 0.575382,
+        "r2": 0.913932,
+        "n_types": 160,
+        "n_tokens": 225
+      },
+      "delta_verb_noun": -0.186418
+    },
+    {
+      "book": "Habakkuk",
+      "book_num": 35,
+      "verb": {
+        "s": 0.4347,
+        "r2": 0.906755,
+        "n_types": 133,
+        "n_tokens": 181
+      },
+      "noun": {
+        "s": 0.59137,
+        "r2": 0.94562,
+        "n_types": 155,
+        "n_tokens": 231
+      },
+      "delta_verb_noun": -0.15667
+    },
+    {
+      "book": "Zephaniah",
+      "book_num": 36,
+      "verb": {
+        "s": 0.586545,
+        "r2": 0.96084,
+        "n_types": 105,
+        "n_tokens": 166
+      },
+      "noun": {
+        "s": 0.807488,
+        "r2": 0.954766,
+        "n_types": 162,
+        "n_tokens": 328
+      },
+      "delta_verb_noun": -0.220943
+    },
+    {
+      "book": "Haggai",
+      "book_num": 37,
+      "verb": {
+        "s": 1.067797,
+        "r2": 0.957355,
+        "n_types": 52,
+        "n_tokens": 114
+      },
+      "noun": {
+        "s": 0.773297,
+        "r2": 0.95569,
+        "n_types": 92,
+        "n_tokens": 272
+      },
+      "delta_verb_noun": 0.2945
+    },
+    {
+      "book": "Zechariah",
+      "book_num": 38,
+      "verb": {
+        "s": 0.956001,
+        "r2": 0.974822,
+        "n_types": 211,
+        "n_tokens": 763
+      },
+      "noun": {
+        "s": 0.848021,
+        "r2": 0.975133,
+        "n_types": 354,
+        "n_tokens": 1220
+      },
+      "delta_verb_noun": 0.10798
+    },
+    {
+      "book": "Malachi",
+      "book_num": 39,
+      "verb": {
+        "s": 0.928941,
+        "r2": 0.943055,
+        "n_types": 101,
+        "n_tokens": 230
+      },
+      "noun": {
+        "s": 0.983759,
+        "r2": 0.962487,
+        "n_types": 128,
+        "n_tokens": 291
+      },
+      "delta_verb_noun": -0.054818
+    }
+  ],
+  "summary": {
+    "verb_mean_s": 0.7213,
+    "noun_mean_s": 0.7543,
+    "more_anomalous": "verbs",
+    "mannwhitney_U": 667.0,
+    "mannwhitney_p": 0.35269
+  }
+}

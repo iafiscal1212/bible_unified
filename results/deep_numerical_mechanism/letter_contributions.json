@@ -1,0 +1,338 @@
+{
+  "ot_total_gematria": 78482867,
+  "nt_total_isopsephy": 79203470,
+  "ratio": 0.99090188,
+  "ot_by_letter": [
+    {
+      "char": "ת",
+      "freq": 63583,
+      "value": 400,
+      "contribution": 25433200
+    },
+    {
+      "char": "ש",
+      "freq": 58451,
+      "value": 300,
+      "contribution": 17535300
+    },
+    {
+      "char": "ר",
+      "freq": 68365,
+      "value": 200,
+      "contribution": 13673000
+    },
+    {
+      "char": "ע",
+      "freq": 45029,
+      "value": 70,
+      "contribution": 3152030
+    },
+    {
+      "char": "ל",
+      "freq": 88638,
+      "value": 30,
+      "contribution": 2659140
+    },
+    {
+      "char": "מ",
+      "freq": 57893,
+      "value": 40,
+      "contribution": 2315720
+    },
+    {
+      "char": "נ",
+      "freq": 40100,
+      "value": 50,
+      "contribution": 2005000
+    },
+    {
+      "char": "ם",
+      "freq": 41444,
+      "value": 40,
+      "contribution": 1657760
+    },
+    {
+      "char": "ק",
+      "freq": 16339,
+      "value": 100,
+      "contribution": 1633900
+    },
+    {
+      "char": "י",
+      "freq": 138790,
+      "value": 10,
+      "contribution": 1387900
+    },
+    {
+      "char": "פ",
+      "freq": 15801,
+      "value": 80,
+      "contribution": 1264080
+    },
+    {
+      "char": "צ",
+      "freq": 11775,
+      "value": 90,
+      "contribution": 1059750
+    },
+    {
+      "char": "ו",
+      "freq": 130516,
+      "value": 6,
+      "contribution": 783096
+    },
+    {
+      "char": "ן",
+      "freq": 15294,
+      "value": 50,
+      "contribution": 764700
+    },
+    {
+      "char": "כ",
+      "freq": 33601,
+      "value": 20,
+      "contribution": 672020
+    },
+    {
+      "char": "ה",
+      "freq": 102344,
+      "value": 5,
+      "contribution": 511720
+    },
+    {
+      "char": "ס",
+      "freq": 7691,
+      "value": 60,
+      "contribution": 461460
+    },
+    {
+      "char": "ץ",
+      "freq": 3290,
+      "value": 90,
+      "contribution": 296100
+    },
+    {
+      "char": "ך",
+      "freq": 14069,
+      "value": 20,
+      "contribution": 281380
+    },
+    {
+      "char": "ח",
+      "freq": 27743,
+      "value": 8,
+      "contribution": 221944
+    },
+    {
+      "char": "ף",
+      "freq": 2561,
+      "value": 80,
+      "contribution": 204880
+    },
+    {
+      "char": "ב",
+      "freq": 65523,
+      "value": 2,
+      "contribution": 131046
+    },
+    {
+      "char": "ד",
+      "freq": 32543,
+      "value": 4,
+      "contribution": 130172
+    },
+    {
+      "char": "א",
+      "freq": 96045,
+      "value": 1,
+      "contribution": 96045
+    },
+    {
+      "char": "ז",
+      "freq": 9135,
+      "value": 7,
+      "contribution": 63945
+    },
+    {
+      "char": "ט",
+      "freq": 6352,
+      "value": 9,
+      "contribution": 57168
+    },
+    {
+      "char": "ג",
+      "freq": 10137,
+      "value": 3,
+      "contribution": 30411
+    }
+  ],
+  "nt_by_letter": [
+    {
+      "char": "ω",
+      "freq": 21327,
+      "value": 800,
+      "contribution": 17061600
+    },
+    {
+      "char": "υ",
+      "freq": 39549,
+      "value": 400,
+      "contribution": 15819600
+    },
+    {
+      "char": "τ",
+      "freq": 51039,
+      "value": 300,
+      "contribution": 15311700
+    },
+    {
+      "char": "ς",
+      "freq": 27040,
+      "value": 200,
+      "contribution": 5408000
+    },
+    {
+      "char": "σ",
+      "freq": 24527,
+      "value": 200,
+      "contribution": 4905400
+    },
+    {
+      "char": "ο",
+      "freq": 66248,
+      "value": 70,
+      "contribution": 4637360
+    },
+    {
+      "char": "χ",
+      "freq": 5225,
+      "value": 600,
+      "contribution": 3135000
+    },
+    {
+      "char": "ν",
+      "freq": 56194,
+      "value": 50,
+      "contribution": 2809700
+    },
+    {
+      "char": "ρ",
+      "freq": 23075,
+      "value": 100,
+      "contribution": 2307500
+    },
+    {
+      "char": "φ",
+      "freq": 4017,
+      "value": 500,
+      "contribution": 2008500
+    },
+    {
+      "char": "π",
+      "freq": 21509,
+      "value": 80,
+      "contribution": 1720720
+    },
+    {
+      "char": "μ",
+      "freq": 19662,
+      "value": 40,
+      "contribution": 786480
+    },
+    {
+      "char": "ψ",
+      "freq": 942,
+      "value": 700,
+      "contribution": 659400
+    },
+    {
+      "char": "ι",
+      "freq": 64616,
+      "value": 10,
+      "contribution": 646160
+    },
+    {
+      "char": "λ",
+      "freq": 18341,
+      "value": 30,
+      "contribution": 550230
+    },
+    {
+      "char": "κ",
+      "freq": 23864,
+      "value": 20,
+      "contribution": 477280
+    },
+    {
+      "char": "ε",
+      "freq": 67043,
+      "value": 5,
+      "contribution": 335215
+    },
+    {
+      "char": "η",
+      "freq": 26904,
+      "value": 8,
+      "contribution": 215232
+    },
+    {
+      "char": "ξ",
+      "freq": 2223,
+      "value": 60,
+      "contribution": 133380
+    },
+    {
+      "char": "θ",
+      "freq": 10754,
+      "value": 9,
+      "contribution": 96786
+    },
+    {
+      "char": "α",
+      "freq": 75917,
+      "value": 1,
+      "contribution": 75917
+    },
+    {
+      "char": "δ",
+      "freq": 12735,
+      "value": 4,
+      "contribution": 50940
+    },
+    {
+      "char": "γ",
+      "freq": 11120,
+      "value": 3,
+      "contribution": 33360
+    },
+    {
+      "char": "ζ",
+      "freq": 1568,
+      "value": 7,
+      "contribution": 10976
+    },
+    {
+      "char": "β",
+      "freq": 3517,
+      "value": 2,
+      "contribution": 7034
+    }
+  ],
+  "concentration": {
+    "ot_top3_pct": 72.17,
+    "nt_top3_pct": 60.85,
+    "ot_top3_letters": [
+      "ת",
+      "ש",
+      "ר"
+    ],
+    "nt_top3_letters": [
+      "ω",
+      "υ",
+      "τ"
+    ],
+    "equilibrium_type": "concentrated (few heavy letters)",
+    "ot_gini": 0.7517,
+    "nt_gini": 0.7029
+  }
+}

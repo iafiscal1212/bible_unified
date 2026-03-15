@@ -1,0 +1,320 @@
+{
+  "ot_total_letters": 1203052,
+  "nt_total_letters": 678956,
+  "ot_distribution": {
+    "י": {
+      "freq": 138790,
+      "proportion": 0.115365,
+      "value": 10,
+      "weighted_proportion": 0.017684
+    },
+    "ו": {
+      "freq": 130516,
+      "proportion": 0.108487,
+      "value": 6,
+      "weighted_proportion": 0.009978
+    },
+    "ה": {
+      "freq": 102344,
+      "proportion": 0.08507,
+      "value": 5,
+      "weighted_proportion": 0.00652
+    },
+    "א": {
+      "freq": 96045,
+      "proportion": 0.079834,
+      "value": 1,
+      "weighted_proportion": 0.001224
+    },
+    "ל": {
+      "freq": 88638,
+      "proportion": 0.073678,
+      "value": 30,
+      "weighted_proportion": 0.033882
+    },
+    "ר": {
+      "freq": 68365,
+      "proportion": 0.056826,
+      "value": 200,
+      "weighted_proportion": 0.174216
+    },
+    "ב": {
+      "freq": 65523,
+      "proportion": 0.054464,
+      "value": 2,
+      "weighted_proportion": 0.00167
+    },
+    "ת": {
+      "freq": 63583,
+      "proportion": 0.052851,
+      "value": 400,
+      "weighted_proportion": 0.324061
+    },
+    "ש": {
+      "freq": 58451,
+      "proportion": 0.048586,
+      "value": 300,
+      "weighted_proportion": 0.223428
+    },
+    "מ": {
+      "freq": 57893,
+      "proportion": 0.048122,
+      "value": 40,
+      "weighted_proportion": 0.029506
+    },
+    "ע": {
+      "freq": 45029,
+      "proportion": 0.037429,
+      "value": 70,
+      "weighted_proportion": 0.040162
+    },
+    "ם": {
+      "freq": 41444,
+      "proportion": 0.034449,
+      "value": 40,
+      "weighted_proportion": 0.021123
+    },
+    "נ": {
+      "freq": 40100,
+      "proportion": 0.033332,
+      "value": 50,
+      "weighted_proportion": 0.025547
+    },
+    "כ": {
+      "freq": 33601,
+      "proportion": 0.02793,
+      "value": 20,
+      "weighted_proportion": 0.008563
+    },
+    "ד": {
+      "freq": 32543,
+      "proportion": 0.02705,
+      "value": 4,
+      "weighted_proportion": 0.001659
+    },
+    "ח": {
+      "freq": 27743,
+      "proportion": 0.023061,
+      "value": 8,
+      "weighted_proportion": 0.002828
+    },
+    "ק": {
+      "freq": 16339,
+      "proportion": 0.013581,
+      "value": 100,
+      "weighted_proportion": 0.020819
+    },
+    "פ": {
+      "freq": 15801,
+      "proportion": 0.013134,
+      "value": 80,
+      "weighted_proportion": 0.016106
+    },
+    "ן": {
+      "freq": 15294,
+      "proportion": 0.012713,
+      "value": 50,
+      "weighted_proportion": 0.009744
+    },
+    "ך": {
+      "freq": 14069,
+      "proportion": 0.011694,
+      "value": 20,
+      "weighted_proportion": 0.003585
+    },
+    "צ": {
+      "freq": 11775,
+      "proportion": 0.009788,
+      "value": 90,
+      "weighted_proportion": 0.013503
+    },
+    "ג": {
+      "freq": 10137,
+      "proportion": 0.008426,
+      "value": 3,
+      "weighted_proportion": 0.000387
+    },
+    "ז": {
+      "freq": 9135,
+      "proportion": 0.007593,
+      "value": 7,
+      "weighted_proportion": 0.000815
+    },
+    "ס": {
+      "freq": 7691,
+      "proportion": 0.006393,
+      "value": 60,
+      "weighted_proportion": 0.00588
+    },
+    "ט": {
+      "freq": 6352,
+      "proportion": 0.00528,
+      "value": 9,
+      "weighted_proportion": 0.000728
+    },
+    "ץ": {
+      "freq": 3290,
+      "proportion": 0.002735,
+      "value": 90,
+      "weighted_proportion": 0.003773
+    },
+    "ף": {
+      "freq": 2561,
+      "proportion": 0.002129,
+      "value": 80,
+      "weighted_proportion": 0.002611
+    }
+  },
+  "nt_distribution": {
+    "α": {
+      "freq": 75917,
+      "proportion": 0.111814,
+      "value": 1,
+      "weighted_proportion": 0.000959
+    },
+    "ε": {
+      "freq": 67043,
+      "proportion": 0.098744,
+      "value": 5,
+      "weighted_proportion": 0.004232
+    },
+    "ο": {
+      "freq": 66248,
+      "proportion": 0.097573,
+      "value": 70,
+      "weighted_proportion": 0.05855
+    },
+    "ι": {
+      "freq": 64616,
+      "proportion": 0.09517,
+      "value": 10,
+      "weighted_proportion": 0.008158
+    },
+    "ν": {
+      "freq": 56194,
+      "proportion": 0.082765,
+      "value": 50,
+      "weighted_proportion": 0.035474
+    },
+    "τ": {
+      "freq": 51039,
+      "proportion": 0.075173,
+      "value": 300,
+      "weighted_proportion": 0.193321
+    },
+    "υ": {
+      "freq": 39549,
+      "proportion": 0.05825,
+      "value": 400,
+      "weighted_proportion": 0.199734
+    },
+    "ς": {
+      "freq": 27040,
+      "proportion": 0.039826,
+      "value": 200,
+      "weighted_proportion": 0.06828
+    },
+    "η": {
+      "freq": 26904,
+      "proportion": 0.039626,
+      "value": 8,
+      "weighted_proportion": 0.002717
+    },
+    "σ": {
+      "freq": 24527,
+      "proportion": 0.036125,
+      "value": 200,
+      "weighted_proportion": 0.061934
+    },
+    "κ": {
+      "freq": 23864,
+      "proportion": 0.035148,
+      "value": 20,
+      "weighted_proportion": 0.006026
+    },
+    "ρ": {
+      "freq": 23075,
+      "proportion": 0.033986,
+      "value": 100,
+      "weighted_proportion": 0.029134
+    },
+    "π": {
+      "freq": 21509,
+      "proportion": 0.03168,
+      "value": 80,
+      "weighted_proportion": 0.021725
+    },
+    "ω": {
+      "freq": 21327,
+      "proportion": 0.031411,
+      "value": 800,
+      "weighted_proportion": 0.215415
+    },
+    "μ": {
+      "freq": 19662,
+      "proportion": 0.028959,
+      "value": 40,
+      "weighted_proportion": 0.00993
+    },
+    "λ": {
+      "freq": 18341,
+      "proportion": 0.027014,
+      "value": 30,
+      "weighted_proportion": 0.006947
+    },
+    "δ": {
+      "freq": 12735,
+      "proportion": 0.018757,
+      "value": 4,
+      "weighted_proportion": 0.000643
+    },
+    "γ": {
+      "freq": 11120,
+      "proportion": 0.016378,
+      "value": 3,
+      "weighted_proportion": 0.000421
+    },
+    "θ": {
+      "freq": 10754,
+      "proportion": 0.015839,
+      "value": 9,
+      "weighted_proportion": 0.001222
+    },
+    "χ": {
+      "freq": 5225,
+      "proportion": 0.007696,
+      "value": 600,
+      "weighted_proportion": 0.039582
+    },
+    "φ": {
+      "freq": 4017,
+      "proportion": 0.005916,
+      "value": 500,
+      "weighted_proportion": 0.025359
+    },
+    "β": {
+      "freq": 3517,
+      "proportion": 0.00518,
+      "value": 2,
+      "weighted_proportion": 8.9e-05
+    },
+    "ξ": {
+      "freq": 2223,
+      "proportion": 0.003274,
+      "value": 60,
+      "weighted_proportion": 0.001684
+    },
+    "ζ": {
+      "freq": 1568,
+      "proportion": 0.002309,
+      "value": 7,
+      "weighted_proportion": 0.000139
+    },
+    "ψ": {
+      "freq": 942,
+      "proportion": 0.001387,
+      "value": 700,
+      "weighted_proportion": 0.008325
+    }
+  }
+}

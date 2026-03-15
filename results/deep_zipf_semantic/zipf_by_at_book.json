@@ -1,0 +1,353 @@
+[
+  {
+    "book": "Nahum",
+    "book_num": 34,
+    "n_tokens": 562,
+    "n_lemma_types": 356,
+    "zipf_s_lemma": 0.501125,
+    "zipf_r2": 0.943652,
+    "entropy_bits": 8.1369
+  },
+  {
+    "book": "Obadiah",
+    "book_num": 31,
+    "n_tokens": 292,
+    "n_lemma_types": 165,
+    "zipf_s_lemma": 0.529745,
+    "zipf_r2": 0.946915,
+    "entropy_bits": 6.9706
+  },
+  {
+    "book": "Habakkuk",
+    "book_num": 35,
+    "n_tokens": 672,
+    "n_lemma_types": 391,
+    "zipf_s_lemma": 0.576552,
+    "zipf_r2": 0.9628,
+    "entropy_bits": 8.1266
+  },
+  {
+    "book": "Proverbs",
+    "book_num": 20,
+    "n_tokens": 6984,
+    "n_lemma_types": 1367,
+    "zipf_s_lemma": 0.582741,
+    "zipf_r2": 0.884362,
+    "entropy_bits": 9.1528
+  },
+  {
+    "book": "Song of Songs",
+    "book_num": 22,
+    "n_tokens": 1255,
+    "n_lemma_types": 505,
+    "zipf_s_lemma": 0.586076,
+    "zipf_r2": 0.957318,
+    "entropy_bits": 8.3048
+  },
+  {
+    "book": "Micah",
+    "book_num": 33,
+    "n_tokens": 1400,
+    "n_lemma_types": 589,
+    "zipf_s_lemma": 0.59528,
+    "zipf_r2": 0.936319,
+    "entropy_bits": 8.3917
+  },
+  {
+    "book": "Joel",
+    "book_num": 29,
+    "n_tokens": 958,
+    "n_lemma_types": 395,
+    "zipf_s_lemma": 0.595484,
+    "zipf_r2": 0.956595,
+    "entropy_bits": 7.9454
+  },
+  {
+    "book": "Lamentations",
+    "book_num": 25,
+    "n_tokens": 1564,
+    "n_lemma_types": 589,
+    "zipf_s_lemma": 0.597213,
+    "zipf_r2": 0.918548,
+    "entropy_bits": 8.3592
+  },
+  {
+    "book": "Ecclesiastes",
+    "book_num": 21,
+    "n_tokens": 2999,
+    "n_lemma_types": 581,
+    "zipf_s_lemma": 0.613838,
+    "zipf_r2": 0.855569,
+    "entropy_bits": 7.8063
+  },
+  {
+    "book": "Ruth",
+    "book_num": 8,
+    "n_tokens": 1306,
+    "n_lemma_types": 321,
+    "zipf_s_lemma": 0.616228,
+    "zipf_r2": 0.9305,
+    "entropy_bits": 7.3866
+  },
+  {
+    "book": "Jonah",
+    "book_num": 32,
+    "n_tokens": 688,
+    "n_lemma_types": 250,
+    "zipf_s_lemma": 0.634239,
+    "zipf_r2": 0.938113,
+    "entropy_bits": 7.1307
+  },
+  {
+    "book": "Hosea",
+    "book_num": 28,
+    "n_tokens": 2386,
+    "n_lemma_types": 744,
+    "zipf_s_lemma": 0.634972,
+    "zipf_r2": 0.91638,
+    "entropy_bits": 8.4131
+  },
+  {
+    "book": "Haggai",
+    "book_num": 37,
+    "n_tokens": 601,
+    "n_lemma_types": 205,
+    "zipf_s_lemma": 0.640622,
+    "zipf_r2": 0.970146,
+    "entropy_bits": 6.925
+  },
+  {
+    "book": "Zephaniah",
+    "book_num": 36,
+    "n_tokens": 769,
+    "n_lemma_types": 368,
+    "zipf_s_lemma": 0.655228,
+    "zipf_r2": 0.920717,
+    "entropy_bits": 7.7382
+  },
+  {
+    "book": "Amos",
+    "book_num": 30,
+    "n_tokens": 2045,
+    "n_lemma_types": 654,
+    "zipf_s_lemma": 0.668567,
+    "zipf_r2": 0.950388,
+    "entropy_bits": 8.2543
+  },
+  {
+    "book": "Isaiah",
+    "book_num": 23,
+    "n_tokens": 16988,
+    "n_lemma_types": 2566,
+    "zipf_s_lemma": 0.670465,
+    "zipf_r2": 0.92536,
+    "entropy_bits": 9.4649
+  },
+  {
+    "book": "Daniel",
+    "book_num": 27,
+    "n_tokens": 6035,
+    "n_lemma_types": 1127,
+    "zipf_s_lemma": 0.671304,
+    "zipf_r2": 0.9705,
+    "entropy_bits": 8.8537
+  },
+  {
+    "book": "Ezekiel",
+    "book_num": 26,
+    "n_tokens": 18866,
+    "n_lemma_types": 1744,
+    "zipf_s_lemma": 0.674329,
+    "zipf_r2": 0.910847,
+    "entropy_bits": 8.6406
+  },
+  {
+    "book": "Malachi",
+    "book_num": 39,
+    "n_tokens": 876,
+    "n_lemma_types": 311,
+    "zipf_s_lemma": 0.675102,
+    "zipf_r2": 0.96183,
+    "entropy_bits": 7.383
+  },
+  {
+    "book": "2 Samuel",
+    "book_num": 10,
+    "n_tokens": 11130,
+    "n_lemma_types": 1351,
+    "zipf_s_lemma": 0.679514,
+    "zipf_r2": 0.887634,
+    "entropy_bits": 8.2887
+  },
+  {
+    "book": "Zechariah",
+    "book_num": 38,
+    "n_tokens": 3134,
+    "n_lemma_types": 733,
+    "zipf_s_lemma": 0.683408,
+    "zipf_r2": 0.936977,
+    "entropy_bits": 8.0866
+  },
+  {
+    "book": "Psalms",
+    "book_num": 19,
+    "n_tokens": 19657,
+    "n_lemma_types": 2260,
+    "zipf_s_lemma": 0.685429,
+    "zipf_r2": 0.954796,
+    "entropy_bits": 9.2319
+  },
+  {
+    "book": "2 Chronicles",
+    "book_num": 14,
+    "n_tokens": 13354,
+    "n_lemma_types": 1420,
+    "zipf_s_lemma": 0.686399,
+    "zipf_r2": 0.914042,
+    "entropy_bits": 8.4028
+  },
+  {
+    "book": "1 Samuel",
+    "book_num": 9,
+    "n_tokens": 13335,
+    "n_lemma_types": 1293,
+    "zipf_s_lemma": 0.688066,
+    "zipf_r2": 0.907599,
+    "entropy_bits": 8.1586
+  },
+  {
+    "book": "1 Kings",
+    "book_num": 11,
+    "n_tokens": 13186,
+    "n_lemma_types": 1325,
+    "zipf_s_lemma": 0.688422,
+    "zipf_r2": 0.914895,
+    "entropy_bits": 8.3063
+  },
+  {
+    "book": "Nehemiah",
+    "book_num": 16,
+    "n_tokens": 5336,
+    "n_lemma_types": 1098,
+    "zipf_s_lemma": 0.69101,
+    "zipf_r2": 0.96123,
+    "entropy_bits": 8.6164
+  },
+  {
+    "book": "Job",
+    "book_num": 18,
+    "n_tokens": 8399,
+    "n_lemma_types": 1719,
+    "zipf_s_lemma": 0.691728,
+    "zipf_r2": 0.975747,
+    "entropy_bits": 9.2321
+  },
+  {
+    "book": "Judges",
+    "book_num": 7,
+    "n_tokens": 9905,
+    "n_lemma_types": 1247,
+    "zipf_s_lemma": 0.702145,
+    "zipf_r2": 0.945243,
+    "entropy_bits": 8.3729
+  },
+  {
+    "book": "Jeremiah",
+    "book_num": 24,
+    "n_tokens": 21976,
+    "n_lemma_types": 1979,
+    "zipf_s_lemma": 0.702333,
+    "zipf_r2": 0.905728,
+    "entropy_bits": 8.5179
+  },
+  {
+    "book": "Numbers",
+    "book_num": 4,
+    "n_tokens": 16422,
+    "n_lemma_types": 1492,
+    "zipf_s_lemma": 0.707055,
+    "zipf_r2": 0.946786,
+    "entropy_bits": 8.41
+  },
+  {
+    "book": "2 Kings",
+    "book_num": 12,
+    "n_tokens": 12354,
+    "n_lemma_types": 1295,
+    "zipf_s_lemma": 0.711125,
+    "zipf_r2": 0.939245,
+    "entropy_bits": 8.2254
+  },
+  {
+    "book": "Ezra",
+    "book_num": 15,
+    "n_tokens": 3791,
+    "n_lemma_types": 1002,
+    "zipf_s_lemma": 0.712425,
+    "zipf_r2": 0.968778,
+    "entropy_bits": 8.7319
+  },
+  {
+    "book": "Esther",
+    "book_num": 17,
+    "n_tokens": 3057,
+    "n_lemma_types": 477,
+    "zipf_s_lemma": 0.714132,
+    "zipf_r2": 0.959961,
+    "entropy_bits": 7.4385
+  },
+  {
+    "book": "Genesis",
+    "book_num": 1,
+    "n_tokens": 20629,
+    "n_lemma_types": 1837,
+    "zipf_s_lemma": 0.718868,
+    "zipf_r2": 0.951513,
+    "entropy_bits": 8.5002
+  },
+  {
+    "book": "Joshua",
+    "book_num": 6,
+    "n_tokens": 10083,
+    "n_lemma_types": 1240,
+    "zipf_s_lemma": 0.722973,
+    "zipf_r2": 0.945224,
+    "entropy_bits": 8.2688
+  },
+  {
+    "book": "Deuteronomy",
+    "book_num": 5,
+    "n_tokens": 14320,
+    "n_lemma_types": 1477,
+    "zipf_s_lemma": 0.724673,
+    "zipf_r2": 0.917318,
+    "entropy_bits": 8.1994
+  },
+  {
+    "book": "Leviticus",
+    "book_num": 3,
+    "n_tokens": 11955,
+    "n_lemma_types": 967,
+    "zipf_s_lemma": 0.739585,
+    "zipf_r2": 0.959342,
+    "entropy_bits": 7.9699
+  },
+  {
+    "book": "Exodus",
+    "book_num": 2,
+    "n_tokens": 16726,
+    "n_lemma_types": 1440,
+    "zipf_s_lemma": 0.747452,
+    "zipf_r2": 0.951689,
+    "entropy_bits": 8.3636
+  },
+  {
+    "book": "1 Chronicles",
+    "book_num": 13,
+    "n_tokens": 10790,
+    "n_lemma_types": 2026,
+    "zipf_s_lemma": 0.817278,
+    "zipf_r2": 0.979473,
+    "entropy_bits": 8.9513
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "words": {
+    "observed": 2.23028774,
+    "bootstrap_mean": 2.3570362,
+    "bootstrap_std": 0.68784246,
+    "bootstrap_ci_95": [
+      1.35907028,
+      4.01649875
+    ],
+    "nearest_constant": "(sqrt(4)+sqrt(6))/2",
+    "nearest_value": 2.22474487,
+    "raw_distance": 0.00554287,
+    "p_value_raw": 0.0064,
+    "p_value_bonferroni": 1.0,
+    "significant_after_bonferroni": false
+  },
+  "verses": {
+    "observed": 2.92834616,
+    "bootstrap_mean": 3.08992416,
+    "bootstrap_std": 0.90646237,
+    "bootstrap_ci_95": [
+      1.77489726,
+      5.25421132
+    ],
+    "nearest_constant": "(sqrt(8)+sqrt(9))/2",
+    "nearest_value": 2.91421356,
+    "raw_distance": 0.0141326,
+    "p_value_raw": 0.0134,
+    "p_value_bonferroni": 1.0,
+    "significant_after_bonferroni": false
+  },
+  "chapters": {
+    "observed": 3.57307692,
+    "bootstrap_mean": 3.68149056,
+    "bootstrap_std": 0.94539501,
+    "bootstrap_ci_95": [
+      2.2259007,
+      5.92118156
+    ],
+    "nearest_constant": "sqrt(13)",
+    "nearest_value": 3.60555128,
+    "raw_distance": 0.03247435,
+    "p_value_raw": 0.0288,
+    "p_value_bonferroni": 1.0,
+    "significant_after_bonferroni": false
+  },
+  "books": {
+    "observed": 1.44444444,
+    "bootstrap_mean": 1.45253938,
+    "bootstrap_std": 0.18254415,
+    "bootstrap_ci_95": [
+      1.14285714,
+      1.85714286
+    ],
+    "nearest_constant": "cbrt(3)",
+    "nearest_value": 1.44224957,
+    "raw_distance": 0.00219487,
+    "p_value_raw": 0.04,
+    "p_value_bonferroni": 1.0,
+    "significant_after_bonferroni": false
+  }
+}

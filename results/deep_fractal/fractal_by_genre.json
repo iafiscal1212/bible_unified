@@ -1,0 +1,66 @@
+{
+  "epistolar": {
+    "n_verses": 2764,
+    "mean_length": 16.212,
+    "box_counting": {
+      "D_f": 0.792,
+      "R2": 0.8256
+    },
+    "hurst": {
+      "H": 0.7404,
+      "R2": 0.9928
+    },
+    "dfa": {
+      "alpha": 0.6424,
+      "R2": 0.9964
+    }
+  },
+  "legal": {
+    "n_verses": 1818,
+    "mean_length": 14.4527,
+    "box_counting": {
+      "D_f": 0.6987,
+      "R2": 0.7967
+    },
+    "hurst": {
+      "H": 0.6772,
+      "R2": 0.992
+    },
+    "dfa": {
+      "alpha": 0.6501,
+      "R2": 0.9971
+    }
+  },
+  "narrative": {
+    "n_verses": 22740,
+    "mean_length": 15.0418,
+    "box_counting": {
+      "D_f": 0.8477,
+      "R2": 0.8729
+    },
+    "hurst": {
+      "H": 1.0646,
+      "R2": 0.9972
+    },
+    "dfa": {
+      "alpha": 0.8177,
+      "R2": 0.9894
+    }
+  },
+  "poetic": {
+    "n_verses": 3818,
+    "mean_length": 8.1729,
+    "box_counting": {
+      "D_f": 0.792,
+      "R2": 0.9004
+    },
+    "hurst": {
+      "H": 0.934,
+      "R2": 0.9912
+    },
+    "dfa": {
+      "alpha": 0.7761,
+      "R2": 0.9883
+    }
+  }
+}

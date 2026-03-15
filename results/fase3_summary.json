@@ -1,0 +1,215 @@
+{
+  "generated_at": "2026-03-15T08:06:54.289664",
+  "phase": "Fase 3 — Análisis Profundo (4 líneas)",
+  "investigations": {
+    "deep_numerical_mechanism": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_numerical_mechanism/letter_contributions.json",
+        "/home/bible_research/results/deep_numerical_mechanism/sensitivity_curve.json",
+        "/home/bible_research/results/deep_numerical_mechanism/letter_distributions.json",
+        "/home/bible_research/results/deep_numerical_mechanism/chi2_test.json"
+      ],
+      "key_finding": {
+        "ratio_letter_level": 0.99090188,
+        "ot_total_gematria": 78482867,
+        "nt_total_isopsephy": 79203470,
+        "ot_top3_pct": 72.17,
+        "nt_top3_pct": 60.85,
+        "ot_gini": 0.7517,
+        "nt_gini": 0.7029,
+        "equilibrium_type": "concentrated (few heavy letters)",
+        "chi2_stat": 77560.3056,
+        "chi2_p": 0.0,
+        "sensitivity_at_50pct": 1.19170664
+      },
+      "conclusion": "CONFIRMADA: el equilibrio es producido por concentrated (few heavy letters). Chi2 significativo (p=0.0)."
+    },
+    "deep_algebraic_constants": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_algebraic/all_distances.json",
+        "/home/bible_research/results/deep_algebraic/bonferroni_results.json",
+        "/home/bible_research/results/deep_algebraic/bootstrap_stability.json",
+        "/home/bible_research/results/deep_algebraic/progression_test.json"
+      ],
+      "key_finding": {
+        "n_comparisons": 1172,
+        "words": {
+          "nearest": "(sqrt(4)+sqrt(6))/2",
+          "distance": 0.00554287,
+          "p_bonferroni": 1.0,
+          "significant": false
+        },
+        "verses": {
+          "nearest": "(sqrt(8)+sqrt(9))/2",
+          "distance": 0.0141326,
+          "p_bonferroni": 1.0,
+          "significant": false
+        },
+        "chapters": {
+          "nearest": "sqrt(13)",
+          "distance": 0.03247435,
+          "p_bonferroni": 1.0,
+          "significant": false
+        },
+        "books": {
+          "nearest": "cbrt(3)",
+          "distance": 0.00219487,
+          "p_bonferroni": 1.0,
+          "significant": false
+        },
+        "progression": "arithmetic progression"
+      },
+      "conclusion": "Sobreviven Bonferroni (1172 comparaciones): NINGUNA. Progresión: arithmetic progression."
+    },
+    "deep_fractal": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_fractal/box_counting.json",
+        "/home/bible_research/results/deep_fractal/hurst_exponent.json",
+        "/home/bible_research/results/deep_fractal/dfa_results.json",
+        "/home/bible_research/results/deep_fractal/fractal_by_corpus.json",
+        "/home/bible_research/results/deep_fractal/fractal_by_genre.json"
+      ],
+      "key_finding": {
+        "global": {
+          "n_verses": 31140,
+          "mean_length": 14.2691,
+          "box_counting": {
+            "D_f": 0.825,
+            "R2": 0.8741
+          },
+          "hurst": {
+            "H": 1.1258,
+            "R2": 0.9936
+          },
+          "dfa": {
+            "alpha": 0.8226,
+            "R2": 0.9882
+          }
+        },
+        "OT": {
+          "n_verses": 23213,
+          "mean_length": 13.2161,
+          "box_counting": {
+            "D_f": 0.834,
+            "R2": 0.8783
+          },
+          "hurst": {
+            "H": 1.1099,
+            "R2": 0.9868
+          },
+          "dfa": {
+            "alpha": 0.8458,
+            "R2": 0.9861
+          }
+        },
+        "NT": {
+          "n_verses": 7927,
+          "mean_length": 17.3526,
+          "box_counting": {
+            "D_f": 0.7871,
+            "R2": 0.8329
+          },
+          "hurst": {
+            "H": 0.9928,
+            "R2": 0.9887
+          },
+          "dfa": {
+            "alpha": 0.6805,
+            "R2": 0.9884
+          }
+        },
+        "hurst_comparison_p": 1e-06,
+        "hurst_OT_vs_NT_significant": true,
+        "genres": {
+          "epistolar": {
+            "hurst": 0.7404,
+            "dfa": 0.6424
+          },
+          "legal": {
+            "hurst": 0.6772,
+            "dfa": 0.6501
+          },
+          "narrative": {
+            "hurst": 1.0646,
+            "dfa": 0.8177
+          },
+          "poetic": {
+            "hurst": 0.934,
+            "dfa": 0.7761
+          }
+        }
+      },
+      "conclusion": "Hurst global H=1.1258, DFA α=0.8226. Ambos >0.5 → memoria larga confirmada. AT vs NT: significativamente diferentes (p=1e-06)."
+    },
+    "deep_zipf_semantic": {
+      "status": "OK",
+      "files": [
+        "/home/bible_research/results/deep_zipf_semantic/zipf_by_at_book.json",
+        "/home/bible_research/results/deep_zipf_semantic/top5_anomalous.json",
+        "/home/bible_research/results/deep_zipf_semantic/entropy_correlation.json",
+        "/home/bible_research/results/deep_zipf_semantic/zipf_by_pos.json",
+        "/home/bible_research/results/deep_zipf_semantic/anomaly_characteristics.json"
+      ],
+      "key_finding": {
+        "top5_anomalous_books": [
+          "Nahum",
+          "Obadiah",
+          "Habakkuk",
+          "Proverbs",
+          "Song of Songs"
+        ],
+        "top5_s_values": [
+          0.501125,
+          0.529745,
+          0.576552,
+          0.582741,
+          0.586076
+        ],
+        "anomaly_locations": [
+          "tail",
+          "tail",
+          "tail",
+          "tail",
+          "tail"
+        ],
+        "entropy_pearson_r": 0.3054,
+        "entropy_pearson_p": 0.058642,
+        "more_anomalous_pos": "verbs",
+        "verb_mean_s": 0.7213,
+        "noun_mean_s": 0.7543,
+        "verb_vs_noun_p": 0.35269,
+        "correlations": {
+          "zipf_s_vs_verb_pct": {
+            "pearson_r": -0.5454,
+            "p_value": 0.000329,
+            "significant": true
+          },
+          "zipf_s_vs_noun_pct": {
+            "pearson_r": 0.3772,
+            "p_value": 0.017941,
+            "significant": true
+          },
+          "zipf_s_vs_n_tokens": {
+            "pearson_r": 0.6122,
+            "p_value": 3.4e-05,
+            "significant": true
+          },
+          "zipf_s_vs_mean_verse_length": {
+            "pearson_r": 0.2805,
+            "p_value": 0.083702,
+            "significant": false
+          }
+        }
+      },
+      "conclusion": "Libros más anómalos: Nahum, Obadiah, Habakkuk. Anomalía en: verbs (s_verb=0.7213, s_noun=0.7543). Entropía vs Zipf: r=0.3054, p=0.058642."
+    }
+  },
+  "top_3_questions": [
+    "¿La autosimilaridad fractal es una propiedad del corpus bíblico específicamente, o de cualquier texto sagrado compilado?",
+    "¿El mecanismo de equilibrio numérico (distribución de letras) tiene paralelo en otros corpus bilingües antiguos?",
+    "¿Los libros con Zipf más anómalo comparten un proceso de transmisión textual (copistas, redactores) específico?"
+  ]
+}

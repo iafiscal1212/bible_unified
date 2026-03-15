@@ -1,0 +1,12 @@
+{
+  "n_books": 39,
+  "pearson": {
+    "r": 0.3054,
+    "p": 0.058642
+  },
+  "spearman": {
+    "r": 0.2794,
+    "p": 0.085021
+  },
+  "interpretation": "Low s correlates with LOW entropy → more concentrated distribution"
+}

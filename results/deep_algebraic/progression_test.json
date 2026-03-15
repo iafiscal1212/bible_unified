@@ -1,0 +1,33 @@
+{
+  "ratios_ordered": {
+    "books": 1.444444,
+    "words": 2.230288,
+    "verses": 2.928346,
+    "chapters": 3.573077
+  },
+  "order": [
+    "books",
+    "words",
+    "verses",
+    "chapters"
+  ],
+  "arithmetic": {
+    "differences": [
+      0.785843,
+      0.698058,
+      0.644731
+    ],
+    "cv": 0.082,
+    "is_arithmetic": true
+  },
+  "geometric": {
+    "successive_ratios": [
+      1.544045,
+      1.31299,
+      1.220169
+    ],
+    "cv": 0.1002,
+    "is_geometric": false
+  },
+  "conclusion": "arithmetic progression"
+}

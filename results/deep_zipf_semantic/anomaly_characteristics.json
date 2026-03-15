@@ -1,0 +1,416 @@
+{
+  "by_book": [
+    {
+      "book": "Nahum",
+      "zipf_s_lemma": 0.501125,
+      "entropy": 8.1369,
+      "n_tokens": 562,
+      "verb_pct": 26.69,
+      "noun_pct": 40.04,
+      "vn_ratio": 0.6667,
+      "mean_verse_length": 11.96
+    },
+    {
+      "book": "Obadiah",
+      "zipf_s_lemma": 0.529745,
+      "entropy": 6.9706,
+      "n_tokens": 292,
+      "verb_pct": 20.55,
+      "noun_pct": 40.41,
+      "vn_ratio": 0.5085,
+      "mean_verse_length": 13.9
+    },
+    {
+      "book": "Habakkuk",
+      "zipf_s_lemma": 0.576552,
+      "entropy": 8.1266,
+      "n_tokens": 672,
+      "verb_pct": 26.93,
+      "noun_pct": 34.38,
+      "vn_ratio": 0.7835,
+      "mean_verse_length": 12.0
+    },
+    {
+      "book": "Proverbs",
+      "zipf_s_lemma": 0.582741,
+      "entropy": 9.1528,
+      "n_tokens": 6984,
+      "verb_pct": 25.24,
+      "noun_pct": 38.53,
+      "vn_ratio": 0.6551,
+      "mean_verse_length": 7.63
+    },
+    {
+      "book": "Song of Songs",
+      "zipf_s_lemma": 0.586076,
+      "entropy": 8.3048,
+      "n_tokens": 1255,
+      "verb_pct": 18.17,
+      "noun_pct": 34.74,
+      "vn_ratio": 0.5229,
+      "mean_verse_length": 10.73
+    },
+    {
+      "book": "Micah",
+      "zipf_s_lemma": 0.59528,
+      "entropy": 8.3917,
+      "n_tokens": 1400,
+      "verb_pct": 25.36,
+      "noun_pct": 37.64,
+      "vn_ratio": 0.6736,
+      "mean_verse_length": 13.33
+    },
+    {
+      "book": "Joel",
+      "zipf_s_lemma": 0.595484,
+      "entropy": 7.9454,
+      "n_tokens": 958,
+      "verb_pct": 24.22,
+      "noun_pct": 41.02,
+      "vn_ratio": 0.5903,
+      "mean_verse_length": 13.12
+    },
+    {
+      "book": "Lamentations",
+      "zipf_s_lemma": 0.597213,
+      "entropy": 8.3592,
+      "n_tokens": 1564,
+      "verb_pct": 28.01,
+      "noun_pct": 32.29,
+      "vn_ratio": 0.8673,
+      "mean_verse_length": 10.16
+    },
+    {
+      "book": "Ecclesiastes",
+      "zipf_s_lemma": 0.613838,
+      "entropy": 7.8063,
+      "n_tokens": 2999,
+      "verb_pct": 22.97,
+      "noun_pct": 32.58,
+      "vn_ratio": 0.7052,
+      "mean_verse_length": 13.51
+    },
+    {
+      "book": "Ruth",
+      "zipf_s_lemma": 0.616228,
+      "entropy": 7.3866,
+      "n_tokens": 1306,
+      "verb_pct": 29.71,
+      "noun_pct": 26.95,
+      "vn_ratio": 1.1023,
+      "mean_verse_length": 15.36
+    },
+    {
+      "book": "Jonah",
+      "zipf_s_lemma": 0.634239,
+      "entropy": 7.1307,
+      "n_tokens": 688,
+      "verb_pct": 27.62,
+      "noun_pct": 31.98,
+      "vn_ratio": 0.8636,
+      "mean_verse_length": 14.33
+    },
+    {
+      "book": "Hosea",
+      "zipf_s_lemma": 0.634972,
+      "entropy": 8.4131,
+      "n_tokens": 2386,
+      "verb_pct": 24.64,
+      "noun_pct": 34.24,
+      "vn_ratio": 0.7197,
+      "mean_verse_length": 12.11
+    },
+    {
+      "book": "Haggai",
+      "zipf_s_lemma": 0.640622,
+      "entropy": 6.925,
+      "n_tokens": 601,
+      "verb_pct": 18.97,
+      "noun_pct": 45.26,
+      "vn_ratio": 0.4191,
+      "mean_verse_length": 15.82
+    },
+    {
+      "book": "Zephaniah",
+      "zipf_s_lemma": 0.655228,
+      "entropy": 7.7382,
+      "n_tokens": 769,
+      "verb_pct": 21.59,
+      "noun_pct": 42.65,
+      "vn_ratio": 0.5061,
+      "mean_verse_length": 14.51
+    },
+    {
+      "book": "Amos",
+      "zipf_s_lemma": 0.668567,
+      "entropy": 8.2543,
+      "n_tokens": 2045,
+      "verb_pct": 23.52,
+      "noun_pct": 39.32,
+      "vn_ratio": 0.5983,
+      "mean_verse_length": 14.01
+    },
+    {
+      "book": "Isaiah",
+      "zipf_s_lemma": 0.670465,
+      "entropy": 9.4649,
+      "n_tokens": 16988,
+      "verb_pct": 25.88,
+      "noun_pct": 36.86,
+      "vn_ratio": 0.7022,
+      "mean_verse_length": 13.16
+    },
+    {
+      "book": "Daniel",
+      "zipf_s_lemma": 0.671304,
+      "entropy": 8.8537,
+      "n_tokens": 6035,
+      "verb_pct": 22.7,
+      "noun_pct": 26.83,
+      "vn_ratio": 0.8462,
+      "mean_verse_length": 16.9
+    },
+    {
+      "book": "Ezekiel",
+      "zipf_s_lemma": 0.674329,
+      "entropy": 8.6406,
+      "n_tokens": 18866,
+      "verb_pct": 20.8,
+      "noun_pct": 36.47,
+      "vn_ratio": 0.5705,
+      "mean_verse_length": 14.82
+    },
+    {
+      "book": "Malachi",
+      "zipf_s_lemma": 0.675102,
+      "entropy": 7.383,
+      "n_tokens": 876,
+      "verb_pct": 26.26,
+      "noun_pct": 33.22,
+      "vn_ratio": 0.7904,
+      "mean_verse_length": 15.93
+    },
+    {
+      "book": "2 Samuel",
+      "zipf_s_lemma": 0.679514,
+      "entropy": 8.2887,
+      "n_tokens": 11130,
+      "verb_pct": 22.72,
+      "noun_pct": 39.93,
+      "vn_ratio": 0.5691,
+      "mean_verse_length": 16.01
+    },
+    {
+      "book": "Zechariah",
+      "zipf_s_lemma": 0.683408,
+      "entropy": 8.0866,
+      "n_tokens": 3134,
+      "verb_pct": 24.35,
+      "noun_pct": 38.93,
+      "vn_ratio": 0.6254,
+      "mean_verse_length": 14.85
+    },
+    {
+      "book": "Psalms",
+      "zipf_s_lemma": 0.685429,
+      "entropy": 9.2319,
+      "n_tokens": 19657,
+      "verb_pct": 23.41,
+      "noun_pct": 33.28,
+      "vn_ratio": 0.7035,
+      "mean_verse_length": 7.78
+    },
+    {
+      "book": "2 Chronicles",
+      "zipf_s_lemma": 0.686399,
+      "entropy": 8.4028,
+      "n_tokens": 13354,
+      "verb_pct": 19.36,
+      "noun_pct": 46.65,
+      "vn_ratio": 0.415,
+      "mean_verse_length": 16.25
+    },
+    {
+      "book": "1 Samuel",
+      "zipf_s_lemma": 0.688066,
+      "entropy": 8.1586,
+      "n_tokens": 13335,
+      "verb_pct": 24.15,
+      "noun_pct": 37.01,
+      "vn_ratio": 0.6527,
+      "mean_verse_length": 16.44
+    },
+    {
+      "book": "1 Kings",
+      "zipf_s_lemma": 0.688422,
+      "entropy": 8.3063,
+      "n_tokens": 13186,
+      "verb_pct": 21.35,
+      "noun_pct": 40.81,
+      "vn_ratio": 0.5231,
+      "mean_verse_length": 16.14
+    },
+    {
+      "book": "Nehemiah",
+      "zipf_s_lemma": 0.69101,
+      "entropy": 8.6164,
+      "n_tokens": 5336,
+      "verb_pct": 16.36,
+      "noun_pct": 47.92,
+      "vn_ratio": 0.3414,
+      "mean_verse_length": 13.18
+    },
+    {
+      "book": "Job",
+      "zipf_s_lemma": 0.691728,
+      "entropy": 9.2321,
+      "n_tokens": 8399,
+      "verb_pct": 25.8,
+      "noun_pct": 28.68,
+      "vn_ratio": 0.8995,
+      "mean_verse_length": 7.85
+    },
+    {
+      "book": "Judges",
+      "zipf_s_lemma": 0.702145,
+      "entropy": 8.3729,
+      "n_tokens": 9905,
+      "verb_pct": 23.77,
+      "noun_pct": 38.79,
+      "vn_ratio": 0.6127,
+      "mean_verse_length": 16.03
+    },
+    {
+      "book": "Jeremiah",
+      "zipf_s_lemma": 0.702333,
+      "entropy": 8.5179,
+      "n_tokens": 21976,
+      "verb_pct": 22.33,
+      "noun_pct": 38.37,
+      "vn_ratio": 0.5819,
+      "mean_verse_length": 16.11
+    },
+    {
+      "book": "Numbers",
+      "zipf_s_lemma": 0.707055,
+      "entropy": 8.41,
+      "n_tokens": 16422,
+      "verb_pct": 17.75,
+      "noun_pct": 46.22,
+      "vn_ratio": 0.3841,
+      "mean_verse_length": 12.74
+    },
+    {
+      "book": "2 Kings",
+      "zipf_s_lemma": 0.711125,
+      "entropy": 8.2254,
+      "n_tokens": 12354,
+      "verb_pct": 22.57,
+      "noun_pct": 42.08,
+      "vn_ratio": 0.5363,
+      "mean_verse_length": 17.18
+    },
+    {
+      "book": "Ezra",
+      "zipf_s_lemma": 0.712425,
+      "entropy": 8.7319,
+      "n_tokens": 3791,
+      "verb_pct": 13.45,
+      "noun_pct": 47.38,
+      "vn_ratio": 0.284,
+      "mean_verse_length": 13.54
+    },
+    {
+      "book": "Esther",
+      "zipf_s_lemma": 0.714132,
+      "entropy": 7.4385,
+      "n_tokens": 3057,
+      "verb_pct": 19.82,
+      "noun_pct": 46.75,
+      "vn_ratio": 0.4241,
+      "mean_verse_length": 18.31
+    },
+    {
+      "book": "Genesis",
+      "zipf_s_lemma": 0.718868,
+      "entropy": 8.5002,
+      "n_tokens": 20629,
+      "verb_pct": 22.36,
+      "noun_pct": 35.72,
+      "vn_ratio": 0.626,
+      "mean_verse_length": 13.46
+    },
+    {
+      "book": "Joshua",
+      "zipf_s_lemma": 0.722973,
+      "entropy": 8.2688,
+      "n_tokens": 10083,
+      "verb_pct": 17.7,
+      "noun_pct": 46.6,
+      "vn_ratio": 0.3799,
+      "mean_verse_length": 15.32
+    },
+    {
+      "book": "Deuteronomy",
+      "zipf_s_lemma": 0.724673,
+      "entropy": 8.1994,
+      "n_tokens": 14320,
+      "verb_pct": 20.45,
+      "noun_pct": 32.42,
+      "vn_ratio": 0.631,
+      "mean_verse_length": 14.93
+    },
+    {
+      "book": "Leviticus",
+      "zipf_s_lemma": 0.739585,
+      "entropy": 7.9699,
+      "n_tokens": 11955,
+      "verb_pct": 19.59,
+      "noun_pct": 38.38,
+      "vn_ratio": 0.5105,
+      "mean_verse_length": 13.92
+    },
+    {
+      "book": "Exodus",
+      "zipf_s_lemma": 0.747452,
+      "entropy": 8.3636,
+      "n_tokens": 16726,
+      "verb_pct": 20.49,
+      "noun_pct": 40.39,
+      "vn_ratio": 0.5073,
+      "mean_verse_length": 13.79
+    },
+    {
+      "book": "1 Chronicles",
+      "zipf_s_lemma": 0.817278,
+      "entropy": 8.9513,
+      "n_tokens": 10790,
+      "verb_pct": 12.57,
+      "noun_pct": 57.19,
+      "vn_ratio": 0.2197,
+      "mean_verse_length": 11.44
+    }
+  ],
+  "correlations": {
+    "zipf_s_vs_verb_pct": {
+      "pearson_r": -0.5454,
+      "p_value": 0.000329,
+      "significant": true
+    },
+    "zipf_s_vs_noun_pct": {
+      "pearson_r": 0.3772,
+      "p_value": 0.017941,
+      "significant": true
+    },
+    "zipf_s_vs_n_tokens": {
+      "pearson_r": 0.6122,
+      "p_value": 3.4e-05,
+      "significant": true
+    },
+    "zipf_s_vs_mean_verse_length": {
+      "pearson_r": 0.2805,
+      "p_value": 0.083702,
+      "significant": false
+    }
+  }
+}

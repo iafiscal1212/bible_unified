@@ -1,0 +1,26 @@
+{
+  "test": "Chi-squared test of independence: letter distribution by value class",
+  "classes": [
+    "hundreds_high",
+    "hundreds_low",
+    "tens",
+    "units"
+  ],
+  "ot_observed": [
+    0,
+    206738,
+    515976,
+    480338
+  ],
+  "nt_observed": [
+    31511,
+    165230,
+    272657,
+    209558
+  ],
+  "chi2": 77560.3056,
+  "dof": 3,
+  "p_value": 0.0,
+  "significant": true,
+  "interpretation": "Distributions are significantly different"
+}

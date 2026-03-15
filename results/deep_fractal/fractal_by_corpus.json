@@ -1,0 +1,61 @@
+{
+  "global": {
+    "n_verses": 31140,
+    "mean_length": 14.2691,
+    "box_counting": {
+      "D_f": 0.825,
+      "R2": 0.8741
+    },
+    "hurst": {
+      "H": 1.1258,
+      "R2": 0.9936
+    },
+    "dfa": {
+      "alpha": 0.8226,
+      "R2": 0.9882
+    }
+  },
+  "OT": {
+    "n_verses": 23213,
+    "mean_length": 13.2161,
+    "box_counting": {
+      "D_f": 0.834,
+      "R2": 0.8783
+    },
+    "hurst": {
+      "H": 1.1099,
+      "R2": 0.9868
+    },
+    "dfa": {
+      "alpha": 0.8458,
+      "R2": 0.9861
+    }
+  },
+  "NT": {
+    "n_verses": 7927,
+    "mean_length": 17.3526,
+    "box_counting": {
+      "D_f": 0.7871,
+      "R2": 0.8329
+    },
+    "hurst": {
+      "H": 0.9928,
+      "R2": 0.9887
+    },
+    "dfa": {
+      "alpha": 0.6805,
+      "R2": 0.9884
+    }
+  },
+  "comparison": {
+    "hurst_comparison": {
+      "ot_mean": 0.5088,
+      "ot_std": 0.0381,
+      "nt_mean": 0.5171,
+      "nt_std": 0.037,
+      "t_stat": -4.908,
+      "p_value": 1e-06,
+      "significant": true
+    }
+  }
+}

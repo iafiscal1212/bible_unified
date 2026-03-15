@@ -1,0 +1,72 @@
+[
+  {
+    "book": "Nahum",
+    "zipf_s": 0.501125,
+    "n_lemmas": 356,
+    "head_50_pct_tokens": 36.3,
+    "hapax_pct_types": 71.35,
+    "mid_zone_pct_tokens": 32.03,
+    "excess_over_zipf1": {
+      "head_1_10": 2.7615,
+      "mid_11_100": 9.4325,
+      "tail_100_plus": 17.6379
+    },
+    "anomaly_location": "tail"
+  },
+  {
+    "book": "Obadiah",
+    "zipf_s": 0.529745,
+    "n_lemmas": 165,
+    "head_50_pct_tokens": 58.9,
+    "hapax_pct_types": 66.67,
+    "mid_zone_pct_tokens": 12.67,
+    "excess_over_zipf1": {
+      "head_1_10": 2.8,
+      "mid_11_100": 6.3204,
+      "tail_100_plus": 11.0833
+    },
+    "anomaly_location": "tail"
+  },
+  {
+    "book": "Habakkuk",
+    "zipf_s": 0.576552,
+    "n_lemmas": 391,
+    "head_50_pct_tokens": 38.99,
+    "hapax_pct_types": 71.36,
+    "mid_zone_pct_tokens": 31.85,
+    "excess_over_zipf1": {
+      "head_1_10": 2.4048,
+      "mid_11_100": 6.3339,
+      "tail_100_plus": 11.9234
+    },
+    "anomaly_location": "tail"
+  },
+  {
+    "book": "Proverbs",
+    "zipf_s": 0.582741,
+    "n_lemmas": 1367,
+    "head_50_pct_tokens": 34.49,
+    "hapax_pct_types": 41.92,
+    "mid_zone_pct_tokens": 54.12,
+    "excess_over_zipf1": {
+      "head_1_10": 3.3835,
+      "mid_11_100": 9.3143,
+      "tail_100_plus": 9.6464
+    },
+    "anomaly_location": "tail"
+  },
+  {
+    "book": "Song of Songs",
+    "zipf_s": 0.586076,
+    "n_lemmas": 505,
+    "head_50_pct_tokens": 39.44,
+    "hapax_pct_types": 56.24,
+    "mid_zone_pct_tokens": 40.4,
+    "excess_over_zipf1": {
+      "head_1_10": 2.0974,
+      "mid_11_100": 6.7017,
+      "tail_100_plus": 9.2056
+    },
+    "anomaly_location": "tail"
+  }
+]
