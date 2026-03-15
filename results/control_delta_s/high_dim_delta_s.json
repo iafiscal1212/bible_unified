@@ -1,0 +1,542 @@
+{
+  "results": [
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.347396,
+      "s_shannon": 4.653734,
+      "delta_s": -0.306339
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.260116,
+      "s_shannon": 4.617406,
+      "delta_s": -0.35729
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.139148,
+      "s_shannon": 4.486362,
+      "delta_s": -0.347214
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.164404,
+      "s_shannon": 4.576418,
+      "delta_s": -0.412013
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.287822,
+      "s_shannon": 4.689008,
+      "delta_s": -0.401186
+    },
+    {
+      "book": "Joshua",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.253253,
+      "s_shannon": 4.66954,
+      "delta_s": -0.416286
+    },
+    {
+      "book": "Judges",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.408728,
+      "s_shannon": 4.746202,
+      "delta_s": -0.337474
+    },
+    {
+      "book": "Ruth",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.018473,
+      "s_shannon": 4.517454,
+      "delta_s": -0.49898
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.41787,
+      "s_shannon": 4.770932,
+      "delta_s": -0.353062
+    },
+    {
+      "book": "2 Samuel",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.389454,
+      "s_shannon": 4.728985,
+      "delta_s": -0.339531
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.412686,
+      "s_shannon": 4.768363,
+      "delta_s": -0.355677
+    },
+    {
+      "book": "2 Kings",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.29327,
+      "s_shannon": 4.715016,
+      "delta_s": -0.421746
+    },
+    {
+      "book": "1 Chronicles",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.720151,
+      "s_shannon": 4.394789,
+      "delta_s": -0.674637
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.444189,
+      "s_shannon": 4.785001,
+      "delta_s": -0.340812
+    },
+    {
+      "book": "Ezra",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.396785,
+      "s_shannon": 4.457374,
+      "delta_s": -1.060588
+    },
+    {
+      "book": "Nehemiah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.242201,
+      "s_shannon": 4.747464,
+      "delta_s": -0.505263
+    },
+    {
+      "book": "Esther",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.84398,
+      "s_shannon": 4.406077,
+      "delta_s": -0.562097
+    },
+    {
+      "book": "Job",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.383973,
+      "s_shannon": 4.536131,
+      "delta_s": -0.152158
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.553899,
+      "s_shannon": 4.629438,
+      "delta_s": -0.075538
+    },
+    {
+      "book": "Proverbs",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.629762,
+      "s_shannon": 4.679098,
+      "delta_s": -0.049335
+    },
+    {
+      "book": "Ecclesiastes",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.339825,
+      "s_shannon": 4.586425,
+      "delta_s": -0.2466
+    },
+    {
+      "book": "Song of Songs",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.143162,
+      "s_shannon": 4.339065,
+      "delta_s": -0.195903
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.585121,
+      "s_shannon": 4.757225,
+      "delta_s": -0.172104
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.394724,
+      "s_shannon": 4.736749,
+      "delta_s": -0.342024
+    },
+    {
+      "book": "Lamentations",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.262924,
+      "s_shannon": 4.445819,
+      "delta_s": -0.182895
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.452554,
+      "s_shannon": 4.712791,
+      "delta_s": -0.260236
+    },
+    {
+      "book": "Daniel",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.166542,
+      "s_shannon": 4.778746,
+      "delta_s": -0.612204
+    },
+    {
+      "book": "Hosea",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.367221,
+      "s_shannon": 4.608403,
+      "delta_s": -0.241183
+    },
+    {
+      "book": "Joel",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.113865,
+      "s_shannon": 4.525087,
+      "delta_s": -0.411222
+    },
+    {
+      "book": "Amos",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.172516,
+      "s_shannon": 4.519802,
+      "delta_s": -0.347286
+    },
+    {
+      "book": "Obadiah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.55085,
+      "s_shannon": 4.307269,
+      "delta_s": -0.756418
+    },
+    {
+      "book": "Jonah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.699096,
+      "s_shannon": 4.30397,
+      "delta_s": -0.604873
+    },
+    {
+      "book": "Micah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.427381,
+      "s_shannon": 4.765183,
+      "delta_s": -0.337802
+    },
+    {
+      "book": "Nahum",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.868028,
+      "s_shannon": 4.308,
+      "delta_s": -0.439973
+    },
+    {
+      "book": "Habakkuk",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.026612,
+      "s_shannon": 4.359501,
+      "delta_s": -0.332888
+    },
+    {
+      "book": "Zephaniah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.768511,
+      "s_shannon": 4.366504,
+      "delta_s": -0.597993
+    },
+    {
+      "book": "Haggai",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.693632,
+      "s_shannon": 4.472983,
+      "delta_s": -0.779351
+    },
+    {
+      "book": "Zechariah",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 4.245794,
+      "s_shannon": 4.5739,
+      "delta_s": -0.328106
+    },
+    {
+      "book": "Malachi",
+      "corpus": "OT",
+      "d": 50,
+      "s_vn": 3.855596,
+      "s_shannon": 4.443834,
+      "delta_s": -0.588238
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.358317,
+      "s_shannon": 3.217651,
+      "delta_s": -0.859334
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.274304,
+      "s_shannon": 3.147708,
+      "delta_s": -0.873404
+    },
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.482059,
+      "s_shannon": 3.336258,
+      "delta_s": -0.854198
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.505352,
+      "s_shannon": 3.422417,
+      "delta_s": -0.917065
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.34131,
+      "s_shannon": 3.268408,
+      "delta_s": -0.927097
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.59689,
+      "s_shannon": 3.309298,
+      "delta_s": -0.712408
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.872688,
+      "s_shannon": 3.409991,
+      "delta_s": -0.537303
+    },
+    {
+      "book": "2 Corinthians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.77327,
+      "s_shannon": 3.45963,
+      "delta_s": -0.68636
+    },
+    {
+      "book": "Galatians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.876977,
+      "s_shannon": 3.402453,
+      "delta_s": -0.525475
+    },
+    {
+      "book": "Ephesians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.281643,
+      "s_shannon": 3.112106,
+      "delta_s": -0.830463
+    },
+    {
+      "book": "Philippians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.692721,
+      "s_shannon": 3.41365,
+      "delta_s": -0.72093
+    },
+    {
+      "book": "Colossians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.091751,
+      "s_shannon": 3.133622,
+      "delta_s": -1.041871
+    },
+    {
+      "book": "1 Thessalonians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.469374,
+      "s_shannon": 3.26634,
+      "delta_s": -0.796967
+    },
+    {
+      "book": "2 Thessalonians",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.348455,
+      "s_shannon": 3.373246,
+      "delta_s": -1.024791
+    },
+    {
+      "book": "1 Timothy",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.784664,
+      "s_shannon": 3.318755,
+      "delta_s": -0.53409
+    },
+    {
+      "book": "2 Timothy",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.725314,
+      "s_shannon": 3.343606,
+      "delta_s": -0.618292
+    },
+    {
+      "book": "Titus",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.828883,
+      "s_shannon": 3.315059,
+      "delta_s": -0.486177
+    },
+    {
+      "book": "Philemon",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.387159,
+      "s_shannon": 3.211531,
+      "delta_s": -0.824372
+    },
+    {
+      "book": "Hebrews",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.526469,
+      "s_shannon": 3.228448,
+      "delta_s": -0.701978
+    },
+    {
+      "book": "James",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.574828,
+      "s_shannon": 3.233872,
+      "delta_s": -0.659044
+    },
+    {
+      "book": "1 Peter",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.700578,
+      "s_shannon": 3.31081,
+      "delta_s": -0.610233
+    },
+    {
+      "book": "2 Peter",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.507087,
+      "s_shannon": 3.337434,
+      "delta_s": -0.830346
+    },
+    {
+      "book": "1 John",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.234455,
+      "s_shannon": 3.367871,
+      "delta_s": -1.133416
+    },
+    {
+      "book": "2 John",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.145153,
+      "s_shannon": 3.324385,
+      "delta_s": -1.179232
+    },
+    {
+      "book": "3 John",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.229581,
+      "s_shannon": 3.238534,
+      "delta_s": -1.008952
+    },
+    {
+      "book": "Jude",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 2.517075,
+      "s_shannon": 3.387329,
+      "delta_s": -0.870254
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "d": 50,
+      "s_vn": 1.446834,
+      "s_shannon": 2.663038,
+      "delta_s": -1.216204
+    }
+  ],
+  "summary": {
+    "d": 50,
+    "ot_mean_delta_s": -0.403706,
+    "nt_mean_delta_s": -0.814084,
+    "all_negative": true,
+    "any_positive": false,
+    "mannwhitney_U": 977.0,
+    "mannwhitney_p": 0.0,
+    "ot_nt_significant": true
+  }
+}

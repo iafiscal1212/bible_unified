@@ -1,0 +1,1067 @@
+{
+  "results": [
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "delta_s_observed": -1.164437,
+      "delta_s_random_mean": -1.268187,
+      "delta_s_random_std": 0.011029,
+      "delta_s_random_ci95": [
+        -1.290479,
+        -1.246628
+      ],
+      "t_stat": -297.3198,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "delta_s_observed": -1.158052,
+      "delta_s_random_mean": -1.283431,
+      "delta_s_random_std": 0.013322,
+      "delta_s_random_ci95": [
+        -1.308731,
+        -1.257513
+      ],
+      "t_stat": -297.4591,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "delta_s_observed": -1.249933,
+      "delta_s_random_mean": -1.284214,
+      "delta_s_random_std": 0.015386,
+      "delta_s_random_ci95": [
+        -1.314056,
+        -1.253089
+      ],
+      "t_stat": -70.4209,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "delta_s_observed": -1.041083,
+      "delta_s_random_mean": -1.223923,
+      "delta_s_random_std": 0.014346,
+      "delta_s_random_ci95": [
+        -1.253053,
+        -1.196051
+      ],
+      "t_stat": -402.8299,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "delta_s_observed": -1.2657,
+      "delta_s_random_mean": -1.300899,
+      "delta_s_random_std": 0.015101,
+      "delta_s_random_ci95": [
+        -1.331176,
+        -1.273498
+      ],
+      "t_stat": -73.6749,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Joshua",
+      "corpus": "OT",
+      "delta_s_observed": -1.20944,
+      "delta_s_random_mean": -1.310638,
+      "delta_s_random_std": 0.0203,
+      "delta_s_random_ci95": [
+        -1.349579,
+        -1.271087
+      ],
+      "t_stat": -157.5642,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Judges",
+      "corpus": "OT",
+      "delta_s_observed": -1.356496,
+      "delta_s_random_mean": -1.392467,
+      "delta_s_random_std": 0.017257,
+      "delta_s_random_ci95": [
+        -1.426458,
+        -1.357902
+      ],
+      "t_stat": -65.8838,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Ruth",
+      "corpus": "OT",
+      "delta_s_observed": -1.325385,
+      "delta_s_random_mean": -1.382361,
+      "delta_s_random_std": 0.04457,
+      "delta_s_random_ci95": [
+        -1.464007,
+        -1.289436
+      ],
+      "t_stat": -40.4045,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "delta_s_observed": -1.399173,
+      "delta_s_random_mean": -1.418537,
+      "delta_s_random_std": 0.015765,
+      "delta_s_random_ci95": [
+        -1.449852,
+        -1.388483
+      ],
+      "t_stat": -38.8234,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "2 Samuel",
+      "corpus": "OT",
+      "delta_s_observed": -1.274772,
+      "delta_s_random_mean": -1.380377,
+      "delta_s_random_std": 0.017911,
+      "delta_s_random_ci95": [
+        -1.416417,
+        -1.343822
+      ],
+      "t_stat": -186.3583,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "delta_s_observed": -1.27487,
+      "delta_s_random_mean": -1.400664,
+      "delta_s_random_std": 0.015718,
+      "delta_s_random_ci95": [
+        -1.430366,
+        -1.368654
+      ],
+      "t_stat": -252.954,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "2 Kings",
+      "corpus": "OT",
+      "delta_s_observed": -1.3215,
+      "delta_s_random_mean": -1.436732,
+      "delta_s_random_std": 0.015984,
+      "delta_s_random_ci95": [
+        -1.466766,
+        -1.405454
+      ],
+      "t_stat": -227.856,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "1 Chronicles",
+      "corpus": "OT",
+      "delta_s_observed": -0.902694,
+      "delta_s_random_mean": -1.146066,
+      "delta_s_random_std": 0.017159,
+      "delta_s_random_ci95": [
+        -1.180133,
+        -1.11165
+      ],
+      "t_stat": -448.2944,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "delta_s_observed": -1.278912,
+      "delta_s_random_mean": -1.41078,
+      "delta_s_random_std": 0.014956,
+      "delta_s_random_ci95": [
+        -1.440214,
+        -1.382856
+      ],
+      "t_stat": -278.6828,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Ezra",
+      "corpus": "OT",
+      "delta_s_observed": -0.944297,
+      "delta_s_random_mean": -1.242379,
+      "delta_s_random_std": 0.032897,
+      "delta_s_random_ci95": [
+        -1.306723,
+        -1.178268
+      ],
+      "t_stat": -286.394,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Nehemiah",
+      "corpus": "OT",
+      "delta_s_observed": -0.972856,
+      "delta_s_random_mean": -1.178213,
+      "delta_s_random_std": 0.027776,
+      "delta_s_random_ci95": [
+        -1.232223,
+        -1.122301
+      ],
+      "t_stat": -233.6779,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Esther",
+      "corpus": "OT",
+      "delta_s_observed": -1.410435,
+      "delta_s_random_mean": -1.46285,
+      "delta_s_random_std": 0.03361,
+      "delta_s_random_ci95": [
+        -1.524562,
+        -1.39407
+      ],
+      "t_stat": -49.2919,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Job",
+      "corpus": "OT",
+      "delta_s_observed": -0.899499,
+      "delta_s_random_mean": -0.879389,
+      "delta_s_random_std": 0.012777,
+      "delta_s_random_ci95": [
+        -0.904808,
+        -0.854347
+      ],
+      "t_stat": 49.7446,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "delta_s_observed": -0.861337,
+      "delta_s_random_mean": -0.889817,
+      "delta_s_random_std": 0.00874,
+      "delta_s_random_ci95": [
+        -0.907458,
+        -0.87333
+      ],
+      "t_stat": -102.9877,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Proverbs",
+      "corpus": "OT",
+      "delta_s_observed": -0.818744,
+      "delta_s_random_mean": -0.904337,
+      "delta_s_random_std": 0.014074,
+      "delta_s_random_ci95": [
+        -0.930776,
+        -0.875511
+      ],
+      "t_stat": -192.2175,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Ecclesiastes",
+      "corpus": "OT",
+      "delta_s_observed": -1.188779,
+      "delta_s_random_mean": -1.264499,
+      "delta_s_random_std": 0.03046,
+      "delta_s_random_ci95": [
+        -1.324385,
+        -1.203619
+      ],
+      "t_stat": -78.5726,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Song of Songs",
+      "corpus": "OT",
+      "delta_s_observed": -0.955667,
+      "delta_s_random_mean": -1.099565,
+      "delta_s_random_std": 0.042081,
+      "delta_s_random_ci95": [
+        -1.184776,
+        -1.014239
+      ],
+      "t_stat": -108.0823,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "delta_s_observed": -1.114959,
+      "delta_s_random_mean": -1.259736,
+      "delta_s_random_std": 0.012677,
+      "delta_s_random_ci95": [
+        -1.28484,
+        -1.235182
+      ],
+      "t_stat": -360.9793,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "delta_s_observed": -1.282312,
+      "delta_s_random_mean": -1.398988,
+      "delta_s_random_std": 0.01223,
+      "delta_s_random_ci95": [
+        -1.423232,
+        -1.375565
+      ],
+      "t_stat": -301.5225,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Lamentations",
+      "corpus": "OT",
+      "delta_s_observed": -0.979768,
+      "delta_s_random_mean": -0.983973,
+      "delta_s_random_std": 0.037274,
+      "delta_s_random_ci95": [
+        -1.053416,
+        -0.909719
+      ],
+      "t_stat": -3.5658,
+      "p_value_raw": 0.0003799,
+      "p_value_bonferroni": 0.02507341,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "delta_s_observed": -1.22207,
+      "delta_s_random_mean": -1.330111,
+      "delta_s_random_std": 0.012519,
+      "delta_s_random_ci95": [
+        -1.354015,
+        -1.305604
+      ],
+      "t_stat": -272.765,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Daniel",
+      "corpus": "OT",
+      "delta_s_observed": -1.111836,
+      "delta_s_random_mean": -1.38212,
+      "delta_s_random_std": 0.02209,
+      "delta_s_random_ci95": [
+        -1.424581,
+        -1.341255
+      ],
+      "t_stat": -386.7272,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Hosea",
+      "corpus": "OT",
+      "delta_s_observed": -1.136121,
+      "delta_s_random_mean": -1.190401,
+      "delta_s_random_std": 0.031745,
+      "delta_s_random_ci95": [
+        -1.256693,
+        -1.130499
+      ],
+      "t_stat": -54.0446,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Joel",
+      "corpus": "OT",
+      "delta_s_observed": -1.226938,
+      "delta_s_random_mean": -1.279059,
+      "delta_s_random_std": 0.052304,
+      "delta_s_random_ci95": [
+        -1.378137,
+        -1.174876
+      ],
+      "t_stat": -31.4967,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Amos",
+      "corpus": "OT",
+      "delta_s_observed": -1.245411,
+      "delta_s_random_mean": -1.332187,
+      "delta_s_random_std": 0.038488,
+      "delta_s_random_ci95": [
+        -1.405169,
+        -1.256101
+      ],
+      "t_stat": -71.2613,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Obadiah",
+      "corpus": "OT",
+      "delta_s_observed": -1.216029,
+      "delta_s_random_mean": -1.351678,
+      "delta_s_random_std": 0.095638,
+      "delta_s_random_ci95": [
+        -1.540801,
+        -1.16916
+      ],
+      "t_stat": -44.8298,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Jonah",
+      "corpus": "OT",
+      "delta_s_observed": -1.365335,
+      "delta_s_random_mean": -1.317553,
+      "delta_s_random_std": 0.063337,
+      "delta_s_random_ci95": [
+        -1.442053,
+        -1.201497
+      ],
+      "t_stat": 23.8448,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Micah",
+      "corpus": "OT",
+      "delta_s_observed": -1.256511,
+      "delta_s_random_mean": -1.29653,
+      "delta_s_random_std": 0.041198,
+      "delta_s_random_ci95": [
+        -1.371692,
+        -1.212721
+      ],
+      "t_stat": -30.7028,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Nahum",
+      "corpus": "OT",
+      "delta_s_observed": -1.134671,
+      "delta_s_random_mean": -1.198967,
+      "delta_s_random_std": 0.064775,
+      "delta_s_random_ci95": [
+        -1.326487,
+        -1.072359
+      ],
+      "t_stat": -31.3733,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Habakkuk",
+      "corpus": "OT",
+      "delta_s_observed": -1.164091,
+      "delta_s_random_mean": -1.204139,
+      "delta_s_random_std": 0.059988,
+      "delta_s_random_ci95": [
+        -1.318427,
+        -1.084359
+      ],
+      "t_stat": -21.101,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Zephaniah",
+      "corpus": "OT",
+      "delta_s_observed": -1.147192,
+      "delta_s_random_mean": -1.355268,
+      "delta_s_random_std": 0.060839,
+      "delta_s_random_ci95": [
+        -1.474173,
+        -1.233655
+      ],
+      "t_stat": -108.0994,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Haggai",
+      "corpus": "OT",
+      "delta_s_observed": -1.057026,
+      "delta_s_random_mean": -1.45875,
+      "delta_s_random_std": 0.071514,
+      "delta_s_random_ci95": [
+        -1.594001,
+        -1.310524
+      ],
+      "t_stat": -177.5493,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Zechariah",
+      "corpus": "OT",
+      "delta_s_observed": -1.265798,
+      "delta_s_random_mean": -1.350667,
+      "delta_s_random_std": 0.031531,
+      "delta_s_random_ci95": [
+        -1.410511,
+        -1.288003
+      ],
+      "t_stat": -85.0727,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Malachi",
+      "corpus": "OT",
+      "delta_s_observed": -1.419338,
+      "delta_s_random_mean": -1.414641,
+      "delta_s_random_std": 0.057742,
+      "delta_s_random_ci95": [
+        -1.525434,
+        -1.303481
+      ],
+      "t_stat": 2.5714,
+      "p_value_raw": 0.01027214,
+      "p_value_bonferroni": 0.67796153,
+      "significant_bonferroni": false,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "delta_s_observed": -1.552047,
+      "delta_s_random_mean": -1.377841,
+      "delta_s_random_std": 0.013085,
+      "delta_s_random_ci95": [
+        -1.401912,
+        -1.352627
+      ],
+      "t_stat": 420.81,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "delta_s_observed": -1.549617,
+      "delta_s_random_mean": -1.356832,
+      "delta_s_random_std": 0.015969,
+      "delta_s_random_ci95": [
+        -1.388536,
+        -1.324871
+      ],
+      "t_stat": 381.5781,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "delta_s_observed": -1.552879,
+      "delta_s_random_mean": -1.361285,
+      "delta_s_random_std": 0.012492,
+      "delta_s_random_ci95": [
+        -1.384088,
+        -1.335765
+      ],
+      "t_stat": 484.7507,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "delta_s_observed": -1.644566,
+      "delta_s_random_mean": -1.4079,
+      "delta_s_random_std": 0.014612,
+      "delta_s_random_ci95": [
+        -1.43671,
+        -1.379736
+      ],
+      "t_stat": 511.9405,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "delta_s_observed": -1.674955,
+      "delta_s_random_mean": -1.436492,
+      "delta_s_random_std": 0.013549,
+      "delta_s_random_ci95": [
+        -1.463226,
+        -1.411095
+      ],
+      "t_stat": 556.2683,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "delta_s_observed": -1.382424,
+      "delta_s_random_mean": -1.340423,
+      "delta_s_random_std": 0.020688,
+      "delta_s_random_ci95": [
+        -1.380117,
+        -1.297484
+      ],
+      "t_stat": 64.1713,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "delta_s_observed": -1.299598,
+      "delta_s_random_mean": -1.29376,
+      "delta_s_random_std": 0.019893,
+      "delta_s_random_ci95": [
+        -1.33195,
+        -1.252374
+      ],
+      "t_stat": 9.275,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "2 Corinthians",
+      "corpus": "NT",
+      "delta_s_observed": -1.402396,
+      "delta_s_random_mean": -1.379438,
+      "delta_s_random_std": 0.025977,
+      "delta_s_random_ci95": [
+        -1.430104,
+        -1.325723
+      ],
+      "t_stat": 27.9327,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Galatians",
+      "corpus": "NT",
+      "delta_s_observed": -1.35511,
+      "delta_s_random_mean": -1.272313,
+      "delta_s_random_std": 0.035121,
+      "delta_s_random_ci95": [
+        -1.341948,
+        -1.201946
+      ],
+      "t_stat": 74.5123,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Ephesians",
+      "corpus": "NT",
+      "delta_s_observed": -1.455355,
+      "delta_s_random_mean": -1.326619,
+      "delta_s_random_std": 0.035187,
+      "delta_s_random_ci95": [
+        -1.396327,
+        -1.257534
+      ],
+      "t_stat": 115.6385,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Philippians",
+      "corpus": "NT",
+      "delta_s_observed": -1.348538,
+      "delta_s_random_mean": -1.310058,
+      "delta_s_random_std": 0.041912,
+      "delta_s_random_ci95": [
+        -1.389058,
+        -1.22852
+      ],
+      "t_stat": 29.0188,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Colossians",
+      "corpus": "NT",
+      "delta_s_observed": -1.59054,
+      "delta_s_random_mean": -1.368891,
+      "delta_s_random_std": 0.044562,
+      "delta_s_random_ci95": [
+        -1.456057,
+        -1.278706
+      ],
+      "t_stat": 157.2099,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "1 Thessalonians",
+      "corpus": "NT",
+      "delta_s_observed": -1.364527,
+      "delta_s_random_mean": -1.280594,
+      "delta_s_random_std": 0.044275,
+      "delta_s_random_ci95": [
+        -1.369946,
+        -1.197888
+      ],
+      "t_stat": 59.9181,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "2 Thessalonians",
+      "corpus": "NT",
+      "delta_s_observed": -1.508661,
+      "delta_s_random_mean": -1.429191,
+      "delta_s_random_std": 0.061885,
+      "delta_s_random_ci95": [
+        -1.550819,
+        -1.304794
+      ],
+      "t_stat": 40.5888,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "1 Timothy",
+      "corpus": "NT",
+      "delta_s_observed": -1.287776,
+      "delta_s_random_mean": -1.242756,
+      "delta_s_random_std": 0.041078,
+      "delta_s_random_ci95": [
+        -1.321687,
+        -1.160637
+      ],
+      "t_stat": 34.64,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "2 Timothy",
+      "corpus": "NT",
+      "delta_s_observed": -1.311917,
+      "delta_s_random_mean": -1.283093,
+      "delta_s_random_std": 0.049516,
+      "delta_s_random_ci95": [
+        -1.378146,
+        -1.186934
+      ],
+      "t_stat": 18.3983,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Titus",
+      "corpus": "NT",
+      "delta_s_observed": -1.216642,
+      "delta_s_random_mean": -1.289322,
+      "delta_s_random_std": 0.062489,
+      "delta_s_random_ci95": [
+        -1.410075,
+        -1.169324
+      ],
+      "t_stat": -36.7617,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Philemon",
+      "corpus": "NT",
+      "delta_s_observed": -1.29303,
+      "delta_s_random_mean": -1.306614,
+      "delta_s_random_std": 0.086269,
+      "delta_s_random_ci95": [
+        -1.483992,
+        -1.132196
+      ],
+      "t_stat": -4.9769,
+      "p_value_raw": 7.6e-07,
+      "p_value_bonferroni": 5.019e-05,
+      "significant_bonferroni": true,
+      "obs_more_negative": false
+    },
+    {
+      "book": "Hebrews",
+      "corpus": "NT",
+      "delta_s_observed": -1.483947,
+      "delta_s_random_mean": -1.341027,
+      "delta_s_random_std": 0.024988,
+      "delta_s_random_ci95": [
+        -1.390106,
+        -1.294898
+      ],
+      "t_stat": 180.7761,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "James",
+      "corpus": "NT",
+      "delta_s_observed": -1.451512,
+      "delta_s_random_mean": -1.360752,
+      "delta_s_random_std": 0.040516,
+      "delta_s_random_ci95": [
+        -1.437779,
+        -1.279251
+      ],
+      "t_stat": 70.8032,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "1 Peter",
+      "corpus": "NT",
+      "delta_s_observed": -1.377451,
+      "delta_s_random_mean": -1.356598,
+      "delta_s_random_std": 0.040172,
+      "delta_s_random_ci95": [
+        -1.436985,
+        -1.277022
+      ],
+      "t_stat": 16.4065,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "2 Peter",
+      "corpus": "NT",
+      "delta_s_observed": -1.653636,
+      "delta_s_random_mean": -1.493419,
+      "delta_s_random_std": 0.054444,
+      "delta_s_random_ci95": [
+        -1.605635,
+        -1.392966
+      ],
+      "t_stat": 93.0122,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "1 John",
+      "corpus": "NT",
+      "delta_s_observed": -1.699274,
+      "delta_s_random_mean": -1.508223,
+      "delta_s_random_std": 0.039817,
+      "delta_s_random_ci95": [
+        -1.580528,
+        -1.427793
+      ],
+      "t_stat": 151.6553,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "2 John",
+      "corpus": "NT",
+      "delta_s_observed": -1.623817,
+      "delta_s_random_mean": -1.592327,
+      "delta_s_random_std": 0.112117,
+      "delta_s_random_ci95": [
+        -1.810423,
+        -1.365746
+      ],
+      "t_stat": 8.8774,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "3 John",
+      "corpus": "NT",
+      "delta_s_observed": -1.796464,
+      "delta_s_random_mean": -1.400678,
+      "delta_s_random_std": 0.107578,
+      "delta_s_random_ci95": [
+        -1.612809,
+        -1.202214
+      ],
+      "t_stat": 116.2838,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Jude",
+      "corpus": "NT",
+      "delta_s_observed": -1.623008,
+      "delta_s_random_mean": -1.520414,
+      "delta_s_random_std": 0.08129,
+      "delta_s_random_ci95": [
+        -1.674631,
+        -1.352202
+      ],
+      "t_stat": 39.8905,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "delta_s_observed": -1.681751,
+      "delta_s_random_mean": -1.641823,
+      "delta_s_random_std": 0.01974,
+      "delta_s_random_ci95": [
+        -1.679351,
+        -1.602031
+      ],
+      "t_stat": 63.9306,
+      "p_value_raw": 0.0,
+      "p_value_bonferroni": 0.0,
+      "significant_bonferroni": true,
+      "obs_more_negative": true
+    }
+  ],
+  "summary": {
+    "n_books": 66,
+    "n_simulations": 1000,
+    "n_significant_bonferroni": 65,
+    "n_obs_more_negative": 28,
+    "fraction_significant": 0.9848
+  }
+}

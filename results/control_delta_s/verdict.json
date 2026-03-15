@@ -1,0 +1,617 @@
+{
+  "per_book": [
+    {
+      "book": "Genesis",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.164437,
+      "delta_s_random_mean": -1.268187
+    },
+    {
+      "book": "Exodus",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.158052,
+      "delta_s_random_mean": -1.283431
+    },
+    {
+      "book": "Leviticus",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.249933,
+      "delta_s_random_mean": -1.284214
+    },
+    {
+      "book": "Numbers",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.041083,
+      "delta_s_random_mean": -1.223923
+    },
+    {
+      "book": "Deuteronomy",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.2657,
+      "delta_s_random_mean": -1.300899
+    },
+    {
+      "book": "Joshua",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.20944,
+      "delta_s_random_mean": -1.310638
+    },
+    {
+      "book": "Judges",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.356496,
+      "delta_s_random_mean": -1.392467
+    },
+    {
+      "book": "Ruth",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.325385,
+      "delta_s_random_mean": -1.382361
+    },
+    {
+      "book": "1 Samuel",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.399173,
+      "delta_s_random_mean": -1.418537
+    },
+    {
+      "book": "2 Samuel",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.274772,
+      "delta_s_random_mean": -1.380377
+    },
+    {
+      "book": "1 Kings",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.27487,
+      "delta_s_random_mean": -1.400664
+    },
+    {
+      "book": "2 Kings",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.3215,
+      "delta_s_random_mean": -1.436732
+    },
+    {
+      "book": "1 Chronicles",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.902694,
+      "delta_s_random_mean": -1.146066
+    },
+    {
+      "book": "2 Chronicles",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.278912,
+      "delta_s_random_mean": -1.41078
+    },
+    {
+      "book": "Ezra",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.944297,
+      "delta_s_random_mean": -1.242379
+    },
+    {
+      "book": "Nehemiah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.972856,
+      "delta_s_random_mean": -1.178213
+    },
+    {
+      "book": "Esther",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.410435,
+      "delta_s_random_mean": -1.46285
+    },
+    {
+      "book": "Job",
+      "corpus": "OT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.899499,
+      "delta_s_random_mean": -0.879389
+    },
+    {
+      "book": "Psalms",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.861337,
+      "delta_s_random_mean": -0.889817
+    },
+    {
+      "book": "Proverbs",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.818744,
+      "delta_s_random_mean": -0.904337
+    },
+    {
+      "book": "Ecclesiastes",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.188779,
+      "delta_s_random_mean": -1.264499
+    },
+    {
+      "book": "Song of Songs",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.955667,
+      "delta_s_random_mean": -1.099565
+    },
+    {
+      "book": "Isaiah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.114959,
+      "delta_s_random_mean": -1.259736
+    },
+    {
+      "book": "Jeremiah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.282312,
+      "delta_s_random_mean": -1.398988
+    },
+    {
+      "book": "Lamentations",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -0.979768,
+      "delta_s_random_mean": -0.983973
+    },
+    {
+      "book": "Ezekiel",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.22207,
+      "delta_s_random_mean": -1.330111
+    },
+    {
+      "book": "Daniel",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.111836,
+      "delta_s_random_mean": -1.38212
+    },
+    {
+      "book": "Hosea",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.136121,
+      "delta_s_random_mean": -1.190401
+    },
+    {
+      "book": "Joel",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.226938,
+      "delta_s_random_mean": -1.279059
+    },
+    {
+      "book": "Amos",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.245411,
+      "delta_s_random_mean": -1.332187
+    },
+    {
+      "book": "Obadiah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.216029,
+      "delta_s_random_mean": -1.351678
+    },
+    {
+      "book": "Jonah",
+      "corpus": "OT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.365335,
+      "delta_s_random_mean": -1.317553
+    },
+    {
+      "book": "Micah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.256511,
+      "delta_s_random_mean": -1.29653
+    },
+    {
+      "book": "Nahum",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.134671,
+      "delta_s_random_mean": -1.198967
+    },
+    {
+      "book": "Habakkuk",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.164091,
+      "delta_s_random_mean": -1.204139
+    },
+    {
+      "book": "Zephaniah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.147192,
+      "delta_s_random_mean": -1.355268
+    },
+    {
+      "book": "Haggai",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.057026,
+      "delta_s_random_mean": -1.45875
+    },
+    {
+      "book": "Zechariah",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.265798,
+      "delta_s_random_mean": -1.350667
+    },
+    {
+      "book": "Malachi",
+      "corpus": "OT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": false,
+      "delta_s_observed": -1.419338,
+      "delta_s_random_mean": -1.414641
+    },
+    {
+      "book": "Matthew",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.552047,
+      "delta_s_random_mean": -1.377841
+    },
+    {
+      "book": "Mark",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.549617,
+      "delta_s_random_mean": -1.356832
+    },
+    {
+      "book": "Luke",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.552879,
+      "delta_s_random_mean": -1.361285
+    },
+    {
+      "book": "John",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.644566,
+      "delta_s_random_mean": -1.4079
+    },
+    {
+      "book": "Acts",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.674955,
+      "delta_s_random_mean": -1.436492
+    },
+    {
+      "book": "Romans",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.382424,
+      "delta_s_random_mean": -1.340423
+    },
+    {
+      "book": "1 Corinthians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.299598,
+      "delta_s_random_mean": -1.29376
+    },
+    {
+      "book": "2 Corinthians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.402396,
+      "delta_s_random_mean": -1.379438
+    },
+    {
+      "book": "Galatians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.35511,
+      "delta_s_random_mean": -1.272313
+    },
+    {
+      "book": "Ephesians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.455355,
+      "delta_s_random_mean": -1.326619
+    },
+    {
+      "book": "Philippians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.348538,
+      "delta_s_random_mean": -1.310058
+    },
+    {
+      "book": "Colossians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.59054,
+      "delta_s_random_mean": -1.368891
+    },
+    {
+      "book": "1 Thessalonians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.364527,
+      "delta_s_random_mean": -1.280594
+    },
+    {
+      "book": "2 Thessalonians",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.508661,
+      "delta_s_random_mean": -1.429191
+    },
+    {
+      "book": "1 Timothy",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.287776,
+      "delta_s_random_mean": -1.242756
+    },
+    {
+      "book": "2 Timothy",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.311917,
+      "delta_s_random_mean": -1.283093
+    },
+    {
+      "book": "Titus",
+      "corpus": "NT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.216642,
+      "delta_s_random_mean": -1.289322
+    },
+    {
+      "book": "Philemon",
+      "corpus": "NT",
+      "verdict": "indeterminado",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.29303,
+      "delta_s_random_mean": -1.306614
+    },
+    {
+      "book": "Hebrews",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.483947,
+      "delta_s_random_mean": -1.341027
+    },
+    {
+      "book": "James",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.451512,
+      "delta_s_random_mean": -1.360752
+    },
+    {
+      "book": "1 Peter",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.377451,
+      "delta_s_random_mean": -1.356598
+    },
+    {
+      "book": "2 Peter",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.653636,
+      "delta_s_random_mean": -1.493419
+    },
+    {
+      "book": "1 John",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.699274,
+      "delta_s_random_mean": -1.508223
+    },
+    {
+      "book": "2 John",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.623817,
+      "delta_s_random_mean": -1.592327
+    },
+    {
+      "book": "3 John",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.796464,
+      "delta_s_random_mean": -1.400678
+    },
+    {
+      "book": "Jude",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.623008,
+      "delta_s_random_mean": -1.520414
+    },
+    {
+      "book": "Revelation",
+      "corpus": "NT",
+      "verdict": "real",
+      "ceiling_forced": false,
+      "random_significant": true,
+      "delta_s_observed": -1.681751,
+      "delta_s_random_mean": -1.641823
+    }
+  ],
+  "counts": {
+    "indeterminado": 39,
+    "real": 27
+  },
+  "dimension_sensitivity": {
+    "trend": "non_monotonic",
+    "mean_delta_by_d": {
+      "2": -0.562024,
+      "3": -0.885954,
+      "5": -1.08698,
+      "7": -1.212872,
+      "9": -1.300014
+    }
+  },
+  "high_dim_d50": {
+    "sign_changes": false,
+    "ot_nt_difference_persists": true
+  },
+  "global_conclusion": "De 66 libros: 27 con efecto REAL, 0 ARTEFACTO puro, 39 indeterminados. | Test 1 (cota teórica): 0.0% de libros tienen S_Shannon > log2(9) → ΔS negativo es parcialmente inevitable por la baja dimensión. | Test 2 (control aleatorio): 98.5% de libros tienen ΔS observado significativamente diferente del aleatorio (Bonferroni). | Test 3 (sensibilidad): ΔS medio por d: d=2→-0.562, d=3→-0.886, d=5→-1.087, d=7→-1.213, d=9→-1.300. Tendencia: non_monotonic. | Test 4 (d=50 lemas): El signo NO cambia. Diferencia AT/NT PERSISTE (p=0.0000)."
+}
