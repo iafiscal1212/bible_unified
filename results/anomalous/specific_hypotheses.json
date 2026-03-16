@@ -1,0 +1,29 @@
+{
+  "1 Chronicles": {
+    "n_verses": 943,
+    "H": 0.8086,
+    "AC1": 0.4067,
+    "cv": 0.4862,
+    "mean_verse_len": 11.44
+  },
+  "2 Chronicles": {
+    "n_verses": 822,
+    "H": 0.6289,
+    "AC1": -0.0547,
+    "cv": 0.3732,
+    "mean_verse_len": 16.25
+  },
+  "Ezra": {
+    "n_verses": 280,
+    "H": 0.9441,
+    "AC1": 0.518,
+    "cv": 0.5101,
+    "mean_verse_len": 13.54
+  },
+  "1chr_vs_2chr_ac1": {
+    "1Chronicles_AC1": 0.4067,
+    "2Chronicles_AC1": -0.0547,
+    "ratio": -7.435,
+    "1chr_higher": true
+  }
+}

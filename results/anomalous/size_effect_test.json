@@ -1,0 +1,25 @@
+{
+  "Nahum": {
+    "target_n": 47,
+    "n_subsamples": 2900,
+    "H_mean": 0.707,
+    "H_std": 0.2201,
+    "H_q05": 0.3466,
+    "H_q95": 1.0651,
+    "pct_below_0.7": 49.8,
+    "pct_above_1.0": 9.3
+  },
+  "Obadiah": {
+    "n_subsamples": 0
+  },
+  "1 Chronicles": {
+    "target_n": 943,
+    "n_subsamples": 100,
+    "H_mean": 0.7015,
+    "H_std": 0.0707,
+    "H_q05": 0.5773,
+    "H_q95": 0.8117,
+    "pct_below_0.7": 45.0,
+    "pct_above_1.0": 0.0
+  }
+}

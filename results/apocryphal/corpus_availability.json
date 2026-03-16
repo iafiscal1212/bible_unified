@@ -1,0 +1,15 @@
+{
+  "Gospel_of_Thomas": {
+    "found": false
+  },
+  "Gospel_of_Peter": {
+    "found": false
+  },
+  "Didache": {
+    "found": false
+  },
+  "Gospel_of_Mary": {
+    "found": false,
+    "note": "Primarily Coptic with Greek fragments; no digital corpus found"
+  }
+}

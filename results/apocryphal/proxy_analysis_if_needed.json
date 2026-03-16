@@ -1,0 +1,113 @@
+{
+  "Mark": {
+    "label": "Mark",
+    "n_units": 673,
+    "mean_len": 16.77,
+    "std_len": 6.3,
+    "H": 0.5852,
+    "DFA_alpha": 0.5393,
+    "AC1": -0.0045,
+    "MPS_chi": 9,
+    "MPS_p": 1.0,
+    "MPS_significant": false,
+    "cluster": "NT-like",
+    "era": "early (~70 CE)"
+  },
+  "1 Timothy": {
+    "label": "1 Timothy",
+    "n_units": 113,
+    "mean_len": 14.08,
+    "std_len": 5.2,
+    "H": 0.7001,
+    "DFA_alpha": 0.5154,
+    "AC1": 0.0295,
+    "MPS_chi": 9,
+    "MPS_p": 1.0,
+    "MPS_significant": false,
+    "cluster": "intermediate",
+    "era": "late (~100-120 CE)"
+  },
+  "2 Timothy": {
+    "label": "2 Timothy",
+    "n_units": 83,
+    "mean_len": 14.88,
+    "std_len": 5.71,
+    "H": 0.8968,
+    "DFA_alpha": null,
+    "AC1": 0.031,
+    "MPS_chi": 8,
+    "MPS_p": 0.81,
+    "MPS_significant": false,
+    "cluster": "high-H (no MPS)",
+    "era": "late (~100-120 CE)"
+  },
+  "Titus": {
+    "label": "Titus",
+    "n_units": 46,
+    "mean_len": 14.33,
+    "std_len": 4.48,
+    "H": 0.8014,
+    "DFA_alpha": null,
+    "AC1": -0.1998,
+    "MPS_chi": null,
+    "MPS_p": null,
+    "MPS_significant": null,
+    "cluster": "intermediate",
+    "era": "late (~100-120 CE)"
+  },
+  "Pastorals_combined": {
+    "label": "Pastorals combined",
+    "n_units": 242,
+    "mean_len": 14.4,
+    "std_len": 5.27,
+    "H": 0.6476,
+    "DFA_alpha": 0.7435,
+    "AC1": 0.002,
+    "MPS_chi": 9,
+    "MPS_p": 1.0,
+    "MPS_significant": false,
+    "era": "late (~100-120 CE)"
+  },
+  "early_vs_late_test": {
+    "Mark_H": 0.5852,
+    "Pastorals_H": 0.6476,
+    "delta_H": -0.0624,
+    "KS_statistic": 0.1674,
+    "KS_p": 7.8e-05,
+    "length_dist_different": true
+  },
+  "canonical_gospels_summary": [
+    {
+      "book": "Matthew",
+      "H": 0.6486,
+      "DFA_alpha": 0.6041,
+      "AC1": 0.0496,
+      "MPS_p": 1.0,
+      "n_verses": 1068
+    },
+    {
+      "book": "Mark",
+      "H": 0.5852,
+      "DFA_alpha": 0.5393,
+      "AC1": -0.0045,
+      "MPS_p": 1.0,
+      "n_verses": 673
+    },
+    {
+      "book": "Luke",
+      "H": 0.6917,
+      "DFA_alpha": 0.564,
+      "AC1": -0.0202,
+      "MPS_p": 1.0,
+      "n_verses": 1149
+    },
+    {
+      "book": "John",
+      "H": 0.5383,
+      "DFA_alpha": 0.477,
+      "AC1": 0.0403,
+      "MPS_p": 1.0,
+      "n_verses": 866
+    }
+  ]
+}

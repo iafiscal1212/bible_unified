@@ -1,0 +1,32 @@
+{
+  "Nahum": {
+    "n_verses": 47,
+    "H": 0.414,
+    "within_size_effect_range": true,
+    "model_H_match_pct": 21.0,
+    "explanation": "SIZE_EFFECT",
+    "genuinely_anomalous": false
+  },
+  "Obadiah": {
+    "n_verses": 21,
+    "H": null,
+    "within_size_effect_range": null,
+    "model_H_match_pct": 0.0,
+    "explanation": "GENUINELY_ANOMALOUS",
+    "genuinely_anomalous": true
+  },
+  "1 Chronicles": {
+    "n_verses": 943,
+    "H": 0.8086,
+    "within_size_effect_range": true,
+    "model_H_match_pct": 80.0,
+    "explanation": "SIZE_EFFECT",
+    "genuinely_anomalous": false
+  },
+  "summary": {
+    "n_anomalous_tested": 3,
+    "n_genuinely_anomalous": 1,
+    "n_size_effect": 2,
+    "n_model_reproduced": 0
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "by_book": {
+    "1 Corinthians": {
+      "n_verses": 437,
+      "n_quotes": 7,
+      "quote_density": 0.016,
+      "H": 0.5187,
+      "AC1": 0.0516
+    },
+    "1 John": {
+      "n_verses": 105,
+      "n_quotes": 2,
+      "quote_density": 0.019,
+      "H": 0.468,
+      "AC1": -0.3106
+    },
+    "1 Peter": {
+      "n_verses": 105,
+      "n_quotes": 14,
+      "quote_density": 0.1333,
+      "H": 0.5091,
+      "AC1": -0.0984
+    },
+    "1 Thessalonians": {
+      "n_verses": 89,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": 0.5762,
+      "AC1": 0.276
+    },
+    "1 Timothy": {
+      "n_verses": 113,
+      "n_quotes": 1,
+      "quote_density": 0.0088,
+      "H": 0.7001,
+      "AC1": 0.0295
+    },
+    "2 Corinthians": {
+      "n_verses": 256,
+      "n_quotes": 13,
+      "quote_density": 0.0508,
+      "H": 0.7273,
+      "AC1": 0.0044
+    },
+    "2 John": {
+      "n_verses": 13,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": null,
+      "AC1": -0.6587
+    },
+    "2 Peter": {
+      "n_verses": 61,
+      "n_quotes": 1,
+      "quote_density": 0.0164,
+      "H": 0.6579,
+      "AC1": -0.0629
+    },
+    "2 Thessalonians": {
+      "n_verses": 47,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": 0.6499,
+      "AC1": 0.0294
+    },
+    "2 Timothy": {
+      "n_verses": 83,
+      "n_quotes": 4,
+      "quote_density": 0.0482,
+      "H": 0.8968,
+      "AC1": 0.031
+    },
+    "3 John": {
+      "n_verses": 15,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": null,
+      "AC1": 0.2741
+    },
+    "Acts": {
+      "n_verses": 1002,
+      "n_quotes": 12,
+      "quote_density": 0.012,
+      "H": 0.5557,
+      "AC1": -0.0582
+    },
+    "Colossians": {
+      "n_verses": 95,
+      "n_quotes": 5,
+      "quote_density": 0.0526,
+      "H": 0.77,
+      "AC1": -0.0281
+    },
+    "Ephesians": {
+      "n_verses": 155,
+      "n_quotes": 13,
+      "quote_density": 0.0839,
+      "H": 0.728,
+      "AC1": 0.1389
+    },
+    "Galatians": {
+      "n_verses": 149,
+      "n_quotes": 5,
+      "quote_density": 0.0336,
+      "H": 0.6242,
+      "AC1": -0.1672
+    },
+    "Hebrews": {
+      "n_verses": 303,
+      "n_quotes": 16,
+      "quote_density": 0.0528,
+      "H": 0.699,
+      "AC1": 0.1104
+    },
+    "James": {
+      "n_verses": 108,
+      "n_quotes": 7,
+      "quote_density": 0.0648,
+      "H": 0.4683,
+      "AC1": -0.138
+    },
+    "John": {
+      "n_verses": 866,
+      "n_quotes": 23,
+      "quote_density": 0.0266,
+      "H": 0.5383,
+      "AC1": 0.0403
+    },
+    "Jude": {
+      "n_verses": 25,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": null,
+      "AC1": 0.13
+    },
+    "Luke": {
+      "n_verses": 1149,
+      "n_quotes": 11,
+      "quote_density": 0.0096,
+      "H": 0.6917,
+      "AC1": -0.0202
+    },
+    "Mark": {
+      "n_verses": 673,
+      "n_quotes": 4,
+      "quote_density": 0.0059,
+      "H": 0.5852,
+      "AC1": -0.0045
+    },
+    "Matthew": {
+      "n_verses": 1068,
+      "n_quotes": 40,
+      "quote_density": 0.0375,
+      "H": 0.6486,
+      "AC1": 0.0496
+    },
+    "Philemon": {
+      "n_verses": 25,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": null,
+      "AC1": 0.0238
+    },
+    "Philippians": {
+      "n_verses": 104,
+      "n_quotes": 6,
+      "quote_density": 0.0577,
+      "H": 0.478,
+      "AC1": -0.0436
+    },
+    "Revelation": {
+      "n_verses": 405,
+      "n_quotes": 4,
+      "quote_density": 0.0099,
+      "H": 0.5109,
+      "AC1": -0.0775
+    },
+    "Romans": {
+      "n_verses": 430,
+      "n_quotes": 19,
+      "quote_density": 0.0442,
+      "H": 0.6358,
+      "AC1": 0.1248
+    },
+    "Titus": {
+      "n_verses": 46,
+      "n_quotes": 0,
+      "quote_density": 0.0,
+      "H": 0.8014,
+      "AC1": -0.1998
+    }
+  },
+  "density_H_correlation": {
+    "pearson_r": -0.047,
+    "pearson_p": 0.831347,
+    "spearman_rho": -0.0663,
+    "spearman_p": 0.763848,
+    "n_books": 23,
+    "significant": false
+  }
+}

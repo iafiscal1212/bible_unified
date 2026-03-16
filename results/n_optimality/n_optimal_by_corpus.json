@@ -1,0 +1,167 @@
+{
+  "AT": {
+    "corpus": "AT",
+    "n_verses": 23096,
+    "ref_H": 0.8766,
+    "ref_AC1": 0.3359,
+    "optimal_N": 1,
+    "optimal_retrodiction_pct": 83.3,
+    "by_N": {
+      "1": {
+        "N": 1,
+        "retrodiction_all_pct": 83.3,
+        "H_match_pct": 89.5,
+        "AC1_match_pct": 99.0
+      },
+      "2": {
+        "N": 2,
+        "retrodiction_all_pct": 3.3,
+        "H_match_pct": 49.5,
+        "AC1_match_pct": 3.0
+      },
+      "3": {
+        "N": 3,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 19.5,
+        "AC1_match_pct": 0.0
+      },
+      "4": {
+        "N": 4,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 6.0,
+        "AC1_match_pct": 0.0
+      },
+      "5": {
+        "N": 5,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 2.0,
+        "AC1_match_pct": 0.0
+      },
+      "7": {
+        "N": 7,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      },
+      "10": {
+        "N": 10,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      }
+    }
+  },
+  "Corán": {
+    "corpus": "Corán",
+    "n_verses": 6236,
+    "ref_H": 0.8963,
+    "ref_AC1": 0.4722,
+    "optimal_N": 1,
+    "optimal_retrodiction_pct": 0.0,
+    "by_N": {
+      "1": {
+        "N": 1,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 16.0,
+        "AC1_match_pct": 0.0
+      },
+      "2": {
+        "N": 2,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.5,
+        "AC1_match_pct": 0.0
+      },
+      "3": {
+        "N": 3,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      },
+      "4": {
+        "N": 4,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      },
+      "5": {
+        "N": 5,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      },
+      "7": {
+        "N": 7,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      },
+      "10": {
+        "N": 10,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 0.0,
+        "AC1_match_pct": 0.0
+      }
+    }
+  },
+  "Rig_Veda": {
+    "corpus": "Rig_Veda",
+    "n_verses": 10552,
+    "ref_H": 0.5612,
+    "ref_AC1": -0.016,
+    "optimal_N": 1,
+    "optimal_retrodiction_pct": 0.0,
+    "by_N": {
+      "1": {
+        "N": 1,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 100.0,
+        "AC1_match_pct": 0.0
+      },
+      "2": {
+        "N": 2,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 100.0,
+        "AC1_match_pct": 0.0
+      },
+      "3": {
+        "N": 3,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 100.0,
+        "AC1_match_pct": 0.0
+      },
+      "4": {
+        "N": 4,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 100.0,
+        "AC1_match_pct": 0.0
+      },
+      "5": {
+        "N": 5,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 100.0,
+        "AC1_match_pct": 0.0
+      },
+      "7": {
+        "N": 7,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 98.0,
+        "AC1_match_pct": 1.5
+      },
+      "10": {
+        "N": 10,
+        "retrodiction_all_pct": 0.0,
+        "H_match_pct": 85.5,
+        "AC1_match_pct": 8.5
+      }
+    }
+  },
+  "universality": {
+    "all_same_N": true,
+    "AT_optimal_N": 1,
+    "optimal_Ns": {
+      "AT": 1,
+      "Corán": 1,
+      "Rig_Veda": 1
+    }
+  }
+}

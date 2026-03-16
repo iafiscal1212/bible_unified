@@ -1,0 +1,10 @@
+{
+  "tagnt_total": 0,
+  "tagnt_ge3_refs": 0,
+  "cross_refs_total": 207,
+  "cross_refs_votes_gt50": 207,
+  "intersection": 0,
+  "union": 207,
+  "method_used": "cross_refs_only",
+  "final_quote_count": 207
+}

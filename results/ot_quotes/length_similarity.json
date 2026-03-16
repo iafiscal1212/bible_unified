@@ -1,0 +1,8 @@
+{
+  "ot_mean_verse_len": 13.23,
+  "nt_quote_mean_len": 19.05,
+  "nt_nonquote_mean_len": 17.31,
+  "quote_closer_to_ot": false,
+  "t_stat": 3.7419,
+  "t_p": 0.000184
+}

@@ -1,0 +1,93 @@
+{
+  "phase": 13,
+  "title": "Cuatro Investigaciones en Paralelo",
+  "timestamp": "2026-03-16T12:10:46",
+  "total_elapsed_seconds": 2490.1,
+  "scripts": [
+    {
+      "name": "n_optimality",
+      "question": "¿Por qué N=3 es el óptimo para el modelo jerárquico?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 3,
+      "output_files": [
+        "mutual_information_decay.json",
+        "n_optimal_by_corpus.json",
+        "retrodiction_by_n.json"
+      ],
+      "MI_thresholds": {
+        "AT": null,
+        "Corán": null,
+        "Rig_Veda": null
+      },
+      "universal_N": true,
+      "optimal_Ns": {
+        "AT": 1,
+        "Corán": 1,
+        "Rig_Veda": 1
+      },
+      "optimal_N_AT": 1,
+      "optimal_retrodiction_pct": 66.0
+    },
+    {
+      "name": "anomalous_books",
+      "question": "¿Los libros AT anómalos tienen explicación composicional?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "model_fit_per_book.json",
+        "specific_hypotheses.json",
+        "feature_profiles.json",
+        "verdict.json",
+        "size_effect_test.json"
+      ],
+      "n_genuinely_anomalous": 1,
+      "n_size_effect": 2,
+      "Nahum_explanation": "SIZE_EFFECT",
+      "Obadiah_explanation": "GENUINELY_ANOMALOUS",
+      "1 Chronicles_explanation": "SIZE_EFFECT"
+    },
+    {
+      "name": "ot_quotes_in_nt",
+      "question": "¿Las citas del AT en el NT heredan estructura AT-like localmente?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 4,
+      "output_files": [
+        "length_similarity.json",
+        "local_h_comparison.json",
+        "quote_identification.json",
+        "dense_quote_books.json"
+      ],
+      "quotes_elevate_H": null,
+      "H_with_quotes": null,
+      "H_without_quotes": null,
+      "mann_whitney_p": null,
+      "n_quote_verses": 207,
+      "method": "cross_refs_only"
+    },
+    {
+      "name": "apocryphal_gospels",
+      "question": "¿Los evangelios excluidos del canon difieren en H de los canónicos?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 3,
+      "output_files": [
+        "corpus_availability.json",
+        "h_comparison_canonical_vs_apocryphal.json",
+        "proxy_analysis_if_needed.json"
+      ],
+      "apocryphal_found": 0,
+      "apocryphal_details": {
+        "Gospel_of_Thomas": false,
+        "Gospel_of_Peter": false,
+        "Didache": false,
+        "Gospel_of_Mary": false
+      },
+      "Mark_H": 0.5852,
+      "Pastorals_H": 0.6476,
+      "delta_H_early_late": -0.0624
+    }
+  ]
+}

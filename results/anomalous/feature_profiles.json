@@ -1,0 +1,227 @@
+{
+  "anomalous": {
+    "Nahum": {
+      "n_verses": 47,
+      "mean_verse_len": 11.96,
+      "std_verse_len": 3.66,
+      "cv_verse_len": 0.3057,
+      "skewness": 0.3844,
+      "autocorr_lag1": -0.0563,
+      "H": 0.414,
+      "MPS_chi": null,
+      "MPS_p": null,
+      "verb_density": 0.2669,
+      "noun_density": 0.4004,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.2426,
+      "book": "Nahum"
+    },
+    "Obadiah": {
+      "n_verses": 21,
+      "mean_verse_len": 13.9,
+      "std_verse_len": 4.48,
+      "cv_verse_len": 0.3223,
+      "skewness": -0.3245,
+      "autocorr_lag1": -0.1975,
+      "H": null,
+      "MPS_chi": null,
+      "MPS_p": null,
+      "verb_density": 0.2055,
+      "noun_density": 0.4041,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.3884,
+      "book": "Obadiah"
+    },
+    "1 Chronicles": {
+      "n_verses": 943,
+      "mean_verse_len": 11.44,
+      "std_verse_len": 5.56,
+      "cv_verse_len": 0.4862,
+      "skewness": 0.9256,
+      "autocorr_lag1": 0.4067,
+      "H": 0.8086,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "verb_density": 0.1257,
+      "noun_density": 0.5719,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.0864,
+      "book": "1 Chronicles"
+    }
+  },
+  "control": {
+    "Genesis": {
+      "n_verses": 1533,
+      "mean_verse_len": 13.46,
+      "std_verse_len": 4.84,
+      "cv_verse_len": 0.3599,
+      "skewness": 0.506,
+      "autocorr_lag1": -0.0074,
+      "H": 0.6557,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "verb_density": 0.2236,
+      "noun_density": 0.3572,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.5237,
+      "book": "Genesis"
+    },
+    "Exodus": {
+      "n_verses": 1213,
+      "mean_verse_len": 13.79,
+      "std_verse_len": 5.19,
+      "cv_verse_len": 0.3766,
+      "skewness": 0.4541,
+      "autocorr_lag1": 0.1043,
+      "H": 0.6853,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "verb_density": 0.2049,
+      "noun_density": 0.4039,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.452,
+      "book": "Exodus"
+    },
+    "Isaiah": {
+      "n_verses": 1291,
+      "mean_verse_len": 13.16,
+      "std_verse_len": 4.59,
+      "cv_verse_len": 0.3491,
+      "skewness": 0.6288,
+      "autocorr_lag1": 0.0836,
+      "H": 0.6897,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "verb_density": 0.2588,
+      "noun_density": 0.3686,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.4391,
+      "book": "Isaiah"
+    },
+    "Psalms": {
+      "n_verses": 2527,
+      "mean_verse_len": 7.78,
+      "std_verse_len": 2.3,
+      "cv_verse_len": 0.2955,
+      "skewness": 1.1672,
+      "autocorr_lag1": 0.1727,
+      "H": 0.755,
+      "MPS_chi": 8,
+      "MPS_p": 1.0,
+      "verb_density": 0.2341,
+      "noun_density": 0.3328,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.3994,
+      "book": "Psalms"
+    },
+    "Jeremiah": {
+      "n_verses": 1364,
+      "mean_verse_len": 16.11,
+      "std_verse_len": 5.98,
+      "cv_verse_len": 0.3712,
+      "skewness": 0.5896,
+      "autocorr_lag1": 0.0668,
+      "H": 0.6831,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "verb_density": 0.2233,
+      "noun_density": 0.3837,
+      "proper_ratio": 0.0,
+      "pos_entropy": 2.4891,
+      "book": "Jeremiah"
+    }
+  },
+  "z_scores": {
+    "Nahum": {
+      "mean_verse_len": {
+        "value": 11.96,
+        "z_score": -0.779,
+        "anomalous": false
+      },
+      "std_verse_len": {
+        "value": 3.66,
+        "z_score": -1.323,
+        "anomalous": false
+      },
+      "cv_verse_len": {
+        "value": 0.3057,
+        "z_score": -1.192,
+        "anomalous": false
+      },
+      "skewness": {
+        "value": 0.3844,
+        "z_score": -0.422,
+        "anomalous": false
+      },
+      "autocorr_lag1": {
+        "value": -0.0563,
+        "z_score": -0.559,
+        "anomalous": false
+      },
+      "H": {
+        "value": 0.414,
+        "z_score": -1.778,
+        "anomalous": false
+      }
+    },
+    "Obadiah": {
+      "mean_verse_len": {
+        "value": 13.9,
+        "z_score": 0.004,
+        "anomalous": false
+      },
+      "std_verse_len": {
+        "value": 4.48,
+        "z_score": -0.65,
+        "anomalous": false
+      },
+      "cv_verse_len": {
+        "value": 0.3223,
+        "z_score": -0.917,
+        "anomalous": false
+      },
+      "skewness": {
+        "value": -0.3245,
+        "z_score": -1.507,
+        "anomalous": false
+      },
+      "autocorr_lag1": {
+        "value": -0.1975,
+        "z_score": -1.147,
+        "anomalous": false
+      }
+    },
+    "1 Chronicles": {
+      "mean_verse_len": {
+        "value": 11.44,
+        "z_score": -0.989,
+        "anomalous": false
+      },
+      "std_verse_len": {
+        "value": 5.56,
+        "z_score": 0.237,
+        "anomalous": false
+      },
+      "cv_verse_len": {
+        "value": 0.4862,
+        "z_score": 1.792,
+        "anomalous": false
+      },
+      "skewness": {
+        "value": 0.9256,
+        "z_score": 0.407,
+        "anomalous": false
+      },
+      "autocorr_lag1": {
+        "value": 0.4067,
+        "z_score": 1.369,
+        "anomalous": false
+      },
+      "H": {
+        "value": 0.8086,
+        "z_score": 0.755,
+        "anomalous": false
+      }
+    }
+  }
+}

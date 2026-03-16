@@ -1,0 +1,96 @@
+{
+  "canonical": {
+    "Matthew": {
+      "label": "Matthew",
+      "n_units": 1068,
+      "mean_len": 17.16,
+      "std_len": 6.49,
+      "H": 0.6486,
+      "DFA_alpha": 0.6041,
+      "AC1": 0.0496,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "MPS_significant": false,
+      "cluster": "NT-like"
+    },
+    "Mark": {
+      "label": "Mark",
+      "n_units": 673,
+      "mean_len": 16.77,
+      "std_len": 6.3,
+      "H": 0.5852,
+      "DFA_alpha": 0.5393,
+      "AC1": -0.0045,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "MPS_significant": false,
+      "cluster": "NT-like"
+    },
+    "Luke": {
+      "label": "Luke",
+      "n_units": 1149,
+      "mean_len": 16.92,
+      "std_len": 6.37,
+      "H": 0.6917,
+      "DFA_alpha": 0.564,
+      "AC1": -0.0202,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "MPS_significant": false,
+      "cluster": "NT-like"
+    },
+    "John": {
+      "label": "John",
+      "n_units": 866,
+      "mean_len": 17.83,
+      "std_len": 6.58,
+      "H": 0.5383,
+      "DFA_alpha": 0.477,
+      "AC1": 0.0403,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "MPS_significant": false,
+      "cluster": "NT-like"
+    },
+    "1 Timothy": {
+      "label": "1 Timothy",
+      "n_units": 113,
+      "mean_len": 14.08,
+      "std_len": 5.2,
+      "H": 0.7001,
+      "DFA_alpha": 0.5154,
+      "AC1": 0.0295,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "MPS_significant": false,
+      "cluster": "intermediate"
+    },
+    "2 Timothy": {
+      "label": "2 Timothy",
+      "n_units": 83,
+      "mean_len": 14.88,
+      "std_len": 5.71,
+      "H": 0.8968,
+      "DFA_alpha": null,
+      "AC1": 0.031,
+      "MPS_chi": 8,
+      "MPS_p": 0.81,
+      "MPS_significant": false,
+      "cluster": "high-H (no MPS)"
+    },
+    "Titus": {
+      "label": "Titus",
+      "n_units": 46,
+      "mean_len": 14.33,
+      "std_len": 4.48,
+      "H": 0.8014,
+      "DFA_alpha": null,
+      "AC1": -0.1998,
+      "MPS_chi": null,
+      "MPS_p": null,
+      "MPS_significant": null,
+      "cluster": "intermediate"
+    }
+  },
+  "apocryphal": {}
+}
