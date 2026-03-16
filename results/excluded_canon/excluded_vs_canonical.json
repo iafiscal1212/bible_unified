@@ -1,0 +1,78 @@
+{
+  "excluded": {
+    "Hermas": {
+      "name": "Pastor de Hermas",
+      "n_sections": 869,
+      "H": 0.4999,
+      "AC1": 0.1059,
+      "DFA": 0.4934,
+      "CV": 7.7611,
+      "mean_len": 131.77
+    },
+    "JustinMartyr": {
+      "name": "Justino Mártir — 1ª Apología",
+      "n_sections": 69,
+      "H": 0.3891,
+      "AC1": -0.1656,
+      "DFA": null,
+      "CV": 4.0706,
+      "mean_len": 418.62
+    },
+    "Didache": {
+      "name": "Didache",
+      "n_sections": 117,
+      "H": 0.5739,
+      "AC1": 0.3622,
+      "CV": 0.48,
+      "mean_len": 56.25
+    }
+  },
+  "nt_global": {
+    "n_verses": 7927,
+    "H": 0.7834,
+    "AC1": 0.0853,
+    "DFA": 0.8286,
+    "mean_len": 17.35
+  },
+  "comparison": {
+    "Hermas": {
+      "name": "Pastor de Hermas",
+      "H": 0.4999,
+      "AC1": 0.1059,
+      "closest_NT_book": "1 Peter",
+      "closest_NT_H": 0.5091,
+      "delta_H_from_NT_mean": -0.2835,
+      "in_NT_H_range": true,
+      "in_NT_AC1_range": true,
+      "NT_H_range": [
+        0.468,
+        0.8968
+      ],
+      "classification": "NT-like"
+    },
+    "JustinMartyr": {
+      "name": "Justino Mártir — 1ª Apología",
+      "H": 0.3891,
+      "AC1": -0.1656,
+      "closest_NT_book": "1 John",
+      "closest_NT_H": 0.468,
+      "delta_H_from_NT_mean": -0.3943,
+      "in_NT_H_range": false,
+      "in_NT_AC1_range": true,
+      "NT_H_range": [
+        0.468,
+        0.8968
+      ],
+      "classification": "anomalous"
+    },
+    "Didache": {
+      "name": "Didache",
+      "H": 0.5739,
+      "AC1": 0.3622,
+      "delta_H_from_NT_mean": -0.2095,
+      "in_NT_H_range": true,
+      "classification": "NT-like",
+      "closest_NT_book": "Acts"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "AT": {
+    "n_trials": 100,
+    "n_match": 92,
+    "match_pct": 92.0
+  },
+  "NT": {
+    "n_trials": 100,
+    "n_match": 98,
+    "match_pct": 98.0
+  },
+  "Corán": {
+    "n_trials": 100,
+    "n_match": 94,
+    "match_pct": 94.0
+  },
+  "Rig_Veda": {
+    "n_trials": 100,
+    "n_match": 100,
+    "match_pct": 100.0
+  }
+}

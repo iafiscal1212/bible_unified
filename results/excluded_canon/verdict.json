@@ -1,0 +1,13 @@
+{
+  "n_texts_downloaded": 3,
+  "n_texts_analyzed": 3,
+  "excluded_texts": [
+    "Didache",
+    "Hermas",
+    "JustinMartyr"
+  ],
+  "n_NT_like": 2,
+  "n_AT_like": 0,
+  "n_anomalous": 1,
+  "conclusion": "2/3 textos excluidos son NT-like en H. La exclusion canonica NO correlaciona uniformemente con diferencias en estructura de memoria."
+}

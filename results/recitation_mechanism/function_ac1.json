@@ -1,0 +1,32 @@
+{
+  "narrative": {
+    "n_verses": 10171,
+    "AC1_words": 0.1973,
+    "CV_words": 0.4134,
+    "mean_words": 14.92
+  },
+  "legal": {
+    "n_verses": 3107,
+    "AC1_words": 0.1196,
+    "CV_words": 0.4057,
+    "mean_words": 13.74
+  },
+  "prophetic": {
+    "n_verses": 5084,
+    "AC1_words": 0.1056,
+    "CV_words": 0.3857,
+    "mean_words": 14.38
+  },
+  "liturgical": {
+    "n_verses": 4734,
+    "AC1_words": 0.3795,
+    "CV_words": 0.353,
+    "mean_words": 8.04
+  },
+  "H_rec_C_verdict": {
+    "liturgical_AC1": 0.3795,
+    "narrative_AC1": 0.1973,
+    "liturgical_higher": true,
+    "supports_hypothesis": true
+  }
+}

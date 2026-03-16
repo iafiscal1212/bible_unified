@@ -1,0 +1,23 @@
+{
+  "n_corpora_fitted": 4,
+  "corpora": [
+    "AT",
+    "NT",
+    "Corán",
+    "Rig_Veda"
+  ],
+  "AT_NT_key_difference": {
+    "param": "sigma_eps",
+    "AT_value": 3.3169,
+    "NT_value": 4.2236
+  },
+  "d_range": [
+    0.0044,
+    0.1952
+  ],
+  "d_universal": false,
+  "best_retrodiction": {
+    "corpus": "Rig_Veda",
+    "match_pct": 100.0
+  }
+}

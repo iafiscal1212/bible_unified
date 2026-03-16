@@ -1,0 +1,134 @@
+{
+  "AT_vs_NT": {
+    "params_1": {
+      "phi": -0.0692,
+      "d": 0.1284,
+      "sigma_eps": 3.3169,
+      "sigma_eta": 2.2922
+    },
+    "params_2": {
+      "phi": -0.2566,
+      "d": 0.1952,
+      "sigma_eps": 4.2236,
+      "sigma_eta": 1.6788
+    },
+    "differences": {
+      "phi": -0.1874,
+      "d": 0.0668,
+      "sigma_eps": 0.9067,
+      "sigma_eta": -0.6134
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 0.9067
+  },
+  "AT_vs_Corán": {
+    "params_1": {
+      "phi": -0.0692,
+      "d": 0.1284,
+      "sigma_eps": 3.3169,
+      "sigma_eta": 2.2922
+    },
+    "params_2": {
+      "phi": 0.0275,
+      "d": 0.1092,
+      "sigma_eps": 2.8012,
+      "sigma_eta": 2.4565
+    },
+    "differences": {
+      "phi": 0.0967,
+      "d": -0.0192,
+      "sigma_eps": -0.5157,
+      "sigma_eta": 0.1643
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 0.5157
+  },
+  "AT_vs_Rig_Veda": {
+    "params_1": {
+      "phi": -0.0692,
+      "d": 0.1284,
+      "sigma_eps": 3.3169,
+      "sigma_eta": 2.2922
+    },
+    "params_2": {
+      "phi": -0.022,
+      "d": 0.0044,
+      "sigma_eps": 6.8329,
+      "sigma_eta": 0.0039
+    },
+    "differences": {
+      "phi": 0.0472,
+      "d": -0.124,
+      "sigma_eps": 3.516,
+      "sigma_eta": -2.2883
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 3.516
+  },
+  "NT_vs_Corán": {
+    "params_1": {
+      "phi": -0.2566,
+      "d": 0.1952,
+      "sigma_eps": 4.2236,
+      "sigma_eta": 1.6788
+    },
+    "params_2": {
+      "phi": 0.0275,
+      "d": 0.1092,
+      "sigma_eps": 2.8012,
+      "sigma_eta": 2.4565
+    },
+    "differences": {
+      "phi": 0.2841,
+      "d": -0.086,
+      "sigma_eps": -1.4224,
+      "sigma_eta": 0.7777
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 1.4224
+  },
+  "NT_vs_Rig_Veda": {
+    "params_1": {
+      "phi": -0.2566,
+      "d": 0.1952,
+      "sigma_eps": 4.2236,
+      "sigma_eta": 1.6788
+    },
+    "params_2": {
+      "phi": -0.022,
+      "d": 0.0044,
+      "sigma_eps": 6.8329,
+      "sigma_eta": 0.0039
+    },
+    "differences": {
+      "phi": 0.2346,
+      "d": -0.1908,
+      "sigma_eps": 2.6093,
+      "sigma_eta": -1.6749
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 2.6093
+  },
+  "Corán_vs_Rig_Veda": {
+    "params_1": {
+      "phi": 0.0275,
+      "d": 0.1092,
+      "sigma_eps": 2.8012,
+      "sigma_eta": 2.4565
+    },
+    "params_2": {
+      "phi": -0.022,
+      "d": 0.0044,
+      "sigma_eps": 6.8329,
+      "sigma_eta": 0.0039
+    },
+    "differences": {
+      "phi": -0.0495,
+      "d": -0.1048,
+      "sigma_eps": 4.0317,
+      "sigma_eta": -2.4526
+    },
+    "max_diff_param": "sigma_eps",
+    "max_diff_value": 4.0317
+  }
+}

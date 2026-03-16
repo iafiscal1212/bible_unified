@@ -1,0 +1,38 @@
+{
+  "Rig_Veda_hymns": {
+    "label": "Rig Veda hymns",
+    "n_units": 1517,
+    "intra_ac1_mean": -0.1038,
+    "intra_ac1_median": -0.1164,
+    "intra_ac1_n": 331,
+    "inter_ac1": 0.0308,
+    "inter_n_pairs": 1516,
+    "ratio_intra_inter": -3.366
+  },
+  "AT_parashas": {
+    "label": "AT parashas",
+    "n_units": 420,
+    "intra_ac1_mean": 0.0333,
+    "intra_ac1_median": 0.0162,
+    "intra_ac1_n": 420,
+    "inter_ac1": 0.2794,
+    "inter_n_pairs": 419,
+    "ratio_intra_inter": 0.119
+  },
+  "Corán_suras": {
+    "label": "Corán suras",
+    "n_units": 114,
+    "intra_ac1_mean": 0.1354,
+    "intra_ac1_median": 0.1423,
+    "intra_ac1_n": 95,
+    "inter_ac1": 0.1067,
+    "inter_n_pairs": 113,
+    "ratio_intra_inter": 1.269
+  },
+  "H_rec_B_verdict": {
+    "RV_intra": -0.1038,
+    "RV_inter": 0.0308,
+    "intra_gt_inter": false,
+    "supports_hypothesis": false
+  }
+}

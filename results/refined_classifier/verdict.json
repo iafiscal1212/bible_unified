@@ -1,0 +1,18 @@
+{
+  "best_classifier": "LogisticRegression",
+  "best_accuracy": 1.0,
+  "best_f1": 1.0,
+  "top_feature": "pos_entropy",
+  "top_feature_importance": 2.747,
+  "n_ambiguous": 0,
+  "ambiguous_books": [],
+  "n_uncertain": 1,
+  "most_uncertain": [
+    {
+      "book": "Daniel",
+      "P_AT": 0.5666,
+      "testament": "AT"
+    }
+  ],
+  "summary": "Mejor clasificador: LogisticRegression (accuracy=100.0%). Feature top: pos_entropy. 0 libros ambiguos."
+}

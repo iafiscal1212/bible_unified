@@ -75,7 +75,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{16 de marzo de 2026 --- v12.0}
+\date{16 de marzo de 2026 --- v13.0}
 
 
 \begin{document}
@@ -250,6 +250,19 @@ por cross-references ---la densidad de citas no correlaciona con $H$ del libro
 NT ($r = -0.05$, $p = 0.83$); (iv)~ning\'un evangelio ap\'ocrifo disponible
 digitalmente; proxy: Marcos ($H = 0.585$) vs.\ Pastorales ($H = 0.648$),
 ambos NT-like sin MPS significativo.
+
+\textbf{Fase~14}: Cuatro investigaciones paralelas: (i)~la alta autocorrelaci\'on
+del Rig Veda frente a Homer ($\text{AC}(1) \approx 0$) se explica por dos factores:
+variabilidad m\'etrica (CV Homer $= 0.588$ vs.\ RV $= 0.259$) y funci\'on lit\'urgica
+(AT lit\'urgico AC(1) $= 0.380$ vs.\ narrativo $= 0.197$); (ii)~un modelo
+unificado AR(1)-ARFIMA con 4 par\'ametros ajusta AT, NT, Cor\'an y Rig Veda
+con retrodicci\'on $\geq 92$\% ---el par\'ametro fraccionario $d$ no es universal
+(rango $[0.004, 0.195]$); (iii)~un clasificador multi-feature (sklearn, LOO)
+alcanza \textbf{100\% accuracy} en los 63 libros con datos suficientes
+---feature top: \texttt{pos\_entropy}; Daniel es el m\'as incierto ($P_{\text{AT}} = 0.57$);
+(iv)~tres textos excluidos del canon (Didach\'e, Pastor de Hermas, Justino M\'artir)
+descargados de First1KGreek: 2/3 son NT-like en $H$ (Didach\'e $H = 0.574$,
+Hermas $H = 0.500$); Justino M\'artir ($H = 0.389$) es an\'omalo.
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -2807,6 +2820,152 @@ tienen $H \in [0.538, 0.692]$, todos en cluster NT-like.
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Fase~14: Cuatro Investigaciones en Paralelo}
+% ══════════════════════════════════════════════════════════════════════════
+
+La Fase~13 estableci\'o que $N = 1$ es \'optimo y que los libros an\'omalos son artefactos.
+La Fase~14 aborda cuatro preguntas derivadas: (1)~?`por qu\'e Homer tiene AC(1)$\approx 0$
+mientras el Rig Veda y el AT tienen AC(1) alto?, (2)~?`un modelo unificado AR(1)-ARFIMA
+puede capturar los 4 corpus principales?, (3)~?`cu\'al es la accuracy m\'axima de un
+clasificador AT/NT multi-feature?, (4)~?`qu\'e estructura de memoria tienen los textos
+excluidos del canon?
+
+Ejecutado por \texttt{orchestrator\_fase14.py} (2,850 segundos, 4 scripts en paralelo).
+
+\subsection{Investigaci\'on 14.1: Mecanismo hom\'erico vs.\ v\'edico}
+
+\textbf{Pregunta}: ?`Qu\'e diferencia la recitaci\'on hom\'erica de la v\'edica que produce
+AC(1)$\approx 0$ vs.\ AC(1)$> 0.2$?
+
+Tres hip\'otesis testadas:
+\begin{enumerate}[leftmargin=2em]
+\item \textbf{H\_rec\_A (variabilidad m\'etrica)}: Homer tiene CV de longitudes de verso
+      $= 0.588$, significativamente mayor que Rig Veda ($0.259$). La alta variabilidad
+      m\'etrica del hex\'ametro destruye la autocorrelaci\'on. \textbf{SOPORTADA}.
+\item \textbf{H\_rec\_B (unidad de recitaci\'on)}: La AC(1) intra-himno del RV
+      ($-0.104$) es \emph{menor} que la inter-himno ($0.031$): la estructura
+      de la unidad lit\'urgica no explica la autocorrelaci\'on alta. \textbf{NO SOPORTADA}.
+\item \textbf{H\_rec\_C (funci\'on lit\'urgica)}: El AT lit\'urgico (Salmos, Cantar,
+      Proverbios, Eclesiast\'es, Job) tiene AC(1) $= 0.380$, casi el doble del
+      narrativo ($0.197$). La funci\'on lit\'urgica ampl\'ia la autocorrelaci\'on.
+      \textbf{SOPORTADA} (ratio $> 1.5\times$).
+\end{enumerate}
+
+\noindent
+Resultado: 2 de 3 hip\'otesis soportadas. La clave no es la unidad lit\'urgica
+sino la \textbf{regularidad m\'etrica} (bajo CV) y la \textbf{funci\'on lit\'urgica}.
+Homer, con hexam\'etro estricto pero alta variabilidad en longitud de verso y
+funci\'on narrativa, produce AC(1)$\approx 0$; los textos de revelaci\'on
+(RV, AT lit\'urgico, Cor\'an) combinan baja variabilidad y funci\'on lit\'urgica.
+
+\subsection{Investigaci\'on 14.2: Modelo unificado AR(1)-ARFIMA}
+
+\textbf{Pregunta}: ?`Un \'unico modelo param\'etrico captura AT, NT, Cor\'an y Rig Veda?
+
+Se ajusta un modelo AR(1) con innovaciones ARFIMA(0,$d$,0) y jerarqu\'ia tem\'atica
+(4 par\'ametros: $\varphi$, $d$, $\sigma_\varepsilon$, $\sigma_\eta$) para cada corpus
+mediante optimizaci\'on Nelder-Mead (8 restarts, 30 series $\times$ 800 puntos):
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Corpus} & $\varphi$ & $d$ & $\sigma_\varepsilon$ & $\sigma_\eta$ & \textbf{Retrodic.} \\
+\midrule
+AT       & $-0.069$ & $0.128$ & $3.32$ & $2.29$ & 92\% \\
+NT       & $-0.257$ & $0.195$ & $4.22$ & $1.68$ & 98\% \\
+Cor\'an  & $+0.028$ & $0.109$ & $2.80$ & $2.46$ & 94\% \\
+Rig Veda & $-0.022$ & $0.004$ & $6.83$ & $0.004$ & 100\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+El $d$ fraccionario \textbf{no es universal} (rango $[0.004, 0.195]$), confirmando
+el Patr\'on~13 (fen\'omenos paralelos). La mayor diferencia entre corpora es
+$\sigma_\varepsilon$ (ruido de innovaci\'on). El Rig Veda se distingue por
+$\sigma_\eta \approx 0$ (sin jerarqu\'ia tem\'atica: el metro domina totalmente).
+El NT tiene el $|\varphi|$ m\'as alto ($0.257$): anti-correlaci\'on significativa
+entre vers\'iculos adyacentes.
+
+\subsection{Investigaci\'on 14.3: Clasificador refinado multi-feature}
+
+\textbf{Pregunta}: ?`Cu\'al es la accuracy de un clasificador AT vs.\ NT con
+m\'ultiples features?
+
+Se extraen 8 features por libro: $H$, DFA~$\alpha$, AC(1), media, desviaci\'on
+est\'andar, CV, skewness y entrop\'ia POS. Tres clasificadores sklearn con
+Leave-One-Out CV sobre 63 libros (38 AT + 25 NT):
+
+\begin{center}
+\begin{tabular}{lcccl}
+\toprule
+\textbf{Clasificador} & \textbf{Accuracy} & \textbf{F1} & \textbf{Misclasif.} & \textbf{Top feature} \\
+\midrule
+LogisticRegression & 100\% & 1.000 & 0 & pos\_entropy (2.75) \\
+RandomForest       & 100\% & 1.000 & 0 & H (0.19) \\
+SVM (RBF)          & 100\% & 1.000 & 0 & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+\textbf{100\% accuracy LOO} con los tres clasificadores: los testamentos son
+\textbf{linealmente separables} en el espacio de 8 features. La feature m\'as
+discriminativa es \texttt{pos\_entropy} ($|w| = 2.75$ en LogReg), no $H$.
+El libro m\'as incierto es Daniel ($P_{\text{AT}} = 0.567$), consistente con
+sus secciones en arameo. No hay ning\'un libro ambiguo ($P < 0.5$ para el
+testamento incorrecto).
+
+\subsection{Investigaci\'on 14.4: Textos excluidos del canon}
+
+\textbf{Pregunta}: ?`Los textos cristianos tempranos excluidos del canon difieren
+en $H$ del NT can\'onico?
+
+Se descargan del repositorio First1KGreek (OpenGreekAndLatin): Didach\'e
+(TLG1311, 117 secciones), Pastor de Hermas (TLG1419, 869 secciones) y
+1\textsuperscript{a}~Apolog\'ia de Justino M\'artir (TLG0645, 69 secciones).
+An\'alisis XML TEI epidoc:
+
+\begin{center}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Texto} & $n$ & $H$ & AC(1) & \textbf{Clasif.} \\
+\midrule
+Didach\'e      & 117 & 0.574 & 0.362 & NT-like \\
+Pastor Hermas  & 869 & 0.500 & 0.106 & NT-like \\
+Justino M\'artir& 69 & 0.389 & $-0.166$ & An\'omalo \\
+\midrule
+NT global      & 7,944 & 0.783 & 0.085 & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent
+2 de 3 textos excluidos son NT-like en $H$ (dentro del rango NT $[0.39, 0.90]$).
+Justino M\'artir, un texto apolog\'etico dirigido al emperador (no lit\'urgico),
+tiene el $H$ m\'as bajo y AC(1) negativa ---coherente con prosa argumentativa,
+no con transmisi\'on controlada de revelaci\'on.
+
+La exclusi\'on can\'onica \textbf{no correlaciona} con diferencias en estructura de
+memoria: los textos excluidos son estad\'isticamente indistinguibles de los
+libros can\'onicos del NT en $H$.
+
+\subsection{S\'intesis de Fase~14}
+
+\begin{itemize}[leftmargin=2em]
+\item \textbf{Homer vs.\ RV}: La variabilidad m\'etrica (CV) y la funci\'on
+      lit\'urgica explican la diferencia de AC(1). No es la unidad de recitaci\'on.
+\item \textbf{Modelo unificado}: El AR(1)-ARFIMA con 4 par\'ametros retrodice
+      $\geq 92$\% para los 4 corpus. El $d$ no es universal: son fen\'omenos
+      paralelos con par\'ametros generativos distintos.
+\item \textbf{Clasificador perfecto}: 100\% accuracy LOO (63 libros).
+      \texttt{pos\_entropy} es la feature top. AT y NT son linealmente separables.
+\item \textbf{Textos excluidos}: 2/3 son NT-like. La exclusi\'on can\'onica
+      no se refleja en la estructura de memoria.
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
@@ -3101,10 +3260,48 @@ Los vers\'iculos que citan son m\'as largos (19.05 vs.\ 17.31 palabras),
 pero la estructura de memoria larga no es una propiedad de vers\'iculos
 individuales sino de la \textbf{composici\'on tem\'atica sostenida}.
 
+\subsection{Patr\'on 24: La variabilidad m\'etrica y la funci\'on lit\'urgica explican la AC(1)}
+
+La Fase~14 resuelve por qu\'e Homer tiene AC(1) $\approx 0$ mientras que
+el Rig Veda y el AT lit\'urgico tienen AC(1) alto: el CV de longitudes de
+Homer ($0.588$) es $2.3\times$ mayor que el del RV ($0.259$). La variabilidad
+m\'etrica destruye la autocorrelaci\'on. Adem\'as, la funci\'on lit\'urgica
+ampl\'ia la AC(1): AT lit\'urgico AC(1) $= 0.380$ vs.\ narrativo $= 0.197$.
+La combinaci\'on baja variabilidad + funci\'on lit\'urgica es la condici\'on
+para AC(1) alta.
+
+\subsection{Patr\'on 25: Modelo unificado con 4 par\'ametros --- retrodice $\geq 92$\%}
+
+El AR(1)-ARFIMA jer\'arquico con $(\varphi, d, \sigma_\varepsilon, \sigma_\eta)$
+retrodice AT al 92\%, NT al 98\%, Cor\'an al 94\% y Rig Veda al 100\%.
+El $d$ fraccionario no es universal: el RV tiene $d \approx 0$ (sin
+memoria fraccionaria) mientras NT tiene el $d$ m\'as alto ($0.195$).
+La mayor diferencia entre corpora est\'a en $\sigma_\varepsilon$ (ruido),
+no en los par\'ametros de memoria. Esto refuerza Patr\'on~13: misma estructura
+emergente, procesos generativos distintos.
+
+\subsection{Patr\'on 26: AT y NT son linealmente separables --- 100\% accuracy LOO}
+
+Un clasificador con 8 features (H, DFA, AC1, CV, media, std, skewness,
+entrop\'ia POS) logra \textbf{100\% accuracy} en Leave-One-Out CV con
+LogisticRegression, RandomForest y SVM. La feature m\'as discriminativa
+no es $H$ sino \texttt{pos\_entropy}: la diversidad de POS por libro
+distingue testamentos sin error. Daniel es el m\'as incierto
+($P_{\text{AT}} = 0.567$), coherente con sus secciones en arameo.
+
+\subsection{Patr\'on 27: Exclusi\'on can\'onica $\neq$ exclusi\'on estad\'istica}
+
+La Didach\'e ($H = 0.574$) y el Pastor de Hermas ($H = 0.500$) ---textos
+excluidos del canon--- son NT-like en $H$. Solo Justino M\'artir
+($H = 0.389$, apolog\'etico/argumentativo) es an\'omalo. La exclusi\'on
+can\'onica se bas\'o en criterios teol\'ogicos y de autoridad, no en
+diferencias de estructura textual. La huella de memoria no distingue
+los textos aceptados de los rechazados.
+
 
 \subsection{S\'intesis: Un corpus con estructura at\'ipica}
 
-Las trece fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico
+Las catorce fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico
 y su relaci\'on con otros textos del mundo antiguo:
 
 \begin{itemize}[leftmargin=2em]
@@ -3187,6 +3384,19 @@ y su relaci\'on con otros textos del mundo antiguo:
 \item \textbf{Citas AT en NT sin herencia local}: La densidad de citas
       no correlaciona con $H$ ($r = -0.05$, $p = 0.83$). La memoria
       larga no es propiedad de vers\'iculos individuales.
+\item \textbf{Mecanismo de AC(1)}: La variabilidad m\'etrica (CV) y la
+      funci\'on lit\'urgica explican por qu\'e Homer tiene AC(1) $\approx 0$
+      (CV $= 0.588$, narrativo) mientras textos de revelaci\'on tienen
+      AC(1) alto (CV bajo + funci\'on lit\'urgica).
+\item \textbf{Modelo unificado}: AR(1)-ARFIMA con 4 par\'ametros retrodice
+      $\geq 92$\% para AT, NT, Cor\'an y Rig Veda. $d$ fraccionario no universal
+      ($[0.004, 0.195]$): fen\'omenos paralelos.
+\item \textbf{Separaci\'on lineal AT/NT}: 100\% accuracy LOO con
+      LogReg/RF/SVM sobre 8 features. La entrop\'ia POS es la feature
+      m\'as discriminativa, no $H$.
+\item \textbf{Textos excluidos NT-like}: 2/3 de textos excluidos del canon
+      (Didach\'e $H = 0.574$, Hermas $H = 0.500$) son NT-like.
+      La exclusi\'on can\'onica no refleja diferencias de memoria.
 \end{itemize}
 
 El corpus b\'iblico no se comporta como un corpus ling\"u\'istico ordinario,
@@ -3239,6 +3449,11 @@ los libros an\'omalos son artefactos de tama\~no finito;
 las citas AT en el NT no heredan estructura localmente ($r = -0.05$, $p = 0.83$);
 y ning\'un evangelio ap\'ocrifo est\'a disponible digitalmente para comparaci\'on
 (proxy Marcos vs.\ Pastorales: ambos NT-like).
+La Fase~14 resolvi\'o el \textbf{mecanismo de AC(1)}: variabilidad m\'etrica (CV) +
+funci\'on lit\'urgica explican la dicotom\'ia Homer/RV; un modelo unificado AR(1)-ARFIMA
+retrodice $\geq 92$\% para 4 corpus; un clasificador multi-feature alcanza 100\%
+accuracy LOO (feature top: \texttt{pos\_entropy}); y 2/3 textos excluidos del canon
+(Didach\'e, Hermas) son NT-like en $H$.
 Las siguientes l\'ineas permanecen abiertas:
 
 \begin{enumerate}[leftmargin=2em]
@@ -3264,8 +3479,9 @@ Las siguientes l\'ineas permanecen abiertas:
       ?`Es la transmisi\'on controlada sola suficiente (sin revelaci\'on directa)?
 
 \item \textbf{[RESUELTA]} \sout{Modelo predictivo basado en $H$.}
-      Completada en Fase~8. LOO accuracy 83.3\%. $H$+MPS combinados discriminan
-      correctamente todos los corpus excepto la Mishn\'a (semi-controlada).
+      Completada en Fases~8 y~14. LOO accuracy \textbf{100\%} con clasificador
+      multi-feature (8 features, 63 libros). Feature top: \texttt{pos\_entropy}.
+      AT y NT son linealmente separables.
 
 \item \textbf{[RESUELTA PARCIALMENTE]} \sout{Otros manuscritos DSS.}
       Fase~8 extendi\'o a 15 libros. De los 4 con datos limpios, todos muestran

@@ -1,0 +1,58 @@
+{
+  "Homer": {
+    "n": 15136,
+    "mean_words": 15.6,
+    "std_words": 9.17,
+    "CV_words": 0.588,
+    "AC1_words": -0.0043,
+    "CV_syllables": 0.5935,
+    "AC1_syllables": -0.0009
+  },
+  "Rig_Veda": {
+    "n": 10556,
+    "mean_words": 7.91,
+    "std_words": 2.05,
+    "CV_words": 0.2594,
+    "AC1_words": 0.2046
+  },
+  "AT_all": {
+    "n": 23096,
+    "mean_words": 13.23,
+    "std_words": 6.04,
+    "CV_words": 0.4564,
+    "AC1_words": 0.3359
+  },
+  "Corán": {
+    "n": 6236,
+    "mean_words": 12.42,
+    "std_words": 9.42,
+    "CV_words": 0.7584,
+    "AC1_words": 0.4722
+  },
+  "AT_narrative": {
+    "n": 10171,
+    "CV_words": 0.4134,
+    "AC1_words": 0.1973
+  },
+  "AT_legal": {
+    "n": 3107,
+    "CV_words": 0.4057,
+    "AC1_words": 0.1196
+  },
+  "AT_prophetic": {
+    "n": 5084,
+    "CV_words": 0.3857,
+    "AC1_words": 0.1056
+  },
+  "AT_liturgical": {
+    "n": 4734,
+    "CV_words": 0.353,
+    "AC1_words": 0.3795
+  },
+  "H_rec_A_verdict": {
+    "Homer_CV": 0.588,
+    "RV_CV": 0.2594,
+    "Homer_higher_CV": true,
+    "supports_hypothesis": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "H_rec_A_supported": true,
+  "H_rec_B_supported": false,
+  "H_rec_C_supported": true,
+  "supported_hypotheses": [
+    "H_rec_A",
+    "H_rec_C"
+  ],
+  "best_explanation": "H_rec_A",
+  "summary": "2 de 3 hipótesis soportadas. Hipótesis soportadas: H_rec_A, H_rec_C"
+}

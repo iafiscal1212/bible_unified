@@ -1,0 +1,110 @@
+{
+  "phase": 14,
+  "title": "Cuatro Investigaciones en Paralelo — Fase 14",
+  "timestamp": "2026-03-16T13:45:48",
+  "total_elapsed_seconds": 2850.0,
+  "scripts": [
+    {
+      "name": "homeric_vs_vedic",
+      "question": "¿Qué diferencia la recitación homérica de la védica?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 4,
+      "output_files": [
+        "cv_comparison.json",
+        "function_ac1.json",
+        "intra_vs_inter_unit_ac1.json",
+        "verdict.json"
+      ],
+      "Homer_AC1": -0.0043,
+      "Homer_CV": 0.588,
+      "Rig_Veda_AC1": 0.2046,
+      "Rig_Veda_CV": 0.2594,
+      "AT_all_AC1": 0.3359,
+      "AT_all_CV": 0.4564,
+      "Corán_AC1": 0.4722,
+      "Corán_CV": 0.7584,
+      "supported_hypotheses": [
+        "H_rec_A",
+        "H_rec_C"
+      ],
+      "best_explanation": "H_rec_A"
+    },
+    {
+      "name": "unified_model",
+      "question": "¿Un modelo AR(1)-ARFIMA unifica AT/Corán/Rig Veda?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 6,
+      "output_files": [
+        "corpus_targets.json",
+        "fitted_params.json",
+        "retrodiction.json",
+        "verdict.json",
+        "parameter_space.json",
+        "boundary_analysis.json"
+      ],
+      "AT_phi": -0.0692,
+      "AT_d": 0.1284,
+      "NT_phi": -0.2566,
+      "NT_d": 0.1952,
+      "Corán_phi": 0.0275,
+      "Corán_d": 0.1092,
+      "Rig_Veda_phi": -0.022,
+      "Rig_Veda_d": 0.0044,
+      "AT_retrodiction_pct": 92.0,
+      "NT_retrodiction_pct": 98.0,
+      "Corán_retrodiction_pct": 94.0,
+      "Rig_Veda_retrodiction_pct": 100.0,
+      "d_universal": false,
+      "d_range": [
+        0.0044,
+        0.1952
+      ]
+    },
+    {
+      "name": "refined_classifier",
+      "question": "¿Cuál es la accuracy del clasificador multi-feature AT vs NT?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 3,
+      "output_files": [
+        "classifier_results.json",
+        "verdict.json",
+        "book_features.json"
+      ],
+      "best_classifier": "LogisticRegression",
+      "best_accuracy": 1.0,
+      "n_misclassified": 0,
+      "misclassified": [],
+      "top_feature": "pos_entropy",
+      "d_universal": null,
+      "d_range": null
+    },
+    {
+      "name": "excluded_canon",
+      "question": "¿Los textos excluidos del canon difieren en H del NT canónico?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 4,
+      "output_files": [
+        "corpus_availability.json",
+        "excluded_vs_canonical.json",
+        "proxy_analysis.json",
+        "verdict.json"
+      ],
+      "texts_found": 3,
+      "Hermas_H": 0.4999,
+      "Hermas_AC1": 0.1059,
+      "JustinMartyr_H": 0.3891,
+      "JustinMartyr_AC1": -0.1656,
+      "Didache_H": 0.5739,
+      "Didache_AC1": 0.3622,
+      "Hermas_classification": "NT-like",
+      "JustinMartyr_classification": "anomalous",
+      "Didache_classification": "NT-like",
+      "d_universal": null,
+      "d_range": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Didache": {
+    "found": true,
+    "name": "Didache",
+    "n_sections": 117,
+    "mean_words": 56.25
+  },
+  "Hermas": {
+    "found": true,
+    "name": "Pastor de Hermas",
+    "file": "/tmp/first1kgreek/Hermas/tlg1419.tlg001.1st1K-grc1.xml",
+    "n_sections": 869,
+    "mean_words": 131.77
+  },
+  "JustinMartyr": {
+    "found": true,
+    "name": "Justino Mártir — 1ª Apología",
+    "file": "/tmp/first1kgreek/JustinMartyr/tlg0645.tlg001.1st1K-grc1.xml",
+    "n_sections": 69,
+    "mean_words": 418.62
+  }
+}
