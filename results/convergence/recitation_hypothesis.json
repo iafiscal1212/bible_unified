@@ -1,0 +1,112 @@
+{
+  "groups": {
+    "at_like": [
+      {
+        "label": "AT",
+        "cv": 0.4564,
+        "mean": 13.2287,
+        "autocorr_1": 0.3359
+      },
+      {
+        "label": "Corán",
+        "cv": 0.7584,
+        "mean": 12.4165,
+        "autocorr_1": 0.4722
+      },
+      {
+        "label": "Rig Veda",
+        "cv": 0.4154,
+        "mean": 7.5668,
+        "autocorr_1": 0.8564
+      }
+    ],
+    "nt_like": [
+      {
+        "label": "NT",
+        "cv": 0.3841,
+        "mean": 17.2562,
+        "autocorr_1": 0.0993
+      }
+    ],
+    "libre": [
+      {
+        "label": "Homero",
+        "cv": 0.5881,
+        "mean": 15.5959,
+        "autocorr_1": -0.0043
+      },
+      {
+        "label": "Heródoto",
+        "cv": 0.5964,
+        "mean": 21.2875,
+        "autocorr_1": -0.021
+      }
+    ]
+  },
+  "tests": {
+    "cv": {
+      "at_like_mean": 0.5434,
+      "at_like_values": [
+        0.4564,
+        0.7584,
+        0.4154
+      ],
+      "other_mean": 0.5229,
+      "other_values": [
+        0.3841,
+        0.5881,
+        0.5964
+      ],
+      "ratio": 1.0393,
+      "distinguishes": false
+    },
+    "mean": {
+      "at_like_mean": 11.0707,
+      "at_like_values": [
+        13.2287,
+        12.4165,
+        7.5668
+      ],
+      "other_mean": 18.0465,
+      "other_values": [
+        17.2562,
+        15.5959,
+        21.2875
+      ],
+      "ratio": 0.6135,
+      "distinguishes": true
+    },
+    "autocorr_1": {
+      "at_like_mean": 0.5548,
+      "at_like_values": [
+        0.3359,
+        0.4722,
+        0.8564
+      ],
+      "other_mean": 0.0247,
+      "other_values": [
+        0.0993,
+        -0.0043,
+        -0.021
+      ],
+      "ratio": 22.4932,
+      "distinguishes": true
+    }
+  },
+  "recitation_hypothesis": {
+    "description": "H_conv: textos AT-like tienen unidades textuales diseñadas para recitación oral con restricciones métricas que producen autocorrelación de longitud",
+    "cv_threshold": 0.8342,
+    "cv_at_like": [
+      0.4564,
+      0.7584,
+      0.4154
+    ],
+    "autocorr_at_like": [
+      0.3359,
+      0.4722,
+      0.8564
+    ],
+    "status": "PARTIALLY_TESTABLE",
+    "note": "Con solo 2-3 corpus AT-like no hay poder estadístico para confirmar/refutar. Los datos son sugestivos pero no concluyentes. Se necesitan más textos."
+  }
+}

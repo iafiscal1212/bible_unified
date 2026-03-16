@@ -1,0 +1,86 @@
+{
+  "greedy_max_order": [
+    "2 Timothy",
+    "2 John",
+    "2 Corinthians",
+    "Colossians",
+    "Philemon",
+    "Revelation",
+    "Hebrews",
+    "1 John",
+    "Galatians",
+    "Titus",
+    "Romans",
+    "3 John",
+    "Jude",
+    "Philippians",
+    "1 Peter",
+    "1 Thessalonians",
+    "James",
+    "2 Peter",
+    "2 Thessalonians",
+    "1 Timothy",
+    "Luke",
+    "Acts",
+    "Ephesians",
+    "1 Corinthians",
+    "Mark",
+    "John",
+    "Matthew"
+  ],
+  "greedy_max_H": 0.8156317932844765,
+  "greedy_min_order": [
+    "3 John",
+    "Philippians",
+    "1 Peter",
+    "2 John",
+    "2 Thessalonians",
+    "Jude",
+    "2 Peter",
+    "Philemon",
+    "2 Timothy",
+    "Ephesians",
+    "James",
+    "Galatians",
+    "Titus",
+    "1 Timothy",
+    "Romans",
+    "John",
+    "1 Thessalonians",
+    "Acts",
+    "Matthew",
+    "Mark",
+    "2 Corinthians",
+    "Colossians",
+    "Hebrews",
+    "1 Corinthians",
+    "1 John",
+    "Revelation",
+    "Luke"
+  ],
+  "greedy_min_H": 0.7641832474083106,
+  "canonical_H": 0.7249853463210817,
+  "canonical_is_optimal": false,
+  "similarity_to_historical": {
+    "canonical": {
+      "kendall_tau": -0.38461538461538464,
+      "p_value": 0.0044701389004354365
+    },
+    "vaticanus": {
+      "kendall_tau": -0.4074074074074075,
+      "p_value": 0.0024966938788110117
+    },
+    "marcion": {
+      "kendall_tau": 0.0909090909090909,
+      "p_value": 0.7611503928170594
+    },
+    "chronological": {
+      "kendall_tau": -0.08262108262108263,
+      "p_value": 0.562905829997928
+    },
+    "peshitta": {
+      "kendall_tau": -0.45454545454545453,
+      "p_value": 0.0026144720102174645
+    }
+  }
+}

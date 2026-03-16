@@ -1,0 +1,34 @@
+{
+  "synthetic_results": {
+    "ot_like": {
+      "n": 500,
+      "H_mean": 0.5812,
+      "H_std": 0.0425,
+      "H_median": 0.5789,
+      "pct_above_0.9": 0.0,
+      "pct_above_0.8": 0.0
+    },
+    "nt_like": {
+      "n": 500,
+      "H_mean": 0.5695,
+      "H_std": 0.0412,
+      "H_median": 0.5681,
+      "pct_above_0.9": 0.0,
+      "pct_above_0.8": 0.0
+    },
+    "iid": {
+      "n": 500,
+      "H_mean": 0.5678,
+      "H_std": 0.0401,
+      "H_median": 0.568,
+      "pct_above_0.9": 0.0,
+      "pct_above_0.8": 0.0
+    }
+  },
+  "conclusion": "AR(1) con autocorrelación AT-like NO reproduce H>0.9 — se requiere memoria de orden superior",
+  "ot_params": {
+    "mean_vl": 13.83651111111111,
+    "cv": 0.3793305555555555,
+    "autocorr_lag1": 0.09219444444444445
+  }
+}

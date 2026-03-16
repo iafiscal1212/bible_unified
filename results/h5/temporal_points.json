@@ -1,0 +1,61 @@
+[
+  {
+    "text": "AT / Isaiah",
+    "transmission": "controlled",
+    "canonization_event": "Council of Jamnia ~90 CE (traditional date; debated)",
+    "canonization_date": 90,
+    "pre_canonization_point": {
+      "date": -100,
+      "H": 0.6806,
+      "alpha": 0.716,
+      "source": "1QIsa^a (Dead Sea Scrolls)",
+      "note": "Complete scroll, verse-level segmentation"
+    },
+    "post_canonization_point": {
+      "date": 1000,
+      "H": 0.6723,
+      "alpha": 0.7046,
+      "source": "WLC (Westminster Leningrad Codex)",
+      "note": "Masoretic text"
+    },
+    "delta_H": 0.008299999999999974,
+    "mann_whitney_p": 0.7116,
+    "conclusion": "H is statistically identical before and after canonization"
+  },
+  {
+    "text": "Corán",
+    "transmission": "controlled",
+    "canonization_event": "Uthmanic codex ~650 CE",
+    "canonization_date": 650,
+    "pre_canonization_point": null,
+    "post_canonization_point": {
+      "date": 650,
+      "H": 0.9826,
+      "alpha": 0.9082,
+      "source": "Quranic Arabic Corpus v0.4",
+      "note": "Based on Uthmanic tradition; effectively post-canonization"
+    },
+    "delta_H": null,
+    "mann_whitney_p": null,
+    "conclusion": "No pre-canonization corpus available. Cannot test H5a vs H5b.",
+    "required_corpus": "A digital morphologically-tagged transcription of a pre-Uthmanic Quran manuscript (e.g., Codex Parisino-Petropolitanus, ~640-680 CE, or Birmingham manuscript, ~568-645 CE) would provide a pre-canonization data point. These manuscripts exist but are not available as tagged digital corpora."
+  },
+  {
+    "text": "Rig Veda",
+    "transmission": "controlled",
+    "canonization_event": "No single canonization event; oral tradition formalized over centuries",
+    "canonization_date": null,
+    "pre_canonization_point": null,
+    "post_canonization_point": {
+      "date": 1000,
+      "H": 0.9336,
+      "alpha": 0.8486,
+      "source": "Digital Corpus of Sanskrit (DCS)",
+      "note": "Based on modern critical editions of oral tradition"
+    },
+    "delta_H": null,
+    "mann_whitney_p": null,
+    "conclusion": "No pre-canonization corpus available. The Rig Veda has no single canonization event — it was transmitted orally with extreme control (padapatha, vikrtipatha methods) for millennia before first manuscripts (~1000 CE). The concept of pre/post canonization does not cleanly apply.",
+    "required_corpus": "Not applicable: the Rig Veda has no pre-canonization written text. The earliest manuscripts already reflect millennia of controlled oral transmission. The H5a/H5b distinction is not testable for purely oral traditions."
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "source": "LXX-Rahlfs-Hanhart (eliranwong)",
+    "repo": "https://github.com/eliranwong/LXX-Rahlfs-Hanhart",
+    "cloned": false,
+    "error": "Could not clone repository"
+  },
+  {
+    "source": "OpenScriptures LXX",
+    "repo": "https://github.com/openscriptures/LXX",
+    "cloned": false,
+    "error": "Could not clone repository"
+  },
+  {
+    "source": "CCAT LXX Morphology (jtauber)",
+    "repo": "https://github.com/jtauber/lxx-swete",
+    "cloned": true,
+    "total_text_files": 120,
+    "pentateuch_files": [
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/01.Gen.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/03.Lev.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/04.Num.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/norm/01.Gen.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/norm/03.Lev.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/norm/04.Num.txt"
+    ],
+    "sample_files": [
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/09.1Sa.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/31.Amo.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/56.3Ma.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/15.1Es.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/60.Ode.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/17.Neh.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/34.Oba.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/30.Hos.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/19.Pro.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber/25.Sir.txt"
+    ],
+    "path": "/home/caresment/bible_unified/results/comparison_corpora/lxx/CCAT_LXX_Morphology_jtauber"
+  },
+  {
+    "source": "Perseus Digital Library (tlg0527)",
+    "repo": "https://github.com/PerseusDL/canonical-greekLit",
+    "cloned": true,
+    "total_text_files": 2557,
+    "pentateuch_files": [],
+    "sample_files": [
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/manifest.txt",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/build.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/repo.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/expath-pkg.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg1389/__cts__.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg0058/__cts__.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg1271/__cts__.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg0090/__cts__.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg0007/__cts__.xml",
+      "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527/data/tlg0545/__cts__.xml"
+    ],
+    "path": "/home/caresment/bible_unified/results/comparison_corpora/lxx/Perseus_Digital_Library_tlg0527"
+  }
+]

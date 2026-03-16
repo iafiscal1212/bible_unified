@@ -1,0 +1,52 @@
+{
+  "question": "What corpus would definitively distinguish H5a from H5b?",
+  "requirements": [
+    "A text with KNOWN composition date",
+    "A pre-canonization version (digital, morphologically tagged)",
+    "A post-canonization version (digital, morphologically tagged)",
+    "Both versions segmentable by the same textual unit",
+    "Documented transmission history between the two versions"
+  ],
+  "candidates": [
+    {
+      "corpus": "Pre-Uthmanic Quran manuscripts",
+      "feasibility": "Medium",
+      "composition": "~610-632 CE",
+      "canonization": "~650 CE (Uthmanic codex)",
+      "pre_canon_source": "Birmingham manuscript (~568-645 CE), Codex Parisino-Petropolitanus (~640-680 CE)",
+      "status": "Manuscript images available; no morphologically-tagged digital corpus exists",
+      "effort": "Requires Arabic NLP pipeline + manual verification"
+    },
+    {
+      "corpus": "Septuagint (LXX) vs Masoretic",
+      "feasibility": "High",
+      "composition": "~700-400 BCE (Hebrew original)",
+      "canonization": "~90 CE (Jamnia, MT tradition)",
+      "pre_canon_source": "LXX (~250 BCE, Greek translation from pre-Masoretic Hebrew)",
+      "status": "CATSS and Rahlfs LXX are digitally available",
+      "effort": "Moderate: LXX is in Greek (translation), not Hebrew. Comparing H across languages introduces confounds. Still, if LXX Greek Isaiah has similar H to DSS Hebrew Isaiah, it would support H5a.",
+      "caveat": "LXX is a TRANSLATION, not a copy. Language change affects H independently of transmission."
+    },
+    {
+      "corpus": "Samaritan Pentateuch vs Masoretic Pentateuch",
+      "feasibility": "High",
+      "composition": "~1400-400 BCE (Torah)",
+      "canonization": "Split ~400 BCE (Samaritan) vs ~90 CE (Masoretic)",
+      "pre_canon_source": "Samaritan Pentateuch (independent transmission since ~400 BCE)",
+      "status": "Digital texts available (various quality); some morphological tagging exists",
+      "effort": "Moderate: same language (Hebrew), independent transmission lines, both pre-date final MT canonization",
+      "note": "This is the STRONGEST candidate: same language, same text, two independent transmission lines diverging ~400 BCE. If both show similar H, it confirms H5a (structure predates the split). If MT shows higher H, it supports H5b."
+    },
+    {
+      "corpus": "Vulgate Latin vs Greek NT",
+      "feasibility": "Medium",
+      "composition": "~50-100 CE (Greek NT)",
+      "canonization": "~380 CE (Jerome's Vulgate as Latin canon)",
+      "pre_canon_source": "Greek NT manuscripts (P66, P75, Codex Sinaiticus)",
+      "status": "Both digitally available with morphological tagging",
+      "effort": "Cross-language comparison (Greek→Latin translation), same caveats as LXX",
+      "caveat": "Translation confound"
+    }
+  ],
+  "recommendation": "The Samaritan Pentateuch vs Masoretic Pentateuch comparison is the most promising: same language, same base text, independent transmission since ~400 BCE. If both show similar H, H5a is confirmed (structure predates the divergence). If MT shows higher H, H5b gains support. A tagged digital Samaritan Pentateuch would resolve the question."
+}

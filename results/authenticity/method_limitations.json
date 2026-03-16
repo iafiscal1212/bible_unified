@@ -1,0 +1,35 @@
+{
+  "limitations": [
+    {
+      "id": "L1",
+      "title": "Segmentation sensitivity",
+      "description": "H depends critically on the unit of segmentation (verse, line, strophe). As documented in Phase 7 correction, different units can produce ΔH up to 0.20. Cross-corpus comparisons require functionally equivalent units."
+    },
+    {
+      "id": "L2",
+      "title": "Corpus size effects",
+      "description": "Smaller corpora (< 1,000 units) may show more variable H estimates. The Mishnah (471 units) and Heródoto (1,555 units) have fewer data points than the AT (23,213 units). Size-dependent bias is not corrected."
+    },
+    {
+      "id": "L3",
+      "title": "Language confound",
+      "description": "H may be influenced by language-specific properties (morphological complexity, word order flexibility, compounding patterns). The current model does not control for language family beyond grouping."
+    },
+    {
+      "id": "L4",
+      "title": "Genre confound",
+      "description": "Different literary genres (poetry, prose, legal, narrative) show different H. Mixed-genre corpora (like the full AT) combine these. Genre composition could explain some H variation independent of transmission."
+    },
+    {
+      "id": "L5",
+      "title": "Small reference set",
+      "description": "Only 7 reference corpora are available. The model is severely underdetermined. Statistical power is low."
+    },
+    {
+      "id": "L6",
+      "title": "Anomalies are statistical, not historical",
+      "description": "A book with anomalous z-score may reflect genre, size, or transmission variation — not necessarily different authorship or dating. These anomalies should be treated as hypotheses for further investigation, never as evidence."
+    }
+  ],
+  "overall_assessment": "The H-based authenticity tool is INDICATIVE, not DEFINITIVE. It can flag statistical outliers for further investigation by textual scholars, but cannot make claims about authorship, dating, or textual integrity. The method's validity depends on controlling for segmentation, corpus size, language, and genre — all of which are imperfectly controlled in this study."
+}

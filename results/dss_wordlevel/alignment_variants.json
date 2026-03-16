@@ -1,0 +1,1980 @@
+{
+  "total_operations": 23127,
+  "type_counts": {
+    "identical": 4854,
+    "orthographic": 1221,
+    "substitution_diff_pos": 6961,
+    "substitution_same_pos": 3601,
+    "deletion": 6139,
+    "insertion": 351
+  },
+  "n_variants": 18273,
+  "variant_rate": 0.7901,
+  "n_verses_common": 1290,
+  "n_verses_dss_only": 0,
+  "n_verses_wlc_only": 1,
+  "variant_density_by_chapter": [
+    {
+      "chapter": 1,
+      "total": 465,
+      "variants": 363,
+      "density": 0.7806,
+      "breakdown": {
+        "identical": 102,
+        "orthographic": 37,
+        "substitution_diff_pos": 125,
+        "substitution_same_pos": 96,
+        "deletion": 105
+      }
+    },
+    {
+      "chapter": 2,
+      "total": 370,
+      "variants": 305,
+      "density": 0.8243,
+      "breakdown": {
+        "substitution_diff_pos": 131,
+        "deletion": 117,
+        "identical": 65,
+        "substitution_same_pos": 37,
+        "orthographic": 9,
+        "insertion": 11
+      }
+    },
+    {
+      "chapter": 3,
+      "total": 369,
+      "variants": 309,
+      "density": 0.8374,
+      "breakdown": {
+        "identical": 60,
+        "substitution_diff_pos": 117,
+        "deletion": 117,
+        "substitution_same_pos": 56,
+        "orthographic": 18,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 4,
+      "total": 128,
+      "variants": 110,
+      "density": 0.8594,
+      "breakdown": {
+        "substitution_diff_pos": 43,
+        "substitution_same_pos": 15,
+        "deletion": 39,
+        "identical": 18,
+        "orthographic": 3,
+        "insertion": 10
+      }
+    },
+    {
+      "chapter": 5,
+      "total": 537,
+      "variants": 454,
+      "density": 0.8454,
+      "breakdown": {
+        "substitution_same_pos": 81,
+        "substitution_diff_pos": 200,
+        "deletion": 152,
+        "identical": 83,
+        "orthographic": 19,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 6,
+      "total": 260,
+      "variants": 214,
+      "density": 0.8231,
+      "breakdown": {
+        "substitution_diff_pos": 94,
+        "deletion": 72,
+        "identical": 46,
+        "substitution_same_pos": 37,
+        "orthographic": 9,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 7,
+      "total": 484,
+      "variants": 371,
+      "density": 0.7665,
+      "breakdown": {
+        "substitution_diff_pos": 152,
+        "deletion": 139,
+        "identical": 113,
+        "orthographic": 29,
+        "substitution_same_pos": 49,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 8,
+      "total": 433,
+      "variants": 347,
+      "density": 0.8014,
+      "breakdown": {
+        "substitution_diff_pos": 135,
+        "deletion": 134,
+        "identical": 86,
+        "substitution_same_pos": 61,
+        "orthographic": 15,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 9,
+      "total": 370,
+      "variants": 290,
+      "density": 0.7838,
+      "breakdown": {
+        "substitution_diff_pos": 116,
+        "substitution_same_pos": 56,
+        "deletion": 101,
+        "identical": 80,
+        "orthographic": 17
+      }
+    },
+    {
+      "chapter": 10,
+      "total": 572,
+      "variants": 457,
+      "density": 0.799,
+      "breakdown": {
+        "identical": 115,
+        "substitution_same_pos": 76,
+        "substitution_diff_pos": 172,
+        "deletion": 163,
+        "orthographic": 34,
+        "insertion": 12
+      }
+    },
+    {
+      "chapter": 11,
+      "total": 317,
+      "variants": 256,
+      "density": 0.8076,
+      "breakdown": {
+        "substitution_diff_pos": 118,
+        "deletion": 98,
+        "identical": 61,
+        "substitution_same_pos": 32,
+        "orthographic": 8
+      }
+    },
+    {
+      "chapter": 12,
+      "total": 87,
+      "variants": 72,
+      "density": 0.8276,
+      "breakdown": {
+        "substitution_diff_pos": 32,
+        "deletion": 24,
+        "identical": 15,
+        "substitution_same_pos": 13,
+        "orthographic": 3
+      }
+    },
+    {
+      "chapter": 13,
+      "total": 333,
+      "variants": 257,
+      "density": 0.7718,
+      "breakdown": {
+        "orthographic": 16,
+        "identical": 76,
+        "substitution_same_pos": 65,
+        "substitution_diff_pos": 94,
+        "deletion": 79,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 14,
+      "total": 502,
+      "variants": 401,
+      "density": 0.7988,
+      "breakdown": {
+        "identical": 101,
+        "orthographic": 31,
+        "substitution_diff_pos": 152,
+        "deletion": 126,
+        "substitution_same_pos": 89,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 15,
+      "total": 150,
+      "variants": 96,
+      "density": 0.64,
+      "breakdown": {
+        "orthographic": 14,
+        "identical": 54,
+        "substitution_diff_pos": 31,
+        "deletion": 25,
+        "substitution_same_pos": 26
+      }
+    },
+    {
+      "chapter": 16,
+      "total": 246,
+      "variants": 186,
+      "density": 0.7561,
+      "breakdown": {
+        "substitution_same_pos": 35,
+        "identical": 60,
+        "orthographic": 15,
+        "substitution_diff_pos": 63,
+        "deletion": 53,
+        "insertion": 20
+      }
+    },
+    {
+      "chapter": 17,
+      "total": 257,
+      "variants": 219,
+      "density": 0.8521,
+      "breakdown": {
+        "orthographic": 11,
+        "substitution_same_pos": 36,
+        "identical": 38,
+        "substitution_diff_pos": 86,
+        "deletion": 78,
+        "insertion": 8
+      }
+    },
+    {
+      "chapter": 18,
+      "total": 166,
+      "variants": 128,
+      "density": 0.7711,
+      "breakdown": {
+        "identical": 38,
+        "substitution_same_pos": 27,
+        "substitution_diff_pos": 48,
+        "deletion": 41,
+        "orthographic": 11,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 19,
+      "total": 466,
+      "variants": 368,
+      "density": 0.7897,
+      "breakdown": {
+        "orthographic": 17,
+        "identical": 98,
+        "substitution_diff_pos": 139,
+        "deletion": 139,
+        "substitution_same_pos": 59,
+        "insertion": 14
+      }
+    },
+    {
+      "chapter": 20,
+      "total": 134,
+      "variants": 107,
+      "density": 0.7985,
+      "breakdown": {
+        "substitution_diff_pos": 40,
+        "deletion": 38,
+        "identical": 27,
+        "substitution_same_pos": 22,
+        "orthographic": 7
+      }
+    },
+    {
+      "chapter": 21,
+      "total": 255,
+      "variants": 188,
+      "density": 0.7373,
+      "breakdown": {
+        "orthographic": 25,
+        "identical": 67,
+        "substitution_diff_pos": 61,
+        "substitution_same_pos": 47,
+        "deletion": 53,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 22,
+      "total": 430,
+      "variants": 334,
+      "density": 0.7767,
+      "breakdown": {
+        "orthographic": 26,
+        "identical": 96,
+        "substitution_same_pos": 64,
+        "substitution_diff_pos": 114,
+        "deletion": 122,
+        "insertion": 8
+      }
+    },
+    {
+      "chapter": 23,
+      "total": 272,
+      "variants": 209,
+      "density": 0.7684,
+      "breakdown": {
+        "orthographic": 16,
+        "identical": 63,
+        "substitution_same_pos": 51,
+        "substitution_diff_pos": 75,
+        "deletion": 53,
+        "insertion": 14
+      }
+    },
+    {
+      "chapter": 24,
+      "total": 350,
+      "variants": 274,
+      "density": 0.7829,
+      "breakdown": {
+        "identical": 76,
+        "orthographic": 20,
+        "substitution_diff_pos": 97,
+        "substitution_same_pos": 62,
+        "deletion": 94,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 25,
+      "total": 223,
+      "variants": 172,
+      "density": 0.7713,
+      "breakdown": {
+        "identical": 51,
+        "substitution_same_pos": 41,
+        "substitution_diff_pos": 60,
+        "deletion": 61,
+        "orthographic": 6,
+        "insertion": 4
+      }
+    },
+    {
+      "chapter": 26,
+      "total": 282,
+      "variants": 207,
+      "density": 0.734,
+      "breakdown": {
+        "substitution_diff_pos": 64,
+        "deletion": 47,
+        "identical": 75,
+        "substitution_same_pos": 70,
+        "orthographic": 18,
+        "insertion": 8
+      }
+    },
+    {
+      "chapter": 27,
+      "total": 241,
+      "variants": 190,
+      "density": 0.7884,
+      "breakdown": {
+        "substitution_diff_pos": 83,
+        "deletion": 67,
+        "identical": 51,
+        "substitution_same_pos": 31,
+        "orthographic": 8,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 28,
+      "total": 515,
+      "variants": 395,
+      "density": 0.767,
+      "breakdown": {
+        "identical": 120,
+        "orthographic": 36,
+        "substitution_same_pos": 66,
+        "substitution_diff_pos": 157,
+        "deletion": 133,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 29,
+      "total": 478,
+      "variants": 382,
+      "density": 0.7992,
+      "breakdown": {
+        "identical": 96,
+        "orthographic": 9,
+        "substitution_same_pos": 55,
+        "substitution_diff_pos": 156,
+        "deletion": 151,
+        "insertion": 11
+      }
+    },
+    {
+      "chapter": 30,
+      "total": 668,
+      "variants": 520,
+      "density": 0.7784,
+      "breakdown": {
+        "identical": 148,
+        "substitution_same_pos": 99,
+        "substitution_diff_pos": 200,
+        "deletion": 173,
+        "orthographic": 46,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 31,
+      "total": 216,
+      "variants": 167,
+      "density": 0.7731,
+      "breakdown": {
+        "identical": 49,
+        "substitution_diff_pos": 60,
+        "deletion": 60,
+        "substitution_same_pos": 34,
+        "insertion": 6,
+        "orthographic": 7
+      }
+    },
+    {
+      "chapter": 32,
+      "total": 275,
+      "variants": 213,
+      "density": 0.7745,
+      "breakdown": {
+        "substitution_same_pos": 50,
+        "substitution_diff_pos": 75,
+        "identical": 62,
+        "deletion": 70,
+        "orthographic": 18
+      }
+    },
+    {
+      "chapter": 33,
+      "total": 318,
+      "variants": 231,
+      "density": 0.7264,
+      "breakdown": {
+        "identical": 87,
+        "substitution_same_pos": 91,
+        "substitution_diff_pos": 59,
+        "deletion": 43,
+        "orthographic": 37,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 34,
+      "total": 319,
+      "variants": 266,
+      "density": 0.8339,
+      "breakdown": {
+        "orthographic": 8,
+        "substitution_diff_pos": 114,
+        "deletion": 99,
+        "identical": 53,
+        "substitution_same_pos": 42,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 35,
+      "total": 171,
+      "variants": 131,
+      "density": 0.7661,
+      "breakdown": {
+        "substitution_same_pos": 29,
+        "identical": 40,
+        "substitution_diff_pos": 45,
+        "deletion": 45,
+        "orthographic": 11,
+        "insertion": 1
+      }
+    },
+    {
+      "chapter": 36,
+      "total": 549,
+      "variants": 432,
+      "density": 0.7869,
+      "breakdown": {
+        "substitution_diff_pos": 148,
+        "substitution_same_pos": 65,
+        "deletion": 161,
+        "identical": 117,
+        "orthographic": 38,
+        "insertion": 20
+      }
+    },
+    {
+      "chapter": 37,
+      "total": 774,
+      "variants": 602,
+      "density": 0.7778,
+      "breakdown": {
+        "substitution_diff_pos": 228,
+        "substitution_same_pos": 106,
+        "deletion": 207,
+        "identical": 172,
+        "orthographic": 49,
+        "insertion": 12
+      }
+    },
+    {
+      "chapter": 38,
+      "total": 390,
+      "variants": 301,
+      "density": 0.7718,
+      "breakdown": {
+        "substitution_diff_pos": 112,
+        "deletion": 109,
+        "identical": 89,
+        "substitution_same_pos": 57,
+        "orthographic": 20,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 39,
+      "total": 214,
+      "variants": 170,
+      "density": 0.7944,
+      "breakdown": {
+        "substitution_diff_pos": 61,
+        "deletion": 67,
+        "identical": 44,
+        "substitution_same_pos": 17,
+        "insertion": 13,
+        "orthographic": 12
+      }
+    },
+    {
+      "chapter": 40,
+      "total": 491,
+      "variants": 383,
+      "density": 0.78,
+      "breakdown": {
+        "substitution_same_pos": 54,
+        "orthographic": 30,
+        "identical": 108,
+        "substitution_diff_pos": 163,
+        "deletion": 134,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 41,
+      "total": 459,
+      "variants": 361,
+      "density": 0.7865,
+      "breakdown": {
+        "substitution_same_pos": 83,
+        "substitution_diff_pos": 146,
+        "deletion": 107,
+        "identical": 98,
+        "orthographic": 25
+      }
+    },
+    {
+      "chapter": 42,
+      "total": 411,
+      "variants": 353,
+      "density": 0.8589,
+      "breakdown": {
+        "substitution_same_pos": 72,
+        "orthographic": 12,
+        "substitution_diff_pos": 148,
+        "deletion": 121,
+        "identical": 58
+      }
+    },
+    {
+      "chapter": 43,
+      "total": 416,
+      "variants": 321,
+      "density": 0.7716,
+      "breakdown": {
+        "substitution_diff_pos": 116,
+        "deletion": 102,
+        "identical": 95,
+        "substitution_same_pos": 71,
+        "orthographic": 26,
+        "insertion": 6
+      }
+    },
+    {
+      "chapter": 44,
+      "total": 531,
+      "variants": 421,
+      "density": 0.7928,
+      "breakdown": {
+        "substitution_diff_pos": 174,
+        "deletion": 139,
+        "identical": 110,
+        "substitution_same_pos": 77,
+        "orthographic": 26,
+        "insertion": 5
+      }
+    },
+    {
+      "chapter": 45,
+      "total": 460,
+      "variants": 334,
+      "density": 0.7261,
+      "breakdown": {
+        "identical": 126,
+        "substitution_diff_pos": 126,
+        "substitution_same_pos": 77,
+        "deletion": 99,
+        "orthographic": 27,
+        "insertion": 5
+      }
+    },
+    {
+      "chapter": 46,
+      "total": 197,
+      "variants": 154,
+      "density": 0.7817,
+      "breakdown": {
+        "identical": 43,
+        "orthographic": 15,
+        "substitution_same_pos": 37,
+        "substitution_diff_pos": 53,
+        "deletion": 46,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 47,
+      "total": 270,
+      "variants": 213,
+      "density": 0.7889,
+      "breakdown": {
+        "substitution_same_pos": 56,
+        "substitution_diff_pos": 82,
+        "deletion": 56,
+        "identical": 57,
+        "orthographic": 19
+      }
+    },
+    {
+      "chapter": 48,
+      "total": 361,
+      "variants": 292,
+      "density": 0.8089,
+      "breakdown": {
+        "substitution_same_pos": 62,
+        "substitution_diff_pos": 115,
+        "identical": 69,
+        "deletion": 96,
+        "orthographic": 16,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 49,
+      "total": 487,
+      "variants": 387,
+      "density": 0.7947,
+      "breakdown": {
+        "substitution_same_pos": 88,
+        "substitution_diff_pos": 156,
+        "deletion": 121,
+        "identical": 100,
+        "orthographic": 20,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 50,
+      "total": 227,
+      "variants": 179,
+      "density": 0.7885,
+      "breakdown": {
+        "identical": 48,
+        "substitution_same_pos": 50,
+        "orthographic": 15,
+        "substitution_diff_pos": 54,
+        "deletion": 51,
+        "insertion": 9
+      }
+    },
+    {
+      "chapter": 51,
+      "total": 451,
+      "variants": 360,
+      "density": 0.7982,
+      "breakdown": {
+        "substitution_same_pos": 85,
+        "identical": 91,
+        "deletion": 117,
+        "substitution_diff_pos": 140,
+        "orthographic": 18
+      }
+    },
+    {
+      "chapter": 52,
+      "total": 257,
+      "variants": 183,
+      "density": 0.7121,
+      "breakdown": {
+        "orthographic": 14,
+        "substitution_same_pos": 49,
+        "substitution_diff_pos": 67,
+        "identical": 74,
+        "deletion": 51,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 53,
+      "total": 249,
+      "variants": 220,
+      "density": 0.8835,
+      "breakdown": {
+        "identical": 29,
+        "substitution_same_pos": 32,
+        "substitution_diff_pos": 82,
+        "deletion": 83,
+        "orthographic": 11,
+        "insertion": 12
+      }
+    },
+    {
+      "chapter": 54,
+      "total": 279,
+      "variants": 211,
+      "density": 0.7563,
+      "breakdown": {
+        "orthographic": 17,
+        "deletion": 57,
+        "identical": 68,
+        "substitution_diff_pos": 76,
+        "substitution_same_pos": 54,
+        "insertion": 7
+      }
+    },
+    {
+      "chapter": 55,
+      "total": 251,
+      "variants": 194,
+      "density": 0.7729,
+      "breakdown": {
+        "identical": 57,
+        "substitution_same_pos": 46,
+        "substitution_diff_pos": 66,
+        "deletion": 65,
+        "insertion": 2,
+        "orthographic": 15
+      }
+    },
+    {
+      "chapter": 56,
+      "total": 254,
+      "variants": 210,
+      "density": 0.8268,
+      "breakdown": {
+        "deletion": 74,
+        "identical": 44,
+        "substitution_same_pos": 32,
+        "orthographic": 23,
+        "substitution_diff_pos": 73,
+        "insertion": 8
+      }
+    },
+    {
+      "chapter": 57,
+      "total": 363,
+      "variants": 290,
+      "density": 0.7989,
+      "breakdown": {
+        "substitution_diff_pos": 107,
+        "deletion": 102,
+        "identical": 73,
+        "substitution_same_pos": 57,
+        "orthographic": 19,
+        "insertion": 5
+      }
+    },
+    {
+      "chapter": 58,
+      "total": 310,
+      "variants": 252,
+      "density": 0.8129,
+      "breakdown": {
+        "identical": 58,
+        "substitution_diff_pos": 107,
+        "deletion": 88,
+        "substitution_same_pos": 44,
+        "orthographic": 13
+      }
+    },
+    {
+      "chapter": 59,
+      "total": 402,
+      "variants": 339,
+      "density": 0.8433,
+      "breakdown": {
+        "substitution_same_pos": 52,
+        "identical": 63,
+        "orthographic": 22,
+        "substitution_diff_pos": 136,
+        "deletion": 118,
+        "insertion": 11
+      }
+    },
+    {
+      "chapter": 60,
+      "total": 412,
+      "variants": 334,
+      "density": 0.8107,
+      "breakdown": {
+        "substitution_same_pos": 68,
+        "orthographic": 17,
+        "identical": 78,
+        "substitution_diff_pos": 122,
+        "deletion": 116,
+        "insertion": 11
+      }
+    },
+    {
+      "chapter": 61,
+      "total": 219,
+      "variants": 167,
+      "density": 0.7626,
+      "breakdown": {
+        "identical": 52,
+        "insertion": 2,
+        "substitution_same_pos": 25,
+        "orthographic": 8,
+        "substitution_diff_pos": 78,
+        "deletion": 54
+      }
+    },
+    {
+      "chapter": 62,
+      "total": 230,
+      "variants": 174,
+      "density": 0.7565,
+      "breakdown": {
+        "identical": 56,
+        "deletion": 51,
+        "substitution_same_pos": 43,
+        "substitution_diff_pos": 65,
+        "orthographic": 13,
+        "insertion": 2
+      }
+    },
+    {
+      "chapter": 63,
+      "total": 335,
+      "variants": 281,
+      "density": 0.8388,
+      "breakdown": {
+        "identical": 54,
+        "orthographic": 18,
+        "substitution_diff_pos": 89,
+        "deletion": 95,
+        "substitution_same_pos": 54,
+        "insertion": 25
+      }
+    },
+    {
+      "chapter": 64,
+      "total": 172,
+      "variants": 142,
+      "density": 0.8256,
+      "breakdown": {
+        "substitution_diff_pos": 55,
+        "substitution_same_pos": 29,
+        "deletion": 44,
+        "identical": 30,
+        "orthographic": 11,
+        "insertion": 3
+      }
+    },
+    {
+      "chapter": 65,
+      "total": 502,
+      "variants": 404,
+      "density": 0.8048,
+      "breakdown": {
+        "substitution_same_pos": 69,
+        "substitution_diff_pos": 162,
+        "deletion": 139,
+        "identical": 98,
+        "insertion": 17,
+        "orthographic": 17
+      }
+    },
+    {
+      "chapter": 66,
+      "total": 545,
+      "variants": 420,
+      "density": 0.7706,
+      "breakdown": {
+        "identical": 125,
+        "substitution_diff_pos": 146,
+        "deletion": 158,
+        "substitution_same_pos": 90,
+        "orthographic": 21,
+        "insertion": 5
+      }
+    }
+  ],
+  "sample_orthographic": [
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "יְשַׁעְיָהוּ",
+      "wlc_word": "יְשַֽׁעְיָ֣הוּ",
+      "dss_cons": "ישׁעיהו",
+      "wlc_cons": "ישעיהו",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "אֲשֶׁר",
+      "wlc_word": "אֲשֶׁ֣ר",
+      "dss_cons": "אשׁר",
+      "wlc_cons": "אשר",
+      "dss_pos": "particle",
+      "wlc_pos": "particle",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "יְחִזְקִיָּה",
+      "wlc_word": "יְחִזְקִיָּ֖הוּ",
+      "dss_cons": "יחזקיה",
+      "wlc_cons": "יחזקיהו",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "שָׁמַיִם",
+      "wlc_word": "שָׁמַ֨יִם֙",
+      "dss_cons": "שׁמים",
+      "wlc_cons": "שמים",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "שֹׁור",
+      "wlc_word": "שׁוֹר֙",
+      "dss_cons": "שׁור",
+      "wlc_cons": "שור",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "יִשְׂרָאֵל",
+      "wlc_word": "יִשְׂרָאֵל֙",
+      "dss_cons": "ישׂראל",
+      "wlc_cons": "ישראל",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "עזב",
+      "wlc_word": "עָזְב֣וּ",
+      "dss_cons": "עזב",
+      "wlc_cons": "עזבו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "קָדֹושׁ",
+      "wlc_word": "קְד֥וֹשׁ",
+      "dss_cons": "קדושׁ",
+      "wlc_cons": "קדוש",
+      "dss_pos": "adjective",
+      "wlc_pos": "adjective",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "יִשְׂרָאֵל",
+      "wlc_word": "יִשְׂרָאֵ֖ל",
+      "dss_cons": "ישׂראל",
+      "wlc_cons": "ישראל",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "רֹאשׁ",
+      "wlc_word": "רֹ֣אשׁ",
+      "dss_cons": "ראשׁ",
+      "wlc_cons": "ראש",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "דָּוֶה",
+      "wlc_word": "דַּוָּֽי",
+      "dss_cons": "דוה",
+      "wlc_cons": "דוי",
+      "dss_pos": "adjective",
+      "wlc_pos": "adjective",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "זרר",
+      "wlc_word": "זֹ֨רוּ֙",
+      "dss_cons": "זרר",
+      "wlc_cons": "זרו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "שְׁמָמָה",
+      "wlc_word": "שְׁמָמָ֔ה",
+      "dss_cons": "שׁממה",
+      "wlc_cons": "שממה",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "אֵשׁ",
+      "wlc_word": "אֵ֑שׁ",
+      "dss_cons": "אשׁ",
+      "wlc_cons": "אש",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 9,
+      "dss_word": "לוּלֵא",
+      "wlc_word": "לוּלֵי֙",
+      "dss_cons": "לולא",
+      "wlc_cons": "לולי",
+      "dss_pos": "particle",
+      "wlc_pos": "particle",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 9,
+      "dss_word": "שָׂרִיד",
+      "wlc_word": "שָׂרִ֖יד",
+      "dss_cons": "שׂריד",
+      "wlc_cons": "שריד",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 11,
+      "dss_word": "לָמָּה",
+      "wlc_word": "לָ/מָּה",
+      "dss_cons": "למה",
+      "wlc_cons": "ל/מה",
+      "dss_pos": "particle",
+      "wlc_pos": "particle",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 11,
+      "dss_word": "אמר",
+      "wlc_word": "יֹאמַ֣ר",
+      "dss_cons": "אמר",
+      "wlc_cons": "יאמר",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 12,
+      "dss_word": "בקשׁ",
+      "wlc_word": "בִקֵּ֥שׁ",
+      "dss_cons": "בקשׁ",
+      "wlc_cons": "בקש",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 1
+    },
+    {
+      "type": "orthographic",
+      "chapter": 1,
+      "verse": 13,
+      "dss_word": "חֹדֶשׁ",
+      "wlc_word": "חֹ֤דֶשׁ",
+      "dss_cons": "חדשׁ",
+      "wlc_cons": "חדש",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 1
+    }
+  ],
+  "sample_substitution_same_pos": [
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "יְרוּשָׁלִַם",
+      "wlc_word": "בִּ/ימֵ֨י",
+      "dss_cons": "ירושׁלם",
+      "wlc_cons": "ב/ימי",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 6
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "מֶלֶךְ",
+      "wlc_word": "מַלְכֵ֥י",
+      "dss_cons": "מלך",
+      "wlc_cons": "מלכי",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "שׁמע",
+      "wlc_word": "שִׁמְע֤וּ",
+      "dss_cons": "שׁמע",
+      "wlc_cons": "שמעו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "בֵּן",
+      "wlc_word": "בָּנִים֙",
+      "dss_cons": "בן",
+      "wlc_cons": "בנים",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "גדל",
+      "wlc_word": "גִּדַּ֣לְתִּי",
+      "dss_cons": "גדל",
+      "wlc_cons": "גדלתי",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "קנה",
+      "wlc_word": "קֹנֵ֔/הוּ",
+      "dss_cons": "קנה",
+      "wlc_cons": "קנ/הו",
+      "dss_pos": "suffix",
+      "wlc_pos": "suffix",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "בַּעַל",
+      "wlc_word": "בְּעָלָ֑י/ו",
+      "dss_cons": "בעל",
+      "wlc_cons": "בעלי/ו",
+      "dss_pos": "suffix",
+      "wlc_pos": "suffix",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "בין",
+      "wlc_word": "הִתְבּוֹנָֽן",
+      "dss_cons": "בין",
+      "wlc_cons": "התבונן",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "רעע",
+      "wlc_word": "מְרֵעִ֔ים",
+      "dss_cons": "רעע",
+      "wlc_cons": "מרעים",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "בֵּן",
+      "wlc_word": "בָּנִ֖ים",
+      "dss_cons": "בן",
+      "wlc_cons": "בנים",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "שׁחת",
+      "wlc_word": "מַשְׁחִיתִ֑ים",
+      "dss_cons": "שׁחת",
+      "wlc_cons": "משחיתים",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 5
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "נאץ",
+      "wlc_word": "נִֽאֲצ֛וּ",
+      "dss_cons": "נאץ",
+      "wlc_cons": "נאצו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 4,
+      "dss_word": "זור",
+      "wlc_word": "נָזֹ֥רוּ",
+      "dss_cons": "זור",
+      "wlc_cons": "נזרו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "נכה",
+      "wlc_word": "תֻכּ֛וּ",
+      "dss_cons": "נכה",
+      "wlc_cons": "תכו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "יסף",
+      "wlc_word": "תּוֹסִ֣יפוּ",
+      "dss_cons": "יסף",
+      "wlc_cons": "תוסיפו",
+      "dss_pos": "verb",
+      "wlc_pos": "verb",
+      "levenshtein": 5
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "חֳלִי",
+      "wlc_word": "וְ/כָל",
+      "dss_cons": "חלי",
+      "wlc_cons": "ו/כל",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "וְ",
+      "wlc_word": "וְ/עַד",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/עד",
+      "dss_pos": "particle",
+      "wlc_pos": "particle",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "בְּ",
+      "wlc_word": "בּ֣/וֹ",
+      "dss_cons": "ב",
+      "wlc_cons": "ב/ו",
+      "dss_pos": "suffix",
+      "wlc_pos": "suffix",
+      "levenshtein": 2
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "חַבּוּרָה",
+      "wlc_word": "וּ/מַכָּ֣ה",
+      "dss_cons": "חבורה",
+      "wlc_cons": "ו/מכה",
+      "dss_pos": "noun",
+      "wlc_pos": "noun",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_same_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "וְ",
+      "wlc_word": "וְ/לֹ֣א",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/לא",
+      "dss_pos": "particle",
+      "wlc_pos": "particle",
+      "levenshtein": 3
+    }
+  ],
+  "sample_substitution_diff_pos": [
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "וְ",
+      "wlc_word": "וִ/ירוּשָׁלִָ֑ם",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/ירושלם",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 7
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "בְּ",
+      "wlc_word": "עֻזִּיָּ֧הוּ",
+      "dss_cons": "ב",
+      "wlc_cons": "עזיהו",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 5
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "וְ",
+      "wlc_word": "וְ/הַאֲזִ֣ינִי",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/האזיני",
+      "dss_pos": "particle",
+      "wlc_pos": "verb",
+      "levenshtein": 7
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "וְ",
+      "wlc_word": "וְ/רוֹמַ֔מְתִּי",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/רוממתי",
+      "dss_pos": "particle",
+      "wlc_pos": "verb",
+      "levenshtein": 7
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "רום",
+      "wlc_word": "וְ/הֵ֖ם",
+      "dss_cons": "רום",
+      "wlc_cons": "ו/הם",
+      "dss_pos": "verb",
+      "wlc_pos": "pronoun",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "וְ",
+      "wlc_word": "פָּ֥שְׁעוּ",
+      "dss_cons": "ו",
+      "wlc_cons": "פשעו",
+      "dss_pos": "particle",
+      "wlc_pos": "verb",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "הֵם",
+      "wlc_word": "בִֽ/י",
+      "dss_cons": "הם",
+      "wlc_cons": "ב/י",
+      "dss_pos": "pronoun",
+      "wlc_pos": "suffix",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "וְ",
+      "wlc_word": "וַ/חֲמ֖וֹר",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/חמור",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 5
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "וְ",
+      "wlc_word": "עַמִּ֖/י",
+      "dss_cons": "ו",
+      "wlc_cons": "עמ/י",
+      "dss_pos": "particle",
+      "wlc_pos": "suffix",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "לְ",
+      "wlc_word": "לָ/חֳלִ֔י",
+      "dss_cons": "ל",
+      "wlc_cons": "ל/חלי",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "מִן",
+      "wlc_word": "מִ/כַּף",
+      "dss_cons": "מן",
+      "wlc_cons": "מ/כף",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "עַד",
+      "wlc_word": "רֹאשׁ֙",
+      "dss_cons": "עד",
+      "wlc_cons": "ראש",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 3
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "וְ",
+      "wlc_word": "וְ/חַבּוּרָ֖ה",
+      "dss_cons": "ו",
+      "wlc_cons": "ו/חבורה",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 6
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "וְ",
+      "wlc_word": "טְרִיָּ֑ה",
+      "dss_cons": "ו",
+      "wlc_cons": "טריה",
+      "dss_pos": "particle",
+      "wlc_pos": "adjective",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "לֹא",
+      "wlc_word": "חֻבָּ֔שׁוּ",
+      "dss_cons": "לא",
+      "wlc_cons": "חבשו",
+      "dss_pos": "particle",
+      "wlc_pos": "verb",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "חבשׁ",
+      "wlc_word": "וְ/לֹ֥א",
+      "dss_cons": "חבשׁ",
+      "wlc_cons": "ו/לא",
+      "dss_pos": "verb",
+      "wlc_pos": "particle",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "וְ",
+      "wlc_word": "רֻכְּכָ֖ה",
+      "dss_cons": "ו",
+      "wlc_cons": "רככה",
+      "dss_pos": "particle",
+      "wlc_pos": "verb",
+      "levenshtein": 4
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "לֹא",
+      "wlc_word": "בַּ/שָּֽׁמֶן",
+      "dss_cons": "לא",
+      "wlc_cons": "ב/שמן",
+      "dss_pos": "particle",
+      "wlc_pos": "noun",
+      "levenshtein": 5
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "לְ",
+      "wlc_word": "לְ/נֶגְדְּ/כֶם֙",
+      "dss_cons": "ל",
+      "wlc_cons": "ל/נגד/כם",
+      "dss_pos": "particle",
+      "wlc_pos": "suffix",
+      "levenshtein": 7
+    },
+    {
+      "type": "substitution_diff_pos",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "נֶגֶד",
+      "wlc_word": "זָרִים֙",
+      "dss_cons": "נגד",
+      "wlc_cons": "זרים",
+      "dss_pos": "suffix",
+      "wlc_pos": "adjective",
+      "levenshtein": 4
+    }
+  ],
+  "sample_insertion": [
+    {
+      "type": "insertion",
+      "chapter": 2,
+      "verse": 9,
+      "wlc_word": "תִּשָּׂ֖א",
+      "wlc_cons": "תשא",
+      "wlc_pos": "verb"
+    },
+    {
+      "type": "insertion",
+      "chapter": 2,
+      "verse": 9,
+      "wlc_word": "לָ/הֶֽם",
+      "wlc_cons": "ל/הם",
+      "wlc_pos": "suffix"
+    },
+    {
+      "type": "insertion",
+      "chapter": 3,
+      "verse": 15,
+      "wlc_word": "מ/ל/כם",
+      "wlc_cons": "מ/ל/כם",
+      "wlc_pos": "suffix"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "וְ/עָשָׁ֔ן",
+      "wlc_cons": "ו/עשן",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "וְ/נֹ֛גַהּ",
+      "wlc_cons": "ו/נגה",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "אֵ֥שׁ",
+      "wlc_cons": "אש",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "לֶהָבָ֖ה",
+      "wlc_cons": "להבה",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "לָ֑יְלָה",
+      "wlc_cons": "לילה",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "כִּ֥י",
+      "wlc_cons": "כי",
+      "wlc_pos": "particle"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "עַל",
+      "wlc_cons": "על",
+      "wlc_pos": "particle"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "כָּל",
+      "wlc_cons": "כל",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "כָּב֖וֹד",
+      "wlc_cons": "כבוד",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 4,
+      "verse": 5,
+      "wlc_word": "חֻפָּֽה",
+      "wlc_cons": "חפה",
+      "wlc_pos": "noun"
+    },
+    {
+      "type": "insertion",
+      "chapter": 5,
+      "verse": 5,
+      "wlc_word": "אֶתְ/כֶ֔ם",
+      "wlc_cons": "את/כם",
+      "wlc_pos": "suffix"
+    },
+    {
+      "type": "insertion",
+      "chapter": 5,
+      "verse": 20,
+      "wlc_word": "וְ/לַ/טּ֣וֹב",
+      "wlc_cons": "ו/ל/טוב",
+      "wlc_pos": "adjective"
+    },
+    {
+      "type": "insertion",
+      "chapter": 6,
+      "verse": 3,
+      "wlc_word": "קָד֛וֹשׁ",
+      "wlc_cons": "קדוש",
+      "wlc_pos": "adjective"
+    },
+    {
+      "type": "insertion",
+      "chapter": 6,
+      "verse": 3,
+      "wlc_word": "קָד֖וֹשׁ",
+      "wlc_cons": "קדוש",
+      "wlc_pos": "adjective"
+    },
+    {
+      "type": "insertion",
+      "chapter": 7,
+      "verse": 4,
+      "wlc_word": "הִשָּׁמֵ֨ר",
+      "wlc_cons": "השמר",
+      "wlc_pos": "verb"
+    },
+    {
+      "type": "insertion",
+      "chapter": 7,
+      "verse": 4,
+      "wlc_word": "וְ/הַשְׁקֵ֜ט",
+      "wlc_cons": "ו/השקט",
+      "wlc_pos": "verb"
+    },
+    {
+      "type": "insertion",
+      "chapter": 8,
+      "verse": 9,
+      "wlc_word": "וָ/חֹֽתּוּ",
+      "wlc_cons": "ו/חתו",
+      "wlc_pos": "verb"
+    }
+  ],
+  "sample_deletion": [
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "יֹום",
+      "dss_cons": "יום",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 1,
+      "dss_word": "עֻזִּיָּה",
+      "dss_cons": "עזיה",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "אזן",
+      "dss_cons": "אזן",
+      "dss_pos": "verb"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "הַ",
+      "dss_cons": "ה",
+      "dss_pos": "particle"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "פשׁע",
+      "dss_cons": "פשׁע",
+      "dss_pos": "verb"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 2,
+      "dss_word": "בְּ",
+      "dss_cons": "ב",
+      "dss_pos": "suffix"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "חֲמֹור",
+      "dss_cons": "חמור",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 3,
+      "dss_word": "עַם",
+      "dss_cons": "עם",
+      "dss_pos": "suffix"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "וְ",
+      "dss_cons": "ו",
+      "dss_pos": "particle"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 5,
+      "dss_word": "כֹּל",
+      "dss_cons": "כל",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "כַּף",
+      "dss_cons": "כף",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "רֹאשׁ",
+      "dss_cons": "ראשׁ",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "מַכָּה",
+      "dss_cons": "מכה",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "טָרִי",
+      "dss_cons": "טרי",
+      "dss_pos": "adjective"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "רכך",
+      "dss_cons": "רכך",
+      "dss_pos": "verb"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "בְּ",
+      "dss_cons": "ב",
+      "dss_pos": "particle"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 6,
+      "dss_word": "שֶׁמֶן",
+      "dss_cons": "שׁמן",
+      "dss_pos": "noun"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "עַל",
+      "dss_cons": "על",
+      "dss_pos": "suffix"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "כְּ",
+      "dss_cons": "כ",
+      "dss_pos": "particle"
+    },
+    {
+      "type": "deletion",
+      "chapter": 1,
+      "verse": 7,
+      "dss_word": "מַהְפֵּכָה",
+      "dss_cons": "מהפכה",
+      "dss_pos": "noun"
+    }
+  ]
+}

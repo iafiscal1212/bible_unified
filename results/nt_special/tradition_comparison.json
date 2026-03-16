@@ -1,0 +1,16 @@
+{
+  "n_verses": 22746,
+  "mean_verse_len": 19.116152290512616,
+  "std_verse_len": 15.831891198927888,
+  "H": 0.9051608854659947,
+  "H_R2": 0.9691223549479135,
+  "alpha": 0.8479116728082322,
+  "alpha_R2": 0.9713981619625407,
+  "chi": 1,
+  "mps_p": 0.0,
+  "mps_significant": true,
+  "status": "available",
+  "n_total_verses": 22746,
+  "n_total_words": 434816,
+  "note": "TAGNT parsed as single combined text. Individual tradition separation requires deeper format analysis. Verse-level word counts may differ from SBLGNT due to variant inclusion."
+}

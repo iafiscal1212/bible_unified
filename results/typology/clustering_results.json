@@ -1,0 +1,195 @@
+{
+  "method": "ward_euclidean",
+  "features_used": [
+    "H",
+    "alpha",
+    "1-mps_p"
+  ],
+  "n_corpora": 7,
+  "corpora": {
+    "AT (Hebreo)": {
+      "features": [
+        1.1099,
+        0.8458,
+        1.0
+      ],
+      "features_normalized": [
+        1.4030173224421374,
+        0.8001536329109505,
+        0.725103317027068
+      ],
+      "cluster_k2": 2,
+      "cluster_k3": 2
+    },
+    "NT (Griego)": {
+      "features": [
+        0.9928,
+        0.6805,
+        0.7769
+      ],
+      "features_normalized": [
+        0.7665034309179949,
+        -0.6852591196019046,
+        0.21584182656062983
+      ],
+      "cluster_k2": 2,
+      "cluster_k3": 3
+    },
+    "Corán (Árabe)": {
+      "features": [
+        0.9826,
+        0.9082,
+        1.0
+      ],
+      "features_normalized": [
+        0.7110598639363873,
+        1.3608902073622644,
+        0.725103317027068
+      ],
+      "cluster_k2": 2,
+      "cluster_k3": 2
+    },
+    "Homero (Griego)": {
+      "features": [
+        0.6278,
+        0.5977,
+        0.0
+      ],
+      "features_normalized": [
+        -1.2175065640120808,
+        -1.4293134203161477,
+        -1.5575568822846229
+      ],
+      "cluster_k2": 1,
+      "cluster_k3": 1
+    },
+    "Heródoto (Griego)": {
+      "features": [
+        0.6329,
+        0.6322,
+        0.0
+      ],
+      "features_normalized": [
+        -1.1897847805212771,
+        -1.1192907950185464,
+        -1.5575568822846229
+      ],
+      "cluster_k2": 1,
+      "cluster_k3": 1
+    },
+    "Mishnah (Hebreo)": {
+      "features": [
+        0.6829,
+        0.7843,
+        0.9995
+      ],
+      "features_normalized": [
+        -0.9180025894349657,
+        0.24750460520653078,
+        0.7239619869274123
+      ],
+      "cluster_k2": 2,
+      "cluster_k3": 3
+    },
+    "Rig Veda (Sánscrito)": {
+      "features": [
+        0.9336,
+        0.8486,
+        1.0
+      ],
+      "features_normalized": [
+        0.4447133166718016,
+        0.8253148894568431,
+        0.725103317027068
+      ],
+      "cluster_k2": 2,
+      "cluster_k3": 2
+    }
+  },
+  "linkage_matrix": [
+    [
+      3.0,
+      4.0,
+      0.3112595789310393,
+      2.0
+    ],
+    [
+      2.0,
+      6.0,
+      0.5981483130372093,
+      2.0
+    ],
+    [
+      0.0,
+      8.0,
+      1.0110455263145313,
+      3.0
+    ],
+    [
+      1.0,
+      5.0,
+      1.991430339302643,
+      2.0
+    ],
+    [
+      9.0,
+      10.0,
+      2.4010855479662068,
+      5.0
+    ],
+    [
+      7.0,
+      11.0,
+      5.549064458278895,
+      7.0
+    ]
+  ],
+  "clusters_k2": {
+    "cluster_1": {
+      "members": [
+        "Homero (Griego)",
+        "Heródoto (Griego)"
+      ],
+      "mean_H": 0.63035,
+      "n": 2
+    },
+    "cluster_2": {
+      "members": [
+        "AT (Hebreo)",
+        "NT (Griego)",
+        "Corán (Árabe)",
+        "Mishnah (Hebreo)",
+        "Rig Veda (Sánscrito)"
+      ],
+      "mean_H": 0.9403600000000001,
+      "n": 5
+    }
+  },
+  "clusters_k3": {
+    "cluster_1": {
+      "members": [
+        "Homero (Griego)",
+        "Heródoto (Griego)"
+      ],
+      "mean_H": 0.63035,
+      "n": 2
+    },
+    "cluster_2": {
+      "members": [
+        "AT (Hebreo)",
+        "Corán (Árabe)",
+        "Rig Veda (Sánscrito)"
+      ],
+      "mean_H": 1.0087000000000002,
+      "n": 3
+    },
+    "cluster_3": {
+      "members": [
+        "NT (Griego)",
+        "Mishnah (Hebreo)"
+      ],
+      "mean_H": 0.83785,
+      "n": 2
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "feature": "autocorr_lag1",
+    "pearson_r": 0.6587,
+    "pearson_p": 1.0576093546978244e-08,
+    "spearman_rho": 0.5338,
+    "spearman_p": 1.1229309258641725e-05,
+    "abs_r": 0.6587
+  },
+  {
+    "feature": "cv_verse_len",
+    "pearson_r": 0.5412,
+    "pearson_p": 8.02347722104956e-06,
+    "spearman_rho": 0.4074,
+    "spearman_p": 0.0012334594788377636,
+    "abs_r": 0.5412
+  },
+  {
+    "feature": "mean_verse_len",
+    "pearson_r": -0.3331,
+    "pearson_p": 0.009294420129661186,
+    "spearman_rho": -0.3205,
+    "spearman_p": 0.012545458889850659,
+    "abs_r": 0.3331
+  },
+  {
+    "feature": "proper_ratio",
+    "pearson_r": 0.2673,
+    "pearson_p": 0.03893321944513419,
+    "spearman_rho": 0.2631,
+    "spearman_p": 0.04222556701978506,
+    "abs_r": 0.2673
+  },
+  {
+    "feature": "pos_entropy",
+    "pearson_r": -0.2385,
+    "pearson_p": 0.06644068429997245,
+    "spearman_rho": -0.2342,
+    "spearman_p": 0.07171942952051737,
+    "abs_r": 0.2385
+  },
+  {
+    "feature": "connector_density",
+    "pearson_r": -0.1949,
+    "pearson_p": 0.13560234652651645,
+    "spearman_rho": -0.1828,
+    "spearman_p": 0.16217397823299376,
+    "abs_r": 0.1949
+  },
+  {
+    "feature": "verb_density",
+    "pearson_r": -0.1103,
+    "pearson_p": 0.40166284851848943,
+    "spearman_rho": -0.1584,
+    "spearman_p": 0.22680710220427416,
+    "abs_r": 0.1103
+  },
+  {
+    "feature": "skewness",
+    "pearson_r": 0.0788,
+    "pearson_p": 0.5494174349936767,
+    "spearman_rho": 0.1123,
+    "spearman_p": 0.3931473410322336,
+    "abs_r": 0.0788
+  },
+  {
+    "feature": "repetition_density",
+    "pearson_r": 0.0746,
+    "pearson_p": 0.5711996718668139,
+    "spearman_rho": -0.0151,
+    "spearman_p": 0.9087401217597728,
+    "abs_r": 0.0746
+  },
+  {
+    "feature": "std_verse_len",
+    "pearson_r": 0.0162,
+    "pearson_p": 0.901950104070162,
+    "spearman_rho": -0.0532,
+    "spearman_p": 0.6862243814625743,
+    "abs_r": 0.0162
+  }
+]

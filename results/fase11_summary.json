@@ -1,0 +1,171 @@
+{
+  "phase": 11,
+  "title": "El Origen Composicional de H",
+  "timestamp": "2026-03-16T06:21:11",
+  "total_elapsed_seconds": 540.019538640976,
+  "scripts": [
+    {
+      "name": "composition_features",
+      "question": "¿Qué features compositivas predicen H?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 6,
+      "output_files": [
+        "regression_model.json",
+        "feature_correlations.json",
+        "external_comparison.json",
+        "synthetic_test.json",
+        "book_features.json",
+        "feature_ranking.json"
+      ],
+      "best_model": {
+        "features": [
+          "autocorr_lag1"
+        ],
+        "r2": 0.4339106599207979,
+        "loo_rmse": 0.11223550826725444
+      },
+      "top_correlations": [
+        {
+          "feature": "autocorr_lag1",
+          "pearson_r": 0.6587,
+          "pearson_p": 1.0576093546978244e-08,
+          "spearman_rho": 0.5338,
+          "spearman_p": 1.1229309258641725e-05,
+          "abs_r": 0.6587
+        },
+        {
+          "feature": "cv_verse_len",
+          "pearson_r": 0.5412,
+          "pearson_p": 8.02347722104956e-06,
+          "spearman_rho": 0.4074,
+          "spearman_p": 0.0012334594788377636,
+          "abs_r": 0.5412
+        },
+        {
+          "feature": "mean_verse_len",
+          "pearson_r": -0.3331,
+          "pearson_p": 0.009294420129661186,
+          "spearman_rho": -0.3205,
+          "spearman_p": 0.012545458889850659,
+          "abs_r": 0.3331
+        }
+      ],
+      "synthetic_conclusion": "AR(1) con autocorrelación AT-like NO reproduce H>0.9 — se requiere memoria de orden superior",
+      "top_predictors": [
+        {
+          "feature": "autocorr_lag1",
+          "pearson_r": 0.6587,
+          "pearson_p": 1.0576093546978244e-08,
+          "spearman_rho": 0.5338,
+          "spearman_p": 1.1229309258641725e-05,
+          "abs_r": 0.6587
+        },
+        {
+          "feature": "cv_verse_len",
+          "pearson_r": 0.5412,
+          "pearson_p": 8.02347722104956e-06,
+          "spearman_rho": 0.4074,
+          "spearman_p": 0.0012334594788377636,
+          "abs_r": 0.5412
+        },
+        {
+          "feature": "mean_verse_len",
+          "pearson_r": -0.3331,
+          "pearson_p": 0.009294420129661186,
+          "spearman_rho": -0.3205,
+          "spearman_p": 0.012545458889850659,
+          "abs_r": 0.3331
+        }
+      ]
+    },
+    {
+      "name": "nt_canonical_order",
+      "question": "¿El orden canónico del NT es único en producir H alto?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 3,
+      "output_files": [
+        "historical_orders.json",
+        "h_by_order.json",
+        "optimal_order_search.json"
+      ],
+      "historical_orders": {
+        "canonical": {
+          "H": 0.7249853463210817,
+          "name": "Occidental/Vulgata (moderno)"
+        },
+        "vaticanus": {
+          "H": 0.714024431697824,
+          "name": "Códice Vaticano"
+        },
+        "marcion": {
+          "H": 0.725891753759505,
+          "name": "Canon de Marción (aprox.)"
+        },
+        "chronological": {
+          "H": 0.740101988050482,
+          "name": "Cronológico (consenso académico)"
+        },
+        "peshitta": {
+          "H": 0.7135914992207929,
+          "name": "Siríaco Peshitta"
+        }
+      },
+      "permutation_test": {
+        "H_canonical": 0.7249853463210817,
+        "H_random_mean": 0.7876192735514586,
+        "p_value": 0.9801
+      },
+      "greedy_max_H": 0.8156317932844765,
+      "greedy_max_order_first5": [
+        "2 Timothy",
+        "2 John",
+        "2 Corinthians",
+        "Colossians",
+        "Philemon"
+      ]
+    },
+    {
+      "name": "convergence_mechanism",
+      "question": "¿Qué tienen en común AT, Corán y Rig Veda a nivel compositivo?",
+      "return_code": 1,
+      "status": "failed",
+      "n_output_files": 2,
+      "output_files": [
+        "length_distributions.json",
+        "pairwise_ks.json"
+      ],
+      "corpus_stats": [
+        {
+          "label": "AT",
+          "n_units": 23096,
+          "mean": 13.2287,
+          "cv": 0.4564,
+          "H": 0.8766
+        },
+        {
+          "label": "NT",
+          "n_units": 8044,
+          "mean": 17.2562,
+          "cv": 0.3841,
+          "H": 0.7826
+        },
+        {
+          "label": "Rig Veda",
+          "n_units": 21253,
+          "mean": 7.5668,
+          "cv": 0.4154,
+          "H": 0.6678
+        },
+        {
+          "label": "Heródoto",
+          "n_units": 1555,
+          "mean": 21.2875,
+          "cv": 0.5964,
+          "H": 0.6448
+        }
+      ]
+    }
+  ]
+}

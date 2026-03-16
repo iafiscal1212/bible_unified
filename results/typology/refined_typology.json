@@ -1,0 +1,98 @@
+{
+  "best_predictor_dimension": "control_intensity",
+  "corpus_classification": {
+    "AT (Hebreo)": {
+      "category": "revelación_controlada_inmediata",
+      "description": "Dictado directo + transmisión controlada desde el origen",
+      "H": 1.1099,
+      "mps_significant": true,
+      "authority_type": "dictado_directo",
+      "control_delay_years": 0,
+      "control_intensity": 3
+    },
+    "NT (Griego)": {
+      "category": "heterogéneo_compilado",
+      "description": "H alto por heterogeneidad inter-libro, no por estructura interna",
+      "H": 0.9928,
+      "mps_significant": false,
+      "authority_type": "testimonio_mediado",
+      "control_delay_years": 300,
+      "control_intensity": 2
+    },
+    "Corán (Árabe)": {
+      "category": "revelación_controlada_inmediata",
+      "description": "Dictado directo + transmisión controlada desde el origen",
+      "H": 0.9826,
+      "mps_significant": true,
+      "authority_type": "dictado_directo",
+      "control_delay_years": 20,
+      "control_intensity": 3
+    },
+    "Homero (Griego)": {
+      "category": "transmisión_libre",
+      "description": "Sin control efectivo durante transmisión temprana",
+      "H": 0.6278,
+      "mps_significant": false,
+      "authority_type": "narrativa_oral",
+      "control_delay_years": 400,
+      "control_intensity": 0
+    },
+    "Heródoto (Griego)": {
+      "category": "transmisión_libre",
+      "description": "Sin control efectivo durante transmisión temprana",
+      "H": 0.6329,
+      "mps_significant": false,
+      "authority_type": "narrativa_historica",
+      "control_delay_years": 200,
+      "control_intensity": 0
+    },
+    "Mishnah (Hebreo)": {
+      "category": "interpretación_controlada",
+      "description": "Transmisión controlada pero no dictado directo",
+      "H": 0.6829,
+      "mps_significant": true,
+      "authority_type": "interpretación_legal",
+      "control_delay_years": 0,
+      "control_intensity": 2
+    },
+    "Rig Veda (Sánscrito)": {
+      "category": "revelación_controlada_inmediata",
+      "description": "Dictado directo + transmisión controlada desde el origen",
+      "H": 0.9336,
+      "mps_significant": true,
+      "authority_type": "dictado_directo",
+      "control_delay_years": 0,
+      "control_intensity": 3
+    }
+  },
+  "category_summary": {
+    "revelación_controlada_inmediata": {
+      "members": [
+        "AT (Hebreo)",
+        "Corán (Árabe)",
+        "Rig Veda (Sánscrito)"
+      ],
+      "description": "Dictado directo + transmisión controlada desde el origen"
+    },
+    "heterogéneo_compilado": {
+      "members": [
+        "NT (Griego)"
+      ],
+      "description": "H alto por heterogeneidad inter-libro, no por estructura interna"
+    },
+    "transmisión_libre": {
+      "members": [
+        "Homero (Griego)",
+        "Heródoto (Griego)"
+      ],
+      "description": "Sin control efectivo durante transmisión temprana"
+    },
+    "interpretación_controlada": {
+      "members": [
+        "Mishnah (Hebreo)"
+      ],
+      "description": "Transmisión controlada pero no dictado directo"
+    }
+  },
+  "note": "Esta tipología es EXPLORATORIA y se basa en 7 corpus. No se afirma causalidad. La clasificación emerge de la combinación de métricas matemáticas (H, MPS) con dimensiones tipológicas académicas."
+}

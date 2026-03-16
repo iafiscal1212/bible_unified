@@ -1,0 +1,141 @@
+{
+  "authority_code": {
+    "point_biserial_r": 0.8485281374238571,
+    "point_biserial_p": 0.01577977641028939,
+    "mann_whitney_p": 0.06780828258573497,
+    "group_0_mean": 0.0,
+    "group_1_mean": 2.4,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "control_delay_years": {
+    "point_biserial_r": -0.6851669941298317,
+    "point_biserial_p": 0.08936800343087148,
+    "mann_whitney_p": 0.15951201484932576,
+    "group_0_mean": 300.0,
+    "group_1_mean": 64.0,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "control_delay_code": {
+    "point_biserial_r": -0.7302967433402215,
+    "point_biserial_p": 0.06235241600215043,
+    "mann_whitney_p": 0.11752486809663916,
+    "group_0_mean": 2.0,
+    "group_1_mean": 0.4,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "control_intensity": {
+    "point_biserial_r": 0.9431191251430151,
+    "point_biserial_p": 0.0014371618613452618,
+    "mann_whitney_p": 0.06511742054768749,
+    "group_0_mean": 0.0,
+    "group_1_mean": 2.6,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "isolation_code": {
+    "point_biserial_r": 0.2581988897471611,
+    "point_biserial_p": 0.5761317257177404,
+    "mann_whitney_p": 0.7518296340458492,
+    "group_0_mean": 0.0,
+    "group_1_mean": 0.2,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "n_independent_lines": {
+    "point_biserial_r": 0.7302967433402214,
+    "point_biserial_p": 0.06235241600215043,
+    "mann_whitney_p": 0.07592696298255772,
+    "group_0_mean": 0.0,
+    "group_1_mean": 3.2,
+    "group_0_members": [
+      "Homero (Griego)",
+      "Heródoto (Griego)"
+    ],
+    "group_1_members": [
+      "AT (Hebreo)",
+      "NT (Griego)",
+      "Corán (Árabe)",
+      "Mishnah (Hebreo)",
+      "Rig Veda (Sánscrito)"
+    ]
+  },
+  "ranking": [
+    {
+      "dimension": "control_intensity",
+      "abs_r": 0.9431191251430151
+    },
+    {
+      "dimension": "authority_code",
+      "abs_r": 0.8485281374238571
+    },
+    {
+      "dimension": "control_delay_code",
+      "abs_r": 0.7302967433402215
+    },
+    {
+      "dimension": "n_independent_lines",
+      "abs_r": 0.7302967433402214
+    },
+    {
+      "dimension": "control_delay_years",
+      "abs_r": 0.6851669941298317
+    },
+    {
+      "dimension": "isolation_code",
+      "abs_r": 0.2581988897471611
+    }
+  ],
+  "best_predictor": {
+    "dimension": "control_intensity",
+    "abs_r": 0.9431191251430151,
+    "interpretation": "La dimensión 'control_intensity' es la más predictiva del clustering matemático (|r|=0.943). "
+  }
+}

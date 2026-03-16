@@ -1,0 +1,77 @@
+{
+  "AT vs NT": {
+    "ks_stat": 0.254,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "AT vs Corán": {
+    "ks_stat": 0.2052,
+    "p_value": 1.0941438540598684e-181,
+    "same_distribution": false
+  },
+  "AT vs Rig Veda": {
+    "ks_stat": 0.4407,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "AT vs Homero": {
+    "ks_stat": 0.1012,
+    "p_value": 5.398970512256199e-82,
+    "same_distribution": false
+  },
+  "AT vs Heródoto": {
+    "ks_stat": 0.317,
+    "p_value": 1.199757831729514e-130,
+    "same_distribution": false
+  },
+  "NT vs Corán": {
+    "ks_stat": 0.369,
+    "p_value": 6.625e-321,
+    "same_distribution": false
+  },
+  "NT vs Rig Veda": {
+    "ks_stat": 0.6947,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "NT vs Homero": {
+    "ks_stat": 0.214,
+    "p_value": 1.5490015217905168e-211,
+    "same_distribution": false
+  },
+  "NT vs Heródoto": {
+    "ks_stat": 0.1823,
+    "p_value": 2.471076924514084e-38,
+    "same_distribution": false
+  },
+  "Corán vs Rig Veda": {
+    "ks_stat": 0.3318,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "Corán vs Homero": {
+    "ks_stat": 0.2221,
+    "p_value": 6.0746197559752355e-192,
+    "same_distribution": false
+  },
+  "Corán vs Heródoto": {
+    "ks_stat": 0.3503,
+    "p_value": 1.9874292453746046e-136,
+    "same_distribution": false
+  },
+  "Rig Veda vs Homero": {
+    "ks_stat": 0.4857,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "Rig Veda vs Heródoto": {
+    "ks_stat": 0.677,
+    "p_value": 0.0,
+    "same_distribution": false
+  },
+  "Homero vs Heródoto": {
+    "ks_stat": 0.2267,
+    "p_value": 3.6612907524132165e-64,
+    "same_distribution": false
+  }
+}

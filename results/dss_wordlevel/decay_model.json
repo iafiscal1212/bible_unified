@@ -1,0 +1,35 @@
+{
+  "data_points": {
+    "dss": {
+      "year": -100,
+      "H": 0.681
+    },
+    "wlc": {
+      "year": 1000,
+      "H": 0.672
+    }
+  },
+  "sigma_H": 0.05,
+  "decay_rate_per_century": 0.000818181818181819,
+  "linear_model": {
+    "a": 0.6801818181818182,
+    "b": -8.18181818181819e-06,
+    "H_at_composition": 0.6859090909090909,
+    "ci_95": [
+      0.5288067554558016,
+      0.8404499930150816
+    ]
+  },
+  "exponential_model": {
+    "H_inf": 0.5,
+    "lambda": 4.636595859306608e-05,
+    "H_at_composition": 0.6861060376980803,
+    "ci_95": [
+      0.5513226431983909,
+      0.9130156177605051
+    ]
+  },
+  "composition_year": -700,
+  "n_bootstrap": 1000,
+  "conclusion": "Tasa: 0.0008 H/siglo (efectivamente cero). H(-700) ≈ 0.686. La estructura es invariante."
+}

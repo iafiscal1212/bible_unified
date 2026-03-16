@@ -1,0 +1,31 @@
+{
+  "hypothesis_H5a": {
+    "statement": "The long-range correlation structure (H > 0.5) existed in the original composition, before formal canonization.",
+    "prediction": "H_pre_canon ≥ H_post_canon (structure already present)",
+    "would_be_confirmed_if": "H_DSS > H_WLC (memory was higher in pre-canonical text)"
+  },
+  "hypothesis_H5b": {
+    "statement": "The canonization process (editorial standardization, scribal control) generated or amplified the long-range correlation structure.",
+    "prediction": "H_pre_canon < H_post_canon (structure grew through canonization)",
+    "would_be_confirmed_if": "H_WLC > H_DSS (memory increased through Masoretic transmission)"
+  },
+  "observed_data": {
+    "H_pre_canon_DSS": 0.6806,
+    "H_post_canon_WLC": 0.6723,
+    "delta_H": 0.0083,
+    "p_value": 0.7116,
+    "statistically_distinguishable": false
+  },
+  "logical_verdict": {
+    "H5a": "NOT CONFIRMED — H_DSS is NOT significantly greater than H_WLC",
+    "H5b": "NOT CONFIRMED — H_WLC is NOT significantly greater than H_DSS",
+    "actual_result": "INVARIANCE — H_DSS ≈ H_WLC within statistical noise",
+    "implication": "The data is compatible with BOTH H5a and H5b simultaneously. If H5a is true (structure existed before canonization), the Masoretes preserved it. If H5b is true (canonization created it), it was created early enough to be present in 1QIsa^a (~100 BCE), which predates the traditional canonization date (~90 CE). The temporal invariance means that whatever process generated H, it was complete by ~100 BCE at the latest."
+  },
+  "constraint_from_data": {
+    "statement": "The observed invariance constrains the timing: whatever generated the long-range structure in Isaiah, it happened BEFORE ~100 BCE. This is consistent with H5a (original composition ~700 BCE) and with an early H5b (editorial standardization during the Second Temple period, before Jamnia).",
+    "earliest_date_with_H": -100,
+    "source": "1QIsa^a",
+    "implication_for_canonization": "If canonization (Jamnia, ~90 CE) is the H5b event, then DSS should show LOWER H than WLC. It does not. Therefore either (a) the structure predates canonization (H5a), or (b) the structure-generating process was already complete before the formal canonization event."
+  }
+}

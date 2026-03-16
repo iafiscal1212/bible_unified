@@ -1,0 +1,102 @@
+{
+  "analysis": "Word-level variant impact on local H structure",
+  "window_size": 50,
+  "stride": 1,
+  "n_common_verses": 1290,
+  "global_H_dss": 0.6805596371895921,
+  "global_H_wlc": 0.6725501801864928,
+  "anova_windowed": {
+    "F_statistic": 47.431219460620326,
+    "p_value": 9.035799607483108e-12,
+    "groups": {
+      "none": {
+        "n": 1110,
+        "mean_delta_H": 0.002787000986890531,
+        "std_delta_H": 0.08680088774696886,
+        "median_delta_H": 0.0015296994216806858
+      },
+      "orthographic": {
+        "n": 131,
+        "mean_delta_H": -0.05291206669732445,
+        "std_delta_H": 0.09297816391546065,
+        "median_delta_H": -0.02636111039838429
+      }
+    },
+    "question": "Does dominant variant TYPE in a window predict ΔH?"
+  },
+  "anova_per_verse": {
+    "F_statistic": 23.53317042706981,
+    "p_value": 2.327715238680079e-09,
+    "groups": {
+      "insertion": {
+        "n_verses": 22,
+        "mean_word_diff": -2.3636363636363638,
+        "std_word_diff": 2.5680812530591877,
+        "abs_mean_diff": 2.4545454545454546
+      },
+      "orthographic": {
+        "n_verses": 97,
+        "mean_word_diff": 0.010309278350515464,
+        "std_word_diff": 1.088788652167706,
+        "abs_mean_diff": 0.6494845360824743
+      },
+      "substitution": {
+        "n_verses": 5,
+        "mean_word_diff": 0.0,
+        "std_word_diff": 0.6324555320336759,
+        "abs_mean_diff": 0.4
+      }
+    },
+    "question": "Does dominant variant TYPE predict word-count difference?"
+  },
+  "pos_breakdown_by_variant_type": {
+    "orthographic": {
+      "noun": 210,
+      "verb": 184,
+      "particle": 96,
+      "other": 44,
+      "conjunction": 20,
+      "pronoun": 11,
+      "adjective": 11,
+      "preposition": 11,
+      "adverb": 5
+    },
+    "substitution": {
+      "verb": 30,
+      "noun": 22,
+      "adjective": 6
+    },
+    "deletion": {
+      "particle": 36,
+      "noun": 7,
+      "other": 3
+    },
+    "pos_change": {
+      "other": 13,
+      "noun": 10,
+      "verb": 3,
+      "preposition": 2,
+      "adjective": 1,
+      "conjunction": 1
+    },
+    "insertion": {
+      "other": 48,
+      "noun": 27,
+      "conjunction": 16,
+      "preposition": 12,
+      "verb": 7,
+      "particle": 2,
+      "adverb": 1,
+      "adjective": 1
+    }
+  },
+  "total_variants_by_type": {
+    "identical": 17310,
+    "orthographic": 4084,
+    "substitution": 374,
+    "deletion": 638,
+    "pos_change": 370,
+    "insertion": 793
+  },
+  "elapsed_seconds": 1.2869091033935547
+}

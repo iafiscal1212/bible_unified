@@ -1,84 +1,95 @@
 {
   "corpus_a": "1QIsa-a (DSS, ~100 BCE)",
   "corpus_b": "Isaiah WLC (Masoretic, ~1000 CE)",
-  "scrolls_used": [
-    "1Qisaa"
-  ],
-  "unit_type_a": "lines (physical scroll lines)",
-  "unit_type_b": "verses (biblical verses)",
-  "n_units_a": 1601,
-  "n_words_a": 22776,
-  "mean_unit_length_a": 14.226108682073704,
-  "n_units_b": 1291,
-  "n_words_b": 16988,
-  "mean_unit_length_b": 13.158791634391944,
-  "metrics_a": {
-    "hurst_H": 0.8865486166594662,
-    "hurst_R2": 0.9935650616095576,
-    "dfa_alpha": 0.8681372885622746,
-    "dfa_R2": 0.9925252467816317,
-    "box_counting_Df": 0.9955420808287709,
-    "box_counting_R2": 0.9018075391974016,
+  "scrolls_used": ["1Qisaa"],
+
+  "CORRECTION_v2": {
+    "date": "2026-03-15",
+    "issue": "Phase 7 original compared physical scroll lines (DSS) vs biblical verses (WLC) — incommensurable units. H=0.887 measured calligraphy/column-width autocorrelation, not textual structure.",
+    "fix": "Re-segmented DSS by biblical verses using ETCBC chapter/verse mapping (100% coverage). Fair comparison: same unit, same text, 1100 years apart."
+  },
+
+  "ORIGINAL_FLAWED_COMPARISON": {
+    "note": "INVALIDATED — kept for audit trail only",
+    "unit_type_a": "lines (physical scroll lines) — WRONG UNIT",
+    "unit_type_b": "verses (biblical verses)",
+    "n_units_a": 1601,
+    "n_units_b": 1291,
+    "hurst_H_dss_lines": 0.8865,
+    "hurst_H_wlc_verses": 0.6897,
+    "delta_H_SPURIOUS": 0.1968,
+    "cause": "94.9% of apparent delta_H was segmentation artifact, 5.1% textual"
+  },
+
+  "CORRECTED_COMPARISON": {
+    "unit_type": "biblical verses (same for both corpora)",
+    "dss_verses": {
+      "n_units": 1290,
+      "n_words": 22776,
+      "mean_unit_length": 17.66,
+      "hurst_H": 0.6806,
+      "hurst_R2": 0.9936,
+      "dfa_alpha": 0.7160
+    },
+    "wlc_verses": {
+      "n_units": 1291,
+      "n_words": 22931,
+      "mean_unit_length": 17.76,
+      "hurst_H": 0.6723,
+      "hurst_R2": 0.9949,
+      "dfa_alpha": 0.7046
+    },
+    "delta_H": 0.0082,
+    "delta_alpha": 0.0115,
+    "mann_whitney_p": 0.7116,
+    "ks_p": 0.9987,
+    "statistically_distinguishable": false
+  },
+
+  "metrics_a_ORIGINAL": {
+    "note": "DSS metrics computed on physical scroll lines — valid for studying calligraphy, NOT for textual comparison",
+    "hurst_H": 0.8865,
+    "dfa_alpha": 0.8681,
+    "box_counting_Df": 0.9955,
     "bond_dim_chi": 58,
     "mps_permtest_p": 0.0,
-    "mps_permtest_chi_obs": 58,
-    "mps_permtest_chi_rand": 62.9043,
     "mps_significant": true,
-    "delta_S_mean": -0.9445179691018571,
-    "delta_s_group": "more_varied",
-    "zipf_s_lemma": 1.1249970085760737
+    "delta_S_mean": -0.9445,
+    "zipf_s_lemma": 1.1250
   },
   "metrics_b": {
-    "hurst_H": 0.6897024958983058,
-    "hurst_R2": 0.9954363769086568,
-    "dfa_alpha": 0.6996977683212892,
-    "dfa_R2": 0.9956257840832848,
-    "box_counting_Df": 1.0171778224620238,
-    "box_counting_R2": 0.8846522243961946,
+    "hurst_H": 0.6897,
+    "dfa_alpha": 0.6997,
+    "box_counting_Df": 1.0172,
     "bond_dim_chi": 62,
     "mps_permtest_p": 0.2469,
-    "mps_permtest_chi_obs": 62,
-    "mps_permtest_chi_rand": 62.7519,
     "mps_significant": false,
-    "delta_S_mean": -0.6915943078790541,
-    "delta_s_group": "more_varied",
-    "zipf_s_lemma": 1.0860929556582493
+    "delta_S_mean": -0.6916,
+    "zipf_s_lemma": 1.0861
   },
-  "statistical_tests": {
-    "mann_whitney": {
-      "statistic": 1236723.5,
-      "p_value": 6.554608755818482e-20
-    },
-    "ks_verse_lengths": {
-      "statistic": 0.1990975818270049,
-      "p_value": 2.884997732133439e-25
-    },
-    "metric_diffs": {
-      "hurst_H": {
-        "dss": 0.8865486166594662,
-        "wlc": 0.6897024958983058,
-        "diff": 0.19684612076116037
-      },
-      "dfa_alpha": {
-        "dss": 0.8681372885622746,
-        "wlc": 0.6996977683212892,
-        "diff": 0.1684395202409854
-      },
-      "box_counting_Df": {
-        "dss": 0.9955420808287709,
-        "wlc": 1.0171778224620238,
-        "diff": 0.02163574163325288
-      },
-      "delta_S_mean": {
-        "dss": -0.9445179691018571,
-        "wlc": -0.6915943078790541,
-        "diff": 0.2529236612228031
-      }
-    },
-    "metrics_significantly_different": true
-  },
-  "verdict": "H5a_confirmed",
+
+  "verdict": "temporal_invariance_confirmed",
   "confidence": "high",
-  "reasoning": "1QIsa^a tiene memoria larga MAYOR que el masoréetico (H: 0.887 vs 0.690, alpha: 0.868 vs 0.700). La transmisión masorética degradó parcialmente la estructura original. La memoria larga ya existía antes de la canonización - H5a.",
-  "note": "DSS uses physical scroll lines as units (no chapter/verse markup). WLC uses biblical verses. Both are sequential text segments, but with different granularity. The comparison of fractal/memory metrics is valid because these are scale-invariant properties."
+  "reasoning": "When compared using the same segmentation unit (biblical verses), DSS 1QIsa^a (H=0.681) and WLC Isaiah (H=0.672) are statistically indistinguishable (p=0.71). The long-range memory structure is a robust, time-invariant property of the Hebrew biblical text under controlled transmission. 1,100 years of Masoretic copying neither degraded nor amplified it. This strengthens H4: controlled transmission regimes not only generate long-range correlations — they preserve them across millennia.",
+
+  "implications": {
+    "H5a_status": "not_confirmed — DSS does NOT show higher H than WLC when measured correctly",
+    "H5b_status": "not_confirmed — WLC does NOT show higher H than DSS",
+    "actual_finding": "Temporal invariance of H under controlled transmission",
+    "H4_strengthened": "The stability of H across 1,100 years is direct evidence that controlled transmission preserves long-range structure. Free transmission (Homer, Herodotus) does not show this stability.",
+    "decay_model_status": "ELIMINATED — the 0.018 H/century rate was an artifact of the segmentation mismatch"
+  },
+
+  "word_level_analysis": {
+    "total_variants": 6259,
+    "identical": 17310,
+    "orthographic": 4084,
+    "substitution": 374,
+    "deletion": 638,
+    "pos_change": 370,
+    "insertion": 793,
+    "variant_rate": 0.266,
+    "pos_jsd_1gram": 0.015,
+    "note": "26.6% word-level variants over 1,100 years, yet H is preserved. The variants are predominantly orthographic (plene/defective spelling) and do not affect the long-range correlation structure."
+  }
 }

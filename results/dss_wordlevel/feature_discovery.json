@@ -1,0 +1,1214 @@
+{
+  "version": "1.9",
+  "n_features": 72,
+  "features": {
+    "after": {
+      "size_bytes": 5192280,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:55Z",
+        "description": "space behind the word, if any",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "(space)",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "alt": {
+      "size_bytes": 4028,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:56Z",
+        "description": "alternative reading",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "biblical": {
+      "size_bytes": 536438,
+      "metadata": {
+        "acronym": "dss",
+        "applies": "scroll fragment line cluster word",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:56Z",
+        "description": "whether we are in biblical material or not",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "remark": "for lines it means that the material is taken from the bib source while there is also material for this line in the nonbib source. But the nonbib material is either identical or virtually absent, in which case the bib material is a reconstruction and marked as such.",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1=biblical, 2=biblical but also with nonbiblical material",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "book": {
+      "size_bytes": 856457,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:56Z",
+        "description": "acronym of the book in which the word occurs",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "book_etcbc": {
+      "size_bytes": 3665019,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2022",
+        "dateWritten": "2022-05-09T13:58:40Z",
+        "description": "Dead Sea Scrolls: additions based on BHSA",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "chapter": {
+      "size_bytes": 599762,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:56Z",
+        "description": "label of the chapter in which the word occurs",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "cl": {
+      "size_bytes": 2175309,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:56Z",
+        "description": "class (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "advb, art, artp, card, cmn, conj, gent, indp, intj, intr, mult, nega, objm, ord, prep, prp, rela, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "cl2": {
+      "size_bytes": 14004,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:57Z",
+        "description": "class (for part 2) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "d, h, n, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "cor": {
+      "size_bytes": 24721,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:57Z",
+        "description": "correction made by an ancient or modern editor",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1 = modern, 2 = ancient, 3 = ancient supralinear",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "fragment": {
+      "size_bytes": 268441,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:57Z",
+        "description": "label of a fragment of a scroll",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "full": {
+      "size_bytes": 3586074,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:57Z",
+        "description": "full transcription (Unicode) of a word including flags and brackets",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "fulle": {
+      "size_bytes": 2435222,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:57Z",
+        "description": "full transcription (ETCBC transliteration) of a word including flags and brackets",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "fullo": {
+      "size_bytes": 2178599,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:58Z",
+        "description": "full transcription (original source) of a word including flags and brackets",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "g_cons": {
+      "size_bytes": 869526,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-02-16T14:35:48Z"
+      }
+    },
+    "g_nme_etcbc": {
+      "size_bytes": 553789,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-05-03T08:47:16Z"
+      }
+    },
+    "g_prs_etcbc": {
+      "size_bytes": 1580120,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-02-28T13:07:55Z"
+      }
+    },
+    "glex": {
+      "size_bytes": 4035131,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:58Z",
+        "description": "representation (Unicode) of a lexeme leaving out non-letters",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "glexe": {
+      "size_bytes": 2405984,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:59Z",
+        "description": "representation (ETCBC transliteration) of a lexeme leaving out non-letters",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "glexo": {
+      "size_bytes": 2678473,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:01:59Z",
+        "description": "representation (original source) of a lexeme leaving out non-letters",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "glyph": {
+      "size_bytes": 7358405,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:00Z",
+        "description": "representation (Unicode) of a word or sign",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "glyphe": {
+      "size_bytes": 5002693,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:02Z",
+        "description": "representation (ETCBC transliteration) of a word or sign",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "glypho": {
+      "size_bytes": 4888699,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:04Z",
+        "description": "representation (original source) of a word or sign",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "gn": {
+      "size_bytes": 1451933,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "gender (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "b, c, f, m, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "gn2": {
+      "size_bytes": 427081,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "gender (for part 2) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "c, f, m, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "gn3": {
+      "size_bytes": 696,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "gender (for part 3) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "c, f, m",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "gn_etcbc": {
+      "size_bytes": 693422,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-08-21T08:34:07Z"
+      }
+    },
+    "halfverse": {
+      "size_bytes": 2552,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "label of the half-verse in which the word occurs",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "intl": {
+      "size_bytes": 4993,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "interlinear material, the value indicates the sequence number of the interlinear line",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "lang": {
+      "size_bytes": 418353,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "language of a word or sign, only if it is not Hebrew",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "g=greek, a=aramaic",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "lang_etcbc": {
+      "size_bytes": 13704218,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2022",
+        "dateWritten": "2022-05-09T13:59:08Z",
+        "description": "Dead Sea Scrolls: additions based on BHSA",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "lex": {
+      "size_bytes": 4452296,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:06Z",
+        "description": "representation (Unicode) of a lexeme",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "lex_etcbc": {
+      "size_bytes": 1815947,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-06-10T10:52:49Z"
+      }
+    },
+    "lexe": {
+      "size_bytes": 2823149,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:07Z",
+        "description": "representation (ETCBC transliteration) of a lexeme",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "lexo": {
+      "size_bytes": 2964336,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:08Z",
+        "description": "representation (original source) of a lexeme",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "line": {
+      "size_bytes": 119086,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:08Z",
+        "description": "label of a line of a fragment of a scroll",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "md": {
+      "size_bytes": 26309,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:08Z",
+        "description": "mood (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "coho, cons, juss, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "merr": {
+      "size_bytes": 555,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:08Z",
+        "description": "errors in parsing the morphology tag",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "morpho": {
+      "size_bytes": 2369611,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:08Z",
+        "description": "morphological tag (by Abegg)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "nr": {
+      "size_bytes": 2042,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2020-12-29T15:02:09Z"
+      }
+    },
+    "nu": {
+      "size_bytes": 1451288,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:09Z",
+        "description": "number (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "d, p, s, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "nu2": {
+      "size_bytes": 426998,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:09Z",
+        "description": "number (for part 2) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "p, s, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "nu3": {
+      "size_bytes": 690,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:09Z",
+        "description": "number (for part 3) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "s",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "nu_etcbc": {
+      "size_bytes": 1508893,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-08-21T08:34:07Z"
+      }
+    },
+    "occ": {
+      "size_bytes": 3761189,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:17Z",
+        "description": "edge feature from a lexeme to its occurrences",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "oslots": {
+      "size_bytes": 14394455,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:17Z",
+        "description": "Dead Sea Scrolls: biblical and non-biblical scrolls",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "otext": {
+      "size_bytes": 1139,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:19Z",
+        "description": "Dead Sea Scrolls: biblical and non-biblical scrolls",
+        "fmt:lex-default": "word#{lang:h}-{lex}-{lexe}-{lexo}",
+        "fmt:lex-orig-full": "word#{lang:h}-{glex}{punc}{after}",
+        "fmt:lex-source-full": "word#{lang:h}-{glexo}{punco}{after}",
+        "fmt:lex-trans-full": "word#{lang:h}-{glexe}{punce}{after}",
+        "fmt:morph-source-full": "word#{morpho}{punco}{after}",
+        "fmt:text-orig-extra": "word#{full}{after}",
+        "fmt:text-orig-full": "{glyph}{punc}{after}",
+        "fmt:text-source-extra": "word#{fullo}{after}",
+        "fmt:text-source-full": "{glypho}{punco}{after}",
+        "fmt:text-trans-extra": "word#{fulle}{after}",
+        "fmt:text-trans-full": "{glyphe}{punce}{after}",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "sectionFeatures": "scroll,fragment,line",
+        "sectionTypes": "scroll,fragment,line",
+        "source": "Martin Abegg's data files, personal communication",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "otype": {
+      "size_bytes": 750,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:10Z",
+        "description": "Dead Sea Scrolls: biblical and non-biblical scrolls",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "ps": {
+      "size_bytes": 481024,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:10Z",
+        "description": "person (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "1, 2, 3, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "ps2": {
+      "size_bytes": 426950,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:10Z",
+        "description": "person (for part 2) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "1, 2, 3",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "ps3": {
+      "size_bytes": 696,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:10Z",
+        "description": "person (for part 3) (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "1, 2, 3",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "ps_etcbc": {
+      "size_bytes": 1505988,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-08-21T08:34:08Z"
+      }
+    },
+    "punc": {
+      "size_bytes": 329665,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:11Z",
+        "description": "trailing punctuation (Unicode) of a word",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "punce": {
+      "size_bytes": 329679,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:11Z",
+        "description": "trailing punctuation (ETCBC transliteration) of a word",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "punco": {
+      "size_bytes": 299728,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:11Z",
+        "description": "trailing punctuation (original source) of a word",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "rec": {
+      "size_bytes": 1886681,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:11Z",
+        "description": "reconstructed by a modern editor",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "rem": {
+      "size_bytes": 10396,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:12Z",
+        "description": "removed by an ancient or modern editor",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1 = modern, 2 = ancient",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "script": {
+      "size_bytes": 61876,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:12Z",
+        "description": "script in which the word or sign is written if it is not Hebrew",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "paleohebrew greekcapital",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "scroll": {
+      "size_bytes": 378532,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:12Z",
+        "description": "acronym of a scroll",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "sim": {
+      "size_bytes": 561541,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Dirk Roorda",
+        "createdDate": "2022-10-09",
+        "description": "similarity between lines, as a percentage of the common material wrt the combined material",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "sourceCreatedBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "sourceCreatedDate": "2015",
+        "sourceDescription": "Dead Sea Scrolls: biblical and non-biblical scrolls",
+        "valueType": "int",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2022-10-09T10:08:27Z"
+      }
+    },
+    "sp": {
+      "size_bytes": 2836506,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:12Z",
+        "description": "part of speech (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "adjv, numr, pron, ptcl, subs, suff, unknown, verb",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "sp_etcbc": {
+      "size_bytes": 1285662,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-06-10T10:52:50Z"
+      }
+    },
+    "srcLn": {
+      "size_bytes": 3314603,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:12Z",
+        "description": "the line number of the word in the source data file",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "st": {
+      "size_bytes": 871409,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:13Z",
+        "description": "state (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "a, c, d, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "type": {
+      "size_bytes": 10781272,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:13Z",
+        "description": "type of sign or cluster",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "unc": {
+      "size_bytes": 652154,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:15Z",
+        "description": "uncertain material in various degrees: higher degree is less certain",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1 2 3 4",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "uvf_etcbc": {
+      "size_bytes": 501969,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2022-08-17T08:53:36Z"
+      }
+    },
+    "vac": {
+      "size_bytes": 32498,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:15Z",
+        "description": "empty, unwritten space",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "int",
+        "values": "1",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "verse": {
+      "size_bytes": 563822,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:15Z",
+        "description": "label of the verse in which the word occurs",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "vs": {
+      "size_bytes": 819020,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:15Z",
+        "description": "verbal stem (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "aphel, apoel, haphel, hifil, hishtafel, hishtaphel, hithaphel, hithpaal, hithpeel, hithpolel, hitopel, hitpael, hitpalpel, hitpoel, hofal, hophal, hotpaal, hpealal, ishtaphel, ithpaal, ithpeel, ithpoel, nifal, nitpael, pael, palel, passive, peal, peil, piel, pilpel, poal, poel, polal, polel, pual, pulal, qal, shaphel, tifil, unknown",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "vs_etcbc": {
+      "size_bytes": 1586041,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-08-21T08:34:08Z"
+      }
+    },
+    "vt": {
+      "size_bytes": 838258,
+      "metadata": {
+        "acronym": "dss",
+        "convertedBy": "Jarod Jacobs, Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Jr., James E. Bowley, and Edward M. Cook",
+        "createdDate": "2015",
+        "dateWritten": "2020-12-29T15:02:16Z",
+        "description": "verbal tense/aspect (morphology tag)",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martin Abegg's data files, personal communication",
+        "valueType": "str",
+        "values": "impf, impv, infa, infc, perf, ptca, ptcp, unknown, wayy",
+        "writtenBy": "Text-Fabric"
+      }
+    },
+    "vt_etcbc": {
+      "size_bytes": 1637168,
+      "metadata": {
+        "acronym": "dss-additions",
+        "convertedBy": "Martijn Naaijer and Dirk Roorda",
+        "createdBy": "Martin G. Abegg, Martijn Naaijer, ETCBC",
+        "createdDate": "2020",
+        "description": "Dead Sea Scrolls: additions based on BHSA and machine learning",
+        "license": "Creative Commons Attribution-NonCommercial 4.0 International License",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc/4.0/",
+        "source": "Martijn Naaijer's data files, personal communication",
+        "valueType": "str",
+        "writtenBy": "Text-Fabric",
+        "dateWritten": "2023-08-21T08:34:09Z"
+      }
+    }
+  },
+  "key_features_available": {
+    "g_cons": true,
+    "g_word": false,
+    "biblical": true,
+    "rec": true,
+    "book": true,
+    "chapter": true,
+    "verse": true,
+    "lex": true,
+    "sp": true,
+    "scroll": true,
+    "line": true,
+    "fragment": true,
+    "sign": false
+  }
+}

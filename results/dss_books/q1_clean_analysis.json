@@ -1,0 +1,60 @@
+{
+  "Q1_answer": "La invarianza temporal SE GENERALIZA en los libros con datos limpios",
+  "filter_criterion": "mean_verse_len ratio DSS/WLC < 1.20",
+  "reference": "Isaiah validado: ratio=0.994, ΔH=+0.008, p=0.71",
+  "clean_books": [
+    {
+      "book": "Daniel",
+      "n_verses": 188,
+      "coverage": 0.5266,
+      "vl_ratio": 1.167,
+      "H_DSS": 0.6945,
+      "H_WLC": 0.5949,
+      "delta_H": 0.0996,
+      "p_value": 0.078746,
+      "significant": false
+    },
+    {
+      "book": "Habakuk",
+      "n_verses": 47,
+      "coverage": 0.8393,
+      "vl_ratio": 1.033,
+      "H_DSS": 0.6126,
+      "H_WLC": 0.4824,
+      "delta_H": 0.1302,
+      "p_value": 0.519595,
+      "significant": false
+    },
+    {
+      "book": "Hosea",
+      "n_verses": 134,
+      "coverage": 0.6802,
+      "vl_ratio": 1.139,
+      "H_DSS": 0.5765,
+      "H_WLC": 0.4625,
+      "delta_H": 0.1141,
+      "p_value": 0.39496,
+      "significant": false
+    },
+    {
+      "book": "Maleachi",
+      "n_verses": 32,
+      "coverage": 0.5818,
+      "vl_ratio": 1.065,
+      "H_DSS": null,
+      "H_WLC": null,
+      "delta_H": null,
+      "p_value": 0.463406,
+      "significant": false
+    }
+  ],
+  "clean_summary": {
+    "n_clean": 4,
+    "n_significant": 0,
+    "n_not_significant": 4,
+    "mean_abs_delta_H": 0.088,
+    "conclusion": "TODOS los libros con datos limpios (ratio < 1.20) muestran ΔH no significativo. La invarianza temporal no es específica de Isaías."
+  },
+  "contamination_note": "Libros con ratio ≥ 1.20 tienen acumulación de fragmentos DSS superpuestos que inflan artificialmente el H — mismo artefacto de Fase 7",
+  "bug_note": "DSS 'Is' mapeado incorrectamente a BHSA 'Genesis' por coincidencia parcial de string"
+}

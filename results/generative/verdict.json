@@ -1,0 +1,43 @@
+{
+  "category": "FENÓMENOS_PARALELOS",
+  "description": "Los tres corpus comparten el rango de H (>0.9) y MPS significativo, pero difieren en estructura de autocorrelación y/o espectro multifractal. Son fenómenos PARALELOS: procesos distintos que convergen en propiedades similares.",
+  "evidence": {
+    "arfima_d_range": 0.8601891537368035,
+    "arfima_similar": false,
+    "d_values": {
+      "AT": 0.5210556229966514,
+      "Corán": 0.7583113537144786,
+      "Rig Veda": -0.10187780002232495
+    },
+    "acf_all_indistinguishable": false,
+    "acf_tests": {
+      "AT vs Corán": {
+        "ks_statistic": 0.58,
+        "p_value": 6.689905084769254e-16,
+        "distinguishable": true
+      },
+      "AT vs Rig Veda": {
+        "ks_statistic": 0.99,
+        "p_value": 4.417521386399011e-57,
+        "distinguishable": true
+      },
+      "Corán vs Rig Veda": {
+        "ks_statistic": 0.99,
+        "p_value": 4.417521386399011e-57,
+        "distinguishable": true
+      }
+    },
+    "mf_spectrum_widths": {
+      "AT": 0.25619068650374466,
+      "Corán": 0.41754069274029604,
+      "Rig Veda": 0.07332800683362306
+    },
+    "mf_width_range": 0.344212685906673,
+    "mf_similar": false,
+    "process_test_compatible": {
+      "Corán": false,
+      "Rig Veda": true
+    }
+  },
+  "implication": "Si MISMO_FENÓMENO: sugiere un mecanismo universal que produce memoria larga en textos de revelación controlada, independientemente de lengua y cultura. Si MISMA_FAMILIA: el mecanismo general es el mismo pero con variaciones culturales. Si FENÓMENOS_PARALELOS: la convergencia en H alto es una propiedad emergente de la transmisión controlada, no de un proceso generativo específico."
+}

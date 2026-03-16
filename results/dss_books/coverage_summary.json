@@ -1,0 +1,689 @@
+[
+  {
+    "dss_book": "11Q1",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q3",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q4",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q5",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q6",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "11Q8",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Kgs",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q1",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q10",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q12",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q13",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q3",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q4",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q5",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q6",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q8",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Q9",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "1Sam",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Chr",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Kgs",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Q13",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Q17",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Q2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Q3",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "2Sam",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q1",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q106",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q11",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q112",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q113",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q115",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q118",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q14",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q17",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q20",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q23",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q24",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q25",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q27",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q30",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q32",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q33",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q36",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q37",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q38a",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q38c",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q39",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q43",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q45",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q48",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q5",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q53",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q54",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q55",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q56",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q57",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q58",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q59",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q60",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q68",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q70",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q72",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q76",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q77",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q78",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q80",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q83",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q84",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q85",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q88",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q9",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q91",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "4Q99",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "5/6Hev1a",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "5/6Hev1b",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "5Q3",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "5Q4",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "5Q6",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "6Q4",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "6Q7",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "8Q2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "8Q3",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Amos",
+    "bhsa_book": "Amos",
+    "n_dss_verses": 118,
+    "n_bhsa_verses": 146,
+    "n_common_verses": 118,
+    "coverage": 0.8082
+  },
+  {
+    "dss_book": "Dan",
+    "bhsa_book": "Daniel",
+    "n_dss_verses": 188,
+    "n_bhsa_verses": 357,
+    "n_common_verses": 188,
+    "coverage": 0.5266
+  },
+  {
+    "dss_book": "Deut",
+    "bhsa_book": "Deuteronomium",
+    "n_dss_verses": 679,
+    "n_bhsa_verses": 959,
+    "n_common_verses": 679,
+    "coverage": 0.708
+  },
+  {
+    "dss_book": "Eccl",
+    "bhsa_book": "Ecclesiastes",
+    "n_dss_verses": 36,
+    "n_bhsa_verses": 222,
+    "n_common_verses": 36,
+    "coverage": 0.1622
+  },
+  {
+    "dss_book": "Ex",
+    "bhsa_book": "Exodus",
+    "n_dss_verses": 805,
+    "n_bhsa_verses": 1213,
+    "n_common_verses": 805,
+    "coverage": 0.6636
+  },
+  {
+    "dss_book": "Ezek",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Ezra",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Gen",
+    "bhsa_book": "Genesis",
+    "n_dss_verses": 338,
+    "n_bhsa_verses": 1533,
+    "n_common_verses": 338,
+    "coverage": 0.2205
+  },
+  {
+    "dss_book": "Hab",
+    "bhsa_book": "Habakuk",
+    "n_dss_verses": 47,
+    "n_bhsa_verses": 56,
+    "n_common_verses": 47,
+    "coverage": 0.8393
+  },
+  {
+    "dss_book": "Hag",
+    "bhsa_book": "Haggai",
+    "n_dss_verses": 36,
+    "n_bhsa_verses": 38,
+    "n_common_verses": 36,
+    "coverage": 0.9474
+  },
+  {
+    "dss_book": "Hos",
+    "bhsa_book": "Hosea",
+    "n_dss_verses": 134,
+    "n_bhsa_verses": 197,
+    "n_common_verses": 134,
+    "coverage": 0.6802
+  },
+  {
+    "dss_book": "Is",
+    "bhsa_book": "Genesis",
+    "n_dss_verses": 1291,
+    "n_bhsa_verses": 1533,
+    "n_common_verses": 979,
+    "coverage": 0.6386
+  },
+  {
+    "dss_book": "Jer",
+    "bhsa_book": "Jeremia",
+    "n_dss_verses": 305,
+    "n_bhsa_verses": 1364,
+    "n_common_verses": 305,
+    "coverage": 0.2236
+  },
+  {
+    "dss_book": "Job",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Joel",
+    "bhsa_book": "Joel",
+    "n_dss_verses": 62,
+    "n_bhsa_verses": 73,
+    "n_common_verses": 62,
+    "coverage": 0.8493
+  },
+  {
+    "dss_book": "Jonah",
+    "bhsa_book": "Jona",
+    "n_dss_verses": 48,
+    "n_bhsa_verses": 48,
+    "n_common_verses": 48,
+    "coverage": 1.0
+  },
+  {
+    "dss_book": "Josh",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Judg",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Lam",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Lev",
+    "bhsa_book": "Leviticus",
+    "n_dss_verses": 484,
+    "n_bhsa_verses": 859,
+    "n_common_verses": 484,
+    "coverage": 0.5634
+  },
+  {
+    "dss_book": "Mal",
+    "bhsa_book": "Maleachi",
+    "n_dss_verses": 32,
+    "n_bhsa_verses": 55,
+    "n_common_verses": 32,
+    "coverage": 0.5818
+  },
+  {
+    "dss_book": "Mic",
+    "bhsa_book": "Micha",
+    "n_dss_verses": 100,
+    "n_bhsa_verses": 105,
+    "n_common_verses": 100,
+    "coverage": 0.9524
+  },
+  {
+    "dss_book": "Mur1",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Mur88",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Nah",
+    "bhsa_book": "Nahum",
+    "n_dss_verses": 47,
+    "n_bhsa_verses": 47,
+    "n_common_verses": 47,
+    "coverage": 1.0
+  },
+  {
+    "dss_book": "Num",
+    "bhsa_book": "Numeri",
+    "n_dss_verses": 514,
+    "n_bhsa_verses": 1289,
+    "n_common_verses": 514,
+    "coverage": 0.3988
+  },
+  {
+    "dss_book": "Obad",
+    "bhsa_book": "Obadia",
+    "n_dss_verses": 21,
+    "n_bhsa_verses": 21,
+    "n_common_verses": 21,
+    "coverage": 1.0
+  },
+  {
+    "dss_book": "PAM43113",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "PAM43124",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Prov",
+    "bhsa_book": "Proverbia",
+    "n_dss_verses": 52,
+    "n_bhsa_verses": 915,
+    "n_common_verses": 52,
+    "coverage": 0.0568
+  },
+  {
+    "dss_book": "Ps",
+    "bhsa_book": "Psalmi",
+    "n_dss_verses": 1261,
+    "n_bhsa_verses": 2527,
+    "n_common_verses": 1261,
+    "coverage": 0.499
+  },
+  {
+    "dss_book": "Ruth",
+    "bhsa_book": "Ruth",
+    "n_dss_verses": 42,
+    "n_bhsa_verses": 85,
+    "n_common_verses": 42,
+    "coverage": 0.4941
+  },
+  {
+    "dss_book": "Song",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "X4",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "XHev/Se2",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "XJudges",
+    "bhsa_book": null,
+    "status": "no_bhsa_mapping"
+  },
+  {
+    "dss_book": "Zech",
+    "bhsa_book": "Ezechiel",
+    "n_dss_verses": 59,
+    "n_bhsa_verses": 1273,
+    "n_common_verses": 55,
+    "coverage": 0.0432
+  },
+  {
+    "dss_book": "Zeph",
+    "bhsa_book": "Zephania",
+    "n_dss_verses": 45,
+    "n_bhsa_verses": 53,
+    "n_common_verses": 45,
+    "coverage": 0.8491
+  }
+]

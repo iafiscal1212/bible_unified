@@ -1,0 +1,50 @@
+{
+  "AT": {
+    "label": "AT",
+    "H_original": 0.8766,
+    "H_shuffled_mean": 0.5363,
+    "H_shuffled_std": 0.0162,
+    "p_value": 0.0,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  },
+  "NT": {
+    "label": "NT",
+    "H_original": 0.7826,
+    "H_shuffled_mean": 0.5471,
+    "H_shuffled_std": 0.0183,
+    "p_value": 0.0,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  },
+  "Corán": {
+    "label": "Corán",
+    "H_original": 0.8963,
+    "H_shuffled_mean": 0.5464,
+    "H_shuffled_std": 0.0199,
+    "p_value": 0.0,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  },
+  "Rig Veda": {
+    "label": "Rig Veda",
+    "H_original": 0.6678,
+    "H_shuffled_mean": 0.5381,
+    "H_shuffled_std": 0.0154,
+    "p_value": 0.0,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  },
+  "Homero": {
+    "label": "Homero",
+    "H_original": 0.6077,
+    "H_shuffled_mean": 0.5419,
+    "H_shuffled_std": 0.0165,
+    "p_value": 0.0,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  },
+  "Heródoto": {
+    "label": "Heródoto",
+    "H_original": 0.6448,
+    "H_shuffled_mean": 0.5649,
+    "H_shuffled_std": 0.0312,
+    "p_value": 0.006,
+    "conclusion": "SEQUENCE property (H destroyed by shuffling)"
+  }
+}

@@ -1,0 +1,1161 @@
+{
+  "n_gram_divergences": {
+    "n=1": {
+      "jsd": 0.06161391600281124,
+      "n_unique_dss": 8,
+      "n_unique_wlc": 7,
+      "top_50_changes": [
+        {
+          "ngram": "particle",
+          "freq_dss": 0.366087,
+          "freq_wlc": 0.135507,
+          "delta": 0.23058,
+          "abs_delta": 0.23058
+        },
+        {
+          "ngram": "noun",
+          "freq_dss": 0.275202,
+          "freq_wlc": 0.368613,
+          "delta": -0.093411,
+          "abs_delta": 0.093411
+        },
+        {
+          "ngram": "verb",
+          "freq_dss": 0.191913,
+          "freq_wlc": 0.25883,
+          "delta": -0.066917,
+          "abs_delta": 0.066917
+        },
+        {
+          "ngram": "suffix",
+          "freq_dss": 0.118282,
+          "freq_wlc": 0.16029,
+          "delta": -0.042007,
+          "abs_delta": 0.042007
+        },
+        {
+          "ngram": "adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.017189,
+          "delta": -0.017189,
+          "abs_delta": 0.017189
+        },
+        {
+          "ngram": "pronoun",
+          "freq_dss": 0.01686,
+          "freq_wlc": 0.025018,
+          "delta": -0.008158,
+          "abs_delta": 0.008158
+        },
+        {
+          "ngram": "adjective",
+          "freq_dss": 0.028231,
+          "freq_wlc": 0.034554,
+          "delta": -0.006322,
+          "abs_delta": 0.006322
+        },
+        {
+          "ngram": "numeral",
+          "freq_dss": 0.002986,
+          "freq_wlc": 0.0,
+          "delta": 0.002986,
+          "abs_delta": 0.002986
+        },
+        {
+          "ngram": "other",
+          "freq_dss": 0.000439,
+          "freq_wlc": 0.0,
+          "delta": 0.000439,
+          "abs_delta": 0.000439
+        }
+      ]
+    },
+    "n=2": {
+      "jsd": 0.1487777789938205,
+      "n_unique_dss": 57,
+      "n_unique_wlc": 49,
+      "top_50_changes": [
+        {
+          "ngram": "particle noun",
+          "freq_dss": 0.131504,
+          "freq_wlc": 0.044976,
+          "delta": 0.086528,
+          "abs_delta": 0.086528
+        },
+        {
+          "ngram": "noun noun",
+          "freq_dss": 0.069155,
+          "freq_wlc": 0.154,
+          "delta": -0.084845,
+          "abs_delta": 0.084845
+        },
+        {
+          "ngram": "noun particle",
+          "freq_dss": 0.122503,
+          "freq_wlc": 0.04421,
+          "delta": 0.078292,
+          "abs_delta": 0.078292
+        },
+        {
+          "ngram": "verb noun",
+          "freq_dss": 0.048825,
+          "freq_wlc": 0.102726,
+          "delta": -0.0539,
+          "abs_delta": 0.0539
+        },
+        {
+          "ngram": "particle particle",
+          "freq_dss": 0.063227,
+          "freq_wlc": 0.00989,
+          "delta": 0.053337,
+          "abs_delta": 0.053337
+        },
+        {
+          "ngram": "particle verb",
+          "freq_dss": 0.102964,
+          "freq_wlc": 0.050156,
+          "delta": 0.052808,
+          "abs_delta": 0.052808
+        },
+        {
+          "ngram": "verb particle",
+          "freq_dss": 0.093611,
+          "freq_wlc": 0.04109,
+          "delta": 0.052521,
+          "abs_delta": 0.052521
+        },
+        {
+          "ngram": "noun verb",
+          "freq_dss": 0.042371,
+          "freq_wlc": 0.087891,
+          "delta": -0.04552,
+          "abs_delta": 0.04552
+        },
+        {
+          "ngram": "suffix particle",
+          "freq_dss": 0.06775,
+          "freq_wlc": 0.029905,
+          "delta": 0.037845,
+          "abs_delta": 0.037845
+        },
+        {
+          "ngram": "verb verb",
+          "freq_dss": 0.014007,
+          "freq_wlc": 0.046271,
+          "delta": -0.032264,
+          "abs_delta": 0.032264
+        },
+        {
+          "ngram": "suffix noun",
+          "freq_dss": 0.016246,
+          "freq_wlc": 0.045093,
+          "delta": -0.028847,
+          "abs_delta": 0.028847
+        },
+        {
+          "ngram": "suffix verb",
+          "freq_dss": 0.0209,
+          "freq_wlc": 0.04786,
+          "delta": -0.02696,
+          "abs_delta": 0.02696
+        },
+        {
+          "ngram": "particle suffix",
+          "freq_dss": 0.045884,
+          "freq_wlc": 0.020427,
+          "delta": 0.025456,
+          "abs_delta": 0.025456
+        },
+        {
+          "ngram": "verb suffix",
+          "freq_dss": 0.029945,
+          "freq_wlc": 0.053453,
+          "delta": -0.023508,
+          "abs_delta": 0.023508
+        },
+        {
+          "ngram": "noun suffix",
+          "freq_dss": 0.028891,
+          "freq_wlc": 0.052334,
+          "delta": -0.023443,
+          "abs_delta": 0.023443
+        },
+        {
+          "ngram": "suffix suffix",
+          "freq_dss": 0.008299,
+          "freq_wlc": 0.024666,
+          "delta": -0.016367,
+          "abs_delta": 0.016367
+        },
+        {
+          "ngram": "particle adjective",
+          "freq_dss": 0.013085,
+          "freq_wlc": 0.00312,
+          "delta": 0.009964,
+          "abs_delta": 0.009964
+        },
+        {
+          "ngram": "adjective particle",
+          "freq_dss": 0.014358,
+          "freq_wlc": 0.004651,
+          "delta": 0.009707,
+          "abs_delta": 0.009707
+        },
+        {
+          "ngram": "adverb verb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.008359,
+          "delta": -0.008359,
+          "abs_delta": 0.008359
+        },
+        {
+          "ngram": "noun adjective",
+          "freq_dss": 0.008694,
+          "freq_wlc": 0.016542,
+          "delta": -0.007848,
+          "abs_delta": 0.007848
+        },
+        {
+          "ngram": "noun pronoun",
+          "freq_dss": 0.002503,
+          "freq_wlc": 0.009301,
+          "delta": -0.006798,
+          "abs_delta": 0.006798
+        },
+        {
+          "ngram": "adjective noun",
+          "freq_dss": 0.005752,
+          "freq_wlc": 0.011891,
+          "delta": -0.00614,
+          "abs_delta": 0.00614
+        },
+        {
+          "ngram": "adjective verb",
+          "freq_dss": 0.004391,
+          "freq_wlc": 0.009419,
+          "delta": -0.005028,
+          "abs_delta": 0.005028
+        },
+        {
+          "ngram": "verb adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.004651,
+          "delta": -0.004651,
+          "abs_delta": 0.004651
+        },
+        {
+          "ngram": "noun adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.004297,
+          "delta": -0.004297,
+          "abs_delta": 0.004297
+        },
+        {
+          "ngram": "suffix adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.00418,
+          "delta": -0.00418,
+          "abs_delta": 0.00418
+        },
+        {
+          "ngram": "pronoun noun",
+          "freq_dss": 0.002459,
+          "freq_wlc": 0.006534,
+          "delta": -0.004076,
+          "abs_delta": 0.004076
+        },
+        {
+          "ngram": "particle pronoun",
+          "freq_dss": 0.008123,
+          "freq_wlc": 0.004239,
+          "delta": 0.003884,
+          "abs_delta": 0.003884
+        },
+        {
+          "ngram": "adverb noun",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.003356,
+          "delta": -0.003356,
+          "abs_delta": 0.003356
+        },
+        {
+          "ngram": "verb adjective",
+          "freq_dss": 0.003425,
+          "freq_wlc": 0.006299,
+          "delta": -0.002874,
+          "abs_delta": 0.002874
+        },
+        {
+          "ngram": "particle adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.002708,
+          "delta": -0.002708,
+          "abs_delta": 0.002708
+        },
+        {
+          "ngram": "suffix adjective",
+          "freq_dss": 0.001888,
+          "freq_wlc": 0.004415,
+          "delta": -0.002527,
+          "abs_delta": 0.002527
+        },
+        {
+          "ngram": "verb pronoun",
+          "freq_dss": 0.001844,
+          "freq_wlc": 0.004356,
+          "delta": -0.002512,
+          "abs_delta": 0.002512
+        },
+        {
+          "ngram": "adjective adjective",
+          "freq_dss": 0.000527,
+          "freq_wlc": 0.002943,
+          "delta": -0.002417,
+          "abs_delta": 0.002417
+        },
+        {
+          "ngram": "adverb particle",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.002178,
+          "delta": -0.002178,
+          "abs_delta": 0.002178
+        },
+        {
+          "ngram": "pronoun verb",
+          "freq_dss": 0.007025,
+          "freq_wlc": 0.008889,
+          "delta": -0.001864,
+          "abs_delta": 0.001864
+        },
+        {
+          "ngram": "adverb suffix",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.001825,
+          "delta": -0.001825,
+          "abs_delta": 0.001825
+        },
+        {
+          "ngram": "adjective suffix",
+          "freq_dss": 0.002503,
+          "freq_wlc": 0.003944,
+          "delta": -0.001441,
+          "abs_delta": 0.001441
+        },
+        {
+          "ngram": "suffix pronoun",
+          "freq_dss": 0.002854,
+          "freq_wlc": 0.00418,
+          "delta": -0.001326,
+          "abs_delta": 0.001326
+        },
+        {
+          "ngram": "particle numeral",
+          "freq_dss": 0.001186,
+          "freq_wlc": 0.0,
+          "delta": 0.001186,
+          "abs_delta": 0.001186
+        },
+        {
+          "ngram": "numeral noun",
+          "freq_dss": 0.001142,
+          "freq_wlc": 0.0,
+          "delta": 0.001142,
+          "abs_delta": 0.001142
+        },
+        {
+          "ngram": "pronoun suffix",
+          "freq_dss": 0.002634,
+          "freq_wlc": 0.00365,
+          "delta": -0.001015,
+          "abs_delta": 0.001015
+        },
+        {
+          "ngram": "numeral particle",
+          "freq_dss": 0.00101,
+          "freq_wlc": 0.0,
+          "delta": 0.00101,
+          "abs_delta": 0.00101
+        },
+        {
+          "ngram": "noun numeral",
+          "freq_dss": 0.000966,
+          "freq_wlc": 0.0,
+          "delta": 0.000966,
+          "abs_delta": 0.000966
+        },
+        {
+          "ngram": "adjective pronoun",
+          "freq_dss": 0.000615,
+          "freq_wlc": 0.001236,
+          "delta": -0.000622,
+          "abs_delta": 0.000622
+        },
+        {
+          "ngram": "adverb adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.000589,
+          "delta": -0.000589,
+          "abs_delta": 0.000589
+        },
+        {
+          "ngram": "adverb adjective",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.00053,
+          "delta": -0.00053,
+          "abs_delta": 0.00053
+        },
+        {
+          "ngram": "pronoun pronoun",
+          "freq_dss": 0.000878,
+          "freq_wlc": 0.001354,
+          "delta": -0.000476,
+          "abs_delta": 0.000476
+        },
+        {
+          "ngram": "adjective adverb",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.000471,
+          "delta": -0.000471,
+          "abs_delta": 0.000471
+        },
+        {
+          "ngram": "adverb pronoun",
+          "freq_dss": 0.0,
+          "freq_wlc": 0.000353,
+          "delta": -0.000353,
+          "abs_delta": 0.000353
+        }
+      ]
+    },
+    "n=3": {
+      "jsd": 0.2279901917057162,
+      "n_unique_dss": 280,
+      "n_unique_wlc": 311,
+      "top_50_changes": [
+        {
+          "ngram": "particle noun particle",
+          "freq_dss": 0.05761,
+          "freq_wlc": 0.005534,
+          "delta": 0.052076,
+          "abs_delta": 0.052076
+        },
+        {
+          "ngram": "noun noun noun",
+          "freq_dss": 0.017827,
+          "freq_wlc": 0.06941,
+          "delta": -0.051583,
+          "abs_delta": 0.051583
+        },
+        {
+          "ngram": "particle verb particle",
+          "freq_dss": 0.050672,
+          "freq_wlc": 0.010479,
+          "delta": 0.040193,
+          "abs_delta": 0.040193
+        },
+        {
+          "ngram": "noun particle noun",
+          "freq_dss": 0.047774,
+          "freq_wlc": 0.017073,
+          "delta": 0.030701,
+          "abs_delta": 0.030701
+        },
+        {
+          "ngram": "verb noun noun",
+          "freq_dss": 0.011724,
+          "freq_wlc": 0.038797,
+          "delta": -0.027073,
+          "abs_delta": 0.027073
+        },
+        {
+          "ngram": "noun noun verb",
+          "freq_dss": 0.010802,
+          "freq_wlc": 0.037737,
+          "delta": -0.026935,
+          "abs_delta": 0.026935
+        },
+        {
+          "ngram": "noun verb noun",
+          "freq_dss": 0.011987,
+          "freq_wlc": 0.038797,
+          "delta": -0.026809,
+          "abs_delta": 0.026809
+        },
+        {
+          "ngram": "particle particle noun",
+          "freq_dss": 0.026038,
+          "freq_wlc": 0.002708,
+          "delta": 0.02333,
+          "abs_delta": 0.02333
+        },
+        {
+          "ngram": "particle suffix particle",
+          "freq_dss": 0.025775,
+          "freq_wlc": 0.003944,
+          "delta": 0.021831,
+          "abs_delta": 0.021831
+        },
+        {
+          "ngram": "verb particle noun",
+          "freq_dss": 0.034162,
+          "freq_wlc": 0.014953,
+          "delta": 0.019208,
+          "abs_delta": 0.019208
+        },
+        {
+          "ngram": "noun particle particle",
+          "freq_dss": 0.021691,
+          "freq_wlc": 0.003179,
+          "delta": 0.018512,
+          "abs_delta": 0.018512
+        },
+        {
+          "ngram": "verb noun verb",
+          "freq_dss": 0.006323,
+          "freq_wlc": 0.024491,
+          "delta": -0.018168,
+          "abs_delta": 0.018168
+        },
+        {
+          "ngram": "noun particle verb",
+          "freq_dss": 0.031747,
+          "freq_wlc": 0.0146,
+          "delta": 0.017146,
+          "abs_delta": 0.017146
+        },
+        {
+          "ngram": "verb verb noun",
+          "freq_dss": 0.003645,
+          "freq_wlc": 0.018839,
+          "delta": -0.015195,
+          "abs_delta": 0.015195
+        },
+        {
+          "ngram": "suffix noun noun",
+          "freq_dss": 0.004698,
+          "freq_wlc": 0.019487,
+          "delta": -0.014788,
+          "abs_delta": 0.014788
+        },
+        {
+          "ngram": "particle noun noun",
+          "freq_dss": 0.032888,
+          "freq_wlc": 0.018545,
+          "delta": 0.014344,
+          "abs_delta": 0.014344
+        },
+        {
+          "ngram": "suffix verb noun",
+          "freq_dss": 0.004435,
+          "freq_wlc": 0.018427,
+          "delta": -0.013992,
+          "abs_delta": 0.013992
+        },
+        {
+          "ngram": "verb particle particle",
+          "freq_dss": 0.0173,
+          "freq_wlc": 0.003473,
+          "delta": 0.013827,
+          "abs_delta": 0.013827
+        },
+        {
+          "ngram": "particle particle verb",
+          "freq_dss": 0.01853,
+          "freq_wlc": 0.004945,
+          "delta": 0.013585,
+          "abs_delta": 0.013585
+        },
+        {
+          "ngram": "noun noun particle",
+          "freq_dss": 0.031176,
+          "freq_wlc": 0.018015,
+          "delta": 0.013161,
+          "abs_delta": 0.013161
+        },
+        {
+          "ngram": "noun verb verb",
+          "freq_dss": 0.003952,
+          "freq_wlc": 0.016955,
+          "delta": -0.013003,
+          "abs_delta": 0.013003
+        },
+        {
+          "ngram": "noun suffix noun",
+          "freq_dss": 0.00281,
+          "freq_wlc": 0.014541,
+          "delta": -0.011731,
+          "abs_delta": 0.011731
+        },
+        {
+          "ngram": "verb noun suffix",
+          "freq_dss": 0.00562,
+          "freq_wlc": 0.017073,
+          "delta": -0.011452,
+          "abs_delta": 0.011452
+        },
+        {
+          "ngram": "particle verb noun",
+          "freq_dss": 0.025995,
+          "freq_wlc": 0.014836,
+          "delta": 0.011159,
+          "abs_delta": 0.011159
+        },
+        {
+          "ngram": "verb suffix noun",
+          "freq_dss": 0.006411,
+          "freq_wlc": 0.017544,
+          "delta": -0.011133,
+          "abs_delta": 0.011133
+        },
+        {
+          "ngram": "verb particle verb",
+          "freq_dss": 0.02437,
+          "freq_wlc": 0.013246,
+          "delta": 0.011124,
+          "abs_delta": 0.011124
+        },
+        {
+          "ngram": "noun suffix verb",
+          "freq_dss": 0.006411,
+          "freq_wlc": 0.017367,
+          "delta": -0.010956,
+          "abs_delta": 0.010956
+        },
+        {
+          "ngram": "suffix particle particle",
+          "freq_dss": 0.012734,
+          "freq_wlc": 0.001825,
+          "delta": 0.010909,
+          "abs_delta": 0.010909
+        },
+        {
+          "ngram": "noun noun suffix",
+          "freq_dss": 0.006455,
+          "freq_wlc": 0.017308,
+          "delta": -0.010854,
+          "abs_delta": 0.010854
+        },
+        {
+          "ngram": "particle noun verb",
+          "freq_dss": 0.021252,
+          "freq_wlc": 0.010597,
+          "delta": 0.010655,
+          "abs_delta": 0.010655
+        },
+        {
+          "ngram": "verb suffix verb",
+          "freq_dss": 0.003469,
+          "freq_wlc": 0.01407,
+          "delta": -0.010602,
+          "abs_delta": 0.010602
+        },
+        {
+          "ngram": "suffix particle noun",
+          "freq_dss": 0.017783,
+          "freq_wlc": 0.007536,
+          "delta": 0.010248,
+          "abs_delta": 0.010248
+        },
+        {
+          "ngram": "suffix particle verb",
+          "freq_dss": 0.022526,
+          "freq_wlc": 0.01254,
+          "delta": 0.009986,
+          "abs_delta": 0.009986
+        },
+        {
+          "ngram": "noun verb suffix",
+          "freq_dss": 0.005533,
+          "freq_wlc": 0.015307,
+          "delta": -0.009774,
+          "abs_delta": 0.009774
+        },
+        {
+          "ngram": "verb noun particle",
+          "freq_dss": 0.022614,
+          "freq_wlc": 0.01307,
+          "delta": 0.009544,
+          "abs_delta": 0.009544
+        },
+        {
+          "ngram": "verb verb verb",
+          "freq_dss": 0.001581,
+          "freq_wlc": 0.009714,
+          "delta": -0.008133,
+          "abs_delta": 0.008133
+        },
+        {
+          "ngram": "suffix verb suffix",
+          "freq_dss": 0.003688,
+          "freq_wlc": 0.011716,
+          "delta": -0.008027,
+          "abs_delta": 0.008027
+        },
+        {
+          "ngram": "suffix noun verb",
+          "freq_dss": 0.002239,
+          "freq_wlc": 0.009949,
+          "delta": -0.00771,
+          "abs_delta": 0.00771
+        },
+        {
+          "ngram": "noun verb particle",
+          "freq_dss": 0.019715,
+          "freq_wlc": 0.012363,
+          "delta": 0.007352,
+          "abs_delta": 0.007352
+        },
+        {
+          "ngram": "noun suffix particle",
+          "freq_dss": 0.016861,
+          "freq_wlc": 0.009537,
+          "delta": 0.007324,
+          "abs_delta": 0.007324
+        },
+        {
+          "ngram": "particle noun suffix",
+          "freq_dss": 0.014007,
+          "freq_wlc": 0.00677,
+          "delta": 0.007237,
+          "abs_delta": 0.007237
+        },
+        {
+          "ngram": "particle particle particle",
+          "freq_dss": 0.007772,
+          "freq_wlc": 0.000589,
+          "delta": 0.007183,
+          "abs_delta": 0.007183
+        },
+        {
+          "ngram": "verb verb suffix",
+          "freq_dss": 0.00202,
+          "freq_wlc": 0.00889,
+          "delta": -0.00687,
+          "abs_delta": 0.00687
+        },
+        {
+          "ngram": "suffix noun suffix",
+          "freq_dss": 0.001581,
+          "freq_wlc": 0.00836,
+          "delta": -0.006779,
+          "abs_delta": 0.006779
+        },
+        {
+          "ngram": "verb suffix particle",
+          "freq_dss": 0.016905,
+          "freq_wlc": 0.010361,
+          "delta": 0.006544,
+          "abs_delta": 0.006544
+        },
+        {
+          "ngram": "noun particle suffix",
+          "freq_dss": 0.012339,
+          "freq_wlc": 0.005946,
+          "delta": 0.006393,
+          "abs_delta": 0.006393
+        },
+        {
+          "ngram": "verb particle suffix",
+          "freq_dss": 0.01269,
+          "freq_wlc": 0.006417,
+          "delta": 0.006273,
+          "abs_delta": 0.006273
+        },
+        {
+          "ngram": "particle adjective particle",
+          "freq_dss": 0.006674,
+          "freq_wlc": 0.000412,
+          "delta": 0.006262,
+          "abs_delta": 0.006262
+        },
+        {
+          "ngram": "particle particle suffix",
+          "freq_dss": 0.007465,
+          "freq_wlc": 0.001413,
+          "delta": 0.006052,
+          "abs_delta": 0.006052
+        },
+        {
+          "ngram": "noun suffix suffix",
+          "freq_dss": 0.0018,
+          "freq_wlc": 0.00783,
+          "delta": -0.00603,
+          "abs_delta": 0.00603
+        }
+      ]
+    },
+    "n=4": {
+      "jsd": 0.30895930712165237,
+      "n_unique_dss": 1045,
+      "n_unique_wlc": 1357,
+      "top_50_changes": [
+        {
+          "ngram": "noun noun noun noun",
+          "freq_dss": 0.004962,
+          "freq_wlc": 0.035208,
+          "delta": -0.030246,
+          "abs_delta": 0.030246
+        },
+        {
+          "ngram": "noun particle noun particle",
+          "freq_dss": 0.021517,
+          "freq_wlc": 0.002061,
+          "delta": 0.019456,
+          "abs_delta": 0.019456
+        },
+        {
+          "ngram": "particle noun particle noun",
+          "freq_dss": 0.020287,
+          "freq_wlc": 0.002296,
+          "delta": 0.017991,
+          "abs_delta": 0.017991
+        },
+        {
+          "ngram": "particle verb particle noun",
+          "freq_dss": 0.020463,
+          "freq_wlc": 0.002885,
+          "delta": 0.017578,
+          "abs_delta": 0.017578
+        },
+        {
+          "ngram": "verb noun noun noun",
+          "freq_dss": 0.003293,
+          "freq_wlc": 0.017309,
+          "delta": -0.014016,
+          "abs_delta": 0.014016
+        },
+        {
+          "ngram": "noun noun verb noun",
+          "freq_dss": 0.002679,
+          "freq_wlc": 0.016014,
+          "delta": -0.013336,
+          "abs_delta": 0.013336
+        },
+        {
+          "ngram": "verb particle noun particle",
+          "freq_dss": 0.01493,
+          "freq_wlc": 0.00212,
+          "delta": 0.01281,
+          "abs_delta": 0.01281
+        },
+        {
+          "ngram": "noun noun noun verb",
+          "freq_dss": 0.002591,
+          "freq_wlc": 0.015308,
+          "delta": -0.012717,
+          "abs_delta": 0.012717
+        },
+        {
+          "ngram": "noun verb noun noun",
+          "freq_dss": 0.002986,
+          "freq_wlc": 0.015543,
+          "delta": -0.012557,
+          "abs_delta": 0.012557
+        },
+        {
+          "ngram": "particle noun noun particle",
+          "freq_dss": 0.015018,
+          "freq_wlc": 0.002591,
+          "delta": 0.012427,
+          "abs_delta": 0.012427
+        },
+        {
+          "ngram": "particle noun particle verb",
+          "freq_dss": 0.014315,
+          "freq_wlc": 0.001943,
+          "delta": 0.012372,
+          "abs_delta": 0.012372
+        },
+        {
+          "ngram": "noun particle verb particle",
+          "freq_dss": 0.015193,
+          "freq_wlc": 0.002826,
+          "delta": 0.012367,
+          "abs_delta": 0.012367
+        },
+        {
+          "ngram": "particle particle noun particle",
+          "freq_dss": 0.011988,
+          "freq_wlc": 0.000177,
+          "delta": 0.011811,
+          "abs_delta": 0.011811
+        },
+        {
+          "ngram": "particle noun particle particle",
+          "freq_dss": 0.011593,
+          "freq_wlc": 0.000294,
+          "delta": 0.011298,
+          "abs_delta": 0.011298
+        },
+        {
+          "ngram": "verb noun verb noun",
+          "freq_dss": 0.002942,
+          "freq_wlc": 0.012894,
+          "delta": -0.009952,
+          "abs_delta": 0.009952
+        },
+        {
+          "ngram": "noun particle particle noun",
+          "freq_dss": 0.010846,
+          "freq_wlc": 0.001236,
+          "delta": 0.00961,
+          "abs_delta": 0.00961
+        },
+        {
+          "ngram": "particle verb noun particle",
+          "freq_dss": 0.012164,
+          "freq_wlc": 0.002826,
+          "delta": 0.009338,
+          "abs_delta": 0.009338
+        },
+        {
+          "ngram": "verb particle verb particle",
+          "freq_dss": 0.011944,
+          "freq_wlc": 0.002649,
+          "delta": 0.009295,
+          "abs_delta": 0.009295
+        },
+        {
+          "ngram": "verb noun noun verb",
+          "freq_dss": 0.001493,
+          "freq_wlc": 0.010127,
+          "delta": -0.008634,
+          "abs_delta": 0.008634
+        },
+        {
+          "ngram": "particle particle verb particle",
+          "freq_dss": 0.009836,
+          "freq_wlc": 0.001236,
+          "delta": 0.0086,
+          "abs_delta": 0.0086
+        },
+        {
+          "ngram": "particle noun verb particle",
+          "freq_dss": 0.010934,
+          "freq_wlc": 0.002591,
+          "delta": 0.008343,
+          "abs_delta": 0.008343
+        },
+        {
+          "ngram": "noun verb noun verb",
+          "freq_dss": 0.002108,
+          "freq_wlc": 0.010127,
+          "delta": -0.008019,
+          "abs_delta": 0.008019
+        },
+        {
+          "ngram": "particle verb particle particle",
+          "freq_dss": 0.00909,
+          "freq_wlc": 0.001178,
+          "delta": 0.007912,
+          "abs_delta": 0.007912
+        },
+        {
+          "ngram": "suffix particle verb particle",
+          "freq_dss": 0.010846,
+          "freq_wlc": 0.003003,
+          "delta": 0.007844,
+          "abs_delta": 0.007844
+        },
+        {
+          "ngram": "particle verb particle verb",
+          "freq_dss": 0.011197,
+          "freq_wlc": 0.003886,
+          "delta": 0.007312,
+          "abs_delta": 0.007312
+        },
+        {
+          "ngram": "noun verb verb noun",
+          "freq_dss": 0.001142,
+          "freq_wlc": 0.008301,
+          "delta": -0.00716,
+          "abs_delta": 0.00716
+        },
+        {
+          "ngram": "verb suffix noun noun",
+          "freq_dss": 0.002108,
+          "freq_wlc": 0.008831,
+          "delta": -0.006724,
+          "abs_delta": 0.006724
+        },
+        {
+          "ngram": "particle suffix particle noun",
+          "freq_dss": 0.007333,
+          "freq_wlc": 0.000648,
+          "delta": 0.006686,
+          "abs_delta": 0.006686
+        },
+        {
+          "ngram": "particle suffix particle verb",
+          "freq_dss": 0.008519,
+          "freq_wlc": 0.001884,
+          "delta": 0.006635,
+          "abs_delta": 0.006635
+        },
+        {
+          "ngram": "verb particle suffix particle",
+          "freq_dss": 0.007641,
+          "freq_wlc": 0.001295,
+          "delta": 0.006345,
+          "abs_delta": 0.006345
+        },
+        {
+          "ngram": "particle verb suffix particle",
+          "freq_dss": 0.009353,
+          "freq_wlc": 0.003062,
+          "delta": 0.006292,
+          "abs_delta": 0.006292
+        },
+        {
+          "ngram": "noun noun verb verb",
+          "freq_dss": 0.001098,
+          "freq_wlc": 0.007301,
+          "delta": -0.006203,
+          "abs_delta": 0.006203
+        },
+        {
+          "ngram": "particle noun suffix particle",
+          "freq_dss": 0.007728,
+          "freq_wlc": 0.001531,
+          "delta": 0.006198,
+          "abs_delta": 0.006198
+        },
+        {
+          "ngram": "noun suffix verb noun",
+          "freq_dss": 0.001186,
+          "freq_wlc": 0.007359,
+          "delta": -0.006174,
+          "abs_delta": 0.006174
+        },
+        {
+          "ngram": "suffix particle noun particle",
+          "freq_dss": 0.006982,
+          "freq_wlc": 0.000883,
+          "delta": 0.006099,
+          "abs_delta": 0.006099
+        },
+        {
+          "ngram": "noun particle suffix particle",
+          "freq_dss": 0.007114,
+          "freq_wlc": 0.001119,
+          "delta": 0.005995,
+          "abs_delta": 0.005995
+        },
+        {
+          "ngram": "suffix verb noun noun",
+          "freq_dss": 0.000834,
+          "freq_wlc": 0.006653,
+          "delta": -0.005819,
+          "abs_delta": 0.005819
+        },
+        {
+          "ngram": "verb verb noun noun",
+          "freq_dss": 0.000703,
+          "freq_wlc": 0.006476,
+          "delta": -0.005774,
+          "abs_delta": 0.005774
+        },
+        {
+          "ngram": "suffix noun noun noun",
+          "freq_dss": 0.001449,
+          "freq_wlc": 0.007183,
+          "delta": -0.005734,
+          "abs_delta": 0.005734
+        },
+        {
+          "ngram": "noun noun particle noun",
+          "freq_dss": 0.013305,
+          "freq_wlc": 0.007595,
+          "delta": 0.00571,
+          "abs_delta": 0.00571
+        },
+        {
+          "ngram": "verb particle particle noun",
+          "freq_dss": 0.006104,
+          "freq_wlc": 0.000589,
+          "delta": 0.005515,
+          "abs_delta": 0.005515
+        },
+        {
+          "ngram": "suffix particle suffix particle",
+          "freq_dss": 0.006499,
+          "freq_wlc": 0.001001,
+          "delta": 0.005498,
+          "abs_delta": 0.005498
+        },
+        {
+          "ngram": "particle verb particle suffix",
+          "freq_dss": 0.007245,
+          "freq_wlc": 0.001825,
+          "delta": 0.00542,
+          "abs_delta": 0.00542
+        },
+        {
+          "ngram": "noun suffix noun noun",
+          "freq_dss": 0.000615,
+          "freq_wlc": 0.005829,
+          "delta": -0.005214,
+          "abs_delta": 0.005214
+        },
+        {
+          "ngram": "noun noun noun suffix",
+          "freq_dss": 0.001142,
+          "freq_wlc": 0.006123,
+          "delta": -0.004981,
+          "abs_delta": 0.004981
+        },
+        {
+          "ngram": "particle particle noun noun",
+          "freq_dss": 0.005709,
+          "freq_wlc": 0.000883,
+          "delta": 0.004825,
+          "abs_delta": 0.004825
+        },
+        {
+          "ngram": "verb particle particle verb",
+          "freq_dss": 0.006675,
+          "freq_wlc": 0.001884,
+          "delta": 0.004791,
+          "abs_delta": 0.004791
+        },
+        {
+          "ngram": "noun noun suffix verb",
+          "freq_dss": 0.001098,
+          "freq_wlc": 0.005888,
+          "delta": -0.00479,
+          "abs_delta": 0.00479
+        },
+        {
+          "ngram": "noun verb suffix noun",
+          "freq_dss": 0.00079,
+          "freq_wlc": 0.005534,
+          "delta": -0.004744,
+          "abs_delta": 0.004744
+        },
+        {
+          "ngram": "verb verb noun verb",
+          "freq_dss": 0.000703,
+          "freq_wlc": 0.005417,
+          "delta": -0.004714,
+          "abs_delta": 0.004714
+        }
+      ]
+    }
+  },
+  "chi2_pos_contingency": {
+    "chi2": 3012.894711072445,
+    "p_value": 0.0,
+    "dof": 7,
+    "categories": [
+      "adjective",
+      "adverb",
+      "noun",
+      "numeral",
+      "particle",
+      "pronoun",
+      "suffix",
+      "verb"
+    ],
+    "conclusion": "different"
+  }
+}

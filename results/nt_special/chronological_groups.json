@@ -1,0 +1,260 @@
+{
+  "pauline_early": {
+    "n_verses": 1490,
+    "mean_verse_len": 16.106711409395974,
+    "std_verse_len": 6.0368017270084415,
+    "H": 0.6808886332607144,
+    "H_R2": 0.9978871285230436,
+    "alpha": 0.6333589633379004,
+    "alpha_R2": 0.9969747530275007,
+    "chi": 62,
+    "mps_p": 0.145,
+    "mps_significant": false,
+    "group_id": "pauline_early",
+    "label": "Paulinas auténticas (~50-60 d.C.)",
+    "date_range": [
+      50,
+      60
+    ],
+    "books_found": [
+      "Romans",
+      "1 Corinthians",
+      "2 Corinthians",
+      "Galatians",
+      "Philippians",
+      "1 Thessalonians",
+      "Philemon"
+    ],
+    "book_details": {
+      "Romans": {
+        "n_verses": 430,
+        "mean_verse_len": 16.406976744186046,
+        "n_words": 7055
+      },
+      "1 Corinthians": {
+        "n_verses": 437,
+        "mean_verse_len": 15.588100686498857,
+        "n_words": 6812
+      },
+      "2 Corinthians": {
+        "n_verses": 256,
+        "mean_verse_len": 17.47265625,
+        "n_words": 4473
+      },
+      "Galatians": {
+        "n_verses": 149,
+        "mean_verse_len": 14.939597315436242,
+        "n_words": 2226
+      },
+      "Philippians": {
+        "n_verses": 104,
+        "mean_verse_len": 15.634615384615385,
+        "n_words": 1626
+      },
+      "1 Thessalonians": {
+        "n_verses": 89,
+        "mean_verse_len": 16.55056179775281,
+        "n_words": 1473
+      },
+      "Philemon": {
+        "n_verses": 25,
+        "mean_verse_len": 13.36,
+        "n_words": 334
+      }
+    },
+    "vn_ratio": 0.8049107999232687,
+    "n_total_words": 23999
+  },
+  "synoptic": {
+    "n_verses": 2890,
+    "mean_verse_len": 16.97612456747405,
+    "std_verse_len": 6.403160784019517,
+    "H": 0.6782052353741972,
+    "H_R2": 0.9919983907432347,
+    "alpha": 0.6253623773198976,
+    "alpha_R2": 0.9858173861701074,
+    "chi": 63,
+    "mps_p": 0.985,
+    "mps_significant": false,
+    "group_id": "synoptic",
+    "label": "Sinópticos (~70-90 d.C.)",
+    "date_range": [
+      70,
+      90
+    ],
+    "books_found": [
+      "Matthew",
+      "Mark",
+      "Luke"
+    ],
+    "book_details": {
+      "Matthew": {
+        "n_verses": 1068,
+        "mean_verse_len": 17.161985018726593,
+        "n_words": 18329
+      },
+      "Mark": {
+        "n_verses": 673,
+        "mean_verse_len": 16.769687964338782,
+        "n_words": 11286
+      },
+      "Luke": {
+        "n_verses": 1149,
+        "mean_verse_len": 16.924281984334204,
+        "n_words": 19446
+      }
+    },
+    "vn_ratio": 1.220253164556962,
+    "n_total_words": 49061
+  },
+  "johannine": {
+    "n_verses": 1404,
+    "mean_verse_len": 19.85185185185185,
+    "std_verse_len": 7.657797972656234,
+    "H": 0.610310011546204,
+    "H_R2": 0.9923384108279641,
+    "alpha": 0.553609399338782,
+    "alpha_R2": 0.9773197122979144,
+    "chi": 60,
+    "mps_p": 0.0,
+    "mps_significant": true,
+    "group_id": "johannine",
+    "label": "Joánicos (~90-100 d.C.)",
+    "date_range": [
+      90,
+      100
+    ],
+    "books_found": [
+      "John",
+      "1 John",
+      "2 John",
+      "3 John",
+      "Revelation"
+    ],
+    "book_details": {
+      "John": {
+        "n_verses": 866,
+        "mean_verse_len": 17.82678983833718,
+        "n_words": 15438
+      },
+      "1 John": {
+        "n_verses": 105,
+        "mean_verse_len": 20.35238095238095,
+        "n_words": 2137
+      },
+      "2 John": {
+        "n_verses": 13,
+        "mean_verse_len": 18.846153846153847,
+        "n_words": 245
+      },
+      "3 John": {
+        "n_verses": 15,
+        "mean_verse_len": 14.6,
+        "n_words": 219
+      },
+      "Revelation": {
+        "n_verses": 405,
+        "mean_verse_len": 24.279012345679014,
+        "n_words": 9833
+      }
+    },
+    "vn_ratio": 1.045983379501385,
+    "n_total_words": 27872
+  },
+  "late": {
+    "n_verses": 2143,
+    "mean_verse_len": 17.089127391507233,
+    "std_verse_len": 6.101413002668184,
+    "H": 0.6850461799882402,
+    "H_R2": 0.9898418201354182,
+    "alpha": 0.5893169054866372,
+    "alpha_R2": 0.9953364908629665,
+    "chi": 63,
+    "mps_p": 1.0,
+    "mps_significant": false,
+    "group_id": "late",
+    "label": "Tardíos (~80-120 d.C.)",
+    "date_range": [
+      80,
+      120
+    ],
+    "books_found": [
+      "Hebrews",
+      "James",
+      "1 Peter",
+      "2 Peter",
+      "Jude",
+      "1 Timothy",
+      "2 Timothy",
+      "Titus",
+      "Acts",
+      "Ephesians",
+      "Colossians",
+      "2 Thessalonians"
+    ],
+    "book_details": {
+      "Hebrews": {
+        "n_verses": 303,
+        "mean_verse_len": 16.287128712871286,
+        "n_words": 4935
+      },
+      "James": {
+        "n_verses": 108,
+        "mean_verse_len": 16.10185185185185,
+        "n_words": 1739
+      },
+      "1 Peter": {
+        "n_verses": 105,
+        "mean_verse_len": 15.980952380952381,
+        "n_words": 1678
+      },
+      "2 Peter": {
+        "n_verses": 61,
+        "mean_verse_len": 18.0,
+        "n_words": 1098
+      },
+      "Jude": {
+        "n_verses": 25,
+        "mean_verse_len": 18.36,
+        "n_words": 459
+      },
+      "1 Timothy": {
+        "n_verses": 113,
+        "mean_verse_len": 14.079646017699115,
+        "n_words": 1591
+      },
+      "2 Timothy": {
+        "n_verses": 83,
+        "mean_verse_len": 14.879518072289157,
+        "n_words": 1235
+      },
+      "Titus": {
+        "n_verses": 46,
+        "mean_verse_len": 14.326086956521738,
+        "n_words": 659
+      },
+      "Acts": {
+        "n_verses": 1002,
+        "mean_verse_len": 18.375249500998002,
+        "n_words": 18412
+      },
+      "Ephesians": {
+        "n_verses": 155,
+        "mean_verse_len": 15.587096774193549,
+        "n_words": 2416
+      },
+      "Colossians": {
+        "n_verses": 95,
+        "mean_verse_len": 16.63157894736842,
+        "n_words": 1580
+      },
+      "2 Thessalonians": {
+        "n_verses": 47,
+        "mean_verse_len": 17.4468085106383,
+        "n_words": 820
+      }
+    },
+    "vn_ratio": 0.834115438761145,
+    "n_total_words": 36622
+  }
+}

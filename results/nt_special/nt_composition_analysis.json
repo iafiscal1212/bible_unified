@@ -1,0 +1,41 @@
+{
+  "n_books": 27,
+  "coefficient_of_variation_verse_len": 0.12802818865632412,
+  "mean_of_means": 16.769211772363843,
+  "std_of_means": 2.1469318084100495,
+  "genre_summary": {
+    "gospel": {
+      "n_books": 4,
+      "mean_verse_len": 17.17068620143419,
+      "std_verse_len": 0.40375187841548316
+    },
+    "narrative": {
+      "n_books": 1,
+      "mean_verse_len": 18.375249500998002,
+      "std_verse_len": 0.0
+    },
+    "epistle": {
+      "n_books": 21,
+      "mean_verse_len": 16.258652914352858,
+      "std_verse_len": 1.6719564930655748
+    },
+    "apocalyptic": {
+      "n_books": 1,
+      "mean_verse_len": 24.279012345679014,
+      "std_verse_len": 0.0
+    }
+  },
+  "n_genre_transitions_canonical": 3,
+  "n_distinct_genres": 4,
+  "hypothesis": "El H alto del NT (~0.993) se explica por cambios de régimen: 27 libros heterogéneos con CV=0.128 entre medias de verso, 3 transiciones de género en el orden canónico, y 4 géneros distintos (evangelio, epístola, narrativa, apocalíptico). Cada transición introduce una correlación a larga distancia en la serie de longitudes de versículo, inflando H. Pero la autocorrelación resultante es COMPLEJA (χ=239, no compresible → MPS p=0.223), a diferencia del cluster AT-like donde la autocorrelación es SIMPLE (χ∈[49,122], compresible → MPS p=0.000).",
+  "canonization_note": "La canonización política del NT (Concilio de Nicea 325, Canon de Atanasio 367) NO es la causa del H alto: la heterogeneidad existía antes de la canonización (los 27 libros ya circulaban independientemente). Lo que la canonización hizo fue FIJAR el orden canónico, creando la secuencia específica de transiciones que genera el H observado. Pero el H dependería del orden de los libros, no de su contenido.",
+  "order_test": {
+    "H_canonical": 0.7249853463210817,
+    "H_random_mean": 0.7895494140214392,
+    "H_random_std": 0.02034451898754201,
+    "H_random_min": 0.7211331043554887,
+    "H_random_max": 0.8166027997020342,
+    "p_value_canonical_vs_random": 3.1005892481308543e-27,
+    "conclusion": ""
+  }
+}

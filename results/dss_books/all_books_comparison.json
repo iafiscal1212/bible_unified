@@ -1,0 +1,416 @@
+{
+  "analysis": "DSS vs WLC comparison across all biblical books with verse coverage ≥ 50%",
+  "n_books_compared": 15,
+  "n_significantly_different": 9,
+  "avg_abs_delta_H": 0.2025,
+  "avg_delta_H": 0.1803,
+  "conclusion": "Of 15 books compared, 9 show statistically significant H differences (p<0.05). Some books show significant differences — see details.",
+  "books": [
+    {
+      "dss_book": "Amos",
+      "bhsa_book": "Amos",
+      "n_common_verses": 118,
+      "coverage": 0.8082,
+      "dss": {
+        "H": 0.9692,
+        "H_R2": 0.9879,
+        "alpha": 0.8627,
+        "alpha_R2": 0.9793,
+        "n_words": 3332,
+        "mean_verse_len": 28.24
+      },
+      "wlc": {
+        "H": 0.5979,
+        "H_R2": 0.9809,
+        "alpha": 0.607,
+        "alpha_R2": 0.9904,
+        "n_words": 2275,
+        "mean_verse_len": 19.28
+      },
+      "delta_H": 0.3713,
+      "delta_alpha": 0.2557,
+      "mann_whitney_p": 4.7e-05,
+      "ks_p": 0.000181,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Dan",
+      "bhsa_book": "Daniel",
+      "n_common_verses": 188,
+      "coverage": 0.5266,
+      "dss": {
+        "H": 0.6945,
+        "H_R2": 0.9806,
+        "alpha": 0.845,
+        "alpha_R2": 0.9811,
+        "n_words": 5236,
+        "mean_verse_len": 27.85
+      },
+      "wlc": {
+        "H": 0.5949,
+        "H_R2": 0.9742,
+        "alpha": 0.5987,
+        "alpha_R2": 0.9888,
+        "n_words": 4485,
+        "mean_verse_len": 23.86
+      },
+      "delta_H": 0.0996,
+      "delta_alpha": 0.2463,
+      "mann_whitney_p": 0.078746,
+      "ks_p": 0.016544,
+      "statistically_distinguishable": false
+    },
+    {
+      "dss_book": "Deut",
+      "bhsa_book": "Deuteronomium",
+      "n_common_verses": 679,
+      "coverage": 0.708,
+      "dss": {
+        "H": 0.8804,
+        "H_R2": 0.9947,
+        "alpha": 1.0943,
+        "alpha_R2": 0.9772,
+        "n_words": 30043,
+        "mean_verse_len": 44.25
+      },
+      "wlc": {
+        "H": 0.6328,
+        "H_R2": 0.9856,
+        "alpha": 0.581,
+        "alpha_R2": 0.97,
+        "n_words": 14282,
+        "mean_verse_len": 21.03
+      },
+      "delta_H": 0.2475,
+      "delta_alpha": 0.5134,
+      "mann_whitney_p": 0.0,
+      "ks_p": 0.0,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Ex",
+      "bhsa_book": "Exodus",
+      "n_common_verses": 805,
+      "coverage": 0.6636,
+      "dss": {
+        "H": 0.8342,
+        "H_R2": 0.9926,
+        "alpha": 0.986,
+        "alpha_R2": 0.9947,
+        "n_words": 27822,
+        "mean_verse_len": 34.56
+      },
+      "wlc": {
+        "H": 0.704,
+        "H_R2": 0.9982,
+        "alpha": 0.6424,
+        "alpha_R2": 0.9947,
+        "n_words": 16117,
+        "mean_verse_len": 20.02
+      },
+      "delta_H": 0.1302,
+      "delta_alpha": 0.3436,
+      "mann_whitney_p": 0.0,
+      "ks_p": 0.0,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Hab",
+      "bhsa_book": "Habakuk",
+      "n_common_verses": 47,
+      "coverage": 0.8393,
+      "dss": {
+        "H": 0.6126,
+        "H_R2": 0.747,
+        "alpha": 0.6995,
+        "alpha_R2": 0.9939,
+        "n_words": 785,
+        "mean_verse_len": 16.7
+      },
+      "wlc": {
+        "H": 0.4824,
+        "H_R2": 0.909,
+        "alpha": 0.6,
+        "alpha_R2": 0.9957,
+        "n_words": 760,
+        "mean_verse_len": 16.17
+      },
+      "delta_H": 0.1302,
+      "delta_alpha": 0.0995,
+      "mann_whitney_p": 0.519595,
+      "ks_p": 0.956425,
+      "statistically_distinguishable": false
+    },
+    {
+      "dss_book": "Hag",
+      "bhsa_book": "Haggai",
+      "n_common_verses": 36,
+      "coverage": 0.9474,
+      "dss": {
+        "H": null,
+        "H_R2": 0.0,
+        "alpha": 0.4598,
+        "alpha_R2": 0.9962,
+        "n_words": 1013,
+        "mean_verse_len": 28.14
+      },
+      "wlc": {
+        "H": null,
+        "H_R2": 0.0,
+        "alpha": 0.6634,
+        "alpha_R2": 0.9931,
+        "n_words": 839,
+        "mean_verse_len": 23.31
+      },
+      "delta_H": null,
+      "delta_alpha": -0.2035,
+      "mann_whitney_p": 0.245621,
+      "ks_p": 0.510011,
+      "statistically_distinguishable": false
+    },
+    {
+      "dss_book": "Hos",
+      "bhsa_book": "Hosea",
+      "n_common_verses": 134,
+      "coverage": 0.6802,
+      "dss": {
+        "H": 0.5765,
+        "H_R2": 0.9905,
+        "alpha": 0.7899,
+        "alpha_R2": 0.9753,
+        "n_words": 2456,
+        "mean_verse_len": 18.33
+      },
+      "wlc": {
+        "H": 0.4625,
+        "H_R2": 0.9529,
+        "alpha": 0.5213,
+        "alpha_R2": 0.9425,
+        "n_words": 2158,
+        "mean_verse_len": 16.1
+      },
+      "delta_H": 0.1141,
+      "delta_alpha": 0.2685,
+      "mann_whitney_p": 0.39496,
+      "ks_p": 0.29588,
+      "statistically_distinguishable": false
+    },
+    {
+      "dss_book": "Is",
+      "bhsa_book": "Genesis",
+      "n_common_verses": 979,
+      "coverage": 0.6386,
+      "dss": {
+        "H": 0.8194,
+        "H_R2": 0.9974,
+        "alpha": 0.8759,
+        "alpha_R2": 0.9911,
+        "n_words": 35181,
+        "mean_verse_len": 35.94
+      },
+      "wlc": {
+        "H": 0.6828,
+        "H_R2": 0.9978,
+        "alpha": 0.6631,
+        "alpha_R2": 0.9929,
+        "n_words": 18388,
+        "mean_verse_len": 18.78
+      },
+      "delta_H": 0.1366,
+      "delta_alpha": 0.2128,
+      "mann_whitney_p": 0.0,
+      "ks_p": 0.0,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Joel",
+      "bhsa_book": "Joel",
+      "n_common_verses": 62,
+      "coverage": 0.8493,
+      "dss": {
+        "H": 0.6719,
+        "H_R2": 0.9949,
+        "alpha": 1.2084,
+        "alpha_R2": 0.9774,
+        "n_words": 1840,
+        "mean_verse_len": 29.68
+      },
+      "wlc": {
+        "H": 0.3089,
+        "H_R2": 0.7803,
+        "alpha": 0.9134,
+        "alpha_R2": 0.9911,
+        "n_words": 1156,
+        "mean_verse_len": 18.65
+      },
+      "delta_H": 0.363,
+      "delta_alpha": 0.295,
+      "mann_whitney_p": 5.9e-05,
+      "ks_p": 0.001501,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Jonah",
+      "bhsa_book": "Jona",
+      "n_common_verses": 48,
+      "coverage": 1.0,
+      "dss": {
+        "H": 1.1215,
+        "H_R2": 0.9964,
+        "alpha": 1.1242,
+        "alpha_R2": 0.9896,
+        "n_words": 2129,
+        "mean_verse_len": 44.35
+      },
+      "wlc": {
+        "H": 1.1074,
+        "H_R2": 0.9614,
+        "alpha": 0.7329,
+        "alpha_R2": 0.9998,
+        "n_words": 985,
+        "mean_verse_len": 20.52
+      },
+      "delta_H": 0.0142,
+      "delta_alpha": 0.3913,
+      "mann_whitney_p": 0.0,
+      "ks_p": 1e-06,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Lev",
+      "bhsa_book": "Leviticus",
+      "n_common_verses": 484,
+      "coverage": 0.5634,
+      "dss": {
+        "H": 0.6376,
+        "H_R2": 0.9764,
+        "alpha": 0.8199,
+        "alpha_R2": 0.9788,
+        "n_words": 11820,
+        "mean_verse_len": 24.42
+      },
+      "wlc": {
+        "H": 0.7447,
+        "H_R2": 0.9948,
+        "alpha": 0.6449,
+        "alpha_R2": 0.9936,
+        "n_words": 9658,
+        "mean_verse_len": 19.95
+      },
+      "delta_H": -0.1071,
+      "delta_alpha": 0.175,
+      "mann_whitney_p": 0.000192,
+      "ks_p": 0.000139,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Mal",
+      "bhsa_book": "Maleachi",
+      "n_common_verses": 32,
+      "coverage": 0.5818,
+      "dss": {
+        "H": null,
+        "H_R2": 0.0,
+        "alpha": null,
+        "alpha_R2": 0.0,
+        "n_words": 735,
+        "mean_verse_len": 22.97
+      },
+      "wlc": {
+        "H": null,
+        "H_R2": 0.0,
+        "alpha": null,
+        "alpha_R2": 0.0,
+        "n_words": 690,
+        "mean_verse_len": 21.56
+      },
+      "delta_H": null,
+      "delta_alpha": null,
+      "mann_whitney_p": 0.463406,
+      "ks_p": 0.837777,
+      "statistically_distinguishable": false
+    },
+    {
+      "dss_book": "Mic",
+      "bhsa_book": "Micha",
+      "n_common_verses": 100,
+      "coverage": 0.9524,
+      "dss": {
+        "H": 0.6512,
+        "H_R2": 0.9829,
+        "alpha": 0.9364,
+        "alpha_R2": 0.9567,
+        "n_words": 2233,
+        "mean_verse_len": 22.33
+      },
+      "wlc": {
+        "H": 0.6888,
+        "H_R2": 0.9941,
+        "alpha": 0.8019,
+        "alpha_R2": 0.989,
+        "n_words": 1804,
+        "mean_verse_len": 18.04
+      },
+      "delta_H": -0.0376,
+      "delta_alpha": 0.1346,
+      "mann_whitney_p": 0.031821,
+      "ks_p": 0.281942,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Nah",
+      "bhsa_book": "Nahum",
+      "n_common_verses": 47,
+      "coverage": 1.0,
+      "dss": {
+        "H": 1.0891,
+        "H_R2": 1.0,
+        "alpha": 1.3704,
+        "alpha_R2": 0.9721,
+        "n_words": 921,
+        "mean_verse_len": 19.6
+      },
+      "wlc": {
+        "H": 0.3838,
+        "H_R2": 0.8567,
+        "alpha": 0.8372,
+        "alpha_R2": 0.8884,
+        "n_words": 746,
+        "mean_verse_len": 15.87
+      },
+      "delta_H": 0.7053,
+      "delta_alpha": 0.5332,
+      "mann_whitney_p": 0.023487,
+      "ks_p": 0.239483,
+      "statistically_distinguishable": true
+    },
+    {
+      "dss_book": "Zeph",
+      "bhsa_book": "Zephania",
+      "n_common_verses": 45,
+      "coverage": 0.8491,
+      "dss": {
+        "H": 0.5015,
+        "H_R2": 0.8488,
+        "alpha": 1.0881,
+        "alpha_R2": 0.8932,
+        "n_words": 1116,
+        "mean_verse_len": 24.8
+      },
+      "wlc": {
+        "H": 0.3255,
+        "H_R2": 0.4897,
+        "alpha": 0.6035,
+        "alpha_R2": 0.9874,
+        "n_words": 865,
+        "mean_verse_len": 19.22
+      },
+      "delta_H": 0.176,
+      "delta_alpha": 0.4846,
+      "mann_whitney_p": 0.201983,
+      "ks_p": 0.653387,
+      "statistically_distinguishable": false
+    }
+  ],
+  "elapsed_seconds": 10.335896730422974
+}

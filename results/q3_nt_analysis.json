@@ -1,0 +1,25 @@
+{
+  "Q3_answer": "H y MPS miden propiedades diferentes de la autocorrelación",
+  "explanation": {
+    "H_measures": "Exponente de scaling de la función de fluctuación F(n) ~ n^H. Captura la TASA de crecimiento de las correlaciones, no su complejidad.",
+    "MPS_measures": "Rango efectivo (bond dimension χ) de la matriz de autocorrelación Toeplitz via SVD. Captura la COMPLEJIDAD ESTRUCTURAL de las correlaciones.",
+    "why_NT_different": "El NT tiene correlaciones de largo alcance (H alto) pero por cambio de régimen entre 27 libros heterogéneos, no por estructura interna homogénea. Esto produce autocorrelación compleja (χ alto, no compresible).",
+    "why_AT_different": "El AT tiene correlaciones + estructura simple (χ bajo) porque la transmisión masorética homogeneizó parcialmente la estructura, y los textos de revelación directa tienen un patrón de autocorrelación simple.",
+    "H_above_1": "AT H=1.11 > 1.0 y NT H=0.993 ≈ 1.0 sugieren no-estacionariedad (agrupamiento de géneros/bloques), no correlaciones estacionarias genuinas. DFA α (que corrige tendencias lineales) da valores más bajos: AT α=0.846, NT α=0.681.",
+    "key_insight": "MPS es un discriminador más fino que H: H no distingue entre correlaciones por estructura interna (AT, Corán, RV) y correlaciones por heterogeneidad composicional (NT). MPS sí lo hace."
+  },
+  "data": {
+    "AT": {
+      "H": 1.1099,
+      "alpha": 0.8458,
+      "chi": 122,
+      "MPS_p": 0.0
+    },
+    "NT": {
+      "H": 0.9928,
+      "alpha": 0.6805,
+      "chi": 239,
+      "MPS_p": 0.2231
+    }
+  }
+}

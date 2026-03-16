@@ -1,0 +1,139 @@
+{
+  "analysis": "Temporal comparison of H across transmission regimes",
+  "corpora": [
+    {
+      "corpus": "AT (Hebreo)",
+      "transmission": "controlled",
+      "family": "semitic",
+      "current_H": 1.1099,
+      "current_alpha": 0.8458,
+      "temporal_points": [
+        {
+          "date": -100,
+          "H": 0.6806,
+          "alpha": 0.716,
+          "source": "1QIsa^a DSS (biblical verses)",
+          "book": "Isaiah"
+        },
+        {
+          "date": 1000,
+          "H": 0.6723,
+          "alpha": 0.7046,
+          "source": "WLC Masoretic (biblical verses)",
+          "book": "Isaiah"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "corpus": "NT (Griego)",
+      "transmission": "free",
+      "family": "indo-european",
+      "current_H": 0.9928,
+      "current_alpha": 0.6805,
+      "temporal_points": [
+        {
+          "date": 1000,
+          "H": 0.9928,
+          "alpha": 0.6805,
+          "source": "SBLGNT (critical text)"
+        }
+      ],
+      "notes": [
+        "Papyrus P66 (~200 CE, Gospel of John) is not available as a digital morphologically-tagged corpus in standard NLP repositories (MorphGNT, Perseus, AGDT). The papyrus text exists in transcription but without POS tagging and verse-level word counts needed for H analysis. A second temporal point for NT transmission is therefore not available."
+      ]
+    },
+    {
+      "corpus": "Corán (Árabe)",
+      "transmission": "controlled",
+      "family": "semitic",
+      "current_H": 0.9826,
+      "current_alpha": 0.9082,
+      "temporal_points": [
+        {
+          "date": 650,
+          "H": 0.9826,
+          "alpha": 0.9082,
+          "source": "Quranic Arabic Corpus v0.4 (based on Uthmanic tradition)"
+        }
+      ],
+      "notes": [
+        "The Samarkand Codex (~700 CE) is not available as a digital morphologically-tagged corpus. Only one temporal point is available for the Quran."
+      ]
+    },
+    {
+      "corpus": "Homero (Griego)",
+      "transmission": "free",
+      "family": "indo-european",
+      "current_H": 0.6278,
+      "current_alpha": 0.5977,
+      "temporal_points": [
+        {
+          "date": 300,
+          "H": 0.6278,
+          "alpha": 0.5977,
+          "source": "AGDT (Perseus Project, based on modern critical editions)"
+        }
+      ],
+      "notes": [
+        "Only one temporal point available. Composition ~750 BCE, oral transmission ~750-550 BCE, first written versions ~550 BCE. Current text reflects ~2,800 years of transmission, mostly uncontrolled after the Alexandrian period (~200 BCE)."
+      ]
+    },
+    {
+      "corpus": "Heródoto (Griego)",
+      "transmission": "free",
+      "family": "indo-european",
+      "current_H": 0.6329,
+      "current_alpha": 0.6322,
+      "temporal_points": [
+        {
+          "date": 300,
+          "H": 0.6329,
+          "alpha": 0.6322,
+          "source": "AGDT (Perseus Project, based on modern critical editions)"
+        }
+      ],
+      "notes": [
+        "Only one temporal point available. Composition ~440 BCE, manuscript tradition through Byzantium. Current text reflects ~2,400 years of free (scribal) transmission."
+      ]
+    },
+    {
+      "corpus": "Rig Veda (Sánscrito)",
+      "transmission": "controlled",
+      "family": "indo-european",
+      "current_H": 0.9336,
+      "current_alpha": 0.8486,
+      "temporal_points": [
+        {
+          "date": 1000,
+          "H": 0.9336,
+          "alpha": 0.8486,
+          "source": "Digital Corpus of Sanskrit (DCS), first manuscripts ~1000 CE"
+        }
+      ],
+      "notes": [
+        "Composition ~1500-1200 BCE, oral transmission continuously controlled. Only one temporal point (modern critical text). No pre-manuscript corpus available."
+      ]
+    },
+    {
+      "corpus": "Mishnah (Hebreo)",
+      "transmission": "semi-controlled",
+      "family": "semitic",
+      "current_H": 0.6829,
+      "current_alpha": 0.7843,
+      "temporal_points": [
+        {
+          "date": 200,
+          "H": 0.6829,
+          "alpha": 0.7843,
+          "source": "Sefaria API (based on Vilna edition, ~1880 CE)"
+        }
+      ],
+      "notes": [
+        "Composition ~200 CE, redacted by Rabbi Judah ha-Nasi. Transmission semi-controlled (rabbinic academies). Only one temporal point available."
+      ]
+    }
+  ],
+  "limitation": "Only one corpus (AT/Isaiah) has two measured temporal points (DSS ~100 BCE and WLC ~1000 CE). For all others, only upper-bound estimates are available. P66 (Papyrus, NT ~200 CE) is not available as a digital morphologically-tagged corpus.",
+  "elapsed_seconds": 0.002746105194091797
+}

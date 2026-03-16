@@ -1,0 +1,181 @@
+{
+  "reference_corpora": [
+    {
+      "corpus": "AT (Hebreo)",
+      "lang": "heb",
+      "family": "semitic",
+      "transmission": "controlled",
+      "H": 1.1099,
+      "alpha": 0.8458,
+      "n_units": 23213,
+      "n_words": 306785,
+      "mean_unit_length": null,
+      "mps_significant": true,
+      "bond_dim_chi": 122,
+      "composition_date_estimated": -600
+    },
+    {
+      "corpus": "NT (Griego)",
+      "lang": "grc",
+      "family": "indo-european",
+      "transmission": "free",
+      "H": 0.9928,
+      "alpha": 0.6805,
+      "n_units": 7927,
+      "n_words": 137554,
+      "mean_unit_length": null,
+      "mps_significant": false,
+      "bond_dim_chi": 239,
+      "composition_date_estimated": 70
+    },
+    {
+      "corpus": "Corán (Árabe)",
+      "lang": "ara",
+      "family": "semitic",
+      "transmission": "controlled",
+      "H": 0.9826,
+      "alpha": 0.9082,
+      "n_units": 6236,
+      "n_words": 77429,
+      "mean_unit_length": 12.4165,
+      "mps_significant": true,
+      "bond_dim_chi": 49,
+      "composition_date_estimated": 632
+    },
+    {
+      "corpus": "Homero (Griego)",
+      "lang": "grc",
+      "family": "indo-european",
+      "transmission": "free",
+      "H": 0.6278,
+      "alpha": 0.5977,
+      "n_units": 15136,
+      "n_words": 200164,
+      "mean_unit_length": 13.2244,
+      "mps_significant": false,
+      "bond_dim_chi": 251,
+      "composition_date_estimated": -750
+    },
+    {
+      "corpus": "Heródoto (Griego)",
+      "lang": "grc",
+      "family": "indo-european",
+      "transmission": "free",
+      "H": 0.6329,
+      "alpha": 0.6322,
+      "n_units": 1555,
+      "n_words": 29210,
+      "mean_unit_length": 18.7846,
+      "mps_significant": false,
+      "bond_dim_chi": 236,
+      "composition_date_estimated": -440
+    },
+    {
+      "corpus": "Mishnah (Hebreo)",
+      "lang": "heb",
+      "family": "semitic",
+      "transmission": "semi-controlled",
+      "H": 0.6829,
+      "alpha": 0.7843,
+      "n_units": 471,
+      "n_words": 20709,
+      "mean_unit_length": 43.9682,
+      "mps_significant": true,
+      "bond_dim_chi": 95,
+      "composition_date_estimated": 200
+    },
+    {
+      "corpus": "Rig Veda (Sánscrito)",
+      "lang": "san",
+      "family": "indo-european",
+      "transmission": "controlled",
+      "H": 0.9336,
+      "alpha": 0.8486,
+      "n_units": 21253,
+      "n_words": 169972,
+      "mean_unit_length": 7.997553286594834,
+      "mps_significant": true,
+      "bond_dim_chi": 192,
+      "composition_date_estimated": -1200
+    }
+  ],
+  "transmission_stats": {
+    "controlled": {
+      "n": 3,
+      "mean_H": 1.0087000000000002,
+      "std_H": 0.09100181316874961,
+      "min_H": 0.9336,
+      "max_H": 1.1099,
+      "corpora": [
+        "AT (Hebreo)",
+        "Corán (Árabe)",
+        "Rig Veda (Sánscrito)"
+      ]
+    },
+    "free": {
+      "n": 3,
+      "mean_H": 0.7511666666666666,
+      "std_H": 0.20927614133802575,
+      "min_H": 0.6278,
+      "max_H": 0.9928,
+      "corpora": [
+        "NT (Griego)",
+        "Homero (Griego)",
+        "Heródoto (Griego)"
+      ]
+    },
+    "semi-controlled": {
+      "n": 1,
+      "mean_H": 0.6829,
+      "std_H": 0.0,
+      "min_H": 0.6829,
+      "max_H": 0.6829,
+      "corpora": [
+        "Mishnah (Hebreo)"
+      ]
+    }
+  },
+  "bootstrap_ci": {
+    "controlled": {
+      "mean": 1.0088897033333335,
+      "ci95_lower": 0.9335999999999999,
+      "ci95_upper": 1.1099,
+      "n_bootstrap": 10000
+    },
+    "free": {
+      "mean": 0.7509802566666667,
+      "ci95_lower": 0.6278,
+      "ci95_upper": 0.9928,
+      "n_bootstrap": 10000
+    },
+    "semi-controlled": {
+      "mean": 0.6829,
+      "ci95_lower": null,
+      "ci95_upper": null,
+      "note": "Too few samples for bootstrap"
+    }
+  },
+  "prediction_model": {
+    "controlled": {
+      "expected_H_range": [
+        0.9336,
+        1.1099
+      ],
+      "mean_H": 1.0087000000000002,
+      "std_H": 0.09100181316874961,
+      "n_corpora": 3
+    },
+    "free": {
+      "expected_H_range": [
+        0.6278,
+        0.9928
+      ],
+      "mean_H": 0.7511666666666666,
+      "std_H": 0.20927614133802575,
+      "n_corpora": 3
+    },
+    "decision_boundary_H": 0.8799333333333335,
+    "note": "Simple threshold model"
+  },
+  "elapsed_seconds": 0.2253096103668213
+}

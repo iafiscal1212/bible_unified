@@ -1,0 +1,361 @@
+{
+  "metric": "zipf_s_lemma",
+  "note": "H per book not available; using Zipf s as proxy. Books with anomalous Zipf exponent may have different linguistic or compositional properties.",
+  "mean_zipf_s": 0.665,
+  "std_zipf_s": 0.0625,
+  "n_anomalous": 3,
+  "anomaly_threshold": 2.0,
+  "books": [
+    {
+      "book": "Nahum",
+      "book_num": 34,
+      "n_tokens": 562,
+      "zipf_s_lemma": 0.501125,
+      "z_score": -2.6192,
+      "anomalous": true,
+      "direction": "low"
+    },
+    {
+      "book": "Obadiah",
+      "book_num": 31,
+      "n_tokens": 292,
+      "zipf_s_lemma": 0.529745,
+      "z_score": -2.1617,
+      "anomalous": true,
+      "direction": "low"
+    },
+    {
+      "book": "Habakkuk",
+      "book_num": 35,
+      "n_tokens": 672,
+      "zipf_s_lemma": 0.576552,
+      "z_score": -1.4133,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Proverbs",
+      "book_num": 20,
+      "n_tokens": 6984,
+      "zipf_s_lemma": 0.582741,
+      "z_score": -1.3144,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Song of Songs",
+      "book_num": 22,
+      "n_tokens": 1255,
+      "zipf_s_lemma": 0.586076,
+      "z_score": -1.2611,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Micah",
+      "book_num": 33,
+      "n_tokens": 1400,
+      "zipf_s_lemma": 0.59528,
+      "z_score": -1.1139,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Joel",
+      "book_num": 29,
+      "n_tokens": 958,
+      "zipf_s_lemma": 0.595484,
+      "z_score": -1.1106,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Lamentations",
+      "book_num": 25,
+      "n_tokens": 1564,
+      "zipf_s_lemma": 0.597213,
+      "z_score": -1.083,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Ecclesiastes",
+      "book_num": 21,
+      "n_tokens": 2999,
+      "zipf_s_lemma": 0.613838,
+      "z_score": -0.8172,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Ruth",
+      "book_num": 8,
+      "n_tokens": 1306,
+      "zipf_s_lemma": 0.616228,
+      "z_score": -0.779,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Jonah",
+      "book_num": 32,
+      "n_tokens": 688,
+      "zipf_s_lemma": 0.634239,
+      "z_score": -0.491,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Hosea",
+      "book_num": 28,
+      "n_tokens": 2386,
+      "zipf_s_lemma": 0.634972,
+      "z_score": -0.4793,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Haggai",
+      "book_num": 37,
+      "n_tokens": 601,
+      "zipf_s_lemma": 0.640622,
+      "z_score": -0.389,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Zephaniah",
+      "book_num": 36,
+      "n_tokens": 769,
+      "zipf_s_lemma": 0.655228,
+      "z_score": -0.1555,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Amos",
+      "book_num": 30,
+      "n_tokens": 2045,
+      "zipf_s_lemma": 0.668567,
+      "z_score": 0.0578,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Isaiah",
+      "book_num": 23,
+      "n_tokens": 16988,
+      "zipf_s_lemma": 0.670465,
+      "z_score": 0.0881,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Daniel",
+      "book_num": 27,
+      "n_tokens": 6035,
+      "zipf_s_lemma": 0.671304,
+      "z_score": 0.1016,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Ezekiel",
+      "book_num": 26,
+      "n_tokens": 18866,
+      "zipf_s_lemma": 0.674329,
+      "z_score": 0.1499,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Malachi",
+      "book_num": 39,
+      "n_tokens": 876,
+      "zipf_s_lemma": 0.675102,
+      "z_score": 0.1623,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "2 Samuel",
+      "book_num": 10,
+      "n_tokens": 11130,
+      "zipf_s_lemma": 0.679514,
+      "z_score": 0.2328,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Zechariah",
+      "book_num": 38,
+      "n_tokens": 3134,
+      "zipf_s_lemma": 0.683408,
+      "z_score": 0.2951,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Psalms",
+      "book_num": 19,
+      "n_tokens": 19657,
+      "zipf_s_lemma": 0.685429,
+      "z_score": 0.3274,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "2 Chronicles",
+      "book_num": 14,
+      "n_tokens": 13354,
+      "zipf_s_lemma": 0.686399,
+      "z_score": 0.3429,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "1 Samuel",
+      "book_num": 9,
+      "n_tokens": 13335,
+      "zipf_s_lemma": 0.688066,
+      "z_score": 0.3695,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "1 Kings",
+      "book_num": 11,
+      "n_tokens": 13186,
+      "zipf_s_lemma": 0.688422,
+      "z_score": 0.3752,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Nehemiah",
+      "book_num": 16,
+      "n_tokens": 5336,
+      "zipf_s_lemma": 0.69101,
+      "z_score": 0.4166,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Job",
+      "book_num": 18,
+      "n_tokens": 8399,
+      "zipf_s_lemma": 0.691728,
+      "z_score": 0.4281,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Judges",
+      "book_num": 7,
+      "n_tokens": 9905,
+      "zipf_s_lemma": 0.702145,
+      "z_score": 0.5946,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Jeremiah",
+      "book_num": 24,
+      "n_tokens": 21976,
+      "zipf_s_lemma": 0.702333,
+      "z_score": 0.5976,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Numbers",
+      "book_num": 4,
+      "n_tokens": 16422,
+      "zipf_s_lemma": 0.707055,
+      "z_score": 0.6731,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "2 Kings",
+      "book_num": 12,
+      "n_tokens": 12354,
+      "zipf_s_lemma": 0.711125,
+      "z_score": 0.7382,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Ezra",
+      "book_num": 15,
+      "n_tokens": 3791,
+      "zipf_s_lemma": 0.712425,
+      "z_score": 0.759,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Esther",
+      "book_num": 17,
+      "n_tokens": 3057,
+      "zipf_s_lemma": 0.714132,
+      "z_score": 0.7863,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Genesis",
+      "book_num": 1,
+      "n_tokens": 20629,
+      "zipf_s_lemma": 0.718868,
+      "z_score": 0.862,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Joshua",
+      "book_num": 6,
+      "n_tokens": 10083,
+      "zipf_s_lemma": 0.722973,
+      "z_score": 0.9276,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Deuteronomy",
+      "book_num": 5,
+      "n_tokens": 14320,
+      "zipf_s_lemma": 0.724673,
+      "z_score": 0.9548,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Leviticus",
+      "book_num": 3,
+      "n_tokens": 11955,
+      "zipf_s_lemma": 0.739585,
+      "z_score": 1.1932,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "Exodus",
+      "book_num": 2,
+      "n_tokens": 16726,
+      "zipf_s_lemma": 0.747452,
+      "z_score": 1.319,
+      "anomalous": false,
+      "direction": "normal"
+    },
+    {
+      "book": "1 Chronicles",
+      "book_num": 13,
+      "n_tokens": 10790,
+      "zipf_s_lemma": 0.817278,
+      "z_score": 2.4354,
+      "anomalous": true,
+      "direction": "high"
+    }
+  ]
+}

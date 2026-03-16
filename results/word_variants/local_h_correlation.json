@@ -1,0 +1,8 @@
+{
+  "pearson_r": -0.1988266545371047,
+  "pearson_p": 1.5734956776007524e-12,
+  "spearman_rho": -0.1584564763910341,
+  "spearman_p": 2.0006696708344822e-08,
+  "n_windows": 1241,
+  "interpretation": "Positive r means higher variant density → higher ΔH (DSS more structured locally)"
+}

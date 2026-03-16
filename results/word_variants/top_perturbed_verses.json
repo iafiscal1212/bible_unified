@@ -1,0 +1,278 @@
+{
+  "top_10_positive_delta": [
+    {
+      "chapter": 38,
+      "verse": 20,
+      "dss_words": 27,
+      "wlc_words": 12,
+      "word_diff": 15,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 2,
+      "verse": 4,
+      "dss_words": 35,
+      "wlc_words": 30,
+      "word_diff": 5,
+      "n_variants": 3,
+      "dominant_type": "orthographic"
+    },
+    {
+      "chapter": 36,
+      "verse": 4,
+      "dss_words": 28,
+      "wlc_words": 23,
+      "word_diff": 5,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 38,
+      "verse": 6,
+      "dss_words": 24,
+      "wlc_words": 19,
+      "word_diff": 5,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 52,
+      "verse": 12,
+      "dss_words": 24,
+      "wlc_words": 19,
+      "word_diff": 5,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 11,
+      "verse": 4,
+      "dss_words": 28,
+      "wlc_words": 24,
+      "word_diff": 4,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 14,
+      "verse": 2,
+      "dss_words": 32,
+      "wlc_words": 28,
+      "word_diff": 4,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 16,
+      "verse": 7,
+      "dss_words": 17,
+      "wlc_words": 13,
+      "word_diff": 4,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 30,
+      "verse": 6,
+      "dss_words": 34,
+      "wlc_words": 30,
+      "word_diff": 4,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 34,
+      "verse": 10,
+      "dss_words": 24,
+      "wlc_words": 20,
+      "word_diff": 4,
+      "n_variants": 0,
+      "dominant_type": "none"
+    }
+  ],
+  "top_10_negative_delta": [
+    {
+      "chapter": 23,
+      "verse": 15,
+      "dss_words": 11,
+      "wlc_words": 27,
+      "word_diff": -16,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 16,
+      "verse": 8,
+      "dss_words": 6,
+      "wlc_words": 19,
+      "word_diff": -13,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 63,
+      "verse": 3,
+      "dss_words": 14,
+      "wlc_words": 27,
+      "word_diff": -13,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 4,
+      "verse": 5,
+      "dss_words": 13,
+      "wlc_words": 25,
+      "word_diff": -12,
+      "n_variants": 14,
+      "dominant_type": "insertion"
+    },
+    {
+      "chapter": 24,
+      "verse": 2,
+      "dss_words": 28,
+      "wlc_words": 38,
+      "word_diff": -10,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 51,
+      "verse": 6,
+      "dss_words": 30,
+      "wlc_words": 39,
+      "word_diff": -9,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 54,
+      "verse": 17,
+      "dss_words": 16,
+      "wlc_words": 25,
+      "word_diff": -9,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 16,
+      "verse": 9,
+      "dss_words": 14,
+      "wlc_words": 21,
+      "word_diff": -7,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "dss_words": 13,
+      "wlc_words": 19,
+      "word_diff": -6,
+      "n_variants": 6,
+      "dominant_type": "insertion"
+    },
+    {
+      "chapter": 28,
+      "verse": 19,
+      "dss_words": 20,
+      "wlc_words": 26,
+      "word_diff": -6,
+      "n_variants": 0,
+      "dominant_type": "none"
+    }
+  ],
+  "top_10_abs_delta": [
+    {
+      "chapter": 23,
+      "verse": 15,
+      "dss_words": 11,
+      "wlc_words": 27,
+      "word_diff": -16,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 38,
+      "verse": 20,
+      "dss_words": 27,
+      "wlc_words": 12,
+      "word_diff": 15,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 16,
+      "verse": 8,
+      "dss_words": 6,
+      "wlc_words": 19,
+      "word_diff": -13,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 63,
+      "verse": 3,
+      "dss_words": 14,
+      "wlc_words": 27,
+      "word_diff": -13,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 4,
+      "verse": 5,
+      "dss_words": 13,
+      "wlc_words": 25,
+      "word_diff": -12,
+      "n_variants": 14,
+      "dominant_type": "insertion"
+    },
+    {
+      "chapter": 24,
+      "verse": 2,
+      "dss_words": 28,
+      "wlc_words": 38,
+      "word_diff": -10,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 51,
+      "verse": 6,
+      "dss_words": 30,
+      "wlc_words": 39,
+      "word_diff": -9,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 54,
+      "verse": 17,
+      "dss_words": 16,
+      "wlc_words": 25,
+      "word_diff": -9,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 16,
+      "verse": 9,
+      "dss_words": 14,
+      "wlc_words": 21,
+      "word_diff": -7,
+      "n_variants": 0,
+      "dominant_type": "none"
+    },
+    {
+      "chapter": 4,
+      "verse": 6,
+      "dss_words": 13,
+      "wlc_words": 19,
+      "word_diff": -6,
+      "n_variants": 6,
+      "dominant_type": "insertion"
+    }
+  ]
+}

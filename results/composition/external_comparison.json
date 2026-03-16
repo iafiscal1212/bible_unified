@@ -1,0 +1,38 @@
+[
+  {
+    "corpus": "AT (Hebreo)",
+    "H": 1.1099,
+    "mean_unit_len": null,
+    "type": "religioso"
+  },
+  {
+    "corpus": "NT (Griego)",
+    "H": 0.9928,
+    "mean_unit_len": null,
+    "type": "religioso"
+  },
+  {
+    "corpus": "Corán (Árabe)",
+    "H": 0.9826,
+    "mean_unit_len": 12.4165,
+    "type": "religioso"
+  },
+  {
+    "corpus": "Homero (Griego)",
+    "H": 0.6278,
+    "mean_unit_len": 13.2244,
+    "type": "literario"
+  },
+  {
+    "corpus": "Heródoto (Griego)",
+    "H": 0.6329,
+    "mean_unit_len": 18.7846,
+    "type": "historico"
+  },
+  {
+    "corpus": "Mishnah (Hebreo)",
+    "H": 0.6829,
+    "mean_unit_len": 43.9682,
+    "type": "religioso"
+  }
+]

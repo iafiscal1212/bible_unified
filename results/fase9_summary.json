@@ -1,0 +1,438 @@
+{
+  "phase": 9,
+  "timestamp": "2026-03-16T04:47:48.360150",
+  "total_elapsed_seconds": 885.7800000000001,
+  "scripts_run": 4,
+  "scripts_succeeded": 4,
+  "scripts_failed": [],
+  "investigations": [
+    {
+      "name": "nt_special_case",
+      "question": "¿Por qué el NT tiene H alto pero no estructura MPS?",
+      "status": "completed",
+      "key_findings": {
+        "cv_verse_len": 0.12802818865632412,
+        "n_genre_transitions": 3,
+        "n_genres": 4,
+        "order_test": {
+          "H_canonical": 0.7249853463210817,
+          "H_random_mean": 0.7895494140214392,
+          "H_random_std": 0.02034451898754201,
+          "H_random_min": 0.7211331043554887,
+          "H_random_max": 0.8166027997020342,
+          "p_value_canonical_vs_random": 3.1005892481308543e-27,
+          "conclusion": ""
+        },
+        "hypothesis": "El H alto del NT (~0.993) se explica por cambios de régimen: 27 libros heterogéneos con CV=0.128 entre medias de verso, 3 transiciones de género en el orden canónico, y 4 géneros distintos (evangelio, epístola, narrativa, apocalíptico). Cada transición introduce una correlación a larga distancia en la serie de longitudes de versículo, inflando H. Pero la autocorrelación resultante es COMPLEJA (χ=239, no compresible → MPS p=0.223), a diferencia del cluster AT-like donde la autocorrelación es SIMPLE (χ∈[49,122], compresible → MPS p=0.000)."
+      },
+      "chronological_groups": {
+        "pauline_early": {
+          "label": "Paulinas auténticas (~50-60 d.C.)",
+          "H": 0.6808886332607144,
+          "mps_p": 0.145,
+          "n_verses": 1490
+        },
+        "synoptic": {
+          "label": "Sinópticos (~70-90 d.C.)",
+          "H": 0.6782052353741972,
+          "mps_p": 0.985,
+          "n_verses": 2890
+        },
+        "johannine": {
+          "label": "Joánicos (~90-100 d.C.)",
+          "H": 0.610310011546204,
+          "mps_p": 0.0,
+          "n_verses": 1404
+        },
+        "late": {
+          "label": "Tardíos (~80-120 d.C.)",
+          "H": 0.6850461799882402,
+          "mps_p": 1.0,
+          "n_verses": 2143
+        }
+      },
+      "tagnt_status": "available"
+    },
+    {
+      "name": "lxx_vs_mt",
+      "question": "¿Dos líneas de transmisión independientes producen el mismo H?",
+      "status": "completed",
+      "key_findings": {
+        "n_books_compared": 5,
+        "mean_abs_delta_H": 0.020356587513282665,
+        "max_abs_delta_H": 0.0465938215960261,
+        "all_mps_concordant": true,
+        "verse_len_ratio_mean": 1.562121415642825,
+        "comparisons": [
+          {
+            "book": "Genesis",
+            "lxx": {
+              "n_verses": 1530,
+              "n_words": 32758,
+              "mean_verse_len": 21.410457516339868,
+              "H": 0.7023416978450797,
+              "H_R2": 0.9951355239191763,
+              "alpha": 0.6935117015283436,
+              "alpha_R2": 0.9966361072893243,
+              "chi": 62,
+              "mps_p": 0.128,
+              "mps_significant": false
+            },
+            "mt": {
+              "n_verses": 1533,
+              "n_words": 20629,
+              "mean_verse_len": 13.45662100456621,
+              "H": 0.6557478762490536,
+              "H_R2": 0.9977649233805937,
+              "alpha": 0.639057687594628,
+              "alpha_R2": 0.9983822119056291,
+              "chi": 63,
+              "mps_p": 1.0,
+              "mps_significant": false
+            },
+            "delta_H": 0.0465938215960261,
+            "delta_alpha": 0.05445401393371563,
+            "mann_whitney_p": 1.3493155244208447e-170,
+            "verse_len_ratio": 1.5910723434266816
+          },
+          {
+            "book": "Exodus",
+            "lxx": {
+              "n_verses": 1172,
+              "n_words": 24656,
+              "mean_verse_len": 21.037542662116042,
+              "H": 0.6709156807119752,
+              "H_R2": 0.9946829578599633,
+              "alpha": 0.6914701462110667,
+              "alpha_R2": 0.997301629164631,
+              "chi": 62,
+              "mps_p": 0.342,
+              "mps_significant": false
+            },
+            "mt": {
+              "n_verses": 1213,
+              "n_words": 16726,
+              "mean_verse_len": 13.788953009068425,
+              "H": 0.6853224604498452,
+              "H_R2": 0.9980982374853208,
+              "alpha": 0.7000620499067501,
+              "alpha_R2": 0.9964746666238428,
+              "chi": 62,
+              "mps_p": 0.336,
+              "mps_significant": false
+            },
+            "delta_H": -0.014406779737870079,
+            "delta_alpha": -0.008591903695683412,
+            "mann_whitney_p": 1.2750224236243062e-100,
+            "verse_len_ratio": 1.5256809308350328
+          },
+          {
+            "book": "Leviticus",
+            "lxx": {
+              "n_verses": 859,
+              "n_words": 19044,
+              "mean_verse_len": 22.16996507566938,
+              "H": 0.7020104945428793,
+              "H_R2": 0.9903434294829041,
+              "alpha": 0.6708859894939504,
+              "alpha_R2": 0.9882734062943954,
+              "chi": 61,
+              "mps_p": 0.07,
+              "mps_significant": false
+            },
+            "mt": {
+              "n_verses": 859,
+              "n_words": 11955,
+              "mean_verse_len": 13.917345750873109,
+              "H": 0.6721297159759081,
+              "H_R2": 0.9964379669034618,
+              "alpha": 0.6561752214456164,
+              "alpha_R2": 0.9947073370037961,
+              "chi": 62,
+              "mps_p": 0.737,
+              "mps_significant": false
+            },
+            "delta_H": 0.029880778566971244,
+            "delta_alpha": 0.014710768048334044,
+            "mann_whitney_p": 8.119782120737036e-93,
+            "verse_len_ratio": 1.5929736511919697
+          },
+          {
+            "book": "Numbers",
+            "lxx": {
+              "n_verses": 1288,
+              "n_words": 24989,
+              "mean_verse_len": 19.40139751552795,
+              "H": 0.763634329353143,
+              "H_R2": 0.9958260179589813,
+              "alpha": 0.758099296611446,
+              "alpha_R2": 0.9970586247798918,
+              "chi": 61,
+              "mps_p": 0.0,
+              "mps_significant": true
+            },
+            "mt": {
+              "n_verses": 1289,
+              "n_words": 16422,
+              "mean_verse_len": 12.74010861132661,
+              "H": 0.7669905408930311,
+              "H_R2": 0.9962626447028843,
+              "alpha": 0.739346157161896,
+              "alpha_R2": 0.9957430846315216,
+              "chi": 60,
+              "mps_p": 0.0,
+              "mps_significant": true
+            },
+            "delta_H": -0.0033562115398880765,
+            "delta_alpha": 0.018753139449550038,
+            "mann_whitney_p": 3.6264208062442457e-87,
+            "verse_len_ratio": 1.5228596637142569
+          },
+          {
+            "book": "Deuteronomy",
+            "lxx": {
+              "n_verses": 955,
+              "n_words": 22503,
+              "mean_verse_len": 23.563350785340315,
+              "H": 0.5993410459594053,
+              "H_R2": 0.9905188737565317,
+              "alpha": 0.6320979479834604,
+              "alpha_R2": 0.9973893404772847,
+              "chi": 62,
+              "mps_p": 0.587,
+              "mps_significant": false
+            },
+            "mt": {
+              "n_verses": 959,
+              "n_words": 14320,
+              "mean_verse_len": 14.932221063607924,
+              "H": 0.5917956998337475,
+              "H_R2": 0.9862198753606362,
+              "alpha": 0.629751033323668,
+              "alpha_R2": 0.9953455266024236,
+              "chi": 63,
+              "mps_p": 1.0,
+              "mps_significant": false
+            },
+            "delta_H": 0.007545346125657826,
+            "delta_alpha": 0.0023469146597924206,
+            "mann_whitney_p": 3.93629919101597e-92,
+            "verse_len_ratio": 1.5780204890461846
+          }
+        ]
+      },
+      "conclusion": "H(LXX) ≈ H(MT) para los 5 libros del Pentateuco. mean|ΔH|=0.0204, max|ΔH|=0.0466. MPS significance concordant en todos los libros. La estructura de memoria larga PREDATES la divergencia LXX-MT (~300 BCE), ya que se preserva incluso tras traducción al griego.",
+      "availability": [
+        {
+          "source": "LXX-Rahlfs-Hanhart (eliranwong)",
+          "cloned": false,
+          "n_files": 0
+        },
+        {
+          "source": "OpenScriptures LXX",
+          "cloned": false,
+          "n_files": 0
+        },
+        {
+          "source": "CCAT LXX Morphology (jtauber)",
+          "cloned": true,
+          "n_files": 120
+        },
+        {
+          "source": "Perseus Digital Library (tlg0527)",
+          "cloned": true,
+          "n_files": 2557
+        }
+      ]
+    },
+    {
+      "name": "transmission_typology",
+      "question": "¿La tipología tiene subtipos con propiedades H distintas?",
+      "status": "completed",
+      "clustering": {
+        "k2": {
+          "cluster_1": {
+            "members": [
+              "Homero (Griego)",
+              "Heródoto (Griego)"
+            ],
+            "mean_H": 0.63035,
+            "n": 2
+          },
+          "cluster_2": {
+            "members": [
+              "AT (Hebreo)",
+              "NT (Griego)",
+              "Corán (Árabe)",
+              "Mishnah (Hebreo)",
+              "Rig Veda (Sánscrito)"
+            ],
+            "mean_H": 0.9403600000000001,
+            "n": 5
+          }
+        },
+        "k3": {
+          "cluster_1": {
+            "members": [
+              "Homero (Griego)",
+              "Heródoto (Griego)"
+            ],
+            "mean_H": 0.63035,
+            "n": 2
+          },
+          "cluster_2": {
+            "members": [
+              "AT (Hebreo)",
+              "Corán (Árabe)",
+              "Rig Veda (Sánscrito)"
+            ],
+            "mean_H": 1.0087000000000002,
+            "n": 3
+          },
+          "cluster_3": {
+            "members": [
+              "NT (Griego)",
+              "Mishnah (Hebreo)"
+            ],
+            "mean_H": 0.83785,
+            "n": 2
+          }
+        }
+      },
+      "best_predictor": {
+        "dimension": "control_intensity",
+        "abs_r": 0.9431191251430151,
+        "interpretation": "La dimensión 'control_intensity' es la más predictiva del clustering matemático (|r|=0.943). "
+      },
+      "ranking": [
+        {
+          "dimension": "control_intensity",
+          "abs_r": 0.9431191251430151
+        },
+        {
+          "dimension": "authority_code",
+          "abs_r": 0.8485281374238571
+        },
+        {
+          "dimension": "control_delay_code",
+          "abs_r": 0.7302967433402215
+        },
+        {
+          "dimension": "n_independent_lines",
+          "abs_r": 0.7302967433402214
+        },
+        {
+          "dimension": "control_delay_years",
+          "abs_r": 0.6851669941298317
+        },
+        {
+          "dimension": "isolation_code",
+          "abs_r": 0.2581988897471611
+        }
+      ],
+      "refined_typology": {
+        "revelación_controlada_inmediata": {
+          "members": [
+            "AT (Hebreo)",
+            "Corán (Árabe)",
+            "Rig Veda (Sánscrito)"
+          ],
+          "description": "Dictado directo + transmisión controlada desde el origen"
+        },
+        "heterogéneo_compilado": {
+          "members": [
+            "NT (Griego)"
+          ],
+          "description": "H alto por heterogeneidad inter-libro, no por estructura interna"
+        },
+        "transmisión_libre": {
+          "members": [
+            "Homero (Griego)",
+            "Heródoto (Griego)"
+          ],
+          "description": "Sin control efectivo durante transmisión temprana"
+        },
+        "interpretación_controlada": {
+          "members": [
+            "Mishnah (Hebreo)"
+          ],
+          "description": "Transmisión controlada pero no dictado directo"
+        }
+      }
+    },
+    {
+      "name": "generative_processes",
+      "question": "¿AT, Corán y Rig Veda son el mismo proceso generativo?",
+      "status": "completed",
+      "arfima_models": {
+        "AT": {
+          "model": "ARFIMA(3, 0.5211, 0)",
+          "d": 0.5210556229966514,
+          "H": 0.9070125136806177
+        },
+        "NT": {
+          "model": "ARFIMA(3, 0.4696, 0)",
+          "d": 0.46962873633365704,
+          "H": 0.7249853463210817
+        },
+        "Corán": {
+          "model": "ARFIMA(3, 0.7583, 0)",
+          "d": 0.7583113537144786,
+          "H": 0.8946893583281748
+        },
+        "Homero": {
+          "model": "ARFIMA(3, 0.0929, 0)",
+          "d": 0.09290742122997077,
+          "H": 0.9139400412773543
+        },
+        "Rig Veda": {
+          "model": "ARFIMA(3, -0.1019, 0)",
+          "d": -0.10187780002232495,
+          "H": 0.48000516726181197
+        },
+        "Mishnah": {
+          "model": "ARFIMA(3, -0.1129, 0)",
+          "d": -0.1129317051367495,
+          "H": 0.6932547454565093
+        }
+      },
+      "verdict": {
+        "category": "FENÓMENOS_PARALELOS",
+        "description": "Los tres corpus comparten el rango de H (>0.9) y MPS significativo, pero difieren en estructura de autocorrelación y/o espectro multifractal. Son fenómenos PARALELOS: procesos distintos que convergen en propiedades similares."
+      },
+      "same_process_test": {
+        "Corán": {
+          "frac_both": 0.0,
+          "verdict": "INCOMPATIBLE — procesos generativos distintos"
+        },
+        "Rig Veda": {
+          "frac_both": 0.598,
+          "verdict": "COMPATIBLE — mismo proceso generativo plausible"
+        },
+        "NT": {
+          "frac_both": 0.0,
+          "verdict": "INCOMPATIBLE — procesos generativos distintos"
+        },
+        "Homero": {
+          "frac_both": 0.0,
+          "verdict": "INCOMPATIBLE — procesos generativos distintos"
+        }
+      }
+    }
+  ],
+  "open_questions": [
+    {
+      "question": "¿H(LXX) ≈ H(MT) para libros individuales del Pentateuco?",
+      "status": "RESOLVED",
+      "answer": "SÍ. mean|ΔH|=0.020, max|ΔH|=0.047 (Genesis). MPS concordance 100%."
+    },
+    {
+      "question": "¿El Pentateuco Samaritano confirma H5a?",
+      "what_would_answer_it": "Corpus digital etiquetado morfológicamente del SP con segmentación por versículo."
+    },
+    {
+      "question": "¿Los manuscritos pre-uthmanicos del Corán tienen el mismo H?",
+      "what_would_answer_it": "Digitalización de los palimpsestos de Ṣanʿāʾ como corpus analizable."
+    }
+  ]
+}

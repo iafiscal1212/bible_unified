@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+bible_unified.json
+sources/
+logs/
+results/comparison_corpora/homer_iliad.xml
+results/comparison_corpora/homer_odyssey.xml
+results/comparison_corpora/herodotus.xml
+results/comparison_corpora/quran_morphology.txt
+results/comparison_corpora/mishnah/
+results/comparison_corpora/lxx/
+results/comparison_corpora/tagnt/

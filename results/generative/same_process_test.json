@@ -1,0 +1,46 @@
+{
+  "Corán": {
+    "target_H": 0.8946893583281748,
+    "sim_H_mean": 0.5374010439188487,
+    "sim_H_std": 0.02178489980768124,
+    "frac_H_match": 0.0,
+    "frac_acf_match": 0.0,
+    "frac_both_match": 0.0,
+    "verdict": "INCOMPATIBLE — procesos generativos distintos",
+    "n_simulations": 500,
+    "H_tolerance": 0.1
+  },
+  "Rig Veda": {
+    "target_H": 0.48000516726181197,
+    "sim_H_mean": 0.5372536252297513,
+    "sim_H_std": 0.01640769965003376,
+    "frac_H_match": 0.996,
+    "frac_acf_match": 0.598,
+    "frac_both_match": 0.598,
+    "verdict": "COMPATIBLE — mismo proceso generativo plausible",
+    "n_simulations": 500,
+    "H_tolerance": 0.1
+  },
+  "NT": {
+    "target_H": 0.7249853463210817,
+    "sim_H_mean": 0.5388640399712699,
+    "sim_H_std": 0.019578861339541544,
+    "frac_H_match": 0.0,
+    "frac_acf_match": 0.0,
+    "frac_both_match": 0.0,
+    "verdict": "INCOMPATIBLE — procesos generativos distintos",
+    "n_simulations": 500,
+    "H_tolerance": 0.1
+  },
+  "Homero": {
+    "target_H": 0.9139400412773543,
+    "sim_H_mean": 0.5246945166334215,
+    "sim_H_std": 0.013921227989536168,
+    "frac_H_match": 0.0,
+    "frac_acf_match": 0.0,
+    "frac_both_match": 0.0,
+    "verdict": "INCOMPATIBLE — procesos generativos distintos",
+    "n_simulations": 500,
+    "H_tolerance": 0.1
+  }
+}

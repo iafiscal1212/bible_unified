@@ -1,0 +1,14 @@
+{
+  "corpus": "Samaritan Pentateuch",
+  "status": "NOT_AVAILABLE_DIGITALLY_WITH_MORPHOLOGY",
+  "significance": "El SP es el candidato ideal para resolver H5a vs H5b: misma lengua (hebreo), mismo texto base, dos líneas de transmisión independientes desde ~400 a.C. Si H(SP) ≈ H(MT), H5a se confirma (estructura predates la divergencia). Si H(MT) > H(SP), H5b gana apoyo.",
+  "known_variants": "~6,000 diferencias con MT, mayoritariamente ortográficas. ~1,900 acuerdos SP+LXX contra MT, sugiriendo un Vorlage común.",
+  "available_resources": [
+    "August von Gall (1918): edición crítica impresa",
+    "Abraham Tal & Moshe Florentin (2010): transcripción",
+    "Stefan Schorch (2021): Samaritan Pentateuch Commentary Series"
+  ],
+  "what_is_needed": "Un corpus digital etiquetado morfológicamente del SP, con segmentación por versículo compatible con el esquema BHSA/WLC, para aplicar las mismas 6 métricas (H, α, D_f, χ, ΔS, Zipf s).",
+  "alternative_used": "LXX (Septuaginta) como segunda línea de transmisión",
+  "lxx_vs_sp_tradeoff": "La LXX es una TRADUCCIÓN al griego (cambia la lengua), mientras el SP es el MISMO texto en hebreo (solo cambian variantes). Por eso el SP sería más informativo: controla por lengua. Pero la LXX está disponible digitalmente y el SP no."
+}

@@ -1,0 +1,85 @@
+{
+  "phase": 10,
+  "title": "Análisis Palabra-por-Palabra: 1QIsa^a vs WLC Isaiah",
+  "timestamp": "2026-03-16T05:15:10",
+  "feature_discovery": {
+    "n_features": 72,
+    "key_available": {
+      "g_cons": true,
+      "g_word": false,
+      "biblical": true,
+      "rec": true,
+      "book": true,
+      "chapter": true,
+      "verse": true,
+      "lex": true,
+      "sp": true,
+      "scroll": true,
+      "line": true,
+      "fragment": true,
+      "sign": false
+    }
+  },
+  "memory_profile": {
+    "dss_H_mean": 0.7218361685818654,
+    "wlc_H_mean": 0.6850665855526618,
+    "delta_H_mean": 0.036769583029203634
+  },
+  "pos_divergence": {
+    "jsd_unigram": 0.06161391600281124,
+    "jsd_4gram": 0.30895930712165237
+  },
+  "alignment": {
+    "total_operations": 23127,
+    "n_variants": 18273,
+    "variant_rate": 0.7901,
+    "type_counts": {
+      "identical": 4854,
+      "orthographic": 1221,
+      "substitution_diff_pos": 6961,
+      "substitution_same_pos": 3601,
+      "deletion": 6139,
+      "insertion": 351
+    }
+  },
+  "ablation": {
+    "H_baseline": 0.6805596371895921,
+    "impact_ranking": [
+      {
+        "type": "substitution_same_pos",
+        "n_ops": 3601,
+        "delta_H": 0.0037900114309312727,
+        "abs_delta_H": 0.0037900114309312727
+      },
+      {
+        "type": "orthographic",
+        "n_ops": 1221,
+        "delta_H": -0.0018025983757453679,
+        "abs_delta_H": 0.0018025983757453679
+      },
+      {
+        "type": "insertion",
+        "n_ops": 351,
+        "delta_H": 0.001453302357242614,
+        "abs_delta_H": 0.001453302357242614
+      },
+      {
+        "type": "substitution_diff_pos",
+        "n_ops": 6961,
+        "delta_H": -0.00048641776703206574,
+        "abs_delta_H": 0.00048641776703206574
+      },
+      {
+        "type": "deletion",
+        "n_ops": 6139,
+        "delta_H": 0.00032147345472144373,
+        "abs_delta_H": 0.00032147345472144373
+      }
+    ],
+    "E_all_delta_H": -0.0076164769973225965
+  },
+  "decay_model": {
+    "decay_rate_per_century": 0.000818181818181819,
+    "H_at_composition": 0.6859090909090909
+  }
+}

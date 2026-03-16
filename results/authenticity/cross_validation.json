@@ -1,0 +1,66 @@
+{
+  "method": "Leave-one-out cross-validation",
+  "feature": "Hurst H",
+  "decision_rule": "H > boundary → controlled, H ≤ boundary → free",
+  "n_testable": 6,
+  "n_correct": 5,
+  "accuracy": 0.8333,
+  "results": [
+    {
+      "corpus": "AT (Hebreo)",
+      "H": 1.1099,
+      "actual_transmission": "controlled",
+      "predicted_transmission": "controlled",
+      "boundary_used": 0.8546,
+      "correct": true
+    },
+    {
+      "corpus": "NT (Griego)",
+      "H": 0.9928,
+      "actual_transmission": "free",
+      "predicted_transmission": "controlled",
+      "boundary_used": 0.8195,
+      "correct": false
+    },
+    {
+      "corpus": "Corán (Árabe)",
+      "H": 0.9826,
+      "actual_transmission": "controlled",
+      "predicted_transmission": "controlled",
+      "boundary_used": 0.8865,
+      "correct": true
+    },
+    {
+      "corpus": "Homero (Griego)",
+      "H": 0.6278,
+      "actual_transmission": "free",
+      "predicted_transmission": "free",
+      "boundary_used": 0.9108,
+      "correct": true
+    },
+    {
+      "corpus": "Heródoto (Griego)",
+      "H": 0.6329,
+      "actual_transmission": "free",
+      "predicted_transmission": "free",
+      "boundary_used": 0.9095,
+      "correct": true
+    },
+    {
+      "corpus": "Mishnah (Hebreo)",
+      "H": 0.6829,
+      "actual_transmission": "semi-controlled",
+      "predicted_transmission": "free",
+      "boundary_used": 0.8799,
+      "correct": null
+    },
+    {
+      "corpus": "Rig Veda (Sánscrito)",
+      "H": 0.9336,
+      "actual_transmission": "controlled",
+      "predicted_transmission": "controlled",
+      "boundary_used": 0.8987,
+      "correct": true
+    }
+  ]
+}

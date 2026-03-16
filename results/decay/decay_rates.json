@@ -1,0 +1,138 @@
+{
+  "decay_rates": [
+    {
+      "corpus": "AT (Hebreo)",
+      "transmission": "controlled",
+      "t_ancient": -100,
+      "H_ancient": 0.6806,
+      "t_recent": 1000,
+      "H_recent": 0.6723,
+      "delta_t_centuries": 11.0,
+      "rate_H_per_century": -0.000755,
+      "rate_alpha_per_century": -0.001036,
+      "type": "measured"
+    },
+    {
+      "corpus": "NT (Griego)",
+      "transmission": "free",
+      "t_composition_estimated": 50,
+      "H_current": 0.9928,
+      "t_current_text": 1000,
+      "delta_t_centuries": 9.5,
+      "rate_H_per_century_upper_bound": 0.051874,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    },
+    {
+      "corpus": "Corán (Árabe)",
+      "transmission": "controlled",
+      "t_composition_estimated": 632,
+      "H_current": 0.9826,
+      "t_current_text": 650,
+      "delta_t_centuries": 0.18,
+      "rate_H_per_century_upper_bound": 2.681111,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    },
+    {
+      "corpus": "Homero (Griego)",
+      "transmission": "free",
+      "t_composition_estimated": -750,
+      "H_current": 0.6278,
+      "t_current_text": 300,
+      "delta_t_centuries": 10.5,
+      "rate_H_per_century_upper_bound": 0.012171,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    },
+    {
+      "corpus": "Heródoto (Griego)",
+      "transmission": "free",
+      "t_composition_estimated": -440,
+      "H_current": 0.6329,
+      "t_current_text": 300,
+      "delta_t_centuries": 7.4,
+      "rate_H_per_century_upper_bound": 0.017959,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    },
+    {
+      "corpus": "Rig Veda (Sánscrito)",
+      "transmission": "controlled",
+      "t_composition_estimated": -1200,
+      "H_current": 0.9336,
+      "t_current_text": 1000,
+      "delta_t_centuries": 22.0,
+      "rate_H_per_century_upper_bound": 0.019709,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    },
+    {
+      "corpus": "Mishnah (Hebreo)",
+      "transmission": "semi-controlled",
+      "t_composition_estimated": 200,
+      "H_current": 0.6829,
+      "t_current_text": 200,
+      "delta_t_centuries": 0.0,
+      "rate_H_per_century_upper_bound": 0,
+      "rate_H_per_century_lower_bound": 0.0,
+      "H_original_assumed": 0.5,
+      "type": "upper_bound"
+    }
+  ],
+  "comparison_controlled_vs_free": {
+    "controlled_group": {
+      "corpora": [
+        "AT (Hebreo)",
+        "Corán (Árabe)",
+        "Rig Veda (Sánscrito)"
+      ],
+      "rates": [
+        0.000755,
+        2.681111,
+        0.019709
+      ],
+      "mean_rate": 0.900525
+    },
+    "free_group": {
+      "corpora": [
+        "NT (Griego)",
+        "Homero (Griego)",
+        "Heródoto (Griego)"
+      ],
+      "rates": [
+        0.051874,
+        0.012171,
+        0.017959,
+        0
+      ],
+      "mean_rate": 0.020501000000000002
+    },
+    "mann_whitney_p": 0.6285714285714286,
+    "note": "This comparison is severely limited: only AT/Isaiah has two measured temporal points. All other corpora use upper-bound estimates (assuming H_original=0.5). The comparison is therefore indicative, not conclusive."
+  },
+  "cross_corpus_h_by_transmission": {
+    "controlled_H_values": [
+      1.1099,
+      0.9826,
+      0.9336
+    ],
+    "controlled_H_mean": 1.0087000000000002,
+    "free_H_values": [
+      0.9928,
+      0.6278,
+      0.6329
+    ],
+    "free_H_mean": 0.7511666666666666,
+    "mann_whitney_p_one_sided": 0.2,
+    "test": "H(controlled) > H(free)",
+    "note": "This is a cross-sectional comparison (current H values), not a temporal decay comparison."
+  },
+  "conclusion": "The only directly measured decay rate (AT/Isaiah, controlled transmission) is ~0.0008 H/century — effectively zero. Upper-bound estimates for free transmission corpora suggest rates of ~0.0205 H/century, but these assume H_original=0.5 and are therefore not directly comparable. The cross-sectional comparison (current H values) shows controlled > free (mean 1.009 vs 0.751), but this does not establish that free transmission *degrades* H.",
+  "elapsed_seconds": 0.002746105194091797
+}

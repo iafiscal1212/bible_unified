@@ -1,0 +1,433 @@
+{
+  "historical_orders": {
+    "canonical": {
+      "name": "Occidental/Vulgata (moderno)",
+      "date": "~400 d.C.",
+      "source": "Vulgata latina, estandarizado en Concilio de Trento (1546)",
+      "n_books": 27,
+      "n_books_requested": 27,
+      "n_verses": 7927,
+      "H": 0.7249853463210817,
+      "H_R2": 0.9915478329815905,
+      "books_used": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Philemon",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "2 Peter",
+        "1 John",
+        "2 John",
+        "3 John",
+        "Jude",
+        "Revelation"
+      ],
+      "percentile_vs_random": 1.9900000000000002
+    },
+    "vaticanus": {
+      "name": "Códice Vaticano",
+      "date": "~350 d.C.",
+      "source": "Codex Vaticanus (B), uno de los manuscritos más antiguos",
+      "n_books": 27,
+      "n_books_requested": 27,
+      "n_verses": 7927,
+      "H": 0.714024431697824,
+      "H_R2": 0.9953724938982113,
+      "books_used": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "James",
+        "1 Peter",
+        "2 Peter",
+        "1 John",
+        "2 John",
+        "3 John",
+        "Jude",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "Hebrews",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Philemon",
+        "Revelation"
+      ],
+      "percentile_vs_random": 0.64
+    },
+    "marcion": {
+      "name": "Canon de Marción (aprox.)",
+      "date": "~140 d.C.",
+      "source": "Reconstrucción del canon marcionita (10 epístolas + Evangelium)",
+      "n_books": 11,
+      "n_books_requested": 11,
+      "n_verses": 2936,
+      "H": 0.725891753759505,
+      "H_R2": 0.9926039359750499,
+      "books_used": [
+        "Galatians",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Romans",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "Ephesians",
+        "Colossians",
+        "Philippians",
+        "Philemon",
+        "Luke"
+      ],
+      "caveat": "Aproximación: usamos Lucas canónico, no el Evangelium editado de Marción",
+      "percentile_vs_random": 2.18
+    },
+    "chronological": {
+      "name": "Cronológico (consenso académico)",
+      "date": "reconstrucción moderna",
+      "source": "Datación consensuada: Brown (1997), Ehrman (2012)",
+      "n_books": 27,
+      "n_books_requested": 27,
+      "n_verses": 7927,
+      "H": 0.740101988050482,
+      "H_R2": 0.9935804152616525,
+      "books_used": [
+        "1 Thessalonians",
+        "Galatians",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Romans",
+        "Philippians",
+        "Philemon",
+        "Mark",
+        "Colossians",
+        "Matthew",
+        "Luke",
+        "Acts",
+        "Ephesians",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "John",
+        "1 John",
+        "2 John",
+        "3 John",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Jude",
+        "2 Peter",
+        "Revelation"
+      ],
+      "percentile_vs_random": 6.239999999999999
+    },
+    "peshitta": {
+      "name": "Siríaco Peshitta",
+      "date": "~400 d.C.",
+      "source": "Canon siríaco antiguo (22 libros, sin 2Pe, 2-3Jn, Jud, Ap)",
+      "n_books": 22,
+      "n_books_requested": 22,
+      "n_verses": 7408,
+      "H": 0.7135914992207929,
+      "H_R2": 0.9955376725707018,
+      "books_used": [
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "James",
+        "1 Peter",
+        "1 John",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Philemon",
+        "Hebrews"
+      ],
+      "caveat": "Canon reducido: 22 de 27 libros",
+      "percentile_vs_random": 0.63
+    }
+  },
+  "permutation_test": {
+    "n_permutations": 10000,
+    "H_canonical": 0.7249853463210817,
+    "H_random_mean": 0.7876192735514586,
+    "H_random_std": 0.02332850951078345,
+    "H_random_min": 0.6877795017588442,
+    "H_random_max": 0.8360501958739607,
+    "percentile_canonical": 1.9900000000000002,
+    "p_value": 0.9801
+  },
+  "book_h_individual": [
+    {
+      "book": "Matthew",
+      "n_verses": 1068,
+      "H": 0.6486492446104873,
+      "H_R2": 0.9977846371329789
+    },
+    {
+      "book": "Mark",
+      "n_verses": 673,
+      "H": 0.5852201520727545,
+      "H_R2": 0.9915615643528105
+    },
+    {
+      "book": "Luke",
+      "n_verses": 1149,
+      "H": 0.6917427554218722,
+      "H_R2": 0.9734958795659326
+    },
+    {
+      "book": "John",
+      "n_verses": 866,
+      "H": 0.5382859143418652,
+      "H_R2": 0.9932280269311219
+    },
+    {
+      "book": "Acts",
+      "n_verses": 1002,
+      "H": 0.5556653313783233,
+      "H_R2": 0.9940663909908177
+    },
+    {
+      "book": "Romans",
+      "n_verses": 430,
+      "H": 0.6357868678490912,
+      "H_R2": 0.9955433720824238
+    },
+    {
+      "book": "1 Corinthians",
+      "n_verses": 437,
+      "H": 0.5186761650785726,
+      "H_R2": 0.9786722764341692
+    },
+    {
+      "book": "2 Corinthians",
+      "n_verses": 256,
+      "H": 0.7273468326825476,
+      "H_R2": 0.9959788100698493
+    },
+    {
+      "book": "Galatians",
+      "n_verses": 149,
+      "H": 0.6241677373143608,
+      "H_R2": 0.9628154558272527
+    },
+    {
+      "book": "Ephesians",
+      "n_verses": 155,
+      "H": 0.7279979572512907,
+      "H_R2": 0.9892583179973504
+    },
+    {
+      "book": "Philippians",
+      "n_verses": 104,
+      "H": 0.4779563441796461,
+      "H_R2": 0.8673316477378967
+    },
+    {
+      "book": "Colossians",
+      "n_verses": 95,
+      "H": 0.7699509797705387,
+      "H_R2": 0.9939886862293527
+    },
+    {
+      "book": "1 Thessalonians",
+      "n_verses": 89,
+      "H": 0.576237618833554,
+      "H_R2": 0.876849961608801
+    },
+    {
+      "book": "2 Thessalonians",
+      "n_verses": 47,
+      "H": 0.6499216881716225,
+      "H_R2": 0.9154031951154439
+    },
+    {
+      "book": "1 Timothy",
+      "n_verses": 113,
+      "H": 0.7001373295071647,
+      "H_R2": 0.9809876481187291
+    },
+    {
+      "book": "2 Timothy",
+      "n_verses": 83,
+      "H": 0.8968168120224141,
+      "H_R2": 0.9878165060808494
+    },
+    {
+      "book": "Titus",
+      "n_verses": 46,
+      "H": 0.8013744959811683,
+      "H_R2": 0.9848257951724367
+    },
+    {
+      "book": "Philemon",
+      "n_verses": 25,
+      "H": null,
+      "H_R2": 0.0
+    },
+    {
+      "book": "Hebrews",
+      "n_verses": 303,
+      "H": 0.6990385698207389,
+      "H_R2": 0.9965865790635683
+    },
+    {
+      "book": "James",
+      "n_verses": 108,
+      "H": 0.46830248326792223,
+      "H_R2": 0.978530255611289
+    },
+    {
+      "book": "1 Peter",
+      "n_verses": 105,
+      "H": 0.5090687716546705,
+      "H_R2": 0.9391047617081172
+    },
+    {
+      "book": "2 Peter",
+      "n_verses": 61,
+      "H": 0.6578617799496412,
+      "H_R2": 0.9939870923989604
+    },
+    {
+      "book": "1 John",
+      "n_verses": 105,
+      "H": 0.4680429299954923,
+      "H_R2": 0.9855951525022368
+    },
+    {
+      "book": "Jude",
+      "n_verses": 25,
+      "H": null,
+      "H_R2": 0.0
+    },
+    {
+      "book": "Revelation",
+      "n_verses": 405,
+      "H": 0.510928255200082,
+      "H_R2": 0.9600392671452679
+    }
+  ],
+  "greedy_search": {
+    "greedy_max_order": [
+      "2 Timothy",
+      "2 John",
+      "2 Corinthians",
+      "Colossians",
+      "Philemon",
+      "Revelation",
+      "Hebrews",
+      "1 John",
+      "Galatians",
+      "Titus",
+      "Romans",
+      "3 John",
+      "Jude",
+      "Philippians",
+      "1 Peter",
+      "1 Thessalonians",
+      "James",
+      "2 Peter",
+      "2 Thessalonians",
+      "1 Timothy",
+      "Luke",
+      "Acts",
+      "Ephesians",
+      "1 Corinthians",
+      "Mark",
+      "John",
+      "Matthew"
+    ],
+    "greedy_max_H": 0.8156317932844765,
+    "greedy_min_order": [
+      "3 John",
+      "Philippians",
+      "1 Peter",
+      "2 John",
+      "2 Thessalonians",
+      "Jude",
+      "2 Peter",
+      "Philemon",
+      "2 Timothy",
+      "Ephesians",
+      "James",
+      "Galatians",
+      "Titus",
+      "1 Timothy",
+      "Romans",
+      "John",
+      "1 Thessalonians",
+      "Acts",
+      "Matthew",
+      "Mark",
+      "2 Corinthians",
+      "Colossians",
+      "Hebrews",
+      "1 Corinthians",
+      "1 John",
+      "Revelation",
+      "Luke"
+    ],
+    "greedy_min_H": 0.7641832474083106,
+    "canonical_H": 0.7249853463210817,
+    "canonical_is_optimal": false,
+    "similarity_to_historical": {
+      "canonical": {
+        "kendall_tau": -0.38461538461538464,
+        "p_value": 0.0044701389004354365
+      },
+      "vaticanus": {
+        "kendall_tau": -0.4074074074074075,
+        "p_value": 0.0024966938788110117
+      },
+      "marcion": {
+        "kendall_tau": 0.0909090909090909,
+        "p_value": 0.7611503928170594
+      },
+      "chronological": {
+        "kendall_tau": -0.08262108262108263,
+        "p_value": 0.562905829997928
+      },
+      "peshitta": {
+        "kendall_tau": -0.45454545454545453,
+        "p_value": 0.0026144720102174645
+      }
+    }
+  }
+}
