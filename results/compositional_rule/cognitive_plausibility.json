@@ -1,0 +1,28 @@
+{
+  "AR1": {
+    "local_N": 1,
+    "within_working_memory": true,
+    "description": "Cada versículo depende linealmente del anterior",
+    "retrodiction_pct": 0.0
+  },
+  "HMM2": {
+    "local_N": 1,
+    "within_working_memory": true,
+    "description": "Alterna entre 2 regímenes (corto/largo)",
+    "retrodiction_pct": 0.0
+  },
+  "ARFIMA": {
+    "local_N": "infinity",
+    "within_working_memory": false,
+    "description": "Memoria fraccional de largo alcance + AR(1)",
+    "retrodiction_pct": 0.0
+  },
+  "Hierarchical": {
+    "local_N": 3,
+    "within_working_memory": true,
+    "description": "Temas de duración variable con medias distintas",
+    "retrodiction_pct": 89.0
+  },
+  "best_plausible_model": "Hierarchical",
+  "best_plausible_retrodiction": 89.0
+}

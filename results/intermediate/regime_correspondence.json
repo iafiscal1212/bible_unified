@@ -1,0 +1,32 @@
+{
+  "AT": {
+    "w_star": 50,
+    "mean_regime_length_hmm": 5774.0,
+    "correspondence": "DISTANT",
+    "hmm_reproduces_H": false
+  },
+  "NT": {
+    "w_star": 50,
+    "mean_regime_length_hmm": 4022.0,
+    "correspondence": "DISTANT",
+    "hmm_reproduces_H": false
+  },
+  "Corán": {
+    "w_star": 50,
+    "mean_regime_length_hmm": 692.9,
+    "correspondence": "DISTANT",
+    "hmm_reproduces_H": false
+  },
+  "Homero": {
+    "w_star": 50,
+    "mean_regime_length_hmm": 5046.0,
+    "correspondence": "DISTANT",
+    "hmm_reproduces_H": false
+  },
+  "Heródoto": {
+    "w_star": 50,
+    "mean_regime_length_hmm": 141.4,
+    "correspondence": "DISTANT",
+    "hmm_reproduces_H": false
+  }
+}

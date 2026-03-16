@@ -1,0 +1,142 @@
+{
+  "phase": 12,
+  "title": "¿Qué produce AC(1) alto? El Mecanismo Composicional",
+  "timestamp": "2026-03-16T07:08:18",
+  "total_elapsed_seconds": 840.0,
+  "scripts": [
+    {
+      "name": "recitation_hypothesis",
+      "question": "¿Las restricciones métricas de recitación oral producen AC(1) alto?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "homer_syllable_ac1.json",
+        "quran_sura_ac1.json",
+        "recitation_verdict.json",
+        "ot_poetry_vs_prose_ac1.json",
+        "rigveda_meter_ac1.json"
+      ],
+      "verdict": "PARTIALLY_SUPPORTED: Las restricciones métricas contribuyen al AC(1) alto, pero no son el único mecanismo.",
+      "evidence_summary": [
+        "AT_poetry_vs_prose: SUPPORTS",
+        "Corán_syl_vs_word: NEUTRAL",
+        "Homero_syl_vs_word: SUPPORTS",
+        "Homer_contrast: KEY_FINDING"
+      ],
+      "at_poetry_ac1": 0.4384,
+      "at_prose_ac1": 0.1886,
+      "at_prophetic_ac1": 0.0778
+    },
+    {
+      "name": "intermediate_scales",
+      "question": "¿Qué produce correlaciones a escalas intermedias que AR(1) no captura?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "regime_correspondence.json",
+        "hmm_fit.json",
+        "acf_profiles.json",
+        "block_scale_analysis.json",
+        "power_law_fits.json"
+      ],
+      "hmm_summary": {
+        "AT": {
+          "mu": [
+            7.68,
+            14.56
+          ],
+          "mean_regime_len": 5774.0,
+          "H_hmm_synth": 0.5353
+        },
+        "NT": {
+          "mu": [
+            16.88,
+            24.36
+          ],
+          "mean_regime_len": 4022.0,
+          "H_hmm_synth": 0.5433
+        },
+        "Corán": {
+          "mu": [
+            5.05,
+            15.37
+          ],
+          "mean_regime_len": 692.9,
+          "H_hmm_synth": 0.5426
+        },
+        "Homero": {
+          "mu": [
+            15.59,
+            80.03
+          ],
+          "mean_regime_len": 5046.0,
+          "H_hmm_synth": 0.5338
+        },
+        "Heródoto": {
+          "mu": [
+            21.19,
+            47.0
+          ],
+          "mean_regime_len": 141.4,
+          "H_hmm_synth": 0.5083
+        }
+      },
+      "w_star_AT": 50,
+      "w_star_Corán": 50,
+      "power_law_betas": {
+        "AT": 0.1046,
+        "NT": 0.4108,
+        "Corán": 0.2718,
+        "Homero": 0.0431,
+        "Heródoto": 0.0273
+      }
+    },
+    {
+      "name": "compositional_rule",
+      "question": "¿Se puede reconstruir la regla composicional que produce H>0.9?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "cognitive_plausibility.json",
+        "model_comparison.json",
+        "retrodiction_test.json",
+        "minimum_complexity.json",
+        "at_reference.json"
+      ],
+      "models": {
+        "AR1": {
+          "H": 0.5676,
+          "AC1": 0.3341,
+          "retrodiction": 0.0,
+          "n_params": 2
+        },
+        "HMM2": {
+          "H": 0.7084,
+          "AC1": 0.5798,
+          "retrodiction": 0.0,
+          "n_params": 5
+        },
+        "ARFIMA": {
+          "H": 0.8403,
+          "AC1": 0.6896,
+          "retrodiction": 0.0,
+          "n_params": 3
+        },
+        "Hierarchical": {
+          "H": 0.8752,
+          "AC1": 0.2507,
+          "retrodiction": 89.0,
+          "n_params": 4
+        }
+      },
+      "retrodiction": {
+        "model": "Hierarchical",
+        "all_match_pct": 66,
+        "H_match_pct": 84
+      }
+    }
+  ]
+}

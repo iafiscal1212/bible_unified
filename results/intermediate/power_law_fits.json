@@ -1,0 +1,42 @@
+{
+  "AT": {
+    "beta": 0.1046,
+    "r2": 0.9333,
+    "n_points": 199,
+    "max_lag_positive": 200,
+    "intercept": 0.3927,
+    "drop_below_0.05": null
+  },
+  "NT": {
+    "beta": 0.4108,
+    "r2": 0.6228,
+    "n_points": 199,
+    "max_lag_positive": 200,
+    "intercept": 0.3396,
+    "drop_below_0.05": 58
+  },
+  "Corán": {
+    "beta": 0.2718,
+    "r2": 0.825,
+    "n_points": 199,
+    "max_lag_positive": 200,
+    "intercept": 0.8211,
+    "drop_below_0.05": null
+  },
+  "Homero": {
+    "beta": 0.0431,
+    "r2": 0.0436,
+    "n_points": 44,
+    "max_lag_positive": 195,
+    "intercept": 0.0171,
+    "drop_below_0.05": 1
+  },
+  "Heródoto": {
+    "beta": 0.0273,
+    "r2": 0.004,
+    "n_points": 70,
+    "max_lag_positive": 199,
+    "intercept": 0.0288,
+    "drop_below_0.05": 1
+  }
+}

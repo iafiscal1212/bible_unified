@@ -1,0 +1,182 @@
+{
+  "AT": {
+    "mu": [
+      7.68,
+      14.56
+    ],
+    "sigma": [
+      2.05,
+      5.92
+    ],
+    "transition_matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "n_transitions": 4,
+    "mean_regime_length": 5774.0,
+    "regime_fraction": [
+      0.193,
+      0.807
+    ],
+    "H_per_regime": [
+      0.7141,
+      0.815
+    ],
+    "H_global": 0.8766,
+    "H_from_hmm_synthetic": {
+      "mean": 0.5353,
+      "std": 0.0176,
+      "pct_above_0.9": 0.0
+    }
+  },
+  "NT": {
+    "mu": [
+      16.88,
+      24.36
+    ],
+    "sigma": [
+      6.33,
+      8.08
+    ],
+    "transition_matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "n_transitions": 2,
+    "mean_regime_length": 4022.0,
+    "regime_fraction": [
+      0.95,
+      0.05
+    ],
+    "H_per_regime": [
+      0.7348,
+      0.5262
+    ],
+    "H_global": 0.7826,
+    "H_from_hmm_synthetic": {
+      "mean": 0.5433,
+      "std": 0.0195,
+      "pct_above_0.9": 0.0
+    }
+  },
+  "Corán": {
+    "mu": [
+      5.05,
+      15.37
+    ],
+    "sigma": [
+      2.71,
+      9.53
+    ],
+    "transition_matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "n_transitions": 9,
+    "mean_regime_length": 692.9,
+    "regime_fraction": [
+      0.286,
+      0.714
+    ],
+    "H_per_regime": [
+      0.8022,
+      0.821
+    ],
+    "H_global": 0.8963,
+    "H_from_hmm_synthetic": {
+      "mean": 0.5426,
+      "std": 0.0206,
+      "pct_above_0.9": 0.0
+    }
+  },
+  "Homero": {
+    "mu": [
+      15.59,
+      80.03
+    ],
+    "sigma": [
+      9.14,
+      33.77
+    ],
+    "transition_matrix": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "n_transitions": 3,
+    "mean_regime_length": 5046.0,
+    "regime_fraction": [
+      1.0,
+      0.0
+    ],
+    "H_per_regime": [
+      0.6093,
+      null
+    ],
+    "H_global": 0.6077,
+    "H_from_hmm_synthetic": {
+      "mean": 0.5338,
+      "std": 0.0173,
+      "pct_above_0.9": 0.0
+    }
+  },
+  "Heródoto": {
+    "mu": [
+      21.19,
+      47.0
+    ],
+    "sigma": [
+      12.62,
+      0.0
+    ],
+    "transition_matrix": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "n_transitions": 11,
+    "mean_regime_length": 141.4,
+    "regime_fraction": [
+      0.996,
+      0.004
+    ],
+    "H_per_regime": [
+      0.6392,
+      null
+    ],
+    "H_global": 0.6448,
+    "H_from_hmm_synthetic": {
+      "mean": 0.5083,
+      "std": 0.0343,
+      "pct_above_0.9": 0.0
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "AR1": {
+    "n_params": 2,
+    "description": "Cada versículo depende linealmente del anterior",
+    "cognitive_local_N": 1,
+    "params": {
+      "mu": 13.2287,
+      "phi": 0.3359,
+      "sigma": 5.6864
+    },
+    "H_mean": 0.5676,
+    "H_std": 0.0161,
+    "H_median": 0.5665,
+    "pct_H_above_0.85": 0.0,
+    "pct_H_above_0.9": 0.0,
+    "AC1_mean": 0.3341,
+    "AC1_std": 0.0061,
+    "MPS_significant_pct": 100.0,
+    "retrodiction_pct": 0.0
+  },
+  "HMM2": {
+    "n_params": 5,
+    "description": "Alterna entre 2 regímenes (corto/largo)",
+    "cognitive_local_N": 1,
+    "params": {
+      "mu1": 8.3808,
+      "mu2": 18.0766,
+      "sigma1": 2.2215,
+      "sigma2": 4.5777,
+      "p_stay": 0.95
+    },
+    "H_mean": 0.7084,
+    "H_std": 0.0151,
+    "H_median": 0.7066,
+    "pct_H_above_0.85": 0.0,
+    "pct_H_above_0.9": 0.0,
+    "AC1_mean": 0.5798,
+    "AC1_std": 0.0063,
+    "MPS_significant_pct": 100.0,
+    "retrodiction_pct": 0.0
+  },
+  "ARFIMA": {
+    "n_params": 3,
+    "description": "Memoria fraccional de largo alcance + AR(1)",
+    "cognitive_local_N": Infinity,
+    "params": {
+      "d": 0.3766,
+      "phi": 0.1679,
+      "sigma": 3.0186,
+      "mu": 13.2287
+    },
+    "H_mean": 0.8403,
+    "H_std": 0.0187,
+    "H_median": 0.8401,
+    "pct_H_above_0.85": 32.0,
+    "pct_H_above_0.9": 0.0,
+    "AC1_mean": 0.6896,
+    "AC1_std": 0.0124,
+    "MPS_significant_pct": 100.0,
+    "retrodiction_pct": 0.0
+  },
+  "Hierarchical": {
+    "n_params": 4,
+    "description": "Temas de duración variable con medias distintas",
+    "cognitive_local_N": 3,
+    "params": {
+      "mu_global": 13.2287,
+      "sigma_topic": 2.48,
+      "tau_mean": 121.56,
+      "sigma_verse": 4.226
+    },
+    "H_mean": 0.8752,
+    "H_std": 0.0188,
+    "H_median": 0.8752,
+    "pct_H_above_0.85": 89.0,
+    "pct_H_above_0.9": 11.0,
+    "AC1_mean": 0.2507,
+    "AC1_std": 0.0245,
+    "MPS_significant_pct": 75.0,
+    "retrodiction_pct": 89.0
+  }
+}

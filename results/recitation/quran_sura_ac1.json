@@ -1,0 +1,20 @@
+{
+  "global": {
+    "ac1_words": 0.4722,
+    "ac1_syllables": 0.4777,
+    "H_words": 0.8963,
+    "H_syllables": 0.8954
+  },
+  "per_sura": {
+    "n_suras_analyzed": 95,
+    "ac1_words_mean": 0.1354,
+    "ac1_syllables_mean": 0.132,
+    "ac1_words_std": 0.2219
+  },
+  "rhythmic_vs_non": {
+    "n_rhythmic": 47,
+    "n_non_rhythmic": 48,
+    "rhythmic_mean_ac1_w": 0.3084,
+    "non_rhythmic_mean_ac1_w": -0.0341
+  }
+}

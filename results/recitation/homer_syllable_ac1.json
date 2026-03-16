@@ -1,0 +1,11 @@
+{
+  "n_sentences": 15138,
+  "ac1_words": -0.0043,
+  "ac1_syllables": -0.0008,
+  "H_words": 0.6077,
+  "H_syllables": 0.6211,
+  "mean_words": 15.6,
+  "mean_syl": 22.2,
+  "syl_per_word": 1.423,
+  "note": "Homero tiene hexámetro dactílico (metro estricto) pero es NT-like en H. ¿AC(1) en sílabas difiere?"
+}

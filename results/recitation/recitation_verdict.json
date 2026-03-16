@@ -1,0 +1,29 @@
+{
+  "evidence": [
+    {
+      "test": "AT_poetry_vs_prose",
+      "direction": "SUPPORTS",
+      "detail": "Poesía AC(1)=0.4384 > Prosa AC(1)=0.1886"
+    },
+    {
+      "test": "Corán_syl_vs_word",
+      "direction": "NEUTRAL",
+      "detail": "AC(1)_syl=0.4777 ≈ AC(1)_word=0.4722"
+    },
+    {
+      "test": "Homero_syl_vs_word",
+      "direction": "SUPPORTS",
+      "detail": "AC(1)_syl=-0.0008 > AC(1)_word=-0.0043"
+    },
+    {
+      "test": "Homer_contrast",
+      "direction": "KEY_FINDING",
+      "detail": "Homero AC(1)=-0.0043 ≈ 0 pese a metro estricto. AT AC(1)=0.3359. El metro homérico NO produce el mismo efecto que las restricciones AT-like."
+    }
+  ],
+  "n_supports": 2,
+  "n_refutes": 0,
+  "n_total": 4,
+  "conclusion": "PARTIALLY_SUPPORTED: Las restricciones métricas contribuyen al AC(1) alto, pero no son el único mecanismo.",
+  "mechanism_detail": ""
+}

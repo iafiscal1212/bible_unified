@@ -1,0 +1,52 @@
+{
+  "all": {
+    "n_verses": 23096,
+    "ac1_words": 0.3359,
+    "ac1_syllables": 0.349,
+    "ac1_syl_vs_word_ratio": 1.0388,
+    "H_words": 0.8766,
+    "H_syllables": 0.8846,
+    "mean_words_per_verse": 13.23,
+    "mean_syl_per_verse": 33.39,
+    "syl_per_word": 2.524
+  },
+  "poetry": {
+    "n_verses": 4888,
+    "ac1_words": 0.4384,
+    "ac1_syllables": 0.4409,
+    "ac1_syl_vs_word_ratio": 1.0057,
+    "H_words": 0.8503,
+    "H_syllables": 0.8603,
+    "mean_words_per_verse": 8.1,
+    "mean_syl_per_verse": 20.18,
+    "syl_per_word": 2.49
+  },
+  "prophetic": {
+    "n_verses": 5335,
+    "ac1_words": 0.0778,
+    "ac1_syllables": 0.1012,
+    "ac1_syl_vs_word_ratio": 1.301,
+    "H_words": 0.7779,
+    "H_syllables": 0.7969,
+    "mean_words_per_verse": 14.67,
+    "mean_syl_per_verse": 36.88,
+    "syl_per_word": 2.514
+  },
+  "prose": {
+    "n_verses": 12873,
+    "ac1_words": 0.1886,
+    "ac1_syllables": 0.1927,
+    "ac1_syl_vs_word_ratio": 1.0221,
+    "H_words": 0.8318,
+    "H_syllables": 0.8333,
+    "mean_words_per_verse": 14.58,
+    "mean_syl_per_verse": 36.96,
+    "syl_per_word": 2.535
+  },
+  "conclusion": {
+    "poetry_higher_than_prose": true,
+    "prophetic_higher_than_prose": false,
+    "metric_constraint_contributes": true,
+    "note": "Si poesía AC(1) > prosa AC(1), las restricciones métricas contribuyen al AC(1) alto del AT"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "AT": {
+    "scales": [
+      {
+        "window_size": 50,
+        "n_windows": 1921,
+        "H_local_mean": 0.6922,
+        "H_local_std": 0.2089,
+        "H_local_var": 0.043636,
+        "H_local_cv": 0.3018
+      },
+      {
+        "window_size": 75,
+        "n_windows": 1279,
+        "H_local_mean": 0.6939,
+        "H_local_std": 0.1585,
+        "H_local_var": 0.025136,
+        "H_local_cv": 0.2285
+      },
+      {
+        "window_size": 100,
+        "n_windows": 920,
+        "H_local_mean": 0.6928,
+        "H_local_std": 0.1389,
+        "H_local_var": 0.0193,
+        "H_local_cv": 0.2005
+      },
+      {
+        "window_size": 150,
+        "n_windows": 621,
+        "H_local_mean": 0.701,
+        "H_local_std": 0.1244,
+        "H_local_var": 0.015481,
+        "H_local_cv": 0.1775
+      },
+      {
+        "window_size": 200,
+        "n_windows": 458,
+        "H_local_mean": 0.7013,
+        "H_local_std": 0.1204,
+        "H_local_var": 0.014498,
+        "H_local_cv": 0.1717
+      }
+    ],
+    "w_star": 50,
+    "w_star_var": 0.043636
+  },
+  "NT": {
+    "scales": [
+      {
+        "window_size": 50,
+        "n_windows": 667,
+        "H_local_mean": 0.6415,
+        "H_local_std": 0.1948,
+        "H_local_var": 0.037961,
+        "H_local_cv": 0.3037
+      },
+      {
+        "window_size": 75,
+        "n_windows": 443,
+        "H_local_mean": 0.6337,
+        "H_local_std": 0.1445,
+        "H_local_var": 0.020882,
+        "H_local_cv": 0.228
+      },
+      {
+        "window_size": 100,
+        "n_windows": 318,
+        "H_local_mean": 0.6324,
+        "H_local_std": 0.1079,
+        "H_local_var": 0.01165,
+        "H_local_cv": 0.1707
+      },
+      {
+        "window_size": 150,
+        "n_windows": 214,
+        "H_local_mean": 0.6277,
+        "H_local_std": 0.0918,
+        "H_local_var": 0.008433,
+        "H_local_cv": 0.1463
+      },
+      {
+        "window_size": 200,
+        "n_windows": 157,
+        "H_local_mean": 0.6276,
+        "H_local_std": 0.083,
+        "H_local_var": 0.006896,
+        "H_local_cv": 0.1323
+      }
+    ],
+    "w_star": 50,
+    "w_star_var": 0.037961
+  },
+  "Corán": {
+    "scales": [
+      {
+        "window_size": 50,
+        "n_windows": 516,
+        "H_local_mean": 0.6987,
+        "H_local_std": 0.2031,
+        "H_local_var": 0.041256,
+        "H_local_cv": 0.2907
+      },
+      {
+        "window_size": 75,
+        "n_windows": 343,
+        "H_local_mean": 0.7095,
+        "H_local_std": 0.1575,
+        "H_local_var": 0.024797,
+        "H_local_cv": 0.2219
+      },
+      {
+        "window_size": 100,
+        "n_windows": 246,
+        "H_local_mean": 0.7221,
+        "H_local_std": 0.128,
+        "H_local_var": 0.016379,
+        "H_local_cv": 0.1772
+      },
+      {
+        "window_size": 150,
+        "n_windows": 165,
+        "H_local_mean": 0.7401,
+        "H_local_std": 0.1138,
+        "H_local_var": 0.012952,
+        "H_local_cv": 0.1538
+      },
+      {
+        "window_size": 200,
+        "n_windows": 121,
+        "H_local_mean": 0.7397,
+        "H_local_std": 0.1068,
+        "H_local_var": 0.011409,
+        "H_local_cv": 0.1444
+      }
+    ],
+    "w_star": 50,
+    "w_star_var": 0.041256
+  },
+  "Homero": {
+    "scales": [
+      {
+        "window_size": 50,
+        "n_windows": 1258,
+        "H_local_mean": 0.6329,
+        "H_local_std": 0.1886,
+        "H_local_var": 0.035551,
+        "H_local_cv": 0.2979
+      },
+      {
+        "window_size": 75,
+        "n_windows": 837,
+        "H_local_mean": 0.6323,
+        "H_local_std": 0.1368,
+        "H_local_var": 0.018724,
+        "H_local_cv": 0.2164
+      },
+      {
+        "window_size": 100,
+        "n_windows": 602,
+        "H_local_mean": 0.6201,
+        "H_local_std": 0.107,
+        "H_local_var": 0.011456,
+        "H_local_cv": 0.1726
+      },
+      {
+        "window_size": 150,
+        "n_windows": 406,
+        "H_local_mean": 0.614,
+        "H_local_std": 0.0839,
+        "H_local_var": 0.007043,
+        "H_local_cv": 0.1367
+      },
+      {
+        "window_size": 200,
+        "n_windows": 299,
+        "H_local_mean": 0.6126,
+        "H_local_std": 0.0756,
+        "H_local_var": 0.005718,
+        "H_local_cv": 0.1234
+      }
+    ],
+    "w_star": 50,
+    "w_star_var": 0.035551
+  },
+  "Heródoto": {
+    "scales": [
+      {
+        "window_size": 50,
+        "n_windows": 126,
+        "H_local_mean": 0.6367,
+        "H_local_std": 0.2105,
+        "H_local_var": 0.044315,
+        "H_local_cv": 0.3306
+      },
+      {
+        "window_size": 75,
+        "n_windows": 83,
+        "H_local_mean": 0.6384,
+        "H_local_std": 0.1459,
+        "H_local_var": 0.021273,
+        "H_local_cv": 0.2285
+      },
+      {
+        "window_size": 100,
+        "n_windows": 59,
+        "H_local_mean": 0.6464,
+        "H_local_std": 0.1156,
+        "H_local_var": 0.013365,
+        "H_local_cv": 0.1788
+      },
+      {
+        "window_size": 150,
+        "n_windows": 38,
+        "H_local_mean": 0.6597,
+        "H_local_std": 0.087,
+        "H_local_var": 0.007569,
+        "H_local_cv": 0.1319
+      },
+      {
+        "window_size": 200,
+        "n_windows": 28,
+        "H_local_mean": 0.6486,
+        "H_local_std": 0.0701,
+        "H_local_var": 0.004917,
+        "H_local_cv": 0.1081
+      }
+    ],
+    "w_star": 50,
+    "w_star_var": 0.044315
+  },
+  "known_sections": {
+    "at_book_sizes": {
+      "mean": 607.8,
+      "median": 511.5,
+      "min": 21,
+      "max": 2527
+    },
+    "torah_book_sizes": {
+      "sizes": {
+        "Genesis": 1533,
+        "Exodus": 1213,
+        "Leviticus": 859,
+        "Numbers": 1289,
+        "Deuteronomy": 959
+      },
+      "mean": 1170.6
+    },
+    "known_divisions": {
+      "parasha_typical_verses": "54 parashot, ~55 verses each (Torah)",
+      "haftarah_typical_verses": "~30-50 verses each",
+      "quran_sura_mean_ayas": "~49 ayas (6236/114)"
+    }
+  }
+}

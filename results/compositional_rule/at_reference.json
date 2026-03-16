@@ -1,0 +1,16 @@
+{
+  "n": 23096,
+  "mean": 13.228697609975754,
+  "std": 6.03718566950777,
+  "cv": 0.4563703735245359,
+  "H": 0.8766,
+  "AC1": 0.3359,
+  "MPS_chi": 9,
+  "MPS_p": 1.0,
+  "MPS_significant": false,
+  "n_books": 38,
+  "book_size_mean": 607.8,
+  "book_size_std": 560.5,
+  "book_mean_verse_len_mean": 13.89,
+  "book_mean_verse_len_std": 2.48
+}

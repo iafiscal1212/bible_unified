@@ -1,0 +1,22 @@
+{
+  "source": "calibrated_synthetic",
+  "n_padas": 19317,
+  "ac1_words": 0.3175,
+  "ac1_syllables": 0.5073,
+  "H_words": 0.6722,
+  "H_syllables": 0.7037,
+  "meter_analysis": {
+    "n_hymns_analyzed": 1028,
+    "consistent_meter": {
+      "n": 514,
+      "mean_ac1": NaN,
+      "mean_syl_cv": 0.1322
+    },
+    "mixed_meter": {
+      "n": 514,
+      "mean_ac1": NaN,
+      "mean_syl_cv": 0.1994
+    }
+  },
+  "note": "Datos sintéticos calibrados con metros védicos conocidos. No es texto real — solo estructura métrica."
+}

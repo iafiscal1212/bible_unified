@@ -1,0 +1,31 @@
+{
+  "ranking_by_retrodiction": [
+    {
+      "model": "Hierarchical",
+      "retrodiction_pct": 89.0,
+      "n_params": 4,
+      "H_mean": 0.8752
+    },
+    {
+      "model": "AR1",
+      "retrodiction_pct": 0.0,
+      "n_params": 2,
+      "H_mean": 0.5676
+    },
+    {
+      "model": "HMM2",
+      "retrodiction_pct": 0.0,
+      "n_params": 5,
+      "H_mean": 0.7084
+    },
+    {
+      "model": "ARFIMA",
+      "retrodiction_pct": 0.0,
+      "n_params": 3,
+      "H_mean": 0.8403
+    }
+  ],
+  "minimum_model": "Hierarchical",
+  "minimum_params": 4,
+  "threshold_used": 10.0
+}

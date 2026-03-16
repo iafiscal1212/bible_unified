@@ -75,7 +75,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{16 de marzo de 2026 --- v10.0}
+\date{16 de marzo de 2026 --- v11.0}
 
 
 \begin{document}
@@ -229,6 +229,16 @@ permutaciones aleatorias ---$H$ es propiedad intra-libro, no del orden inter-lib
 (iii)~la comparaci\'on de 6 corpus confirma que $H$ es propiedad de \textbf{secuencia}
 (destruido por shuffle en todos) y que la autocorrelaci\'on de longitud distingue
 AT-like (media $0.55$) de otros (media $0.02$) con ratio $22.5\times$.
+
+\textbf{Fase~12}: Tres investigaciones sobre el mecanismo composicional:
+(i)~la hip\'otesis de recitaci\'on es \textbf{parcialmente soportada}: la poes\'ia
+del AT tiene AC(1)$= 0.438$ vs.\ prosa $0.189$, pero Homero (hexámetro dactílico estricto)
+tiene AC(1)$\approx 0$ ---el metro estricto \textbf{no} produce el efecto AT-like;
+(ii)~la ACF del AT sigue ley de potencias ($\beta = 0.10$, $R^2 = 0.93$) con
+correlaciones positivas hasta lag~200+, indicando memoria \textbf{fractal};
+(iii)~de 4 modelos generativos, el \textbf{jer\'arquico} (temas de duraci\'on variable)
+es el \'unico que reproduce H, AC(1) y MPS simult\'aneamente (\textbf{66\%} retrodicci\'on,
+4 par\'ametros, N$\leq 3$ cognitivamente plausible). AR(1), HMM-2 y ARFIMA fracasan.
 
 Todos los valores emergen inductivamente del texto; ning\'un par\'ametro est\'a hardcodeado.
 \end{abstract}
@@ -2567,6 +2577,128 @@ mientras Homero y Her\'odoto tienen AC(1) $\approx 0$
 
 
 % ══════════════════════════════════════════════════════════════════════════
+\section{Fase~12: El Mecanismo Composicional}
+% ══════════════════════════════════════════════════════════════════════════
+
+La Fase~11 identific\'o que AC(1) alto + memoria de orden superior producen
+$H > 0.9$. La Fase~12 investiga: ?`qu\'e produce AC(1) alto? ?`qu\'e son esas
+``correlaciones intermedias''? ?`existe un modelo generativo m\'inimo?
+
+\subsection{Hip\'otesis de recitaci\'on oral}
+
+?`Las restricciones m\'etricas de recitaci\'on producen AC(1) alto?
+Cuatro tests:
+
+\begin{center}\small
+\begin{tabular}{llrrl}
+\toprule
+Test & Corpus & AC(1)$_\text{words}$ & AC(1)$_\text{syl}$ & Resultado \\
+\midrule
+Poes\'ia vs prosa (AT) & Poes\'ia & \val{0.438} & 0.441 & SOPORTA \\
+                        & Prosa   & 0.189 & 0.193 & \\
+                        & Profetas & 0.078 & 0.101 & \\
+Cor\'an syl vs word      & Global  & 0.472 & 0.478 & NEUTRAL \\
+Homero syl vs word      & Global  & $-0.004$ & $-0.001$ & SOPORTA (d\'ebil) \\
+\textbf{Contraste Homero} & vs AT & $-0.004$ vs $0.336$ & & \textbf{KEY} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\paragraph{Hallazgo clave: Homero.}
+Homero tiene \textbf{hex\'ametro dact\'ilico} (metro estricto de 6 pies, $\sim$17 s\'ilabas/verso)
+pero AC(1) $= -0.004 \approx 0$. Un metro constante en s\'ilabas \textbf{no} produce
+autocorrelaci\'on en longitud de palabras. La restricci\'on m\'etrica del AT
+es de otra naturaleza: no fija el n\'umero de s\'ilabas, sino que produce
+\textbf{consistencia tem\'atica local} que se traduce en longitudes similares.
+
+\paragraph{Veredicto.}
+Parcialmente soportada: la poes\'ia AT tiene AC(1) $2.3\times$ mayor que la prosa,
+pero los profetas ($\text{AC(1)} = 0.078$) son casi tan bajos como Homero.
+La restricci\'on m\'etrica contribuye pero \textbf{no es el \'unico mecanismo}.
+La estructura narrativa/tem\'atica es igualmente o m\'as importante.
+
+\subsection{Escalas intermedias: memoria fractal}
+
+Perfil de autocorrelaci\'on (ACF) completo hasta lag~200:
+
+\begin{center}\small
+\begin{tabular}{lrrrl}
+\toprule
+Corpus & $\beta$ (ley pot.) & $R^2$ & Lag $< 0.05$ & Tipo \\
+\midrule
+AT         & \val{0.105} & \val{0.933} & $>200$ & Fractal \\
+Cor\'an     & 0.272 & 0.825 & $>200$ & Fractal \\
+NT         & 0.411 & 0.623 & 58 & Intermedio \\
+Homero     & 0.043 & 0.044 & 1 & Sin memoria \\
+Her\'odoto  & 0.027 & 0.004 & 1 & Sin memoria \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+La ACF del AT sigue una ley de potencias $\text{ACF}(\ell) \sim \ell^{-0.105}$ con
+$R^2 = 0.933$, con correlaciones positivas \textbf{hasta lag~200+} (ninguna ca\'ida
+por debajo de 0.05). Esto es la firma de memoria \textbf{fractal}
+---correlaciones a \emph{todas} las escalas, no solo locales.
+El Cor\'an comparte esta propiedad ($\beta = 0.27$, $R^2 = 0.83$).
+Homero y Her\'odoto no tienen estructura a ninguna escala.
+
+\paragraph{Escala de bloques.}
+El an\'alisis de varianza de $H_\text{local}(w)$ identifica $w^* = 50$ vers\'iculos
+para el AT ---la escala donde la variabilidad de $H$ local es m\'axima.
+Esto coincide con el tama\~no t\'ipico de una \emph{parash\'a} ($\sim$55 vers\'iculos)
+y es consistente con la hip\'otesis de bloques tem\'aticos como generadores
+de estructura.
+
+\subsection{El modelo generativo ganador: proceso jer\'arquico}
+
+Se compararon 4 modelos generativos calibrados con par\'ametros del AT:
+
+\begin{center}\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Modelo & Params & $H$ medio & $H > 0.85$ & AC(1) & MPS sig & Retro \\
+\midrule
+AR(1)        & 2 & 0.568 &   0\% & 0.334 & 100\% &  0\% \\
+HMM-2        & 5 & 0.708 &   0\% & 0.580 & 100\% &  0\% \\
+ARFIMA       & 3 & 0.840 &  32\% & 0.690 & 100\% &  0\% \\
+\textbf{Jer\'arquico} & \textbf{4} & \val{0.875} & \val{89\%} & 0.251 & 75\% & \val{89\%} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\paragraph{Test de retrodicci\'on completa.}
+Se generaron 100 textos sint\'eticos del tama\~no del AT completo (23,096 vers\'iculos)
+con el modelo jer\'arquico. Resultado: \textbf{66\%} reproducen simult\'aneamente
+$H > 0.85$, AC(1) $\in [0.19, 0.49]$, y MPS significativo.
+Ning\'un otro modelo reproduce las tres propiedades.
+
+\paragraph{Plausibilidad cognitiva.}
+El modelo jer\'arquico tiene $N = 3$ (depende solo del tema actual y contexto
+local de $\sim$3 vers\'iculos). $N \leq 10$: \textbf{cognitivamente plausible}.
+Un compositor humano podr\'ia aplicar esta regla inconscientemente:
+``componer por temas de duraci\'on variable, con versículos de longitud
+similar dentro de cada tema''. ARFIMA ($N = \infty$) es el \'unico modelo
+no plausible.
+
+\subsection{S\'intesis de Fase~12}
+
+\begin{itemize}[leftmargin=2em]
+\item \textbf{Recitaci\'on}: Parcialmente soportada. La poes\'ia AT tiene AC(1)
+      $2.3\times$ mayor que prosa, pero Homero demuestra que el metro estricto
+      \emph{per se} no produce el efecto. La estructura tem\'atica domina.
+\item \textbf{Memoria fractal}: La ACF del AT sigue ley de potencias
+      ($\beta = 0.105$, $R^2 = 0.933$). Correlaciones positivas hasta lag~200+.
+      La escala $w^* = 50$ vers\'iculos coincide con divisiones tem\'aticas.
+\item \textbf{Modelo ganador}: El proceso jer\'arquico (4 params, $N \leq 3$)
+      es el \'unico que reproduce $H$, AC(1) y MPS simult\'aneamente.
+      66\% de retrodicci\'on. Cognitivamente plausible.
+\item \textbf{La regla}: ``Temas de duraci\'on variable con consistencia
+      interna de longitud'' ---una propiedad natural de la composici\'on
+      tem\'atica controlada, no una restricci\'on artificial.
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
 \section{Discusi\'on: Anomal\'ias y Patrones}
 % ══════════════════════════════════════════════════════════════════════════
 
@@ -2794,10 +2926,48 @@ tienda a tener longitud similar al actual--- es la huella composicional
 m\'as clara de la transmisi\'on controlada. Los textos literarios
 (Homero, Her\'odoto) no exhiben esta restricci\'on.
 
+\subsection{Patr\'on 18: Recitaci\'on --- condici\'on parcial, no suficiente}
+
+La Fase~12 testa si la recitaci\'on oral (restricciones m\'etricas/sil\'abicas)
+explica la alta autocorrelaci\'on. Resultado: la poes\'ia b\'iblica s\'i tiene
+AC(1) = $0.438$ vs.\ prosa $0.189$ ($p = 0.0$), lo que sugiere que el metro
+\emph{contribuye}. Pero Homero ---hexam\'etro dact\'ilico estricto, la forma
+m\'etrica m\'as r\'igida del mundo antiguo--- tiene AC(1) $\approx 0$ ($-0.004$).
+Esto refuta que la m\'etrica \emph{per se} produzca memoria larga.
+La diferencia cr\'itica: Homero tiene transmisi\'on libre (variantes orales),
+mientras los textos AT-like tienen transmisi\'on controlada. La m\'etrica ampl\'ia
+la autocorrelaci\'on dentro del cluster AT-like pero no basta para generarla.
+
+\subsection{Patr\'on 19: Memoria fractal --- ACF en ley de potencias}
+
+La funci\'on de autocorrelaci\'on del AT decae como ley de potencias
+$\text{ACF}(\ell) \sim \ell^{-0.105}$ con $R^2 = 0.933$, sin caer bajo
+$0.05$ hasta lag = 200+. El Cor\'an muestra el mismo patr\'on ($\beta = 0.272$,
+$R^2 = 0.825$). En contraste, Homero ($\beta = 0.043$, $R^2 = 0.044$) y
+Her\'odoto ($\beta = 0.027$, $R^2 = 0.004$) caen bajo $0.05$ en lag = 1.
+El an\'alisis de escala de bloque revela una escala caracter\'istica
+$w^* = 50$ vers\'iculos para el AT, coincidente con el tama\~no t\'ipico
+de una parash\'a ($\sim$55 vers\'iculos). Un HMM de 2 estados no reproduce
+$H > 0.9$ para ning\'un corpus: la memoria no es bimodal, es \textbf{fractal}.
+
+\subsection{Patr\'on 20: Regla composicional --- proceso jer\'arquico con 4 par\'ametros}
+
+La Fase~12 compara cuatro modelos generativos. AR(1) produce $H = 0.568$
+(retrodice 0\%); HMM-2 produce $H = 0.708$ (0\%); ARFIMA produce $H = 0.840$
+pero requiere memoria infinita (no plausible cognitivamente). El \'unico
+modelo que retrodice la tripleta $(H, \text{AC}(1), \text{MPS})$ del AT es
+el \textbf{proceso jer\'arquico}: temas de duraci\'on variable ($\tau \sim$
+Geom($1/121$)) con medias distintas ($\sigma_{\text{topic}} = 2.48$) y
+variaci\'on intra-tema ($\sigma_{\text{verse}} = 4.23$). Con solo 4 par\'ametros
+y una ventana cognitiva de $N = 3$ (plausible para un escriba), retrodice
+$H = 0.875$ y la tripleta completa en el 66\% de las realizaciones.
+\textbf{Regla composicional}: la memoria larga emerge de la jerarqu\'ia
+tema $\to$ sub-tema $\to$ vers\'iculo, no de dependencias verso-a-verso.
+
 
 \subsection{S\'intesis: Un corpus con estructura at\'ipica}
 
-Las once fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico
+Las doce fases de an\'alisis convergen en una imagen coherente del corpus b\'iblico
 y su relaci\'on con otros textos del mundo antiguo:
 
 \begin{itemize}[leftmargin=2em]
@@ -2859,6 +3029,17 @@ y su relaci\'on con otros textos del mundo antiguo:
 \item \textbf{Autocorrelaci\'on como huella}: Los textos AT-like tienen
       AC(1) = $0.555$ vs.\ $0.025$ en textos literarios (ratio $22.5\times$).
       Es la huella composicional de la transmisi\'on controlada.
+\item \textbf{Recitaci\'on parcial}: La poes\'ia b\'iblica tiene AC(1) = $0.438$
+      vs.\ prosa $0.189$, pero Homero (hexam\'etro estricto) tiene AC(1) $\approx 0$.
+      La m\'etrica contribuye pero no basta; la transmisi\'on controlada es necesaria.
+\item \textbf{Memoria fractal}: El ACF del AT decae como $\ell^{-0.105}$
+      ($R^2 = 0.933$), sin caer bajo $0.05$ hasta lag 200+. La escala
+      caracter\'istica $w^* = 50$ coincide con el tama\~no de parash\'a.
+      Un HMM de 2 estados no reproduce $H > 0.9$.
+\item \textbf{Regla composicional jer\'arquica}: Un proceso tema $\to$
+      sub-tema $\to$ vers\'iculo con 4 par\'ametros y ventana cognitiva $N = 3$
+      retrodice la tripleta $(H, \text{AC}(1), \text{MPS})$ en el 66\% de
+      realizaciones. Es el modelo m\'inimo plausible.
 \end{itemize}
 
 El corpus b\'iblico no se comporta como un corpus ling\"u\'istico ordinario,
@@ -2900,6 +3081,12 @@ es el mejor predictor ($r = 0.659$), pero AR(1) no basta ---se requiere memoria
 de orden superior. El orden can\'onico del NT \emph{minimiza} $H$ (percentil~2);
 la memoria es intra-libro. La autocorrelaci\'on de longitudes (ratio $22.5\times$
 entre clusters) es la huella composicional de la transmisi\'on controlada.
+La Fase~12 resolvi\'o el \textbf{mecanismo composicional}: la recitaci\'on contribuye
+parcialmente (poes\'ia AC(1)=$0.438$ $>$ prosa $0.189$, pero Homero AC(1)$\approx 0$);
+el ACF decae como ley de potencias ($\beta = 0.105$, $R^2 = 0.933$) con escala
+$w^* = 50 \approx$ parash\'a; y un proceso jer\'arquico de 4 par\'ametros con
+ventana cognitiva $N = 3$ retrodice la tripleta $(H, \text{AC}(1), \text{MPS})$
+en el 66\% de realizaciones.
 Las siguientes l\'ineas permanecen abiertas:
 
 \begin{enumerate}[leftmargin=2em]

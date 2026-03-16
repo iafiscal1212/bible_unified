@@ -1,0 +1,116 @@
+{
+  "model": "Hierarchical",
+  "n_tests": 100,
+  "H_match_pct": 84,
+  "AC1_match_pct": 99,
+  "MPS_match_pct": 82,
+  "all_match_pct": 66,
+  "compositional_plausibility": "66%",
+  "reference": {
+    "H": 0.8766,
+    "AC1": 0.3359,
+    "MPS_significant": false
+  },
+  "individual_results": [
+    {
+      "H": 0.8838,
+      "AC1": 0.2762,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.8414,
+      "AC1": 0.2341,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": false,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": false
+    },
+    {
+      "H": 0.9133,
+      "AC1": 0.2419,
+      "MPS_chi": 9,
+      "MPS_p": 1.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": false,
+      "all_match": false
+    },
+    {
+      "H": 0.9185,
+      "AC1": 0.305,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.8652,
+      "AC1": 0.2597,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.8887,
+      "AC1": 0.3075,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.8906,
+      "AC1": 0.2277,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.887,
+      "AC1": 0.2752,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.9023,
+      "AC1": 0.2609,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    },
+    {
+      "H": 0.9144,
+      "AC1": 0.2935,
+      "MPS_chi": 8,
+      "MPS_p": 0.0,
+      "H_match": true,
+      "AC1_match": true,
+      "MPS_match": true,
+      "all_match": true
+    }
+  ]
+}
