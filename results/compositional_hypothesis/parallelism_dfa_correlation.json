@@ -1,0 +1,60 @@
+{
+  "PI_vs_DFA": {
+    "pearson_r": 0.818,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.6815,
+    "spearman_p": 0.0
+  },
+  "AC1_vs_DFA": {
+    "pearson_r": 0.8033,
+    "pearson_p": 0.0,
+    "n": 48
+  },
+  "AC2_vs_DFA": {
+    "pearson_r": 0.8402,
+    "pearson_p": 0.0,
+    "n": 48
+  },
+  "smoothness_vs_DFA": {
+    "pearson_r": 0.4764,
+    "pearson_p": 0.000619,
+    "n": 48
+  },
+  "spectral_regularity_vs_DFA": {
+    "pearson_r": 0.7778,
+    "pearson_p": 0.0,
+    "n": 48
+  },
+  "run_length_vs_DFA": {
+    "pearson_r": 0.3706,
+    "pearson_p": 0.009507,
+    "n": 48
+  },
+  "_pca": {
+    "features": [
+      "AC1",
+      "AC2",
+      "smoothness",
+      "spectral_regularity"
+    ],
+    "eigenvalues": [
+      3.2699,
+      0.4686,
+      0.2238,
+      0.1229
+    ],
+    "variance_explained": [
+      0.8004,
+      0.1147,
+      0.0548,
+      0.0301
+    ],
+    "PC1_loadings": {
+      "AC1": 0.5154,
+      "AC2": 0.52,
+      "smoothness": 0.4469,
+      "spectral_regularity": 0.514
+    },
+    "n_books": 48
+  }
+}

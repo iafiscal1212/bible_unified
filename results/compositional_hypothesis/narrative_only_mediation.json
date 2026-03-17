@@ -1,0 +1,40 @@
+{
+  "n": 18,
+  "total_effect_c": 0.2226,
+  "total_p": 0.030393,
+  "a_path": 0.1401,
+  "a_p": 0.188771,
+  "b_path": 0.8534,
+  "b_p": 0.0,
+  "direct_c_prime": 0.103,
+  "direct_p": 0.015686,
+  "indirect_effect": 0.1195,
+  "proportion_mediated": 0.5371,
+  "bootstrap_CI_95": [
+    0.0126,
+    0.2385
+  ],
+  "CI_crosses_zero": false,
+  "R2_full": 0.899,
+  "mediation_type": "partial",
+  "books": [
+    "1 Chronicles",
+    "1 Kings",
+    "1 Samuel",
+    "2 Chronicles",
+    "2 Kings",
+    "2 Samuel",
+    "Acts",
+    "Esther",
+    "Exodus",
+    "Ezra",
+    "Genesis",
+    "John",
+    "Joshua",
+    "Judges",
+    "Luke",
+    "Mark",
+    "Matthew",
+    "Nehemiah"
+  ]
+}

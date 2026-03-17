@@ -1,0 +1,86 @@
+{
+  "AT_corpus": {
+    "DFA": 0.9295,
+    "classification": "AT",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "NT_corpus": {
+    "DFA": 0.8286,
+    "classification": "AT",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Quran": {
+    "DFA": 0.9336,
+    "classification": "AT",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Rig_Veda": {
+    "DFA": 0.5087,
+    "classification": "AMBIGUOUS",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": true
+  },
+  "Homer": {
+    "DFA": 0.5977,
+    "classification": "AT",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Herodotus": {
+    "DFA": 0.6322,
+    "classification": "AT",
+    "source": "data_matrix.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Book_of_Dead": {
+    "DFA": 0.7732,
+    "classification": "AT",
+    "source": "book_of_dead/corpus_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Pali_Canon": {
+    "DFA": 0.7583,
+    "classification": "AT",
+    "source": "pali_canon/combined_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Mishnah": {
+    "DFA": 0.6545,
+    "classification": "AT",
+    "source": "mishnah/mishnah_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Tosefta": {
+    "DFA": 0.7754,
+    "classification": "AT",
+    "source": "tosefta/tosefta_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "Didache": {
+    "DFA": 0.8251,
+    "classification": "AT",
+    "source": "didache/didache_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  },
+  "1_Clemente": {
+    "DFA": 0.6084,
+    "classification": "AT",
+    "source": "gap_corpora/1_clemente_metrics.json",
+    "above_threshold": true,
+    "in_ambiguity_zone": false
+  }
+}

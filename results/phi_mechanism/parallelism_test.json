@@ -1,0 +1,90 @@
+{
+  "poetry_vs_prose": {
+    "poetry_mean_AC1": 0.3505,
+    "prose_mean_AC1": 0.0367,
+    "poetry_n": 5,
+    "prose_n": 33,
+    "U_stat": 141.0,
+    "p_value": 0.004433,
+    "poetry_higher": true,
+    "poetry_books": [
+      {
+        "book": "Lamentations",
+        "AC1": 0.892
+      },
+      {
+        "book": "Job",
+        "AC1": 0.4426
+      },
+      {
+        "book": "Psalms",
+        "AC1": 0.1727
+      },
+      {
+        "book": "Ecclesiastes",
+        "AC1": 0.1605
+      },
+      {
+        "book": "Proverbs",
+        "AC1": 0.0849
+      }
+    ],
+    "prose_books": [
+      {
+        "book": "Ezra",
+        "AC1": 0.518
+      },
+      {
+        "book": "Nehemiah",
+        "AC1": 0.4978
+      },
+      {
+        "book": "1 Chronicles",
+        "AC1": 0.4067
+      },
+      {
+        "book": "Joshua",
+        "AC1": 0.3266
+      },
+      {
+        "book": "Ruth",
+        "AC1": 0.2486
+      },
+      {
+        "book": "2 Samuel",
+        "AC1": 0.2105
+      },
+      {
+        "book": "Micah",
+        "AC1": 0.1473
+      },
+      {
+        "book": "Numbers",
+        "AC1": 0.1105
+      },
+      {
+        "book": "Exodus",
+        "AC1": 0.1043
+      },
+      {
+        "book": "Deuteronomy",
+        "AC1": 0.0922
+      }
+    ]
+  },
+  "short_vs_long_verse": {
+    "short_mean_AC1": 0.2334,
+    "long_mean_AC1": 0.0646,
+    "short_n": 3,
+    "long_n": 35,
+    "U_stat": 83.0,
+    "p_value": 0.054291,
+    "short_higher": false
+  },
+  "verse_length_vs_AC1": {
+    "r": -0.4322,
+    "p": 0.00673,
+    "negative_correlation": true,
+    "interpretation": "Shorter verses are associated with higher AC1 (r=-0.432)"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "predicted_class": "NT",
+  "P_AT": 0.0065,
+  "P_NT": 0.9935,
+  "features_used": {
+    "H": 0.7495,
+    "DFA": 0.6545,
+    "AC1": 0.1805,
+    "mean_verse_len": 46.14,
+    "std_verse_len": 26.95,
+    "CV": 0.5842,
+    "skewness": 2.6352,
+    "pos_entropy": 2.439
+  },
+  "pos_entropy_note": "No POS tagger for Mishnaic Hebrew available. Used median AT pos_entropy (2.4390) as stand-in. Classification relies primarily on H, DFA, AC1, CV, mean_verse_len."
+}

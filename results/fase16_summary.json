@@ -1,0 +1,119 @@
+{
+  "phase": 16,
+  "title": "Cuatro Investigaciones en Paralelo — Fase 16",
+  "timestamp": "2026-03-17T05:37:47",
+  "total_elapsed_seconds": 33.6,
+  "scripts": [
+    {
+      "name": "phi_mechanism",
+      "question": "¿Qué produce φ alto (coherencia local / AC1)?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "parallelism_test.json",
+        "dictation_test.json",
+        "liturgical_constraints.json",
+        "phi_mechanism_verdict.json",
+        "transition_distributions.json"
+      ],
+      "n_mechanisms_tested": 5,
+      "n_supported": 4,
+      "primary_mechanisms": [
+        "literary_genre",
+        "parallelism_hemistichs",
+        "verse_length_constraint",
+        "liturgical_reading_units"
+      ],
+      "summary": "4/5 mechanisms supported. Primary: literary_genre, parallelism_hemistichs, verse_length_constraint.",
+      "liturgical_mean_delta": 2.093,
+      "narrative_mean_delta": 5.989,
+      "liturgical_lower_p": 0.0
+    },
+    {
+      "name": "book_of_mormon",
+      "question": "¿Cómo se compara el Book of Mormon (s.XIX) con textos antiguos?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 6,
+      "output_files": [
+        "english_comparison.json",
+        "dc_metrics.json",
+        "pos_entropy_english.json",
+        "at_citation_confound.json",
+        "bom_metrics.json",
+        "classifier_result.json"
+      ],
+      "OT_eng_H": 0.8907,
+      "OT_eng_AC1": 0.2859,
+      "NT_eng_H": 0.7347,
+      "NT_eng_AC1": 0.048,
+      "BOM_H": 0.7761,
+      "BOM_AC1": 0.1949,
+      "bom_n_verses": 6604,
+      "bom_H": 0.7761,
+      "bom_AC1": 0.1949,
+      "bom_DFA": 0.7828,
+      "bom_CV": 0.4567,
+      "H_closer_to": "NT",
+      "AC1_closer_to": "OT"
+    },
+    {
+      "name": "unavailable_corpora",
+      "question": "¿Qué corpora faltan y cuál sería su impacto?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 1,
+      "output_files": [
+        "systematic_gap_analysis.json"
+      ],
+      "n_corpora_documented": 4,
+      "key_gap": "Samaritan Pentateuch is the single most valuable missing corpus: same text, independent transmission, would provide the cleanest test of scribal transmission effects on statistical signatures.",
+      "priority_1": [
+        "Avesta (Zoroastrian scriptures)",
+        "Samaritan Pentateuch"
+      ]
+    },
+    {
+      "name": "phi_vs_d_space",
+      "question": "¿Puede el espacio (φ, d) clasificar AT vs NT a nivel de libro?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 4,
+      "output_files": [
+        "parameter_space.json",
+        "bom_integration.json",
+        "books_near_boundary.json",
+        "decision_boundary.json"
+      ],
+      "n_misclassified": 23,
+      "daniel_rank": 44,
+      "daniel_in_top_5": false,
+      "top_5_boundary": [
+        {
+          "book": "Philippians",
+          "dist": 0.0223
+        },
+        {
+          "book": "Revelation",
+          "dist": 0.027
+        },
+        {
+          "book": "Galatians",
+          "dist": 0.0794
+        },
+        {
+          "book": "Amos",
+          "dist": 0.1009
+        },
+        {
+          "book": "1 Peter",
+          "dist": 0.1233
+        }
+      ],
+      "svm_equation": "d_approx = -1.4589 * AC1 + -0.0931",
+      "train_accuracy": 0.6102,
+      "loo_accuracy": 0.5424
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "pali_canon": {
+    "H": 0.7704,
+    "AC1": 0.2125,
+    "DFA": 0.7583,
+    "mean_verse_len": 8.79,
+    "CV": 0.8156
+  },
+  "rig_veda": {
+    "H": 0.5612,
+    "AC1": -0.016,
+    "DFA": 0.5087,
+    "mean_verse_len": 7.8314,
+    "CV": 0.2586
+  },
+  "shared_traits": [
+    "Indo-European language family",
+    "Oral transmission before written",
+    "Religious authority (human, not divine revelation)"
+  ],
+  "differences": {
+    "H": {
+      "pali": 0.7704,
+      "rig_veda": 0.5612,
+      "diff": 0.2092
+    },
+    "AC1": {
+      "pali": 0.2125,
+      "rig_veda": -0.016,
+      "diff": 0.2285
+    },
+    "DFA": {
+      "pali": 0.7583,
+      "rig_veda": 0.5087,
+      "diff": 0.2496
+    },
+    "CV": {
+      "pali": 0.8156,
+      "rig_veda": 0.2586,
+      "diff": 0.557
+    }
+  },
+  "n_similar_metrics": 0,
+  "interpretation": "Pali Canon vs Rig Veda: 0/4 metrics within 0.15. Structurally different — language/function differences dominate."
+}

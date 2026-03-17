@@ -1,0 +1,47 @@
+{
+  "reference_ranges": {
+    "AT_H": {
+      "mean": 0.691,
+      "std": 0.1558,
+      "range": [
+        0.3807,
+        1.1585
+      ]
+    },
+    "NT_H": {
+      "mean": 0.6278,
+      "std": 0.1122,
+      "range": [
+        0.468,
+        0.8968
+      ]
+    },
+    "AT_AC1": {
+      "mean": 0.078,
+      "std": 0.2402,
+      "range": [
+        -0.3969,
+        0.892
+      ]
+    },
+    "NT_AC1": {
+      "mean": -0.0068,
+      "std": 0.1198,
+      "range": [
+        -0.3106,
+        0.276
+      ]
+    }
+  },
+  "note": "BOM metrics are in English → not directly comparable with Hebrew (AT) or Greek (NT) metrics. Valid comparison: BOM vs OT_eng and NT_eng.",
+  "english_comparison": {
+    "BOM_H": 0.7761,
+    "OT_eng_H": 0.8907,
+    "NT_eng_H": 0.7347,
+    "BOM_AC1": 0.1949,
+    "OT_eng_AC1": 0.2859,
+    "NT_eng_AC1": 0.048,
+    "H_closer_to": "NT",
+    "AC1_closer_to": "OT"
+  }
+}

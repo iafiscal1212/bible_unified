@@ -1,0 +1,38 @@
+{
+  "n_books": 48,
+  "Model_A_testament": {
+    "formula": "DFA ~ is_AT",
+    "R2": 0.2642,
+    "R2_adj": 0.2482,
+    "AIC": -157.64,
+    "BIC": -153.9,
+    "CV_RMSE": 0.1967,
+    "coef_is_AT": 0.2275,
+    "intercept": 0.4893
+  },
+  "Model_B_AC1": {
+    "formula": "DFA ~ AC1",
+    "R2": 0.6452,
+    "R2_adj": 0.6375,
+    "AIC": -192.65,
+    "BIC": -188.91,
+    "CV_RMSE": 0.1337,
+    "coef_AC1": 0.8389,
+    "intercept": 0.5614
+  },
+  "Model_C_compositional": {
+    "formula": "DFA ~ AC1 + proper_ratio",
+    "features": [
+      "AC1",
+      "proper_ratio"
+    ],
+    "R2": 0.6981,
+    "R2_adj": 0.6847,
+    "AIC": -198.4,
+    "BIC": -192.78,
+    "CV_RMSE": 0.124
+  },
+  "best_by_AIC": "C_compositional",
+  "best_by_CV_RMSE": "C_compositional",
+  "compositional_beats_testament": true
+}

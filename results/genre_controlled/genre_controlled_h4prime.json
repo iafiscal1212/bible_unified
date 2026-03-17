@@ -1,0 +1,40 @@
+{
+  "test": "Mann-Whitney AT_narrative vs NT_narrative (DFA)",
+  "AT_narrative": {
+    "n": 13,
+    "mean": 0.7531,
+    "std": 0.2031,
+    "books": [
+      "1 Chronicles",
+      "1 Kings",
+      "1 Samuel",
+      "2 Chronicles",
+      "2 Kings",
+      "2 Samuel",
+      "Esther",
+      "Exodus",
+      "Ezra",
+      "Genesis",
+      "Joshua",
+      "Judges",
+      "Nehemiah"
+    ]
+  },
+  "NT_narrative": {
+    "n": 5,
+    "mean": 0.5305,
+    "std": 0.0561,
+    "books": [
+      "Acts",
+      "John",
+      "Luke",
+      "Mark",
+      "Matthew"
+    ]
+  },
+  "mann_whitney_U": 60.0,
+  "p_value": 0.004435,
+  "cohen_d": 1.49,
+  "significant": true,
+  "interpretation": "DFA difference between AT and NT narrative books is statistically significant (p=0.0044, Cohen d=1.49)"
+}

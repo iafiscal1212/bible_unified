@@ -1,0 +1,324 @@
+{
+  "corpus": "Mishnah (Sefaria, Hebrew)",
+  "language": "Mishnaic Hebrew",
+  "n_tractates": 61,
+  "n_mishnayot": 4060,
+  "n_words": 187311,
+  "H": 0.7495,
+  "DFA": 0.6545,
+  "AC1": 0.1805,
+  "mean_verse_len": 46.14,
+  "std_verse_len": 26.95,
+  "CV": 0.5842,
+  "skewness": 2.6352,
+  "bond_dimension": 236,
+  "bond_dimension_64": 62,
+  "mps_perm_p": 0.0,
+  "tractate_stats": {
+    "Berakhot": {
+      "n_mishnayot": 57,
+      "n_words": 2174,
+      "mean_len": 38.14
+    },
+    "Peah": {
+      "n_mishnayot": 69,
+      "n_words": 2485,
+      "mean_len": 36.01
+    },
+    "Demai": {
+      "n_mishnayot": 53,
+      "n_words": 1878,
+      "mean_len": 35.43
+    },
+    "Kilayim": {
+      "n_mishnayot": 77,
+      "n_words": 2934,
+      "mean_len": 38.1
+    },
+    "Sheviit": {
+      "n_mishnayot": 89,
+      "n_words": 3211,
+      "mean_len": 36.08
+    },
+    "Terumot": {
+      "n_mishnayot": 101,
+      "n_words": 3571,
+      "mean_len": 35.36
+    },
+    "Maaser_Sheni": {
+      "n_mishnayot": 57,
+      "n_words": 2260,
+      "mean_len": 39.65
+    },
+    "Challah": {
+      "n_mishnayot": 38,
+      "n_words": 1240,
+      "mean_len": 32.63
+    },
+    "Orlah": {
+      "n_mishnayot": 35,
+      "n_words": 1001,
+      "mean_len": 28.6
+    },
+    "Bikkurim": {
+      "n_mishnayot": 39,
+      "n_words": 1317,
+      "mean_len": 33.77
+    },
+    "Shabbat": {
+      "n_mishnayot": 139,
+      "n_words": 5396,
+      "mean_len": 38.82
+    },
+    "Eruvin": {
+      "n_mishnayot": 96,
+      "n_words": 3798,
+      "mean_len": 39.56
+    },
+    "Pesachim": {
+      "n_mishnayot": 89,
+      "n_words": 3765,
+      "mean_len": 42.3
+    },
+    "Shekalim": {
+      "n_mishnayot": 52,
+      "n_words": 2403,
+      "mean_len": 46.21
+    },
+    "Yoma": {
+      "n_mishnayot": 61,
+      "n_words": 2970,
+      "mean_len": 48.69
+    },
+    "Sukkah": {
+      "n_mishnayot": 53,
+      "n_words": 2163,
+      "mean_len": 40.81
+    },
+    "Beitzah": {
+      "n_mishnayot": 42,
+      "n_words": 1493,
+      "mean_len": 35.55
+    },
+    "Rosh_Hashanah": {
+      "n_mishnayot": 35,
+      "n_words": 1576,
+      "mean_len": 45.03
+    },
+    "Taanit": {
+      "n_mishnayot": 34,
+      "n_words": 1817,
+      "mean_len": 53.44
+    },
+    "Megillah": {
+      "n_mishnayot": 33,
+      "n_words": 1339,
+      "mean_len": 40.58
+    },
+    "Moed_Katan": {
+      "n_mishnayot": 24,
+      "n_words": 766,
+      "mean_len": 31.92
+    },
+    "Chagigah": {
+      "n_mishnayot": 23,
+      "n_words": 863,
+      "mean_len": 37.52
+    },
+    "Yevamot": {
+      "n_mishnayot": 128,
+      "n_words": 6637,
+      "mean_len": 51.85
+    },
+    "Ketubot": {
+      "n_mishnayot": 111,
+      "n_words": 5071,
+      "mean_len": 45.68
+    },
+    "Nedarim": {
+      "n_mishnayot": 90,
+      "n_words": 4373,
+      "mean_len": 48.59
+    },
+    "Nazir": {
+      "n_mishnayot": 60,
+      "n_words": 3116,
+      "mean_len": 51.93
+    },
+    "Sotah": {
+      "n_mishnayot": 67,
+      "n_words": 3943,
+      "mean_len": 58.85
+    },
+    "Gittin": {
+      "n_mishnayot": 75,
+      "n_words": 3755,
+      "mean_len": 50.07
+    },
+    "Kiddushin": {
+      "n_mishnayot": 47,
+      "n_words": 2220,
+      "mean_len": 47.23
+    },
+    "Bava_Kamma": {
+      "n_mishnayot": 79,
+      "n_words": 4244,
+      "mean_len": 53.72
+    },
+    "Bava_Metzia": {
+      "n_mishnayot": 101,
+      "n_words": 4837,
+      "mean_len": 47.89
+    },
+    "Bava_Batra": {
+      "n_mishnayot": 86,
+      "n_words": 4702,
+      "mean_len": 54.67
+    },
+    "Sanhedrin": {
+      "n_mishnayot": 71,
+      "n_words": 5270,
+      "mean_len": 74.23
+    },
+    "Makkot": {
+      "n_mishnayot": 34,
+      "n_words": 2126,
+      "mean_len": 62.53
+    },
+    "Shevuot": {
+      "n_mishnayot": 62,
+      "n_words": 3412,
+      "mean_len": 55.03
+    },
+    "Eduyot": {
+      "n_mishnayot": 74,
+      "n_words": 3883,
+      "mean_len": 52.47
+    },
+    "Avodah_Zarah": {
+      "n_mishnayot": 50,
+      "n_words": 2317,
+      "mean_len": 46.34
+    },
+    "Avot": {
+      "n_mishnayot": 108,
+      "n_words": 4706,
+      "mean_len": 43.57
+    },
+    "Horayot": {
+      "n_mishnayot": 20,
+      "n_words": 1011,
+      "mean_len": 50.55
+    },
+    "Zevachim": {
+      "n_mishnayot": 101,
+      "n_words": 5023,
+      "mean_len": 49.73
+    },
+    "Menachot": {
+      "n_mishnayot": 93,
+      "n_words": 5294,
+      "mean_len": 56.92
+    },
+    "Chullin": {
+      "n_mishnayot": 74,
+      "n_words": 3732,
+      "mean_len": 50.43
+    },
+    "Bekhorot": {
+      "n_mishnayot": 73,
+      "n_words": 3726,
+      "mean_len": 51.04
+    },
+    "Arakhin": {
+      "n_mishnayot": 50,
+      "n_words": 2600,
+      "mean_len": 52.0
+    },
+    "Temurah": {
+      "n_mishnayot": 35,
+      "n_words": 1853,
+      "mean_len": 52.94
+    },
+    "Keritot": {
+      "n_mishnayot": 43,
+      "n_words": 2760,
+      "mean_len": 64.19
+    },
+    "Meilah": {
+      "n_mishnayot": 38,
+      "n_words": 1774,
+      "mean_len": 46.68
+    },
+    "Tamid": {
+      "n_mishnayot": 34,
+      "n_words": 2147,
+      "mean_len": 63.15
+    },
+    "Middot": {
+      "n_mishnayot": 34,
+      "n_words": 2343,
+      "mean_len": 68.91
+    },
+    "Kinnim": {
+      "n_mishnayot": 15,
+      "n_words": 939,
+      "mean_len": 62.6
+    },
+    "Kelim": {
+      "n_mishnayot": 254,
+      "n_words": 10022,
+      "mean_len": 39.46
+    },
+    "Oholot": {
+      "n_mishnayot": 134,
+      "n_words": 6046,
+      "mean_len": 45.12
+    },
+    "Negaim": {
+      "n_mishnayot": 115,
+      "n_words": 5467,
+      "mean_len": 47.54
+    },
+    "Parah": {
+      "n_mishnayot": 96,
+      "n_words": 3847,
+      "mean_len": 40.07
+    },
+    "Mikvaot": {
+      "n_mishnayot": 71,
+      "n_words": 3146,
+      "mean_len": 44.31
+    },
+    "Niddah": {
+      "n_mishnayot": 79,
+      "n_words": 3074,
+      "mean_len": 38.91
+    },
+    "Makhshirin": {
+      "n_mishnayot": 54,
+      "n_words": 2170,
+      "mean_len": 40.19
+    },
+    "Zavim": {
+      "n_mishnayot": 32,
+      "n_words": 1572,
+      "mean_len": 49.12
+    },
+    "Tevul_Yom": {
+      "n_mishnayot": 26,
+      "n_words": 1113,
+      "mean_len": 42.81
+    },
+    "Yadayim": {
+      "n_mishnayot": 22,
+      "n_words": 1598,
+      "mean_len": 72.64
+    },
+    "Oktzin": {
+      "n_mishnayot": 28,
+      "n_words": 1022,
+      "mean_len": 36.5
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "overall_formula_density": 0.02156,
+  "total_formulas": 5755,
+  "total_words": 266938,
+  "formulas_tested": [
+    "and it came to pass",
+    "behold",
+    "saith the lord",
+    "thus saith",
+    "the lord god",
+    "and now",
+    "yea",
+    "wo unto",
+    "i say unto you",
+    "hearken"
+  ],
+  "by_book": {
+    "1 Nephi": {
+      "n_verses": 618,
+      "n_words": 25113,
+      "total_formula_count": 539,
+      "formula_density": 0.02146,
+      "formulas": {
+        "yea": 128,
+        "and it came to pass": 185,
+        "and now": 32,
+        "behold": 141,
+        "hearken": 18,
+        "i say unto you": 7,
+        "the lord god": 11,
+        "saith the lord": 11,
+        "thus saith": 6
+      }
+    },
+    "2 Nephi": {
+      "n_verses": 779,
+      "n_words": 29391,
+      "total_formula_count": 500,
+      "formula_density": 0.01701,
+      "formulas": {
+        "and now": 50,
+        "behold": 164,
+        "the lord god": 59,
+        "yea": 101,
+        "hearken": 27,
+        "saith the lord": 32,
+        "thus saith": 19,
+        "and it came to pass": 13,
+        "wo unto": 23,
+        "i say unto you": 12
+      }
+    },
+    "3 Nephi": {
+      "n_verses": 785,
+      "n_words": 28604,
+      "total_formula_count": 534,
+      "formula_density": 0.01867,
+      "formulas": {
+        "yea": 143,
+        "and it came to pass": 101,
+        "behold": 161,
+        "and now": 41,
+        "hearken": 7,
+        "the lord god": 1,
+        "wo unto": 7,
+        "i say unto you": 57,
+        "saith the lord": 15,
+        "thus saith": 1
+      }
+    },
+    "4 Nephi": {
+      "n_verses": 49,
+      "n_words": 1946,
+      "total_formula_count": 63,
+      "formula_density": 0.03237,
+      "formulas": {
+        "and it came to pass": 18,
+        "behold": 2,
+        "yea": 39,
+        "and now": 4
+      }
+    },
+    "Alma": {
+      "n_verses": 1975,
+      "n_words": 84944,
+      "total_formula_count": 1980,
+      "formula_density": 0.02331,
+      "formulas": {
+        "yea": 678,
+        "and it came to pass": 313,
+        "behold": 577,
+        "and now": 261,
+        "the lord god": 15,
+        "i say unto you": 110,
+        "wo unto": 2,
+        "hearken": 15,
+        "thus saith": 5,
+        "saith the lord": 4
+      }
+    },
+    "Enos": {
+      "n_verses": 27,
+      "n_words": 1156,
+      "total_formula_count": 14,
+      "formula_density": 0.01211,
+      "formulas": {
+        "behold": 4,
+        "yea": 3,
+        "and it came to pass": 3,
+        "the lord god": 2,
+        "and now": 2
+      }
+    },
+    "Ether": {
+      "n_verses": 433,
+      "n_words": 16613,
+      "total_formula_count": 311,
+      "formula_density": 0.01872,
+      "formulas": {
+        "and now": 26,
+        "behold": 60,
+        "and it came to pass": 160,
+        "yea": 57,
+        "the lord god": 4,
+        "saith the lord": 2,
+        "hearken": 2
+      }
+    },
+    "Helaman": {
+      "n_verses": 497,
+      "n_words": 20379,
+      "total_formula_count": 671,
+      "formula_density": 0.03293,
+      "formulas": {
+        "behold": 213,
+        "and now": 44,
+        "yea": 257,
+        "and it came to pass": 101,
+        "hearken": 15,
+        "saith the lord": 20,
+        "thus saith": 5,
+        "the lord god": 3,
+        "i say unto you": 6,
+        "wo unto": 7
+      }
+    },
+    "Jacob": {
+      "n_verses": 203,
+      "n_words": 9135,
+      "total_formula_count": 186,
+      "formula_density": 0.02036,
+      "formulas": {
+        "behold": 78,
+        "yea": 17,
+        "and it came to pass": 43,
+        "and now": 19,
+        "hearken": 6,
+        "i say unto you": 2,
+        "saith the lord": 11,
+        "thus saith": 4,
+        "the lord god": 6
+      }
+    },
+    "Jarom": {
+      "n_verses": 15,
+      "n_words": 731,
+      "total_formula_count": 15,
+      "formula_density": 0.02052,
+      "formulas": {
+        "behold": 5,
+        "yea": 4,
+        "i say unto you": 1,
+        "and now": 1,
+        "and it came to pass": 4
+      }
+    },
+    "Mormon": {
+      "n_verses": 227,
+      "n_words": 9427,
+      "total_formula_count": 233,
+      "formula_density": 0.02472,
+      "formulas": {
+        "and now": 18,
+        "yea": 65,
+        "behold": 85,
+        "and it came to pass": 56,
+        "saith the lord": 1,
+        "i say unto you": 6,
+        "wo unto": 1,
+        "hearken": 1
+      }
+    },
+    "Moroni": {
+      "n_verses": 163,
+      "n_words": 6114,
+      "total_formula_count": 81,
+      "formula_density": 0.01325,
+      "formulas": {
+        "behold": 45,
+        "and now": 16,
+        "yea": 9,
+        "i say unto you": 6,
+        "the lord god": 2,
+        "wo unto": 3
+      }
+    },
+    "Mosiah": {
+      "n_verses": 785,
+      "n_words": 31131,
+      "total_formula_count": 578,
+      "formula_density": 0.01857,
+      "formulas": {
+        "and now": 127,
+        "and it came to pass": 114,
+        "i say unto you": 59,
+        "behold": 98,
+        "the lord god": 9,
+        "yea": 151,
+        "hearken": 7,
+        "wo unto": 1,
+        "saith the lord": 6,
+        "thus saith": 6
+      }
+    },
+    "Omni": {
+      "n_verses": 30,
+      "n_words": 1398,
+      "total_formula_count": 34,
+      "formula_density": 0.02432,
+      "formulas": {
+        "behold": 14,
+        "and it came to pass": 8,
+        "yea": 7,
+        "and now": 3,
+        "hearken": 2
+      }
+    },
+    "Words of Mormon": {
+      "n_verses": 18,
+      "n_words": 856,
+      "total_formula_count": 16,
+      "formula_density": 0.01869,
+      "formulas": {
+        "behold": 5,
+        "and now": 5,
+        "yea": 3,
+        "and it came to pass": 3
+      }
+    }
+  },
+  "interpretation": "BOM has 5755 KJV formulaic expressions (density=0.02156). These archaic formulas inflate AC1 by creating repetitive patterns."
+}

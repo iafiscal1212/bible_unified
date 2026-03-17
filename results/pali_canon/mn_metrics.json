@@ -1,0 +1,15 @@
+{
+  "label": "MN",
+  "n_segments": 27195,
+  "n_words": 241651,
+  "H": 0.7249,
+  "DFA": 0.7193,
+  "AC1": 0.2025,
+  "mean_verse_len": 8.89,
+  "std_verse_len": 7.28,
+  "CV": 0.8189,
+  "skewness": 3.4063,
+  "bond_dimension": 245,
+  "bond_dimension_64": 62,
+  "mps_perm_p": 0.0
+}

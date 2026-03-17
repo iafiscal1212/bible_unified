@@ -1,0 +1,583 @@
+{
+  "speech_lemma": "559 (amar = to say)",
+  "n_books": 63,
+  "overall_correlation": {
+    "r": -0.1296,
+    "p": 0.311477
+  },
+  "AT_only_correlation": {
+    "r": -0.3849,
+    "p": 0.017031,
+    "n_books": 38
+  },
+  "books": [
+    {
+      "book": "Malachi",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.04566,
+      "speech_count": 40,
+      "n_words": 876,
+      "AC1": -0.3969
+    },
+    {
+      "book": "Haggai",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.04326,
+      "speech_count": 26,
+      "n_words": 601,
+      "AC1": -0.1592
+    },
+    {
+      "book": "Ruth",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.04135,
+      "speech_count": 54,
+      "n_words": 1306,
+      "AC1": 0.2486
+    },
+    {
+      "book": "Zechariah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.0351,
+      "speech_count": 110,
+      "n_words": 3134,
+      "AC1": -0.1853
+    },
+    {
+      "book": "Jonah",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.03198,
+      "speech_count": 22,
+      "n_words": 688,
+      "AC1": -0.0277
+    },
+    {
+      "book": "1 Samuel",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.03187,
+      "speech_count": 425,
+      "n_words": 13335,
+      "AC1": -0.0166
+    },
+    {
+      "book": "2 Samuel",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.0301,
+      "speech_count": 335,
+      "n_words": 11130,
+      "AC1": 0.2105
+    },
+    {
+      "book": "Genesis",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.02938,
+      "speech_count": 606,
+      "n_words": 20629,
+      "AC1": -0.0074
+    },
+    {
+      "book": "2 Kings",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.02793,
+      "speech_count": 345,
+      "n_words": 12354,
+      "AC1": -0.0314
+    },
+    {
+      "book": "Judges",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.02716,
+      "speech_count": 269,
+      "n_words": 9905,
+      "AC1": -0.0046
+    },
+    {
+      "book": "Amos",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.02543,
+      "speech_count": 52,
+      "n_words": 2045,
+      "AC1": -0.2143
+    },
+    {
+      "book": "1 Kings",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.02472,
+      "speech_count": 326,
+      "n_words": 13186,
+      "AC1": -0.0497
+    },
+    {
+      "book": "Jeremiah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.02175,
+      "speech_count": 478,
+      "n_words": 21976,
+      "AC1": 0.0668
+    },
+    {
+      "book": "Ezekiel",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.01924,
+      "speech_count": 363,
+      "n_words": 18866,
+      "AC1": -0.0297
+    },
+    {
+      "book": "Exodus",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.01788,
+      "speech_count": 299,
+      "n_words": 16726,
+      "AC1": 0.1043
+    },
+    {
+      "book": "Esther",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.01734,
+      "speech_count": 53,
+      "n_words": 3057,
+      "AC1": -0.0604
+    },
+    {
+      "book": "Numbers",
+      "genre": "legal",
+      "testament": "AT",
+      "speech_density": 0.01498,
+      "speech_count": 246,
+      "n_words": 16422,
+      "AC1": 0.1105
+    },
+    {
+      "book": "Isaiah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.01454,
+      "speech_count": 247,
+      "n_words": 16988,
+      "AC1": 0.0836
+    },
+    {
+      "book": "Joshua",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.01379,
+      "speech_count": 139,
+      "n_words": 10083,
+      "AC1": 0.3266
+    },
+    {
+      "book": "2 Chronicles",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.01378,
+      "speech_count": 184,
+      "n_words": 13354,
+      "AC1": -0.0547
+    },
+    {
+      "book": "Nehemiah",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.01181,
+      "speech_count": 63,
+      "n_words": 5336,
+      "AC1": 0.4978
+    },
+    {
+      "book": "Job",
+      "genre": "liturgical",
+      "testament": "AT",
+      "speech_density": 0.01155,
+      "speech_count": 97,
+      "n_words": 8399,
+      "AC1": 0.4426
+    },
+    {
+      "book": "Deuteronomy",
+      "genre": "legal",
+      "testament": "AT",
+      "speech_density": 0.00992,
+      "speech_count": 142,
+      "n_words": 14320,
+      "AC1": 0.0922
+    },
+    {
+      "book": "Hosea",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00922,
+      "speech_count": 22,
+      "n_words": 2386,
+      "AC1": 0.0443
+    },
+    {
+      "book": "Micah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00714,
+      "speech_count": 10,
+      "n_words": 1400,
+      "AC1": 0.1473
+    },
+    {
+      "book": "Obadiah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00685,
+      "speech_count": 2,
+      "n_words": 292,
+      "AC1": -0.1975
+    },
+    {
+      "book": "Leviticus",
+      "genre": "legal",
+      "testament": "AT",
+      "speech_density": 0.00669,
+      "speech_count": 80,
+      "n_words": 11955,
+      "AC1": 0.0703
+    },
+    {
+      "book": "1 Chronicles",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.00667,
+      "speech_count": 72,
+      "n_words": 10790,
+      "AC1": 0.4067
+    },
+    {
+      "book": "Ecclesiastes",
+      "genre": "liturgical",
+      "testament": "AT",
+      "speech_density": 0.00667,
+      "speech_count": 20,
+      "n_words": 2999,
+      "AC1": 0.1605
+    },
+    {
+      "book": "Zephaniah",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.0065,
+      "speech_count": 5,
+      "n_words": 769,
+      "AC1": -0.2756
+    },
+    {
+      "book": "Lamentations",
+      "genre": "liturgical",
+      "testament": "AT",
+      "speech_density": 0.00639,
+      "speech_count": 10,
+      "n_words": 1564,
+      "AC1": 0.892
+    },
+    {
+      "book": "Joel",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00522,
+      "speech_count": 5,
+      "n_words": 958,
+      "AC1": 0.008
+    },
+    {
+      "book": "Psalms",
+      "genre": "liturgical",
+      "testament": "AT",
+      "speech_density": 0.00514,
+      "speech_count": 101,
+      "n_words": 19657,
+      "AC1": 0.1727
+    },
+    {
+      "book": "Habakkuk",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00446,
+      "speech_count": 3,
+      "n_words": 672,
+      "AC1": -0.0427
+    },
+    {
+      "book": "Ezra",
+      "genre": "narrative",
+      "testament": "AT",
+      "speech_density": 0.00396,
+      "speech_count": 15,
+      "n_words": 3791,
+      "AC1": 0.518
+    },
+    {
+      "book": "Daniel",
+      "genre": "unknown",
+      "testament": "AT",
+      "speech_density": 0.00381,
+      "speech_count": 23,
+      "n_words": 6035,
+      "AC1": 0.0841
+    },
+    {
+      "book": "Proverbs",
+      "genre": "liturgical",
+      "testament": "AT",
+      "speech_density": 0.00358,
+      "speech_count": 25,
+      "n_words": 6984,
+      "AC1": 0.0849
+    },
+    {
+      "book": "Nahum",
+      "genre": "prophetic",
+      "testament": "AT",
+      "speech_density": 0.00356,
+      "speech_count": 2,
+      "n_words": 562,
+      "AC1": -0.0563
+    },
+    {
+      "book": "Matthew",
+      "genre": "evangelios",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 18329,
+      "AC1": 0.0496
+    },
+    {
+      "book": "Mark",
+      "genre": "evangelios",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 11286,
+      "AC1": -0.0045
+    },
+    {
+      "book": "Luke",
+      "genre": "evangelios",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 19446,
+      "AC1": -0.0202
+    },
+    {
+      "book": "John",
+      "genre": "evangelios",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 15438,
+      "AC1": 0.0403
+    },
+    {
+      "book": "Acts",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 18412,
+      "AC1": -0.0582
+    },
+    {
+      "book": "Romans",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 7055,
+      "AC1": 0.1248
+    },
+    {
+      "book": "1 Corinthians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 6812,
+      "AC1": 0.0516
+    },
+    {
+      "book": "2 Corinthians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 4473,
+      "AC1": 0.0044
+    },
+    {
+      "book": "Galatians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 2226,
+      "AC1": -0.1672
+    },
+    {
+      "book": "Ephesians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 2416,
+      "AC1": 0.1389
+    },
+    {
+      "book": "Philippians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1626,
+      "AC1": -0.0436
+    },
+    {
+      "book": "Colossians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1580,
+      "AC1": -0.0281
+    },
+    {
+      "book": "1 Thessalonians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1473,
+      "AC1": 0.276
+    },
+    {
+      "book": "2 Thessalonians",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 820,
+      "AC1": 0.0294
+    },
+    {
+      "book": "1 Timothy",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1591,
+      "AC1": 0.0295
+    },
+    {
+      "book": "2 Timothy",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1235,
+      "AC1": 0.031
+    },
+    {
+      "book": "Titus",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 659,
+      "AC1": -0.1998
+    },
+    {
+      "book": "Philemon",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 334,
+      "AC1": 0.0238
+    },
+    {
+      "book": "Hebrews",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 4935,
+      "AC1": 0.1104
+    },
+    {
+      "book": "James",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1739,
+      "AC1": -0.138
+    },
+    {
+      "book": "1 Peter",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1678,
+      "AC1": -0.0984
+    },
+    {
+      "book": "2 Peter",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 1098,
+      "AC1": -0.0629
+    },
+    {
+      "book": "1 John",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 2137,
+      "AC1": -0.3106
+    },
+    {
+      "book": "Jude",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 459,
+      "AC1": 0.13
+    },
+    {
+      "book": "Revelation",
+      "genre": "epistolas",
+      "testament": "NT",
+      "speech_density": 0.0,
+      "speech_count": 0,
+      "n_words": 9833,
+      "AC1": -0.0775
+    }
+  ],
+  "interpretation": "Speech density does NOT correlate with AC1 (r=-0.130). Dictation does not explain φ."
+}

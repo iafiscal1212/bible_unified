@@ -1,0 +1,38 @@
+{
+  "points": {
+    "AT": {
+      "phi": -0.0692,
+      "d": 0.1284,
+      "sigma_eps": 3.3169,
+      "sigma_eta": 2.2922
+    },
+    "NT": {
+      "phi": -0.2566,
+      "d": 0.1952,
+      "sigma_eps": 4.2236,
+      "sigma_eta": 1.6788
+    },
+    "Corán": {
+      "phi": 0.0275,
+      "d": 0.1092,
+      "sigma_eps": 2.8012,
+      "sigma_eta": 2.4565
+    },
+    "Rig_Veda": {
+      "phi": -0.022,
+      "d": 0.0044,
+      "sigma_eps": 6.8329,
+      "sigma_eta": 0.0039
+    }
+  },
+  "distances": {
+    "AT_vs_NT": 0.1989,
+    "AT_vs_Corán": 0.0986,
+    "AT_vs_Rig_Veda": 0.1327,
+    "NT_vs_Corán": 0.2968,
+    "NT_vs_Rig_Veda": 0.3024,
+    "Corán_vs_Rig_Veda": 0.1159
+  },
+  "closest_pair": "AT_vs_Corán",
+  "farthest_pair": "NT_vs_Rig_Veda"
+}

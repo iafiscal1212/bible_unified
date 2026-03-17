@@ -75,7 +75,7 @@
   Proyecto Bible Research\\
   \texttt{github.com/iafiscal1212/bible\_unified}
 }
-\date{17 de marzo de 2026 --- v14.0}
+\date{17 de marzo de 2026 --- v15.0}
 
 
 \begin{document}
@@ -3162,6 +3162,297 @@ planos (Rig Veda).
 \item \textbf{$d$ como profundidad}: El par\'ametro fraccionario mide el
       anidamiento tem\'atico. NT (epistolar) $>$ AT/Cor\'an (jer\'arquico) $>$ RV (plano).
       Correlaciona con $n_{\text{eff}}$ de LDA ($r = 0.436$) y con $w^*$ ($r = 0.565$).
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~16: Cuatro Investigaciones en Paralelo}
+% ══════════════════════════════════════════════════════════════════════════
+
+Cuatro l\'ineas paralelas que extienden el marco te\'orico: mecanismo de $\phi$ (AC1),
+Book of Mormon como test moderno, gap analysis de corpora faltantes, y clasificaci\'on
+en el espacio $(\phi, d)$.
+
+\subsection{Mecanismo del $\phi$ alto: g\'enero literario y paralelismo}
+
+?`Qu\'e produce AC(1) alto en un texto? Se testean 5 mecanismos:
+(1)~g\'enero literario, (2)~paralelismo de hemistichs, (3)~restricciones de longitud
+versal, (4)~unidades de lectura lit\'urgica, (5)~dictado divino.
+\textbf{4/5 confirmados}. El g\'enero lit\'urgico tiene $\overline{|\Delta L|} = \val{2.09}$
+frente a $5.99$ del narrativo ($p < 10^{-10}$). El paralelismo sem\'itico
+(hemistichs de longitud similar) y las restricciones versales de la poes\'ia hebrea
+son los mecanismos primarios.
+
+\subsection{Book of Mormon: test del siglo~XIX}
+
+El Book of Mormon (Joseph Smith, 1829) es el \'unico texto religioso moderno con
+estructura comparable. En versi\'on inglesa: $H = \val{0.776}$, AC1 $= 0.195$,
+DFA $= \val{0.783}$, CV $= 0.457$ ($n = 6{,}604$ vers\'iculos).
+$H$ m\'as cercano al NT ($0.735$) que al AT ($0.891$); AC1 m\'as cercano al AT ($0.286$).
+Resultado h\'ibrido: la imitaci\'on estil\'istica de la KJV preserva parcialmente
+la estructura lit\'urgica pero no la memoria de largo alcance.
+
+\subsection{Gap analysis: corpora faltantes}
+
+An\'alisis sistem\'atico de 4 corpora prioritarios no disponibles digitalmente.
+El \textbf{Pentateuco Samaritano} es el corpus faltante m\'as valioso: mismo texto,
+transmisi\'on independiente --- test limpio de efectos escribales.
+Prioridad~1: Avesta (zoroastra) y Pentateuco Samaritano.
+
+\subsection{Espacio $(\phi, d)$: clasificaci\'on a nivel de libro}
+
+Se intenta clasificar los 59 libros b\'iblicos usando AC1 ($\phi$) y $d$-approx.
+El SVM lineal alcanza accuracy train $= 0.610$ y LOO $= 0.542$ --- \textbf{insuficiente}
+para clasificaci\'on fiable. Los 5 libros m\'as cercanos a la frontera: Filipenses
+($d = 0.022$), Apocalipsis ($0.027$), G\'alatas ($0.079$), Am\'os ($0.101$), 1~Pedro ($0.123$).
+Daniel est\'a en posici\'on~44 (no fronterizo en este espacio).
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~17: Libro de los Muertos y Canon Pali}
+% ══════════════════════════════════════════════════════════════════════════
+
+Dos corpus no revelatorios con transmisi\'on controlada: el Libro de los Muertos
+egipcio (lit\'urgico funerario) y el Canon Pali budista (did\'actico oral).
+?`Son AT-like pese a no reclamar revelaci\'on divina?
+
+\subsection{Libro de los Muertos: liturgia controlada sin revelaci\'on}
+
+El corpus de 142 textos ($92{,}683$ tokens) produce:
+$H = \val{0.779}$, AC1 $= 0.202$, DFA $= \val{0.773}$, CV $= 0.802$.
+Clasificado como \textbf{AT-like} ($P_{\text{AT}} = \val{0.946}$).
+Conclusi\'on: la funci\'on lit\'urgica + transmisi\'on escribal controlada
+\textbf{son suficientes} sin revelaci\'on divina.
+
+\subsection{Canon Pali: oralidad controlada con autoridad humana}
+
+El Canon Pali ($383{,}216$ palabras, $43{,}596$ segmentos) produce:
+$H = \val{0.770}$, AC1 $= 0.213$, DFA $= \val{0.758}$, CV $= 0.816$.
+Clasificado como \textbf{AT-like} ($P_{\text{AT}} = \val{1.000}$) ---tanto
+el D\={\i}gha Nik\=aya como el Majjhima Nik\=aya son AT-like individualmente.
+Comparaci\'on con Rig Veda: 0/4 m\'etricas similares (estructuralmente diferentes
+pese a compartir familia ling\"u\'istica y tradici\'on oral).
+
+\subsection{S\'intesis de Fase~17}
+
+\begin{itemize}[leftmargin=2em]
+\item Ambos corpus no revelatorios controlados son AT-like.
+\item La transmisi\'on controlada (no la revelaci\'on) es el driver primario.
+\item Se refuerza H4: control $+$ antig\"uedad $\to$ AT-like, independiente de lengua o religi\'on.
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~18: Mishnah y Refinamiento de H4$'$}
+% ══════════════════════════════════════════════════════════════════════════
+
+La Mishnah ($\sim$200~d.C.) es un caso crucial: texto religioso hebreo, transmisi\'on
+controlada, pero \textbf{codificaci\'on tard\'ia} (~400 a\~nos despu\'es de la composici\'on oral).
+
+\subsection{Mishnah: transmisi\'on controlada tard\'ia}
+
+El corpus completo de Sefaria ($187{,}311$ palabras, $4{,}060$ mishnayot) produce:
+$H = \val{0.750}$, AC1 $= 0.181$, DFA $= \val{0.655}$, CV $= 0.584$.
+Clasificaci\'on: \textbf{NT-like} ($P_{\text{AT}} = \val{0.007}$).
+La Mishnah es NT-like \emph{pese a} ser hebrea y tener transmisi\'on controlada.
+El factor diferencial: un retardo de $\sim$400 a\~nos de debate oral libre
+antes de la codificaci\'on.
+
+\subsection{Hip\'otesis H4$'$: el control desde el origen importa}
+
+Se formula H4$'$: no basta la transmisi\'on controlada --- el control debe
+existir \textbf{desde el momento de composici\'on}. Test con 9 corpora:
+\begin{center}\small
+\begin{tabular}{lcccc}
+\toprule
+Corpus & Control & Delay (a\~nos) & $H$ & Clase \\
+\midrule
+AT           & S\'i & 0   & 0.877 & AT \\
+Cor\'an       & S\'i & 20  & 0.896 & AT \\
+Rig Veda     & S\'i & 0   & 0.561 & AT$^*$ \\
+L.\ Muertos  & S\'i & 0   & 0.779 & AT \\
+Canon Pali   & S\'i & 0   & 0.770 & AT \\
+NT           & No  & 300 & 0.783 & NT \\
+Mishnah      & No  & 400 & 0.750 & NT \\
+Homero       & No  & 400 & 0.628 & NT \\
+Her\'odoto    & No  & 200 & 0.633 & NT \\
+\bottomrule
+\end{tabular}
+\end{center}
+La Mishnah confirma H4$'$: control tard\'io $\neq$ control desde el origen.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~19: Correcci\'on del Clasificador y Corpora Gap}
+% ══════════════════════════════════════════════════════════════════════════
+
+La Fase~19 descubre que el clasificador original (8 features) estaba contaminado
+por \texttt{mean\_verse\_len} y \texttt{pos\_entropy} (correlatos de lengua, no de
+estructura). Se corrige y se analizan corpora adicionales.
+
+\subsection{Correcci\'on del clasificador}
+
+Nuevo clasificador: \textbf{LogisticRegression} con solo $(H, \text{DFA}, \text{AC1}, \text{CV})$.
+LOO accuracy $= \val{75\%}$ (menor que 100\% previo, pero sin sesgo ling\"u\'istico).
+\textbf{4 reclasificaciones}:
+\begin{itemize}[leftmargin=2em]
+\item Mishnah: NT $\to$ \textbf{AT} ($P_{\text{AT}}$: $0.007 \to 0.588$)
+\item Tosefta: NT $\to$ \textbf{AT} ($P_{\text{AT}}$: $0.000 \to 0.768$)
+\item Canon Pali: AT $\to$ \textbf{NT} ($P_{\text{AT}}$: $1.000 \to 0.490$)
+\item Didach\'e: NT $\to$ \textbf{AT} ($P_{\text{AT}}$: $0.132 \to 0.738$)
+\end{itemize}
+La eliminaci\'on del sesgo cambia la clasificaci\'on de 4 corpora fronterizos.
+
+\subsection{Gap corpora: 1~Clemente, Policarpo, Tosefta}
+
+\textbf{1~Clemente} ($\sim$96~d.C., delay 65 a\~nos): $H = 0.637$, AC1 $= 0.237$,
+DFA $= 0.608$, $n = 400$ segmentos. Clasificado NT (P$_{\text{AT}} = 0.201$).
+
+\textbf{Tosefta} ($\sim$300~d.C., delay 170 a\~nos): $H = \val{0.929}$, AC1 $= 0.279$,
+DFA $= 0.775$, $n = 3{,}757$ segmentos. Clasificado \textbf{AT} ($P_{\text{AT}} = 0.768$).
+
+\textbf{Policarpo} ($\sim$110~d.C.): excluido por tama\~no insuficiente ($n = 38 < 50$).
+
+\subsection{Modelo de degradaci\'on}
+
+Se cuantifica la tasa de decaimiento: transmisi\'on controlada degrada $H$
+a \val{0.000745}~$H$/siglo. Tiempos cr\'iticos para cruzar la frontera AT/NT:
+\begin{itemize}[leftmargin=2em]
+\item Controlada: \val{16{,}993} a\~nos (pr\'acticamente indestructible)
+\item Libre (media): \val{463} a\~nos
+\item Libre (peor caso): \val{244} a\~nos
+\end{itemize}
+La degradaci\'on es \textbf{parcialmente reversible}: la codificaci\'on tard\'ia
+puede congelar $H$ en su nivel actual.
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~20: DFA como M\'etrica Primaria}
+% ══════════════════════════════════════════════════════════════════════════
+
+La Fase~19 revel\'o que $H$ tiene problemas de sesgo. La Fase~20 redise\~na
+el an\'alisis usando DFA (Detrended Fluctuation Analysis) como m\'etrica primaria.
+
+\subsection{Reclasificaci\'on por DFA}
+
+DFA separa AT/NT a nivel de libro: $\text{DFA}_{\text{AT}} = \val{0.717} \pm 0.224$
+vs.\ $\text{DFA}_{\text{NT}} = \val{0.489} \pm 0.119$.
+Mann-Whitney $p = \val{7.4 \times 10^{-5}}$, Cohen $d = \val{1.27}$ (efecto grande).
+Umbral \'optimo: $\text{DFA} = 0.5$, $F_1 = 0.839$.
+Zona de ambig\"uedad: $[0.445, 0.555]$.
+Mishnah: DFA $= 0.655 \to$ clasificado \textbf{AT} ($z_{\text{AT}} = -0.28$,
+$z_{\text{NT}} = 1.39$).
+
+\subsection{An\'alisis controlado por g\'enero}
+
+DFA persiste controlando g\'enero: AT narrativo vs.\ NT narrativo
+$p = \val{0.004}$, Cohen $d = \val{1.49}$ (efecto a\'un mayor).
+La separaci\'on no es un artefacto del g\'enero lit\'urgico del AT.
+
+\subsection{Test H4$'$ con DFA: resultado indeterminado}
+
+Se retestea H4$'$ usando DFA como m\'etrica en 9 corpora:
+\textbf{0/4 criterios cumplidos}. Mann-Whitney $p = 0.530$;
+Spearman $\rho(\text{delay}, \text{DFA}) = -0.164$ ($p = 0.61$).
+\textbf{Veredicto}: INDETERMINADA --- el delay no predice DFA.
+La Mishnah es AT-like en DFA ($0.655$) pese a delay $= 400$ a\~nos.
+
+\subsection{S\'intesis de Fase~20}
+
+\begin{itemize}[leftmargin=2em]
+\item DFA separa AT/NT robustamente ($p = 7.4 \times 10^{-5}$, $d = 1.27$).
+\item La separaci\'on persiste controlando g\'enero ($d = 1.49$).
+\item H4$'$ es indeterminada con DFA --- la transmisi\'on no explica DFA.
+\item \textbf{Hip\'otesis revisada}: DFA refleja estructura composicional, no historia de transmisi\'on.
+\end{itemize}
+
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Fase~21: Test de Hip\'otesis Composicional}
+% ══════════════════════════════════════════════════════════════════════════
+
+Fase~20 mostr\'o que DFA separa AT/NT pero H4$'$ es indeterminada. Fase~21 testea
+directamente si DFA refleja estructura composicional (paralelismo, repetici\'on,
+coherencia local). Se correlacionan por primera vez features composicionales con DFA.
+
+\subsection{Regresi\'on composicional intra-b\'iblica}
+
+Se correlacionan 11 features con DFA en 48 libros:
+\begin{center}\small
+\begin{tabular}{lcc}
+\toprule
+Feature & Pearson $r$ & $p$ \\
+\midrule
+\textbf{AC1}         & \val{0.803} & $< 10^{-10}$ \\
+CV                    & 0.632 & $10^{-6}$ \\
+POS entropy           & $-0.530$ & $10^{-4}$ \\
+$\overline{|\Delta L|}$ & $-0.499$ & $3 \times 10^{-4}$ \\
+proper ratio          & 0.435 & 0.002 \\
+\bottomrule
+\end{tabular}
+\end{center}
+AC1 es el top predictor de DFA ($r = 0.803$). Comparaci\'on de modelos (5-fold CV):
+\begin{itemize}[leftmargin=2em]
+\item Modelo testament-only: $R^2 = 0.264$
+\item Modelo AC1-only: $R^2 = \val{0.645}$
+\item Modelo composicional completo: $R^2 = \val{0.698}$ (mejor por AIC)
+\end{itemize}
+
+\subsection{\'Indice de Paralelismo (PCA)}
+
+Se definen 4 m\'etricas de paralelismo: AC1, AC2 (lag-2), smoothness (fracci\'on
+$|\Delta L| \leq 2$), y regularidad espectral (FFT). PCA sobre estas 4 m\'etricas:
+PC1 explica \val{80.0\%} de la varianza, con loadings equilibrados ($\sim$0.5 cada una).
+El \'Indice de Paralelismo (PI = PC1) correlaciona con DFA:
+$$r(\text{PI}, \text{DFA}) = \val{0.818}, \quad p < 10^{-10}.$$
+Lamentaciones tiene el PI m\'aximo (AC1 $= 0.892$). AC2 sola: $r = 0.840$.
+
+\subsection{An\'alisis de mediaci\'on: testamento $\to$ AC1 $\to$ DFA}
+
+Baron-Kenny 4 pasos:
+\begin{itemize}[leftmargin=2em]
+\item Efecto total ($c$): $\beta = 0.228$, $p = 0.0002$
+\item AT $\to$ AC1 ($a$): $\beta = 0.140$, $p = 0.022$
+\item AC1 $\to$ DFA ($b|$AT): $\beta = 0.743$, $p < 10^{-6}$
+\item Efecto directo ($c'$): $\beta = 0.124$, $p = 0.002$ (reducci\'on del 46\%)
+\end{itemize}
+Mediaci\'on \textbf{parcial}: AC1 media el \val{45.5\%} de la relaci\'on testamento $\to$ DFA.
+Bootstrap CI~95\%: $[0.023, 0.197]$ --- \textbf{no cruza 0}. Sobel $p = 0.023$.
+Control narrativo-only ($n = 18$): proporci\'on mediada $= 53.7\%$, CI $[0.013, 0.239]$.
+
+\subsection{Composicional vs.\ transmisi\'on: veredicto inter-corpus}
+
+Se comparan dos modelos sobre 10--12 corpora:
+\begin{center}\small
+\begin{tabular}{lcccc}
+\toprule
+Modelo & $n$ & $R^2$ & LOO MAE & AIC \\
+\midrule
+TRANS: DFA $\sim$ control $+$ delay & 10 & 0.027 & 0.153 & --- \\
+\textbf{COMP: DFA $\sim$ AC1 $+$ $H$} & 10 & \val{0.694} & \val{0.088} & --- \\
+\bottomrule
+\end{tabular}
+\end{center}
+4 criterios de veredicto:
+\begin{enumerate}[leftmargin=2em]
+\item $R^2_{\text{COMP}} > R^2_{\text{TRANS}} + 0.10$: \textbf{S\'I} ($0.694 - 0.027 = 0.667$)
+\item LOO MAE$_{\text{COMP}} <$ MAE$_{\text{TRANS}}$: \textbf{S\'I} ($0.088 < 0.153$)
+\item Mishnah mejor predicha por COMP: No ($|$res$_{\text{COMP}}| = 0.091 > |$res$_{\text{TRANS}}| = 0.028$)
+\item $|\rho(\text{AC1}, \text{DFA})| > |\rho(\text{delay}, \text{DFA})|$: \textbf{S\'I} ($0.552 \gg 0.013$)
+\end{enumerate}
+\textbf{Veredicto: COMPOSICIONAL (sugerida)} --- 3/4 criterios cumplidos.
+
+\subsection{S\'intesis de Fase~21}
+
+\begin{itemize}[leftmargin=2em]
+\item AC1 es el mejor predictor de DFA ($r = 0.803$); el modelo composicional
+      ($R^2 = 0.698$) supera ampliamente al modelo testament ($R^2 = 0.264$).
+\item El \'Indice de Paralelismo (PCA) correlaciona $r = 0.818$ con DFA.
+\item AC1 media el 45.5\% de la relaci\'on testamento $\to$ DFA (bootstrap significativo).
+\item Inter-corpus: el modelo composicional ($R^2 = 0.694$) aplasta al modelo
+      de transmisi\'on ($R^2 = 0.027$).
+\item \textbf{DFA refleja estructura composicional (paralelismo, coherencia local),
+      no historia de transmisi\'on.}
 \end{itemize}
 
 

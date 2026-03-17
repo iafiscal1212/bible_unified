@@ -1,0 +1,14 @@
+{
+  "delay_vs_P_AT": {
+    "spearman_rho": 0.2501,
+    "spearman_p": 0.485822,
+    "kendall_tau": 0.1671,
+    "kendall_p": 0.516337
+  },
+  "delay_vs_H": {
+    "spearman_rho": 0.1063,
+    "spearman_p": 0.770074,
+    "kendall_tau": 0.1194,
+    "kendall_p": 0.642954
+  }
+}

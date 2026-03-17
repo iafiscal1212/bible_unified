@@ -1,0 +1,114 @@
+{
+  "AC1": {
+    "n": 48,
+    "pearson_r": 0.8033,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.6073,
+    "spearman_p": 5e-06,
+    "abs_pearson_r": 0.8033,
+    "rank": 1
+  },
+  "CV": {
+    "n": 48,
+    "pearson_r": 0.632,
+    "pearson_p": 1e-06,
+    "spearman_rho": 0.4143,
+    "spearman_p": 0.003414,
+    "abs_pearson_r": 0.632,
+    "rank": 2
+  },
+  "repetition_density": {
+    "n": 48,
+    "pearson_r": -0.0079,
+    "pearson_p": 0.95753,
+    "spearman_rho": 0.2174,
+    "spearman_p": 0.137665,
+    "abs_pearson_r": 0.0079,
+    "rank": 11
+  },
+  "mean_verse_len": {
+    "n": 48,
+    "pearson_r": -0.4288,
+    "pearson_p": 0.002356,
+    "spearman_rho": -0.3602,
+    "spearman_p": 0.011912,
+    "abs_pearson_r": 0.4288,
+    "rank": 6
+  },
+  "verb_density": {
+    "n": 48,
+    "pearson_r": 0.0681,
+    "pearson_p": 0.645518,
+    "spearman_rho": 0.0759,
+    "spearman_p": 0.608238,
+    "abs_pearson_r": 0.0681,
+    "rank": 9
+  },
+  "proper_ratio": {
+    "n": 48,
+    "pearson_r": 0.4352,
+    "pearson_p": 0.001992,
+    "spearman_rho": 0.5558,
+    "spearman_p": 4.1e-05,
+    "abs_pearson_r": 0.4352,
+    "rank": 5
+  },
+  "connector_density": {
+    "n": 48,
+    "pearson_r": -0.4266,
+    "pearson_p": 0.0025,
+    "spearman_rho": -0.3962,
+    "spearman_p": 0.005311,
+    "abs_pearson_r": 0.4266,
+    "rank": 7
+  },
+  "pos_entropy": {
+    "n": 48,
+    "pearson_r": -0.5297,
+    "pearson_p": 0.000108,
+    "spearman_rho": -0.5028,
+    "spearman_p": 0.00027,
+    "abs_pearson_r": 0.5297,
+    "rank": 3
+  },
+  "skewness": {
+    "n": 48,
+    "pearson_r": 0.1608,
+    "pearson_p": 0.274862,
+    "spearman_rho": 0.1678,
+    "spearman_p": 0.25421,
+    "abs_pearson_r": 0.1608,
+    "rank": 8
+  },
+  "std_verse_len": {
+    "n": 48,
+    "pearson_r": -0.0348,
+    "pearson_p": 0.814602,
+    "spearman_rho": -0.049,
+    "spearman_p": 0.741062,
+    "abs_pearson_r": 0.0348,
+    "rank": 10
+  },
+  "mean_delta": {
+    "n": 48,
+    "pearson_r": -0.4992,
+    "pearson_p": 0.000304,
+    "spearman_rho": -0.3969,
+    "spearman_p": 0.005225,
+    "abs_pearson_r": 0.4992,
+    "rank": 4
+  },
+  "_ranking": [
+    "AC1",
+    "CV",
+    "pos_entropy",
+    "mean_delta",
+    "proper_ratio",
+    "mean_verse_len",
+    "connector_density",
+    "skewness",
+    "verb_density",
+    "std_verse_len",
+    "repetition_density"
+  ]
+}

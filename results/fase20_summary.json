@@ -1,0 +1,71 @@
+{
+  "status": "COMPLETED",
+  "elapsed_seconds": 365.9,
+  "scripts": {
+    "Script1-DFA": {
+      "rc": 0,
+      "status": "OK"
+    },
+    "Script2-InterBook": {
+      "rc": 0,
+      "status": "OK"
+    },
+    "Script3-Genre": {
+      "rc": 0,
+      "status": "OK"
+    },
+    "Script4-H4prime": {
+      "rc": 0,
+      "status": "OK"
+    }
+  },
+  "dfa_classification": {
+    "best_threshold": 0.5,
+    "best_F1": 0.8387,
+    "ambiguity_zone": [
+      0.445,
+      0.555
+    ],
+    "DFA_AT_mean": 0.7168,
+    "DFA_AT_std": 0.2236,
+    "DFA_NT_mean": 0.4893,
+    "DFA_NT_std": 0.1189,
+    "mann_whitney_p": 7.4e-05,
+    "cohen_d": 1.27
+  },
+  "mishnah_dfa": {
+    "corpus": "Mishnah",
+    "DFA": 0.6545,
+    "threshold": 0.5,
+    "ambiguity_zone": [
+      0.445,
+      0.555
+    ],
+    "classification": "AT",
+    "z_score_vs_AT": -0.279,
+    "z_score_vs_NT": 1.389,
+    "closer_to": "AT",
+    "reasoning": "Mishnah DFA=0.6545 classified as AT by DFA threshold. z-score vs AT=-0.279, vs NT=1.389. Closer to AT distribution."
+  },
+  "inter_book": {
+    "permutation": {
+      "AT_H_p": 0.972,
+      "AT_DFA_canonical": 0.8675,
+      "NT_H_p": 0.924,
+      "NT_DFA_canonical": 0.7151
+    }
+  },
+  "genre_controlled": {
+    "narrative_test": {
+      "p": 0.004435,
+      "cohen_d": 1.49,
+      "significant": true
+    }
+  },
+  "h4prime_dfa": {
+    "verdict": "INDETERMINADA",
+    "n_criteria_met": 0,
+    "n_criteria_total": 4,
+    "reasoning": "H4' DFA retest: 0/4 criteria met → INDETERMINADA. MW p=0.530303, Spearman rho=-0.164 (p=0.61048), LOO: 0/12 robust."
+  }
+}

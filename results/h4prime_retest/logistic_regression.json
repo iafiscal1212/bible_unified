@@ -1,0 +1,7 @@
+{
+  "intercept": 0.0606,
+  "slope": 0.013768,
+  "delay_at_P50": -4.4,
+  "slope_interpretation": "positive or zero → no degradation signal",
+  "converged": true
+}

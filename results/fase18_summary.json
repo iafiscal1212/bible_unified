@@ -1,0 +1,118 @@
+{
+  "phase": 18,
+  "title": "Mishnah + Test H4' — Fase 18",
+  "timestamp": "2026-03-17T06:32:10",
+  "total_elapsed_seconds": 231.5,
+  "scripts": [
+    {
+      "name": "mishnah_sefaria",
+      "question": "¿La Mishnah (transmisión controlada tardía) es AT-like o NT-like?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "phi_d_placement.json",
+        "seder_metrics.json",
+        "classifier_result.json",
+        "mishnah_metrics.json",
+        "comparison_at_legal.json"
+      ],
+      "mish_nearest": "NT",
+      "mish_d_approx": 0.2495,
+      "mish_predicted": "NT",
+      "mish_P_AT": 0.0065,
+      "mish_P_NT": 0.9935,
+      "mish_n_tractates": 61,
+      "mish_n_mishnayot": 4060,
+      "mish_n_words": 187311,
+      "mish_H": 0.7495,
+      "mish_AC1": 0.1805,
+      "mish_DFA": 0.6545,
+      "mish_CV": 0.5842,
+      "mish_mean": 46.14,
+      "mish_vs_legal_n_similar": null,
+      "mish_vs_legal_interp": ""
+    },
+    {
+      "name": "transmission_origin_test",
+      "question": "¿H4' (control desde el origen → AT-like) se sostiene con 9 corpora?",
+      "return_code": 0,
+      "status": "completed"
+    }
+  ],
+  "synthesis": {
+    "questions_answered": [
+      {
+        "question": "¿La Mishnah (transmisión controlada tardía) es AT-like o NT-like?",
+        "answer": "Classified as NT-like (P_AT=0.0065). H=0.7495, AC1=0.1805. Mishnah is NT-like despite controlled transmission — supports H4 prime (delay matters)."
+      }
+    ],
+    "implications": []
+  },
+  "typology_table": {
+    "AT": {
+      "transmission": "controlled scribal (1000+ years)",
+      "authority": "divine revelation",
+      "function": "liturgical + legal + narrative",
+      "language_family": "Afroasiatic (Semitic)",
+      "H_range": "high (0.88)",
+      "AC1_range": "high (0.34)",
+      "control_from_origin": true
+    },
+    "NT": {
+      "transmission": "rapid copying (decades-centuries)",
+      "authority": "apostolic witness",
+      "function": "epistolary + narrative + apocalyptic",
+      "language_family": "Indo-European (Greek)",
+      "H_range": "moderate (0.78)",
+      "AC1_range": "low (0.09)",
+      "control_from_origin": false
+    },
+    "Corán": {
+      "transmission": "controlled oral then scribal",
+      "authority": "divine revelation (direct)",
+      "function": "liturgical + legal",
+      "language_family": "Afroasiatic (Semitic)",
+      "H_range": "high (0.90)",
+      "AC1_range": "very high (0.47)",
+      "control_from_origin": true
+    },
+    "Rig_Veda": {
+      "transmission": "oral controlled (millenia)",
+      "authority": "divine/inspired (ṛṣi)",
+      "function": "liturgical/hymnic",
+      "language_family": "Indo-European (Indo-Aryan)",
+      "H_range": "low (0.56)",
+      "AC1_range": "none (-0.02)",
+      "control_from_origin": true
+    },
+    "Book_of_Dead": {
+      "transmission": "controlled scribal (~1500 years)",
+      "authority": "priestly/ritual (no divine revelation)",
+      "function": "funerary liturgical",
+      "language_family": "Afroasiatic (Egyptian)",
+      "control_from_origin": true
+    },
+    "Pali_Canon": {
+      "transmission": "oral controlled then scribal (~400 years oral)",
+      "authority": "human (Buddha, not divine)",
+      "function": "didactic/doctrinal",
+      "language_family": "Indo-European (Indo-Aryan)",
+      "control_from_origin": true
+    },
+    "Mishnah": {
+      "transmission": "oral controlled → codified (~200 CE)",
+      "authority": "rabbinic (human, post-prophetic)",
+      "function": "legal/halakhic",
+      "language_family": "Afroasiatic (Semitic, Mishnaic Hebrew)",
+      "control_from_origin": false,
+      "control_delay_years": 400,
+      "H": 0.7495,
+      "AC1": 0.1805,
+      "classified_as": "NT",
+      "P_AT": 0.0065,
+      "nearest_corpus": "NT",
+      "typology_cell": "controlled transmission WITH DELAY (free debate → codification)"
+    }
+  }
+}

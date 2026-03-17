@@ -1,0 +1,15 @@
+{
+  "H": 0.9037,
+  "DFA": 0.61,
+  "AC1": 0.2381,
+  "mean_verse_len": 5.04,
+  "std_verse_len": 1.77,
+  "CV": 0.3513,
+  "skewness": 1.5574,
+  "bond_dimension": 512,
+  "corpus": "Yasna/Gathas (TITUS Geldner, Avestan transliteration)",
+  "language": "Avestan",
+  "n_verses": 11520,
+  "n_words": 58093,
+  "chapters": "28-54 (Gathas + Yasna Haptanghaiti)"
+}

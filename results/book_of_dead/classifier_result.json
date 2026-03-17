@@ -1,0 +1,19 @@
+{
+  "predicted_class": "AT",
+  "P_AT": 0.9456,
+  "P_NT": 0.0544,
+  "features_used": {
+    "H": 0.779,
+    "DFA": 0.7732,
+    "AC1": 0.2023,
+    "mean_verse_len": 7.76,
+    "std_verse_len": 6.22,
+    "CV": 0.8019,
+    "skewness": 5.5482,
+    "pos_entropy": 2.927
+  },
+  "classifier": "LogisticRegression (retrained on 63 biblical books)",
+  "train_accuracy": 1.0,
+  "interpretation": "Book of the Dead is classified as AT-like (P_AT=0.946, P_NT=0.054).",
+  "caveat": "Different language (Egyptian vs Hebrew/Greek), different POS tagset. Classification is based on structural metrics (H, DFA, AC1, CV) which are language-independent, plus pos_entropy which is tagset-dependent."
+}

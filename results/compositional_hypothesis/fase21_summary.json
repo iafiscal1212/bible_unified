@@ -1,0 +1,62 @@
+{
+  "fase": 21,
+  "title": "Compositional Hypothesis Test: DFA ~ parallelism",
+  "elapsed_seconds": 5.0,
+  "scripts": {
+    "dfa_compositional_regression": {
+      "return_code": 0,
+      "log_file": "/home/caresment/bible_unified/logs/fase21_dfa_compositional_regression.log"
+    },
+    "parallelism_quantification": {
+      "return_code": 0,
+      "log_file": "/home/caresment/bible_unified/logs/fase21_parallelism_quantification.log"
+    },
+    "mediation_analysis": {
+      "return_code": 0,
+      "log_file": "/home/caresment/bible_unified/logs/fase21_mediation_analysis.log"
+    },
+    "compositional_vs_transmission": {
+      "return_code": 0,
+      "log_file": "/home/caresment/bible_unified/logs/fase21_compositional_vs_transmission.log"
+    }
+  },
+  "script1_highlights": {
+    "top_predictor": "AC1",
+    "top_r": 0.8033,
+    "top_5": [
+      "AC1",
+      "CV",
+      "pos_entropy",
+      "mean_delta",
+      "proper_ratio"
+    ]
+  },
+  "model_comparison": {
+    "testament_R2": 0.2642,
+    "AC1_R2": 0.6452,
+    "compositional_R2": 0.6981,
+    "best_by_AIC": "C_compositional",
+    "compositional_beats_testament": true
+  },
+  "parallelism": {
+    "PI_vs_DFA_r": 0.818,
+    "PI_vs_DFA_p": 0.0,
+    "PC1_variance_explained": 0.8004
+  },
+  "mediation": {
+    "type": "partial",
+    "proportion_mediated": 0.4554,
+    "indirect_effect": 0.1036,
+    "bootstrap_CI": [
+      0.0225,
+      0.1968
+    ],
+    "CI_crosses_zero": false,
+    "sobel_p": 0.022809
+  },
+  "verdict": {
+    "result": "COMPOSICIONAL (sugerida)",
+    "criteria_met": 3,
+    "reasoning": "3/4 criteria met. R2 COMP=0.694 vs TRANS=0.027. LOO MAE COMP=0.088 vs TRANS=0.153. rho(AC1,DFA)=0.552 vs rho(delay,DFA)=0.013."
+  }
+}

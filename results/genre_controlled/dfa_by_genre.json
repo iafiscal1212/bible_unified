@@ -1,0 +1,184 @@
+{
+  "AT_legal": {
+    "n": 3,
+    "mean": 0.701,
+    "std": 0.0634,
+    "min": 0.639,
+    "max": 0.7658,
+    "books": [
+      "Deuteronomy",
+      "Leviticus",
+      "Numbers"
+    ],
+    "values": [
+      0.639,
+      0.6982,
+      0.7658
+    ]
+  },
+  "AT_narrative": {
+    "n": 13,
+    "mean": 0.7531,
+    "std": 0.2031,
+    "min": 0.5526,
+    "max": 1.1692,
+    "books": [
+      "1 Chronicles",
+      "1 Kings",
+      "1 Samuel",
+      "2 Chronicles",
+      "2 Kings",
+      "2 Samuel",
+      "Esther",
+      "Exodus",
+      "Ezra",
+      "Genesis",
+      "Joshua",
+      "Judges",
+      "Nehemiah"
+    ],
+    "values": [
+      0.8607,
+      0.6403,
+      0.5899,
+      0.5643,
+      0.6672,
+      0.8373,
+      0.5526,
+      0.5993,
+      1.0776,
+      0.6278,
+      0.9264,
+      0.6771,
+      1.1692
+    ]
+  },
+  "AT_poetry": {
+    "n": 5,
+    "mean": 0.8949,
+    "std": 0.3221,
+    "min": 0.5026,
+    "max": 1.3542,
+    "books": [
+      "Ecclesiastes",
+      "Job",
+      "Lamentations",
+      "Proverbs",
+      "Psalms"
+    ],
+    "values": [
+      1.0069,
+      0.9091,
+      1.3542,
+      0.5026,
+      0.7016
+    ]
+  },
+  "AT_prophetic": {
+    "n": 8,
+    "mean": 0.5526,
+    "std": 0.1137,
+    "min": 0.3781,
+    "max": 0.7069,
+    "books": [
+      "Amos",
+      "Daniel",
+      "Ezekiel",
+      "Hosea",
+      "Isaiah",
+      "Jeremiah",
+      "Micah",
+      "Zechariah"
+    ],
+    "values": [
+      0.481,
+      0.6415,
+      0.5414,
+      0.3781,
+      0.6776,
+      0.7069,
+      0.4717,
+      0.5227
+    ]
+  },
+  "NT_apocalyptic": {
+    "n": 1,
+    "mean": 0.4733,
+    "std": 0.0,
+    "min": 0.4733,
+    "max": 0.4733,
+    "books": [
+      "Revelation"
+    ],
+    "values": [
+      0.4733
+    ]
+  },
+  "NT_epistolar": {
+    "n": 13,
+    "mean": 0.4747,
+    "std": 0.1385,
+    "min": 0.2393,
+    "max": 0.7543,
+    "books": [
+      "1 Corinthians",
+      "1 John",
+      "1 Peter",
+      "1 Thessalonians",
+      "1 Timothy",
+      "2 Corinthians",
+      "Colossians",
+      "Ephesians",
+      "Galatians",
+      "Hebrews",
+      "James",
+      "Philippians",
+      "Romans"
+    ],
+    "values": [
+      0.4068,
+      0.2393,
+      0.4937,
+      0.3537,
+      0.4352,
+      0.7543,
+      0.2897,
+      0.5574,
+      0.4965,
+      0.5994,
+      0.4913,
+      0.4469,
+      0.6068
+    ]
+  },
+  "NT_narrative": {
+    "n": 5,
+    "mean": 0.5305,
+    "std": 0.0561,
+    "min": 0.4585,
+    "max": 0.5939,
+    "books": [
+      "Acts",
+      "John",
+      "Luke",
+      "Mark",
+      "Matthew"
+    ],
+    "values": [
+      0.4967,
+      0.4585,
+      0.5776,
+      0.5257,
+      0.5939
+    ]
+  },
+  "_mann_whitney_narrative": {
+    "AT_narrative_mean": 0.7531,
+    "NT_narrative_mean": 0.5305,
+    "U": 60.0,
+    "p": 0.004435,
+    "cohen_d": 1.49,
+    "n_AT": 13,
+    "n_NT": 5
+  }
+}

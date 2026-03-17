@@ -1,0 +1,15 @@
+{
+  "mishnah": {
+    "H": 0.7495,
+    "AC1": 0.1805,
+    "CV": 0.5842,
+    "mean_verse_len": 46.14
+  },
+  "at_legal_mean": {
+    "H": 0.677,
+    "AC1": 0.091,
+    "CV": 0.3966
+  },
+  "same_genre_different_transmission": true,
+  "note": "Mishnah and AT legal (Lev/Num/Deut) share the SAME genre (legal/halakhic) and the SAME language family (Hebrew). The key difference is transmission: AT legal was controlled from composition; Mishnah was freely debated for centuries before codification."
+}

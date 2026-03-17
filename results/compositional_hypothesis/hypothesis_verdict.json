@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "C1_R2_COMP_gt_TRANS": {
+      "met": true,
+      "R2_COMP": 0.6939,
+      "R2_TRANS": 0.0271,
+      "difference": 0.6668
+    },
+    "C2_LOO_MAE_COMP_lt_TRANS": {
+      "met": true,
+      "MAE_COMP": 0.0877,
+      "MAE_TRANS": 0.1532
+    },
+    "C3_Mishnah_better_COMP": {
+      "met": false,
+      "residual_COMP": -0.0905,
+      "residual_TRANS": -0.028
+    },
+    "C4_rho_AC1_gt_rho_delay": {
+      "met": true,
+      "rho_AC1_DFA": 0.5515,
+      "rho_delay_DFA": 0.0125
+    }
+  },
+  "criteria_met": 3,
+  "verdict": "COMPOSICIONAL (sugerida)",
+  "reasoning": "3/4 criteria met. R2 COMP=0.694 vs TRANS=0.027. LOO MAE COMP=0.088 vs TRANS=0.153. rho(AC1,DFA)=0.552 vs rho(delay,DFA)=0.013."
+}

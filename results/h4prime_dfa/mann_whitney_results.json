@@ -1,0 +1,27 @@
+{
+  "test": "Mann-Whitney: control_from_origin=Yes vs No",
+  "n_control": 5,
+  "n_no_control": 7,
+  "control_mean_DFA": 0.7807,
+  "no_control_mean_DFA": 0.7031,
+  "U": 22.0,
+  "p": 0.530303,
+  "cohen_d": 0.54,
+  "significant": false,
+  "control_corpora": [
+    "AT_corpus",
+    "Quran",
+    "Rig_Veda",
+    "Book_of_Dead",
+    "Pali_Canon"
+  ],
+  "no_control_corpora": [
+    "NT_corpus",
+    "Homer",
+    "Herodotus",
+    "Mishnah",
+    "Didache",
+    "1_Clemente",
+    "Tosefta"
+  ]
+}

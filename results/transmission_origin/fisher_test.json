@@ -1,0 +1,25 @@
+{
+  "contingency_table": {
+    "control_origin_AT_like": 5,
+    "control_origin_NT_like": 0,
+    "no_control_AT_like": 0,
+    "no_control_NT_like": 2
+  },
+  "odds_ratio": "infinity",
+  "p_value": 0.047619,
+  "significant": true,
+  "n": 7,
+  "interpretation": "Fisher exact test: odds ratio=∞, p=0.0476. Control from origin is significantly associated with AT-like classification.",
+  "revelation_test": {
+    "contingency_table": {
+      "revelation_AT_like": 3,
+      "revelation_NT_like": 0,
+      "no_revelation_AT_like": 2,
+      "no_revelation_NT_like": 2
+    },
+    "odds_ratio": "infinity",
+    "p_value": 0.428571,
+    "significant": false,
+    "note": "Tests original H4 (revelation → AT-like)"
+  }
+}

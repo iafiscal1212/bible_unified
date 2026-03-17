@@ -1,0 +1,15 @@
+{
+  "H": 0.7096,
+  "DFA": 0.8251,
+  "AC1": 0.2035,
+  "mean_verse_len": 21.77,
+  "std_verse_len": 13.31,
+  "CV": 0.6113,
+  "skewness": 2.0544,
+  "bond_dimension": 33,
+  "corpus": "Didache (Apostolic Fathers, Greek)",
+  "language": "Koine Greek",
+  "n_segments": 101,
+  "n_words": 2199,
+  "small_corpus_warning": false
+}

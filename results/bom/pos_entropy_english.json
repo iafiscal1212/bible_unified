@@ -1,0 +1,59 @@
+{
+  "BOM": {
+    "pos_entropy": 4.0321,
+    "n_words_sampled": 80272,
+    "n_verses_sampled": 2000,
+    "n_pos_tags": 35,
+    "top_5_pos": {
+      "NN": 11797,
+      "IN": 11600,
+      "DT": 8101,
+      "PRP": 5599,
+      "CC": 5396
+    },
+    "note": "English NLTK POS tagger — NOT comparable with OSHB Hebrew POS"
+  },
+  "DC": {
+    "pos_entropy": 3.9955,
+    "n_words_sampled": 60760,
+    "n_verses_sampled": 2000,
+    "n_pos_tags": 34,
+    "top_5_pos": {
+      "NN": 9864,
+      "IN": 8505,
+      "DT": 6411,
+      "VB": 3972,
+      "CC": 3876
+    },
+    "note": "English NLTK POS tagger — NOT comparable with OSHB Hebrew POS"
+  },
+  "OT_eng": {
+    "pos_entropy": 3.9166,
+    "n_words_sampled": 52991,
+    "n_verses_sampled": 2000,
+    "n_pos_tags": 34,
+    "top_5_pos": {
+      "NN": 9770,
+      "IN": 7302,
+      "DT": 6224,
+      "CC": 3960,
+      "NNP": 3717
+    },
+    "note": "English NLTK POS tagger — NOT comparable with OSHB Hebrew POS"
+  },
+  "NT_eng": {
+    "pos_entropy": 4.0154,
+    "n_words_sampled": 45037,
+    "n_verses_sampled": 2000,
+    "n_pos_tags": 33,
+    "top_5_pos": {
+      "NN": 7759,
+      "IN": 5966,
+      "DT": 4251,
+      "CC": 3179,
+      "PRP": 3125
+    },
+    "note": "English NLTK POS tagger — NOT comparable with OSHB Hebrew POS"
+  },
+  "caveat": "POS entropy computed with English NLTK tagger. NOT comparable with OSHB Hebrew POS tags. Valid for BOM vs OT_eng/NT_eng comparison only."
+}

@@ -1,0 +1,28 @@
+{
+  "all_AT_vs_NT": {
+    "U": 464.0,
+    "p": 7.4e-05,
+    "n_AT": 29,
+    "n_NT": 19,
+    "AT_mean": 0.7168,
+    "NT_mean": 0.4893
+  },
+  "without_AT_poetry": {
+    "U": 377.0,
+    "p": 0.000282,
+    "n_AT": 24,
+    "n_NT": 19,
+    "AT_mean": 0.6797,
+    "still_significant": true
+  },
+  "without_Psalms": {
+    "DFA_AT_with_Psalms": 0.7168,
+    "DFA_AT_without_Psalms": 0.7174,
+    "change_pct": 0.08
+  },
+  "without_Lamentations": {
+    "U": 445.0,
+    "p": 0.000109,
+    "still_significant": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "predicted_class": "NT",
+  "P_AT": 0.1319,
+  "P_NT": 0.8681,
+  "features_used": {
+    "H": 0.7096,
+    "DFA": 0.8251,
+    "AC1": 0.2035,
+    "mean_verse_len": 21.77,
+    "std_verse_len": 13.31,
+    "CV": 0.6113,
+    "skewness": 2.0544,
+    "pos_entropy": 2.8712
+  },
+  "pos_entropy_note": "Median NT pos_entropy (Koine Greek proxy)"
+}

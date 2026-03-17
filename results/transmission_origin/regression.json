@@ -1,0 +1,22 @@
+{
+  "delay_vs_H": {
+    "slope": -0.00019,
+    "intercept": 0.7698,
+    "r": -0.2997,
+    "r_squared": 0.0898,
+    "p": 0.43332,
+    "se": 0.000229,
+    "n": 9,
+    "significant": false,
+    "interpretation": "H decreases by 0.0190 per 100 years of delay (R²=0.090, p=0.4333). Not significant negative correlation."
+  },
+  "delay_vs_AC1": {
+    "slope": -0.000251,
+    "intercept": 0.2362,
+    "r": -0.2701,
+    "r_squared": 0.073,
+    "p": 0.558008,
+    "n": 7,
+    "significant": false
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "corpus": "AT",
+    "delay": 0,
+    "predicted": "AT",
+    "P_AT": 0.9694,
+    "H": 0.8766,
+    "AC1": 0.3359,
+    "DFA": 0.9295,
+    "CV": 0.4564,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Rig_Veda",
+    "delay": 0,
+    "predicted": "NT",
+    "P_AT": 0.4934,
+    "H": 0.5612,
+    "AC1": -0.016,
+    "DFA": 0.5087,
+    "CV": 0.2586,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Book_of_Dead",
+    "delay": 0,
+    "predicted": "AT",
+    "P_AT": 0.5431,
+    "H": 0.779,
+    "AC1": 0.2023,
+    "DFA": 0.7732,
+    "CV": 0.8019,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Pali_Canon",
+    "delay": 0,
+    "predicted": "NT",
+    "P_AT": 0.4898,
+    "H": 0.7704,
+    "AC1": 0.2125,
+    "DFA": 0.7583,
+    "CV": 0.8156,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Corán",
+    "delay": 20,
+    "predicted": "AT",
+    "P_AT": 0.8881,
+    "H": 0.8963,
+    "AC1": 0.4722,
+    "DFA": 0.9336,
+    "CV": 0.7584,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "1_Clemente",
+    "delay": 65,
+    "predicted": "NT",
+    "P_AT": 0.201,
+    "H": 0.637,
+    "AC1": 0.2373,
+    "DFA": 0.6084,
+    "CV": 0.7376,
+    "source": "gap_corpora"
+  },
+  {
+    "corpus": "Didache",
+    "delay": 70,
+    "predicted": "AT",
+    "P_AT": 0.738,
+    "H": 0.7096,
+    "AC1": 0.2035,
+    "DFA": 0.8251,
+    "CV": 0.6113,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Tosefta",
+    "delay": 170,
+    "predicted": "AT",
+    "P_AT": 0.7683,
+    "H": 0.9294,
+    "AC1": 0.2789,
+    "DFA": 0.7754,
+    "CV": 0.7793,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "NT",
+    "delay": 300,
+    "predicted": "AT",
+    "P_AT": 0.9351,
+    "H": 0.7834,
+    "AC1": 0.0853,
+    "DFA": 0.8286,
+    "CV": 0.381,
+    "source": "corrected_classifier"
+  },
+  {
+    "corpus": "Mishnah",
+    "delay": 400,
+    "predicted": "AT",
+    "P_AT": 0.5883,
+    "H": 0.7495,
+    "AC1": 0.1805,
+    "DFA": 0.6545,
+    "CV": 0.5842,
+    "source": "corrected_classifier"
+  }
+]

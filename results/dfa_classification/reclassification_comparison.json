@@ -1,0 +1,76 @@
+{
+  "corpora": {
+    "AT_corpus": {
+      "DFA": 0.9295,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "NT_corpus": {
+      "DFA": 0.8286,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "Quran": {
+      "DFA": 0.9336,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "Rig_Veda": {
+      "DFA": 0.5087,
+      "fase20_DFA_class": "AMBIGUOUS",
+      "fase14_class": "AT",
+      "fase19_class": null
+    },
+    "Homer": {
+      "DFA": 0.5977,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "Herodotus": {
+      "DFA": 0.6322,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "Book_of_Dead": {
+      "DFA": 0.7732,
+      "fase20_DFA_class": "AT",
+      "fase14_class": "AT",
+      "fase19_class": null
+    },
+    "Pali_Canon": {
+      "DFA": 0.7583,
+      "fase20_DFA_class": "AT",
+      "fase14_class": "AT",
+      "fase19_class": null
+    },
+    "Mishnah": {
+      "DFA": 0.6545,
+      "fase20_DFA_class": "AT",
+      "fase14_class": "NT",
+      "fase19_class": null
+    },
+    "Tosefta": {
+      "DFA": 0.7754,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": "AT"
+    },
+    "Didache": {
+      "DFA": 0.8251,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": null
+    },
+    "1_Clemente": {
+      "DFA": 0.6084,
+      "fase20_DFA_class": "AT",
+      "fase14_class": null,
+      "fase19_class": "NT"
+    }
+  }
+}

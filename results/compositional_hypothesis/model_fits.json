@@ -1,0 +1,43 @@
+{
+  "TRANS_all": {
+    "formula": "DFA ~ control + delay",
+    "n": 12,
+    "R2": 0.1078,
+    "RMSE": 0.1222,
+    "AIC": -44.45,
+    "intercept": 0.7439,
+    "beta_control": 0.0375,
+    "beta_delay": -0.00018,
+    "p_control": 0.763398,
+    "p_delay": 0.660006
+  },
+  "COMP_full": {
+    "formula": "DFA ~ AC1 + H",
+    "n": 10,
+    "R2": 0.6939,
+    "RMSE": 0.0712,
+    "AIC": -46.85,
+    "intercept": 0.1228,
+    "beta_AC1": 0.246,
+    "beta_H": 0.7576,
+    "p_AC1": 0.464313,
+    "p_H": 0.077141
+  },
+  "COMP_simple": {
+    "formula": "DFA ~ AC1",
+    "n": 10,
+    "R2": 0.5064,
+    "RMSE": 0.0904,
+    "AIC": -44.07,
+    "intercept": 0.5993,
+    "beta_AC1": 0.731,
+    "p_AC1": 0.020994
+  },
+  "TRANS_same_subset": {
+    "formula": "DFA ~ control + delay (same n as COMP)",
+    "n": 10,
+    "R2": 0.0271,
+    "RMSE": 0.1269,
+    "AIC": -35.29
+  }
+}

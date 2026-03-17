@@ -1,0 +1,33 @@
+{
+  "selected_features": [
+    "AC1",
+    "proper_ratio"
+  ],
+  "n_books": 48,
+  "R2": 0.6981,
+  "R2_adj": 0.6847,
+  "coefficients": {
+    "AC1": 0.772649,
+    "proper_ratio": 0.967716
+  },
+  "intercept": 0.516934,
+  "steps": [
+    {
+      "step": 1,
+      "added_feature": "AC1",
+      "features": [
+        "AC1"
+      ],
+      "R2_adj": 0.6375
+    },
+    {
+      "step": 2,
+      "added_feature": "proper_ratio",
+      "features": [
+        "AC1",
+        "proper_ratio"
+      ],
+      "R2_adj": 0.6847
+    }
+  ]
+}

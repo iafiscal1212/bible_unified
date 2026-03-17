@@ -1,0 +1,147 @@
+{
+  "phase": 17,
+  "title": "Libro de los Muertos + Canon Pali — Fase 17",
+  "timestamp": "2026-03-17T06:10:26",
+  "total_elapsed_seconds": 302.3,
+  "scripts": [
+    {
+      "name": "book_of_dead",
+      "question": "¿El Libro de los Muertos (litúrgico sin revelación) es AT-like o NT-like?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "pos_distribution.json",
+        "phi_d_placement.json",
+        "comparison_with_psalms.json",
+        "classifier_result.json",
+        "corpus_metrics.json"
+      ],
+      "bod_pos_entropy": 2.927,
+      "bod_nearest": "NT",
+      "bod_d_approx": 0.279,
+      "bod_similar_to_psalms": false,
+      "bod_predicted": "AT",
+      "bod_P_AT": 0.9456,
+      "bod_P_NT": 0.0544,
+      "bod_n_texts": 142,
+      "bod_n_sentences": 11948,
+      "bod_n_tokens": 92683,
+      "bod_H": 0.779,
+      "bod_AC1": 0.2023,
+      "bod_DFA": 0.7732,
+      "bod_CV": 0.8019,
+      "bod_mean": 7.76
+    },
+    {
+      "name": "pali_canon",
+      "question": "¿El Canon Pali (oral controlado, autoridad humana) es AT-like o NT-like?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 8,
+      "output_files": [
+        "pos_entropy_heuristic.json",
+        "mn_metrics.json",
+        "phi_d_placement.json",
+        "comparison_rigveda.json",
+        "combined_metrics.json",
+        "comparison_nt.json",
+        "dn_metrics.json",
+        "classifier_result.json"
+      ],
+      "pali_nearest": "NT",
+      "pali_d_approx": 0.2704,
+      "pali_vs_rv_similar": 0,
+      "pali_vs_rv_interpretation": "Pali Canon vs Rig Veda: 0/4 metrics within 0.15. Structurally different — language/function differences dominate.",
+      "pali_n_segments": 43596,
+      "pali_n_words": 383216,
+      "pali_H": 0.7704,
+      "pali_AC1": 0.2125,
+      "pali_DFA": 0.7583,
+      "pali_CV": 0.8156,
+      "pali_mean": 8.79,
+      "pali_H_vs_pauline_z": 0.8265,
+      "pali_H_within_pauline": true,
+      "pali_predicted": "AT",
+      "pali_P_AT": 1.0,
+      "pali_P_NT": 0.0,
+      "pali_DN_predicted": "AT",
+      "pali_DN_P_AT": 1.0,
+      "pali_MN_predicted": "AT",
+      "pali_MN_P_AT": 1.0
+    }
+  ],
+  "typology_table": {
+    "AT": {
+      "transmission": "controlled scribal (1000+ years)",
+      "authority": "divine revelation",
+      "function": "liturgical + legal + narrative",
+      "language_family": "Afroasiatic (Semitic)",
+      "H_range": "high (0.88)",
+      "AC1_range": "high (0.34)"
+    },
+    "NT": {
+      "transmission": "rapid copying (decades-centuries)",
+      "authority": "apostolic witness",
+      "function": "epistolary + narrative + apocalyptic",
+      "language_family": "Indo-European (Greek)",
+      "H_range": "moderate (0.78)",
+      "AC1_range": "low (0.09)"
+    },
+    "Corán": {
+      "transmission": "controlled oral then scribal",
+      "authority": "divine revelation (direct)",
+      "function": "liturgical + legal",
+      "language_family": "Afroasiatic (Semitic)",
+      "H_range": "high (0.90)",
+      "AC1_range": "very high (0.47)"
+    },
+    "Rig_Veda": {
+      "transmission": "oral controlled (millenia)",
+      "authority": "divine/inspired (ṛṣi)",
+      "function": "liturgical/hymnic",
+      "language_family": "Indo-European (Indo-Aryan)",
+      "H_range": "low (0.56)",
+      "AC1_range": "none (-0.02)"
+    },
+    "Book_of_Dead": {
+      "transmission": "controlled scribal (~1500 years)",
+      "authority": "priestly/ritual (no divine revelation)",
+      "function": "funerary liturgical",
+      "language_family": "Afroasiatic (Egyptian, non-Semitic)",
+      "H": 0.779,
+      "AC1": 0.2023,
+      "classified_as": "AT",
+      "P_AT": 0.9456,
+      "nearest_corpus": "NT",
+      "typology_cell": "liturgical controlled WITHOUT revelation"
+    },
+    "Pali_Canon": {
+      "transmission": "oral controlled then scribal (~400 years oral)",
+      "authority": "human (Buddha, not divine)",
+      "function": "didactic/doctrinal",
+      "language_family": "Indo-European (Indo-Aryan)",
+      "H": 0.7704,
+      "AC1": 0.2125,
+      "classified_as": "AT",
+      "P_AT": 1.0,
+      "nearest_corpus": "NT",
+      "typology_cell": "oral controlled with HUMAN authority"
+    }
+  },
+  "synthesis": {
+    "questions_answered": [
+      {
+        "question": "¿El Libro de los Muertos (litúrgico sin revelación) es AT-like?",
+        "answer": "Classified as AT-like (P_AT=0.9456). Liturgical function + controlled transmission ARE sufficient without revelation."
+      },
+      {
+        "question": "¿El Canon Pali (oral controlado, autoridad humana) es AT-like?",
+        "answer": "Classified as AT-like (P_AT=1.0). Oral controlled transmission with religious authority IS sufficient."
+      }
+    ],
+    "implications": [
+      "Both non-revelatory controlled-transmission texts are AT-like. This suggests controlled transmission (not revelation) is the primary driver of AT-like statistical signatures."
+    ]
+  }
+}

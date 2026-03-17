@@ -1,0 +1,72 @@
+{
+  "book_of_dead": {
+    "H": 0.779,
+    "AC1": 0.2023,
+    "DFA": 0.7732,
+    "mean_verse_len": 7.76,
+    "CV": 0.8019,
+    "pos_entropy": 2.927
+  },
+  "psalms": {
+    "H": 0.755,
+    "AC1": 0.1727,
+    "DFA": 0.7016,
+    "mean_verse_len": 7.78,
+    "CV": 0.2955,
+    "pos_entropy": 2.3994
+  },
+  "differences": {
+    "H": {
+      "bod": 0.779,
+      "psalms": 0.755,
+      "diff": 0.024,
+      "abs_diff": 0.024
+    },
+    "AC1": {
+      "bod": 0.2023,
+      "psalms": 0.1727,
+      "diff": 0.0296,
+      "abs_diff": 0.0296
+    },
+    "DFA": {
+      "bod": 0.7732,
+      "psalms": 0.7016,
+      "diff": 0.0716,
+      "abs_diff": 0.0716
+    },
+    "mean_verse_len": {
+      "bod": 7.76,
+      "psalms": 7.78,
+      "diff": -0.02,
+      "abs_diff": 0.02
+    },
+    "CV": {
+      "bod": 0.8019,
+      "psalms": 0.2955,
+      "diff": 0.5064,
+      "abs_diff": 0.5064
+    },
+    "pos_entropy": {
+      "bod": 2.927,
+      "psalms": 2.3994,
+      "diff": 0.5276,
+      "abs_diff": 0.5276
+    }
+  },
+  "similarity_within_1sd": {
+    "H": {
+      "diff_in_sd": 0.1541,
+      "similar": true
+    },
+    "AC1": {
+      "diff_in_sd": 0.1233,
+      "similar": true
+    },
+    "CV": {
+      "diff_in_sd": 8.3706,
+      "similar": false
+    }
+  },
+  "genre_match": "Both are liturgical/ritual texts",
+  "interpretation": "Book of the Dead vs Psalms: structurally different in key metrics (H, AC1, CV)."
+}

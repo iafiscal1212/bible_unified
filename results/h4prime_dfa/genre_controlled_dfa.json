@@ -1,0 +1,12 @@
+{
+  "n_narrative": 4,
+  "spearman_rho": -0.8,
+  "spearman_p": 0.2,
+  "corpora": [
+    "AT_corpus",
+    "NT_corpus",
+    "Homer",
+    "Herodotus"
+  ],
+  "mann_whitney": "insufficient_data"
+}

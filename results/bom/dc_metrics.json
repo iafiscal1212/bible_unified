@@ -1,0 +1,14 @@
+{
+  "label": "Doctrine & Covenants",
+  "n_verses": 3654,
+  "H": 0.699,
+  "DFA": 0.6447,
+  "AC1": 0.3162,
+  "mean_verse_len": 30.63,
+  "std_verse_len": 16.91,
+  "CV": 0.552,
+  "skewness": 2.9971,
+  "bond_dimension": 219,
+  "bond_dimension_64": 60,
+  "mps_perm_p": 0.0
+}

@@ -1,0 +1,49 @@
+{
+  "question": "What produces high φ (AC1)?",
+  "n_mechanisms_tested": 5,
+  "n_supported": 4,
+  "primary_mechanisms": [
+    "literary_genre",
+    "parallelism_hemistichs",
+    "verse_length_constraint",
+    "liturgical_reading_units"
+  ],
+  "ranking": [
+    {
+      "mechanism": "literary_genre",
+      "effect": "Liturgical genre produces lower |ΔL| (smoother transitions)",
+      "supported": true,
+      "p_value": 0.0,
+      "strength": "strong"
+    },
+    {
+      "mechanism": "parallelism_hemistichs",
+      "effect": "Poetic parallelism (short hemistichs) raises AC1",
+      "supported": true,
+      "p_value": 0.004433,
+      "strength": "strong"
+    },
+    {
+      "mechanism": "verse_length_constraint",
+      "effect": "Shorter verses → higher AC1 (less room for variation)",
+      "supported": true,
+      "r": -0.4322,
+      "strength": "moderate"
+    },
+    {
+      "mechanism": "liturgical_reading_units",
+      "effect": "Reading-unit segmentation constrains verse length variation",
+      "supported": true,
+      "mean_intra_CV": 0.3245,
+      "strength": "moderate"
+    },
+    {
+      "mechanism": "dictation_speech_density",
+      "effect": "Higher speech density → higher AC1 (formulaic openings)",
+      "supported": false,
+      "r": -0.1296,
+      "strength": "weak"
+    }
+  ],
+  "summary": "4/5 mechanisms supported. Primary: literary_genre, parallelism_hemistichs, verse_length_constraint."
+}

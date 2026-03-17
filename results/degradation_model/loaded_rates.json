@@ -1,0 +1,59 @@
+{
+  "controlled_measured": {
+    "source": "DSS Isaiah vs WLC (1,100 years)",
+    "H_ancient": 0.6806,
+    "H_recent": 0.6723,
+    "delta_H": 0.0082,
+    "delta_centuries": 11.0,
+    "rate_per_century": 0.000745
+  },
+  "AT (Hebreo)": {
+    "transmission": "controlled",
+    "rate_upper": 0.000755,
+    "rate_lower": 0,
+    "type": "measured",
+    "H_current": null
+  },
+  "NT (Griego)": {
+    "transmission": "free",
+    "rate_upper": 0.051874,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.9928
+  },
+  "Corán (Árabe)": {
+    "transmission": "controlled",
+    "rate_upper": 2.681111,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.9826
+  },
+  "Homero (Griego)": {
+    "transmission": "free",
+    "rate_upper": 0.012171,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.6278
+  },
+  "Heródoto (Griego)": {
+    "transmission": "free",
+    "rate_upper": 0.017959,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.6329
+  },
+  "Rig Veda (Sánscrito)": {
+    "transmission": "controlled",
+    "rate_upper": 0.019709,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.9336
+  },
+  "Mishnah (Hebreo)": {
+    "transmission": "semi-controlled",
+    "rate_upper": 0,
+    "rate_lower": 0.0,
+    "type": "upper_bound",
+    "H_current": 0.6829
+  }
+}

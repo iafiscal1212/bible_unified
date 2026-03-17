@@ -1,0 +1,80 @@
+{
+  "base_threshold": 65,
+  "base_fisher_p": 0.2,
+  "base_significant": false,
+  "n_corpora": 10,
+  "n_critical": 0,
+  "critical_corpora": [],
+  "details": [
+    {
+      "removed": "AT",
+      "delay": 0,
+      "accuracy": 0.2222,
+      "fisher_p": 0.166667,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Rig_Veda",
+      "delay": 0,
+      "accuracy": 0.3333,
+      "fisher_p": 0.444444,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Book_of_Dead",
+      "delay": 0,
+      "accuracy": 0.2222,
+      "fisher_p": 0.166667,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Pali_Canon",
+      "delay": 0,
+      "accuracy": 0.3333,
+      "fisher_p": 0.444444,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Corán",
+      "delay": 20,
+      "accuracy": 0.2222,
+      "fisher_p": 0.166667,
+      "significance_flipped": false
+    },
+    {
+      "removed": "1_Clemente",
+      "delay": 65,
+      "accuracy": 0.3333,
+      "fisher_p": 0.444444,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Didache",
+      "delay": 70,
+      "accuracy": 0.3333,
+      "fisher_p": 0.464286,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Tosefta",
+      "delay": 170,
+      "accuracy": 0.3333,
+      "fisher_p": 0.464286,
+      "significance_flipped": false
+    },
+    {
+      "removed": "NT",
+      "delay": 300,
+      "accuracy": 0.3333,
+      "fisher_p": 0.464286,
+      "significance_flipped": false
+    },
+    {
+      "removed": "Mishnah",
+      "delay": 400,
+      "accuracy": 0.3333,
+      "fisher_p": 0.464286,
+      "significance_flipped": false
+    }
+  ]
+}

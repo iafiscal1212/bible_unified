@@ -1,0 +1,252 @@
+{
+  "n_corpora_total": 12,
+  "n_classified": 10,
+  "unique_delays": [
+    0,
+    20,
+    50,
+    200,
+    300,
+    400
+  ],
+  "gaps_over_50": [
+    {
+      "from": 50,
+      "to": 200,
+      "width": 150
+    },
+    {
+      "from": 200,
+      "to": 300,
+      "width": 100
+    },
+    {
+      "from": 300,
+      "to": 400,
+      "width": 100
+    }
+  ],
+  "original_perfect_width": 280,
+  "expanded_perfect_range": {
+    "min": 21,
+    "max": 50,
+    "width": 30
+  },
+  "expanded_significant_range": {
+    "min": 1,
+    "max": 300,
+    "width": 300
+  },
+  "robustness_change": "DEGRADED",
+  "spearman_delay_H": {
+    "rho": -0.0877,
+    "p": 0.7864
+  },
+  "sample_thresholds": [
+    {
+      "threshold": 1,
+      "early_at": 5,
+      "early_nt": 0,
+      "late_at": 1,
+      "late_nt": 4,
+      "accuracy": 0.9,
+      "fisher_p": 0.047619
+    },
+    {
+      "threshold": 10,
+      "early_at": 5,
+      "early_nt": 0,
+      "late_at": 1,
+      "late_nt": 4,
+      "accuracy": 0.9,
+      "fisher_p": 0.047619
+    },
+    {
+      "threshold": 20,
+      "early_at": 5,
+      "early_nt": 0,
+      "late_at": 1,
+      "late_nt": 4,
+      "accuracy": 0.9,
+      "fisher_p": 0.047619
+    },
+    {
+      "threshold": 21,
+      "early_at": 6,
+      "early_nt": 0,
+      "late_at": 0,
+      "late_nt": 4,
+      "accuracy": 1.0,
+      "fisher_p": 0.004762
+    },
+    {
+      "threshold": 50,
+      "early_at": 6,
+      "early_nt": 0,
+      "late_at": 0,
+      "late_nt": 4,
+      "accuracy": 1.0,
+      "fisher_p": 0.004762
+    },
+    {
+      "threshold": 51,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 100,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 150,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 200,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 250,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 300,
+      "early_at": 6,
+      "early_nt": 1,
+      "late_at": 0,
+      "late_nt": 3,
+      "accuracy": 0.9,
+      "fisher_p": 0.033333
+    },
+    {
+      "threshold": 350,
+      "early_at": 6,
+      "early_nt": 2,
+      "late_at": 0,
+      "late_nt": 2,
+      "accuracy": 0.8,
+      "fisher_p": 0.133333
+    },
+    {
+      "threshold": 400,
+      "early_at": 6,
+      "early_nt": 2,
+      "late_at": 0,
+      "late_nt": 2,
+      "accuracy": 0.8,
+      "fisher_p": 0.133333
+    },
+    {
+      "threshold": 450,
+      "early_at": 6,
+      "early_nt": 4,
+      "late_at": 0,
+      "late_nt": 0,
+      "accuracy": 0.6,
+      "fisher_p": 1.0
+    }
+  ],
+  "corpus_table": [
+    {
+      "corpus": "AT",
+      "delay": 0,
+      "H": 0.8766,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Rig_Veda",
+      "delay": 0,
+      "H": 0.5612,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Book_of_Dead",
+      "delay": 0,
+      "H": 0.779,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Pali_Canon",
+      "delay": 0,
+      "H": 0.7704,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Yasna",
+      "delay": 0,
+      "H": 0.9037,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Corán",
+      "delay": 20,
+      "H": 0.8963,
+      "predicted": "AT"
+    },
+    {
+      "corpus": "Didache",
+      "delay": 50,
+      "H": 0.7096,
+      "predicted": "NT"
+    },
+    {
+      "corpus": "Heródoto",
+      "delay": 200,
+      "H": 0.6329,
+      "predicted": null
+    },
+    {
+      "corpus": "NT",
+      "delay": 300,
+      "H": 0.7834,
+      "predicted": "NT"
+    },
+    {
+      "corpus": "Homero",
+      "delay": 400,
+      "H": 0.6278,
+      "predicted": null
+    },
+    {
+      "corpus": "Mishnah",
+      "delay": 400,
+      "H": 0.7495,
+      "predicted": "NT"
+    },
+    {
+      "corpus": "Tosefta",
+      "delay": 400,
+      "H": 0.9294,
+      "predicted": "NT"
+    }
+  ],
+  "didache_verdict": {
+    "predicted": "NT",
+    "delay": 50,
+    "interpretation": "Didache (delay=50) is NT-like. This means delay=50 is already 'too late'. Threshold is <50 years — very close to composition."
+  }
+}

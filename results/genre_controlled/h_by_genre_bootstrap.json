@@ -1,0 +1,68 @@
+{
+  "AT_legal": {
+    "n": 3,
+    "mean": 0.677,
+    "std": 0.0877,
+    "H_CI95": [
+      0.5918,
+      0.767
+    ],
+    "H_bootstrap_std": 0.0407
+  },
+  "AT_narrative": {
+    "n": 13,
+    "mean": 0.7301,
+    "std": 0.1242,
+    "H_CI95": [
+      0.6736,
+      0.7971
+    ],
+    "H_bootstrap_std": 0.0317
+  },
+  "AT_poetry": {
+    "n": 5,
+    "mean": 0.8178,
+    "std": 0.2068,
+    "H_CI95": [
+      0.6737,
+      1.0007
+    ],
+    "H_bootstrap_std": 0.0814
+  },
+  "AT_prophetic": {
+    "n": 8,
+    "mean": 0.6696,
+    "std": 0.0632,
+    "H_CI95": [
+      0.6273,
+      0.7074
+    ],
+    "H_bootstrap_std": 0.0213
+  },
+  "NT_apocalyptic": {
+    "n": 1,
+    "mean": 0.5109,
+    "std": 0.0
+  },
+  "NT_epistolar": {
+    "n": 13,
+    "mean": 0.6079,
+    "std": 0.1109,
+    "H_CI95": [
+      0.5536,
+      0.665
+    ],
+    "H_bootstrap_std": 0.0289
+  },
+  "NT_narrative": {
+    "n": 5,
+    "mean": 0.6039,
+    "std": 0.0646,
+    "H_CI95": [
+      0.5603,
+      0.6559
+    ],
+    "H_bootstrap_std": 0.0254
+  },
+  "_AT_prophetic_vs_NT_epistolar_overlap": true
+}

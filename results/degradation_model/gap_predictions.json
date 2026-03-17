@@ -1,0 +1,32 @@
+{
+  "delay_65": {
+    "delay_years": 65,
+    "H_if_controlled": 0.8761,
+    "H_if_free_mean": 0.8588,
+    "H_if_free_worst": 0.8429,
+    "boundary": 0.75,
+    "controlled_prediction": "AT-like",
+    "free_mean_prediction": "AT-like",
+    "free_worst_prediction": "AT-like"
+  },
+  "delay_70": {
+    "delay_years": 70,
+    "H_if_controlled": 0.8761,
+    "H_if_free_mean": 0.8575,
+    "H_if_free_worst": 0.8403,
+    "boundary": 0.75,
+    "controlled_prediction": "AT-like",
+    "free_mean_prediction": "AT-like",
+    "free_worst_prediction": "AT-like"
+  },
+  "delay_170": {
+    "delay_years": 170,
+    "H_if_controlled": 0.8753,
+    "H_if_free_mean": 0.8301,
+    "H_if_free_worst": 0.7884,
+    "boundary": 0.75,
+    "controlled_prediction": "AT-like",
+    "free_mean_prediction": "AT-like",
+    "free_worst_prediction": "AT-like"
+  }
+}

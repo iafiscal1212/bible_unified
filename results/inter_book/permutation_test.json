@@ -1,0 +1,26 @@
+{
+  "AT": {
+    "corpus": "OT",
+    "n_books": 39,
+    "n_verses": 23213,
+    "H_canonical": 0.9135,
+    "H_perm_mean": 0.9402,
+    "H_perm_std": 0.0118,
+    "H_p_value": 0.972,
+    "DFA_canonical": 0.8675,
+    "DFA_note": "DFA computed only for canonical order (permutation DFA too expensive on 23K+ verses)",
+    "n_permutations": 1000
+  },
+  "NT": {
+    "corpus": "NT",
+    "n_books": 27,
+    "n_verses": 7927,
+    "H_canonical": 0.7627,
+    "H_perm_mean": 0.7982,
+    "H_perm_std": 0.0182,
+    "H_p_value": 0.924,
+    "DFA_canonical": 0.7151,
+    "DFA_note": "DFA computed only for canonical order (permutation DFA too expensive on 23K+ verses)",
+    "n_permutations": 1000
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "equation": "d_approx = -1.4589 * AC1 + -0.0931",
+  "slope": -1.4589,
+  "intercept": -0.0931,
+  "w_scaled": [
+    -0.2045,
+    -0.097
+  ],
+  "b_scaled": -0.225,
+  "scaler_mean": [
+    0.0508,
+    0.1663
+  ],
+  "scaler_scale": [
+    0.2078,
+    0.1438
+  ],
+  "training_accuracy": 0.6102,
+  "loo_accuracy": 0.5424
+}

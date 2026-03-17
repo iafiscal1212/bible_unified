@@ -1,0 +1,167 @@
+{
+  "parameters": {
+    "controlled_rate_per_century": 0.000745,
+    "free_rate_mean_per_century": 0.027335,
+    "free_rate_max_per_century": 0.051874,
+    "H_initial_AT": 0.8766,
+    "H_AT_NT_boundary_approx": 0.75,
+    "free_rates_used": [
+      0.051874,
+      0.012171,
+      0.017959
+    ]
+  },
+  "trajectories": [
+    {
+      "delay_years": 0,
+      "H_controlled": 0.8766,
+      "H_free_mean": 0.8766,
+      "H_free_worst": 0.8766,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 10,
+      "H_controlled": 0.8765,
+      "H_free_mean": 0.8739,
+      "H_free_worst": 0.8714,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 20,
+      "H_controlled": 0.8765,
+      "H_free_mean": 0.8711,
+      "H_free_worst": 0.8662,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 30,
+      "H_controlled": 0.8764,
+      "H_free_mean": 0.8684,
+      "H_free_worst": 0.861,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 50,
+      "H_controlled": 0.8762,
+      "H_free_mean": 0.8629,
+      "H_free_worst": 0.8507,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 65,
+      "H_controlled": 0.8761,
+      "H_free_mean": 0.8588,
+      "H_free_worst": 0.8429,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 70,
+      "H_controlled": 0.8761,
+      "H_free_mean": 0.8575,
+      "H_free_worst": 0.8403,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 80,
+      "H_controlled": 0.876,
+      "H_free_mean": 0.8547,
+      "H_free_worst": 0.8351,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 100,
+      "H_controlled": 0.8759,
+      "H_free_mean": 0.8493,
+      "H_free_worst": 0.8247,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 120,
+      "H_controlled": 0.8757,
+      "H_free_mean": 0.8438,
+      "H_free_worst": 0.8144,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 150,
+      "H_controlled": 0.8755,
+      "H_free_mean": 0.8356,
+      "H_free_worst": 0.7988,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 170,
+      "H_controlled": 0.8753,
+      "H_free_mean": 0.8301,
+      "H_free_worst": 0.7884,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 200,
+      "H_controlled": 0.8751,
+      "H_free_mean": 0.8219,
+      "H_free_worst": 0.7729,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": true
+    },
+    {
+      "delay_years": 250,
+      "H_controlled": 0.8747,
+      "H_free_mean": 0.8083,
+      "H_free_worst": 0.7469,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": false
+    },
+    {
+      "delay_years": 300,
+      "H_controlled": 0.8744,
+      "H_free_mean": 0.7946,
+      "H_free_worst": 0.721,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": false
+    },
+    {
+      "delay_years": 400,
+      "H_controlled": 0.8736,
+      "H_free_mean": 0.7673,
+      "H_free_worst": 0.6691,
+      "controlled_AT_like": true,
+      "free_mean_AT_like": true,
+      "free_worst_AT_like": false
+    }
+  ],
+  "critical_delays": {
+    "controlled": 16993.0,
+    "free_mean": 463.0,
+    "free_worst": 244.0,
+    "unit": "years",
+    "interpretation": "Delay in years at which H crosses AT/NT boundary"
+  }
+}

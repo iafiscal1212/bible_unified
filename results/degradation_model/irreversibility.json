@@ -1,0 +1,25 @@
+{
+  "question": "Can late standardization (after free transmission) recover AT-like H?",
+  "corpora": {
+    "NT": {
+      "delay": 300,
+      "description": "Free copying 50–350 CE, Byzantine standardization ~350 CE",
+      "predicted": "AT",
+      "P_AT": 0.9351,
+      "H": 0.7834,
+      "recovered_AT_like": true
+    },
+    "Mishnah": {
+      "delay": 400,
+      "description": "Free oral debate ~200 BCE–200 CE, Judah haNasi codification ~200 CE",
+      "predicted": "AT",
+      "P_AT": 0.5883,
+      "H": 0.7495,
+      "recovered_AT_like": true
+    }
+  },
+  "n_tested": 2,
+  "n_recovered_AT": 2,
+  "conclusion": "PARTIALLY_REVERSIBLE",
+  "interpretation": "2/2 late-standardized corpora show AT-like H. Some recovery may be possible, but the sample is too small to confirm."
+}

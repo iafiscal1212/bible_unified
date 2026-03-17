@@ -1,0 +1,42 @@
+{
+  "corpora": {
+    "1_Clemente": {
+      "H": 0.637,
+      "AC1": 0.2373,
+      "DFA": 0.6084,
+      "CV": 0.7376,
+      "predicted": "NT",
+      "P_AT": 0.201,
+      "delay": 65,
+      "n_segments": 400
+    },
+    "Policarpo": {
+      "corpus": "Policarpo",
+      "status": "excluded",
+      "reason": "n_segments=38 < 50",
+      "n_segments": 38,
+      "n_words": 1982,
+      "metrics_informal": {
+        "H": 0.2182,
+        "DFA": 0.5283,
+        "AC1": -0.0472,
+        "CV": 0.3652,
+        "mean_verse_len": 52.16,
+        "std_verse_len": 19.05,
+        "n_segments": 38,
+        "n_words": 1982
+      },
+      "small_sample_warning": true
+    },
+    "Tosefta": {
+      "H": 0.9294,
+      "AC1": 0.2789,
+      "DFA": 0.7754,
+      "CV": 0.7793,
+      "predicted": "AT",
+      "P_AT": 0.7683,
+      "delay": 170,
+      "n_segments": 3757
+    }
+  }
+}

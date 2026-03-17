@@ -1,0 +1,87 @@
+{
+  "AT": {
+    "DFA_actual": 0.9295,
+    "DFA_pred_TRANS": 0.7443,
+    "residual_TRANS": 0.1852,
+    "DFA_pred_COMP": 0.854,
+    "residual_COMP": 0.0755
+  },
+  "NT": {
+    "DFA_actual": 0.8286,
+    "DFA_pred_TRANS": 0.6583,
+    "residual_TRANS": 0.1703,
+    "DFA_pred_COMP": 0.6767,
+    "residual_COMP": 0.1519
+  },
+  "Corán": {
+    "DFA_actual": 0.9336,
+    "DFA_pred_TRANS": 0.7383,
+    "residual_TRANS": 0.1953,
+    "DFA_pred_COMP": 0.9004,
+    "residual_COMP": 0.0332
+  },
+  "Rig_Veda": {
+    "DFA_actual": 0.5087,
+    "DFA_pred_TRANS": 0.8496,
+    "residual_TRANS": -0.3409,
+    "DFA_pred_COMP": 0.5814,
+    "residual_COMP": -0.0727
+  },
+  "Homero": {
+    "DFA_actual": 0.5977,
+    "DFA_pred_TRANS": 0.7173,
+    "residual_TRANS": -0.1196
+  },
+  "Heródoto": {
+    "DFA_actual": 0.6322,
+    "DFA_pred_TRANS": 0.7211,
+    "residual_TRANS": -0.0889
+  },
+  "Book_of_Dead": {
+    "DFA_actual": 0.7732,
+    "DFA_pred_TRANS": 0.7834,
+    "residual_TRANS": -0.0102,
+    "DFA_pred_COMP": 0.7615,
+    "residual_COMP": 0.0117
+  },
+  "Pali_Canon": {
+    "DFA_actual": 0.7583,
+    "DFA_pred_TRANS": 0.7872,
+    "residual_TRANS": -0.0289,
+    "DFA_pred_COMP": 0.7588,
+    "residual_COMP": -0.0005
+  },
+  "Mishnah": {
+    "DFA_actual": 0.6545,
+    "DFA_pred_TRANS": 0.6825,
+    "residual_TRANS": -0.028,
+    "DFA_pred_COMP": 0.745,
+    "residual_COMP": -0.0905
+  },
+  "Didache": {
+    "DFA_actual": 0.8251,
+    "DFA_pred_TRANS": 0.6778,
+    "residual_TRANS": 0.1473,
+    "DFA_pred_COMP": 0.6907,
+    "residual_COMP": 0.1344
+  },
+  "1_Clemente": {
+    "DFA_actual": 0.6084,
+    "DFA_pred_TRANS": 0.7983,
+    "residual_TRANS": -0.1899,
+    "DFA_pred_COMP": 0.7159,
+    "residual_COMP": -0.1075
+  },
+  "Tosefta": {
+    "DFA_actual": 0.7754,
+    "DFA_pred_TRANS": 0.7008,
+    "residual_TRANS": 0.0746,
+    "DFA_pred_COMP": 0.9749,
+    "residual_COMP": -0.1995
+  },
+  "_summary": {
+    "MAE_TRANS_all": 0.1316,
+    "MAE_COMP_ac1": 0.0877,
+    "MAE_TRANS_same_subset": 0.1532
+  }
+}

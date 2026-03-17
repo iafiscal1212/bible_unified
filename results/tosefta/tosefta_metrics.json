@@ -1,0 +1,15 @@
+{
+  "H": 0.9294,
+  "DFA": 0.7754,
+  "AC1": 0.2789,
+  "mean_verse_len": 72.06,
+  "std_verse_len": 56.16,
+  "CV": 0.7793,
+  "skewness": 2.8172,
+  "bond_dimension": 274,
+  "corpus": "Tosefta (Sefaria, Hebrew)",
+  "language": "Mishnaic Hebrew",
+  "n_tractates": 55,
+  "n_passages": 3757,
+  "n_words": 270746
+}

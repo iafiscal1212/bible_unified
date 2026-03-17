@@ -1,0 +1,14 @@
+{
+  "corpus": "Mishnah",
+  "DFA": 0.6545,
+  "threshold": 0.5,
+  "ambiguity_zone": [
+    0.445,
+    0.555
+  ],
+  "classification": "AT",
+  "z_score_vs_AT": -0.279,
+  "z_score_vs_NT": 1.389,
+  "closer_to": "AT",
+  "reasoning": "Mishnah DFA=0.6545 classified as AT by DFA threshold. z-score vs AT=-0.279, vs NT=1.389. Closer to AT distribution."
+}

@@ -1,0 +1,22 @@
+{
+  "control_origin_vs_H": {
+    "r": 0.3628,
+    "p": 0.337242,
+    "n": 9,
+    "significant": false,
+    "direction": "positive"
+  },
+  "control_origin_vs_AC1": {
+    "r": 0.3324,
+    "p": 0.466364,
+    "n": 7,
+    "significant": false
+  },
+  "revelation_vs_H": {
+    "r": 0.2383,
+    "p": 0.537015,
+    "n": 9,
+    "significant": false,
+    "note": "This tests the ORIGINAL H4 hypothesis (revelation → AT-like)"
+  }
+}

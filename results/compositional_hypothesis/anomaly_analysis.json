@@ -1,0 +1,38 @@
+{
+  "Mishnah": {
+    "DFA_actual": 0.6545,
+    "DFA_pred_TRANS": 0.6825,
+    "DFA_pred_COMP": 0.745,
+    "residual_TRANS": -0.028,
+    "residual_COMP": -0.0905,
+    "AC1": 0.1805,
+    "H": 0.7495,
+    "delay": 400,
+    "control": false,
+    "COMP_better": false
+  },
+  "Corán": {
+    "DFA_actual": 0.9336,
+    "DFA_pred_TRANS": 0.7383,
+    "DFA_pred_COMP": 0.9004,
+    "residual_TRANS": 0.1953,
+    "residual_COMP": 0.0332,
+    "AC1": 0.4722,
+    "H": 0.8963,
+    "delay": 20,
+    "control": true,
+    "COMP_better": true
+  },
+  "Rig_Veda": {
+    "DFA_actual": 0.5087,
+    "DFA_pred_TRANS": 0.8496,
+    "DFA_pred_COMP": 0.5814,
+    "residual_TRANS": -0.3409,
+    "residual_COMP": -0.0727,
+    "AC1": -0.016,
+    "H": 0.5612,
+    "delay": 0,
+    "control": true,
+    "COMP_better": true
+  }
+}

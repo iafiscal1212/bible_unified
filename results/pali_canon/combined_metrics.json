@@ -1,0 +1,15 @@
+{
+  "label": "Combined",
+  "n_segments": 43596,
+  "n_words": 383216,
+  "H": 0.7704,
+  "DFA": 0.7583,
+  "AC1": 0.2125,
+  "mean_verse_len": 8.79,
+  "std_verse_len": 7.17,
+  "CV": 0.8156,
+  "skewness": 3.1205,
+  "bond_dimension": 244,
+  "bond_dimension_64": 62,
+  "mps_perm_p": 0.0
+}

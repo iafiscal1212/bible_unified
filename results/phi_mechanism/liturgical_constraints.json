@@ -1,0 +1,40 @@
+{
+  "parashas_proxy": {
+    "mean_intra_chapter_CV": 0.3245,
+    "std_intra_chapter_CV": 0.089,
+    "n_chapters": 903,
+    "interpretation": "Lower intra-chapter CV suggests liturgical reading units impose length constraints"
+  },
+  "quran_sura": {
+    "n_suras_analyzed": 95,
+    "mean_AC1": 0.1354,
+    "AC1_vs_mean_length_r": -0.3091,
+    "AC1_vs_mean_length_p": 0.002306,
+    "interpretation": "Positive r means longer suras have higher AC1 (rhythmic constraint)"
+  },
+  "rigveda_meter": {
+    "meters": {
+      "tristubh": {
+        "base_length": 9,
+        "AC1": 0.0245,
+        "mean_length": 8.51
+      },
+      "gayatri": {
+        "base_length": 7,
+        "AC1": 0.0043,
+        "mean_length": 6.5
+      },
+      "jagati": {
+        "base_length": 10,
+        "AC1": 0.0046,
+        "mean_length": 9.54
+      },
+      "anustubh": {
+        "base_length": 8,
+        "AC1": 0.0094,
+        "mean_length": 7.49
+      }
+    },
+    "interpretation": "Synthetic RV: independent draws → AC1 ≈ 0 (no memory within meter)"
+  }
+}

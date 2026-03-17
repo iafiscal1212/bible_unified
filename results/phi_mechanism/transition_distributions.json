@@ -1,0 +1,529 @@
+{
+  "by_genre": {
+    "narrative": {
+      "n_transitions": 9799,
+      "mean_delta": 5.989,
+      "std_delta": 4.911,
+      "median_delta": 5.0,
+      "p75_delta": 9.0,
+      "p90_delta": 13.0
+    },
+    "legal": {
+      "n_transitions": 3104,
+      "mean_delta": 5.897,
+      "std_delta": 4.469,
+      "median_delta": 5.0,
+      "p75_delta": 9.0,
+      "p90_delta": 12.0
+    },
+    "liturgical": {
+      "n_transitions": 4883,
+      "mean_delta": 2.093,
+      "std_delta": 2.339,
+      "median_delta": 1.0,
+      "p75_delta": 3.0,
+      "p90_delta": 5.0
+    },
+    "unknown": {
+      "n_transitions": 472,
+      "mean_delta": 6.326,
+      "std_delta": 5.742,
+      "median_delta": 5.0,
+      "p75_delta": 9.0,
+      "p90_delta": 14.0
+    },
+    "prophetic": {
+      "n_transitions": 4916,
+      "mean_delta": 5.87,
+      "std_delta": 4.701,
+      "median_delta": 5.0,
+      "p75_delta": 8.0,
+      "p90_delta": 12.0
+    },
+    "evangelios": {
+      "n_transitions": 3752,
+      "mean_delta": 7.126,
+      "std_delta": 5.553,
+      "median_delta": 6.0,
+      "p75_delta": 10.0,
+      "p90_delta": 15.0
+    },
+    "epistolas": {
+      "n_transitions": 4148,
+      "mean_delta": 6.937,
+      "std_delta": 5.514,
+      "median_delta": 6.0,
+      "p75_delta": 10.0,
+      "p90_delta": 15.0
+    },
+    "liturgical_vs_narrative_test": {
+      "U_stat": 10944686.5,
+      "p_value": 0.0,
+      "liturgical_lower": true
+    }
+  },
+  "by_book": {
+    "Genesis": {
+      "genre": "narrative",
+      "n_verses": 1533,
+      "mean_delta": 5.431,
+      "std_delta": 4.214,
+      "median_delta": 5.0
+    },
+    "Exodus": {
+      "genre": "narrative",
+      "n_verses": 1213,
+      "mean_delta": 5.484,
+      "std_delta": 4.273,
+      "median_delta": 5.0
+    },
+    "Leviticus": {
+      "genre": "legal",
+      "n_verses": 859,
+      "mean_delta": 5.598,
+      "std_delta": 4.292,
+      "median_delta": 5.0
+    },
+    "Numbers": {
+      "genre": "legal",
+      "n_verses": 1289,
+      "mean_delta": 5.768,
+      "std_delta": 4.529,
+      "median_delta": 5.0
+    },
+    "Deuteronomy": {
+      "genre": "legal",
+      "n_verses": 959,
+      "mean_delta": 6.338,
+      "std_delta": 4.509,
+      "median_delta": 6.0
+    },
+    "Joshua": {
+      "genre": "narrative",
+      "n_verses": 658,
+      "mean_delta": 6.212,
+      "std_delta": 5.331,
+      "median_delta": 5.0
+    },
+    "Judges": {
+      "genre": "narrative",
+      "n_verses": 618,
+      "mean_delta": 6.412,
+      "std_delta": 4.694,
+      "median_delta": 6.0
+    },
+    "Ruth": {
+      "genre": "narrative",
+      "n_verses": 85,
+      "mean_delta": 4.845,
+      "std_delta": 4.022,
+      "median_delta": 4.0
+    },
+    "1 Samuel": {
+      "genre": "narrative",
+      "n_verses": 811,
+      "mean_delta": 6.426,
+      "std_delta": 5.017,
+      "median_delta": 5.0
+    },
+    "2 Samuel": {
+      "genre": "narrative",
+      "n_verses": 695,
+      "mean_delta": 6.269,
+      "std_delta": 5.057,
+      "median_delta": 5.0
+    },
+    "1 Kings": {
+      "genre": "narrative",
+      "n_verses": 817,
+      "mean_delta": 7.007,
+      "std_delta": 5.18,
+      "median_delta": 6.0
+    },
+    "2 Kings": {
+      "genre": "narrative",
+      "n_verses": 719,
+      "mean_delta": 7.132,
+      "std_delta": 5.476,
+      "median_delta": 6.0
+    },
+    "1 Chronicles": {
+      "genre": "narrative",
+      "n_verses": 943,
+      "mean_delta": 4.404,
+      "std_delta": 4.161,
+      "median_delta": 3.0
+    },
+    "2 Chronicles": {
+      "genre": "narrative",
+      "n_verses": 822,
+      "mean_delta": 6.983,
+      "std_delta": 5.347,
+      "median_delta": 6.0
+    },
+    "Ezra": {
+      "genre": "narrative",
+      "n_verses": 280,
+      "mean_delta": 4.907,
+      "std_delta": 4.676,
+      "median_delta": 4.0
+    },
+    "Nehemiah": {
+      "genre": "narrative",
+      "n_verses": 405,
+      "mean_delta": 5.002,
+      "std_delta": 4.772,
+      "median_delta": 4.0
+    },
+    "Esther": {
+      "genre": "narrative",
+      "n_verses": 167,
+      "mean_delta": 7.97,
+      "std_delta": 6.907,
+      "median_delta": 7.0
+    },
+    "Job": {
+      "genre": "liturgical",
+      "n_verses": 1070,
+      "mean_delta": 1.976,
+      "std_delta": 2.259,
+      "median_delta": 1.0
+    },
+    "Psalms": {
+      "genre": "liturgical",
+      "n_verses": 2527,
+      "mean_delta": 2.129,
+      "std_delta": 2.048,
+      "median_delta": 2.0
+    },
+    "Proverbs": {
+      "genre": "liturgical",
+      "n_verses": 915,
+      "mean_delta": 1.406,
+      "std_delta": 1.617,
+      "median_delta": 1.0
+    },
+    "Ecclesiastes": {
+      "genre": "liturgical",
+      "n_verses": 222,
+      "mean_delta": 5.385,
+      "std_delta": 4.723,
+      "median_delta": 4.0
+    },
+    "Song of Songs": {
+      "genre": "unknown",
+      "n_verses": 117,
+      "mean_delta": 3.819,
+      "std_delta": 2.737,
+      "median_delta": 3.0
+    },
+    "Isaiah": {
+      "genre": "prophetic",
+      "n_verses": 1291,
+      "mean_delta": 4.869,
+      "std_delta": 3.872,
+      "median_delta": 4.0
+    },
+    "Jeremiah": {
+      "genre": "prophetic",
+      "n_verses": 1364,
+      "mean_delta": 6.434,
+      "std_delta": 5.038,
+      "median_delta": 5.0
+    },
+    "Lamentations": {
+      "genre": "liturgical",
+      "n_verses": 154,
+      "mean_delta": 1.673,
+      "std_delta": 1.767,
+      "median_delta": 1.0
+    },
+    "Ezekiel": {
+      "genre": "prophetic",
+      "n_verses": 1273,
+      "mean_delta": 6.374,
+      "std_delta": 5.114,
+      "median_delta": 5.0
+    },
+    "Daniel": {
+      "genre": "unknown",
+      "n_verses": 357,
+      "mean_delta": 7.143,
+      "std_delta": 6.21,
+      "median_delta": 5.0
+    },
+    "Hosea": {
+      "genre": "prophetic",
+      "n_verses": 197,
+      "mean_delta": 4.883,
+      "std_delta": 3.626,
+      "median_delta": 4.0
+    },
+    "Joel": {
+      "genre": "prophetic",
+      "n_verses": 73,
+      "mean_delta": 5.347,
+      "std_delta": 4.039,
+      "median_delta": 4.5
+    },
+    "Amos": {
+      "genre": "prophetic",
+      "n_verses": 146,
+      "mean_delta": 6.2,
+      "std_delta": 4.456,
+      "median_delta": 5.0
+    },
+    "Obadiah": {
+      "genre": "prophetic",
+      "n_verses": 21,
+      "mean_delta": 5.55,
+      "std_delta": 4.272,
+      "median_delta": 5.0
+    },
+    "Jonah": {
+      "genre": "narrative",
+      "n_verses": 48,
+      "mean_delta": 5.979,
+      "std_delta": 5.134,
+      "median_delta": 5.0
+    },
+    "Micah": {
+      "genre": "prophetic",
+      "n_verses": 105,
+      "mean_delta": 4.346,
+      "std_delta": 3.328,
+      "median_delta": 4.0
+    },
+    "Nahum": {
+      "genre": "prophetic",
+      "n_verses": 47,
+      "mean_delta": 4.087,
+      "std_delta": 3.243,
+      "median_delta": 4.0
+    },
+    "Habakkuk": {
+      "genre": "prophetic",
+      "n_verses": 56,
+      "mean_delta": 5.055,
+      "std_delta": 3.445,
+      "median_delta": 5.0
+    },
+    "Zephaniah": {
+      "genre": "prophetic",
+      "n_verses": 53,
+      "mean_delta": 6.827,
+      "std_delta": 4.815,
+      "median_delta": 6.5
+    },
+    "Haggai": {
+      "genre": "prophetic",
+      "n_verses": 38,
+      "mean_delta": 7.351,
+      "std_delta": 5.084,
+      "median_delta": 6.0
+    },
+    "Zechariah": {
+      "genre": "prophetic",
+      "n_verses": 211,
+      "mean_delta": 6.829,
+      "std_delta": 4.953,
+      "median_delta": 6.0
+    },
+    "Malachi": {
+      "genre": "prophetic",
+      "n_verses": 55,
+      "mean_delta": 6.815,
+      "std_delta": 5.706,
+      "median_delta": 5.0
+    },
+    "Matthew": {
+      "genre": "evangelios",
+      "n_verses": 1068,
+      "mean_delta": 7.043,
+      "std_delta": 5.525,
+      "median_delta": 6.0
+    },
+    "Mark": {
+      "genre": "evangelios",
+      "n_verses": 673,
+      "mean_delta": 7.079,
+      "std_delta": 5.433,
+      "median_delta": 6.0
+    },
+    "Luke": {
+      "genre": "evangelios",
+      "n_verses": 1149,
+      "mean_delta": 7.187,
+      "std_delta": 5.59,
+      "median_delta": 6.0
+    },
+    "John": {
+      "genre": "evangelios",
+      "n_verses": 866,
+      "mean_delta": 7.184,
+      "std_delta": 5.628,
+      "median_delta": 6.0
+    },
+    "Acts": {
+      "genre": "epistolas",
+      "n_verses": 1002,
+      "mean_delta": 7.289,
+      "std_delta": 5.612,
+      "median_delta": 6.0
+    },
+    "Romans": {
+      "genre": "epistolas",
+      "n_verses": 430,
+      "mean_delta": 6.17,
+      "std_delta": 4.883,
+      "median_delta": 5.0
+    },
+    "1 Corinthians": {
+      "genre": "epistolas",
+      "n_verses": 437,
+      "mean_delta": 6.305,
+      "std_delta": 4.799,
+      "median_delta": 6.0
+    },
+    "2 Corinthians": {
+      "genre": "epistolas",
+      "n_verses": 256,
+      "mean_delta": 7.071,
+      "std_delta": 4.861,
+      "median_delta": 6.0
+    },
+    "Galatians": {
+      "genre": "epistolas",
+      "n_verses": 149,
+      "mean_delta": 7.196,
+      "std_delta": 5.762,
+      "median_delta": 5.5
+    },
+    "Ephesians": {
+      "genre": "epistolas",
+      "n_verses": 155,
+      "mean_delta": 5.656,
+      "std_delta": 4.086,
+      "median_delta": 5.0
+    },
+    "Philippians": {
+      "genre": "epistolas",
+      "n_verses": 104,
+      "mean_delta": 6.175,
+      "std_delta": 5.46,
+      "median_delta": 4.0
+    },
+    "Colossians": {
+      "genre": "epistolas",
+      "n_verses": 95,
+      "mean_delta": 7.011,
+      "std_delta": 5.195,
+      "median_delta": 6.0
+    },
+    "1 Thessalonians": {
+      "genre": "epistolas",
+      "n_verses": 89,
+      "mean_delta": 6.773,
+      "std_delta": 5.914,
+      "median_delta": 5.0
+    },
+    "2 Thessalonians": {
+      "genre": "epistolas",
+      "n_verses": 47,
+      "mean_delta": 6.522,
+      "std_delta": 4.323,
+      "median_delta": 6.0
+    },
+    "1 Timothy": {
+      "genre": "epistolas",
+      "n_verses": 113,
+      "mean_delta": 5.893,
+      "std_delta": 4.264,
+      "median_delta": 5.0
+    },
+    "2 Timothy": {
+      "genre": "epistolas",
+      "n_verses": 83,
+      "mean_delta": 6.073,
+      "std_delta": 5.167,
+      "median_delta": 5.0
+    },
+    "Titus": {
+      "genre": "epistolas",
+      "n_verses": 46,
+      "mean_delta": 5.733,
+      "std_delta": 4.002,
+      "median_delta": 6.0
+    },
+    "Philemon": {
+      "genre": "epistolas",
+      "n_verses": 25,
+      "mean_delta": 4.167,
+      "std_delta": 3.158,
+      "median_delta": 3.5
+    },
+    "Hebrews": {
+      "genre": "epistolas",
+      "n_verses": 303,
+      "mean_delta": 6.321,
+      "std_delta": 4.735,
+      "median_delta": 5.0
+    },
+    "James": {
+      "genre": "epistolas",
+      "n_verses": 108,
+      "mean_delta": 6.757,
+      "std_delta": 5.265,
+      "median_delta": 6.0
+    },
+    "1 Peter": {
+      "genre": "epistolas",
+      "n_verses": 105,
+      "mean_delta": 6.385,
+      "std_delta": 4.748,
+      "median_delta": 6.0
+    },
+    "2 Peter": {
+      "genre": "epistolas",
+      "n_verses": 61,
+      "mean_delta": 5.167,
+      "std_delta": 4.371,
+      "median_delta": 4.0
+    },
+    "1 John": {
+      "genre": "epistolas",
+      "n_verses": 105,
+      "mean_delta": 8.933,
+      "std_delta": 7.092,
+      "median_delta": 8.0
+    },
+    "2 John": {
+      "genre": "epistolas",
+      "n_verses": 13,
+      "mean_delta": 8.583,
+      "std_delta": 5.235,
+      "median_delta": 8.5
+    },
+    "3 John": {
+      "genre": "epistolas",
+      "n_verses": 15,
+      "mean_delta": 4.5,
+      "std_delta": 5.616,
+      "median_delta": 2.0
+    },
+    "Jude": {
+      "genre": "epistolas",
+      "n_verses": 25,
+      "mean_delta": 6.917,
+      "std_delta": 4.329,
+      "median_delta": 6.5
+    },
+    "Revelation": {
+      "genre": "epistolas",
+      "n_verses": 405,
+      "mean_delta": 9.329,
+      "std_delta": 7.361,
+      "median_delta": 8.0
+    }
+  }
+}

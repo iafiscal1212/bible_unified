@@ -1,0 +1,42 @@
+{
+  "n_changes": 4,
+  "changes": [
+    {
+      "corpus": "Mishnah",
+      "original": "NT",
+      "corrected": "AT",
+      "P_AT_original": 0.0065,
+      "P_AT_corrected": 0.5883
+    },
+    {
+      "corpus": "Tosefta",
+      "original": "NT",
+      "corrected": "AT",
+      "P_AT_original": 0.0,
+      "P_AT_corrected": 0.7683
+    },
+    {
+      "corpus": "Pali_Canon",
+      "original": "AT",
+      "corrected": "NT",
+      "P_AT_original": 1.0,
+      "P_AT_corrected": 0.4898
+    },
+    {
+      "corpus": "Didache",
+      "original": "NT",
+      "corrected": "AT",
+      "P_AT_original": 0.1319,
+      "P_AT_corrected": 0.738
+    }
+  ],
+  "best_classifier": "LogisticRegression",
+  "loo_accuracy": 0.75,
+  "bias_check": {
+    "r_mean_verse_len_vs_P_AT": -0.389,
+    "p_value": 0.0063,
+    "abs_r": 0.389,
+    "bias_threshold": 0.3,
+    "bias_detected": true
+  }
+}

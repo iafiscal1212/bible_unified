@@ -1,0 +1,15 @@
+{
+  "label": "DN",
+  "n_segments": 16401,
+  "n_words": 141565,
+  "H": 0.7577,
+  "DFA": 0.7652,
+  "AC1": 0.2297,
+  "mean_verse_len": 8.63,
+  "std_verse_len": 6.98,
+  "CV": 0.8091,
+  "skewness": 2.5774,
+  "bond_dimension": 237,
+  "bond_dimension_64": 62,
+  "mps_perm_p": 0.0
+}

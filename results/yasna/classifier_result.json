@@ -1,0 +1,16 @@
+{
+  "predicted_class": "AT",
+  "P_AT": 0.9978,
+  "P_NT": 0.0022,
+  "features_used": {
+    "H": 0.9037,
+    "DFA": 0.61,
+    "AC1": 0.2381,
+    "mean_verse_len": 5.04,
+    "std_verse_len": 1.77,
+    "CV": 0.3513,
+    "skewness": 1.5574,
+    "pos_entropy": 2.43895
+  },
+  "pos_entropy_note": "Median AT pos_entropy (Avestan — no tagger available)"
+}

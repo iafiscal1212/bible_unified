@@ -1,0 +1,11 @@
+{
+  "Didache": {
+    "delay": 70,
+    "observed_H": 0.7096,
+    "observed_class": "AT",
+    "model_controlled_H": 0.8761,
+    "model_free_mean_H": 0.8575,
+    "consistent_with_controlled": false,
+    "consistent_with_free": false
+  }
+}

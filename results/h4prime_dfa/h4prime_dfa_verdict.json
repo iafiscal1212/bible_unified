@@ -1,0 +1,323 @@
+{
+  "verdict": "INDETERMINADA",
+  "n_criteria_met": 0,
+  "n_criteria_total": 4,
+  "criteria": [
+    {
+      "name": "MW_control_significant",
+      "met": false
+    },
+    {
+      "name": "Spearman_negative_significant",
+      "met": false
+    },
+    {
+      "name": "threshold_sweep_any_significant",
+      "met": false
+    },
+    {
+      "name": "LOO_robust_80pct",
+      "met": false,
+      "detail": "0/12 LOO MW tests significant"
+    }
+  ],
+  "n_corpora_used": 12,
+  "corpora_table": [
+    {
+      "corpus": "AT_corpus",
+      "DFA": 0.9295,
+      "delay": 0,
+      "control": true
+    },
+    {
+      "corpus": "NT_corpus",
+      "DFA": 0.8286,
+      "delay": 300,
+      "control": false
+    },
+    {
+      "corpus": "Quran",
+      "DFA": 0.9336,
+      "delay": 20,
+      "control": true
+    },
+    {
+      "corpus": "Rig_Veda",
+      "DFA": 0.5087,
+      "delay": 0,
+      "control": true
+    },
+    {
+      "corpus": "Homer",
+      "DFA": 0.5977,
+      "delay": 400,
+      "control": false
+    },
+    {
+      "corpus": "Herodotus",
+      "DFA": 0.6322,
+      "delay": 200,
+      "control": false
+    },
+    {
+      "corpus": "Book_of_Dead",
+      "DFA": 0.7732,
+      "delay": 0,
+      "control": true
+    },
+    {
+      "corpus": "Pali_Canon",
+      "DFA": 0.7583,
+      "delay": 0,
+      "control": true
+    },
+    {
+      "corpus": "Mishnah",
+      "DFA": 0.6545,
+      "delay": 400,
+      "control": false
+    },
+    {
+      "corpus": "Didache",
+      "DFA": 0.8251,
+      "delay": 80,
+      "control": false
+    },
+    {
+      "corpus": "1_Clemente",
+      "DFA": 0.6084,
+      "delay": 65,
+      "control": false
+    },
+    {
+      "corpus": "Tosefta",
+      "DFA": 0.7754,
+      "delay": 170,
+      "control": false
+    }
+  ],
+  "mann_whitney": {
+    "test": "Mann-Whitney: control_from_origin=Yes vs No",
+    "n_control": 5,
+    "n_no_control": 7,
+    "control_mean_DFA": 0.7807,
+    "no_control_mean_DFA": 0.7031,
+    "U": 22.0,
+    "p": 0.530303,
+    "cohen_d": 0.54,
+    "significant": false,
+    "control_corpora": [
+      "AT_corpus",
+      "Quran",
+      "Rig_Veda",
+      "Book_of_Dead",
+      "Pali_Canon"
+    ],
+    "no_control_corpora": [
+      "NT_corpus",
+      "Homer",
+      "Herodotus",
+      "Mishnah",
+      "Didache",
+      "1_Clemente",
+      "Tosefta"
+    ]
+  },
+  "correlation": {
+    "delay_nonzero": {
+      "n": 8,
+      "spearman_rho": -0.4192,
+      "spearman_p": 0.301267,
+      "significant": false,
+      "direction": "negative"
+    },
+    "all_corpora": {
+      "n": 12,
+      "spearman_rho": -0.164,
+      "spearman_p": 0.61048,
+      "significant": false
+    }
+  },
+  "regression": {
+    "slope": -0.000264,
+    "intercept": 0.7714,
+    "r_squared": 0.0926,
+    "p_value": 0.336309,
+    "std_error": 0.000261,
+    "n": 12,
+    "interpretation": "DFA = 0.7714 + -0.000264 * delay, R²=0.0926, p=0.3363"
+  },
+  "threshold_sweep": [
+    {
+      "threshold_years": 25,
+      "n_early": 5,
+      "n_late": 7,
+      "early_mean_DFA": 0.7807,
+      "late_mean_DFA": 0.7031,
+      "U": 22.0,
+      "p": 0.530303,
+      "significant": false
+    },
+    {
+      "threshold_years": 50,
+      "n_early": 5,
+      "n_late": 7,
+      "early_mean_DFA": 0.7807,
+      "late_mean_DFA": 0.7031,
+      "U": 22.0,
+      "p": 0.530303,
+      "significant": false
+    },
+    {
+      "threshold_years": 75,
+      "n_early": 6,
+      "n_late": 6,
+      "early_mean_DFA": 0.7519,
+      "late_mean_DFA": 0.7189,
+      "U": 19.0,
+      "p": 0.937229,
+      "significant": false
+    },
+    {
+      "threshold_years": 100,
+      "n_early": 7,
+      "n_late": 5,
+      "early_mean_DFA": 0.7624,
+      "late_mean_DFA": 0.6977,
+      "U": 21.0,
+      "p": 0.638889,
+      "significant": false
+    },
+    {
+      "threshold_years": 150,
+      "n_early": 7,
+      "n_late": 5,
+      "early_mean_DFA": 0.7624,
+      "late_mean_DFA": 0.6977,
+      "U": 21.0,
+      "p": 0.638889,
+      "significant": false
+    },
+    {
+      "threshold_years": 200,
+      "n_early": 9,
+      "n_late": 3,
+      "early_mean_DFA": 0.7494,
+      "late_mean_DFA": 0.6936,
+      "U": 16.0,
+      "p": 0.727273,
+      "significant": false
+    }
+  ],
+  "genre_controlled": {
+    "n_narrative": 4,
+    "spearman_rho": -0.8,
+    "spearman_p": 0.2,
+    "corpora": [
+      "AT_corpus",
+      "NT_corpus",
+      "Homer",
+      "Herodotus"
+    ],
+    "mann_whitney": "insufficient_data"
+  },
+  "loo_sensitivity": [
+    {
+      "left_out": "AT_corpus",
+      "spearman_rho": -0.0322,
+      "spearman_p": 0.925155,
+      "significant": false,
+      "mw_p": 0.927273,
+      "mw_significant": false
+    },
+    {
+      "left_out": "NT_corpus",
+      "spearman_rho": -0.2472,
+      "spearman_p": 0.463719,
+      "significant": false,
+      "mw_p": 0.428571,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Quran",
+      "spearman_rho": -0.1213,
+      "spearman_p": 0.722489,
+      "significant": false,
+      "mw_p": 0.927273,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Rig_Veda",
+      "spearman_rho": -0.4184,
+      "spearman_p": 0.200289,
+      "significant": false,
+      "mw_p": 0.163636,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Homer",
+      "spearman_rho": -0.0093,
+      "spearman_p": 0.978339,
+      "significant": false,
+      "mw_p": 0.662338,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Herodotus",
+      "spearman_rho": -0.1119,
+      "spearman_p": 0.743188,
+      "significant": false,
+      "mw_p": 0.662338,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Book_of_Dead",
+      "spearman_rho": -0.1793,
+      "spearman_p": 0.59779,
+      "significant": false,
+      "mw_p": 0.527273,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Pali_Canon",
+      "spearman_rho": -0.1793,
+      "spearman_p": 0.59779,
+      "significant": false,
+      "mw_p": 0.527273,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Mishnah",
+      "spearman_rho": -0.0744,
+      "spearman_p": 0.827807,
+      "significant": false,
+      "mw_p": 0.662338,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Didache",
+      "spearman_rho": -0.1912,
+      "spearman_p": 0.573308,
+      "significant": false,
+      "mw_p": 0.428571,
+      "mw_significant": false
+    },
+    {
+      "left_out": "1_Clemente",
+      "spearman_rho": -0.1959,
+      "spearman_p": 0.563809,
+      "significant": false,
+      "mw_p": 0.662338,
+      "mw_significant": false
+    },
+    {
+      "left_out": "Tosefta",
+      "spearman_rho": -0.1912,
+      "spearman_p": 0.573308,
+      "significant": false,
+      "mw_p": 0.428571,
+      "mw_significant": false
+    }
+  ],
+  "reasoning": "H4' DFA retest: 0/4 criteria met → INDETERMINADA. MW p=0.530303, Spearman rho=-0.164 (p=0.61048), LOO: 0/12 robust."
+}

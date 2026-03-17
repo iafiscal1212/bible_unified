@@ -1,0 +1,19 @@
+{
+  "AC1": 0.1805,
+  "d_approx": 0.2495,
+  "H": 0.7495,
+  "distances": {
+    "AT": 0.197,
+    "NT": 0.1096,
+    "Corán": 0.3237,
+    "Rig_Veda": 0.3141
+  },
+  "nearest_corpus": "NT",
+  "transmission_context": {
+    "type": "delayed_control",
+    "oral_free_period": "~200 BCE to ~200 CE (400 years of free oral debate)",
+    "written_fixation": "~200 CE by Rabbi Yehuda ha-Nasi",
+    "control_from_origin": false,
+    "note": "Mishnah content evolved through centuries of rabbinic debate before being codified. Unlike AT/Corán/BoD/Pali, control did NOT start from the moment of composition."
+  }
+}

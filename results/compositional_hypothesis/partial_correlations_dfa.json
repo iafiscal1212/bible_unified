@@ -1,0 +1,35 @@
+{
+  "AC1": {
+    "note": "AC1 is the control variable itself",
+    "partial_r": null,
+    "partial_p": null
+  },
+  "CV": {
+    "n": 48,
+    "partial_r": 0.2749,
+    "partial_p": 0.05861,
+    "original_r": 0.632,
+    "change": -0.3571
+  },
+  "pos_entropy": {
+    "n": 48,
+    "partial_r": -0.3768,
+    "partial_p": 0.008294,
+    "original_r": -0.5297,
+    "change": -0.1529
+  },
+  "mean_delta": {
+    "n": 48,
+    "partial_r": 0.0704,
+    "partial_p": 0.63441,
+    "original_r": -0.4992,
+    "change": -0.4288
+  },
+  "proper_ratio": {
+    "n": 48,
+    "partial_r": 0.386,
+    "partial_p": 0.006731,
+    "original_r": 0.4352,
+    "change": -0.0492
+  }
+}

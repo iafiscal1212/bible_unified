@@ -1,0 +1,170 @@
+{
+  "status": "COMPLETED",
+  "elapsed_seconds": 13.7,
+  "scripts": {
+    "classifier_correction": {
+      "rc": 0,
+      "status": "OK"
+    },
+    "Script2-GapCorpora": {
+      "rc": 0,
+      "status": "OK"
+    },
+    "Script3-H4prime": {
+      "rc": 1,
+      "status": "FAILED"
+    },
+    "Script4-Degradation": {
+      "rc": 0,
+      "status": "OK"
+    }
+  },
+  "classifier": {
+    "best": "LogisticRegression",
+    "loo_accuracy": 0.75,
+    "bias_ok": false,
+    "n_classification_changes": 4,
+    "changes": [
+      {
+        "corpus": "Mishnah",
+        "original": "NT",
+        "corrected": "AT",
+        "P_AT_original": 0.0065,
+        "P_AT_corrected": 0.5883
+      },
+      {
+        "corpus": "Tosefta",
+        "original": "NT",
+        "corrected": "AT",
+        "P_AT_original": 0.0,
+        "P_AT_corrected": 0.7683
+      },
+      {
+        "corpus": "Pali_Canon",
+        "original": "AT",
+        "corrected": "NT",
+        "P_AT_original": 1.0,
+        "P_AT_corrected": 0.4898
+      },
+      {
+        "corpus": "Didache",
+        "original": "NT",
+        "corrected": "AT",
+        "P_AT_original": 0.1319,
+        "P_AT_corrected": 0.738
+      }
+    ]
+  },
+  "mishnah_verdict": {
+    "corpus": "Mishnah",
+    "P_AT_original": 0.0065,
+    "P_AT_corrected": 0.5883,
+    "original_class": "NT",
+    "corrected_class": "AT",
+    "classification_changed": true,
+    "features": {
+      "H": 0.7495,
+      "DFA": 0.6545,
+      "AC1": 0.1805,
+      "CV": 0.5842
+    },
+    "classifier": "LogisticRegression",
+    "classifier_loo_accuracy": 0.75
+  },
+  "gap_corpora": {
+    "corpora": {
+      "1_Clemente": {
+        "H": 0.637,
+        "AC1": 0.2373,
+        "DFA": 0.6084,
+        "CV": 0.7376,
+        "predicted": "NT",
+        "P_AT": 0.201,
+        "delay": 65,
+        "n_segments": 400
+      },
+      "Policarpo": {
+        "corpus": "Policarpo",
+        "status": "excluded",
+        "reason": "n_segments=38 < 50",
+        "n_segments": 38,
+        "n_words": 1982,
+        "metrics_informal": {
+          "H": 0.2182,
+          "DFA": 0.5283,
+          "AC1": -0.0472,
+          "CV": 0.3652,
+          "mean_verse_len": 52.16,
+          "std_verse_len": 19.05,
+          "n_segments": 38,
+          "n_words": 1982
+        },
+        "small_sample_warning": true
+      },
+      "Tosefta": {
+        "H": 0.9294,
+        "AC1": 0.2789,
+        "DFA": 0.7754,
+        "CV": 0.7793,
+        "predicted": "AT",
+        "P_AT": 0.7683,
+        "delay": 170,
+        "n_segments": 3757
+      }
+    }
+  },
+  "degradation": {
+    "controlled_rate_measured": 0.000745,
+    "critical_delays": {
+      "controlled": 16993.0,
+      "free_mean": 463.0,
+      "free_worst": 244.0,
+      "unit": "years",
+      "interpretation": "Delay in years at which H crosses AT/NT boundary"
+    },
+    "irreversibility": "PARTIALLY_REVERSIBLE",
+    "gap_predictions": {
+      "delay_65": {
+        "delay_years": 65,
+        "H_if_controlled": 0.8761,
+        "H_if_free_mean": 0.8588,
+        "H_if_free_worst": 0.8429,
+        "boundary": 0.75,
+        "controlled_prediction": "AT-like",
+        "free_mean_prediction": "AT-like",
+        "free_worst_prediction": "AT-like"
+      },
+      "delay_70": {
+        "delay_years": 70,
+        "H_if_controlled": 0.8761,
+        "H_if_free_mean": 0.8575,
+        "H_if_free_worst": 0.8403,
+        "boundary": 0.75,
+        "controlled_prediction": "AT-like",
+        "free_mean_prediction": "AT-like",
+        "free_worst_prediction": "AT-like"
+      },
+      "delay_170": {
+        "delay_years": 170,
+        "H_if_controlled": 0.8753,
+        "H_if_free_mean": 0.8301,
+        "H_if_free_worst": 0.7884,
+        "boundary": 0.75,
+        "controlled_prediction": "AT-like",
+        "free_mean_prediction": "AT-like",
+        "free_worst_prediction": "AT-like"
+      }
+    },
+    "predicted_vs_observed": {
+      "Didache": {
+        "delay": 70,
+        "observed_H": 0.7096,
+        "observed_class": "AT",
+        "model_controlled_H": 0.8761,
+        "model_free_mean_H": 0.8575,
+        "consistent_with_controlled": false,
+        "consistent_with_free": false
+      }
+    }
+  }
+}

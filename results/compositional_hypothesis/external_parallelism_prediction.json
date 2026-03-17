@@ -1,0 +1,78 @@
+{
+  "AT": {
+    "AC1": 0.34,
+    "DFA_actual": 0.93,
+    "PI_approx": 0.6517,
+    "DFA_predicted": 0.6913,
+    "residual": 0.2387
+  },
+  "NT": {
+    "AC1": 0.09,
+    "DFA_actual": 0.83,
+    "PI_approx": 0.03,
+    "DFA_predicted": 0.6297,
+    "residual": 0.2003
+  },
+  "Quran": {
+    "AC1": 0.47,
+    "DFA_actual": 0.93,
+    "PI_approx": 0.975,
+    "DFA_predicted": 0.7232,
+    "residual": 0.2068
+  },
+  "Rig_Veda": {
+    "AC1": -0.02,
+    "DFA_actual": 0.51,
+    "PI_approx": -0.2435,
+    "DFA_predicted": 0.6027,
+    "residual": -0.0927
+  },
+  "Book_of_Dead": {
+    "AC1": 0.2,
+    "DFA_actual": 0.77,
+    "PI_approx": 0.3035,
+    "DFA_predicted": 0.6568,
+    "residual": 0.1132
+  },
+  "Pali_Canon": {
+    "AC1": 0.21,
+    "DFA_actual": 0.76,
+    "PI_approx": 0.3284,
+    "DFA_predicted": 0.6593,
+    "residual": 0.1007
+  },
+  "Mishnah": {
+    "AC1": 0.18,
+    "DFA_actual": 0.65,
+    "PI_approx": 0.2538,
+    "DFA_predicted": 0.6519,
+    "residual": -0.0019
+  },
+  "Didache": {
+    "AC1": 0.2,
+    "DFA_actual": 0.83,
+    "PI_approx": 0.3035,
+    "DFA_predicted": 0.6568,
+    "residual": 0.1732
+  },
+  "1_Clemente": {
+    "AC1": 0.24,
+    "DFA_actual": 0.61,
+    "PI_approx": 0.403,
+    "DFA_predicted": 0.6666,
+    "residual": -0.0566
+  },
+  "Tosefta": {
+    "AC1": 0.28,
+    "DFA_actual": 0.78,
+    "PI_approx": 0.5025,
+    "DFA_predicted": 0.6765,
+    "residual": 0.1035
+  },
+  "_regression": {
+    "formula": "DFA ~ PI",
+    "slope": 0.099,
+    "intercept": 0.6268,
+    "R2": 0.6691
+  }
+}

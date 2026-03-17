@@ -1,0 +1,500 @@
+{
+  "features_used": [
+    "H",
+    "DFA",
+    "AC1",
+    "CV"
+  ],
+  "features_prohibited": [
+    "mean_verse_len",
+    "std_verse_len",
+    "skewness",
+    "pos_entropy"
+  ],
+  "n_training_books": 48,
+  "skipped_books": [
+    "2 Peter",
+    "2 Thessalonians",
+    "2 Timothy",
+    "Habakkuk",
+    "Haggai",
+    "Joel",
+    "Jonah",
+    "Jude",
+    "Malachi",
+    "Nahum",
+    "Obadiah",
+    "Philemon",
+    "Ruth",
+    "Titus",
+    "Zephaniah"
+  ],
+  "best_classifier": "LogisticRegression",
+  "classifiers": {
+    "LogisticRegression": {
+      "accuracy_loo": 0.75,
+      "n_misclassified": 12,
+      "misclassified": [
+        {
+          "book": "2 Corinthians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.9267
+        },
+        {
+          "book": "Ephesians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.76
+        },
+        {
+          "book": "Esther",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.4592
+        },
+        {
+          "book": "Ezekiel",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.4945
+        },
+        {
+          "book": "Hebrews",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7267
+        },
+        {
+          "book": "Hosea",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.262
+        },
+        {
+          "book": "Luke",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.6721
+        },
+        {
+          "book": "Matthew",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.6245
+        },
+        {
+          "book": "Micah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.359
+        },
+        {
+          "book": "Proverbs",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.2948
+        },
+        {
+          "book": "Romans",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.6542
+        },
+        {
+          "book": "Zechariah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.3153
+        }
+      ]
+    },
+    "RandomForest": {
+      "accuracy_loo": 0.6667,
+      "n_misclassified": 16,
+      "misclassified": [
+        {
+          "book": "1 Samuel",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.44
+        },
+        {
+          "book": "2 Corinthians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.94
+        },
+        {
+          "book": "Amos",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.19
+        },
+        {
+          "book": "Colossians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.56
+        },
+        {
+          "book": "Ephesians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.61
+        },
+        {
+          "book": "Exodus",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.21
+        },
+        {
+          "book": "Ezekiel",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.41
+        },
+        {
+          "book": "Galatians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.75
+        },
+        {
+          "book": "Hebrews",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.55
+        },
+        {
+          "book": "Hosea",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.1
+        },
+        {
+          "book": "Luke",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.71
+        },
+        {
+          "book": "Mark",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.59
+        },
+        {
+          "book": "Matthew",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.78
+        },
+        {
+          "book": "Micah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.35
+        },
+        {
+          "book": "Romans",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.58
+        },
+        {
+          "book": "Zechariah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.12
+        }
+      ]
+    },
+    "SVM": {
+      "accuracy_loo": 0.7292,
+      "n_misclassified": 13,
+      "misclassified": [
+        {
+          "book": "1 Thessalonians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.5839
+        },
+        {
+          "book": "1 Timothy",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.5992
+        },
+        {
+          "book": "2 Corinthians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.9064
+        },
+        {
+          "book": "Colossians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.6484
+        },
+        {
+          "book": "Ephesians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7275
+        },
+        {
+          "book": "Galatians",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7268
+        },
+        {
+          "book": "Hebrews",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7452
+        },
+        {
+          "book": "Hosea",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.1354
+        },
+        {
+          "book": "Luke",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7782
+        },
+        {
+          "book": "Matthew",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.7204
+        },
+        {
+          "book": "Micah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.3181
+        },
+        {
+          "book": "Romans",
+          "true": "NT",
+          "predicted": "AT",
+          "P_AT": 0.6976
+        },
+        {
+          "book": "Zechariah",
+          "true": "AT",
+          "predicted": "NT",
+          "P_AT": 0.3353
+        }
+      ]
+    }
+  },
+  "bias_check": {
+    "r_mean_verse_len_vs_P_AT": -0.389,
+    "p_value": 0.0063,
+    "abs_r": 0.389,
+    "bias_threshold": 0.3,
+    "bias_detected": true
+  },
+  "book_scores": {
+    "1 Chronicles": {
+      "true": "AT",
+      "P_AT_corrected": 0.9083
+    },
+    "1 Corinthians": {
+      "true": "NT",
+      "P_AT_corrected": 0.2021
+    },
+    "1 John": {
+      "true": "NT",
+      "P_AT_corrected": 0.0689
+    },
+    "1 Kings": {
+      "true": "AT",
+      "P_AT_corrected": 0.7027
+    },
+    "1 Peter": {
+      "true": "NT",
+      "P_AT_corrected": 0.3367
+    },
+    "1 Samuel": {
+      "true": "AT",
+      "P_AT_corrected": 0.5689
+    },
+    "1 Thessalonians": {
+      "true": "NT",
+      "P_AT_corrected": 0.1719
+    },
+    "1 Timothy": {
+      "true": "NT",
+      "P_AT_corrected": 0.4886
+    },
+    "2 Chronicles": {
+      "true": "AT",
+      "P_AT_corrected": 0.5177
+    },
+    "2 Corinthians": {
+      "true": "NT",
+      "P_AT_corrected": 0.9267
+    },
+    "2 Kings": {
+      "true": "AT",
+      "P_AT_corrected": 0.7264
+    },
+    "2 Samuel": {
+      "true": "AT",
+      "P_AT_corrected": 0.8681
+    },
+    "Acts": {
+      "true": "NT",
+      "P_AT_corrected": 0.3848
+    },
+    "Amos": {
+      "true": "AT",
+      "P_AT_corrected": 0.5217
+    },
+    "Colossians": {
+      "true": "NT",
+      "P_AT_corrected": 0.4596
+    },
+    "Daniel": {
+      "true": "AT",
+      "P_AT_corrected": 0.7277
+    },
+    "Deuteronomy": {
+      "true": "AT",
+      "P_AT_corrected": 0.5445
+    },
+    "Ecclesiastes": {
+      "true": "AT",
+      "P_AT_corrected": 0.9766
+    },
+    "Ephesians": {
+      "true": "NT",
+      "P_AT_corrected": 0.76
+    },
+    "Esther": {
+      "true": "AT",
+      "P_AT_corrected": 0.4592
+    },
+    "Exodus": {
+      "true": "AT",
+      "P_AT_corrected": 0.6491
+    },
+    "Ezekiel": {
+      "true": "AT",
+      "P_AT_corrected": 0.4945
+    },
+    "Ezra": {
+      "true": "AT",
+      "P_AT_corrected": 0.9885
+    },
+    "Galatians": {
+      "true": "NT",
+      "P_AT_corrected": 0.4418
+    },
+    "Genesis": {
+      "true": "AT",
+      "P_AT_corrected": 0.6713
+    },
+    "Hebrews": {
+      "true": "NT",
+      "P_AT_corrected": 0.7267
+    },
+    "Hosea": {
+      "true": "AT",
+      "P_AT_corrected": 0.262
+    },
+    "Isaiah": {
+      "true": "AT",
+      "P_AT_corrected": 0.7815
+    },
+    "James": {
+      "true": "NT",
+      "P_AT_corrected": 0.2708
+    },
+    "Jeremiah": {
+      "true": "AT",
+      "P_AT_corrected": 0.7874
+    },
+    "Job": {
+      "true": "AT",
+      "P_AT_corrected": 0.9571
+    },
+    "John": {
+      "true": "NT",
+      "P_AT_corrected": 0.2811
+    },
+    "Joshua": {
+      "true": "AT",
+      "P_AT_corrected": 0.9471
+    },
+    "Judges": {
+      "true": "AT",
+      "P_AT_corrected": 0.791
+    },
+    "Lamentations": {
+      "true": "AT",
+      "P_AT_corrected": 0.9994
+    },
+    "Leviticus": {
+      "true": "AT",
+      "P_AT_corrected": 0.7659
+    },
+    "Luke": {
+      "true": "NT",
+      "P_AT_corrected": 0.6721
+    },
+    "Mark": {
+      "true": "NT",
+      "P_AT_corrected": 0.4285
+    },
+    "Matthew": {
+      "true": "NT",
+      "P_AT_corrected": 0.6245
+    },
+    "Micah": {
+      "true": "AT",
+      "P_AT_corrected": 0.359
+    },
+    "Nehemiah": {
+      "true": "AT",
+      "P_AT_corrected": 0.9953
+    },
+    "Numbers": {
+      "true": "AT",
+      "P_AT_corrected": 0.8629
+    },
+    "Philippians": {
+      "true": "NT",
+      "P_AT_corrected": 0.2087
+    },
+    "Proverbs": {
+      "true": "AT",
+      "P_AT_corrected": 0.2948
+    },
+    "Psalms": {
+      "true": "AT",
+      "P_AT_corrected": 0.8841
+    },
+    "Revelation": {
+      "true": "NT",
+      "P_AT_corrected": 0.3089
+    },
+    "Romans": {
+      "true": "NT",
+      "P_AT_corrected": 0.6542
+    },
+    "Zechariah": {
+      "true": "AT",
+      "P_AT_corrected": 0.3153
+    }
+  }
+}

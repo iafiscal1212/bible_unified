@@ -1,0 +1,151 @@
+{
+  "AT": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.9694,
+    "P_NT": 0.0306,
+    "features": {
+      "H": 0.8766,
+      "DFA": 0.9295,
+      "AC1": 0.3359,
+      "CV": 0.4564
+    },
+    "source": "fitted_params.json (corpus-level)"
+  },
+  "NT": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.9351,
+    "P_NT": 0.0649,
+    "features": {
+      "H": 0.7834,
+      "DFA": 0.8286,
+      "AC1": 0.0853,
+      "CV": 0.381
+    },
+    "source": "fitted_params.json (corpus-level)"
+  },
+  "Corán": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.8881,
+    "P_NT": 0.1119,
+    "features": {
+      "H": 0.8963,
+      "DFA": 0.9336,
+      "AC1": 0.4722,
+      "CV": 0.7584
+    },
+    "source": "fitted_params.json (corpus-level)"
+  },
+  "Rig_Veda": {
+    "status": "classified",
+    "predicted_class": "NT",
+    "P_AT": 0.4934,
+    "P_NT": 0.5066,
+    "features": {
+      "H": 0.5612,
+      "DFA": 0.5087,
+      "AC1": -0.016,
+      "CV": 0.2586
+    },
+    "source": "fitted_params.json (corpus-level)"
+  },
+  "Mishnah": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.5883,
+    "P_NT": 0.4117,
+    "features": {
+      "H": 0.7495,
+      "DFA": 0.6545,
+      "AC1": 0.1805,
+      "CV": 0.5842
+    },
+    "source": "mishnah/mishnah_metrics.json",
+    "original_predicted": "NT",
+    "original_P_AT": 0.0065,
+    "classification_changed": true
+  },
+  "Tosefta": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.7683,
+    "P_NT": 0.2317,
+    "features": {
+      "H": 0.9294,
+      "DFA": 0.7754,
+      "AC1": 0.2789,
+      "CV": 0.7793
+    },
+    "source": "tosefta/tosefta_metrics.json",
+    "original_predicted": "NT",
+    "original_P_AT": 0.0,
+    "classification_changed": true
+  },
+  "Book_of_Dead": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.5431,
+    "P_NT": 0.4569,
+    "features": {
+      "H": 0.779,
+      "DFA": 0.7732,
+      "AC1": 0.2023,
+      "CV": 0.8019
+    },
+    "source": "book_of_dead/corpus_metrics.json",
+    "original_predicted": "AT",
+    "original_P_AT": 0.9456,
+    "classification_changed": false
+  },
+  "Pali_Canon": {
+    "status": "classified",
+    "predicted_class": "NT",
+    "P_AT": 0.4898,
+    "P_NT": 0.5102,
+    "features": {
+      "H": 0.7704,
+      "DFA": 0.7583,
+      "AC1": 0.2125,
+      "CV": 0.8156
+    },
+    "source": "pali_canon/combined_metrics.json",
+    "original_predicted": "AT",
+    "original_P_AT": 1.0,
+    "classification_changed": true
+  },
+  "Didache": {
+    "status": "classified",
+    "predicted_class": "AT",
+    "P_AT": 0.738,
+    "P_NT": 0.262,
+    "features": {
+      "H": 0.7096,
+      "DFA": 0.8251,
+      "AC1": 0.2035,
+      "CV": 0.6113
+    },
+    "source": "didache/didache_metrics.json",
+    "original_predicted": "NT",
+    "original_P_AT": 0.1319,
+    "classification_changed": true
+  },
+  "Homero": {
+    "status": "excluded",
+    "reason": "Missing features: ['CV']",
+    "available": {
+      "H": 0.6278,
+      "DFA": 0.5977,
+      "AC1": -0.0043
+    }
+  },
+  "Heródoto": {
+    "status": "excluded",
+    "reason": "Missing features: ['AC1', 'CV']",
+    "available": {
+      "H": 0.6329,
+      "DFA": 0.6322
+    }
+  }
+}

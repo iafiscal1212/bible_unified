@@ -1,0 +1,18 @@
+{
+  "corpus": "Policarpo",
+  "status": "excluded",
+  "reason": "n_segments=38 < 50",
+  "n_segments": 38,
+  "n_words": 1982,
+  "metrics_informal": {
+    "H": 0.2182,
+    "DFA": 0.5283,
+    "AC1": -0.0472,
+    "CV": 0.3652,
+    "mean_verse_len": 52.16,
+    "std_verse_len": 19.05,
+    "n_segments": 38,
+    "n_words": 1982
+  },
+  "small_sample_warning": true
+}

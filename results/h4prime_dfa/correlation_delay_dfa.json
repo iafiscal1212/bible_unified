@@ -1,0 +1,15 @@
+{
+  "delay_nonzero": {
+    "n": 8,
+    "spearman_rho": -0.4192,
+    "spearman_p": 0.301267,
+    "significant": false,
+    "direction": "negative"
+  },
+  "all_corpora": {
+    "n": 12,
+    "spearman_rho": -0.164,
+    "spearman_p": 0.61048,
+    "significant": false
+  }
+}

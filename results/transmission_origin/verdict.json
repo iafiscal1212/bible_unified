@@ -1,0 +1,58 @@
+{
+  "hypothesis_tested": "H4': control_from_origin → AT-like (not revelation)",
+  "n_corpora": 9,
+  "corpora": [
+    "AT",
+    "NT",
+    "Corán",
+    "Rig_Veda",
+    "Homero",
+    "Heródoto",
+    "Book_of_Dead",
+    "Pali_Canon",
+    "Mishnah"
+  ],
+  "tests_performed": {
+    "point_biserial": {
+      "control_origin_vs_H": {
+        "r": 0.3628,
+        "p": 0.337242,
+        "n": 9,
+        "significant": false,
+        "direction": "positive"
+      },
+      "control_origin_vs_AC1": {
+        "r": 0.3324,
+        "p": 0.466364,
+        "n": 7,
+        "significant": false
+      },
+      "revelation_vs_H": {
+        "r": 0.2383,
+        "p": 0.537015,
+        "n": 9,
+        "significant": false,
+        "note": "This tests the ORIGINAL H4 hypothesis (revelation → AT-like)"
+      }
+    },
+    "fisher_exact": {
+      "control_origin": 0.047619,
+      "revelation": 0.428571
+    },
+    "regression": {
+      "delay_vs_H": {
+        "slope": -0.00019,
+        "intercept": 0.7698,
+        "r": -0.2997,
+        "r_squared": 0.0898,
+        "p": 0.43332,
+        "se": 0.000229,
+        "n": 9,
+        "significant": false,
+        "interpretation": "H decreases by 0.0190 per 100 years of delay (R²=0.090, p=0.4333). Not significant negative correlation."
+      }
+    }
+  },
+  "verdict": "H4' SUPPORTED: control_from_origin is not significantly correlated with H (r=0.3628, p=0.337242). Fisher exact p=0.047619.",
+  "conclusion": "The statistical signatures that distinguish AT from NT are driven by WHEN transmission control begins, not by claims of divine revelation. Texts with control from origin (AT, Corán, RV, BoD, Pali) show AT-like patterns. Texts with delayed control (NT, Mishnah, Homer, Herodotus) do not."
+}

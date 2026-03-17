@@ -1,0 +1,14 @@
+{
+  "pos_entropy": 2.0366,
+  "n_words_classified": 383216,
+  "n_categories": 5,
+  "distribution": {
+    "other": 140912,
+    "noun_base": 127406,
+    "verb": 54549,
+    "particle": 31175,
+    "noun_inflected": 29174
+  },
+  "method": "suffix_heuristic",
+  "caveat": "APPROXIMATE POS classification based on Pali suffix patterns. NOT morphologically verified — accuracy estimated ~60-70%. Valid for relative comparison, not absolute POS counts. NOT comparable with OSHB Hebrew POS."
+}

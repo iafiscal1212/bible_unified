@@ -1,0 +1,16 @@
+{
+  "corpus": "Mishnah",
+  "P_AT_original": 0.0065,
+  "P_AT_corrected": 0.5883,
+  "original_class": "NT",
+  "corrected_class": "AT",
+  "classification_changed": true,
+  "features": {
+    "H": 0.7495,
+    "DFA": 0.6545,
+    "AC1": 0.1805,
+    "CV": 0.5842
+  },
+  "classifier": "LogisticRegression",
+  "classifier_loo_accuracy": 0.75
+}

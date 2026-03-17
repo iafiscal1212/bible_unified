@@ -1,0 +1,382 @@
+{
+  "sweep_range": [
+    25,
+    200
+  ],
+  "step": 5,
+  "n_thresholds": 36,
+  "best_threshold": {
+    "threshold": 65,
+    "early_at": 3,
+    "early_nt": 3,
+    "late_at": 4,
+    "late_nt": 0,
+    "accuracy": 0.3,
+    "fisher_p": 0.2,
+    "odds_ratio": 0.0
+  },
+  "perfect_range": null,
+  "significant_range": null,
+  "all_thresholds": [
+    {
+      "threshold": 25,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 30,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 35,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 40,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 45,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 50,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 55,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 60,
+      "early_at": 3,
+      "early_nt": 2,
+      "late_at": 4,
+      "late_nt": 1,
+      "accuracy": 0.4,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.375
+    },
+    {
+      "threshold": 65,
+      "early_at": 3,
+      "early_nt": 3,
+      "late_at": 4,
+      "late_nt": 0,
+      "accuracy": 0.3,
+      "fisher_p": 0.2,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 70,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 75,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 80,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 85,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 90,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 95,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 100,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 105,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 110,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 115,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 120,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 125,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 130,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 135,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 140,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 145,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 150,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 155,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 160,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 165,
+      "early_at": 4,
+      "early_nt": 3,
+      "late_at": 3,
+      "late_nt": 0,
+      "accuracy": 0.4,
+      "fisher_p": 0.475,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 170,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 175,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 180,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 185,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 190,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 195,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    },
+    {
+      "threshold": 200,
+      "early_at": 5,
+      "early_nt": 3,
+      "late_at": 2,
+      "late_nt": 0,
+      "accuracy": 0.5,
+      "fisher_p": 1.0,
+      "odds_ratio": 0.0
+    }
+  ]
+}

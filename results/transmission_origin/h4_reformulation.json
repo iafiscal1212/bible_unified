@@ -1,0 +1,28 @@
+{
+  "H4_original": {
+    "statement": "Texts claiming direct divine revelation with controlled transmission produce AT-like statistical signatures (high H, high AC1).",
+    "variable": "revelation_claim",
+    "evidence_r": 0.2383,
+    "evidence_p": 0.537015,
+    "verdict": "INSUFFICIENT: Revelation correlates with H but CONFOUNDED with control_from_origin. Book of Dead (no revelation, controlled) is AT-like. Mishnah (no revelation, delayed control) is NOT AT-like."
+  },
+  "H4_prime": {
+    "statement": "Controlled transmission FROM THE ORIGIN (or near-origin) produces AT-like statistical signatures, REGARDLESS of divine revelation claims. Delayed control (free transmission before standardization) produces NT-like or intermediate signatures.",
+    "variable": "control_from_origin",
+    "evidence_r": 0.3628,
+    "evidence_p": 0.337242,
+    "supporting_evidence": [
+      "Book of Dead: controlled from origin, NO revelation → AT-like (P_AT=0.95)",
+      "Pali Canon: controlled from origin, NO revelation → AT-like (P_AT=1.00)",
+      "Mishnah: delayed control, NO revelation → predicted class from classifier",
+      "NT: delayed control → NT-like",
+      "Homero: no control → NT-like (low H)"
+    ],
+    "key_insight": "The causal variable is NOT revelation but WHEN control begins. Control from origin freezes the statistical structure of the text at composition time. Delayed control allows drift, which reduces H and AC1."
+  },
+  "discriminating_cases": {
+    "Book_of_Dead": "controlled + no revelation → AT-like (REFUTES revelation as cause)",
+    "Pali_Canon": "controlled + no revelation → AT-like (REFUTES revelation as cause)",
+    "Mishnah": "same language as AT, same genre (legal), delayed control → NOT AT-like (SUPPORTS timing of control)"
+  }
+}

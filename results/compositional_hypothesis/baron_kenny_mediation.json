@@ -1,0 +1,32 @@
+{
+  "step_c_total": {
+    "formula": "DFA ~ is_AT",
+    "beta": 0.2275,
+    "SE": 0.056,
+    "p": 0.000186,
+    "R2": 0.2642
+  },
+  "step_a": {
+    "formula": "AC1 ~ is_AT",
+    "beta": 0.1395,
+    "SE": 0.059,
+    "p": 0.022342,
+    "R2": 0.1084
+  },
+  "step_bc": {
+    "formula": "DFA ~ is_AT + AC1",
+    "beta_is_AT": 0.1239,
+    "beta_AC1": 0.7426,
+    "SE_is_AT": 0.0373,
+    "SE_AC1": 0.088,
+    "p_is_AT": 0.001779,
+    "p_AC1": 0.0,
+    "R2": 0.7151
+  },
+  "indirect_effect": 0.1036,
+  "direct_effect": 0.1239,
+  "total_effect": 0.2275,
+  "proportion_mediated": 0.4554,
+  "mediation_type": "partial",
+  "n": 48
+}

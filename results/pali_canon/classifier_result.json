@@ -1,0 +1,31 @@
+{
+  "predicted_class": "AT",
+  "P_AT": 1.0,
+  "P_NT": 0.0,
+  "features_used": {
+    "H": 0.7704,
+    "DFA": 0.7583,
+    "AC1": 0.2125,
+    "mean_verse_len": 8.79,
+    "std_verse_len": 7.17,
+    "CV": 0.8156,
+    "skewness": 3.1205,
+    "pos_entropy": 2.0366
+  },
+  "classifier": "LogisticRegression (retrained on 63 biblical books)",
+  "train_accuracy": 1.0,
+  "per_collection": {
+    "DN": {
+      "predicted": "AT",
+      "P_AT": 1.0,
+      "P_NT": 0.0
+    },
+    "MN": {
+      "predicted": "AT",
+      "P_AT": 1.0,
+      "P_NT": 0.0
+    }
+  },
+  "interpretation": "Pali Canon (combined) is classified as AT-like (P_AT=1.000, P_NT=0.000).",
+  "caveat": "Different language (Pali vs Hebrew/Greek), heuristic POS tagging. Classification based on structural metrics is partially language-independent."
+}

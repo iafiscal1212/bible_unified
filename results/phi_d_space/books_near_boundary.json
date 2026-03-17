@@ -1,0 +1,851 @@
+{
+  "top_10_near_boundary": [
+    {
+      "book": "Philippians",
+      "testament": "NT",
+      "AC1": -0.0436,
+      "d_approx": -0.022,
+      "distance_to_boundary": 0.0223,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Revelation",
+      "testament": "NT",
+      "AC1": -0.0775,
+      "d_approx": 0.0109,
+      "distance_to_boundary": 0.027,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Galatians",
+      "testament": "NT",
+      "AC1": -0.1672,
+      "d_approx": 0.1242,
+      "distance_to_boundary": 0.0794,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Amos",
+      "testament": "AT",
+      "AC1": -0.2143,
+      "d_approx": 0.2534,
+      "distance_to_boundary": 0.1009,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Peter",
+      "testament": "NT",
+      "AC1": -0.0984,
+      "d_approx": 0.0091,
+      "distance_to_boundary": 0.1233,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Acts",
+      "testament": "NT",
+      "AC1": -0.0582,
+      "d_approx": 0.0557,
+      "distance_to_boundary": 0.1904,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Nahum",
+      "testament": "AT",
+      "AC1": -0.0563,
+      "d_approx": -0.086,
+      "distance_to_boundary": 0.2236,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Habakkuk",
+      "testament": "AT",
+      "AC1": -0.0427,
+      "d_approx": -0.1188,
+      "distance_to_boundary": 0.2623,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Titus",
+      "testament": "NT",
+      "AC1": -0.1998,
+      "d_approx": 0.3014,
+      "distance_to_boundary": 0.307,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Zechariah",
+      "testament": "AT",
+      "AC1": -0.1853,
+      "d_approx": 0.0633,
+      "distance_to_boundary": 0.3396,
+      "predicted": "NT",
+      "correct": false
+    }
+  ],
+  "n_misclassified": 23,
+  "misclassified": [
+    {
+      "book": "Philippians",
+      "testament": "NT",
+      "AC1": -0.0436,
+      "d_approx": -0.022,
+      "distance_to_boundary": 0.0223,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Acts",
+      "testament": "NT",
+      "AC1": -0.0582,
+      "d_approx": 0.0557,
+      "distance_to_boundary": 0.1904,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Nahum",
+      "testament": "AT",
+      "AC1": -0.0563,
+      "d_approx": -0.086,
+      "distance_to_boundary": 0.2236,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Habakkuk",
+      "testament": "AT",
+      "AC1": -0.0427,
+      "d_approx": -0.1188,
+      "distance_to_boundary": 0.2623,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Titus",
+      "testament": "NT",
+      "AC1": -0.1998,
+      "d_approx": 0.3014,
+      "distance_to_boundary": 0.307,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Zechariah",
+      "testament": "AT",
+      "AC1": -0.1853,
+      "d_approx": 0.0633,
+      "distance_to_boundary": 0.3396,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "2 Peter",
+      "testament": "NT",
+      "AC1": -0.0629,
+      "d_approx": 0.1579,
+      "distance_to_boundary": 0.4745,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Mark",
+      "testament": "NT",
+      "AC1": -0.0045,
+      "d_approx": 0.0852,
+      "distance_to_boundary": 0.5118,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "1 Corinthians",
+      "testament": "NT",
+      "AC1": 0.0516,
+      "d_approx": 0.0187,
+      "distance_to_boundary": 0.5575,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "John",
+      "testament": "NT",
+      "AC1": 0.0403,
+      "d_approx": 0.0383,
+      "distance_to_boundary": 0.5668,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Luke",
+      "testament": "NT",
+      "AC1": -0.0202,
+      "d_approx": 0.1917,
+      "distance_to_boundary": 0.7609,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Thessalonians",
+      "testament": "NT",
+      "AC1": 0.0294,
+      "d_approx": 0.1499,
+      "distance_to_boundary": 0.852,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Matthew",
+      "testament": "NT",
+      "AC1": 0.0496,
+      "d_approx": 0.1486,
+      "distance_to_boundary": 0.9359,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Colossians",
+      "testament": "NT",
+      "AC1": -0.0281,
+      "d_approx": 0.27,
+      "distance_to_boundary": 0.9599,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Corinthians",
+      "testament": "NT",
+      "AC1": 0.0044,
+      "d_approx": 0.2273,
+      "distance_to_boundary": 0.974,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "1 Timothy",
+      "testament": "NT",
+      "AC1": 0.0295,
+      "d_approx": 0.2001,
+      "distance_to_boundary": 1.002,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Malachi",
+      "testament": "AT",
+      "AC1": -0.3969,
+      "d_approx": 0.0897,
+      "distance_to_boundary": 1.1808,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Romans",
+      "testament": "NT",
+      "AC1": 0.1248,
+      "d_approx": 0.1358,
+      "distance_to_boundary": 1.2247,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Zephaniah",
+      "testament": "AT",
+      "AC1": -0.2756,
+      "d_approx": -0.1193,
+      "distance_to_boundary": 1.2763,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Hebrews",
+      "testament": "NT",
+      "AC1": 0.1104,
+      "d_approx": 0.199,
+      "distance_to_boundary": 1.3505,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Ephesians",
+      "testament": "NT",
+      "AC1": 0.1389,
+      "d_approx": 0.228,
+      "distance_to_boundary": 1.5608,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Timothy",
+      "testament": "NT",
+      "AC1": 0.031,
+      "d_approx": 0.3968,
+      "distance_to_boundary": 1.5947,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "1 Thessalonians",
+      "testament": "NT",
+      "AC1": 0.276,
+      "d_approx": 0.0762,
+      "distance_to_boundary": 1.7045,
+      "predicted": "AT",
+      "correct": false
+    }
+  ],
+  "daniel": {
+    "data": {
+      "book": "Daniel",
+      "testament": "AT",
+      "AC1": 0.0841,
+      "d_approx": 0.2394,
+      "distance_to_boundary": 1.3565,
+      "predicted": "AT",
+      "correct": true
+    },
+    "rank_by_proximity": 44,
+    "in_top_5": false,
+    "in_top_10": false
+  },
+  "all_books": [
+    {
+      "book": "Philippians",
+      "testament": "NT",
+      "AC1": -0.0436,
+      "d_approx": -0.022,
+      "distance_to_boundary": 0.0223,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Revelation",
+      "testament": "NT",
+      "AC1": -0.0775,
+      "d_approx": 0.0109,
+      "distance_to_boundary": 0.027,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Galatians",
+      "testament": "NT",
+      "AC1": -0.1672,
+      "d_approx": 0.1242,
+      "distance_to_boundary": 0.0794,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Amos",
+      "testament": "AT",
+      "AC1": -0.2143,
+      "d_approx": 0.2534,
+      "distance_to_boundary": 0.1009,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Peter",
+      "testament": "NT",
+      "AC1": -0.0984,
+      "d_approx": 0.0091,
+      "distance_to_boundary": 0.1233,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Acts",
+      "testament": "NT",
+      "AC1": -0.0582,
+      "d_approx": 0.0557,
+      "distance_to_boundary": 0.1904,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Nahum",
+      "testament": "AT",
+      "AC1": -0.0563,
+      "d_approx": -0.086,
+      "distance_to_boundary": 0.2236,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Habakkuk",
+      "testament": "AT",
+      "AC1": -0.0427,
+      "d_approx": -0.1188,
+      "distance_to_boundary": 0.2623,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Titus",
+      "testament": "NT",
+      "AC1": -0.1998,
+      "d_approx": 0.3014,
+      "distance_to_boundary": 0.307,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Zechariah",
+      "testament": "AT",
+      "AC1": -0.1853,
+      "d_approx": 0.0633,
+      "distance_to_boundary": 0.3396,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Esther",
+      "testament": "AT",
+      "AC1": -0.0604,
+      "d_approx": 0.1275,
+      "distance_to_boundary": 0.3948,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "James",
+      "testament": "NT",
+      "AC1": -0.138,
+      "d_approx": -0.0317,
+      "distance_to_boundary": 0.417,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "2 Chronicles",
+      "testament": "AT",
+      "AC1": -0.0547,
+      "d_approx": 0.1289,
+      "distance_to_boundary": 0.4238,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "2 Peter",
+      "testament": "NT",
+      "AC1": -0.0629,
+      "d_approx": 0.1579,
+      "distance_to_boundary": 0.4745,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Joel",
+      "testament": "AT",
+      "AC1": 0.008,
+      "d_approx": 0.0595,
+      "distance_to_boundary": 0.4895,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Mark",
+      "testament": "NT",
+      "AC1": -0.0045,
+      "d_approx": 0.0852,
+      "distance_to_boundary": 0.5118,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "1 Samuel",
+      "testament": "AT",
+      "AC1": -0.0166,
+      "d_approx": 0.1147,
+      "distance_to_boundary": 0.5471,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Corinthians",
+      "testament": "NT",
+      "AC1": 0.0516,
+      "d_approx": 0.0187,
+      "distance_to_boundary": 0.5575,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "John",
+      "testament": "NT",
+      "AC1": 0.0403,
+      "d_approx": 0.0383,
+      "distance_to_boundary": 0.5668,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Ezekiel",
+      "testament": "AT",
+      "AC1": -0.0297,
+      "d_approx": 0.1473,
+      "distance_to_boundary": 0.5873,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Kings",
+      "testament": "AT",
+      "AC1": -0.0497,
+      "d_approx": 0.1798,
+      "distance_to_boundary": 0.5972,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "2 Kings",
+      "testament": "AT",
+      "AC1": -0.0314,
+      "d_approx": 0.1642,
+      "distance_to_boundary": 0.6303,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Genesis",
+      "testament": "AT",
+      "AC1": -0.0074,
+      "d_approx": 0.1557,
+      "distance_to_boundary": 0.7093,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Luke",
+      "testament": "NT",
+      "AC1": -0.0202,
+      "d_approx": 0.1917,
+      "distance_to_boundary": 0.7609,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Thessalonians",
+      "testament": "NT",
+      "AC1": 0.0294,
+      "d_approx": 0.1499,
+      "distance_to_boundary": 0.852,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Judges",
+      "testament": "AT",
+      "AC1": -0.0046,
+      "d_approx": 0.2,
+      "distance_to_boundary": 0.8535,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Proverbs",
+      "testament": "AT",
+      "AC1": 0.0849,
+      "d_approx": 0.0965,
+      "distance_to_boundary": 0.9341,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Matthew",
+      "testament": "NT",
+      "AC1": 0.0496,
+      "d_approx": 0.1486,
+      "distance_to_boundary": 0.9359,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Deuteronomy",
+      "testament": "AT",
+      "AC1": 0.0922,
+      "d_approx": 0.0918,
+      "distance_to_boundary": 0.9519,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Colossians",
+      "testament": "NT",
+      "AC1": -0.0281,
+      "d_approx": 0.27,
+      "distance_to_boundary": 0.9599,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Corinthians",
+      "testament": "NT",
+      "AC1": 0.0044,
+      "d_approx": 0.2273,
+      "distance_to_boundary": 0.974,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Hosea",
+      "testament": "AT",
+      "AC1": 0.0443,
+      "d_approx": 0.1711,
+      "distance_to_boundary": 0.9799,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Timothy",
+      "testament": "NT",
+      "AC1": 0.0295,
+      "d_approx": 0.2001,
+      "distance_to_boundary": 1.002,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Leviticus",
+      "testament": "AT",
+      "AC1": 0.0703,
+      "d_approx": 0.1721,
+      "distance_to_boundary": 1.096,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Jeremiah",
+      "testament": "AT",
+      "AC1": 0.0668,
+      "d_approx": 0.1831,
+      "distance_to_boundary": 1.1135,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 John",
+      "testament": "NT",
+      "AC1": -0.3106,
+      "d_approx": -0.032,
+      "distance_to_boundary": 1.1683,
+      "predicted": "NT",
+      "correct": true
+    },
+    {
+      "book": "Malachi",
+      "testament": "AT",
+      "AC1": -0.3969,
+      "d_approx": 0.0897,
+      "distance_to_boundary": 1.1808,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Isaiah",
+      "testament": "AT",
+      "AC1": 0.0836,
+      "d_approx": 0.1897,
+      "distance_to_boundary": 1.2062,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Romans",
+      "testament": "NT",
+      "AC1": 0.1248,
+      "d_approx": 0.1358,
+      "distance_to_boundary": 1.2247,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Micah",
+      "testament": "AT",
+      "AC1": 0.1473,
+      "d_approx": 0.1091,
+      "distance_to_boundary": 1.243,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Zephaniah",
+      "testament": "AT",
+      "AC1": -0.2756,
+      "d_approx": -0.1193,
+      "distance_to_boundary": 1.2763,
+      "predicted": "NT",
+      "correct": false
+    },
+    {
+      "book": "Exodus",
+      "testament": "AT",
+      "AC1": 0.1043,
+      "d_approx": 0.1853,
+      "distance_to_boundary": 1.2831,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Hebrews",
+      "testament": "NT",
+      "AC1": 0.1104,
+      "d_approx": 0.199,
+      "distance_to_boundary": 1.3505,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "Daniel",
+      "testament": "AT",
+      "AC1": 0.0841,
+      "d_approx": 0.2394,
+      "distance_to_boundary": 1.3565,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Jonah",
+      "testament": "AT",
+      "AC1": -0.0277,
+      "d_approx": 0.4535,
+      "distance_to_boundary": 1.5085,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Numbers",
+      "testament": "AT",
+      "AC1": 0.1105,
+      "d_approx": 0.267,
+      "distance_to_boundary": 1.5536,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Ephesians",
+      "testament": "NT",
+      "AC1": 0.1389,
+      "d_approx": 0.228,
+      "distance_to_boundary": 1.5608,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Timothy",
+      "testament": "NT",
+      "AC1": 0.031,
+      "d_approx": 0.3968,
+      "distance_to_boundary": 1.5947,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "1 Thessalonians",
+      "testament": "NT",
+      "AC1": 0.276,
+      "d_approx": 0.0762,
+      "distance_to_boundary": 1.7045,
+      "predicted": "AT",
+      "correct": false
+    },
+    {
+      "book": "2 Samuel",
+      "testament": "AT",
+      "AC1": 0.2105,
+      "d_approx": 0.1765,
+      "distance_to_boundary": 1.7186,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Ruth",
+      "testament": "AT",
+      "AC1": 0.2486,
+      "d_approx": 0.128,
+      "distance_to_boundary": 1.7397,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Psalms",
+      "testament": "AT",
+      "AC1": 0.1727,
+      "d_approx": 0.255,
+      "distance_to_boundary": 1.7882,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Ecclesiastes",
+      "testament": "AT",
+      "AC1": 0.1605,
+      "d_approx": 0.3062,
+      "distance_to_boundary": 1.8878,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Joshua",
+      "testament": "AT",
+      "AC1": 0.3266,
+      "d_approx": 0.3005,
+      "distance_to_boundary": 2.5929,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "1 Chronicles",
+      "testament": "AT",
+      "AC1": 0.4067,
+      "d_approx": 0.3086,
+      "distance_to_boundary": 2.9653,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Job",
+      "testament": "AT",
+      "AC1": 0.4426,
+      "d_approx": 0.273,
+      "distance_to_boundary": 3.0153,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Ezra",
+      "testament": "AT",
+      "AC1": 0.518,
+      "d_approx": 0.4441,
+      "distance_to_boundary": 3.853,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Nehemiah",
+      "testament": "AT",
+      "AC1": 0.4978,
+      "d_approx": 0.5057,
+      "distance_to_boundary": 3.9488,
+      "predicted": "AT",
+      "correct": true
+    },
+    {
+      "book": "Lamentations",
+      "testament": "AT",
+      "AC1": 0.892,
+      "d_approx": 0.6585,
+      "distance_to_boundary": 6.118,
+      "predicted": "AT",
+      "correct": true
+    }
+  ]
+}

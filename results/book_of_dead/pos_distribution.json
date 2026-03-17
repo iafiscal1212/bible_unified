@@ -1,0 +1,21 @@
+{
+  "pos_entropy": 2.927,
+  "n_tokens_tagged": 92683,
+  "n_pos_categories": 13,
+  "distribution": {
+    "substantive": 22376,
+    "pronoun": 19443,
+    "verb": 15283,
+    "preposition": 13309,
+    "entity_name": 6769,
+    "adjective": 5213,
+    "particle": 3360,
+    "epitheton_title": 2797,
+    "undefined": 1782,
+    "interjection": 855,
+    "adverb": 606,
+    "numeral": 450,
+    "unknown": 440
+  },
+  "note": "POS tags from ORAEC morphological annotation (Egyptian). Categories: substantive, verb, adjective, adverb, preposition, pronoun, particle, numeral, undefined. NOT directly comparable with OSHB Hebrew POS — different tagsets."
+}

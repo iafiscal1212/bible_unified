@@ -1,0 +1,182 @@
+{
+  "AT": {
+    "H": 0.8766,
+    "DFA": 0.9295,
+    "AC1": 0.3359,
+    "distances": {
+      "AT_legal": 0.3899,
+      "AT_narrative": 0.3007,
+      "AT_poetry": 0.0698,
+      "AT_prophetic": 0.5459,
+      "NT_apocalyptic": 0.7161,
+      "NT_epistolar": 0.6281,
+      "NT_narrative": 0.5878
+    },
+    "closest_genre": "AT_poetry"
+  },
+  "NT": {
+    "H": 0.7834,
+    "DFA": 0.8286,
+    "AC1": 0.0853,
+    "distances": {
+      "AT_legal": 0.1663,
+      "AT_narrative": 0.1082,
+      "AT_poetry": 0.2756,
+      "AT_prophetic": 0.3106,
+      "NT_apocalyptic": 0.4764,
+      "NT_epistolar": 0.405,
+      "NT_narrative": 0.358
+    },
+    "closest_genre": "AT_narrative"
+  },
+  "Corán": {
+    "H": 0.8963,
+    "DFA": 0.9336,
+    "AC1": 0.4722,
+    "distances": {
+      "AT_legal": 0.4975,
+      "AT_narrative": 0.4118,
+      "AT_poetry": 0.1499,
+      "AT_prophetic": 0.648,
+      "NT_apocalyptic": 0.814,
+      "NT_epistolar": 0.7214,
+      "NT_narrative": 0.6853
+    },
+    "closest_genre": "AT_poetry"
+  },
+  "Rig_Veda": {
+    "H": 0.5612,
+    "DFA": 0.5087,
+    "AC1": -0.016,
+    "distances": {
+      "AT_legal": 0.2487,
+      "AT_narrative": 0.3362,
+      "AT_poetry": 0.5911,
+      "AT_prophetic": 0.1179,
+      "NT_apocalyptic": 0.087,
+      "NT_epistolar": 0.059,
+      "NT_narrative": 0.051
+    },
+    "closest_genre": "NT_narrative"
+  },
+  "Homero": {
+    "H": 0.6278,
+    "DFA": 0.5977,
+    "AC1": null,
+    "distances": {
+      "AT_legal": 0.1144,
+      "AT_narrative": 0.186,
+      "AT_poetry": 0.3527,
+      "AT_prophetic": 0.0614,
+      "NT_apocalyptic": 0.1707,
+      "NT_epistolar": 0.1246,
+      "NT_narrative": 0.0713
+    },
+    "closest_genre": "AT_prophetic"
+  },
+  "Heródoto": {
+    "H": 0.6329,
+    "DFA": 0.6322,
+    "AC1": null,
+    "distances": {
+      "AT_legal": 0.0817,
+      "AT_narrative": 0.1551,
+      "AT_poetry": 0.3213,
+      "AT_prophetic": 0.0876,
+      "NT_apocalyptic": 0.2003,
+      "NT_epistolar": 0.1595,
+      "NT_narrative": 0.1058
+    },
+    "closest_genre": "AT_legal"
+  },
+  "Book_of_Dead": {
+    "H": 0.779,
+    "DFA": 0.7732,
+    "AC1": 0.2023,
+    "distances": {
+      "AT_legal": 0.1674,
+      "AT_narrative": 0.0806,
+      "AT_poetry": 0.1957,
+      "AT_prophetic": 0.3189,
+      "NT_apocalyptic": 0.49,
+      "NT_epistolar": 0.4011,
+      "NT_narrative": 0.3605
+    },
+    "closest_genre": "AT_narrative"
+  },
+  "Pali_Canon": {
+    "H": 0.7704,
+    "DFA": 0.7583,
+    "AC1": 0.2125,
+    "distances": {
+      "AT_legal": 0.1636,
+      "AT_narrative": 0.0818,
+      "AT_poetry": 0.1999,
+      "AT_prophetic": 0.3127,
+      "NT_apocalyptic": 0.4824,
+      "NT_epistolar": 0.392,
+      "NT_narrative": 0.3524
+    },
+    "closest_genre": "AT_narrative"
+  },
+  "Mishnah": {
+    "H": 0.7495,
+    "DFA": 0.6545,
+    "AC1": 0.1805,
+    "distances": {
+      "AT_legal": 0.1242,
+      "AT_narrative": 0.1078,
+      "AT_poetry": 0.3023,
+      "AT_prophetic": 0.2225,
+      "NT_apocalyptic": 0.3954,
+      "NT_epistolar": 0.2939,
+      "NT_narrative": 0.262
+    },
+    "closest_genre": "AT_narrative"
+  },
+  "Didache": {
+    "H": 0.7096,
+    "DFA": 0.8251,
+    "AC1": 0.2035,
+    "distances": {
+      "AT_legal": 0.1707,
+      "AT_narrative": 0.0973,
+      "AT_poetry": 0.1955,
+      "AT_prophetic": 0.3427,
+      "NT_apocalyptic": 0.4921,
+      "NT_epistolar": 0.4197,
+      "NT_narrative": 0.3726
+    },
+    "closest_genre": "AT_narrative"
+  },
+  "1_Clemente": {
+    "H": 0.637,
+    "DFA": 0.6084,
+    "AC1": 0.2373,
+    "distances": {
+      "AT_legal": 0.1777,
+      "AT_narrative": 0.1969,
+      "AT_poetry": 0.3572,
+      "AT_prophetic": 0.2463,
+      "NT_apocalyptic": 0.365,
+      "NT_epistolar": 0.2773,
+      "NT_narrative": 0.2506
+    },
+    "closest_genre": "AT_legal"
+  },
+  "Tosefta": {
+    "H": 0.9294,
+    "DFA": 0.7754,
+    "AC1": 0.2789,
+    "distances": {
+      "AT_legal": 0.3234,
+      "AT_narrative": 0.2431,
+      "AT_poetry": 0.1785,
+      "AT_prophetic": 0.4418,
+      "NT_apocalyptic": 0.6272,
+      "NT_epistolar": 0.5232,
+      "NT_narrative": 0.4929
+    },
+    "closest_genre": "AT_poetry"
+  }
+}

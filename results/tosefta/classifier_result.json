@@ -1,0 +1,16 @@
+{
+  "predicted_class": "NT",
+  "P_AT": 0.0,
+  "P_NT": 1.0,
+  "features_used": {
+    "H": 0.9294,
+    "DFA": 0.7754,
+    "AC1": 0.2789,
+    "mean_verse_len": 72.06,
+    "std_verse_len": 56.16,
+    "CV": 0.7793,
+    "skewness": 2.8172,
+    "pos_entropy": 2.43895
+  },
+  "pos_entropy_note": "Median AT pos_entropy (Mishnaic Hebrew proxy)"
+}

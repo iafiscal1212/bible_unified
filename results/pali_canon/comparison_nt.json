@@ -1,0 +1,24 @@
+{
+  "pali_canon": {
+    "H": 0.7704,
+    "AC1": 0.2125,
+    "CV": 0.8156
+  },
+  "pauline_epistles": {
+    "H_mean": 0.6755,
+    "H_std": 0.1148,
+    "AC1_mean": 0.0208,
+    "AC1_std": 0.1183,
+    "CV_mean": 0.359,
+    "n_books": 13
+  },
+  "shared_traits": [
+    "Human authority (not divine revelation in strict sense)",
+    "Early written/oral transmission",
+    "Didactic/instructional function"
+  ],
+  "H_z_score": 0.8265,
+  "H_within_2sd": true,
+  "AC1_z_score": 1.6203,
+  "AC1_within_2sd": true
+}

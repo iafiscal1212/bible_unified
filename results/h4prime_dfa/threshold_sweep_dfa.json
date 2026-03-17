@@ -1,0 +1,62 @@
+[
+  {
+    "threshold_years": 25,
+    "n_early": 5,
+    "n_late": 7,
+    "early_mean_DFA": 0.7807,
+    "late_mean_DFA": 0.7031,
+    "U": 22.0,
+    "p": 0.530303,
+    "significant": false
+  },
+  {
+    "threshold_years": 50,
+    "n_early": 5,
+    "n_late": 7,
+    "early_mean_DFA": 0.7807,
+    "late_mean_DFA": 0.7031,
+    "U": 22.0,
+    "p": 0.530303,
+    "significant": false
+  },
+  {
+    "threshold_years": 75,
+    "n_early": 6,
+    "n_late": 6,
+    "early_mean_DFA": 0.7519,
+    "late_mean_DFA": 0.7189,
+    "U": 19.0,
+    "p": 0.937229,
+    "significant": false
+  },
+  {
+    "threshold_years": 100,
+    "n_early": 7,
+    "n_late": 5,
+    "early_mean_DFA": 0.7624,
+    "late_mean_DFA": 0.6977,
+    "U": 21.0,
+    "p": 0.638889,
+    "significant": false
+  },
+  {
+    "threshold_years": 150,
+    "n_early": 7,
+    "n_late": 5,
+    "early_mean_DFA": 0.7624,
+    "late_mean_DFA": 0.6977,
+    "U": 21.0,
+    "p": 0.638889,
+    "significant": false
+  },
+  {
+    "threshold_years": 200,
+    "n_early": 9,
+    "n_late": 3,
+    "early_mean_DFA": 0.7494,
+    "late_mean_DFA": 0.6936,
+    "U": 16.0,
+    "p": 0.727273,
+    "significant": false
+  }
+]

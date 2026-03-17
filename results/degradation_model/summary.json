@@ -1,0 +1,54 @@
+{
+  "controlled_rate_measured": 0.000745,
+  "critical_delays": {
+    "controlled": 16993.0,
+    "free_mean": 463.0,
+    "free_worst": 244.0,
+    "unit": "years",
+    "interpretation": "Delay in years at which H crosses AT/NT boundary"
+  },
+  "irreversibility": "PARTIALLY_REVERSIBLE",
+  "gap_predictions": {
+    "delay_65": {
+      "delay_years": 65,
+      "H_if_controlled": 0.8761,
+      "H_if_free_mean": 0.8588,
+      "H_if_free_worst": 0.8429,
+      "boundary": 0.75,
+      "controlled_prediction": "AT-like",
+      "free_mean_prediction": "AT-like",
+      "free_worst_prediction": "AT-like"
+    },
+    "delay_70": {
+      "delay_years": 70,
+      "H_if_controlled": 0.8761,
+      "H_if_free_mean": 0.8575,
+      "H_if_free_worst": 0.8403,
+      "boundary": 0.75,
+      "controlled_prediction": "AT-like",
+      "free_mean_prediction": "AT-like",
+      "free_worst_prediction": "AT-like"
+    },
+    "delay_170": {
+      "delay_years": 170,
+      "H_if_controlled": 0.8753,
+      "H_if_free_mean": 0.8301,
+      "H_if_free_worst": 0.7884,
+      "boundary": 0.75,
+      "controlled_prediction": "AT-like",
+      "free_mean_prediction": "AT-like",
+      "free_worst_prediction": "AT-like"
+    }
+  },
+  "predicted_vs_observed": {
+    "Didache": {
+      "delay": 70,
+      "observed_H": 0.7096,
+      "observed_class": "AT",
+      "model_controlled_H": 0.8761,
+      "model_free_mean_H": 0.8575,
+      "consistent_with_controlled": false,
+      "consistent_with_free": false
+    }
+  }
+}

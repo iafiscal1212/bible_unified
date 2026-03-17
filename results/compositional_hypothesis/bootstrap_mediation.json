@@ -1,0 +1,19 @@
+{
+  "n_bootstraps": 1000,
+  "indirect_effect_mean": 0.1036,
+  "indirect_effect_median": 0.1015,
+  "indirect_effect_std": 0.0453,
+  "CI_95": [
+    0.0225,
+    0.1968
+  ],
+  "CI_crosses_zero": false,
+  "significant": true,
+  "proportion_mediated_mean": 0.4504,
+  "proportion_mediated_CI_95": [
+    0.1357,
+    0.7684
+  ],
+  "sobel_z": 2.2766,
+  "sobel_p": 0.022809
+}

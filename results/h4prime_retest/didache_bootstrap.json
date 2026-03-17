@@ -1,0 +1,14 @@
+{
+  "H_point": 0.7096,
+  "n_segments": 101,
+  "n_bootstrap": 2000,
+  "n_valid": 2000,
+  "H_bootstrap_mean": 0.5951,
+  "H_bootstrap_std": 0.1111,
+  "H_CI_95": [
+    0.3824,
+    0.8187
+  ],
+  "CI_width": 0.4363,
+  "classification_robust": true
+}

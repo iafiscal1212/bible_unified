@@ -1,0 +1,116 @@
+{
+  "test_A": {
+    "AT": {
+      "corpus": "OT",
+      "n_books": 39,
+      "n_verses_series": [
+        1533,
+        1213,
+        859,
+        1289,
+        959,
+        658,
+        618,
+        85,
+        811,
+        695,
+        817,
+        719,
+        943,
+        822,
+        280,
+        405,
+        167,
+        1070,
+        2527,
+        915,
+        222,
+        117,
+        1291,
+        1364,
+        154,
+        1273,
+        357,
+        197,
+        73,
+        146,
+        21,
+        48,
+        105,
+        47,
+        56,
+        53,
+        38,
+        211,
+        55
+      ],
+      "AC1_n_verses": 0.4185
+    },
+    "NT": {
+      "corpus": "NT",
+      "n_books": 27,
+      "n_verses_series": [
+        1068,
+        673,
+        1149,
+        866,
+        1002,
+        430,
+        437,
+        256,
+        149,
+        155,
+        104,
+        95,
+        89,
+        47,
+        113,
+        83,
+        46,
+        25,
+        303,
+        108,
+        105,
+        61,
+        105,
+        13,
+        15,
+        25,
+        405
+      ],
+      "AC1_n_verses": 0.7246
+    }
+  },
+  "test_B": {
+    "AT": {
+      "corpus": "OT",
+      "n_books": 39,
+      "canonical_genre_match_rate": 0.8421,
+      "random_genre_match_rate": 0.3089,
+      "enrichment_ratio": 2.73,
+      "p_value": 0.0
+    },
+    "NT": {
+      "corpus": "NT",
+      "n_books": 27,
+      "canonical_genre_match_rate": 0.9231,
+      "random_genre_match_rate": 0.6264,
+      "enrichment_ratio": 1.47,
+      "p_value": 0.0
+    }
+  },
+  "test_C": {
+    "AT": {
+      "corpus": "OT",
+      "n_books": 39,
+      "spearman_rho": 0.6187,
+      "spearman_p": 2.7e-05
+    },
+    "NT": {
+      "corpus": "NT",
+      "n_books": 27,
+      "spearman_rho": 0.7839,
+      "spearman_p": 1e-06
+    }
+  }
+}

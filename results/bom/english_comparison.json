@@ -1,0 +1,42 @@
+{
+  "OT_eng": {
+    "n_verses": 23145,
+    "H": 0.8907,
+    "DFA": 0.8821,
+    "AC1": 0.2859,
+    "mean_verse_len": 26.32,
+    "std_verse_len": 11.7,
+    "CV": 0.4445,
+    "skewness": 0.7288
+  },
+  "NT_eng": {
+    "n_verses": 7957,
+    "H": 0.7347,
+    "DFA": 0.6951,
+    "AC1": 0.048,
+    "mean_verse_len": 22.67,
+    "std_verse_len": 8.47,
+    "CV": 0.3735,
+    "skewness": 0.6414
+  },
+  "BOM": {
+    "n_verses": 6604,
+    "H": 0.7761,
+    "DFA": 0.7828,
+    "AC1": 0.1949,
+    "mean_verse_len": 40.42,
+    "std_verse_len": 18.46,
+    "CV": 0.4567,
+    "skewness": 0.8535
+  },
+  "DC": {
+    "n_verses": 3654,
+    "H": 0.699,
+    "DFA": 0.6447,
+    "AC1": 0.3162,
+    "mean_verse_len": 30.63,
+    "std_verse_len": 16.91,
+    "CV": 0.552,
+    "skewness": 2.9971
+  }
+}

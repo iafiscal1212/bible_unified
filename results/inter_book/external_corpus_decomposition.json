@@ -1,0 +1,16 @@
+{
+  "quran": {
+    "status": "available",
+    "global_H": 0.8963,
+    "global_AC1": 0.4722,
+    "n_suras_analyzed": 95,
+    "mean_sura_AC1": 0.1354,
+    "note": "Quran DFA=0.9336 from data_matrix.json (corpus-level)"
+  },
+  "at_vs_nt_mean_verse_len": {
+    "AT_mean": 13.81,
+    "NT_mean": 16.77,
+    "mann_whitney_U": 178.0,
+    "mann_whitney_p": 6e-06
+  }
+}

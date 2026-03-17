@@ -1,0 +1,17 @@
+{
+  "H": 0.637,
+  "DFA": 0.6084,
+  "AC1": 0.2373,
+  "CV": 0.7376,
+  "mean_verse_len": 28.51,
+  "std_verse_len": 21.03,
+  "n_segments": 400,
+  "n_words": 11403,
+  "corpus": "1 Clemente",
+  "language": "Koine Greek",
+  "delay_years": 65,
+  "predicted_class": "NT",
+  "P_AT": 0.201,
+  "P_NT": 0.799,
+  "classifier": "corrected (H, DFA, AC1, CV only)"
+}
