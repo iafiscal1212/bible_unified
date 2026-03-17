@@ -1,0 +1,28 @@
+{
+  "d_vs_H": {
+    "pearson_r": 1.0,
+    "pearson_p": 0.0,
+    "significant": true
+  },
+  "d_vs_AC1": {
+    "pearson_r": 0.6532,
+    "pearson_p": 0.0,
+    "significant": true
+  },
+  "d_vs_pos_entropy": {
+    "pearson_r": -0.2289,
+    "pearson_p": 0.081257,
+    "significant": false
+  },
+  "d_vs_mean_verse_len": {
+    "pearson_r": -0.3185,
+    "pearson_p": 0.013963,
+    "significant": true
+  },
+  "d_vs_n_verses_log": {
+    "pearson_r": 0.1396,
+    "pearson_p": 0.2918,
+    "significant": false
+  },
+  "note_d_H": "d_approx = H - 0.5 by construction, so r(d,H) = 1.0 is tautological. The interesting correlations are d vs AC1, pos_entropy, and n_verses."
+}

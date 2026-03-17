@@ -1,0 +1,57 @@
+{
+  "AT": {
+    "d": 0.1284,
+    "H_actual": 0.8766,
+    "H_predicted_ARFIMA": 0.6284,
+    "residual": 0.2482,
+    "residual_pct": 28.3
+  },
+  "NT": {
+    "d": 0.1952,
+    "H_actual": 0.7834,
+    "H_predicted_ARFIMA": 0.6952,
+    "residual": 0.0882,
+    "residual_pct": 11.3
+  },
+  "Corán": {
+    "d": 0.1092,
+    "H_actual": 0.8963,
+    "H_predicted_ARFIMA": 0.6092,
+    "residual": 0.2871,
+    "residual_pct": 32.0
+  },
+  "Rig_Veda": {
+    "d": 0.0044,
+    "H_actual": 0.5612,
+    "H_predicted_ARFIMA": 0.5044,
+    "residual": 0.0568,
+    "residual_pct": 10.1
+  },
+  "interpretation": {
+    "pure_ARFIMA_H": "H = d + 0.5 for pure ARFIMA(0,d,0)",
+    "actual_model": "H depends on d, phi, sigma_eps, sigma_eta jointly",
+    "residual_meaning": "Large residual = the hierarchical topic structure (sigma_eta) and AR(1) component (phi) contribute significantly beyond d. For AT-like texts, the residual is large and positive: the hierarchical process adds memory beyond what d alone predicts."
+  },
+  "regimes": [
+    {
+      "corpus": "AT",
+      "d": 0.1284,
+      "regime": "weak_long_memory"
+    },
+    {
+      "corpus": "NT",
+      "d": 0.1952,
+      "regime": "moderate_long_memory"
+    },
+    {
+      "corpus": "Corán",
+      "d": 0.1092,
+      "regime": "weak_long_memory"
+    },
+    {
+      "corpus": "Rig_Veda",
+      "d": 0.0044,
+      "regime": "near_zero_memory"
+    }
+  ]
+}

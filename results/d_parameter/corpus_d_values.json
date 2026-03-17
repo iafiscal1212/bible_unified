@@ -1,0 +1,56 @@
+{
+  "AT": {
+    "d": 0.1284,
+    "phi": -0.0692,
+    "sigma_eps": 3.3169,
+    "sigma_eta": 2.2922,
+    "H_target": 0.8766,
+    "AC1_target": 0.3359,
+    "DFA_target": 0.9295
+  },
+  "NT": {
+    "d": 0.1952,
+    "phi": -0.2566,
+    "sigma_eps": 4.2236,
+    "sigma_eta": 1.6788,
+    "H_target": 0.7834,
+    "AC1_target": 0.0853,
+    "DFA_target": 0.8286
+  },
+  "Corán": {
+    "d": 0.1092,
+    "phi": 0.0275,
+    "sigma_eps": 2.8012,
+    "sigma_eta": 2.4565,
+    "H_target": 0.8963,
+    "AC1_target": 0.4722,
+    "DFA_target": 0.9336
+  },
+  "Rig_Veda": {
+    "d": 0.0044,
+    "phi": -0.022,
+    "sigma_eps": 6.8329,
+    "sigma_eta": 0.0039,
+    "H_target": 0.5612,
+    "AC1_target": -0.016,
+    "DFA_target": 0.5087
+  },
+  "ranking": [
+    {
+      "corpus": "NT",
+      "d": 0.1952
+    },
+    {
+      "corpus": "AT",
+      "d": 0.1284
+    },
+    {
+      "corpus": "Corán",
+      "d": 0.1092
+    },
+    {
+      "corpus": "Rig_Veda",
+      "d": 0.0044
+    }
+  ]
+}

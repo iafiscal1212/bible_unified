@@ -1,0 +1,211 @@
+{
+  "Daniel": {
+    "n_words": 6035,
+    "n_verses": 357,
+    "H": 0.7394,
+    "AC1": 0.0841,
+    "DFA": 0.6415,
+    "pos_entropy": 2.6535,
+    "mean_verse_len": 16.9,
+    "CV": 0.4137,
+    "pos_distribution": {
+      "noun": 1619,
+      "verb": 1370,
+      "particle": 1147,
+      "suffix": 890,
+      "adjective": 303,
+      "preposition": 298,
+      "pronoun": 191,
+      "conjunction": 130,
+      "adverb": 87
+    }
+  },
+  "Ezekiel": {
+    "n_words": 18866,
+    "n_verses": 1273,
+    "H": 0.6473,
+    "AC1": -0.0297,
+    "DFA": 0.5414,
+    "pos_entropy": 2.5069,
+    "mean_verse_len": 14.82,
+    "CV": 0.3842,
+    "pos_distribution": {
+      "noun": 6880,
+      "verb": 3925,
+      "suffix": 3703,
+      "particle": 1340,
+      "adjective": 999,
+      "preposition": 801,
+      "pronoun": 533,
+      "adverb": 389,
+      "conjunction": 296
+    },
+    "genre_label": "prophetic+visionary"
+  },
+  "Zechariah": {
+    "n_words": 3134,
+    "n_verses": 211,
+    "H": 0.5633,
+    "AC1": -0.1853,
+    "DFA": 0.5227,
+    "pos_entropy": 2.4699,
+    "mean_verse_len": 14.85,
+    "CV": 0.3692,
+    "pos_distribution": {
+      "noun": 1220,
+      "verb": 763,
+      "suffix": 395,
+      "particle": 264,
+      "adjective": 132,
+      "preposition": 132,
+      "pronoun": 121,
+      "conjunction": 57,
+      "adverb": 50
+    },
+    "genre_label": "apocalyptic_late"
+  },
+  "Esther": {
+    "n_words": 3057,
+    "n_verses": 167,
+    "H": 0.6275,
+    "AC1": -0.0604,
+    "DFA": 0.5526,
+    "pos_entropy": 2.3055,
+    "mean_verse_len": 18.31,
+    "CV": 0.3947,
+    "pos_distribution": {
+      "noun": 1429,
+      "verb": 606,
+      "suffix": 297,
+      "particle": 292,
+      "adjective": 164,
+      "preposition": 142,
+      "pronoun": 64,
+      "conjunction": 50,
+      "adverb": 13
+    },
+    "genre_label": "narrative_postexilic"
+  },
+  "Ezra": {
+    "n_words": 3791,
+    "n_verses": 280,
+    "H": 0.9441,
+    "AC1": 0.518,
+    "DFA": 1.0776,
+    "pos_entropy": 2.392,
+    "mean_verse_len": 13.54,
+    "CV": 0.5101,
+    "pos_distribution": {
+      "noun": 1796,
+      "verb": 510,
+      "particle": 407,
+      "suffix": 372,
+      "adjective": 344,
+      "preposition": 133,
+      "pronoun": 118,
+      "adverb": 61,
+      "conjunction": 50
+    },
+    "genre_label": "narrative_postexilic+aramaic"
+  },
+  "Nehemiah": {
+    "n_words": 5336,
+    "n_verses": 405,
+    "H": 1.0057,
+    "AC1": 0.4978,
+    "DFA": 1.1692,
+    "pos_entropy": 2.3084,
+    "mean_verse_len": 13.18,
+    "CV": 0.5231,
+    "pos_distribution": {
+      "noun": 2557,
+      "verb": 873,
+      "suffix": 703,
+      "adjective": 370,
+      "particle": 353,
+      "preposition": 241,
+      "pronoun": 151,
+      "conjunction": 52,
+      "adverb": 36
+    },
+    "genre_label": "narrative_postexilic"
+  },
+  "Isaiah": {
+    "n_words": 16988,
+    "n_verses": 1291,
+    "H": 0.6897,
+    "AC1": 0.0836,
+    "DFA": 0.6776,
+    "pos_entropy": 2.4391,
+    "mean_verse_len": 13.16,
+    "CV": 0.3491,
+    "pos_distribution": {
+      "noun": 6262,
+      "verb": 4397,
+      "suffix": 2723,
+      "particle": 1345,
+      "adjective": 587,
+      "preposition": 557,
+      "pronoun": 425,
+      "conjunction": 400,
+      "adverb": 292
+    },
+    "genre_label": "prophetic_classic"
+  },
+  "Jeremiah": {
+    "n_words": 21976,
+    "n_verses": 1364,
+    "H": 0.6831,
+    "AC1": 0.0668,
+    "DFA": 0.7069,
+    "pos_entropy": 2.4891,
+    "mean_verse_len": 16.11,
+    "CV": 0.3712,
+    "pos_distribution": {
+      "noun": 8432,
+      "verb": 4907,
+      "suffix": 3216,
+      "particle": 2212,
+      "preposition": 979,
+      "pronoun": 657,
+      "conjunction": 568,
+      "adjective": 541,
+      "adverb": 464
+    },
+    "genre_label": "prophetic_babylonian"
+  },
+  "Lamentations": {
+    "n_words": 1564,
+    "n_verses": 154,
+    "H": 1.1585,
+    "AC1": 0.892,
+    "DFA": 1.3542,
+    "pos_entropy": 2.3277,
+    "mean_verse_len": 10.16,
+    "CV": 0.5145,
+    "pos_distribution": {
+      "noun": 505,
+      "verb": 438,
+      "suffix": 364,
+      "particle": 104,
+      "adjective": 44,
+      "preposition": 44,
+      "conjunction": 34,
+      "pronoun": 24,
+      "adverb": 7
+    },
+    "genre_label": "poetic_babylonian"
+  },
+  "distances_to_daniel": {
+    "Ezekiel": 0.2072,
+    "Zechariah": 0.3705,
+    "Esther": 0.3931,
+    "Ezra": 0.5464,
+    "Nehemiah": 0.601,
+    "Isaiah": 0.2201,
+    "Jeremiah": 0.1746,
+    "Lamentations": 0.9667
+  },
+  "closest_book": "Jeremiah",
+  "closest_distance": 0.1746
+}

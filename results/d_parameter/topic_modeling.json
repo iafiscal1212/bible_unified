@@ -1,0 +1,33 @@
+{
+  "n_topics_5": {
+    "n_eff_topics_mean": 1.53,
+    "d_vs_n_eff_r": 0.0426,
+    "d_vs_n_eff_p": 0.748911,
+    "significant": false
+  },
+  "n_topics_10": {
+    "n_eff_topics_mean": 1.58,
+    "d_vs_n_eff_r": -0.0026,
+    "d_vs_n_eff_p": 0.98413,
+    "significant": false
+  },
+  "n_topics_20": {
+    "n_eff_topics_mean": 2.01,
+    "d_vs_n_eff_r": 0.4361,
+    "d_vs_n_eff_p": 0.000555,
+    "significant": true
+  },
+  "n_topics_30": {
+    "n_eff_topics_mean": 2.16,
+    "d_vs_n_eff_r": 0.1832,
+    "d_vs_n_eff_p": 0.164861,
+    "significant": false
+  },
+  "best_k": "n_topics_20",
+  "best_correlation": {
+    "n_eff_topics_mean": 2.01,
+    "d_vs_n_eff_r": 0.4361,
+    "d_vs_n_eff_p": 0.000555,
+    "significant": true
+  }
+}

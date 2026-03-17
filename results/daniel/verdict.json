@@ -1,0 +1,11 @@
+{
+  "primary_factor": "language_bilingualism",
+  "secondary_factors": [
+    "aramaic_grammar"
+  ],
+  "summary": "Daniel's borderline P_AT=0.567 is explained by 2 factor(s): language_bilingualism, aramaic_grammar. Hebrew sections: pe=2.460; Aramaic sections: pe=2.677. Narrative (1-6): pe=2.6342; Apocalyptic (7-12): pe=2.5814.",
+  "factors_identified": [
+    "language_bilingualism",
+    "aramaic_grammar"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "AT_narrative": {
+    "n_books": 16,
+    "pe_mean": 2.4174,
+    "pe_std": 0.1294,
+    "H_mean": 0.7383,
+    "VN_mean": 0.5565,
+    "books": [
+      "1 Chronicles",
+      "1 Kings",
+      "1 Samuel",
+      "2 Chronicles",
+      "2 Kings",
+      "2 Samuel",
+      "Daniel",
+      "Esther",
+      "Exodus",
+      "Ezra",
+      "Genesis",
+      "Jonah",
+      "Joshua",
+      "Judges",
+      "Nehemiah",
+      "Ruth"
+    ]
+  },
+  "AT_legal": {
+    "n_books": 3,
+    "pe_mean": 2.4675,
+    "pe_std": 0.0827,
+    "H_mean": 0.677,
+    "VN_mean": 0.5085,
+    "books": [
+      "Deuteronomy",
+      "Leviticus",
+      "Numbers"
+    ]
+  },
+  "AT_prophetic": {
+    "n_books": 15,
+    "pe_mean": 2.4263,
+    "pe_std": 0.072,
+    "H_mean": 0.6231,
+    "VN_mean": 0.6402,
+    "books": [
+      "Amos",
+      "Ezekiel",
+      "Habakkuk",
+      "Haggai",
+      "Hosea",
+      "Isaiah",
+      "Jeremiah",
+      "Joel",
+      "Lamentations",
+      "Malachi",
+      "Micah",
+      "Nahum",
+      "Obadiah",
+      "Zechariah",
+      "Zephaniah"
+    ]
+  },
+  "AT_liturgical": {
+    "n_books": 4,
+    "pe_mean": 2.4948,
+    "pe_std": 0.1182,
+    "H_mean": 0.7327,
+    "VN_mean": 0.7408,
+    "books": [
+      "Ecclesiastes",
+      "Job",
+      "Proverbs",
+      "Psalms"
+    ]
+  },
+  "NT_gospels": {
+    "n_books": 4,
+    "pe_mean": 2.8771,
+    "pe_std": 0.0077,
+    "H_mean": 0.6159,
+    "VN_mean": 1.2711,
+    "books": [
+      "John",
+      "Luke",
+      "Mark",
+      "Matthew"
+    ]
+  },
+  "NT_epistles": {
+    "n_books": 21,
+    "pe_mean": 2.8738,
+    "pe_std": 0.0332,
+    "H_mean": 0.6417,
+    "VN_mean": 0.7938,
+    "books": [
+      "1 Corinthians",
+      "1 John",
+      "1 Peter",
+      "1 Thessalonians",
+      "1 Timothy",
+      "2 Corinthians",
+      "2 John",
+      "2 Peter",
+      "2 Thessalonians",
+      "2 Timothy",
+      "3 John",
+      "Colossians",
+      "Ephesians",
+      "Galatians",
+      "Hebrews",
+      "James",
+      "Jude",
+      "Philemon",
+      "Philippians",
+      "Romans",
+      "Titus"
+    ]
+  },
+  "NT_other": {
+    "n_books": 2,
+    "pe_mean": 2.8288,
+    "pe_std": 0.0086,
+    "H_mean": 0.5333,
+    "VN_mean": 0.8231,
+    "books": [
+      "Acts",
+      "Revelation"
+    ]
+  },
+  "anova": {
+    "F_statistic": 66.2424,
+    "p_value": 0.0,
+    "genre_explains_pe": true
+  }
+}

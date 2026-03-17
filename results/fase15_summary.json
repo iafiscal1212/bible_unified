@@ -1,0 +1,66 @@
+{
+  "phase": 15,
+  "title": "Tres Investigaciones en Paralelo — Fase 15",
+  "timestamp": "2026-03-17T05:05:35",
+  "total_elapsed_seconds": 30.0,
+  "scripts": [
+    {
+      "name": "pos_entropy_mechanism",
+      "question": "¿Qué propiedad composicional produce alta/baja entropía de POS?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 5,
+      "output_files": [
+        "feature_correlations.json",
+        "mechanistic_interpretation.json",
+        "genre_breakdown.json",
+        "synthetic_test.json",
+        "corpus_values.json"
+      ],
+      "strongest_correlate": "conj_density",
+      "strongest_r": 0.9368,
+      "AT_pe_mean": 2.433,
+      "NT_pe_mean": 2.871,
+      "AT_lower_pe": true,
+      "cause_or_correlate": "CORRELATE, not cause. pos_entropy reflects the grammatical profile of the text, which is determined by genre, language, and compositional tradition. It does not cause H; both are consequences of the same underlying compositional process (controlled transmission of revelation tends to produce grammatically specialized texts).",
+      "direction": "AT has LOWER pos_entropy than NT",
+      "genre_anova_p": 0.0,
+      "genre_explains_pe": true
+    },
+    {
+      "name": "daniel_analysis",
+      "question": "¿Por qué Daniel es el único libro AT fronterizo (P_AT=0.567)?",
+      "return_code": 0,
+      "status": "completed",
+      "n_output_files": 6,
+      "output_files": [
+        "hebrew_vs_aramaic.json",
+        "comparative_analysis.json",
+        "narrative_vs_apocalyptic.json",
+        "aramaic_factor.json",
+        "verdict.json",
+        "dating_evidence.json"
+      ],
+      "daniel_heb_pe": 2.4604,
+      "daniel_ara_pe": 2.6771,
+      "daniel_heb_H": 0.7142,
+      "daniel_ara_H": 0.6416,
+      "primary_factor": "language_bilingualism",
+      "factors": [
+        "language_bilingualism",
+        "aramaic_grammar"
+      ],
+      "daniel_summary": "Daniel's borderline P_AT=0.567 is explained by 2 factor(s): language_bilingualism, aramaic_grammar. Hebrew sections: pe=2.460; Aramaic sections: pe=2.677. Narrative (1-6): pe=2.6342; Apocalyptic (7-12): pe=2.5814.",
+      "closer_by_H": "postexilic",
+      "closer_by_pe": "babylonian"
+    },
+    {
+      "name": "d_parameter",
+      "question": "¿Qué significa el parámetro d del modelo ARFIMA compositivamente?",
+      "return_code": 1,
+      "status": "failed",
+      "n_output_files": 0,
+      "output_files": []
+    }
+  ]
+}

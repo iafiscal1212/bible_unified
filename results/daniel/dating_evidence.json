@@ -1,0 +1,30 @@
+{
+  "daniel_H": 0.7394,
+  "daniel_pos_entropy": 2.6535,
+  "babylonian_period": {
+    "books": [
+      "Ezekiel",
+      "Jeremiah",
+      "Lamentations"
+    ],
+    "H_mean": 0.8296,
+    "H_std": 0.233,
+    "pe_mean": 2.4412
+  },
+  "postexilic_period": {
+    "books": [
+      "Ezra",
+      "Nehemiah",
+      "Esther",
+      "Zechariah"
+    ],
+    "H_mean": 0.7852,
+    "H_std": 0.1923,
+    "pe_mean": 2.3689
+  },
+  "closer_by_H": "postexilic",
+  "H_dist_babylonian": 0.0902,
+  "H_dist_postexilic": 0.0458,
+  "closer_by_pe": "babylonian",
+  "caveat": "IMPORTANT: This is suggestive evidence only. Statistical proximity in (H, pos_entropy) space cannot determine authorship dates. Many confounding factors (genre, topic, redaction) affect these metrics."
+}

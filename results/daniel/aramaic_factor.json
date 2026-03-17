@@ -1,0 +1,93 @@
+{
+  "daniel_hebrew": {
+    "n_words": 2333,
+    "n_verses": 158,
+    "H": 0.7142,
+    "AC1": 0.0517,
+    "DFA": 0.5427,
+    "pos_entropy": 2.4604,
+    "mean_verse_len": 14.77,
+    "CV": 0.3597,
+    "pos_distribution": {
+      "noun": 848,
+      "verb": 567,
+      "suffix": 388,
+      "particle": 165,
+      "adjective": 137,
+      "preposition": 120,
+      "pronoun": 58,
+      "conjunction": 27,
+      "adverb": 23
+    }
+  },
+  "daniel_aramaic": {
+    "n_words": 3702,
+    "n_verses": 200,
+    "H": 0.6416,
+    "AC1": 0.008,
+    "DFA": 0.5511,
+    "pos_entropy": 2.6771,
+    "mean_verse_len": 18.51,
+    "CV": 0.4181,
+    "pos_distribution": {
+      "particle": 982,
+      "verb": 803,
+      "noun": 771,
+      "suffix": 502,
+      "preposition": 178,
+      "adjective": 166,
+      "pronoun": 133,
+      "conjunction": 103,
+      "adverb": 64
+    }
+  },
+  "ezra_hebrew": {
+    "n_words": 2562,
+    "n_verses": 213,
+    "H": 0.9837,
+    "AC1": 0.5604,
+    "DFA": 1.1374,
+    "pos_entropy": 2.1001,
+    "mean_verse_len": 12.03,
+    "CV": 0.5469,
+    "pos_distribution": {
+      "noun": 1417,
+      "adjective": 312,
+      "verb": 301,
+      "suffix": 273,
+      "particle": 82,
+      "preposition": 76,
+      "pronoun": 55,
+      "conjunction": 25,
+      "adverb": 21
+    }
+  },
+  "ezra_aramaic": {
+    "n_words": 1229,
+    "n_verses": 67,
+    "H": 0.7314,
+    "AC1": -0.1385,
+    "DFA": null,
+    "pos_entropy": 2.5956,
+    "mean_verse_len": 18.34,
+    "CV": 0.3057,
+    "pos_distribution": {
+      "noun": 379,
+      "particle": 325,
+      "verb": 209,
+      "suffix": 99,
+      "pronoun": 63,
+      "preposition": 57,
+      "adverb": 40,
+      "adjective": 32,
+      "conjunction": 25
+    }
+  },
+  "n_ezra_hebrew": 2562,
+  "n_ezra_aramaic": 1229,
+  "aramaic_effect": {
+    "daniel_delta_pe": 0.2167,
+    "ezra_delta_pe": 0.4955,
+    "aramaic_consistently_different": true
+  }
+}

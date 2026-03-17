@@ -1,0 +1,46 @@
+{
+  "AT_pos_entropy_mean": 2.433,
+  "NT_pos_entropy_mean": 2.871,
+  "direction": "AT has LOWER pos_entropy than NT",
+  "bottom_3_pe": [
+    {
+      "book": "1 Chronicles",
+      "pe": 2.0864,
+      "testament": "AT"
+    },
+    {
+      "book": "Nahum",
+      "pe": 2.2426,
+      "testament": "AT"
+    },
+    {
+      "book": "Esther",
+      "pe": 2.3055,
+      "testament": "AT"
+    }
+  ],
+  "top_3_pe": [
+    {
+      "book": "Philippians",
+      "pe": 2.9261,
+      "testament": "NT"
+    },
+    {
+      "book": "1 Corinthians",
+      "pe": 2.9271,
+      "testament": "NT"
+    },
+    {
+      "book": "2 Corinthians",
+      "pe": 2.9436,
+      "testament": "NT"
+    }
+  ],
+  "strongest_correlate": {
+    "feature": "conj_density",
+    "r": 0.9368,
+    "p": 0.0
+  },
+  "mechanism": "AT texts have lower POS entropy → fewer distinct POS categories dominate → more grammatically specialized (noun-heavy, e.g. genealogies, lists, laws). This grammatical specialization produces more predictable verse-length patterns, resulting in higher AC(1) and ultimately higher H. NT texts (Greek, epistolary) have richer POS diversity → more varied verse structures → lower autocorrelation → lower H.",
+  "cause_or_correlate": "CORRELATE, not cause. pos_entropy reflects the grammatical profile of the text, which is determined by genre, language, and compositional tradition. It does not cause H; both are consequences of the same underlying compositional process (controlled transmission of revelation tends to produce grammatically specialized texts)."
+}

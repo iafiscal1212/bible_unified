@@ -1,0 +1,56 @@
+{
+  "d_range_fitted": {
+    "AT": 0.1284,
+    "NT": 0.1952,
+    "Corán": 0.1092,
+    "Rig_Veda": 0.0044
+  },
+  "d_vs_wstar_correlation": {
+    "r": 0.5654,
+    "p": 0.001716,
+    "significant": true
+  },
+  "d_vs_topics": {
+    "n_eff_topics_mean": 2.01,
+    "d_vs_n_eff_r": 0.4361,
+    "d_vs_n_eff_p": 0.000555,
+    "significant": true
+  },
+  "geometric": {
+    "AT": {
+      "d": 0.1284,
+      "H_actual": 0.8766,
+      "H_predicted_ARFIMA": 0.6284,
+      "residual": 0.2482,
+      "residual_pct": 28.3
+    },
+    "NT": {
+      "d": 0.1952,
+      "H_actual": 0.7834,
+      "H_predicted_ARFIMA": 0.6952,
+      "residual": 0.0882,
+      "residual_pct": 11.3
+    },
+    "Corán": {
+      "d": 0.1092,
+      "H_actual": 0.8963,
+      "H_predicted_ARFIMA": 0.6092,
+      "residual": 0.2871,
+      "residual_pct": 32.0
+    },
+    "Rig_Veda": {
+      "d": 0.0044,
+      "H_actual": 0.5612,
+      "H_predicted_ARFIMA": 0.5044,
+      "residual": 0.0568,
+      "residual_pct": 10.1
+    }
+  },
+  "interpretation": "d alone explains only part of H (mean |residual| = 0.170). The hierarchical topic structure (sigma_eta) and AR(1) component (phi) contribute significantly. Compositionally, d reflects the DEPTH of thematic nesting: texts where themes are embedded within larger themes (e.g., AT: verse → pericope → chapter → book-section) have higher d. The Rig Veda (d ≈ 0) has essentially flat structure (meter-driven, no thematic hierarchy). NT (d = 0.195) has the deepest nesting (epistle structure with digressions, argument → sub-argument → example → conclusion). AT (d = 0.128) and Corán (d = 0.109) are intermediate: strong thematic hierarchy but less nested than epistolary structure.",
+  "cluster_analysis": {
+    "AT_like_d_mean": 0.1188,
+    "free_d_mean": 0.0044,
+    "NT_d": 0.1952,
+    "d_separates_clusters": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "hebrew": {
+    "n_words": 2333,
+    "n_verses": 158,
+    "H": 0.7142,
+    "AC1": 0.0517,
+    "DFA": 0.5427,
+    "pos_entropy": 2.4604,
+    "mean_verse_len": 14.77,
+    "CV": 0.3597,
+    "pos_distribution": {
+      "noun": 848,
+      "verb": 567,
+      "suffix": 388,
+      "particle": 165,
+      "adjective": 137,
+      "preposition": 120,
+      "pronoun": 58,
+      "conjunction": 27,
+      "adverb": 23
+    }
+  },
+  "aramaic": {
+    "n_words": 3702,
+    "n_verses": 200,
+    "H": 0.6416,
+    "AC1": 0.008,
+    "DFA": 0.5511,
+    "pos_entropy": 2.6771,
+    "mean_verse_len": 18.51,
+    "CV": 0.4181,
+    "pos_distribution": {
+      "particle": 982,
+      "verb": 803,
+      "noun": 771,
+      "suffix": 502,
+      "preposition": 178,
+      "adjective": 166,
+      "pronoun": 133,
+      "conjunction": 103,
+      "adverb": 64
+    }
+  },
+  "combined": {
+    "n_words": 6035,
+    "n_verses": 357,
+    "H": 0.7394,
+    "AC1": 0.0841,
+    "DFA": 0.6415,
+    "pos_entropy": 2.6535,
+    "mean_verse_len": 16.9,
+    "CV": 0.4137,
+    "pos_distribution": {
+      "noun": 1619,
+      "verb": 1370,
+      "particle": 1147,
+      "suffix": 890,
+      "adjective": 303,
+      "preposition": 298,
+      "pronoun": 191,
+      "conjunction": 130,
+      "adverb": 87
+    }
+  },
+  "hebrew_chapters": "1, 8-12",
+  "aramaic_chapters": "2-7",
+  "which_is_more_NT_like": "aramaic"
+}

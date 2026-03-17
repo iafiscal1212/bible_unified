@@ -1,0 +1,65 @@
+{
+  "narrative_ch1_6": {
+    "n_words": 3541,
+    "n_verses": 196,
+    "H": 0.7046,
+    "AC1": 0.0041,
+    "DFA": 0.565,
+    "pos_entropy": 2.6342,
+    "mean_verse_len": 18.07,
+    "CV": 0.4314,
+    "pos_distribution": {
+      "particle": 907,
+      "noun": 845,
+      "verb": 752,
+      "suffix": 487,
+      "preposition": 148,
+      "pronoun": 122,
+      "adjective": 118,
+      "conjunction": 103,
+      "adverb": 59
+    }
+  },
+  "apocalyptic_ch7_12": {
+    "n_words": 2494,
+    "n_verses": 161,
+    "H": 0.7471,
+    "AC1": 0.1686,
+    "DFA": 0.4928,
+    "pos_entropy": 2.5814,
+    "mean_verse_len": 15.49,
+    "CV": 0.3586,
+    "pos_distribution": {
+      "noun": 774,
+      "verb": 618,
+      "suffix": 403,
+      "particle": 240,
+      "adjective": 185,
+      "preposition": 150,
+      "pronoun": 69,
+      "adverb": 28,
+      "conjunction": 27
+    }
+  },
+  "combined": {
+    "n_words": 6035,
+    "n_verses": 357,
+    "H": 0.7394,
+    "AC1": 0.0841,
+    "DFA": 0.6415,
+    "pos_entropy": 2.6535,
+    "mean_verse_len": 16.9,
+    "CV": 0.4137,
+    "pos_distribution": {
+      "noun": 1619,
+      "verb": 1370,
+      "particle": 1147,
+      "suffix": 890,
+      "adjective": 303,
+      "preposition": 298,
+      "pronoun": 191,
+      "conjunction": 130,
+      "adverb": 87
+    }
+  }
+}

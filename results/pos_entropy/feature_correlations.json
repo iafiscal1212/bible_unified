@@ -1,0 +1,64 @@
+{
+  "H": {
+    "pearson_r": -0.2385,
+    "pearson_p": 0.066448,
+    "spearman_rho": -0.2342,
+    "spearman_p": 0.071719,
+    "significant": false
+  },
+  "AC1": {
+    "pearson_r": -0.3136,
+    "pearson_p": 0.014676,
+    "spearman_rho": -0.2191,
+    "spearman_p": 0.092592,
+    "significant": true
+  },
+  "VN_ratio": {
+    "pearson_r": 0.6191,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.6683,
+    "spearman_p": 0.0,
+    "significant": true
+  },
+  "conj_density": {
+    "pearson_r": 0.9368,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.8773,
+    "spearman_p": 0.0,
+    "significant": true
+  },
+  "mean_verse_len": {
+    "pearson_r": 0.5359,
+    "pearson_p": 1e-05,
+    "spearman_rho": 0.5452,
+    "spearman_p": 7e-06,
+    "significant": true
+  },
+  "lemma_repetition": {
+    "pearson_r": 0.0872,
+    "pearson_p": 0.507782,
+    "spearman_rho": 0.0593,
+    "spearman_p": 0.652687,
+    "significant": false
+  },
+  "prep_density": {
+    "pearson_r": 0.8313,
+    "pearson_p": 0.0,
+    "spearman_rho": 0.748,
+    "spearman_p": 0.0,
+    "significant": true
+  },
+  "strongest_correlate": {
+    "feature": "conj_density",
+    "r": 0.9368,
+    "p": 0.0
+  },
+  "AT_vs_NT_pos_entropy": {
+    "AT_mean": 2.433,
+    "AT_std": 0.1083,
+    "NT_mean": 2.871,
+    "NT_std": 0.0319,
+    "mann_whitney_p": 0.0,
+    "AT_lower": true
+  }
+}

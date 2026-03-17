@@ -1,0 +1,30 @@
+{
+  "uniform": {
+    "description": "distribución POS uniforme (max entropy)",
+    "pos_entropy": 3.4594,
+    "H_mean": 0.5618,
+    "H_std": 0.0501,
+    "AC1_mean": -0.0955,
+    "AC1_std": 0.0454
+  },
+  "AT_like": {
+    "description": "distribución POS del AT (baja entropy)",
+    "pos_entropy": 2.466,
+    "H_mean": 0.5902,
+    "H_std": 0.0483,
+    "AC1_mean": 0.0979,
+    "AC1_std": 0.0383
+  },
+  "NT_like": {
+    "description": "distribución POS del NT (alta entropy)",
+    "pos_entropy": 2.89,
+    "H_mean": 0.5861,
+    "H_std": 0.053,
+    "AC1_mean": 0.0258,
+    "AC1_std": 0.0414
+  },
+  "causal_verdict": {
+    "AT_like_H_higher": true,
+    "interpretation": "Low pos_entropy (AT-like) → higher AC(1) → higher H. pos_entropy is a CORRELATE mediated by grammatical specialization: texts with fewer POS categories use more repetitive patterns, producing higher verse-length autocorrelation."
+  }
+}
